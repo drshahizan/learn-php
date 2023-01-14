@@ -40,3 +40,11 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Udemy: Beginner VS Code]()
 - [Udemy: Git with Visual Studio Code]()
 
+## Code Quality Guide
+- [General Guidelines]()
+- [Google HTML/ CSS Style Guide]()
+- [HTML]()
+- [CSS]()
+- [JavaScript]()
+- [SQL]()
+- [The little book of HTML/CSS coding guidelines – O'Reilly]()
