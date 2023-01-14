@@ -22,3 +22,21 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Roadmap to Front-End & Full-Stack Development with JavaScript Stack](https://ilovecoding.org/blog/roadmap)
 - [How to Learn Web Development in 2021 - a Web Developer Roadmap](https://www.freecodecamp.org/news/how-to-learn-web-dev-in-2021-roadmap/)
 
+## Visual Studio Code
+### Video
+
+- [Video: Visual Studio Code Web Dev Setup In 6 Minutes]()
+- [Video: Visual Studio Code: HTML, CSS & JS Tips]()
+- [Video: Top 10 Best VS Code Extensions]()
+- [Video: How to Setup Live Server in VS Code?]()
+
+### Useful Links
+- [Download: Visual Studio Code]()
+- [VS Code: Getting Started]()
+- [Collaborate with Live Share]()
+- [Install and sign in to Live Share in Visual Studio Code]()
+- [Marketplace: Live Share Extension Pack]()
+- [VS Code Live SHARE | How to use LiveShare in VS code for live online collaboration [ Quick Guide ]]()
+- [Udemy: Beginner VS Code]()
+- [Udemy: Git with Visual Studio Code]()
+
