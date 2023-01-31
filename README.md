@@ -50,7 +50,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [The little book of HTML/CSS coding guidelines – O'Reilly]()
 
 ## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-aspnet/issues) for any improvements, suggestions or errors in the content.
+Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
