@@ -50,7 +50,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Visual Studio Code: HTML, CSS & JS Tips]()
 - [Top 10 Best VS Code Extensions]()
 - [How to Setup Live Server in VS Code?]()
-- [How to setup and use GitHub with Visual Studio Code - [2023]](https://youtu.be/mR9jhYD3bnI)
+- [How to setup and use GitHub with Visual Studio Code - (2023)](https://youtu.be/mR9jhYD3bnI)
 
 
 ### Useful Links
