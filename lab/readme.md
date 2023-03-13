@@ -9,6 +9,8 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab Exercise
 
+## HTML
+
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
 | 1 | HTML | Text |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
@@ -22,6 +24,23 @@ Don't forget to hit the :star: if you like this repo.
 | 8 | HTML | Table |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
 | 9 | HTML | Form |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
 
+## CSS
+
+| Lab | Topic | Title | Files |
+| -----: | ----- | ----- | :------: | 
+| 10 | CSS | Text |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+
+## JavaScript
+
+| Lab | Topic | Title | Files |
+| -----: | ----- | ----- | :------: | 
+| 1 | JS | Text |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+
+## PHP
+
+| Lab | Topic | Title | Files |
+| -----: | ----- | ----- | :------: | 
+| 1 | HTML | Text |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
 
 <a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
