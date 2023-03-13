@@ -29,7 +29,7 @@ Don't forget to hit the :star: if you like this repo.
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
 | 1 | CSS | CSS |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 2 | CSS | Text and Box Model |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 2 | CSS | Text and Box Model |<a href="" ><img src="../images/youtube64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
 | 3 | CSS | Layout (Mock & Style) |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
 | 4 | CSS | CSS Layout |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
 | 5 | CSS | Website Layout |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
