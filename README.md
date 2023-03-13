@@ -45,13 +45,12 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 ## Visual Studio Code
 ### <img src="./images/youtube64.png" width="24px" height="24px"></a> Video
-
 - [Visual Studio Code Web Dev Setup In 6 Minutes]()
 - [Visual Studio Code: HTML, CSS & JS Tips]()
 - [Top 10 Best VS Code Extensions]()
 - [How to Setup Live Server in VS Code?]()
 - [How to setup and use GitHub with Visual Studio Code - (2023)](https://youtu.be/mR9jhYD3bnI)
-
+- [How to Host a Website on GitHub [2023] | GitHub Pages Site](https://youtu.be/6GKwy56vN2c)
 
 ### Useful Links
 - [Download: Visual Studio Code]()
