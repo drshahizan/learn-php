@@ -23,7 +23,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [How to Learn Web Development in 2021 - a Web Developer Roadmap](https://www.freecodecamp.org/news/how-to-learn-web-dev-in-2021-roadmap/)
 
 ## Visual Studio Code
-### Video
+### <img src="./images/youtube64.png" width="24px" height="24px"></a>Video
 
 - [Video: Visual Studio Code Web Dev Setup In 6 Minutes]()
 - [Video: Visual Studio Code: HTML, CSS & JS Tips]()
