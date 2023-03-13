@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 1 | HTML | Text |<a href="https://drive.google.com/file/d/1GgGPscQtfjRJV9EibcY9rwHHl13yyxrF/view?usp=share_link" ><img src="./images/pdf64.png" width="24px" height="24px" ></a> |
+| 1 | HTML | Text |<a href="https://drive.google.com/file/d/1GgGPscQtfjRJV9EibcY9rwHHl13yyxrF/view?usp=share_link" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
 
 
 <a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
