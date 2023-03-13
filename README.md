@@ -25,10 +25,10 @@ This course is designed to introduce students the fundamental of knowledge, tech
 ## Visual Studio Code
 ### <img src="./images/youtube64.png" width="24px" height="24px"></a> Video
 
-- [Video: Visual Studio Code Web Dev Setup In 6 Minutes]()
-- [Video: Visual Studio Code: HTML, CSS & JS Tips]()
-- [Video: Top 10 Best VS Code Extensions]()
-- [Video: How to Setup Live Server in VS Code?]()
+- [Visual Studio Code Web Dev Setup In 6 Minutes]()
+- [Visual Studio Code: HTML, CSS & JS Tips]()
+- [Top 10 Best VS Code Extensions]()
+- [How to Setup Live Server in VS Code?]()
 
 ### Useful Links
 - [Download: Visual Studio Code]()
