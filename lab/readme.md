@@ -18,9 +18,9 @@ Don't forget to hit the :star: if you like this repo.
 | 4b | HTML | Format an article with HTML 🔥 |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
 | 5 | HTML | HTML Image🔥 |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
 | 6 | HTML | Nested List |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
-| 7 | HTML | Nested List |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
-| 8 | HTML | Nested List |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
-| 9 | HTML | Nested List |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
+| 7 | HTML | Table |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
+| 8 | HTML | Table |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
+| 9 | HTML | Form |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
 
 
 <a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
