@@ -50,6 +50,8 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Visual Studio Code: HTML, CSS & JS Tips]()
 - [Top 10 Best VS Code Extensions]()
 - [How to Setup Live Server in VS Code?]()
+- [How to setup and use GitHub with Visual Studio Code - [2023] | GitHub | VS Code](https://youtu.be/mR9jhYD3bnI)
+
 
 ### Useful Links
 - [Download: Visual Studio Code]()
@@ -58,7 +60,6 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Install and sign in to Live Share in Visual Studio Code]()
 - [Marketplace: Live Share Extension Pack]()
 - [VS Code Live SHARE | How to use LiveShare in VS code for live online collaboration [ Quick Guide ]]()
-- [How to setup and use GitHub with Visual Studio Code - [2023] | GitHub | VS Code](https://youtu.be/mR9jhYD3bnI)
 - [Udemy: Beginner VS Code]()
 - [Udemy: Git with Visual Studio Code]()
 
