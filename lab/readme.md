@@ -34,8 +34,11 @@ Don't forget to hit the :star: if you like this repo.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 1 | JS | Text |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-
+| 1 | JS | JavaScript (Basic) |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 2 | JS | JavaScript (Intermediate) |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 3 | JS | JavaScript (Advanced) |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 4 | JS | JS Part 1 |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 5 | JS | JS Part 2 |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
 ## PHP
 
 | Lab | Topic | Title | Files |
