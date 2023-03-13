@@ -52,45 +52,41 @@ This course is designed to introduce students the fundamental of knowledge, tech
 ## HTML
 
 ### Useful Links
-What tools do the professionals use? 🔥
-Are HTML and JavaScript both the same?
-Infographic: What’s the Difference between HTML vs CSS?
-W3C validator: Markup Validation Service 🔥
-W3Schools: HTML 🔥
-Emmet.io — the essential toolkit for web-developers
-Learn to Code HTML & CSS Develop & Style Websites
-Free Web Development Tutorials for those who are broke and cannot afford paid courses.
-Document and website structure
-HTML5 Periodical Table
-HTML Cheat Sheet
-HTML Cheat Sheet - Stanford
-Top 3 Biggest 'Misteaks' In Web Design
+- [What tools do the professionals use? 🔥
+- [Are HTML and JavaScript both the same?
+- [Infographic: What’s the Difference between HTML vs CSS?
+- [W3C validator: Markup Validation Service 🔥
+- [W3Schools: HTML 🔥
+- [Emmet.io — the essential toolkit for web-developers
+- [Learn to Code HTML & CSS Develop & Style Websites
+- [Free Web Development Tutorials for those who are broke and cannot afford paid courses.
+- [Document and website structure
+- [HTML5 Periodical Table
+- [HTML Cheat Sheet
+- [HTML Cheat Sheet - Stanford
+- [Top 3 Biggest 'Misteaks' In Web Design
 
-E-book
+### E-book
 
-Free eBook: HTML & CSS Design and Build Websites 🔥
-Chapter 4. Creating a Simple Page: (HTML Overview) - oreilly
-Free eBook: Learning HTML
-Free eBook: How To Build a Website with CSS and HTML
-CSS
+- [Free eBook: HTML & CSS Design and Build Websites 🔥
+- [Chapter 4. Creating a Simple Page: (HTML Overview) - oreilly
+- [Free eBook: Learning HTML
+- [Free eBook: How To Build a Website with CSS and HTML
+
+## CSS
 Navigational StructuresPage
 Introduction to CSSPage
 Hidden from students
 Fonts and Web FontsPage
 Hidden from students
 Responsive Web DesignPage
-Lecture Notes
 
-A. CSS
-B. CSS Grid
-C. CSS Flexbox
-D. CSS BOX MODEL (Part 1)
-E. CSS BOX MODEL (Part 2)
-E-book
+### E-book
 
 Essential HTML & CSS books (free e- books)
 CSS Books
-Useful Links
+
+### Useful Links
 
 CSS Generators
 CSS Tools
@@ -112,45 +108,10 @@ Box Model: CSS Website Layout
 W3.CSS Layout
 Getting Started With CSS Layout
 Grid by Example
-CSS Tutorial 1Assignment
-CSS Outline
-Text
-Font
-Icon
-Links
-Lists
-Tables
-Layout
-Layout - Overflow
-Layout - Horizontal & Vertical Align
-Navigation Bar
-Dropdowns
-Image Gallery
-CSS Tutorial 2Assignment
-Forms
-Rounded Corners
-Border Images
-Multiple Backgrounds
-Shadow Effects
-Tooltip
-Styling Images
-Buttons
-Multiple Columns
-Media Queries
-CSS Tutorial 3Assignment
-Forms
-Rounded Corners
-Border Images
-Multiple Backgrounds
-Shadow Effects
-Tooltip
-Styling Images
-Buttons
-Multiple Columns
-Media Queries
-Bootstrap
-Useful Links
 
+##  Bootstrap
+
+### Useful Links
 Difference Between Bootstrap and CSS
 W3.CSS vs. Bootstrap: A Head-to-Head Comparison
 Bootstrap vs HTML5
@@ -161,7 +122,8 @@ tutorialrepublic Bootstrap Tutorial
 w3schools Bootstrap 4 Tutorial
 Learn Bootstrap 4 in 30 minutes by building a landing page website
 Download: Getbootstrap
-E-book & Web Template
+
+### E-book & Web Template
 
 Twitter Bootstrap 4 Succinctly
 Bootstrap 4 By Example
@@ -175,10 +137,9 @@ DevBook
 High Quality Free Bootstrap Templates and Themes for your Websites
 
 
-JavaScript
+## JavaScript
 
-Useful Links
-
+### Useful Links
 Javascript.com
 The Modern JavaScript Tutorial
 Wikipedia JavaScript
@@ -198,14 +159,14 @@ HTML DOM Diagram, Coded Example and Explanation
 E-book: Learning DOM
 E-book: Understanding the DOM — Document Object Model
 
-PHP - Intro
-PHP
-XAMPP Apache + MariaDB + PHP + Perl
-Youtube: Running PHP in Visual Studio Code
-Youtube: How to run PHP on Visual Studio Code
-Wikipedia: XAMPP
-PHP & MySQL
-PHP: Sessions & Authorize user
+## PHP - Intro
+- [PHP
+- [XAMPP Apache + MariaDB + PHP + Perl
+- [Youtube: Running PHP in Visual Studio Code
+- [Youtube: How to run PHP on Visual Studio Code
+- [Wikipedia: XAMPP
+- [PHP & MySQL
+- [PHP: Sessions & Authorize user
 
 
 ## Contribution 🛠️
