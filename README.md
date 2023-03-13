@@ -10,7 +10,6 @@ Don't forget to hit the :star: if you like this repo.
 # Course Outline
 This course is designed to introduce students the fundamental of knowledge, technologies and components for web application developments. The basic topics includes the standard HTML for content creation, CSS for content presentation, JavaScript for client-side logics, PHP for server-side logics and MySQL for data processing. At the end of the course, the students should be able to apply the web base technologies and then implement it all in the creating functional data-centric online system project.
 
-# Useful Links
 ## Introduction to Web Programming
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
 - [Video: Learn web development as an absolute beginner](https://youtu.be/ysEN5RaKOlA)
@@ -157,7 +156,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [E-book: Learning DOM]()
 - [E-book: Understanding the DOM — Document Object Model]()
 
-## PHP - Intro
+## PHP
 - [PHP]()
 - [XAMPP Apache + MariaDB + PHP + Perl]()
 - [Youtube: Running PHP in Visual Studio Code]()
