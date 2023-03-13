@@ -40,7 +40,13 @@ Don't forget to hit the :star: if you like this repo.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 1 | HTML | Text |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 1 | PHP | How to Install XAMPP Server on Windows 11 |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 2 | PHP | How to add PHP Intelephense and PHP Server extensions in VSC |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 3 | PHP | Introduction To PHP |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 4 | PHP | How to run PHP on Visual Studio Code |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 5 | PHP | HP & MySQL source code |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 6 | PHP | Tourism Management System |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 7 | PHP | Hospital Management System |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
 
 <a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
