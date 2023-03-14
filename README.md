@@ -61,6 +61,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Install and sign in to Live Share in Visual Studio Code]()
 - [Marketplace: Live Share Extension Pack]()
 - [VS Code Live SHARE | How to use LiveShare in VS code for live online collaboration [ Quick Guide ]]()
+- [GitHub Desktop](https://desktop.github.com/)
 - [Udemy: Beginner VS Code]()
 - [Udemy: Git with Visual Studio Code]()
 
