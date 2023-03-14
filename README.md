@@ -55,10 +55,10 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [How to Host a Website on GitHub [2023] | GitHub Pages Site](https://youtu.be/6GKwy56vN2c)
 
 ### Useful Links
-- [Download: Visual Studio Code]()
-- [VS Code: Getting Started]()
-- [Collaborate with Live Share]()
-- [Install and sign in to Live Share in Visual Studio Code]()
+- [Download: Visual Studio Code](https://code.visualstudio.com/download)
+- [VS Code: Getting Started](https://code.visualstudio.com/docs)
+- [Collaborate with Live Share](https://code.visualstudio.com/learn/collaboration/live-share)
+- [Install and sign in to Live Share in Visual Studio Code](https://learn.microsoft.com/en-us/visualstudio/liveshare/use/install-live-share-visual-studio-code)
 - [Marketplace: Live Share Extension Pack]()
 - [VS Code Live SHARE | How to use LiveShare in VS code for live online collaboration [ Quick Guide ]]()
 - [GitHub Desktop](https://desktop.github.com/)
