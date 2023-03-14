@@ -24,7 +24,7 @@ One of the key things that makes this book different from other titles that teac
 
 Alongside the code, there is plenty of practical advice on topics such as how to resize and prepare images for the web, how to control typography, and search engine optimization (SEO), so that you will be equipped with the full range of skills needed to create great looking websites.
 
-### Source code <img src="../images/html1.png" width="48px" height="48px">
+#### Source code <img src="../images/html1.png" width="48px" height="48px">
 
 ## JavaScript and Jquery
 
@@ -35,7 +35,7 @@ We'll not only show you how to read and write JavaScript, but we’ll also teach
 All you need is a basic understanding of HTML and CSS.
 
 
-### Source code <img src="../images/html1.png" width="48px" height="48px">
+#### Source code <img src="../images/html1.png" width="48px" height="48px">
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
