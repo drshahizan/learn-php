@@ -59,11 +59,10 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [VS Code: Getting Started](https://code.visualstudio.com/docs)
 - [Collaborate with Live Share](https://code.visualstudio.com/learn/collaboration/live-share)
 - [Install and sign in to Live Share in Visual Studio Code](https://learn.microsoft.com/en-us/visualstudio/liveshare/use/install-live-share-visual-studio-code)
-- [Marketplace: Live Share Extension Pack]()
-- [VS Code Live SHARE | How to use LiveShare in VS code for live online collaboration [ Quick Guide ]]()
+- [Marketplace: Live Share Extension Pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs-2022)
+- [VS Code Live SHARE | How to use LiveShare in VS code for live online collaboration [ Quick Guide ]](https://www.youtube.com/watch?v=wog5xNQegY0)
 - [GitHub Desktop](https://desktop.github.com/)
-- [Udemy: Beginner VS Code]()
-- [Udemy: Git with Visual Studio Code]()
+- [Udemy: Beginner VS Code](https://www.udemy.com/course/beginner-vs-code/)
 
 ## Code Quality Guide
 - [General Guidelines]()
