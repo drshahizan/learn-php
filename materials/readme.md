@@ -24,6 +24,8 @@ One of the key things that makes this book different from other titles that teac
 
 Alongside the code, there is plenty of practical advice on topics such as how to resize and prepare images for the web, how to control typography, and search engine optimization (SEO), so that you will be equipped with the full range of skills needed to create great looking websites.
 
+### Source code <img src="../images/html1.png" width="48px" height="48px">
+
 ## JavaScript and Jquery
 
 Are you new to JavaScript? Or have you added scripts to your web page but want a better idea of how they work? Then this book is for you.
