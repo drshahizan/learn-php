@@ -24,6 +24,8 @@ One of the key things that makes this book different from other titles that teac
 
 Alongside the code, there is plenty of practical advice on topics such as how to resize and prepare images for the web, how to control typography, and search engine optimization (SEO), so that you will be equipped with the full range of skills needed to create great looking websites.
 
+## Source code
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
