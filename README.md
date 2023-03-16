@@ -43,7 +43,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 5 | AMMAR IBRAHIM BIN MOHAMED |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 6 | EL INSYIRAAH FATHIN BINTI AMIRUDDIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 7 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 8 | IKHMAL SYAZREEL BIN MOHD AZIZAN |  | [:octocat:]() | <a https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 8 | IKHMAL SYAZREEL BIN MOHD AZIZAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 9 | ISMAIL BIN AMAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 10 | LOGESWARY A/P KRISHNAMOORTHY |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 11 | MOGANAKUMARAN A/L SELVAKUMARAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
