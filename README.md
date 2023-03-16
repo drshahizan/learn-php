@@ -36,8 +36,16 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 | No | Name | ID |  Github | Project |
 | ----- | ----- | ------ | :------: | :------: |
-| 1 | ALIATUL IZZAH BINTI JASMAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 2 | CHE MARHUMI BIN CHE AB RAHIM |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 1 | A.SHARILFAZLEE SALLEH B.HJ A.SUHAIMI |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 2 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 3 | AHMAD SYAUQIE BIN AHMAD |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 4 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 5 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 6 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 7 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 8 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 9 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 10 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 
 
 ## [Code Samples](https://github.com/drshahizan/learn-php/tree/main/materials)
