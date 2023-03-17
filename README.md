@@ -40,11 +40,11 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 2 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 3 | AHMAD SYAUQIE BIN AHMAD |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 4 | AMMAR HAFIY BIN MUHAMMAD |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 5 | AMMAR IBRAHIM BIN MOHAMED | amrhfy | [:octocat:](https://github.com/) | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 5 | AMMAR IBRAHIM BIN MOHAMED | amrhfy | [:octocat:](https://github.com/amrhfy) | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 6 | EL INSYIRAAH FATHIN BINTI AMIRUDDIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 7 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 8 | IKHMAL SYAZREEL BIN MOHD AZIZAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 9 | ISMAIL BIN AMAN | oldpistol | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 9 | ISMAIL BIN AMAN | oldpistol | [:octocat:](https://github.com/oldpistol) | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 10 | LOGESWARY A/P KRISHNAMOORTHY |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 11 | MOGANAKUMARAN A/L SELVAKUMARAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 12 | MOHAMAD ZUL IKMAL BIN MOHAMMAD RAZAL | lamki | [:octocat:](https://github.com/lamki) | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
