@@ -55,7 +55,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 17 | MUHAMMAD HAFIZ BIN ISKANDAR |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 18 | NABILAH BINTI ABD RAHMAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 19 | NOR HAZIDA BINTI HAMDAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 20 | SEPRIYANDI BIN AGUSR | sepz36 | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 20 | SEPRIYANDI BIN AGUSR | sepz36 | [:octocat:](https://github.com/sepz36) | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 21 | SHANMUGADHARSHINI A/P MURALI |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 22 | SITI DZIN NORSYAFIKA BINTI MOHD ISA |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 23 | SUBAHSHINI A/P SANGARA LINGAM |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
