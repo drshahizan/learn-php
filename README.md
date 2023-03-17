@@ -40,15 +40,15 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 2 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 3 | AHMAD SYAUQIE BIN AHMAD |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 4 | AMMAR HAFIY BIN MUHAMMAD |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 5 | AMMAR IBRAHIM BIN MOHAMED | amrhfy | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 5 | AMMAR IBRAHIM BIN MOHAMED | amrhfy | [:octocat:](https://github.com/) | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 6 | EL INSYIRAAH FATHIN BINTI AMIRUDDIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 7 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 8 | IKHMAL SYAZREEL BIN MOHD AZIZAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 9 | ISMAIL BIN AMAN | oldpistol | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 10 | LOGESWARY A/P KRISHNAMOORTHY |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 11 | MOGANAKUMARAN A/L SELVAKUMARAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 12 | MOHAMAD ZUL IKMAL BIN MOHAMMAD RAZAL | lamki | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 13 | MOHD NOOR HAFIZ BIN MUHAMAD SAID | mohdnoorhafiz | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 12 | MOHAMAD ZUL IKMAL BIN MOHAMMAD RAZAL | lamki | [:octocat:](https://github.com/lamki) | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 13 | MOHD NOOR HAFIZ BIN MUHAMAD SAID | mohdnoorhafiz | [:octocat:](https://github.com/mohdnoorhafiz) | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 14 | MUHAMMAD AZAM BIN AZMAN |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 15 | MUHAMMAD BADRUL AMIN BIN MASROL |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 16 | MUHAMMAD FAIZ FITRI BIN MOHD NOH |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
@@ -60,7 +60,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 22 | SITI DZIN NORSYAFIKA BINTI MOHD ISA |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 23 | SUBAHSHINI A/P SANGARA LINGAM |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 24 | SYAIFUL ALFRAIZA BIN AINI ABDULLAH |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 25 | MOHAMED HARIS BIN MOHAMED MAZLAN | harismazlan | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 25 | MOHAMED HARIS BIN MOHAMED MAZLAN | harismazlan | [:octocat:](https://github.com/harismazlan) | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 26 | MUHAMMAD FAHMI BIN CHE AB WAHAB |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 27 | MUHAMMAD FAIZAL BIN ASARAB ALI |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 28 | MUHAMMAD SYAZWAN BIN NAZRI |  | [:octocat:]() | <a href="https://github.com/users/drshahizan/projects/1" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
