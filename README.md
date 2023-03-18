@@ -39,8 +39,8 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 1 | A. SHARILFAZLEE SALLEH B. HJ A. SUHAIMI |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 2 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 3 | AHMAD SYAUQIE BIN AHMAD |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 4 | AMMAR HAFIY BIN MUHAMMAD |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 5 | AMMAR IBRAHIM BIN MOHAMED | amrhfy | [:octocat:](https://github.com/amrhfy) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 4 | AMMAR HAFIY BIN MUHAMMAD | amrhfy | [:octocat:](https://github.com/amrhfy) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 5 | AMMAR IBRAHIM BIN MOHAMED | ammaribrahim95 | [:octocat:](https://github.com/ammaribrahim95) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 6 | EL INSYIRAAH FATHIN BINTI AMIRUDDIN | elleamyr | [:octocat:](https://github.com/elleamyr) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 7 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 8 | IKHMAL SYAZREEL BIN MOHD AZIZAN |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
