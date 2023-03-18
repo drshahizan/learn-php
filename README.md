@@ -42,7 +42,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 4 | AMMAR HAFIY BIN MUHAMMAD | amrhfy | [:octocat:](https://github.com/amrhfy) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 5 | AMMAR IBRAHIM BIN MOHAMED | ammaribrahim95 | [:octocat:](https://github.com/ammaribrahim95) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 6 | EL INSYIRAAH FATHIN BINTI AMIRUDDIN | elleamyr | [:octocat:](https://github.com/elleamyr) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 7 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 7 | ALEXANDER MCCAFFER REDIK | alexmccaffer | [:octocat:](https://github.com/alexmccaffer) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 8 | IKHMAL SYAZREEL BIN MOHD AZIZAN |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 9 | ISMAIL BIN AMAN | oldpistol | [:octocat:](https://github.com/oldpistol) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 10 | LOGESWARY A/P KRISHNAMOORTHY | Logeswary98 | [:octocat:](https://github.com/Logeswary98) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
@@ -67,7 +67,6 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 29 | SASHILA SRE A/P RAMADASS | sreshila30 | [:octocat:](https://github.com/sreshila30) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 30 | SHARVIN A/L M.GUNALAN | Sharvin01 | [:octocat:](https://github.com/Sharvin01) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 31 | BARANI A/P POOVALAN | barani2014 | [:octocat:](https://github.com/barani2014) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 32 | ALEXANDER MCCAFFER REDIK | alexmccaffer | [:octocat:](https://github.com/alexmccaffer) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 
 ## [Code Samples](https://github.com/drshahizan/learn-php/tree/main/materials)
 
