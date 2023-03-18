@@ -53,7 +53,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 15 | MUHAMMAD BADRUL AMIN BIN MASROL | badz20 | [:octocat:](https://github.com/badz20) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 16 | MUHAMMAD FAIZ FITRI BIN MOHD NOH |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 17 | MUHAMMAD HAFIZ BIN ISKANDAR | mhafiziskandar | [:octocat:](https://github.com/mhafiziskandar) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 18 | NABILAH BINTI ABD RAHMAN |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 18 | NABILAH BINTI ABD RAHMAN | nabilaharahman | [:octocat:](https://github.com/nabilaharahman) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 19 | NOR HAZIDA BINTI HAMDAN |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 20 | SEPRIYANDI BIN AGUSR | sepz36 | [:octocat:](https://github.com/sepz36) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 21 | SHANMUGADHARSHINI A/P MURALI | Shan9821 | [:octocat:](https://github.com/Shan9821) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
