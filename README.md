@@ -51,7 +51,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 13 | MOHD NOOR HAFIZ BIN MUHAMAD SAID | mohdnoorhafiz | [:octocat:](https://github.com/mohdnoorhafiz) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 14 | MUHAMMAD AZAM BIN AZMAN |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 15 | MUHAMMAD BADRUL AMIN BIN MASROL | badz20 | [:octocat:](https://github.com/badz20) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
-| 16 | MUHAMMAD FAIZ FITRI BIN MOHD NOH |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 16 | MUHAMMAD FAIZ FITRI BIN MOHD NOH | AshuraRin | [:octocat:](https://github.com/AshuraRin) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 17 | MUHAMMAD HAFIZ BIN ISKANDAR | mhafiziskandar | [:octocat:](https://github.com/mhafiziskandar) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 18 | NABILAH BINTI ABD RAHMAN | nabilaharahman | [:octocat:](https://github.com/nabilaharahman) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
 | 19 | NOR HAZIDA BINTI HAMDAN |  | [:octocat:](https://github.com/) | <a href="https://github.com/" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
