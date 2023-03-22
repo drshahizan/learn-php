@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1
+# Lab 1: HTML Text Appearance
 
 
 ## Contribution 🛠️
