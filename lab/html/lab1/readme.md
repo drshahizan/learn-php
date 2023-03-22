@@ -9,10 +9,10 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 1: HTML Text Appearance
 
-1. Please read the lab training instructions by downloading the Lab 1.pdf file.
-2. Please use the HTML template file Q1 template.html.
-3. Please include your contact information in the HTML <head>.
-``` html
+1. Please read the lab training instructions by downloading the `Lab 1.pdf` file.
+2. Please use the HTML template file `Q1_template.html`.
+3. Please include your contact information in the HTML `<head>`.
+``` 
 <!--
 Name:
 Matrix No:
@@ -21,7 +21,7 @@ Github id:
 Lab 1: HTML Text Appearance
 -->
 ```
-4. You are required to submit the output file  name L1_Githubid.html.
+4. You are required to submit the output file  name `L1_Githubid.html`.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
