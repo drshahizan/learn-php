@@ -50,7 +50,7 @@ Now that we know the basic structure of an HTML page, let's try it out.
 1. Add an HTML `<title>` tag with the text "Hello, World!"
 2. Add a paragraph (`<p>` tag) to the body with the text "Hello, World!"
 
-You must place your file in the submission folder. Within the submission folder, create a folder called your id github. Name the file as `L0_Githubid.html`.
+You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your id github. Name the file as `L0_Githubid.html`.
 
 
 
