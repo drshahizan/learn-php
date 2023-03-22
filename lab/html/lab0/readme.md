@@ -46,7 +46,7 @@ You may also copy and paste this code into a new file in your text editor or IDE
 Now that we know the basic structure of an HTML page, let's try it out.
 
 ## Exercise
-1. Add an HTML `<title>` tag with the text "Hello, World!"
+1. Add an HTML `html<title>` tag with the text "Hello, World!"
 2. Add a paragraph (`<p>` tag) to the body with the text "Hello, World!"
 
 
