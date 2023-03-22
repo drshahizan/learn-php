@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 1: HTML Text Appearance
 
-## You need to create a folder named your `id_github` here. Name the file as `L1_Githubid.html`.
+### You need to create a folder named your `id_github` here. Name the file as `L1_Githubid.html`.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
