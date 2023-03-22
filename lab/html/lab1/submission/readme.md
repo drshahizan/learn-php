@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 1: HTML Text Appearance
 
-#### You need to create a folder named your `id_github` here. Name the file as `L1_Githubid.html`.
+You need to create a folder named your `id_github` here. Name the file as `L1_Githubid.html`.
 > Example: 
 > /submission/ASA42000/L0_ASA42000.html
 
