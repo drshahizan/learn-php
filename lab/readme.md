@@ -13,6 +13,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
+| 0 | HTML | Text |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 1 | HTML | Text |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 2 | HTML | Table |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
 | 3 | HTML | Form |<a href="" ><img src="../images/html64.png" width="24px" height="24px" ></a> |
