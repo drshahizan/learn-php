@@ -29,7 +29,7 @@ The <p> element defines a "paragraph", a block of text that has a small amount o
 
 Notice how the tags have a start tag and an end tag denoted with a slash (</p>). Everything in between is the content of the tag. The content of a tag can usually have additional HTML tags within them.
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -45,9 +45,9 @@ You may also copy and paste this code into a new file in your text editor or IDE
 
 Now that we know the basic structure of an HTML page, let's try it out.
 
-Exercise
-Add an HTML <title> tag with the text "Hello, World!"
-Add a paragraph (<p> tag) to the body with the text "Hello, World!"
+## Exercise
+1. Add an HTML `<title>` tag with the text "Hello, World!"
+2. Add a paragraph (`<p>` tag) to the body with the text "Hello, World!"
 
 
 
