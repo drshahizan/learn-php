@@ -10,8 +10,9 @@ Don't forget to hit the :star: if you like this repo.
 # Lab 1: HTML Text Appearance
 
 1. Please read the lab training instructions by downloading the [Lab 1.pdf](./download/Lab%201.pdf) file.
-2. Please use the HTML template file `Q1_template.html`.
+2. Please use the HTML template file [Q1_template.html](download/Q1_template.html).
 3. Please include your contact information in the HTML `<head>`.
+
 ``` 
 <!--
 Name:
