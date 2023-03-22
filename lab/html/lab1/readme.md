@@ -15,14 +15,14 @@ Don't forget to hit the :star: if you like this repo.
 
 ``` 
 <!--
-Name:
+Name:a
 Matrix No:
 Github id:
 
 Lab 1: HTML Text Appearance
 -->
 ```
-4. You need to upload your file to the [submission](./submission) folder. You need to create a folder named your id_github inside the [submission](./submission) folder. Name the file as `L1_Githubid.html`.
+4. You need to upload your file to the [submission](./submission) folder. You need to create a folder named your `id_github` inside the [submission](./submission) folder. Name the file as `L1_Githubid.html`.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
