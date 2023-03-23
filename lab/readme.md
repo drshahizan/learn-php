@@ -29,33 +29,34 @@ Don't forget to hit the :star: if you like this repo.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 1 | CSS | CSS |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 1 | CSS | CSS |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 2 | CSS | Text and Box Model |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px"></a>|
-| 3 | CSS | Layout (Mock & Style) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 4 | CSS | CSS Layout |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 5 | CSS | Website Layout |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 6 | CSS | Form Layout |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 3 | CSS | Layout (Mock & Style) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 4 | CSS | CSS Layout |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 5 | CSS | Website Layout |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 6 | CSS | Form Layout |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## JavaScript
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 1 | JS | JavaScript (Basic) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 2 | JS | JavaScript (Intermediate) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 3 | JS | JavaScript (Advanced) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 4 | JS | JS Part 1 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 5 | JS | JS Part 2 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 1 | JS | JavaScript (Basic) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 2 | JS | JavaScript (Intermediate) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 3 | JS | JavaScript (Advanced) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 4 | JS | JS Part 1 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 5 | JS | JS Part 2 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+
 ## PHP
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 1 | PHP | How to Install XAMPP Server on Windows 11 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 2 | PHP | How to add PHP Intelephense and PHP Server extensions in VSC |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 3 | PHP | Introduction To PHP |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 4 | PHP | How to run PHP on Visual Studio Code |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 5 | PHP | HP & MySQL source code |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 6 | PHP | Tourism Management System |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
-| 7 | PHP | Hospital Management System |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a><a href="" ><img src="../images/pdf64.png" width="24px" height="24px" ></a> |
+| 1 | PHP | How to Install XAMPP Server on Windows 11 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 2 | PHP | How to add PHP Intelephense and PHP Server extensions in VSC |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 3 | PHP | Introduction To PHP |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 4 | PHP | How to run PHP on Visual Studio Code |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 5 | PHP | HP & MySQL source code |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 6 | PHP | Tourism Management System |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 7 | PHP | Hospital Management System |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
