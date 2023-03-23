@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 3
+# Lab 3: HTML Forms
 
 1. Please read the lab training instructions by downloading the [Lab 3.pdf](./download/Lab%203.pdf) file.
 2. Please include your contact information in the HTML `<head>`.
