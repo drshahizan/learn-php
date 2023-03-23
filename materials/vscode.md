@@ -63,12 +63,12 @@ To install extensions from within VS Code, you can follow these steps:
 ##
 | No.| Extension | Description | 
 | :-----: | ------ | ------ | 
-| 1 | Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets | Visual studio code plugin containing Bootstrap 4, Font awesome 4 & Font Awesome 5 Free & Pro snippets. This plugin works in both in the stable & the insiders build. |
-| 2 | GitHub Codespaces | GitHub Codespaces provides cloud-hosted development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request. You can connect to Codespaces from Visual Studio Code or a browser-based editor that's accessible anywhere. |
-| 3 | GitHub Pull Requests and Issues | Pull Request and Issue Provider for GitHub |
-| 4 | Live Server | Launch a development local Server with live reload feature for static & dynamic pages |
-| 5 | Live Share | Real-time collaborative development from the comfort of your favorite tools. |
-| 6 | JavaScript (ES6) code snippets | This extension contains code snippets for JavaScript in ES6 syntax for Vs Code editor (supports both JavaScript and TypeScript). |
+| 1 | [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets]() | Visual studio code plugin containing Bootstrap 4, Font awesome 4 & Font Awesome 5 Free & Pro snippets. This plugin works in both in the stable & the insiders build. |
+| 2 | [GitHub Codespaces]() | GitHub Codespaces provides cloud-hosted development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request. You can connect to Codespaces from Visual Studio Code or a browser-based editor that's accessible anywhere. |
+| 3 | [GitHub Pull Requests and Issues]() | Pull Request and Issue Provider for GitHub |
+| 4 | [Live Server] | Launch a development local Server with live reload feature for static & dynamic pages |
+| 5 | [Live Share] | Real-time collaborative development from the comfort of your favorite tools. |
+| 6 | [JavaScript (ES6) code snippets] | This extension contains code snippets for JavaScript in ES6 syntax for Vs Code editor (supports both JavaScript and TypeScript). |
 | 7 | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) | Material Design Icons for Visual Studio Code |
 | 8 | [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) | Subtly change the color of your Visual Studio Code workspace. Ideal when you have multiple VS Code instances, use VS Live Share, or use VS Code's Remote features, and you want to quickly identify your editor. |
 | 9 | [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary. |
