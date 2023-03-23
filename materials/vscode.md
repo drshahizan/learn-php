@@ -57,8 +57,8 @@ To install extensions from within VS Code, you can follow these steps:
 2. Click on the Extensions icon in the left-hand sidebar, or use the shortcut `Ctrl + Shift + X` on Windows/Linux or `Command + Shift + X` on macOS.
 3. Search for the extension you want to install in the search bar, or browse through the list of recommended extensions.
 4. Click on the extension you want to install to see more details about it.
-5. Click on the "Install" button to install the extension.
-6. Once the extension is installed, you will see a "Reload" button. Click on it to reload VS Code and activate the extension
+5. Click on the "`Install`" button to install the extension.
+6. Once the extension is installed, you will see a "`Reload`" button. Click on it to reload VS Code and activate the extension
 
 ##
 | No.| Extension | Description | 
