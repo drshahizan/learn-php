@@ -29,6 +29,18 @@ Here are some advantages of VS Code compared to other tools for web programming:
 
 Overall, VS Code's ease of use, flexibility, and extensive feature set make it a popular choice for web developers, particularly those working on JavaScript and TypeScript-based projects.
 
+## Download and Install Visual Studio Code
+
+You can download and install Microsoft Visual Studio Code (VS Code) by following these steps:
+
+1. Go to the official VS Code website at https://code.visualstudio.com/.
+2. Click on the "Download for [your operating system]" button. The website will automatically detect your operating system and provide you with the appropriate download link.
+3. Once the download is complete, run the installer file.
+4. Follow the on-screen instructions to install VS Code on your computer.
+5. Once the installation is complete, you can launch VS Code by clicking on its icon in your Start menu (Windows) or Applications folder (macOS).
+
+Alternatively, you can download and install a version of VS Code that includes the popular extensions and settings used by developers in your preferred programming language. These versions are called "Visual Studio Code - Insiders" and can be downloaded from the same website by clicking on the "Download for Insiders" button. Once installed, you can launch "Visual Studio Code - Insiders" from your Start menu or Applications folder, just like the regular version of VS Code.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
