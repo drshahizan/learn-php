@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1
+# Lab 5: Nested List
 
 
 ## Contribution 🛠️
