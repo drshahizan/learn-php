@@ -29,6 +29,12 @@ Here are some advantages of VS Code compared to other tools for web programming:
 
 Overall, VS Code's ease of use, flexibility, and extensive feature set make it a popular choice for web developers, particularly those working on JavaScript and TypeScript-based projects.
 
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
 
 
 
