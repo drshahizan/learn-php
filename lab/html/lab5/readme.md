@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 5: HTML Table
 
-1. Please read the lab training instructions by downloading the [Lab 2.pdf](./download/Lab%202.pdf) file.
+1. Please read the lab training instructions by downloading the [Lab 5.pdf](./download/Lab%205.pdf) file.
 2. Please include your contact information in the HTML `<head>`.
 
 ``` 
