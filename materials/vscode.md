@@ -60,6 +60,12 @@ To install extensions from within VS Code, you can follow these steps:
 5. Click on the "Install" button to install the extension.
 6. Once the extension is installed, you will see a "Reload" button. Click on it to reload VS Code and activate the extension
 
+##
+| No.| Description | 
+| :-----: | ------ | 
+| 1 | Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets (Ashok Koyi) | 
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
