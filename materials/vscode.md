@@ -61,9 +61,13 @@ To install extensions from within VS Code, you can follow these steps:
 6. Once the extension is installed, you will see a "Reload" button. Click on it to reload VS Code and activate the extension
 
 ##
-| No.| Description | 
-| :-----: | ------ | 
-| 1 | Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets (Ashok Koyi) | 
+| No.| Extension | Description | 
+| :-----: | ------ | ------ | 
+| 1 | Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets (Ashok Koyi) | Visual studio code plugin containing Bootstrap 4, Font awesome 4 & Font Awesome 5 Free & Pro snippets. This plugin works in both in the stable & the insiders build. |
+| 2 | GitHub Codespaces | GitHub Codespaces provides cloud-hosted development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request. You can connect to Codespaces from Visual Studio Code or a browser-based editor that's accessible anywhere. |
+| 3 | GitHub Pull Requests and Issues | Pull Request and Issue Provider for GitHub |
+| 4 | GitHub Pull Requests and Issues | Pull Request and Issue Provider for GitHub |
+
 
 
 ## Contribution 🛠️
