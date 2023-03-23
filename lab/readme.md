@@ -25,7 +25,7 @@ Don't forget to hit the :star: if you like this repo.
 | 8 | HTML | Table |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 9 | HTML | Form |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 
-## CSS
+## Cascading Style Sheets (CSS)
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
