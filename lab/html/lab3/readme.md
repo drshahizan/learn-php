@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 4
+# Lab 3: Format an article with HTML 
 
 
 ## Contribution 🛠️

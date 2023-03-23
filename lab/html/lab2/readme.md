@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 4
+# Lab 2: Troubleshooting HTML
 
 
 ## Contribution 🛠️
