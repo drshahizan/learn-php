@@ -61,7 +61,7 @@ To install extensions from within VS Code, you can follow these steps:
 6. Once the extension is installed, you will see a `Reload` button. Click on it to reload VS Code and activate the extension
 
 ## Visual Studio Code
-### <img src="./images/youtube64.png" width="24px" height="24px"></a> Video
+### <img src="../images/youtube64.png" width="24px" height="24px"></a> Video
 - [Visual Studio Code Web Dev Setup In 6 Minutes](https://www.youtube.com/watch?v=4NfFFsQC77M)
 - [Visual Studio Code: HTML, CSS & JS Tips](https://www.youtube.com/watch?v=bJiIzz8mFMs)
 - [Top 10 Best VS Code Extensions](https://www.youtube.com/watch?v=GPv_SbfumJw)
