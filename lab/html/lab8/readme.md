@@ -7,8 +7,23 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 8
+# Lab 8: HTML Forms
 
+1. Please read the lab training instructions by downloading the [Lab 8.pdf](./download/Lab%208.pdf) file.
+2. Please include your contact information in the HTML `<head>`.
+
+``` 
+<!--
+Name:
+Matrix No:
+Github id:
+
+Lab 8: HTML Forms
+-->
+```
+4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L8_Githubid.html`.
+  > Example: 
+  > /submission/ASA42000/L8_ASA42000.html
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
