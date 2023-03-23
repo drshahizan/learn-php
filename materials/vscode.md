@@ -68,6 +68,7 @@ To install extensions from within VS Code, you can follow these steps:
 | 3 | GitHub Pull Requests and Issues | Pull Request and Issue Provider for GitHub |
 | 4 | Live Server | Launch a development local Server with live reload feature for static & dynamic pages |
 | 5 | Live Share | Real-time collaborative development from the comfort of your favorite tools. |
+| 6 | JavaScript (ES6) code snippets | This extension contains code snippets for JavaScript in ES6 syntax for Vs Code editor (supports both JavaScript and TypeScript). |
 
 
 
