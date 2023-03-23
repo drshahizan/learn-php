@@ -41,6 +41,15 @@ You can download and install Microsoft Visual Studio Code (VS Code) by following
 
 Alternatively, you can download and install a version of VS Code that includes the popular extensions and settings used by developers in your preferred programming language. These versions are called "Visual Studio Code - Insiders" and can be downloaded from the same website by clicking on the "Download for Insiders" button. Once installed, you can launch "Visual Studio Code - Insiders" from your Start menu or Applications folder, just like the regular version of VS Code.
 
+## Visual Studio Code Marketplace
+The Visual Studio Code Marketplace is a web-based repository of extensions, themes, and other add-ons for the Visual Studio Code editor. It is a collection of community-created and Microsoft-curated extensions that extend the functionality of VS Code and make it more customizable for individual users.
+
+The Marketplace offers a vast range of extensions, including syntax highlighting and code completion for different programming languages, debugging tools, productivity enhancers, and themes for customizing the appearance of the editor. You can browse the Marketplace using the built-in extension manager within Visual Studio Code, which allows you to search for specific extensions or browse different categories.
+
+The Marketplace is continually updated, and developers can submit their extensions to be reviewed and published. The Marketplace also provides a platform for developers to share their code and collaborate with other developers, making it an essential resource for the VS Code community.
+
+In summary, the Marketplace is a crucial component of the Visual Studio Code ecosystem, providing developers with a vast selection of extensions and add-ons that can enhance their productivity and customizability.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
