@@ -94,7 +94,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [How to Host a Website on GitHub [2023] | GitHub Pages Site](https://youtu.be/6GKwy56vN2c)
 
 ### Useful Links
-- [Microsoft Visual Studio Code (VS Code)](./)
+- [Microsoft Visual Studio Code (VS Code)](./materials/vscode.md)
 - [Download: Visual Studio Code](https://code.visualstudio.com/download)
 - [VS Code: Getting Started](https://code.visualstudio.com/docs)
 - [Collaborate with Live Share](https://code.visualstudio.com/learn/collaboration/live-share)
