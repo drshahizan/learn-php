@@ -7,8 +7,23 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1
+# Lab 5: HTML Table
 
+1. Please read the lab training instructions by downloading the [Lab 5.pdf](./download/Lab%205.pdf) file.
+2. Please include your contact information in the HTML `<head>`.
+
+``` 
+<!--
+Name:
+Matrix No:
+Github id:
+
+Lab 5: HTML Table
+-->
+```
+4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L5_Githubid.html`.
+  > Example: 
+  > /submission/ASA42000/L5_ASA42000.html
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
