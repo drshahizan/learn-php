@@ -46,7 +46,7 @@ Don't forget to hit the :star: if you like this repo.
 | 4 | JS | JS Part 1 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 5 | JS | JS Part 2 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 
-## PHP
+## Hypertext Preprocessor (PHP)
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
