@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab Exercise
 
-## HTML
+## Hypertext Markup Language (HTML)
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
