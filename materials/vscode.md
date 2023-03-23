@@ -50,6 +50,16 @@ The Marketplace is continually updated, and developers can submit their extensio
 
 In summary, the Marketplace is a crucial component of the Visual Studio Code ecosystem, providing developers with a vast selection of extensions and add-ons that can enhance their productivity and customizability.
 
+## How to install extensions from within VS Code
+To install extensions from within VS Code, you can follow these steps:
+
+1. Open Visual Studio Code.
+2. Click on the Extensions icon in the left-hand sidebar, or use the shortcut Ctrl + Shift + X on Windows/Linux or Command + Shift + X on macOS.
+3. Search for the extension you want to install in the search bar, or browse through the list of recommended extensions.
+4. Click on the extension you want to install to see more details about it.
+5. Click on the "Install" button to install the extension.
+6. Once the extension is installed, you will see a "Reload" button. Click on it to reload VS Code and activate the extension
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
