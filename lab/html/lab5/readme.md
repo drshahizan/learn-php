@@ -13,7 +13,7 @@ In HTML, a nested list is a list that is contained within another list. A nested
 
 To create a nested list in HTML, you use the <ul> or <ol> tag to create the outer list and then nest another <ul> or <ol> tag inside each list item (<li>) of the outer list to create the inner list. For example:
 
-
+```html
 <ul>
   <li>Outer List Item 1
     <ul>
@@ -24,6 +24,8 @@ To create a nested list in HTML, you use the <ul> or <ol> tag to create the oute
   <li>Outer List Item 2</li>
   <li>Outer List Item 3</li>
 </ul>
+```
+  
 This code creates an unordered (bulleted) list with three items. The first item has an inner unordered list with two items. The resulting list will look like this:
 
 Outer List Item 1
@@ -31,7 +33,23 @@ Inner List Item 1
 Inner List Item 2
 Outer List Item 2
 Outer List Item 3
-You can also use the <ol> tag to create an ordered (numbered) list, and you can nest multiple levels of lists within each other to create even more complex hierarchies of information. By properly nesting your lists, you can create well-organized and easy-to-read content on your webpage.
+
+  You can also use the <ol> tag to create an ordered (numbered) list, and you can nest multiple levels of lists within each other to create even more complex hierarchies of information. By properly nesting your lists, you can create well-organized and easy-to-read content on your webpage.
+
+7. Please include your contact information in the HTML `<head>`.
+
+```html
+<!--
+Name:
+Matrix No:
+Github id:
+
+Lab 5: HTML Image
+-->
+```
+8. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L4_Githubid.html`.
+  > Example: 
+  > /submission/drshahizan/L4_drshahizan.html
 
 
 ## Contribution 🛠️
