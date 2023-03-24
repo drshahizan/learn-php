@@ -16,11 +16,11 @@ Images can also be formatted using other HTML tags, such as the `<figure>` and `
 
 The function of an image on a webpage is to visually enhance the content and provide additional context or information to the user. They can also help to break up long blocks of text and make a webpage more visually appealing. Proper use of images can also improve the accessibility of the webpage, as visually impaired users rely on alternative text descriptions to understand the content of the webpage. Overall, images are an important component of web design and can greatly enhance the user experience.
 
-
+## Instructions
+1. You are required to create the following website interface:
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab4/download/Lab4output.png"  height="500" />
 
-## Instructions
-1. Please use the HTML template file [Lab4.html](./download/Lab4.html).
+2. Please use the HTML template file [Lab4.html](./download/Lab4.html).
 2. Please include your contact information in the HTML `<head>`.
 
 ``` 
