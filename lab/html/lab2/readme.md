@@ -9,6 +9,8 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 2: Troubleshooting HTML
 
+This webpage has been messed up by someone! You must organise this [Lab2.html](./download/Lab2.html) file. To make this web presentation more standardised, please use appropriate HTML tags.
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
