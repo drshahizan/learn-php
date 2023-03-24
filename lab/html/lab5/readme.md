@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 In HTML, a nested list is a list that is contained within another list. A nested list can be used to group related items together and create a hierarchy of information on a webpage.
 
-To create a nested list in HTML, you use the <ul> or <ol> tag to create the outer list and then nest another <ul> or <ol> tag inside each list item (<li>) of the outer list to create the inner list. For example:
+To create a nested list in HTML, you use the `<ul>` or `<ol>` tag to create the outer list and then nest another `<ul>` or `<ol>` tag inside each list item (`<li>`) of the outer list to create the inner list. For example:
 
 ```html
 <ul>
