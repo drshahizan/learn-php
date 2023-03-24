@@ -46,7 +46,7 @@ Here's an example of what a timetable project in HTML might look like:
   </tr>
   <!-- additional rows for each hour of the day -->
 </table>
-```html
+```
 
 In this example, the table represents a weekly schedule for a student. The first row contains header cells with the names of the days of the week, and the first column contains cells with the times of the day. The remaining cells contain the names of the classes that the student has at each time slot.
 
