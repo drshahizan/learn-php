@@ -55,6 +55,7 @@ By creating a timetable project in HTML, you can create an easy-to-read and visu
 ## Instructions
 1. You are required to complete four types of tables. Following is a tables:
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab7/download/Lab7.png"  height="400" />
+
 2. Text content has been prepared and saved in the [Lab7.txt](./download/Lab7.txt) file. 
 3. Please include your contact information in the HTML `<head>`.
 
