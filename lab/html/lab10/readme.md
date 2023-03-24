@@ -11,6 +11,25 @@ Don't forget to hit the :star: if you like this repo.
 
 You are required to create the following website interface:
 
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab10/download/Lab9output.png"  height="300" />
+
+## Instructions
+1. Please use the HTML template file [Lab2.html](./download/Lab2.html).
+2. Please include your contact information in the HTML `<head>`.
+
+``` 
+<!--
+Name:
+Matrix No:
+Github id:
+
+Lab 2: Troubleshooting HTML
+-->
+```
+4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L2_Githubid.html`.
+  > Example: 
+  > /submission/drshahizan/L2_drshahizan.html
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
