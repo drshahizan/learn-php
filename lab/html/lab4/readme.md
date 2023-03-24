@@ -18,7 +18,7 @@ The function of an image on a webpage is to visually enhance the content and pro
 
 ## Instructions
 1. You are required to create the following website interface:
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab4/download/Lab4output.png"  height="700" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab4/download/Lab4output.png"  height="500" />
 
 2. Please utilize only the [utmconvo.jpeg](./download/utmconvo.jpeg) images and ensure to reference this image in your HTML file. 
 3. The [Lab4output1.png](./download/Lab4output1.png) file contains the complete website that was generated and can be viewed for reference.
