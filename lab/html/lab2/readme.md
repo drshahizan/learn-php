@@ -13,6 +13,23 @@ This webpage has been messed up by someone! You must organise this [Lab2.html](.
 
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab2/download/lab2.png"  height="200" />
 
+## Instructions
+1. Please use the HTML template file [Lab2.html](./download/Lab2.html).
+2. Please include your contact information in the HTML `<head>`.
+
+``` 
+<!--
+Name:
+Matrix No:
+Github id:
+
+Lab 2: Troubleshooting HTML
+-->
+```
+4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L2_Githubid.html`.
+  > Example: 
+  > /submission/ASA42000/L2_ASA42000.html
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
