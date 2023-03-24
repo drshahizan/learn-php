@@ -7,11 +7,11 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 2: Troubleshooting HTML
+# Lab 8: Table
 
-You need to create a folder named your `id_github` here. Name the file as `L2_Githubid.html`.
+You need to create a folder named your `id_github` here. Name the file as `L8_Githubid.html`.
 > Example: 
-> /submission/drshahizan/L2_drshahizan.html
+> /submission/drshahizan/L8_drshahizan.html
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
