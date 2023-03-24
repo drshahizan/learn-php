@@ -11,10 +11,10 @@ Don't forget to hit the :star: if you like this repo.
 
 This webpage has been messed up by someone! You must organise this [Lab3.html](./download/Lab3.html) file. To make this web presentation more standardised, please use appropriate HTML tags.
 
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab2/download/lab3.png"  height="200" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab3/download/lab3.png"  height="200" />
 
 ## Instructions
-1. Please use the HTML template file [Lab2.html](./download/Lab2.html).
+1. Please use the HTML template file [Lab3.html](./download/Lab3.html).
 2. Please include your contact information in the HTML `<head>`.
 
 ``` 
