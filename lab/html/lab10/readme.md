@@ -26,9 +26,9 @@ Github id:
 Lab 10: Application Form
 -->
 ```
-4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L2_Githubid.html`.
+4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L10_Githubid.html`.
   > Example: 
-  > /submission/drshahizan/L2_drshahizan.html
+  > /submission/drshahizan/L10_drshahizan.html
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
