@@ -30,7 +30,7 @@ Don't forget to hit the :star: if you like this repo.
   - [PHP](#php)
   - [Contribution 🛠️](#contribution-️)
 
-# [Course Outline]()
+# [Course Outline](./materials/CI%20Web%20Prog%20.pdf)
 This course is designed to introduce students the fundamental of knowledge, technologies and components for web application developments. The basic topics includes the standard HTML for content creation, CSS for content presentation, JavaScript for client-side logics, PHP for server-side logics and MySQL for data processing. At the end of the course, the students should be able to apply the web base technologies and then implement it all in the creating functional data-centric online system project.
 
 ## Student Information
