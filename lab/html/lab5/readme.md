@@ -37,6 +37,8 @@ This code creates an unordered (bulleted) list with three items. The first item 
 
   You can also use the `<ol>` tag to create an ordered (numbered) list, and you can nest multiple levels of lists within each other to create even more complex hierarchies of information. By properly nesting your lists, you can create well-organized and easy-to-read content on your webpage.
 
+## Instructions
+
 7. Please include your contact information in the HTML `<head>`.
 
 ```html
@@ -48,6 +50,7 @@ Github id:
 Lab 5: HTML Image
 -->
 ```
+
 8. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L4_Githubid.html`.
   > Example: 
   > /submission/drshahizan/L4_drshahizan.html
