@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 You are required to create the following website interface:
 
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab8/download/Lab8%20table.png"  height="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab8/download/Lab8.png"  height="600" />
 
 ## Instructions
 1. Text content has been prepared and saved in the [Lab8.txt](./download/Lab8.txt) file. 
