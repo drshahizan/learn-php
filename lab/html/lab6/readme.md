@@ -38,7 +38,7 @@ HTML tables are a powerful way to present complex data in a structured and easy-
 
 ## Instructions
 1. You are required to complete four types of tables. Following is a tables:
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab6/download/lab6.png"  height="500" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab6/download/lab6.png"  height="450" />
 
 2. Please include your contact information in the HTML `<head>`.
 
