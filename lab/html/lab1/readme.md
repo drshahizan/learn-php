@@ -9,6 +9,48 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 1: HTML Text Appearance
 
+HTML provides a range of tags and attributes that you can use to control the appearance of text on a webpage. Here are some examples of HTML tags and attributes that can be used to modify the appearance of text:
+
+Headings - HTML provides six levels of headings, from h1 (largest) to h6 (smallest). These tags are used to indicate the importance of the text and can be used to structure content hierarchically.
+Example:
+
+css
+Copy code
+<h1>This is a level 1 heading</h1>
+<h2>This is a level 2 heading</h2>
+<h3>This is a level 3 heading</h3>
+Paragraphs - The <p> tag is used to create a new paragraph of text. By default, text within a paragraph is left-aligned, but you can use CSS to change the alignment.
+Example:
+
+css
+Copy code
+<p>This is a paragraph of text.</p>
+<p>This is another paragraph of text.</p>
+Bold and Italics - The <b> and <i> tags are used to make text bold and italic, respectively.
+Example:
+
+css
+Copy code
+<p>This text is <b>bold</b>.</p>
+<p>This text is <i>italicized</i>.</p>
+Text color - The color attribute can be used to change the color of text. You can use either a named color or a hexadecimal code to specify the color.
+Example:
+
+css
+Copy code
+<p style="color: red;">This text is red.</p>
+<p style="color: #00FF00;">This text is green.</p>
+Text alignment - The text-align property can be used to control the alignment of text within an HTML element.
+Example:
+
+css
+Copy code
+<p style="text-align: center;">This text is centered.</p>
+<p style="text-align: right;">This text is right-aligned.</p>
+These are just a few examples of how you can control the appearance of text in HTML. There are many more tags and attributes that you can use to customize the look and feel of your webpages. Additionally, CSS can be used to apply styles to HTML elements, giving you even more control over the appearance of your text.
+
+## Instructions
+
 1. Please read the lab training instructions by downloading the [Lab 1.pdf](./download/Lab%201.pdf) file.
 2. Please use the HTML template file [Q1_template.html](download/Q1_template.html).
 3. Please include your contact information in the HTML `<head>`.
