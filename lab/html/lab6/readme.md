@@ -28,10 +28,11 @@ To create a table, you begin by using the `<table>` tag to define the table. Wit
 ```
 This code creates a table with two rows and two columns. Each cell contains some text. The resulting table will look like this:
 
-Row 1, Column 1	Row 1, Column 2
-Row 2, Column 1	Row 2, Column 2
+| Row 1, Column 1 | Row 1, Column 2 |
+| ----- | ----- |
+| Row 2, Column 1 | Row 2, Column 2 |
 
-You can also use various attributes with the table, row, and cell tags to control the appearance of the table, such as "border" to add a border around the table or "colspan" and "rowspan" to span a cell across multiple rows or columns. Additionally, you can use the <th> tag instead of <td> to define header cells, which are typically bold and centered in the table.
+You can also use various attributes with the table, row, and cell tags to control the appearance of the table, such as "border" to add a border around the table or "colspan" and "rowspan" to span a cell across multiple rows or columns. Additionally, you can use the `<th>` tag instead of `<td>` to define header cells, which are typically bold and centered in the table.
 
 HTML tables are a powerful way to present complex data in a structured and easy-to-read format. By properly structuring your tables and using appropriate attributes and tags, you can create effective and visually appealing tables for your webpages.
 
