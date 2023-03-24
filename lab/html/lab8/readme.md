@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 8
+# Lab 8: Table
 
 You are required to create the following website interface:
 
