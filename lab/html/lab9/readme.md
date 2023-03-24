@@ -23,7 +23,7 @@ Lab 9: HTML Forms
 ```
 4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L9_Githubid.html`.
   > Example: 
-  > /submission/ASA42000/L9_ASA42000.html
+  > /submission/drshahizan/L9_drshahizan.html
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.

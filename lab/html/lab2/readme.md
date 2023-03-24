@@ -28,7 +28,7 @@ Lab 2: Troubleshooting HTML
 ```
 4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L2_Githubid.html`.
   > Example: 
-  > /submission/ASA42000/L2_ASA42000.html
+  > /submission/drshahizan/L2_drshahizan.html
 
 
 ## Contribution 🛠️

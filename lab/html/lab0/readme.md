@@ -52,7 +52,7 @@ Now that we know the basic structure of an HTML page, let's try it out.
 
 You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L0_Githubid.html`.
 > Example: 
-> /submission/ASA42000/L0_ASA42000.html
+> /submission/drshahizan/L0_drshahizan.html
 
 
 ## Contribution 🛠️
