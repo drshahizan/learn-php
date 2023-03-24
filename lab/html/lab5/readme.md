@@ -38,6 +38,9 @@ This code creates an unordered (bulleted) list with three items. The first item 
   You can also use the `<ol>` tag to create an ordered (numbered) list, and you can nest multiple levels of lists within each other to create even more complex hierarchies of information. By properly nesting your lists, you can create well-organized and easy-to-read content on your webpage.
 
 ## Instructions
+1. You are required to create the following website interface:
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab4/download/Lab5.png"  height="500" />
+
 
 7. Please include your contact information in the HTML `<head>`.
 
