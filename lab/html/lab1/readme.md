@@ -20,7 +20,7 @@ Example:
 <h3>This is a level 3 heading</h3>
 ```
 
-Paragraphs - The <p> tag is used to create a new paragraph of text. By default, text within a paragraph is left-aligned, but you can use CSS to change the alignment.
+2. Paragraphs - The `<p>` tag is used to create a new paragraph of text. By default, text within a paragraph is left-aligned, but you can use CSS to change the alignment.
 Example:
 
 ```html
@@ -28,21 +28,21 @@ Example:
 <p>This is another paragraph of text.</p>
 ```
 
-Bold and Italics - The `<b>` and `<i>` tags are used to make text bold and italic, respectively.
+3. Bold and Italics - The `<b>` and `<i>` tags are used to make text bold and italic, respectively.
 Example:
 
 ```html
 <p>This text is <b>bold</b>.</p>
 <p>This text is <i>italicized</i>.</p>
 ```
-Text color - The color attribute can be used to change the color of text. You can use either a named color or a hexadecimal code to specify the color.
+4. Text color - The color attribute can be used to change the color of text. You can use either a named color or a hexadecimal code to specify the color.
 Example:
 
 ```html
 <p style="color: red;">This text is red.</p>
 <p style="color: #00FF00;">This text is green.</p>
 ```
-Text alignment - The text-align property can be used to control the alignment of text within an HTML element.
+5. Text alignment - The text-align property can be used to control the alignment of text within an HTML element.
 Example:
 
 ```html
