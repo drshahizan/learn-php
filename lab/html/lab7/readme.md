@@ -7,14 +7,14 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 7
+# Lab 7: Timetable
 In HTML, a table is an element used to display data in rows and columns. HTML tables are widely used to present various types of information in a structured and organized manner.
 
 A timetable project in HTML is an example of how tables can be used to present structured data. In a timetable project, a table is used to display information about the schedule of events or activities, such as classes, meetings, or appointments.
 
 To create a timetable project in HTML, you would begin by creating a table with the appropriate number of rows and columns to represent your schedule. Each row would represent a time slot (e.g., hour of the day), and each column would represent a day of the week. You can also add header cells to the table to provide labels for each column and row.
 
-Once the table structure is in place, you would then add the relevant information to each cell of the table, such as the name of the class or meeting, the location, and the start and end times. You can use various HTML tags to format the content of each cell, such as <b> for bold text or <a> for hyperlinks.
+Once the table structure is in place, you would then add the relevant information to each cell of the table, such as the name of the class or meeting, the location, and the start and end times. You can use various HTML tags to format the content of each cell, such as `<b>` for bold text or `<a>` for hyperlinks.
 
 Here's an example of what a timetable project in HTML might look like:
 
