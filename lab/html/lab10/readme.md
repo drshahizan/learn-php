@@ -9,6 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 10: Application Form
 
+You are required to create the following website interface:
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
