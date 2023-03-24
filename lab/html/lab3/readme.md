@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 3: Format an article with HTML 
 
-This webpage has been messed up by someone! You must organise this [Lab3.html](./download/Lab3.html) file. To make this web presentation more standardised, please use appropriate HTML tags.
+Format the content contained in the [Lab3.html](./download/Lab3.html) file. To make this web presentation more standardised, please use appropriate HTML tags.
 
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab3/download/lab3.png"  height="300" />
 
