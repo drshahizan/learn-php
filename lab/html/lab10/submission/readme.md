@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 10
+# Lab 10: Application Form
 
 You need to create a folder named your `id_github` here. Name the file as `L10_Githubid.html`.
 > Example: 
