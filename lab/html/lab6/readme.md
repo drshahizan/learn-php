@@ -36,6 +36,10 @@ You can also use various attributes with the table, row, and cell tags to contro
 
 HTML tables are a powerful way to present complex data in a structured and easy-to-read format. By properly structuring your tables and using appropriate attributes and tags, you can create effective and visually appealing tables for your webpages.
 
+## Instructions
+1. You are required to complete four types of tables. Following is a tables:
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab6/download/lab6.png"  height="500" />
+
 
 1. Please read the lab training instructions by downloading the [Lab 6.pdf](./download/Lab%206.pdf) file.
 2. Please include your contact information in the HTML `<head>`.
