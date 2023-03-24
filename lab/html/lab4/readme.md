@@ -8,11 +8,14 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Lab 4: HTML Image
-Please use appropriate HTML tags to standardize the [Lab3.html](./download/Lab3.html) file content presentation. By doing so, you can ensure that the webpage's formatting is consistent and complies with web development best practices. HTML tags are used to define the structure and content of a webpage, and they make it easier for search engines and assistive technologies to understand the information presented on the page.
+In HTML, an image is a graphical element that can be used to enhance the visual appeal of a webpage and convey information to the user. An image can be used to show a product, illustrate a concept, or simply add some visual interest to a page.
 
-For example, you might use heading tags like `<h1>` and `<h2>` to create a hierarchy of titles and subtitles, and use paragraph tags like `<p>` to structure the text content. Additionally, you might use lists tags like `<ul>` and `<ol>` to present information in a more organized and easy-to-read format.
+The `<img>` tag is the primary HTML tag used to insert images into a webpage. It requires the "src" attribute, which specifies the URL of the image file. Additionally, the "alt" attribute should be included to provide an alternative text description of the image, which is used by screen readers and other assistive technologies to describe the image to visually impaired users.
 
-Proper use of HTML tags can also improve the accessibility of the webpage, making it easier for people with disabilities to use. In summary, by formatting the Lab3.html file using appropriate HTML tags, you can improve its overall readability, accessibility, and compliance with web development standards.
+Images can also be formatted using other HTML tags, such as the `<figure>` and `<figcaption>` tags, which are used to group images with captions. The <img> tag also allows for other attributes to be included to control the display of the image, such as "width" and "height" attributes to set the size of the image.
+
+The function of an image on a webpage is to visually enhance the content and provide additional context or information to the user. They can also help to break up long blocks of text and make a webpage more visually appealing. Proper use of images can also improve the accessibility of the webpage, as visually impaired users rely on alternative text descriptions to understand the content of the webpage. Overall, images are an important component of web design and can greatly enhance the user experience.
+
 
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab4/download/Lab4output.png"  height="500" />
 
