@@ -54,9 +54,9 @@ By creating a timetable project in HTML, you can create an easy-to-read and visu
 
 ## Instructions
 1. You are required to complete four types of tables. Following is a tables:
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab7/download/Lab7.png"  height="450" />
-
-2. Please include your contact information in the HTML `<head>`.
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab7/download/Lab7.png"  height="400" />
+2. Text content has been prepared and saved in the [Lab7.txt](./download/Lab7.txt) file. 
+3. Please include your contact information in the HTML `<head>`.
 
 ``` 
 <!--
@@ -67,9 +67,9 @@ Github id:
 Lab 6: HTML Table
 -->
 ```
-4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L6_Githubid.html`.
+4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L7_Githubid.html`.
   > Example: 
-  > /submission/drshahizan/L6_drshahizan.html
+  > /submission/drshahizan/L7_drshahizan.html
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
