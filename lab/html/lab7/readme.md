@@ -52,6 +52,25 @@ In this example, the table represents a weekly schedule for a student. The first
 
 By creating a timetable project in HTML, you can create an easy-to-read and visually appealing schedule of events or activities.
 
+## Instructions
+1. You are required to complete four types of tables. Following is a tables:
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab6/download/lab6.png"  height="450" />
+
+2. Please include your contact information in the HTML `<head>`.
+
+``` 
+<!--
+Name:
+Matrix No:
+Github id:
+
+Lab 6: HTML Table
+-->
+```
+4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L6_Githubid.html`.
+  > Example: 
+  > /submission/drshahizan/L6_drshahizan.html
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
