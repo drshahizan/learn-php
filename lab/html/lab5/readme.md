@@ -27,14 +27,15 @@ To create a nested list in HTML, you use the `<ul>` or `<ol>` tag to create the 
 ```
   
 This code creates an unordered (bulleted) list with three items. The first item has an inner unordered list with two items. The resulting list will look like this:
+```
+- Outer List Item 1
+    - Inner List Item 1
+    - Inner List Item 2
+- Outer List Item 2
+- Outer List Item 3
+```
 
-Outer List Item 1
-Inner List Item 1
-Inner List Item 2
-Outer List Item 2
-Outer List Item 3
-
-  You can also use the <ol> tag to create an ordered (numbered) list, and you can nest multiple levels of lists within each other to create even more complex hierarchies of information. By properly nesting your lists, you can create well-organized and easy-to-read content on your webpage.
+  You can also use the `<ol>` tag to create an ordered (numbered) list, and you can nest multiple levels of lists within each other to create even more complex hierarchies of information. By properly nesting your lists, you can create well-organized and easy-to-read content on your webpage.
 
 7. Please include your contact information in the HTML `<head>`.
 
