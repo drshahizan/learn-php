@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 You are required to create the following website interface:
 
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab10/download/Lab10.png"  height="500" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab10/download/Lab10.png"  height="600" />
 
 ## Instructions
 1. Please use the HTML template file [Lab10.txt](./download/Lab2.html).
