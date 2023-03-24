@@ -14,7 +14,7 @@ You are required to create the following website interface:
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab10/download/Lab10.png"  height="600" />
 
 ## Instructions
-1. Please use the HTML template file [Lab10.txt](./download/Lab2.html).
+1. Text content has been prepared and saved in the [Lab10.txt](./download/Lab10.txt) file. 
 2. Please include your contact information in the HTML `<head>`.
 
 ``` 
