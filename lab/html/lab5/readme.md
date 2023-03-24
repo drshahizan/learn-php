@@ -39,7 +39,7 @@ This code creates an unordered (bulleted) list with three items. The first item 
 
 ## Instructions
 1. You are required to create the following website interface:
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab5/download/lab5.png"  height="500" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab5/download/lab5.png"  height="700" />
 
 
 7. Please include your contact information in the HTML `<head>`.
