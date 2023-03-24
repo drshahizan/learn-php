@@ -11,9 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 This webpage has been messed up by someone! You must organise this [Lab2.html](./download/Lab2.html) file. To make this web presentation more standardised, please use appropriate HTML tags.
 
-![](./download/lab2.png)
-
-<img src="[logo](https://github.com/drshahizan/learn-php/blob/main/lab/html/lab2/download/lab2.png)"  width="300" >
+<img src="[logo](https://github.com/drshahizan/learn-php/blob/main/lab/html/lab2/download/lab2.png)" width="300" >
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
