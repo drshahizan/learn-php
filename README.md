@@ -37,17 +37,17 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 | No | Name | ID |  Github | 
 | ----- | ----- | ------ | :------: | 
-| 1 | A. SHARILFAZLEE SALLEH B. HJ A. SUHAIMI |  | [:octocat:](https://github.com/)  |
-| 2 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN |  | [:octocat:](https://github.com/)  |
+| 1 | A. SHARILFAZLEE SALLEH B. HJ A. SUHAIMI | Spek1993 | [:octocat:](https://github.com/Spek1993)  |
+| 2 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN | alanscotch | [:octocat:](https://github.com/alanscotch)  |
 | 3 | AHMAD SYAUQIE BIN AHMAD | ASA42000 | [:octocat:](https://github.com/ASA42000)  |
 | 4 | AMMAR HAFIY BIN MUHAMMAD | amrhfy | [:octocat:](https://github.com/amrhfy)  |
 | 5 | AMMAR IBRAHIM BIN MOHAMED | ammaribrahim95 | [:octocat:](https://github.com/ammaribrahim95)  |
 | 6 | EL INSYIRAAH FATHIN BINTI AMIRUDDIN | elleamyr | [:octocat:](https://github.com/elleamyr)  |
 | 7 | ALEXANDER MCCAFFER REDIK | alexmccaffer | [:octocat:](https://github.com/alexmccaffer)  |
-| 8 | IKHMAL SYAZREEL BIN MOHD AZIZAN |  | [:octocat:](https://github.com/)  |
+| 8 | IKHMAL SYAZREEL BIN MOHD AZIZAN | syazreel28 | [:octocat:](https://github.com/syazreel28)  |
 | 9 | ISMAIL BIN AMAN | oldpistol | [:octocat:](https://github.com/oldpistol)  |
 | 10 | LOGESWARY A/P KRISHNAMOORTHY | Logeswary98 | [:octocat:](https://github.com/Logeswary98)  |
-| 11 | MOGANAKUMARAN A/L SELVAKUMARAN |  | [:octocat:](https://github.com/)  |
+| 11 | MOGANAKUMARAN A/L SELVAKUMARAN | RN1310 | [:octocat:](https://github.com/RN1310)  |
 | 12 | MOHAMAD ZUL IKMAL BIN MOHAMMAD RAZAL | lamki | [:octocat:](https://github.com/lamki)  |
 | 13 | MOHD NOOR HAFIZ BIN MUHAMAD SAID | mohdnoorhafiz | [:octocat:](https://github.com/mohdnoorhafiz)  |
 | 14 | MUHAMMAD AZAM BIN AZMAN | azamazman96 | [:octocat:](https://github.com/azamazman96)  |
