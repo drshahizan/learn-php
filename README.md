@@ -71,7 +71,8 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 32 | WAN ASMAA' SYAHIRAH BINTI ABD MALEK | twilighttttt | [:octocat:](https://github.com/twilighttttt)  |
 | 33 | ADAM SHAH BIN MOHD FAIZAL | adamshahmf | [:octocat:](https://github.com/adamshahmf)  |
 
-
+# Important things
+## [Lecture Notes](.)
 ## [Code Samples](./materials)
 ## [Labs](./lab)
 ### Hypertext Markup Language (HTML)
