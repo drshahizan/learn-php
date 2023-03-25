@@ -73,7 +73,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 
 ## [Code Samples](./materials)
-# [Labs]()
+## [Labs]()
 
 ## Introduction to Web Programming
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
