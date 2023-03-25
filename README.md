@@ -150,17 +150,10 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [HTML Cheat Sheet - Stanford](https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
 - [Top 3 Biggest 'Misteaks' In Web Design](./materials/top3misteaks.ppt)
 
-### E-book
-
-- [Free eBook: HTML & CSS Design and Build Websites 🔥]()
-- [Chapter 4. Creating a Simple Page: (HTML Overview) - oreilly]()
-- [Free eBook: Learning HTML]()
-- [Free eBook: How To Build a Website with CSS and HTML]()
-
 ## CSS
-- [Navigational Structures]()
-- [Introduction to CSS]()
-- [Fonts and Web Fonts]()
+- [Navigational Structures](https://cs.wellesley.edu/~cs110/lectures/WebNavigation/)
+- [Introduction to CSS](https://cs.wellesley.edu/~cs115/readings/CSS1.html)
+- [Fonts and Web Fonts](https://cs.wellesley.edu/~cs110/reading/fonts.html)
 - [Responsive Web Design]()
 
 ### E-book
