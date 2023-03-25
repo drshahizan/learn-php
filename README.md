@@ -72,7 +72,8 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 33 | ADAM SHAH BIN MOHD FAIZAL | adamshahmf | [:octocat:](https://github.com/adamshahmf)  |
 
 
-## [Code Samples](https://github.com/drshahizan/learn-php/tree/main/materials)
+## [Code Samples](./materials)
+# [Labs]()
 
 ## Introduction to Web Programming
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
