@@ -137,18 +137,17 @@ This course is designed to introduce students the fundamental of knowledge, tech
 ## HTML
 
 ### Useful Links
-- [What tools do the professionals use? 🔥]()
-- [Are HTML and JavaScript both the same?]()
-- [Infographic: What’s the Difference between HTML vs CSS?]()
-- [W3C validator: Markup Validation Service 🔥]()
-- [W3Schools: HTML 🔥]()
-- [Emmet.io — the essential toolkit for web-developers]()
-- [Learn to Code HTML & CSS Develop & Style Websites]()
-- [Free Web Development Tutorials for those who are broke and cannot afford paid courses.]()
-- [Document and website structure]()
-- [HTML5 Periodical Table]()
-- [HTML Cheat Sheet]()
-- [HTML Cheat Sheet - Stanford]()
+- [What tools do the professionals use? 🔥](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software#what_tools_do_the_professionals_use)
+- [Are HTML and JavaScript both the same?](https://www.quora.com/Are-HTML-and-JavaScript-both-the-same)
+- [W3C validator: Markup Validation Service 🔥](https://validator.w3.org/)
+- [W3Schools: HTML 🔥](https://www.w3schools.com/html/default.asp)
+- [Emmet.io — the essential toolkit for web-developers](https://emmet.io/)
+- [Learn to Code HTML & CSS Develop & Style Websites](https://learn.shayhowe.com/html-css/)
+- [Free Web Development Tutorials for those who are broke and cannot afford paid courses.](https://www.reddit.com/r/learnjavascript/comments/8sulvf/free_web_development_tutorials_for_those_who_are/)
+- [Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+- [HTML5 Periodical Table](https://websitesetup.org/html5-periodical-table/)
+- [HTML Cheat Sheet](https://htmlcheatsheet.com/)
+- [HTML Cheat Sheet - Stanford](https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
 - [Top 3 Biggest 'Misteaks' In Web Design]()
 
 ### E-book
