@@ -126,13 +126,13 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Udemy: Beginner VS Code](https://www.udemy.com/course/beginner-vs-code/)
 
 ## Code Quality Guide
-- [General Guidelines]()
-- [Google HTML/ CSS Style Guide]()
-- [HTML]()
-- [CSS]()
-- [JavaScript]()
-- [SQL]()
-- [The little book of HTML/CSS coding guidelines – O'Reilly]()
+- [General Guidelines](https://courses.cs.washington.edu/courses/cse154/codequalityguide/)
+- [Google HTML/ CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- [HTML](https://courses.cs.washington.edu/courses/cse154/codequalityguide/html/)
+- [CSS](https://courses.cs.washington.edu/courses/cse154/codequalityguide/css/)
+- [JavaScript](https://courses.cs.washington.edu/courses/cse154/codequalityguide/javascript/)
+- [SQL](https://courses.cs.washington.edu/courses/cse154/codequalityguide/sql/)
+- [The little book of HTML/CSS coding guidelines – O'Reilly](https://www.oreilly.com/content/little-book-html-css-coding-guidelines/)
 
 ## HTML
 
