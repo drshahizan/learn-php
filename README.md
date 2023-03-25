@@ -72,8 +72,9 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 33 | ADAM SHAH BIN MOHD FAIZAL | adamshahmf | [:octocat:](https://github.com/adamshahmf)  |
 
 # Important things
-## [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
-## [Code Samples](./materials)
+1. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
+2. [Code Samples](./materials)
+
 ## [Labs](./lab)
 ### Hypertext Markup Language (HTML)
 
