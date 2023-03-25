@@ -64,7 +64,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 16 | MUHAMMAD FAIZ FITRI BIN MOHD NOH | AshuraRin | [:octocat:](https://github.com/AshuraRin)  |
 | 17 | MUHAMMAD HAFIZ BIN ISKANDAR | mhafiziskandar | [:octocat:](https://github.com/mhafiziskandar)  |
 | 18 | NABILAH BINTI ABD RAHMAN | nabilaharahman | [:octocat:](https://github.com/nabilaharahman)  |
-| 19 | NOR HAZIDA BINTI HAMDAN | hazida | [:octocat:](https://github.com/) | <a href="https://github.com/hazida" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 19 | NOR HAZIDA BINTI HAMDAN | hazida | [:octocat:](https://github.com/hazida) | 
 | 20 | SEPRIYANDI BIN AGUSR | sepz36 | [:octocat:](https://github.com/sepz36)  |
 | 21 | SHANMUGADHARSHINI A/P MURALI | Shan9821 | [:octocat:](https://github.com/Shan9821)  |
 | 22 | SITI DZIN NORSYAFIKA BINTI MOHD ISA | dzinsyafika97 | [:octocat:](https://github.com/dzinsyafika97)  |
