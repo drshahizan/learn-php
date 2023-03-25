@@ -74,7 +74,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 ## [Code Samples](./materials)
 ## [Labs](./lab)
-## Hypertext Markup Language (HTML)
+### Hypertext Markup Language (HTML)
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
