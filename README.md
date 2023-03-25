@@ -34,6 +34,11 @@ Don't forget to hit the :star: if you like this repo.
 ## Synopsis
 This course is designed to introduce students the fundamental of knowledge, technologies and components for web application developments. The basic topics includes the standard HTML for content creation, CSS for content presentation, JavaScript for client-side logics, PHP for server-side logics and MySQL for data processing. At the end of the course, the students should be able to apply the web base technologies and then implement it all in the creating functional data-centric online system project.
 
+## 🔥 Important things
+1. [Course Outline](./materials/CI%20Web%20Prog%20.pdf)
+2. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
+3. [Code Samples](./materials)
+
 ## Student Information
 
 | No | Name | ID |  Github | 
@@ -71,11 +76,6 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 31 | BARANI A/P POOVALAN | barani2014 | [:octocat:](https://github.com/barani2014)  |
 | 32 | WAN ASMAA' SYAHIRAH BINTI ABD MALEK | twilighttttt | [:octocat:](https://github.com/twilighttttt)  |
 | 33 | ADAM SHAH BIN MOHD FAIZAL | adamshahmf | [:octocat:](https://github.com/adamshahmf)  |
-
-# 🔥 Important things
-1. [Course Outline](./materials/CI%20Web%20Prog%20.pdf)
-2. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
-3. [Code Samples](./materials)
 
 ## [Labs](./lab)
 ### Hypertext Markup Language (HTML)
