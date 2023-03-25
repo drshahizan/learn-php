@@ -38,7 +38,9 @@ This course is designed to introduce students the fundamental of knowledge, tech
 1. [Course Outline](./materials/CI%20Web%20Prog%20.pdf)
 2. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
 3. [Code Samples](./materials)
-4. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
+4. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
+5. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
+
 
 ## Student Information
 
