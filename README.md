@@ -38,6 +38,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 1. [Course Outline](./materials/CI%20Web%20Prog%20.pdf)
 2. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
 3. [Code Samples](./materials)
+4. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
 
 ## Student Information
 
@@ -200,8 +201,8 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 ### E-book & Web Template
 
-- [Twitter Bootstrap 4 Succinctly]()
-- [Bootstrap 4 By Example]()
+- [Twitter Bootstrap 4 Succinctly](https://www.syncfusion.com/succinctly-free-ebooks/twitterbootstrap4-succinctly)
+- [Bootstrap 4 By Example](https://github.com/NedyUdombat/Free-Web-Development-eBooks/blob/master/book/Bootstrap/Bootstrap%204%20By%20Example.pdf)
 - [DevBook]()
 - [100+ Best Free Bootstrap Admin Templates]()
 - [63+ Bootstrap Free Themes and Templates]()
