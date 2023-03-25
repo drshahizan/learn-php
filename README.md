@@ -148,7 +148,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [HTML5 Periodical Table](https://websitesetup.org/html5-periodical-table/)
 - [HTML Cheat Sheet](https://htmlcheatsheet.com/)
 - [HTML Cheat Sheet - Stanford](https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
-- [Top 3 Biggest 'Misteaks' In Web Design]()
+- [Top 3 Biggest 'Misteaks' In Web Design](./materials/top3misteaks.ppt)
 
 ### E-book
 
