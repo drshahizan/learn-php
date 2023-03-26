@@ -68,12 +68,12 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 20 | SEPRIYANDI BIN AGUSR | sepz36 | [:octocat:](https://github.com/sepz36)  |
 | 21 | SHANMUGADHARSHINI A/P MURALI | Shan9821 | [:octocat:](https://github.com/Shan9821)  |
 | 22 | SITI DZIN NORSYAFIKA BINTI MOHD ISA | dzinsyafika97 | [:octocat:](https://github.com/dzinsyafika97)  |
-| 23 | SUBAHSHINI A/P SANGARA LINGAM |  | [:octocat:](https://github.com/)  |
+| 23 | SUBAHSHINI A/P SANGARA LINGAM | Subahshini15 | [:octocat:](https://github.com/Subahshini15)  |
 | 24 | SYAIFUL ALFRAIZA BIN AINI ABDULLAH | syaifulalfraiza | [:octocat:](https://github.com/syaifulalfraiza)  |
 | 25 | MOHAMED HARIS BIN MOHAMED MAZLAN | harismazlan | [:octocat:](https://github.com/harismazlan)  |
 | 26 | MUHAMMAD FAHMI BIN CHE AB WAHAB | fahmiwahab29 | [:octocat:](https://github.com/fahmiwahab29)  |
 | 27 | MUHAMMAD FAIZAL BIN ASARAB ALI | Faizal994 | [:octocat:](https://github.com/Faizal994)  |
-| 28 | MUHAMMAD SYAZWAN BIN NAZRI |  | [:octocat:](https://github.com/)  |
+| 28 | MUHAMMAD SYAZWAN BIN NAZRI |  |  |
 | 29 | SASHILA SRE A/P RAMADASS | sreshila30 | [:octocat:](https://github.com/sreshila30)  |
 | 30 | SHARVIN A/L M.GUNALAN | Sharvin01 | [:octocat:](https://github.com/Sharvin01)  |
 | 31 | BARANI A/P POOVALAN | barani2014 | [:octocat:](https://github.com/barani2014)  |
