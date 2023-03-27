@@ -38,6 +38,9 @@ This course is designed to introduce students the fundamental of knowledge, tech
 1. [Course Outline](./materials/CI%20Web%20Prog%20.pdf)
 2. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
 3. [Code Samples](./materials)
+4. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
+5. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
+
 
 ## Student Information
 
@@ -61,16 +64,16 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 16 | MUHAMMAD FAIZ FITRI BIN MOHD NOH | AshuraRin | [:octocat:](https://github.com/AshuraRin)  |
 | 17 | MUHAMMAD HAFIZ BIN ISKANDAR | mhafiziskandar | [:octocat:](https://github.com/mhafiziskandar)  |
 | 18 | NABILAH BINTI ABD RAHMAN | nabilaharahman | [:octocat:](https://github.com/nabilaharahman)  |
-| 19 | NOR HAZIDA BINTI HAMDAN | hazida | [:octocat:](https://github.com/) | <a href="https://github.com/hazida" ><img src="./images/calendar-24.svg" width="20px" height="20px" ></a> |
+| 19 | NOR HAZIDA BINTI HAMDAN | hazida | [:octocat:](https://github.com/hazida) | 
 | 20 | SEPRIYANDI BIN AGUSR | sepz36 | [:octocat:](https://github.com/sepz36)  |
 | 21 | SHANMUGADHARSHINI A/P MURALI | Shan9821 | [:octocat:](https://github.com/Shan9821)  |
 | 22 | SITI DZIN NORSYAFIKA BINTI MOHD ISA | dzinsyafika97 | [:octocat:](https://github.com/dzinsyafika97)  |
-| 23 | SUBAHSHINI A/P SANGARA LINGAM |  | [:octocat:](https://github.com/)  |
+| 23 | SUBAHSHINI A/P SANGARA LINGAM | Subahshini15 | [:octocat:](https://github.com/Subahshini15)  |
 | 24 | SYAIFUL ALFRAIZA BIN AINI ABDULLAH | syaifulalfraiza | [:octocat:](https://github.com/syaifulalfraiza)  |
 | 25 | MOHAMED HARIS BIN MOHAMED MAZLAN | harismazlan | [:octocat:](https://github.com/harismazlan)  |
 | 26 | MUHAMMAD FAHMI BIN CHE AB WAHAB | fahmiwahab29 | [:octocat:](https://github.com/fahmiwahab29)  |
 | 27 | MUHAMMAD FAIZAL BIN ASARAB ALI | Faizal994 | [:octocat:](https://github.com/Faizal994)  |
-| 28 | MUHAMMAD SYAZWAN BIN NAZRI |  | [:octocat:](https://github.com/)  |
+| 28 | MUHAMMAD SYAZWAN BIN NAZRI |  |  |
 | 29 | SASHILA SRE A/P RAMADASS | sreshila30 | [:octocat:](https://github.com/sreshila30)  |
 | 30 | SHARVIN A/L M.GUNALAN | Sharvin01 | [:octocat:](https://github.com/Sharvin01)  |
 | 31 | BARANI A/P POOVALAN | barani2014 | [:octocat:](https://github.com/barani2014)  |
@@ -158,58 +161,58 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 ### E-book
 
-- [Essential HTML & CSS books (free e- books)]()
-- [CSS Books]()
+- [Essential HTML & CSS books (free e- books)](https://cssauthor.com/free-html-and-css-books/https://freefrontend.com/html-css-books/#css-books)
+- [CSS Books](https://freefrontend.com/html-css-books/#css-books)
 
 ### Useful Links
 
-- [CSS Generators]()
-- [CSS Tools]()
-- [CSS Resources]()
-- [Stop using so many divs! An intro to semantic HTML]()
-- [CSS Cheat Sheet]()
-- [CSS Code Examples]()
-- [Learn CSS Grid by building a simple Calculator Layout]()
-- [Video: Build a Calculator with CSS Grid]()
-- [Best HTML and CSS Cheat Sheets]()
-- [CSS2 Cheat Sheet]()
-- [Devopedia: Cascading Style Sheets]()
-- [Khan Academy: CSS box model]()
-- [Devopedia: CSS Box Model]()
-- [Devopedia: CSS Flexbox]()
-- [Devopedia: CSS Grid Layout]()
-- [CSS layout]()
-- [Box Model: CSS Website Layout]()
-- [W3.CSS Layout]()
-- [Getting Started With CSS Layout]()
-- [Grid by Example]()
+- [CSS Generators](https://www.cssportal.com/css-generators.php)
+- [CSS Tools](https://www.cssportal.com/css-tools.php)
+- [CSS Resources](https://www.cssportal.com/css-resources.php)
+- [Stop using so many divs! An intro to semantic HTML](https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i)
+- [CSS Cheat Sheet](https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf)
+- [CSS Code Examples](https://freefrontend.com/css-code-examples/)
+- [Learn CSS Grid by building a simple Calculator Layout](https://freshman.tech/css-grid-calculator/)
+- [Video: Build a Calculator with CSS Grid](https://www.youtube.com/watch?v=9PzkWxleT5E)
+- [Best HTML and CSS Cheat Sheets](https://cssauthor.com/html-and-css-cheat-sheets/)
+- [CSS2 Cheat Sheet](https://cheatography.com/davechild/cheat-sheets/css2/)
+- [Devopedia: Cascading Style Sheets](https://devopedia.org/cascading-style-sheets)
+- [Khan Academy: CSS box model](https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pt/css-box-model)
+- [Devopedia: CSS Box Model](https://devopedia.org/css-box-model)
+- [Devopedia: CSS Flexbox](https://devopedia.org/css-flexbox)
+- [Devopedia: CSS Grid Layout](https://devopedia.org/css-grid-layout)
+- [CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+- [Box Model: CSS Website Layout](https://www.w3schools.com/css/css_website_layout.asp)
+- [W3.CSS Layout](https://www.w3schools.com/w3css/w3css_layout.asp)
+- [Getting Started With CSS Layout](https://www.smashingmagazine.com/2018/05/guide-css-layout/)
+- [Grid by Example](https://gridbyexample.com/)
 
 ##  Bootstrap
 
 ### Useful Links
-- [Difference Between Bootstrap and CSS]()
-- [W3.CSS vs. Bootstrap: A Head-to-Head Comparison]()
-- [Bootstrap vs HTML5]()
-- [Video: Learn Bootstrap in 5 minutes | Responsive Website Tutorial | Code in 5]()
-- [Video: Learn Bootstrap in less than 20 minutes - Responsive Website Tutorial]()
-- [How to Setup and Use Bootstrap (Step-by-Step)]()
-- [tutorialrepublic Bootstrap Tutorial]()
-- [w3schools Bootstrap 4 Tutorial]()
-- [Learn Bootstrap 4 in 30 minutes by building a landing page website]()
-- [Download: Getbootstrap]()
+- [Difference Between Bootstrap and CSS](https://pediaa.com/difference-between-bootstrap-and-css/#:~:text=The%20main%20difference%20between%20Bootstrap,HTML%2C%20CSS%2C%20and%20JavaScript.)
+- [W3.CSS vs. Bootstrap: A Head-to-Head Comparison](https://blog.hubspot.com/website/w3-css-vs-bootstrap)
+- [Bootstrap vs HTML5](https://stackshare.io/stackups/bootstrap-vs-html5)
+- [Video: Learn Bootstrap in 5 minutes | Responsive Website Tutorial | Code in 5](https://www.youtube.com/watch?v=yalxT0PEx8c)
+- [Video: Learn Bootstrap in less than 20 minutes - Responsive Website Tutorial](https://www.youtube.com/watch?v=eow125xV5-c)
+- [How to Setup and Use Bootstrap (Step-by-Step)](https://websitesetup.org/bootstrap-tutorial-for-beginners/)
+- [tutorialrepublic Bootstrap Tutorial](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/)
+- [w3schools Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/)
+- [Learn Bootstrap 4 in 30 minutes by building a landing page website](https://www.freecodecamp.org/news/learn-bootstrap-4-in-30-minute-by-building-a-landing-page-website-guide-for-beginners-f64e03833f33/)
+- [Download: Getbootstrap](https://getbootstrap.com/)
 
 ### E-book & Web Template
 
-- [Twitter Bootstrap 4 Succinctly]()
-- [Bootstrap 4 By Example]()
-- [DevBook]()
-- [100+ Best Free Bootstrap Admin Templates]()
-- [63+ Bootstrap Free Themes and Templates]()
-- [40 Best Free & Responsive Admin Templates 2021]()
-- [20 Free Bootstrap Admin & Dashboard Templates]()
-- [1000+ Free Bootstrap HTML5 CSS3 Website Templates]()
-- [50+ Creative Free Bootstrap Templates & HTML5 Templates]()
-- [High Quality Free Bootstrap Templates and Themes for your Websites]()
+- [Twitter Bootstrap 4 Succinctly](https://www.syncfusion.com/succinctly-free-ebooks/twitterbootstrap4-succinctly)
+- [Bootstrap 4 By Example](https://github.com/NedyUdombat/Free-Web-Development-eBooks/blob/master/book/Bootstrap/Bootstrap%204%20By%20Example.pdf)
+- [DevBook](https://themes.3rdwavemedia.com/bootstrap-templates/product/devbook-free-bootstrap-5-book-ebook-landing-page-template-for-developers/)
+- [100+ Best Free Bootstrap Admin Templates](https://cssauthor.com/bootstrap-admin-templates/)
+- [Free Bootstrap Templates - creative-tim](https://www.creative-tim.com/bootstrap-themes/free)
+- [Best Responsive Admin Templates](https://colorlib.com/wp/free-admin-templates/)
+- [25 Free Bootstrap Dashboard & Admin Templates for 2023](https://speckyboy.com/free-bootstrap-admin-themes/)
+- [1000+ Free Bootstrap HTML5 CSS3 Website Templates](https://themewagon.com/theme-price/free/)
+- [50+ Creative Free Bootstrap Templates & HTML5 Templates](https://themefisher.com/free-bootstrap-templates)
+- [High Quality Free Bootstrap Templates and Themes for your Websites](https://bootstrapmart.com/)
 
 
 ## JavaScript
