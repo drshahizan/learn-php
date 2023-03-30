@@ -13,7 +13,6 @@ Don't forget to hit the :star: if you like this repo.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 0 | HTML | Your first HTML Page |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab0" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 1 | HTML | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 2 | HTML | Troubleshooting HTML 🔥 |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 3 | HTML | Format an article with HTML 🔥 |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab3" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
@@ -45,18 +44,6 @@ Don't forget to hit the :star: if you like this repo.
 | 3 | JS | JavaScript (Advanced) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 4 | JS | JS Part 1 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 | 5 | JS | JS Part 2 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-
-## Hypertext Preprocessor (PHP)
-
-| Lab | Topic | Title | Files |
-| -----: | ----- | ----- | :------: | 
-| 1 | PHP | How to Install XAMPP Server on Windows 11 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 2 | PHP | How to add PHP Intelephense and PHP Server extensions in VSC |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 3 | PHP | Introduction To PHP |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | PHP | How to run PHP on Visual Studio Code |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 5 | PHP | HP & MySQL source code |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 6 | PHP | Tourism Management System |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 7 | PHP | Hospital Management System |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
