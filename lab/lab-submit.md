@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Student Information
 
-| No | Name | ID |  Github | 
+| No | ID |  Github | 
 | ----- | ----- | ------ | :------: | 
 | 1 | A. SHARILFAZLEE SALLEH B. HJ A. SUHAIMI | Spek1993 | [:octocat:](https://github.com/Spek1993)  |
 | 2 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN | alanscotch | [:octocat:](https://github.com/alanscotch)  |
@@ -44,3 +44,10 @@ Don't forget to hit the :star: if you like this repo.
 | 31 | BARANI A/P POOVALAN | barani2014 | [:octocat:](https://github.com/barani2014)  |
 | 32 | WAN ASMAA' SYAHIRAH BINTI ABD MALEK | twilighttttt | [:octocat:](https://github.com/twilighttttt)  |
 | 33 | ADAM SHAH BIN MOHD FAIZAL | adamshahmf | [:octocat:](https://github.com/adamshahmf)  |
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
