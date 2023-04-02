@@ -33,7 +33,7 @@ Don't forget to hit the :star: if you like this repo.
 | 20 | [mohdnoorhafiz](https://github.com/mohdnoorhafiz)  |
 | 21 | [nabilaharahman](https://github.com/nabilaharahman)  |
 | 22 | [oldpistol](https://github.com/oldpistol)  |
-| 23 | RN1310](https://github.com/RN1310)  |
+| 23 | [RN1310](https://github.com/RN1310)  |
 | 24 | [sepz36](https://github.com/sepz36)  |
 | 25 | [Shan9821](https://github.com/Shan9821)  |
 | 26 | [Sharvin01](https://github.com/Sharvin01)  |
