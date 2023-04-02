@@ -23,16 +23,16 @@ Don't forget to hit the :star: if you like this repo.
 | 10 | LOGESWARY A/P KRISHNAMOORTHY | [Logeswary98](https://github.com/Logeswary98)  |
 | 11 | MOGANAKUMARAN A/L SELVAKUMARAN | [RN1310](https://github.com/RN1310)  |
 | 12 | MOHAMAD ZUL IKMAL BIN MOHAMMAD RAZAL | [lamki](https://github.com/lamki)  |
-| 13 | MOHD NOOR HAFIZ BIN MUHAMAD SAID | [mohdnoorhafiz](https://github.com/mohdnoorhafiz)  |
-| 14 | MUHAMMAD AZAM BIN AZMAN | [azamazman96](https://github.com/azamazman96)  | Y |
-| 15 | MUHAMMAD BADRUL AMIN BIN MASROL | [badz20](https://github.com/badz20)  | Y |
-| 16 | MUHAMMAD FAIZ FITRI BIN MOHD NOH | [AshuraRin](https://github.com/AshuraRin)  |
-| 17 | MUHAMMAD HAFIZ BIN ISKANDAR | [mhafiziskandar](https://github.com/mhafiziskandar)  |
-| 18 | NABILAH BINTI ABD RAHMAN | [nabilaharahman](https://github.com/nabilaharahman)  |
-| 19 | NOR HAZIDA BINTI HAMDAN | [hazida](https://github.com/hazida) | 
-| 20 | SEPRIYANDI BIN AGUSR | [sepz36](https://github.com/sepz36)  |
-| 21 | SHANMUGADHARSHINI A/P MURALI | [Shan9821](https://github.com/Shan9821)  |
-| 22 | SITI DZIN NORSYAFIKA BINTI MOHD ISA | [dzinsyafika97](https://github.com/dzinsyafika97)  | Y |
+| 20 | [mohdnoorhafiz](https://github.com/mohdnoorhafiz)  |
+| 8 | [azamazman96](https://github.com/azamazman96)  | Y |
+| 9 | [badz20](https://github.com/badz20)  | Y |
+| 7 | [AshuraRin](https://github.com/AshuraRin)  |
+| 19 | [mhafiziskandar](https://github.com/mhafiziskandar)  |
+| 21 | [nabilaharahman](https://github.com/nabilaharahman)  |
+| 16 | [hazida](https://github.com/hazida) | 
+| 24 | [sepz36](https://github.com/sepz36)  |
+| 25 | [Shan9821](https://github.com/Shan9821)  |
+| 11 | [dzinsyafika97](https://github.com/dzinsyafika97)  | Y |
 | 29 | [Subahshini15](https://github.com/Subahshini15)  |
 | 30 | [syaifulalfraiza](https://github.com/syaifulalfraiza)  |
 | 15 | [harismazlan](https://github.com/harismazlan)  |
