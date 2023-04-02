@@ -33,17 +33,16 @@ Don't forget to hit the :star: if you like this repo.
 | 20 | SEPRIYANDI BIN AGUSR | [sepz36](https://github.com/sepz36)  |
 | 21 | SHANMUGADHARSHINI A/P MURALI | [Shan9821](https://github.com/Shan9821)  |
 | 22 | SITI DZIN NORSYAFIKA BINTI MOHD ISA | [dzinsyafika97](https://github.com/dzinsyafika97)  | Y |
-| 23 | SUBAHSHINI A/P SANGARA LINGAM | [Subahshini15](https://github.com/Subahshini15)  |
-| 24 | SYAIFUL ALFRAIZA BIN AINI ABDULLAH | [syaifulalfraiza](https://github.com/syaifulalfraiza)  |
-| 25 | MOHAMED HARIS BIN MOHAMED MAZLAN | [harismazlan](https://github.com/harismazlan)  |
-| 26 | MUHAMMAD FAHMI BIN CHE AB WAHAB | [fahmiwahab29](https://github.com/fahmiwahab29)  |
-| 27 | MUHAMMAD FAIZAL BIN ASARAB ALI | [Faizal994](https://github.com/Faizal994)  |
-| 28 | MUHAMMAD SYAZWAN BIN NAZRI |  |  |
-| 29 | SASHILA SRE A/P RAMADASS | [sreshila30](https://github.com/sreshila30)  |
-| 30 | SHARVIN A/L M.GUNALAN | [Sharvin01](https://github.com/Sharvin01)  |
-| 31 | BARANI A/P POOVALAN | [barani2014](https://github.com/barani2014)  |
-| 32 | WAN ASMAA' SYAHIRAH BINTI ABD MALEK | [twilighttttt](https://github.com/twilighttttt)  |
-| 33 | ADAM SHAH BIN MOHD FAIZAL | [adamshahmf](https://github.com/adamshahmf)  | Y |
+| 29 | [Subahshini15](https://github.com/Subahshini15)  |
+| 30 | [syaifulalfraiza](https://github.com/syaifulalfraiza)  |
+| 15 | [harismazlan](https://github.com/harismazlan)  |
+| 13 | [fahmiwahab29](https://github.com/fahmiwahab29)  |
+| 14 | [Faizal994](https://github.com/Faizal994)  |
+| 28 | [sreshila30](https://github.com/sreshila30)  |
+| 26 | [Sharvin01](https://github.com/Sharvin01)  |
+| 10 | [barani2014](https://github.com/barani2014)  |
+| 32 | [twilighttttt](https://github.com/twilighttttt)  |
+| 1 | [adamshahmf](https://github.com/adamshahmf)  | Y |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
