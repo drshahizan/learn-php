@@ -9,8 +9,8 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Lab Submission
 
-| No | ID |  Name| Github | 1 | 2 | 3 | 4 | 5 | 6 |
-| ----- | ----- | ------ | :------: | ------:|------:|------:| ------:|------:|------:|
+| No | ID |  Name | 1 | 2 | 3 | 4 | 5 | 6 |
+| ----- | ----- | ------ | :------: | ------:|------:|------:| ------:|------:|
 | 1 | A. SHARILFAZLEE SALLEH B. HJ A. SUHAIMI | [Spek1993](https://github.com/Spek1993)  |
 | 2 | AHMAD HUMAIDI FIRDAUS BIN MOHAMMAD DIN | [alanscotch](https://github.com/alanscotch)  |
 | 3 | AHMAD SYAUQIE BIN AHMAD | [ASA42000](https://github.com/ASA42000)  |
