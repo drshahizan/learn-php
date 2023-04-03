@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab Exercise
 
-## [Submission status](.)
+## [Submission status](./lab-submit.md)
 
 ## Hypertext Markup Language (HTML)
 
