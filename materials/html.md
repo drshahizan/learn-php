@@ -11,7 +11,6 @@ Don't forget to hit the :star: if you like this repo.
 
 ## 1. `<html>`
 This tag indicates the start and end of an HTML document. All other tags should be nested inside this tag.
-Example:
 
 ```php
 <!DOCTYPE html>
@@ -25,8 +24,8 @@ Example:
 </html>
 ```
 
-## 2. `<head>: This tag contains metadata about the HTML document, such as the title, stylesheets, and scripts. This tag is not visible to the user.
-Example:
+## 2. `<head>`
+This tag contains metadata about the HTML document, such as the title, stylesheets, and scripts. This tag is not visible to the user.
 
 ```php
 <head>
@@ -36,8 +35,8 @@ Example:
 </head>
 ```
   
-## 3. `<body>: This tag contains the visible content of the web page, such as headings, paragraphs, images, and links.
-Example:
+## 3. `<body>`
+This tag contains the visible content of the web page, such as headings, paragraphs, images, and links.
 
 ```php
 <body>
@@ -48,8 +47,8 @@ Example:
 </body>
 ```
   
-## 4. `<h1> to <h6>: These tags are used to create headings of different levels. The <h1> tag is the most important heading, and the <h6> tag is the least important.
-Example:
+## 4. `<h1>` to `<h6>`
+These tags are used to create headings of different levels. The <h1> tag is the most important heading, and the <h6> tag is the least important.
   
 ```php
 <h1>This is a Level 1 Heading</h1>
@@ -60,25 +59,23 @@ Example:
 <h6>This is a Level 6 Heading</h6>
 ```
   
-## 5. `<p>: This tag is used to create paragraphs of text.
-Example:
+## 5. `<p>`
+This tag is used to create paragraphs of text.
 
 ```php
 <p>This is a paragraph of text.</p>
 <p>This is another paragraph of text.</p>
 ```
 
-## 6. `<a>: This tag is used to create links to other web pages or to specific locations on the same page.
-Example:
+## 6. `<a>`
+This tag is used to create links to other web pages or to specific locations on the same page.
 
 ```php
 <a href="https://example.com">Click here to go to Example.com</a>
 <a href="#section2">Click here to go to Section 2</a>
 
-## 7. `<img>: 
+## 7. `<img>`
 This tag is used to insert images into the web page.
-
-Example:
 
 ```php
 <img src="image.jpg" alt="An image">
