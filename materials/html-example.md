@@ -349,7 +349,7 @@ Explanation of the important tagging:
        </footer>
    </body>
 </html>
-  ```html
+  ```
                                                                                                                                  
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
