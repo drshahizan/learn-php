@@ -85,4 +85,11 @@ Here is an explanation of the important tagging used in this HTML page:
 
 <p>: This tag represents a paragraph of text.
 
-<h1> to <h6>: These tags represent headings of different levels, with <h1> being the largest and most important heading, and `<
+<h1> to <h6>: These tags represent headings of different levels, with <h1> being the largest and most important heading, and `<\
+                                                                                                                                 
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
