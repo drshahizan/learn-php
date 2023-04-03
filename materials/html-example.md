@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # How to create a simple HTML page with all the important tagging
 
-## Example 1
+## Example 1: My First HTML Page
 
 ```html
 <!DOCTYPE html>
@@ -90,7 +90,7 @@ Here is an explanation of the important tagging used in this HTML page:
 
 - `<h1>` to `<h6>`: These tags represent headings of different levels, with `<h1>` being the largest and most important heading.
 
-## Example 2
+## Example 2: My First HTML Page (Contact me)
 
 ```html
 <!DOCTYPE html>
@@ -174,6 +174,182 @@ Explanation of the important tagging:
 
 -`<form>`: This tag defines a form, which is used to collect data from the user.
 
+## Example 3: Course Registration Form
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Registration Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Course Registration Form</h1>
+	</header>
+	<main>
+		<form action="submit-form.php" method="post">
+			<fieldset>
+				<legend>Personal Information</legend>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required>
+
+				<label for="address">Address:</label>
+				<input type="text" id="address" name="address" required>
+
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city" required>
+
+				<label for="state">State:</label>
+				<input type="text" id="state" name="state" required>
+
+				<label for="zip">Zip Code:</label>
+				<input type="text" id="zip" name="zip" required>
+			</fieldset>
+
+			<fieldset>
+				<legend>Course Information</legend>
+				<label for="course">Course:</label>
+				<select id="course" name="course" required>
+					<option value="">Select a course</option>
+					<option value="html">HTML</option>
+					<option value="css">CSS</option>
+					<option value="js">JavaScript</option>
+					<option value="php">PHP</option>
+				</select><br>
+
+				<label for="level">Level:</label>
+				<input type="radio" id="beginner" name="level" value="beginner" required>
+				<label for="beginner">Beginner</label>
+
+				<input type="radio" id="intermediate" name="level" value="intermediate" required>
+				<label for="intermediate">Intermediate</label>
+
+				<input type="radio" id="advanced" name="level" value="advanced" required>
+				<label for="advanced">Advanced</label>
+
+				<label for="start">Start Date:</label>
+				<input type="date" id="start" name="start" required>
+			</fieldset>
+
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 Course Registration Form</p>
+	</footer>
+</body>
+</html>
+```
+  
+## Example 4: Course Registration Form with <div>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Registration Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Course Registration Form</h1>
+		</header>
+		<main>
+			<form action="submit-form.php" method="post">
+				<div class="form-group">
+					<fieldset>
+						<legend>Personal Information</legend>
+						<div class="form-control">
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="name" required>
+						</div>
+
+						<div class="form-control">
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" required>
+						</div>
+
+						<div class="form-control">
+							<label for="phone">Phone:</label>
+							<input type="tel" id="phone" name="phone" required>
+						</div>
+
+						<div class="form-control">
+							<label for="address">Address:</label>
+							<input type="text" id="address" name="address" required>
+						</div>
+
+						<div class="form-control">
+							<label for="city">City:</label>
+							<input type="text" id="city" name="city" required>
+						</div>
+
+						<div class="form-control">
+							<label for="state">State:</label>
+							<input type="text" id="state" name="state" required>
+						</div>
+
+						<div class="form-control">
+							<label for="zip">Zip Code:</label>
+							<input type="text" id="zip" name="zip" required>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-group">
+					<fieldset>
+						<legend>Course Information</legend>
+						<div class="form-control">
+							<label for="course">Course:</label>
+							<select id="course" name="course" required>
+								<option value="">Select a course</option>
+								<option value="html">HTML</option>
+								<option value="css">CSS</option>
+								<option value="js">JavaScript</option>
+								<option value="php">PHP</option>
+							</select>
+						</div>
+
+						<div class="form-control">
+							<label for="level">Level:</label>
+							<input type="radio" id="beginner" name="level" value="beginner" required>
+							<label for="beginner">Beginner</label>
+
+							<input type="radio" id="intermediate" name="level" value="intermediate" required>
+							<label for="intermediate">Intermediate</label>
+
+							<input type="radio" id="advanced" name="level" value="advanced" required>
+							<label for="advanced">Advanced</label>
+						</div>
+
+						<div class="form-control">
+							<label for="start">Start Date:</label>
+							<input type="date" id="start" name="start" required>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-group">
+					<input type="submit" value="Submit">
+				</div>
+       <footer>
+          <p>&copy; 2023 Course Registration Form</p>
+       </footer>
+   </body>
+</html>
+  ```html
                                                                                                                                  
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
