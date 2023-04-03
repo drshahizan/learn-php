@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Lab Submission
 
-| No | GithubID | 1 | 2 | 3 | 4 | 5 | 6 | 3 | 4 | 5 | 6 |
+| No | GithubID | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | -----: | ----- | :------: | :------: | ------:|------:|------:| ------:|------:|------:|------:| ------:|
 | 1 | [adamshahmf](https://github.com/adamshahmf) | :white_check_mark: |
 | 2 | [alanscotch](https://github.com/alanscotch) |
