@@ -7,9 +7,42 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Useful HTML tags along with explanations and examples
+# HTML Structure
+HTML structure refers to the way in which an HTML document is organized and formatted. An HTML document has a basic structure that consists of the following elements:
 
-## 1. `<html>`
+1.<!DOCTYPE html>: This declaration defines the document type and version of HTML being used.
+
+2.<html>: This tag indicates the start and end of an HTML document. All other tags should be nested inside this tag.
+
+<head>: This tag contains metadata about the HTML document, such as the title, stylesheets, and scripts. This tag is not visible to the user.
+<body>: This tag contains the visible content of the web page, such as headings, paragraphs, images, and links.
+Here is an example of the basic structure of an HTML document:
+
+php
+Copy code
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my web page.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to My Web Page</h1>
+    <p>This is a paragraph of text.</p>
+    <img src="image.jpg" alt="An image">
+    <a href="https://example.com">Click here to go to Example.com</a>
+  </body>
+</html>
+In this example, the document type is declared as HTML5 using <!DOCTYPE html>. The content of the web page is enclosed between the <html> tags. The <head> tag contains metadata, such as the title of the page, a description, a stylesheet, and a script. The <body> tag contains the visible content of the web page, such as a heading, a paragraph, an image, and a link.
+
+Note that the structure of an HTML document can be more complex than this example, depending on the needs of the web page. However, this basic structure provides a starting point for creating an HTML document.
+
+## Useful HTML tags along with explanations and examples
+
+### 1. `<html>`
 This tag indicates the start and end of an HTML document. All other tags should be nested inside this tag.
 
 ```php
@@ -24,7 +57,7 @@ This tag indicates the start and end of an HTML document. All other tags should 
 </html>
 ```
 
-## 2. `<head>`
+### 2. `<head>`
 This tag contains metadata about the HTML document, such as the title, stylesheets, and scripts. This tag is not visible to the user.
 
 ```php
@@ -35,7 +68,7 @@ This tag contains metadata about the HTML document, such as the title, styleshee
 </head>
 ```
   
-## 3. `<body>`
+### 3. `<body>`
 This tag contains the visible content of the web page, such as headings, paragraphs, images, and links.
 
 ```php
@@ -47,7 +80,7 @@ This tag contains the visible content of the web page, such as headings, paragra
 </body>
 ```
   
-## 4. `<h1>` to `<h6>`
+### 4. `<h1>` to `<h6>`
 These tags are used to create headings of different levels. The `<h1>` tag is the most important heading, and the `<h6>` tag is the least important.
   
 ```php
@@ -59,7 +92,7 @@ These tags are used to create headings of different levels. The `<h1>` tag is th
 <h6>This is a Level 6 Heading</h6>
 ```
   
-## 5. `<p>`
+### 5. `<p>`
 This tag is used to create paragraphs of text.
 
 ```php
@@ -67,21 +100,21 @@ This tag is used to create paragraphs of text.
 <p>This is another paragraph of text.</p>
 ```
 
-## 6. `<a>`
+### 6. `<a>`
 This tag is used to create links to other web pages or to specific locations on the same page.
 
 ```php
 <a href="https://example.com">Click here to go to Example.com</a>
 <a href="#section2">Click here to go to Section 2</a>
 
-## 7. `<img>`
+### 7. `<img>`
 This tag is used to insert images into the web page.
 
 ```php
 <img src="image.jpg" alt="An image">
 ```
   
-## 8. `<ul>` and `<li>`: 
+### 8. `<ul>` and `<li>`: 
 These tags are used to create unordered lists, where each item in the list is marked with a bullet point.
 Example:
 
@@ -93,7 +126,7 @@ Example:
 </ul>
 ```
   
-## 9. `<ol>` and `<li>`
+### 9. `<ol>` and `<li>`
 These tags are used to create ordered lists, where each item in the list is numbered.
 Example:
 
@@ -105,7 +138,7 @@ Example:
 </ol>
 ```
   
-## 10. `<div>` and `<span>`
+### 10. `<div>` and `<span>`
 These tags are used to group elements together and apply styles or scripting to the group.
 
 ```php
