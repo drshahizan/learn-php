@@ -27,10 +27,10 @@ Don't forget to hit the :star: if you like this repo.
 | 14 | [Faizal994](https://github.com/Faizal994)  | :white_check_mark: |
 | 15 | [harismazlan](https://github.com/harismazlan)  |
 | 16 | [hazida](https://github.com/hazida) | 
-| 17 | [lamki](https://github.com/lamki)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 17 | [lamki](https://github.com/lamki)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |:white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 18 | [Logeswary98](https://github.com/Logeswary98)  | :white_check_mark: |
 | 19 | [mhafiziskandar](https://github.com/mhafiziskandar)  | :white_check_mark: |
-| 20 | [mohdnoorhafiz](https://github.com/mohdnoorhafiz)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 20 | [mohdnoorhafiz](https://github.com/mohdnoorhafiz)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 21 | [nabilaharahman](https://github.com/nabilaharahman)  |
 | 22 | [oldpistol](https://github.com/oldpistol)  | :white_check_mark: |
 | 23 | [RN1310](https://github.com/RN1310)  | :white_check_mark: |
