@@ -10,16 +10,17 @@ Don't forget to hit the :star: if you like this repo.
 # HTML Structure
 HTML structure refers to the way in which an HTML document is organized and formatted. An HTML document has a basic structure that consists of the following elements:
 
-1.<!DOCTYPE html>: This declaration defines the document type and version of HTML being used.
+1. `<!DOCTYPE html>`: 
+This declaration defines the document type and version of HTML being used.
 
-2.<html>: This tag indicates the start and end of an HTML document. All other tags should be nested inside this tag.
+2. `<html>`: This tag indicates the start and end of an HTML document. All other tags should be nested inside this tag.
 
-<head>: This tag contains metadata about the HTML document, such as the title, stylesheets, and scripts. This tag is not visible to the user.
-<body>: This tag contains the visible content of the web page, such as headings, paragraphs, images, and links.
+3. `<head>`: This tag contains metadata about the HTML document, such as the title, stylesheets, and scripts. This tag is not visible to the user.
+
+4. `<body>`: This tag contains the visible content of the web page, such as headings, paragraphs, images, and links.
 Here is an example of the basic structure of an HTML document:
 
-php
-Copy code
+```php
 <!DOCTYPE html>
 <html>
   <head>
@@ -36,11 +37,13 @@ Copy code
     <a href="https://example.com">Click here to go to Example.com</a>
   </body>
 </html>
-In this example, the document type is declared as HTML5 using <!DOCTYPE html>. The content of the web page is enclosed between the <html> tags. The <head> tag contains metadata, such as the title of the page, a description, a stylesheet, and a script. The <body> tag contains the visible content of the web page, such as a heading, a paragraph, an image, and a link.
+```
+  
+In this example, the document type is declared as HTML5 using `<!DOCTYPE html>`. The content of the web page is enclosed between the <html> tags. The <head> tag contains metadata, such as the title of the page, a description, a stylesheet, and a script. The `<body>` tag contains the visible content of the web page, such as a heading, a paragraph, an image, and a link.
 
 Note that the structure of an HTML document can be more complex than this example, depending on the needs of the web page. However, this basic structure provides a starting point for creating an HTML document.
 
-## Useful HTML tags along with explanations and examples
+## Useful HTML tags
 
 ### 1. `<html>`
 This tag indicates the start and end of an HTML document. All other tags should be nested inside this tag.
