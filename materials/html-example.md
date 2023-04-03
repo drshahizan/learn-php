@@ -70,7 +70,7 @@ Here is an explanation of the important tagging used in this HTML page:
 
 - `<style>`: This tag contains CSS styles that are applied to the HTML document.
 
-- `<header`>: This tag represents the header section of the HTML document, which typically contains a logo, navigation menu, and/or heading.
+- `<header>`: This tag represents the header section of the HTML document, which typically contains a logo, navigation menu, and/or heading.
 
 - `<nav>`: This tag represents a navigation menu, which usually contains a list of links.
 
