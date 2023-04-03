@@ -48,7 +48,7 @@ This tag contains the visible content of the web page, such as headings, paragra
 ```
   
 ## 4. `<h1>` to `<h6>`
-These tags are used to create headings of different levels. The <h1> tag is the most important heading, and the <h6> tag is the least important.
+These tags are used to create headings of different levels. The `<h1>` tag is the most important heading, and the `<h6>` tag is the least important.
   
 ```php
 <h1>This is a Level 1 Heading</h1>
