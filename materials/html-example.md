@@ -250,7 +250,7 @@ Explanation of the important tagging:
 </html>
 ```
   
-## Example 4: Course Registration Form with <div>
+## Example 4: Course Registration Form with `<div>`
 
 ```html
 <!DOCTYPE html>
