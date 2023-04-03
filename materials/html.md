@@ -106,3 +106,10 @@ Copy code
 </div>
 <span class="highlight">This text is highlighted.</span>
 These are just some of the useful HTML tags along with examples. There are many more
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
