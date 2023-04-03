@@ -8,6 +8,18 @@
 Don't forget to hit the :star: if you like this repo.
 
 # HTML, CSS and JS
+
+Describe about html, css and js
+HTML, CSS, and JavaScript are the three primary technologies used for building modern web applications. Here's a brief overview of each:
+
+HTML (Hypertext Markup Language): HTML is a markup language used for creating the structure and content of web pages. It defines the various elements of a web page, such as headings, paragraphs, images, and links. HTML is the foundation of every web page and provides the basic structure of a web page.
+
+CSS (Cascading Style Sheets): CSS is a style sheet language used for describing the presentation of web pages, including layout, fonts, colors, and other visual effects. It allows web developers to separate the presentation of a web page from its content, making it easier to maintain and update. CSS enables web developers to create visually appealing and responsive web pages.
+
+JavaScript: JavaScript is a scripting language used for creating interactive web applications. It runs in the browser and allows developers to add dynamic and interactive elements to a web page, such as animations, form validation, and user interface components. JavaScript is used to enhance the user experience of web applications and provide greater interactivity.
+
+In summary, HTML provides the structure and content of web pages, CSS provides the visual presentation of web pages, and JavaScript provides the interactivity and dynamic behavior of web pages. Together, these technologies enable web developers to create modern, responsive, and interactive web applications.
+
 HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JS (JavaScript) are three fundamental technologies used for building modern web applications. Here's a brief overview of each:
 
 HTML: HTML is a markup language used for creating the structure and content of web pages. It uses a set of predefined tags to describe the various elements of a web page, such as headings, paragraphs, lists, images, and links.
