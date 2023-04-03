@@ -7,10 +7,9 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-Sure, here's an example of how to create a simple HTML page with all the important tagging:
+# How to create a simple HTML page with all the important tagging
 
-php
-Copy code
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -51,41 +50,43 @@ Copy code
     </footer>
   </body>
 </html>
+```
+
 Here is an explanation of the important tagging used in this HTML page:
 
-<!DOCTYPE html>: This tag specifies the document type and version of HTML being used.
+- `<!DOCTYPE html>: This tag specifies the document type and version of HTML being used.
 
-<html lang="en">: This tag indicates the start and end of an HTML document, and specifies the language of the content.
+- <html lang="en">: This tag indicates the start and end of an HTML document, and specifies the language of the content.
 
-<head>: This tag contains metadata about the HTML document, such as the title, character set, viewport, and styles.
+- `<head>: This tag contains metadata about the HTML document, such as the title, character set, viewport, and styles.
 
-<meta charset="UTF-8">: This tag specifies the character encoding of the HTML document.
+- <meta charset="UTF-8">: This tag specifies the character encoding of the HTML document.
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">: This tag specifies the width and initial scale of the viewport, which affects how the web page is displayed on different devices.
+- <meta name="viewport" content="width=device-width, initial-scale=1.0">: This tag specifies the width and initial scale of the viewport, which affects how the web page is displayed on different devices.
 
-<title>My First HTML Page</title>: This tag specifies the title of the HTML document, which appears in the browser's title bar.
+- <title>My First HTML Page</title>: This tag specifies the title of the HTML document, which appears in the browser's title bar.
 
-<style>: This tag contains CSS styles that are applied to the HTML document.
+- <style>: This tag contains CSS styles that are applied to the HTML document.
 
-<header>: This tag represents the header section of the HTML document, which typically contains a logo, navigation menu, and/or heading.
+- <header>: This tag represents the header section of the HTML document, which typically contains a logo, navigation menu, and/or heading.
 
-<nav>: This tag represents a navigation menu, which usually contains a list of links.
+- <nav>: This tag represents a navigation menu, which usually contains a list of links.
 
-<ul>: This tag represents an unordered list of items.
+- <ul>: This tag represents an unordered list of items.
 
-<li>: This tag represents a list item, which is typically used within a <ul> or <ol> tag.
+- <li>: This tag represents a list item, which is typically used within a <ul> or <ol> tag.
 
-<a href="#">Home</a>: This tag represents a hyperlink, which is used to link to other web pages or resources. The href attribute specifies the URL of the resource being linked to.
+- <a href="#">Home</a>: This tag represents a hyperlink, which is used to link to other web pages or resources. The href attribute specifies the URL of the resource being linked to.
 
-<main>: This tag represents the main content of the HTML document.
+- <main>: This tag represents the main content of the HTML document.
 
-<section>: This tag represents a section of content within the HTML document.
+- <section>: This tag represents a section of content within the HTML document.
 
-<footer>: This tag represents the footer section of the HTML document, which typically contains copyright information and/or links to social media profiles.
+- <footer>: This tag represents the footer section of the HTML document, which typically contains copyright information and/or links to social media profiles.
 
-<p>: This tag represents a paragraph of text.
+- <p>: This tag represents a paragraph of text.
 
-<h1> to <h6>: These tags represent headings of different levels, with <h1> being the largest and most important heading, and `<\
+- <h1> to <h6>: These tags represent headings of different levels, with <h1> being the largest and most important heading.
                                                                                                                                  
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
