@@ -140,31 +140,31 @@ Here is an explanation of the important tagging used in this HTML page:
 
 Explanation of the important tagging:
 
--`<!DOCTYPE html>: This tag declares the document type as HTML5.
+-`<!DOCTYPE html>`: This tag declares the document type as HTML5.
 
--`<html>: This tag indicates the start and end of an HTML document.
+-`<html>`: This tag indicates the start and end of an HTML document.
 
--`<head>: This tag contains metadata about the HTML document, such as the title, character encoding, and viewport settings.
+-`<head>`: This tag contains metadata about the HTML document, such as the title, character encoding, and viewport settings.
 
--`<title>: This tag specifies the title of the HTML document, which appears in the browser tab.
+-`<title>`: This tag specifies the title of the HTML document, which appears in the browser tab.
 
--`<meta>: This tag provides additional metadata about the HTML document, such as the character encoding and viewport settings.
+-`<meta>`: This tag provides additional metadata about the HTML document, such as the character encoding and viewport settings.
 
 -`<link>`: This tag is used to link to an external CSS stylesheet, which contains styles for the HTML elements.
 
--`<body>: This tag contains the visible content of the web page.
+-`<body>`: This tag contains the visible content of the web page.
 
--`<header>: This tag contains the header section of the web page, which typically includes a logo, navigation menu, and page title.
+-`<header>`: This tag contains the header section of the web page, which typically includes a logo, navigation menu, and page title.
 
--`<nav>: This tag defines a navigation menu, which typically contains links to other pages on the website.
+-`<nav>`: This tag defines a navigation menu, which typically contains links to other pages on the website.
 
--`<ul>: This tag defines an unordered list of items.
+-`<ul>`: This tag defines an unordered list of items.
 
--`<li>: This tag defines a list item, which is nested inside a <ul> tag.
+-`<li>`: This tag defines a list item, which is nested inside a <ul> tag.
 
--`<a>: This tag defines a hyperlink, which is used to link to other web pages or resources.
+-`<a>`: This tag defines a hyperlink, which is used to link to other web pages or resources.
 
--`<main>: This tag contains the main content of the web page, such as articles, blog posts, and other types of content.
+-`<main>`: This tag contains the main content of the web page, such as articles, blog posts, and other types of content.
 
 -`<section>`: This tag defines a section of the web page, which typically contains related content.
 
