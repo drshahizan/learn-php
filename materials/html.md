@@ -7,9 +7,10 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-Sure, here are some useful HTML tags along with explanations and examples:
+# Useful HTML tags along with explanations and examples
 
-<html>: This tag indicates the start and end of an HTML document. All other tags should be nested inside this tag.
+## 1. <html>: 
+This tag indicates the start and end of an HTML document. All other tags should be nested inside this tag.
 Example:
 
 php
