@@ -89,6 +89,92 @@ Here is an explanation of the important tagging used in this HTML page:
 - `<p>`: This tag represents a paragraph of text.
 
 - `<h1>` to `<h6>`: These tags represent headings of different levels, with `<h1>` being the largest and most important heading.
+
+## Example 2
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First HTML Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to my website!</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>About Me</h2>
+			<p>My name is Shah and I am a web developer.</p>
+			<p>I enjoy learning new things and creating beautiful websites.</p>
+		</section>
+		<section>
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright &copy; MSO 2023 My Website</p>
+	</footer>
+</body>
+</html>
+```
+
+Explanation of the important tagging:
+
+<!DOCTYPE html>: This tag declares the document type as HTML5.
+
+<html>: This tag indicates the start and end of an HTML document.
+
+<head>: This tag contains metadata about the HTML document, such as the title, character encoding, and viewport settings.
+
+<title>: This tag specifies the title of the HTML document, which appears in the browser tab.
+
+<meta>: This tag provides additional metadata about the HTML document, such as the character encoding and viewport settings.
+
+<link>: This tag is used to link to an external CSS stylesheet, which contains styles for the HTML elements.
+
+<body>: This tag contains the visible content of the web page.
+
+<header>: This tag contains the header section of the web page, which typically includes a logo, navigation menu, and page title.
+
+<nav>: This tag defines a navigation menu, which typically contains links to other pages on the website.
+
+<ul>: This tag defines an unordered list of items.
+
+<li>: This tag defines a list item, which is nested inside a <ul> tag.
+
+<a>: This tag defines a hyperlink, which is used to link to other web pages or resources.
+
+<main>: This tag contains the main content of the web page, such as articles, blog posts, and other types of content.
+
+<section>: This tag defines a section of the web page, which typically contains related content.
+
+<h2>: This tag defines a second-level heading, which is used to introduce the content of the section.
+
+<p>: This tag defines a paragraph of text.
+
+<form>: This tag defines a form, which is used to collect data from the user.
+
+<label>: This tag defines a label for
                                                                                                                                  
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
