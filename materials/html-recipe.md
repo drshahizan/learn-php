@@ -25,19 +25,19 @@ The Online Recipe Book is a website that allows users to share their favorite re
 
 Here is a breakdown of the different sections and features that should be included in the website:
 
-### Header section
+### 1. Header section
 The header section should contain the name of the website and a navigation menu that allows users to jump to different sections of the page. For example, we can have links for Home, Recipes, About, and Contact.
 
-### Hero section
+### 2. Hero section
 The hero section should be visually appealing and contain an image related to cooking or food. It should also have a heading that describes the website's purpose, such as "Share Your Favorite Recipes with the World."
 
-### Recipes section
+### 3. Recipes section
 The recipes section should showcase some sample recipes that users can browse through. Each recipe should have an image, a heading that describes the dish, a list of ingredients, and a set of instructions. We can also add a "Read More" link that will take users to a dedicated page for that recipe.
 
-### About section
+### 4. About section
 The about section should contain information about the website and its creators. This can include a short bio, a mission statement, and any other relevant information that users may want to know.
 
-### Contact section
+### 5. Contact section
 The contact section should include a form that allows users to send messages to the website's creators. The form should contain fields for name, email address, and message.
 
 To create this website using only HTML, we can use various HTML tags to structure the content and create a visually appealing layout. For example, we can use the `<header>` tag to create the header section, the `<h1>` tag to create the hero section's heading, the `<ul>` and `<li>` tags to create lists of ingredients, and the `<form>` tag to create the contact form.
