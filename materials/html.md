@@ -6,6 +6,7 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
 
 Don't forget to hit the :star: if you like this repo.
+
 # HyperText Markup Language (HTML)
 HTML stands for HyperText Markup Language. It is a markup language used for creating web pages and other types of content that can be displayed in a web browser. HTML consists of a series of tags that are used to mark up the content of a web page, such as text, images, videos, and links. These tags allow web developers to structure and format web content, and to create hyperlinks between different pages and websites. HTML is one of the core technologies used to create the World Wide Web, and it is constantly evolving to meet the changing needs of web developers and users.
 
