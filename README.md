@@ -41,6 +41,13 @@ This course is designed to introduce students the fundamental of knowledge, tech
 4. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
 5. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
 
+### HTML
+- [HyperText Markup Language (HTML)](./materials/html.md)
+- [How to create a simple HTML page with all the important tagging](./materials/html-example.md)
+- [HTML Projects](/materials/html-project.md)
+- [Sample: Personal Portfolio Website](./materials/html-portfolio.md)
+- [Sample: Online Recipe Book](./materials/html-recipe.md)
+- [HTML, CSS and JS](./materials/html-css-js.md)
 
 ## Student Information
 
