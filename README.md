@@ -45,6 +45,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [HyperText Markup Language (HTML)](.materials/html.md)
 - [How to create a simple HTML page with all the important tagging](./materials/html-example.md)
 - [Sample: Personal Portfolio Website](/materials/html-portfolio.md)
+- [HTML Projects](/materials/html-project.md)
 - [HTML, CSS and JS](https://github.com/drshahizan/learn-php/blob/main/materials/html-css-js.md)
 
 ## Student Information
