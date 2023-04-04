@@ -42,6 +42,9 @@ This course is designed to introduce students the fundamental of knowledge, tech
 5. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
 
 ### HTML
+- [HyperText Markup Language (HTML)](https://github.com/drshahizan/learn-php/blob/main/materials/html.md)
+- [How to create a simple HTML page with all the important tagging](https://github.com/drshahizan/learn-php/blob/main/materials/html-example.md)
+- [HTML, CSS and JS](https://github.com/drshahizan/learn-php/blob/main/materials/html-css-js.md)
 
 ## Student Information
 
