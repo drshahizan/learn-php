@@ -112,7 +112,8 @@ This tag is used to create links to other web pages or to specific locations on 
 ```php
 <a href="https://example.com">Click here to go to Example.com</a>
 <a href="#section2">Click here to go to Section 2</a>
-
+```
+  
 ### 7. `<img>`
 This tag is used to insert images into the web page.
 
