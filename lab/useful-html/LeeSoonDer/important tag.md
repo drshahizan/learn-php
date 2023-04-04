@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Web Page</title>
 
+<head>
     <title>My Web Page</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
-  </head>
-  <body>
-    <!-- content goes here -->
+</head>
 
+<body>
     <h1>Welcome to My Web Page</h1>
     <p>This is a paragraph of text.</p>
     <img src="image.jpg" alt="An image">
@@ -24,6 +22,8 @@
 
     <p>This is a paragraph of text.</p>
     <p>This is another paragraph of text.</p>
+    <a href="https://example.com">Click here to go to Example.com</a>
+    <a href="#section2">Click here to go to Section 2</a>
 
     <img src="image.jpg" alt="An image">
 
@@ -44,8 +44,7 @@
         <p>This is a paragraph of text.</p>
     </div>
     <span class="highlight">This text is highlighted.</span>
-  </body>
+
+</body>
+
 </html>
-
-
-
