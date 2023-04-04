@@ -18,6 +18,70 @@ Create a personal portfolio website that showcases your skills and experiences. 
 3. The experience section should include your work or education experience using a timeline or a list.
 4. The contact section should include a contact form that collects user input for name, email, and message. 
 
+## HTML Code
+HTML code for the Personal Portfolio Website without the CSS styling:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <h1>My Name</h1>
+        <img src="my_picture.jpg" alt="My Picture">
+        <p>Brief introduction about myself.</p>
+        <button><a href="#contact">Contact Me</a></button>
+    </header>
+    
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+            <li>Skill 4</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Job/Position 1</h3>
+                <p>Date</p>
+                <p>Description</p>
+            </li>
+            <li>
+                <h3>Job/Position 2</h3>
+                <p>Date</p>
+                <p>Description</p>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+</body>
+</html>
+```
+
+This code includes a header section for the introduction with a picture and a call-to-action button, two sections for the skills and experiences respectively, and a contact section that includes a form to collect user input. The code also uses semantic HTML tags to improve the website's accessibility and SEO.
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
