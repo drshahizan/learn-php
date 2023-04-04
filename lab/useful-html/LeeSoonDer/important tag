@@ -34,12 +34,7 @@
 <a href="https://example.com">Click here to go to Example.com</a>
 <a href="#section2">Click here to go to Section 2</a>
 
-### 7. `<img>`
-This tag is used to insert images into the web page.
-
-```php
 <img src="image.jpg" alt="An image">
-
 
 <ul>
     <li>Item 1</li>
@@ -47,13 +42,11 @@ This tag is used to insert images into the web page.
     <li>Item 3</li>
   </ul>
 
-
   <ol>
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
   </ol>
-
 
   <div class="container">
     <h1>Welcome to My Web Page</h1>
