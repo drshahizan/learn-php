@@ -10,9 +10,8 @@
 <body>
     <h1>Welcome to My Web Page</h1>
     <p>This is a paragraph of text.</p>
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEmoji&psig=AOvVaw0FJypOP2ud7M00e3TyZJGR&ust=1680678247395000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKCLqsHUj_4CFQAAAAAdAAAAABAD"
-        height="200px" width="200px">
-    <a href="https://example.com">Click here to go to Example.com</a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/900px-Cat03.jpg?20160327035619"height="200px" width="200px">
+    <br><a href="https://commons.wikimedia.org/wiki/File:Cat03.jpg">Here is where the cat from</a>
 
     <h1>This is a Level 1 Heading</h1>
     <h2>This is a Level 2 Heading</h2>
