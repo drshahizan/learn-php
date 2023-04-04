@@ -40,7 +40,7 @@ The about section should contain information about the website and its creators.
 ### Contact section
 The contact section should include a form that allows users to send messages to the website's creators. The form should contain fields for name, email address, and message.
 
-To create this website using only HTML, we can use various HTML tags to structure the content and create a visually appealing layout. For example, we can use the <header> tag to create the header section, the <h1> tag to create the hero section's heading, the `<ul>` and `<li>` tags to create lists of ingredients, and the <form> tag to create the contact form.
+To create this website using only HTML, we can use various HTML tags to structure the content and create a visually appealing layout. For example, we can use the `<header>` tag to create the header section, the `<h1>` tag to create the hero section's heading, the `<ul>` and `<li>` tags to create lists of ingredients, and the `<form>` tag to create the contact form.
 
 Overall, the Online Recipe Book website is a great way to showcase your favorite recipes and connect with other food enthusiasts. By using HTML, we can create a simple yet effective website that is easy to use and visually appealing.
   
