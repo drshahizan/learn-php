@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# HTML projects
+# HTML Projects
 HTML projects that can be done on one page:
 
 1. Personal Portfolio Website
