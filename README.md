@@ -46,7 +46,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [How to create a simple HTML page with all the important tagging](./materials/html-example.md)
 - [HTML Projects](/materials/html-project.md)
 - [Sample: Personal Portfolio Website](/materials/html-portfolio.md)
-- [Sample: ](/materials/html-project.md)
+- [Sample: Online Recipe Book](/materials/html-recipe.md)
 - [HTML, CSS and JS](https://github.com/drshahizan/learn-php/blob/main/materials/html-css-js.md)
 
 ## Student Information
