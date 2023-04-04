@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Online Recipe Book website
+# Online Recipe Book
 
 ## Introduction
 An Online Recipe Book website is a platform for sharing and organizing recipes online. It provides users with a convenient and easy-to-use way to store, search, and share their favorite recipes.
