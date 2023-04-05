@@ -7,50 +7,28 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: HTML Text Appearance
+# Lab 11: HTML Text Appearance
 
-HTML provides a range of tags and attributes that you can use to control the appearance of text on a webpage. Here are some examples of HTML tags and attributes that can be used to modify the appearance of text:
+Your task is to use CSS to change the appearance of text. The following is the text:
 
-1. Headings - HTML provides six levels of headings, from `h1` (largest) to `h6` (smallest). These tags are used to indicate the importance of the text and can be used to structure content hierarchically.
-Example:
+UTM has three campuses – the main campus is in Skudai, and was the first university in the state of Johor. It has an area of 1148 hectares[9] and is the second largest public university after Universiti Putra Malaysia (UPM). It is about 20 km north of the state capital, Johor Bahru.
 
-```html
-<h1>This is a level 1 heading</h1>
-<h2>This is a level 2 heading</h2>
-<h3>This is a level 3 heading</h3>
-```
+The branch campus is situated in Jalan Semarak within Kuala Lumpur, with an area of 38 hectares.[9] The branch campus accommodates diploma students, part-time students (also known as the SPACE program), undergraduate students (Malaysia-Japan International Institute of Technology) and foreign students taking business courses.
 
-2. Paragraphs - The `<p>` tag is used to create a new paragraph of text. By default, text within a paragraph is left-aligned, but you can use CSS to change the alignment.
-Example:
+The new branch campus located in Pagoh was officially opened on 2 May 2017. Universiti Teknologi Malaysia Innovation Centre in Agritechnology for Advanced Bioprocessing (UTM-ICA) is strategically located off the Pagoh interchange on the north–south expressway, in the district of Muar, Johor. A 50-hectare campus equipped with shared facilities integrated with Bandar University Pagoh.
 
-```html
-<p>This is a paragraph of text.</p>
-<p>This is another paragraph of text.</p>
-```
+Some of the text must be tagged before CSS can use it. Please tag the following information:
 
-3. Bold and Italics - The `<b>` and `<i>` tags are used to make text bold and italic, respectively.
-Example:
+The word UTM should be bolded.
+For all place names, make it italic
+For all numbers, please use the <h6> tag.
 
-```html
-<p>This text is <b>bold</b>.</p>
-<p>This text is <i>italicized</i>.</p>
-```
-4. Text color - The color attribute can be used to change the color of text. You can use either a named color or a hexadecimal code to specify the color.
-Example:
-
-```html
-<p style="color: red;">This text is red.</p>
-<p style="color: #00FF00;">This text is green.</p>
-```
-5. Text alignment - The text-align property can be used to control the alignment of text within an HTML element.
-Example:
-
-```html
-<p style="text-align: center;">This text is centered.</p>
-<p style="text-align: right;">This text is right-aligned.</p>
-```
-
-These are just a few examples of how you can control the appearance of text in HTML. There are many more tags and attributes that you can use to customize the look and feel of your webpages. Additionally, CSS can be used to apply styles to HTML elements, giving you even more control over the appearance of your text.
+Please include the following CSS elements in your style sheet.
+Change the text font to fantasy.
+Change the font size to 24pt for the first paragraph.
+The word UTM should be in orange.
+Underline all place names.
+Change the colour of all numbers to green.
 
 ## Instructions
 
