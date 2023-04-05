@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 11: HTML Text Appearance
 
-Text appearance in CSS refers to the visual styling properties applied to the text content of a web page. These properties can include font family, font size, font weight, line height, text color, text decoration, text alignment, and more. For example, the font-family property can be used to specify the font type, such as Arial or Times New Roman. The font-size property can be used to specify the size of the font, such as 12px or 1em. The color property can be used to specify the color of the text, such as `red` or `#FF0000`.
+CSS stands for Cascading Style Sheets, which is a styling language used to describe the presentation of HTML or XML documents. With CSS, we can modify the appearance of text. Text appearance refers to the visual styling properties applied to the text content of a web page. These properties can include font family, font size, font weight, line height, text color, text decoration, text alignment, and more. For example, the font-family property can be used to specify the font type, such as Arial or Times New Roman. The font-size property can be used to specify the size of the font, such as 12px or 1em. The color property can be used to specify the color of the text, such as `red` or `#FF0000`.
 
 Additionally, we can use CSS properties to change the style of the text, such as font-weight for bold, font-style for italic, and text-decoration for underline. We can also apply text shadows, adjust letter spacing, and modify the line height, among other things.
 
