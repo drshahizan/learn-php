@@ -20,10 +20,10 @@ It is about 20 km north of the state capital, Johor Bahru.
 campus accommodates diploma students, part-time students (also known as the SPACE program), undergraduate students 
 (Malaysia-Japan International Institute of Technology) and foreign students taking business courses.
     
-    The new branch campus located in Pagoh was officially opened on 2 May 2017. Universiti Teknologi Malaysia Innovation 
-Centre in Agritechnology for Advanced Bioprocessing (UTM-ICA) is strategically located off the Pagoh interchange on the 
-north–south expressway, in the district of Muar, Johor. A 50-hectare campus equipped with shared facilities integrated 
-with Bandar University Pagoh.
+    The new branch campus located in Pagoh was officially opened on 2 May 2017. Universiti Teknologi Malaysia 
+Innovation Centre in Agritechnology for Advanced Bioprocessing (UTM-ICA) is strategically located off the Pagoh 
+interchange on the north–south expressway, in the district of Muar, Johor. A 50-hectare campus equipped with 
+shared facilities integrated with Bandar University Pagoh.
 ```
 
 Some of the text must be tagged before CSS can use it. Please tag the following information:
