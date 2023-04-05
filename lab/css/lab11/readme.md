@@ -12,18 +12,25 @@ Don't forget to hit the :star: if you like this repo.
 Your task is to use CSS to change the appearance of text. The following is the text:
 
 ```html
-UTM has three campuses – the main campus is in Skudai, and was the first university in the state of Johor. It has an area of 1148 hectares[9] and is the second largest public university after Universiti Putra Malaysia (UPM). It is about 20 km north of the state capital, Johor Bahru.
+UTM has three campuses – the main campus is in Skudai, and was the first university in the state of Johor. 
+It has an area of 1148 hectares and is the second largest public university after Universiti Putra Malaysia (UPM). 
+It is about 20 km north of the state capital, Johor Bahru.
     
-    The branch campus is situated in Jalan Semarak within Kuala Lumpur, with an area of 38 hectares.[9] The branch campus accommodates diploma students, part-time students (also known as the SPACE program), undergraduate students (Malaysia-Japan International Institute of Technology) and foreign students taking business courses.
+    The branch campus is situated in Jalan Semarak within Kuala Lumpur, with an area of 38 hectares. The branch 
+campus accommodates diploma students, part-time students (also known as the SPACE program), undergraduate students 
+(Malaysia-Japan International Institute of Technology) and foreign students taking business courses.
     
-    The new branch campus located in Pagoh was officially opened on 2 May 2017. Universiti Teknologi Malaysia Innovation Centre in Agritechnology for Advanced Bioprocessing (UTM-ICA) is strategically located off the Pagoh interchange on the north–south expressway, in the district of Muar, Johor. A 50-hectare campus equipped with shared facilities integrated with Bandar University Pagoh.
+    The new branch campus located in Pagoh was officially opened on 2 May 2017. Universiti Teknologi Malaysia Innovation 
+Centre in Agritechnology for Advanced Bioprocessing (UTM-ICA) is strategically located off the Pagoh interchange on the 
+north–south expressway, in the district of Muar, Johor. A 50-hectare campus equipped with shared facilities integrated 
+with Bandar University Pagoh.
 ```
 
 Some of the text must be tagged before CSS can use it. Please tag the following information:
 
 The word UTM should be bolded.
 For all place names, make it italic
-For all numbers, please use the <h6> tag.
+For all numbers, please use the `<h6>` tag.
 
 Please include the following CSS elements in your style sheet.
 Change the text font to fantasy.
