@@ -73,7 +73,7 @@ Your objective is to modify the text's appearance using CSS. The given text requ
 - Underline all place names.
 - Color all numbers in green.
 
-
+## Task
 Your task is to use CSS to change the appearance of text. The following is the text:
 
 ```html
@@ -92,23 +92,20 @@ shared facilities integrated with Bandar University Pagoh.
 ```
 
 Some of the text must be tagged before CSS can use it. Please tag the following information:
-
-The word UTM should be bolded.
-For all place names, make it italic
-For all numbers, please use the `<h6>` tag.
+1. The word UTM should be bolded.
+2. For all place names, make it italic
+3. For all numbers, please use the `<h6>` tag.
 
 Please include the following CSS elements in your style sheet.
-Change the text font to fantasy.
-Change the font size to 24pt for the first paragraph.
-The word UTM should be in orange.
-Underline all place names.
-Change the colour of all numbers to green.
+1. Change the text font to fantasy.
+2. Change the font size to 24pt for the first paragraph.
+3. The word UTM should be in orange.
+4. Underline all place names.
+5. Change the colour of all numbers to green.
 
 ## Instructions
 
-1. Please read the lab training instructions by downloading the [Lab 1.pdf](./download/Lab%201.pdf) file.
-2. Please use the HTML template file [Q1_template.html](download/Q1_template.html).
-3. Please include your contact information in the HTML `<head>`.
+1. Please include your contact information in the HTML `<head>`.
 
 ``` 
 <!--
@@ -116,12 +113,12 @@ Name:a
 Matrix No:
 Github id:
 
-Lab 1: HTML Text Appearance
+Lab 11: HTML Text Appearance
 -->
 ```
-4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L1_Githubid.html`.
+4. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L11_Githubid.html`.
   > Example: 
-  > /submission/drshahizan/L1_drshahizan.html
+  > /submission/drshahizan/L11_drshahizan.html
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
