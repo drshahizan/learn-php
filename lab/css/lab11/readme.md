@@ -9,11 +9,60 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 11: HTML Text Appearance
 
+Text appearance in CSS refers to the visual styling properties applied to the text content of a web page. These properties can include font family, font size, font weight, line height, text color, text decoration, text alignment, and more.
+
+Here's an example of how to use CSS to set the text appearance of a paragraph:
+
+```html
+<style>
+  /* set the font family to Arial */
+  p {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* set the font size to 18 pixels */
+  p {
+    font-size: 18px;
+  }
+  
+  /* set the font weight to bold */
+  p {
+    font-weight: bold;
+  }
+  
+  /* set the line height to 1.5 */
+  p {
+    line-height: 1.5;
+  }
+  
+  /* set the text color to red */
+  p {
+    color: red;
+  }
+  
+  /* set the text decoration to underline */
+  p {
+    text-decoration: underline;
+  }
+  
+  /* set the text alignment to center */
+  p {
+    text-align: center;
+  }
+</style>
+
+<p>This is an example paragraph with text appearance styles applied.</p>
+```
+
+In this example, the CSS code sets the font family to Arial, the font size to 18 pixels, the font weight to bold, the line height to 1.5, the text color to red, the text decoration to underline, and the text alignment to center for the paragraph element. The actual appearance of the text will depend on the browser and device being used to view the page.
+
+#xxx
+
 Your objective is to modify the text's appearance using CSS. The given text requires tagging before it can be altered using CSS. Please apply the following tags:
 
 Bold the word UTM.
 Italicize all place names.
-Use the <h6> tag for all numbers.
+Use the `<h6>` tag for all numbers.
 Make sure to incorporate the following CSS properties into your style sheet:
 
 Set the font to fantasy.
