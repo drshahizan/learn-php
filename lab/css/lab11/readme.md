@@ -60,16 +60,16 @@ In this example, the CSS code sets the font family to Arial, the font size to 18
 
 Your objective is to modify the text's appearance using CSS. The given text requires tagging before it can be altered using CSS. Please apply the following tags:
 
-Bold the word UTM.
-Italicize all place names.
-Use the `<h6>` tag for all numbers.
-Make sure to incorporate the following CSS properties into your style sheet:
+- Bold the word UTM.
+- Italicize all place names.
+- Use the `<h6>` tag for all numbers.
+- Make sure to incorporate the following CSS properties into your style sheet:
 
-Set the font to fantasy.
-For the first paragraph, set the font size to 24pt.
-Color the word UTM in orange.
-Underline all place names.
-Color all numbers in green.
+- Set the font to fantasy.
+- For the first paragraph, set the font size to 24pt.
+- Color the word UTM in orange.
+- Underline all place names.
+- Color all numbers in green.
 
 
 Your task is to use CSS to change the appearance of text. The following is the text:
