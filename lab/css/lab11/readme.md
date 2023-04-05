@@ -9,6 +9,20 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 11: HTML Text Appearance
 
+Your objective is to modify the text's appearance using CSS. The given text requires tagging before it can be altered using CSS. Please apply the following tags:
+
+Bold the word UTM.
+Italicize all place names.
+Use the <h6> tag for all numbers.
+Make sure to incorporate the following CSS properties into your style sheet:
+
+Set the font to fantasy.
+For the first paragraph, set the font size to 24pt.
+Color the word UTM in orange.
+Underline all place names.
+Color all numbers in green.
+
+
 Your task is to use CSS to change the appearance of text. The following is the text:
 
 ```html
