@@ -84,7 +84,7 @@ In the above example, we have defined a div element with a class of "box-example
 ## Change appearance on a web page
 CSS provides a variety of ways to change the appearance of text on a web page. Here are some common CSS properties that can be used to style text:
 
-### 1.Font Properties
+### 1. Font Properties
 
 - font-family: specifies the font family for text.
 - font-size: specifies the size of the font.
@@ -93,19 +93,19 @@ CSS provides a variety of ways to change the appearance of text on a web page. H
 - text-decoration: specifies the decoration to be applied to the text, such as underline, overline, line-through, etc.
 - text-transform: specifies the capitalization of the text, such as uppercase, lowercase, or capitalize.
 
-### 2.Color Properties
+### 2. Color Properties
 
 - color: specifies the color of the text.
 - background-color: specifies the background color behind the text.
 
-### 3.Spacing Properties
+### 3. Spacing Properties
 
 - line-height: specifies the height of each line of text.
 - letter-spacing: specifies the spacing between each letter.
 - word-spacing: specifies the spacing between each word.
 - text-indent: specifies the indentation of the first line of text.
 
-### 4.Alignment Properties
+### 4. Alignment Properties
 
 - text-align: specifies the horizontal alignment of the text.
 - vertical-align: specifies the vertical alignment of the text.
