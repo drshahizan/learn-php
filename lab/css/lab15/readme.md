@@ -123,7 +123,7 @@ Figure 14.2: Layout b.
 
 ## Task 3
 
-- You must create a layout design for a website called My Magazine (refer Figure 14.1).
+- You must create a layout design for a website called My Magazine (refer Figure 14.3).
 - Please download the layout3ques.html template.
 - After the section header, there is a navigation menu at the top of this website.
 - There are two classes in the content section: leftcolumn and rightcolumn. The title heading, title description, and content are all found in the left column. Editor, Photos, and Contact Us information can be found in the right column class.
@@ -131,9 +131,9 @@ Figure 14.2: Layout b.
 - The CSS style must be specified in the HTML file that is generated. The resulting file must be saved as layout3.html.
 
   
-Figure 14.1: Save the file as layout3.html.
+Figure 14.3: Save the file as layout3.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15d.png"  width="600" />
 </p>
 
 ## Task 4
