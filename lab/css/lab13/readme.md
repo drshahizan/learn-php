@@ -9,9 +9,37 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 12: Layout (Mock & Style)
 
+## Mock design
+Mock design in CSS refers to the process of creating a visual representation of a website or application design before it is implemented. Mock design is an important step in the design process, as it allows designers and developers to experiment with different layouts, color schemes, typography, and other design elements.
+
+Mock design in CSS can be done in a variety of ways, including:
+
+1. Sketching: Sketching out a rough design on paper can be a quick and effective way to explore different layout options and get ideas down on paper before moving on to more detailed mock designs.
+
+2. Wireframing: Wireframing involves creating a simple, black and white layout of a web page or application to define its structure and content. This can be done using various tools like Figma, Sketch, Adobe XD, etc.
+
+3. Prototyping: Prototyping involves creating a functional version of the design, using tools like HTML, CSS, and JavaScript, that can be tested and refined before the final implementation.
+
+4. Style Tiles: Style tiles are a way to visually communicate design direction and mood by creating a collection of typographic, color, and interface elements without defining layout.
+
+5. Mood Board: A mood board is a visual collage of images, patterns, colors, and typography that represent the overall aesthetic or vibe of the design.
+
+When creating a mock design in CSS, it is important to consider the following design elements:
+
+1. Layout: The layout defines the structure of the website or application and how the content is organized. Common layout techniques include grid-based layouts, flexbox layouts, and float-based layouts.
+
+2. Color: Color is an important aspect of any design and can evoke different emotions and moods. CSS provides various color properties that can be used to set the color of text, backgrounds, and other design elements.
+
+3. Typography: Typography refers to the use of typefaces, fonts, and font sizes to enhance the readability and visual appeal of the design. CSS provides various typography properties, such as font-family, font-size, font-weight, and line-height, that can be used to control the typography of the design.
+
+4. Images: Images can be used to add visual interest and context to the design. CSS provides various image properties, such as background-image and object-fit, that can be used to control the appearance of images in the design.
+
+Overall, mock design in CSS is an important step in the design process that helps designers and developers create effective and visually appealing websites and applications.
+
+## Layout design
 Layout design in CSS refers to the process of positioning and arranging HTML elements on a web page. CSS provides various layout techniques and properties that can be used to create different types of layouts, such as grid, flexbox, and float-based layouts. Here are some common CSS properties that can be used to create layout designs:
 
-## Box Model Properties
+### Box Model Properties
 
 - width: specifies the width of an element.
 - height: specifies the height of an element.
@@ -19,13 +47,13 @@ Layout design in CSS refers to the process of positioning and arranging HTML ele
 - border: specifies the border around an element.
 - margin: specifies the space between the border of an element and the adjacent elements.
 
-## Positioning Properties
+### Positioning Properties
 
 - position: specifies the type of positioning for an element, such as static, relative, absolute, or fixed.
 - top, right, bottom, left: specify the offset of an element from its normal position, depending on the value of the position property.
 - z-index: specifies the stacking order of elements.
 
-## Layout Techniques
+### Layout Techniques
 
 - CSS Grid: a two-dimensional layout system that allows for precise placement and sizing of elements within a grid container.
 - Flexbox: a one-dimensional layout system that allows for flexible and responsive layouts.
