@@ -185,19 +185,19 @@ The layout design interface is shown in Figure 1.1 to Figure 1.3.
 The resulting files must be saved as mock1.html, mock2.html, and mock3.html. After that, please zip and send the file as lab12_1.zip.
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/layout_mock1.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13a.png"  width="600" />
 </p>
 Figure 1.1: Mock 1. Save the file as mock1.html.
 
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/layout_mock2.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13b.png"  width="600" />
 </p>
 Figure 1.2: Mock 2. Save the file as mock2.html.
 
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/layout_mock3.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13c.png"  width="600" />
 </p>
 Figure 1.3: Mock 3. Save the file as mock3.html.
 
@@ -210,29 +210,27 @@ Try to make each of the designs listed below. You only need to use a style*.css 
 You must create a style1.css file through style4.css. Please send only this file. Make sure to zip the file and send it as lab12_2ans.zip.
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab2a.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13d.png"  width="600" />
 </p>
 Figure 2.1: Style 1. Save the css file as style1.css.
 
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab2b.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13e.png"  width="600" />
 </p>
 Figure 2.2: Style 2. Save the css file as style2.css.
 
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab2c.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13f.png"  width="600" />
 </p>
 Figure 2.3: Style 3. Save the css file as style3.css.
 
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab2d.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13g.png"  width="600" />
 </p>
-<p align="justify">
-  Lorem ipsum
-</p>
+
 
 # Example text {style=text-align:center}
 Figure 2.4: Style 4. Save the css file as style4.css.
