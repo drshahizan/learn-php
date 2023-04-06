@@ -139,9 +139,11 @@ Using HTML 5 only, create a prototype of an online newspaper:
 Steps:
 
 1. In this lab exercise, you will create the pages described in the following image:
-abc
-Figure 4.1: The file type *.html was used.
 
+Figure 4.1: The file type *.html was used.
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/newspaper.png"  width="600" />
+</p>
     * The main page represents the main page of the newspaper having a series of abbreviated news items.
     * The news article page has one particular news item in its complete form. It also has comments written by the readers.
     * The section page is very similar to the main page, but only has news about a particular topic (e.g., sports).
@@ -165,18 +167,19 @@ Figure 4.1: The file type *.html was used.
 
     * The header of each page should have:
       * The name of the newspaper.
-A logo.
-The section's name (if it's a section page).
-Clicking any of these elements should take the user back to the main page.
-The menu should have links to each one of the section pages (e.g., sports, politics, and local)
-The links should be part of an unordered list.
-For now, all of those can point to section.html.
-Each article should have a title, some paragraphs, an image, and a footer.
-In the main and section pages, only a couple of paragraphs of each news item should be shown.
-The news article page should also have some comments. Each comment should have some text, a date/time, and the author's username. After all the comments, there should be a form (with a title, a username and a text fields) that allows users to add more comments.
-The footer should contain the date/time and the author's name. In the main and section pages, there should also be a "Read more" link that redirects the user to the news article page containing the complete news item.
-The footer of each page should have a Copyright Notice. Use a character entity for the © symbol.
-Don't forget to validate the pages when you're done.
+      * A logo.
+      * The section's name (if it's a section page).
+      * Clicking any of these elements should take the user back to the main page.
+    * The menu should have links to each one of the section pages (e.g., sports, politics, and local)
+      * The links should be part of an unordered list.
+      * For now, all of those can point to section.html.
+    * Each article should have a title, some paragraphs, an image, and a footer.
+      * In the main and section pages, only a couple of paragraphs of each news item should be shown.
+      * The news article page should also have some comments. Each comment should have some text, a date/time, and the author's username. After all the comments, there should be a form (with a title, a username and a text fields) that allows users to add more comments.
+      * The footer should contain the date/time and the author's name. In the main and section pages, there should also be a "Read more" link that redirects the user to the news article page containing the complete news item.
+    * The footer of each page should have a Copyright Notice. Use a character entity for the © symbol.
+
+5. Don't forget to validate the pages when you're done.
 
 ## Instructions
 
