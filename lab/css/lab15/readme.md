@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 14: Layout
+# Lab 15: Layout
 
 ## HTML layout using CSS
 HTML layout using CSS involves using Cascading Style Sheets (CSS) to define the layout and presentation of the HTML elements in a webpage. CSS allows designers to separate the presentation and style of the webpage from the content, allowing for greater flexibility and control over the layout and design.
@@ -95,7 +95,7 @@ With these CSS rules, you can easily create an HTML layout with a header, conten
 
 Figure 1.1: Layout1. Save the file as layout1.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14a.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15a.png"  width="600" />
 </p>
 
 ## Task 2
@@ -110,12 +110,12 @@ Figure 1.1: Layout1. Save the file as layout1.html.
 
 Figure 2.1: Layout a. Save the file as layout2.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14b.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15b.png"  width="600" />
 </p>
 
 Figure 2.2: Layout b.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14c.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15c.png"  width="600" />
 </p>
 
 ## Task 3
@@ -129,7 +129,7 @@ Figure 2.2: Layout b.
 
 Figure 3.1: Save the file as layout3.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14d.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15.png"  width="600" />
 </p>
 
 ## Task 4
@@ -154,7 +154,7 @@ Using HTML 5 only, create a prototype of an online newspaper:
     
 Image: The file type *.html was used.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/newspaper.svg"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/newspaper.svg"  width="600" />
 </p>
     
 
