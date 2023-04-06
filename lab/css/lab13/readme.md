@@ -231,6 +231,11 @@ Figure 2.3: Style 3. Save the css file as style3.css.
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab2d.png"  width="600" />
 </p>
 <p style="text-align: center;">Text_content</p>
+<p style="text-align: center;">Sample text with center alignment</p>
+***<p style="text-align: center;">Text with basic formatting applied</p>***
+<p style="text-align: right;">Text_content</p>
+
+
 Figure 2.4: Style 4. Save the css file as style4.css.
 
 ## Contribution 🛠️
