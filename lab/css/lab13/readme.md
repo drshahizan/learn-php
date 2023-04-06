@@ -234,7 +234,7 @@ Figure 2.3: Style 3. Save the css file as style3.css.
   Lorem ipsum
 </p>
 
-
+# Example text {style=text-align:center}
 Figure 2.4: Style 4. Save the css file as style4.css.
 
 ## Contribution 🛠️
