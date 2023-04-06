@@ -14,7 +14,8 @@ Don't forget to hit the :star: if you like this repo.
     <li><span style="font-size: 0.9375rem;">Your task is to change the appearance of text using CSS. The following is the original interface:</span></li>
 </ul>
 
-<p style="text-align:center;"><img style="border:1px solid black;" src="https://elearnppsm.utmspace.edu.my/draftfile.php/5516/user/draft/271031412/lab_bm.png" alt="abc" width="600" height="711" class="img-fluid atto_image_button_text-bottom"></p>
+
+<p style="text-align:center;"><img style="border:1px solid black;" src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab12/download/lab12a.png" alt="abc" width="600" height="711" class="img-fluid atto_image_button_text-bottom"></p>
 
 
 <p>
