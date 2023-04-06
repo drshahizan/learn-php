@@ -15,13 +15,13 @@ The Text and Box models in CSS are important concepts that form the basis of lay
 
 The Text Model in CSS is concerned with the rendering of text content within an element. It consists of four properties:
 
-1. Font: The font property specifies the typeface, size, weight, and style of the text content.
+1. Font: The `font` property specifies the typeface, size, weight, and style of the text content.
 
-2. Text color: The color property specifies the color of the text content.
+2. Text color: The `color` property specifies the color of the text content.
 
-3. Text alignment: The text-align property specifies the horizontal alignment of the text content within an element.
+3. Text alignment: The `text-align` property specifies the horizontal alignment of the text content within an element.
 
-4. Line-height: The line-height property specifies the height of each line of text within an element.
+4. Line-height: The `line-height` property specifies the height of each line of text within an element.
 
 Together, these properties allow developers to control the appearance and layout of text content within an HTML document.
 
@@ -43,7 +43,7 @@ Together, these properties allow developers to control the appearance and layout
 }
 ```
 
-In the above example, we have defined a paragraph element with a class of "text-example". In the CSS, we have applied various properties to this class to style the text content within the paragraph. We have specified the font family, size, weight, and color of the text, as well as the text alignment and line-height.
+In the above example, we have defined a paragraph element with a class of `text-example`. In the CSS, we have applied various properties to this class to style the text content within the paragraph. We have specified the font family, size, weight, and color of the text, as well as the text alignment and line-height.
 
 ## Box Model:
 
@@ -79,36 +79,36 @@ By adjusting the dimensions of each of these components, developers can control 
 }
 ```
 
-In the above example, we have defined a div element with a class of "box-example". In the CSS, we have applied various properties to this class to define the dimensions, background color, padding, border, and margin of the element. We have specified a width and height of 400px and 200px respectively, and added a gray background color. We have also added 20px of padding, a 1px solid black border, and 20px of margin around the element. The resulting box will be displayed as a rectangle with text content inside, surrounded by padding, a border, and margin.
+In the above example, we have defined a div element with a class of `box-example`. In the CSS, we have applied various properties to this class to define the dimensions, background color, padding, border, and margin of the element. We have specified a width and height of 400px and 200px respectively, and added a gray background color. We have also added 20px of padding, a 1px solid black border, and 20px of margin around the element. The resulting box will be displayed as a rectangle with text content inside, surrounded by padding, a border, and margin.
 
 ## Change appearance on a web page
 CSS provides a variety of ways to change the appearance of text on a web page. Here are some common CSS properties that can be used to style text:
 
 ### 1. Font Properties
 
-- font-family: specifies the font family for text.
-- font-size: specifies the size of the font.
-- font-weight: specifies the weight or thickness of the font.
-- font-style: specifies whether the font should be displayed in italics or normal style.
-- text-decoration: specifies the decoration to be applied to the text, such as underline, overline, line-through, etc.
-- text-transform: specifies the capitalization of the text, such as uppercase, lowercase, or capitalize.
+- `font-family`: specifies the font family for text.
+- `font-size`: specifies the size of the font.
+- `font-weight`: specifies the weight or thickness of the font.
+- `font-style`: specifies whether the font should be displayed in italics or normal style.
+- `text-decoration`: specifies the decoration to be applied to the text, such as underline, overline, line-through, etc.
+- `text-transform`: specifies the capitalization of the text, such as uppercase, lowercase, or capitalize.
 
 ### 2. Color Properties
 
-- color: specifies the color of the text.
-- background-color: specifies the background color behind the text.
+- `color`: specifies the color of the text.
+- `background-color`: specifies the background color behind the text.
 
 ### 3. Spacing Properties
 
-- line-height: specifies the height of each line of text.
-- letter-spacing: specifies the spacing between each letter.
-- word-spacing: specifies the spacing between each word.
-- text-indent: specifies the indentation of the first line of text.
+- `line-height`: specifies the height of each line of text.
+- `letter-spacing`: specifies the spacing between each letter.
+- `word-spacing`: specifies the spacing between each word.
+- `text-indent`: specifies the indentation of the first line of text.
 
 ### 4. Alignment Properties
 
-- text-align: specifies the horizontal alignment of the text.
-- vertical-align: specifies the vertical alignment of the text.
+- `text-align`: specifies the horizontal alignment of the text.
+- `vertical-align`: specifies the vertical alignment of the text.
 
 Here's an example of how these properties can be used to style text:
 
