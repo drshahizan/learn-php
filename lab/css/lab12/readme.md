@@ -9,7 +9,37 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 12: Text and Box Model
 
-## Instructions
+The Text and Box models in CSS are important concepts that form the basis of layout and design in web development.
+
+## Text Model:
+
+The Text Model in CSS is concerned with the rendering of text content within an element. It consists of four properties:
+
+1. Font: The font property specifies the typeface, size, weight, and style of the text content.
+
+2. Text color: The color property specifies the color of the text content.
+
+3. Text alignment: The text-align property specifies the horizontal alignment of the text content within an element.
+
+4. Line-height: The line-height property specifies the height of each line of text within an element.
+
+Together, these properties allow developers to control the appearance and layout of text content within an HTML document.
+
+## Box Model:
+
+The Box Model in CSS is concerned with the layout and positioning of elements on a web page. It consists of four components:
+
+1. Content: The content area is the actual area where the content of the element is displayed.
+
+2. Padding: The padding area is the space between the content and the element's border.
+
+3. Border: The border area is a thin line that surrounds the padding and content areas.
+
+4. Margin: The margin area is the space between the border of an element and the adjacent elements.
+
+By adjusting the dimensions of each of these components, developers can control the size, spacing, and positioning of elements on a web page. The Box Model is a fundamental concept in web design and is used extensively in layout and design.
+
+## Task
 Your task is to change the appearance of text using CSS. The following is the original interface:
 
 <p align="center">
