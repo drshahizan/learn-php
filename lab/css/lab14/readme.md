@@ -142,7 +142,7 @@ Steps:
 
 Figure 4.1: The file type *.html was used.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/newspaper.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/newspaper.svg"  width="600" />
 </p>
     * The main page represents the main page of the newspaper having a series of abbreviated news items.
     * The news article page has one particular news item in its complete form. It also has comments written by the readers.
