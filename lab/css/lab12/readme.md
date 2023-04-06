@@ -81,6 +81,62 @@ By adjusting the dimensions of each of these components, developers can control 
 
 In the above example, we have defined a div element with a class of "box-example". In the CSS, we have applied various properties to this class to define the dimensions, background color, padding, border, and margin of the element. We have specified a width and height of 400px and 200px respectively, and added a gray background color. We have also added 20px of padding, a 1px solid black border, and 20px of margin around the element. The resulting box will be displayed as a rectangle with text content inside, surrounded by padding, a border, and margin.
 
+## Change appearance on a web page
+CSS provides a variety of ways to change the appearance of text on a web page. Here are some common CSS properties that can be used to style text:
+
+### 1.Font Properties
+
+- font-family: specifies the font family for text.
+- font-size: specifies the size of the font.
+- font-weight: specifies the weight or thickness of the font.
+- font-style: specifies whether the font should be displayed in italics or normal style.
+- text-decoration: specifies the decoration to be applied to the text, such as underline, overline, line-through, etc.
+- text-transform: specifies the capitalization of the text, such as uppercase, lowercase, or capitalize.
+
+### 2.Color Properties
+
+- color: specifies the color of the text.
+- background-color: specifies the background color behind the text.
+
+### 3.Spacing Properties
+
+- line-height: specifies the height of each line of text.
+- letter-spacing: specifies the spacing between each letter.
+- word-spacing: specifies the spacing between each word.
+- text-indent: specifies the indentation of the first line of text.
+
+### 4.Alignment Properties
+
+- text-align: specifies the horizontal alignment of the text.
+- vertical-align: specifies the vertical alignment of the text.
+
+Here's an example of how these properties can be used to style text:
+
+```html
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #666666;
+  line-height: 1.5;
+  text-indent: 20px;
+}
+```
+In the above example, we have applied different styles to the heading and paragraph elements. The heading has a larger font size, a bold font weight, and an underline decoration. The paragraph has a smaller font size, an italic font style, and an indentation of 20px on the first line. By using a combination of these properties, we can change the appearance of text on a web page to suit our design needs.
+
 ## Task
 Your task is to change the appearance of text using CSS. The following is the original interface:
 
