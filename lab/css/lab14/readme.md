@@ -145,6 +145,9 @@ With these CSS rules, you can easily create an HTML layout with a header, conten
 - When finished, save the file as layout1.html.
 
 Figure 1.1: Layout1. Save the file as layout1.html.
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14a.png"  width="600" />
+</p>
 
 ## Task 2
 
@@ -156,11 +159,15 @@ Figure 1.1: Layout1. Save the file as layout1.html.
 - Please use a white separator to divide this section.
 - The CSS style must be entered in the generated HTML file. When finished, save the file as layout2.html.
 
-abc
 Figure 2.1: Layout a. Save the file as layout2.html.
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14b.png"  width="600" />
+</p>
 
-abc
 Figure 2.2: Layout b.
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14c.png"  width="600" />
+</p>
 
 ## Task 3
 
@@ -171,8 +178,10 @@ Figure 2.2: Layout b.
 - The footer class is at the very bottom.
 - The CSS style must be specified in the HTML file that is generated. The resulting file must be saved as layout3.html.
 
-abc
 Figure 3.1: Save the file as layout3.html.
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14d.png"  width="600" />
+</p>
 
 ## Task 4
 
