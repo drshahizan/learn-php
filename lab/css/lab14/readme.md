@@ -18,57 +18,6 @@ CSS also offers different layout techniques, such as the use of grids and flexbo
 
 Overall, HTML layout using CSS provides a powerful tool for designing modern and attractive webpages with a high degree of control and flexibility.
 
-## Some tips and ideas:
-
-- Use the site http://www.lipsum.com/ if you need to generate example paragraphs.
-- Use the site https://picsum.photos/ if you need some example photos.
-
-**Steps**:
-
-1. In this exercise, you will create the pages described in the following image:
-    - The **main** page represents the main page of the newspaper having a series of **abbreviated** news items.
-    - The **news article** page has one particular news item in its **complete** form. It also has comments written by the readers.
-    - The **section** page is very similar to the **main** page, but only has news about a particular topic (e.g., sports).
-    
-Image: The file type *.html was used.
-<p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/newspaper.svg"  width="600" />
-</p>
-    
-
-2. For each page, create a new HTML file, open it with your favorite code editor, and add the following basic HTML code:
-
-```html
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>Online Newspaper</title>
-   </head>
-   <body>
-   </body>
-</html>
-```
-
-3. Open the **main** page in a **web browser** (the most straightforward way is to drag the file into a new tab).
-
-4. Complete each page using the **correct semantic elements**.
-
-    * The header of each page should have:
-      * The name of the newspaper.
-      * A logo.
-      * The section's name (if it's a **section** page).
-      * Clicking any of these elements should take the user back to the main page.
-    * The **menu** should have links to each one of the **section** pages (e.g., sports, politics, and local)
-      * The links should be part of an unordered list.
-      * For now, all of those can point to section.html.
-    * Each **article** should have a title, some paragraphs, an image, and a footer.
-      * In the **main** and **section** pages, only a couple of paragraphs of each news item should be shown.
-      * The **news article** page should also have some comments. Each **comment** should have some text, a date/time, and the author's username. After all the comments, there should be a form (with a title, a username and a text fields) that allows users to add more comments.
-      * The **footer** should contain the date/time and the author's name. In the **main** and **section** pages, there should also be a "Read more" link that redirects the user to the **news article** page containing the complete news item.
-    * The **footer** of each page should have a Copyright Notice. Use a [character entity](https://www.amp-what.com/unicode/search/) for the © symbol.
-
-5. Don't forget to [validate](https://validator.w3.org/) the pages when you're done.
-
 ## Code
 To design an HTML layout using a CSS file with a header, content, and footer, you can follow these steps:
 
@@ -190,6 +139,57 @@ Using HTML 5 only, create a prototype of an online newspaper:
 - Throughout this lab exercise, do not worry about design. HTML is a markup language with pre-defined presentation semantics; most of the design is handled by CSS.
 - For now, you can edit your HTML files locally.
 - Validate and verify the result on the browser as you proceed.
+
+### Some tips and ideas:
+
+- Use the site http://www.lipsum.com/ if you need to generate example paragraphs.
+- Use the site https://picsum.photos/ if you need some example photos.
+
+**Steps**:
+
+1. In this exercise, you will create the pages described in the following image:
+    - The **main** page represents the main page of the newspaper having a series of **abbreviated** news items.
+    - The **news article** page has one particular news item in its **complete** form. It also has comments written by the readers.
+    - The **section** page is very similar to the **main** page, but only has news about a particular topic (e.g., sports).
+    
+Image: The file type *.html was used.
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/newspaper.svg"  width="600" />
+</p>
+    
+
+2. For each page, create a new HTML file, open it with your favorite code editor, and add the following basic HTML code:
+
+```html
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Online Newspaper</title>
+   </head>
+   <body>
+   </body>
+</html>
+```
+
+3. Open the **main** page in a **web browser** (the most straightforward way is to drag the file into a new tab).
+
+4. Complete each page using the **correct semantic elements**.
+
+    * The header of each page should have:
+      * The name of the newspaper.
+      * A logo.
+      * The section's name (if it's a **section** page).
+      * Clicking any of these elements should take the user back to the main page.
+    * The **menu** should have links to each one of the **section** pages (e.g., sports, politics, and local)
+      * The links should be part of an unordered list.
+      * For now, all of those can point to section.html.
+    * Each **article** should have a title, some paragraphs, an image, and a footer.
+      * In the **main** and **section** pages, only a couple of paragraphs of each news item should be shown.
+      * The **news article** page should also have some comments. Each **comment** should have some text, a date/time, and the author's username. After all the comments, there should be a form (with a title, a username and a text fields) that allows users to add more comments.
+      * The **footer** should contain the date/time and the author's name. In the **main** and **section** pages, there should also be a "Read more" link that redirects the user to the **news article** page containing the complete news item.
+    * The **footer** of each page should have a Copyright Notice. Use a [character entity](https://www.amp-what.com/unicode/search/) for the © symbol.
+
+5. Don't forget to [validate](https://validator.w3.org/) the pages when you're done.
 
 
 ## Instructions
