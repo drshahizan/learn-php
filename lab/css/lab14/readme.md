@@ -142,11 +142,13 @@ Steps:
 abc
 Figure 4.1: The file type *.html was used.
 
-The main page represents the main page of the newspaper having a series of abbreviated news items.
-The news article page has one particular news item in its complete form. It also has comments written by the readers.
-The section page is very similar to the main page, but only has news about a particular topic (e.g., sports).
-For each page, create a new HTML file, open it with your favorite code editor, and add the following basic HTML code:
+    * The main page represents the main page of the newspaper having a series of abbreviated news items.
+    * The news article page has one particular news item in its complete form. It also has comments written by the readers.
+    * The section page is very similar to the main page, but only has news about a particular topic (e.g., sports).
 
+2. For each page, create a new HTML file, open it with your favorite code editor, and add the following basic HTML code:
+
+```html
 <!DOCTYPE html>
 <html>
    <head>
@@ -155,13 +157,14 @@ For each page, create a new HTML file, open it with your favorite code editor, a
    <body>
    </body>
 </html>
+```
 
-Open the main page in a web browser (the most straightforward way is to drag the file into a new tab).
+3. Open the main page in a web browser (the most straightforward way is to drag the file into a new tab).
 
-Complete each page using the correct semantic elements.
+4. Complete each page using the correct semantic elements.
 
-The header of each page should have:
-The name of the newspaper.
+    * The header of each page should have:
+      * The name of the newspaper.
 A logo.
 The section's name (if it's a section page).
 Clicking any of these elements should take the user back to the main page.
