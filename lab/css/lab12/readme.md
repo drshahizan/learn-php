@@ -12,26 +12,30 @@ Don't forget to hit the :star: if you like this repo.
 ## Instructions
 Your task is to change the appearance of text using CSS. The following is the original interface:
 
-<p style="text-align:center;"><img style="border:1px solid black;" src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab12/download/lab12a.png" alt="abc" width="600" height="711" class="img-fluid atto_image_button_text-bottom"></p>
-
-
-<p>
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab12/download/lab12a.png"  height="600" />
 </p>
-<ul>
-    <li><span style="font-size: 0.9375rem;">The file&nbsp;💾&nbsp;<strong><a href="https://elearnppsm.utmspace.edu.my/draftfile.php/5516/user/draft/271031412/lab11.zip">lab11.zip</a></strong>&nbsp;is available for download. This file contains the files&nbsp;<strong>lab11.html</strong>&nbsp;and&nbsp;<strong>utm_logo.png</strong>. In the&nbsp;<strong>lab11.html</strong>&nbsp;file, please enter your CSS code. You are not permitted to make any changes to the HTML file that has been provided.&nbsp;CSS code can be entered in the &lt;style&gt; tag:&nbsp;</span></li>
-</ul>
-<p></p>
-<div class="editor-indent" style="margin-left: 30px;">
-    <div style="font-family:'Courier New'">
-        <div><strong>&lt;style&gt;</strong></div>
-    </div>
-    <div style="font-family:'Courier New'">
-        <div><strong> /* your css */</strong></div>
-    </div>
-    <div style="font-family:'Courier New'">
-        <div><strong> &lt;/style&gt;</strong></div>
-    </div>
-</div><br>
+
+
+  The file [💾 lab12.zip](./download/lab12.zip) is available for download. This file contains the files lab11.html and utm_logo.png. In the lab11.html file, please enter your CSS code. You are not permitted to make any changes to the HTML file that has been provided. CSS code can be entered in the `<style>` tag: 
+
+```html
+<style>
+/* your css */
+</style>
+```
+Part of the HTML code is as follows:
+
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab12/download/lab12b.png"  height="400" />
+</p>
+
+
+## Output
+
+You must create the interface as shown below.
+
+Part of the HTML code is as follows:
 <ul>
     <li>Part of the HTML code is as follows:</li>
 </ul>
