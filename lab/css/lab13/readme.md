@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 12: Layout (Mock & Style)
+# Lab 13: Layout (Mock & Style)
 
 ## Mock design
 Mock design in CSS refers to the process of creating a visual representation of a website or application design before it is implemented. Mock design is an important step in the design process, as it allows designers and developers to experiment with different layouts, color schemes, typography, and other design elements.
