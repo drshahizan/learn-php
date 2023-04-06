@@ -9,7 +9,85 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 12: Layout (Mock & Style)
 
-INSTRUCTIONS
+Layout design in CSS refers to the process of positioning and arranging HTML elements on a web page. CSS provides various layout techniques and properties that can be used to create different types of layouts, such as grid, flexbox, and float-based layouts. Here are some common CSS properties that can be used to create layout designs:
+
+## Box Model Properties
+
+- width: specifies the width of an element.
+- height: specifies the height of an element.
+- padding: specifies the space between the content of an element and its border.
+- border: specifies the border around an element.
+- margin: specifies the space between the border of an element and the adjacent elements.
+
+## Positioning Properties
+
+- position: specifies the type of positioning for an element, such as static, relative, absolute, or fixed.
+- top, right, bottom, left: specify the offset of an element from its normal position, depending on the value of the position property.
+- z-index: specifies the stacking order of elements.
+
+## Layout Techniques
+
+- CSS Grid: a two-dimensional layout system that allows for precise placement and sizing of elements within a grid container.
+- Flexbox: a one-dimensional layout system that allows for flexible and responsive layouts.
+- Floats: a layout technique that allows elements to float to the left or right of the container, enabling text to flow around them.
+- Here's an example of how these properties can be used to create a basic layout using CSS Grid:
+
+1. HTML
+```html
+<div class="grid-container">
+  <header class="header">Header</header>
+  <nav class="nav">Navigation</nav>
+  <main class="main">Main Content</main>
+  <aside class="sidebar">Sidebar</aside>
+  <footer class="footer">Footer</footer>
+</div>
+```
+
+2. CSS
+```
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 20px;
+  height: 100vh;
+}
+
+.header {
+  grid-column: 1 / 4;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.nav {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  grid-column: 1 / 3;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.sidebar {
+  grid-column: 3 / 4;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.footer {
+  grid-column: 1 / 4;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+}
+```
+
+In the above example, we have used CSS Grid to create a basic layout with a header, navigation, main content, sidebar, and footer. We have defined a grid container with display: grid, and specified the number of columns and rows using grid-template-columns and grid-template-rows. We have also added grid-gap to specify the gap between grid items. We have used grid positioning properties such as grid-column to position the header, main content, and sidebar elements in the desired grid areas. Finally, we have applied styles to each element, such as background color, padding, and font color.
+
+## Task
 
 You must complete two lab exercises relating to layout design. Lab 1 consists of three design layouts that must be completed. Lab 2 includes four different design layouts. Further explanation is provided in the following subtopic.
 
