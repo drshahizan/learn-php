@@ -21,9 +21,9 @@ Overall, HTML layout using CSS provides a powerful tool for designing modern and
 ## Code
 To design an HTML layout using a CSS file with a header, content, and footer, you can follow these steps:
 
-Create a new HTML file and add the basic structure, including the head and body tags.
+1.Create a new HTML file and add the basic structure, including the `head` and `body` tags.
 
-1. **HTML**
+**HTML**
 ```html
 <!DOCTYPE html>
 <html>
@@ -46,8 +46,9 @@ Create a new HTML file and add the basic structure, including the head and body 
 </html>
 ```
 
-Create a new CSS file and link it to your HTML file using the link tag in the head section.
-2. **CSS**
+2. Create a new CSS file and link it to your HTML file using the `link` tag in the `head` section.
+
+**CSS**
 ```html
 /* style.css */
 body {
@@ -76,11 +77,11 @@ footer {
 }
 ```
 
-Add CSS rules to style the header, content, and footer sections.
-The body rule sets the margin and padding to 0 to remove any default browser styles.
-The header rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
-The content rule sets the padding to provide spacing around the content, sets the maximum width to 800px, and centers the content using the margin property.
-The footer rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
+3. Add CSS rules to style the header, content, and footer sections.
+- The body rule sets the margin and padding to 0 to remove any default browser styles.
+- The header rule sets the background color to dark gray, the text color to white, and - adds padding for spacing and centering the content.
+- The content rule sets the padding to provide spacing around the content, sets the maximum width to 800px, and centers the content using the margin property.
+- The footer rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
 With these CSS rules, you can easily create an HTML layout with a header, content, and footer using the power of CSS. You can modify these rules as per your requirements to make it more visually appealing.
 
 Lab 14a: Layout
