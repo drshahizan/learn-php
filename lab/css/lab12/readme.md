@@ -7,6 +7,8 @@
 
 Don't forget to hit the :star: if you like this repo.
 
+# Lab 12: Text and Box Model
+
 INSTRUCTIONS
 
 Your task is to change the appearance of text using CSS. The following is the original interface:
