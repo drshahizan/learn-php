@@ -174,15 +174,15 @@ In the above example, we have used CSS Grid to create a basic layout with a head
 
 ## Task
 
-You must complete two lab exercises relating to layout design. Lab 1 consists of three design layouts that must be completed. Lab 2 includes four different design layouts. Further explanation is provided in the following subtopic.
+You must complete two layout design-related lab exercises. Lab 13a requires the completion of three design layouts, whereas Lab 13b requires the completion of four different design layouts. More information is available in the subtopic that follows.
 
 ### Lab 13a: Mock 1 - Mock 3
 
-- You must create three mock design layouts titled Mock 1, Mock 2, and Mock 3.
-- You have the option of using the grid or flexbox concept.
+- Create three mock design layouts titled Mock 1, Mock 2, and Mock 3.
+- You have the option of using either the grid or flexbox concept.
 - Each layout design must be created entirely with HTML files. In the HTML file, please use CSS styles.
 - The layout design interface is shown in Mock 1 to Mock 3.
-- The resulting files must be saved as mock1.html, mock2.html, and mock3.html.
+- Save the resulting files as mock1.html, mock2.html, and mock3.html, respectively.
 
 **Mock 1**: Save the file as mock1.html.
 <p align="center">
@@ -202,11 +202,10 @@ Figure 1.3: Mock 3. Save the file as mock3.html.
 
 ### Lab 13b: Style 1 - Style 4
 
-To generate interface design layouts for Style 1 through 4, you will need to create a style*.css file. Please follow the instructions below:
-- Unzip the following file into some folder: lab12_2.zip.
-- Inside the zip you will find an index.html file and a base.css file. These have the structure of the website and some base design. You should not change these files.
-- Try to make each of the designs listed below. You only need to use a style*.css file.
-- You must create a style1.css file through style4.css. Please send only this file. Make sure to zip the file and send it as lab12_2ans.zip.
+To generate interface design layouts for Style 1 through 4, you need to create a style*.css file. Please follow the instructions below:
+- Unzip the lab12_2.zip file into a folder.
+- Inside the zip, you will find an index.html file and a base.css file that contain the website structure and some base design. Do not modify these files.
+- Create a style1.css through style4.css file to design each of the layouts listed below. Submit only the CSS file, and ensure to zip the file and send it as lab12_2ans.zip.
 
 **Style 1**: Save the css file as style1.css.
 <p align="center">
