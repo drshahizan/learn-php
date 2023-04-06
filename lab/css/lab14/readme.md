@@ -202,7 +202,7 @@ Name:a
 Matrix No:
 Github id:
 
-Lab 11: HTML Text Appearance
+Lab 14: HTML Text Appearance
 -->
 ```
 2. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L11_Githubid.html`.
