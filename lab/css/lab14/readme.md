@@ -77,64 +77,68 @@ footer {
 }
 ```
 
-3. Add CSS rules to style the header, content, and footer sections.
-    * The body rule sets the margin and padding to 0 to remove any default browser styles.
-    * The header rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
-    * The content rule sets the padding to provide spacing around the content, sets the maximum width to 800px, and centers the content using the margin property.
-    * The footer rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
+3. Add CSS rules to style the `header`, `content`, and `footer` sections.
+    * The `body` rule sets the margin and padding to 0 to remove any default browser styles.
+    * The `header` rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
+    * The `content` rule sets the padding to provide spacing around the content, sets the maximum width to 800px, and centers the content using the `margin` property.
+    * The `footer` rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
 
 With these CSS rules, you can easily create an HTML layout with a header, content, and footer using the power of CSS. You can modify these rules as per your requirements to make it more visually appealing.
 
-Lab 14a: Layout
+## Task 1
 
-You must create a web layout design similar to Figure 1.1.
-This layout has five sections: header, article, navigation, ads, and footer.
-Please use a white separator to divide this section.
-The CSS style must be entered in the generated HTML file.
-When finished, save the file as layout1.html.
-abc
+- You must create a web layout design similar to Figure 1.1.
+- This layout has five sections: header, article, navigation, ads, and footer.
+- Please use a white separator to divide this section.
+- The CSS style must be entered in the generated HTML file.
+- When finished, save the file as layout1.html.
+
 Figure 1.1: Layout1. Save the file as layout1.html.
 
-Lab 2: Layout
+## Task 2
 
-You must create a web layout design that makes use of the flexbox concept.
-Please download the layout2ques.html template file.
-This layout is divided into two sections: the header and the article.
-The <article> tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 2.1).
-When you reduce the display size, the column size adjusts automatically (refer to Figure 2.2).
-Please use a white separator to divide this section.
-The CSS style must be entered in the generated HTML file. When finished, save the file as layout2.html.
+- You must create a web layout design that makes use of the flexbox concept.
+- Please download the layout2ques.html template file.
+- This layout is divided into two sections: the header and the article.
+- The <article> tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 2.1).
+- When you reduce the display size, the column size adjusts automatically (refer to Figure 2.2).
+- Please use a white separator to divide this section.
+- The CSS style must be entered in the generated HTML file. When finished, save the file as layout2.html.
+
 abc
 Figure 2.1: Layout a. Save the file as layout2.html.
 
 abc
 Figure 2.2: Layout b.
 
-Lab 3: Layout
+## Task 3
 
-You must create a layout design for a website called My Magazine (refer Figure 3.1).
-Please download the layout3ques.html template.
-After the section header, there is a navigation menu at the top of this website.
-There are two classes in the content section: leftcolumn and rightcolumn. The title heading, title description, and content are all found in the left column. Editor, Photos, and Contact Us information can be found in the rightcolumn class.
-The footer class is at the very bottom.
-The CSS style must be specified in the HTML file that is generated. The resulting file must be saved as layout3.html.
+- You must create a layout design for a website called My Magazine (refer Figure 3.1).
+- Please download the layout3ques.html template.
+- After the section header, there is a navigation menu at the top of this website.
+- There are two classes in the content section: leftcolumn and rightcolumn. The title heading, title description, and content are all found in the left column. Editor, Photos, and Contact Us information can be found in the rightcolumn class.
+- The footer class is at the very bottom.
+- The CSS style must be specified in the HTML file that is generated. The resulting file must be saved as layout3.html.
+
 abc
 Figure 3.1: Save the file as layout3.html.
 
-Lab 4: Layout
+## Task 4
 
 Using HTML 5 only, create a prototype of an online newspaper:
 
-Throughout this lab exercise, do not worry about design. HTML is a markup language with pre-defined presentation semantics; most of the design is handled by CSS.
-For now, you can edit your HTML files locally.
-Validate and verify the result on the browser as you proceed.
-Some tips and ideas:
+- Throughout this lab exercise, do not worry about design. HTML is a markup language with pre-defined presentation semantics; most of the design is handled by CSS.
+- For now, you can edit your HTML files locally.
+- Validate and verify the result on the browser as you proceed.
 
-Use the site http://www.lipsum.com/ if you need to generate example paragraphs.
-Use the site https://picsum.photos/ if you need some example photos.
+## Some tips and ideas:
+
+- Use the site http://www.lipsum.com/ if you need to generate example paragraphs.
+- Use the site https://picsum.photos/ if you need some example photos.
+
 Steps:
 
-In this lab exercise, you will create the pages described in the following image:
+1. In this lab exercise, you will create the pages described in the following image:
 abc
 Figure 4.1: The file type *.html was used.
 
@@ -142,6 +146,7 @@ The main page represents the main page of the newspaper having a series of abbre
 The news article page has one particular news item in its complete form. It also has comments written by the readers.
 The section page is very similar to the main page, but only has news about a particular topic (e.g., sports).
 For each page, create a new HTML file, open it with your favorite code editor, and add the following basic HTML code:
+
 <!DOCTYPE html>
 <html>
    <head>
@@ -150,6 +155,7 @@ For each page, create a new HTML file, open it with your favorite code editor, a
    <body>
    </body>
 </html>
+
 Open the main page in a web browser (the most straightforward way is to drag the file into a new tab).
 
 Complete each page using the correct semantic elements.
