@@ -7,88 +7,91 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 11: HTML Text Appearance
+# Lab 14: Layout
 
-CSS stands for Cascading Style Sheets, which is a styling language used to describe the presentation of HTML or XML documents. With CSS, we can modify the appearance of text. Text appearance refers to the visual styling properties applied to the text content of a web page. These properties can include font family, font size, font weight, line height, text color, text decoration, text alignment, and more. For example, the font-family property can be used to specify the font type, such as *Arial* or *Times New Roman*. The font-size property can be used to specify the size of the font, such as 12px or 1em. The color property can be used to specify the color of the text, such as `red` or `#FF0000`.
+ab 1: Layout
 
-Additionally, we can use CSS properties to change the style of the text, such as font-weight for **bold**, font-style for *italic*, and text-decoration for underline. We can also apply text shadows, adjust letter spacing, and modify the line height, among other things.
+You must create a web layout design similar to Figure 1.1.
+This layout has five sections: header, article, navigation, ads, and footer.
+Please use a white separator to divide this section.
+The CSS style must be entered in the generated HTML file.
+When finished, save the file as layout1.html.
+abc
+Figure 1.1: Layout1. Save the file as layout1.html.
 
-Here's an example of how to use CSS to set the text appearance of a paragraph:
+Lab 2: Layout
 
-```html
-<style>
-  /* set the font family to Arial */
-  p {
-    font-family: Arial, sans-serif;
-  }
-  
-  /* set the font size to 18 pixels */
-  p {
-    font-size: 18px;
-  }
-  
-  /* set the font weight to bold */
-  p {
-    font-weight: bold;
-  }
-  
-  /* set the line height to 1.5 */
-  p {
-    line-height: 1.5;
-  }
-  
-  /* set the text color to red */
-  p {
-    color: red;
-  }
-  
-  /* set the text decoration to underline */
-  p {
-    text-decoration: underline;
-  }
-  
-  /* set the text alignment to center */
-  p {
-    text-align: center;
-  }
-</style>
+You must create a web layout design that makes use of the flexbox concept.
+Please download the layout2ques.html template file.
+This layout is divided into two sections: the header and the article.
+The <article> tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 2.1).
+When you reduce the display size, the column size adjusts automatically (refer to Figure 2.2).
+Please use a white separator to divide this section.
+The CSS style must be entered in the generated HTML file. When finished, save the file as layout2.html.
+abc
+Figure 2.1: Layout a. Save the file as layout2.html.
 
-<p>This is an example paragraph with text appearance styles applied.</p>
-```
+abc
+Figure 2.2: Layout b.
 
-In this example, the CSS code sets the font family to *Arial*, the font size to 18 pixels, the font weight to bold, the line height to 1.5, the text color to red, the text decoration to underline, and the text alignment to center for the paragraph element. The actual appearance of the text will depend on the browser and device being used to view the page.
+Lab 3: Layout
 
-## Task
+You must create a layout design for a website called My Magazine (refer Figure 3.1).
+Please download the layout3ques.html template.
+After the section header, there is a navigation menu at the top of this website.
+There are two classes in the content section: leftcolumn and rightcolumn. The title heading, title description, and content are all found in the left column. Editor, Photos, and Contact Us information can be found in the rightcolumn class.
+The footer class is at the very bottom.
+The CSS style must be specified in the HTML file that is generated. The resulting file must be saved as layout3.html.
+abc
+Figure 3.1: Save the file as layout3.html.
 
-Your task is to use CSS to change the appearance of text. The following is the text:
+Lab 4: Layout
 
-```html
-UTM has three campuses – the main campus is in Skudai, and was the first university in the state of Johor. 
-It has an area of 1148 hectares and is the second largest public university after Universiti Putra Malaysia (UPM). 
-It is about 20 km north of the state capital, Johor Bahru.
-    
-    The branch campus is situated in Jalan Semarak within Kuala Lumpur, with an area of 38 hectares. The branch 
-campus accommodates diploma students, part-time students (also known as the SPACE program), undergraduate students 
-(Malaysia-Japan International Institute of Technology) and foreign students taking business courses.
-    
-    The new branch campus located in Pagoh was officially opened on 2 May 2017. Universiti Teknologi Malaysia 
-Innovation Centre in Agritechnology for Advanced Bioprocessing (UTM-ICA) is strategically located off the Pagoh 
-interchange on the north–south expressway, in the district of Muar, Johor. A 50-hectare campus equipped with 
-shared facilities integrated with Bandar University Pagoh.
-```
+Using HTML 5 only, create a prototype of an online newspaper:
 
-The given text requires tagging before it can be altered using CSS. Please apply the following tags:
-1. **Bold** the word UTM.
-2. *Italicize* all place names.
-3. Use the `<h6>` tag for all numbers.
+Throughout this lab exercise, do not worry about design. HTML is a markup language with pre-defined presentation semantics; most of the design is handled by CSS.
+For now, you can edit your HTML files locally.
+Validate and verify the result on the browser as you proceed.
+Some tips and ideas:
 
-Make sure to incorporate the following CSS properties into your style sheet:
+Use the site http://www.lipsum.com/ if you need to generate example paragraphs.
+Use the site https://picsum.photos/ if you need some example photos.
+Steps:
 
-1. Set the font to *fantasy*.
-2. For the first paragraph, set the font size to 24pt.
-3. Color the word UTM in orange.
-4. Underline all place names.
-5. Color all numbers in green.
+In this lab exercise, you will create the pages described in the following image:
+abc
+Figure 4.1: The file type *.html was used.
+
+The main page represents the main page of the newspaper having a series of abbreviated news items.
+The news article page has one particular news item in its complete form. It also has comments written by the readers.
+The section page is very similar to the main page, but only has news about a particular topic (e.g., sports).
+For each page, create a new HTML file, open it with your favorite code editor, and add the following basic HTML code:
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Online Newspaper</title>
+   </head>
+   <body>
+   </body>
+</html>
+Open the main page in a web browser (the most straightforward way is to drag the file into a new tab).
+
+Complete each page using the correct semantic elements.
+
+The header of each page should have:
+The name of the newspaper.
+A logo.
+The section's name (if it's a section page).
+Clicking any of these elements should take the user back to the main page.
+The menu should have links to each one of the section pages (e.g., sports, politics, and local)
+The links should be part of an unordered list.
+For now, all of those can point to section.html.
+Each article should have a title, some paragraphs, an image, and a footer.
+In the main and section pages, only a couple of paragraphs of each news item should be shown.
+The news article page should also have some comments. Each comment should have some text, a date/time, and the author's username. After all the comments, there should be a form (with a title, a username and a text fields) that allows users to add more comments.
+The footer should contain the date/time and the author's name. In the main and section pages, there should also be a "Read more" link that redirects the user to the news article page containing the complete news item.
+The footer of each page should have a Copyright Notice. Use a character entity for the © symbol.
+Don't forget to validate the pages when you're done.
 
 ## Instructions
 
