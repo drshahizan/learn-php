@@ -229,6 +229,7 @@ Figure 2.3: Style 3. Save the css file as style3.css.
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab2d.png"  width="600" />
+abc
 </p>
 <center>Centered text</center>
 
