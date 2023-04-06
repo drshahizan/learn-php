@@ -25,6 +25,26 @@ The Text Model in CSS is concerned with the rendering of text content within an 
 
 Together, these properties allow developers to control the appearance and layout of text content within an HTML document.
 
+**Sample code**:
+
+1. Css:
+```html
+<p class="text-example">This is an example of styled text</p>
+```
+2. HTML
+```html
+.text-example {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  line-height: 1.5;
+}
+```
+
+In the above example, we have defined a paragraph element with a class of "text-example". In the CSS, we have applied various properties to this class to style the text content within the paragraph. We have specified the font family, size, weight, and color of the text, as well as the text alignment and line-height.
+
 ## Box Model:
 
 The Box Model in CSS is concerned with the layout and positioning of elements on a web page. It consists of four components:
@@ -38,6 +58,28 @@ The Box Model in CSS is concerned with the layout and positioning of elements on
 4. Margin: The margin area is the space between the border of an element and the adjacent elements.
 
 By adjusting the dimensions of each of these components, developers can control the size, spacing, and positioning of elements on a web page. The Box Model is a fundamental concept in web design and is used extensively in layout and design.
+
+**Sample code**:
+
+1. HTML:
+```html
+<div class="box-example">
+  <p>This is an example of a box with padding, border, and margin</p>
+</div>
+```
+2. CSS:
+```html
+.box-example {
+  width: 400px;
+  height: 200px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border: 1px solid #333333;
+  margin: 20px;
+}
+```
+
+In the above example, we have defined a div element with a class of "box-example". In the CSS, we have applied various properties to this class to define the dimensions, background color, padding, border, and margin of the element. We have specified a width and height of 400px and 200px respectively, and added a gray background color. We have also added 20px of padding, a 1px solid black border, and 20px of margin around the element. The resulting box will be displayed as a rectangle with text content inside, surrounded by padding, a border, and margin.
 
 ## Task
 Your task is to change the appearance of text using CSS. The following is the original interface:
