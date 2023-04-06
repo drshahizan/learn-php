@@ -36,7 +36,7 @@ When creating a mock design in CSS, it is important to consider the following de
 
 Mock design in CSS can take many forms, depending on the design process and the tools used. Here's an example of a simple mock design for a blog post using HTML and CSS:
 
-1. **HTML**:
+1. **HTML**
 
 ```html
 <div class="post">
@@ -48,7 +48,7 @@ Mock design in CSS can take many forms, depending on the design process and the 
 </div>
 ```
 
-2. **CSS**:
+2. **CSS**
 
 ```html
 .post {
@@ -117,7 +117,7 @@ Layout design in CSS refers to the process of positioning and arranging HTML ele
 - Floats: a layout technique that allows elements to float to the left or right of the container, enabling text to flow around them.
 - Here's an example of how these properties can be used to create a basic layout using CSS Grid:
 
-1. HTML
+1. **HTML**
 ```html
 <div class="grid-container">
   <header class="header">Header</header>
@@ -128,7 +128,7 @@ Layout design in CSS refers to the process of positioning and arranging HTML ele
 </div>
 ```
 
-2. CSS
+2. **CSS**
 ```
 .grid-container {
   display: grid;
