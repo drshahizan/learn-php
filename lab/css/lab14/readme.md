@@ -23,17 +23,18 @@ Overall, HTML layout using CSS provides a powerful tool for designing modern and
 - Use the site http://www.lipsum.com/ if you need to generate example paragraphs.
 - Use the site https://picsum.photos/ if you need some example photos.
 
-Steps:
+**Steps**:
 
 1. In this exercise, you will create the pages described in the following image:
-
+    - The **main** page represents the main page of the newspaper having a series of **abbreviated** news items.
+    - The **news article** page has one particular news item in its **complete** form. It also has comments written by the readers.
+    - The **section** page is very similar to the **main** page, but only has news about a particular topic (e.g., sports).
+    
 Image: The file type *.html was used.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/newspaper.svg"  width="600" />
 </p>
-    * The **main** page represents the main page of the newspaper having a series of **abbreviated** news items.
-    * The **news article** page has one particular news item in its **complete** form. It also has comments written by the readers.
-    * The **section** page is very similar to the **main** page, but only has news about a particular topic (e.g., sports).
+    
 
 2. For each page, create a new HTML file, open it with your favorite code editor, and add the following basic HTML code:
 
