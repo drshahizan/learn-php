@@ -178,24 +178,23 @@ You must complete two lab exercises relating to layout design. Lab 1 consists of
 
 ### Lab 13a: Mock 1 - Mock 3
 
-You must create three mock design layouts titled Mock 1, Mock 2, and Mock 3.
-You have the option of using the grid or flexbox concept.
-Each layout design must be created entirely with HTML files. In the HTML file, please use CSS styles.
-The layout design interface is shown in Figure 1.1 to Figure 1.3.
-The resulting files must be saved as mock1.html, mock2.html, and mock3.html. After that, please zip and send the file as lab12_1.zip.
+- You must create three mock design layouts titled Mock 1, Mock 2, and Mock 3.
+- You have the option of using the grid or flexbox concept.
+- Each layout design must be created entirely with HTML files. In the HTML file, please use CSS styles.
+- The layout design interface is shown in Mock 1 to Mock 3.
+- The resulting files must be saved as mock1.html, mock2.html, and mock3.html.
 
+**Mock 1**: Save the file as mock1.html.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13a.png"  width="600" />
 </p>
-Figure 1.1: Mock 1. Save the file as mock1.html.
 
-
+**Mock 2**: Save the file as mock2.html.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13b.png"  width="600" />
 </p>
-Figure 1.2: Mock 2. Save the file as mock2.html.
 
-
+**Mock 3**: Save the file as mock3.html.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13c.png"  width="600" />
 </p>
@@ -204,36 +203,31 @@ Figure 1.3: Mock 3. Save the file as mock3.html.
 ### Lab 13b: Style 1 - Style 4
 
 To generate interface design layouts for Style 1 through 4, you will need to create a style*.css file. Please follow the instructions below:
-Unzip the following file into some folder: lab12_2.zip.
-Inside the zip you will find an index.html file and a base.css file. These have the structure of the website and some base design. You should not change these files.
-Try to make each of the designs listed below. You only need to use a style*.css file.
-You must create a style1.css file through style4.css. Please send only this file. Make sure to zip the file and send it as lab12_2ans.zip.
+- Unzip the following file into some folder: lab12_2.zip.
+- Inside the zip you will find an index.html file and a base.css file. These have the structure of the website and some base design. You should not change these files.
+- Try to make each of the designs listed below. You only need to use a style*.css file.
+- You must create a style1.css file through style4.css. Please send only this file. Make sure to zip the file and send it as lab12_2ans.zip.
 
+**Style 1**: Save the css file as style1.css.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13d.png"  width="600" />
 </p>
-Figure 2.1: Style 1. Save the css file as style1.css.
 
-
+**Style 2**: Save the css file as style2.css.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13e.png"  width="600" />
 </p>
-Figure 2.2: Style 2. Save the css file as style2.css.
 
-
+**Style 3**: Save the css file as style3.css.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13f.png"  width="600" />
 </p>
-Figure 2.3: Style 3. Save the css file as style3.css.
 
-
+**Style 4**: Save the css file as style4.css.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13g.png"  width="600" />
 </p>
 
-
-# Example text {style=text-align:center}
-Figure 2.4: Style 4. Save the css file as style4.css.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
