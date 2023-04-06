@@ -41,7 +41,7 @@ Mock design in CSS can take many forms, depending on the design process and the 
 ```html
 <div class="post">
   <h2 class="post-title">How to Create Mock Designs in CSS</h2>
-  <p class="post-meta">Posted by John Doe on April 6, 2023</p>
+  <p class="post-meta">Posted by MSO on April 6, 2023</p>
   <img class="post-image" src="https://example.com/mock-design.png" alt="Mock design image">
   <p class="post-content">In this post, we'll explore the process of creating mock designs in CSS and the tools you can use to make it easier.</p>
   <a class="read-more-link" href="#">Read More</a>
