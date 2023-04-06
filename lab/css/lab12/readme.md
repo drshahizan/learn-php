@@ -7,88 +7,76 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 11: HTML Text Appearance
+INSTRUCTIONS
 
-CSS stands for Cascading Style Sheets, which is a styling language used to describe the presentation of HTML or XML documents. With CSS, we can modify the appearance of text. Text appearance refers to the visual styling properties applied to the text content of a web page. These properties can include font family, font size, font weight, line height, text color, text decoration, text alignment, and more. For example, the font-family property can be used to specify the font type, such as *Arial* or *Times New Roman*. The font-size property can be used to specify the size of the font, such as 12px or 1em. The color property can be used to specify the color of the text, such as `red` or `#FF0000`.
+Your task is to change the appearance of text using CSS. The following is the original interface:
+abc
 
-Additionally, we can use CSS properties to change the style of the text, such as font-weight for **bold**, font-style for *italic*, and text-decoration for underline. We can also apply text shadows, adjust letter spacing, and modify the line height, among other things.
-
-Here's an example of how to use CSS to set the text appearance of a paragraph:
-
-```html
+The file 💾 lab11.zip is available for download. This file contains the files lab11.html and utm_logo.png. In the lab11.html file, please enter your CSS code. You are not permitted to make any changes to the HTML file that has been provided. CSS code can be entered in the <style> tag: 
 <style>
-  /* set the font family to Arial */
-  p {
-    font-family: Arial, sans-serif;
-  }
-  
-  /* set the font size to 18 pixels */
-  p {
-    font-size: 18px;
-  }
-  
-  /* set the font weight to bold */
-  p {
-    font-weight: bold;
-  }
-  
-  /* set the line height to 1.5 */
-  p {
-    line-height: 1.5;
-  }
-  
-  /* set the text color to red */
-  p {
-    color: red;
-  }
-  
-  /* set the text decoration to underline */
-  p {
-    text-decoration: underline;
-  }
-  
-  /* set the text alignment to center */
-  p {
-    text-align: center;
-  }
+/* your css */
 </style>
 
-<p>This is an example paragraph with text appearance styles applied.</p>
-```
+Part of the HTML code is as follows:
+abc
 
-In this example, the CSS code sets the font family to *Arial*, the font size to 18 pixels, the font weight to bold, the line height to 1.5, the text color to red, the text decoration to underline, and the text alignment to center for the paragraph element. The actual appearance of the text will depend on the browser and device being used to view the page.
+Output
 
-## Task
+You must create the interface as shown below.
+abc
 
-Your task is to use CSS to change the appearance of text. The following is the text:
+Lab 1: Google Font
 
-```html
-UTM has three campuses – the main campus is in Skudai, and was the first university in the state of Johor. 
-It has an area of 1148 hectares and is the second largest public university after Universiti Putra Malaysia (UPM). 
-It is about 20 km north of the state capital, Johor Bahru.
-    
-    The branch campus is situated in Jalan Semarak within Kuala Lumpur, with an area of 38 hectares. The branch 
-campus accommodates diploma students, part-time students (also known as the SPACE program), undergraduate students 
-(Malaysia-Japan International Institute of Technology) and foreign students taking business courses.
-    
-    The new branch campus located in Pagoh was officially opened on 2 May 2017. Universiti Teknologi Malaysia 
-Innovation Centre in Agritechnology for Advanced Bioprocessing (UTM-ICA) is strategically located off the Pagoh 
-interchange on the north–south expressway, in the district of Muar, Johor. A 50-hectare campus equipped with 
-shared facilities integrated with Bandar University Pagoh.
-```
+This lab exercise requires you to create a green box that is in the centre of the page.
+This box contains text that is written in the Indie Flower font, which was provided by Google.
+You can use properties such as width, border, text align, padding, and margin.
+abc
 
-The given text requires tagging before it can be altered using CSS. Please apply the following tags:
-1. **Bold** the word UTM.
-2. *Italicize* all place names.
-3. Use the `<h6>` tag for all numbers.
+Lab 2: Style first letter, first line & last line
 
-Make sure to incorporate the following CSS properties into your style sheet:
+Lab 2 contains three paragraphs of text about the history of UTM.
+Each paragraph's first alphabet should be red, bold, and 150 percent in size.
+The first paragraph's text is salmon coloured.
+The final paragraph must be in green.
+You must also comply to the text align settings for each paragraph.
+abc
 
-1. Set the font to *fantasy*.
-2. For the first paragraph, set the font size to 24pt.
-3. Color the word UTM in orange.
-4. Underline all place names.
-5. Color all numbers in green.
+Lab 3: Border
+
+Lab 3 is related with the box's border.
+You must modify the box's appearance by using border features such as solid, double, dashed, and dotted.
+Each box contains border information such as 2 px, 6 px, and 8 px. For the border, please use the colour #9799a7.
+You must also draw rounded, radius, and football shapes in addition to box shapes.
+For this lab, you can also use features like background, colour, font, display, height, margin, padding top, text align, and width.
+abc
+
+Lab 4: Box Model 1
+
+For Lab 4, you will learn about the model box concept.
+To create the box, enter code such as 40px padding, 30px margin, and a 15px inset blue.
+The box's background colour is yellow.
+abc
+
+Lab 5: Box Model 2
+
+Using the box model concept, Lab 5 will create a box.
+Box2, item1, and item 2 are the three classes that are used.
+The box2 class is used to create boxes with a greenyellow border.
+The item1 and item2 classes are used to modify the appearance of the box's contents.
+Please create a box like the image below.
+abc
+
+Lab 6: Box Model 3
+
+To generate a box for Lab 6, four ids or classes are used.
+box3 is the id for creating a model box. This box is located in the centre of the page. This box's information is a 3 px border that is solid and rgb coloured (42, 75, 165). The background colour is rgba (1, 247, 177, 0.483) and the size is 500px.
+The photo class, text2 id, and text3 class are all contained within the model box. The photo class is used to alter the appearance of the utm logo.png image by adding a 5px dotted border and coloured rgb pixels (251, 0, 255).
+The id text2 is used to create a box with a 6 px dashed and rgb-colored border (248, 80, 3). This box text content can be scrolled.
+The text3 class is used to make text bold or underlined.
+abc
+
+The following is the interface display when the text is scrolled.
+abc
 
 ## Instructions
 
