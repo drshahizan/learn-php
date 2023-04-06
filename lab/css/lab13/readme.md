@@ -7,105 +7,51 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 11: HTML Text Appearance
+# Lab 12: Layout (Mock & Style)
 
-CSS stands for Cascading Style Sheets, which is a styling language used to describe the presentation of HTML or XML documents. With CSS, we can modify the appearance of text. Text appearance refers to the visual styling properties applied to the text content of a web page. These properties can include font family, font size, font weight, line height, text color, text decoration, text alignment, and more. For example, the font-family property can be used to specify the font type, such as *Arial* or *Times New Roman*. The font-size property can be used to specify the size of the font, such as 12px or 1em. The color property can be used to specify the color of the text, such as `red` or `#FF0000`.
+INSTRUCTIONS
 
-Additionally, we can use CSS properties to change the style of the text, such as font-weight for **bold**, font-style for *italic*, and text-decoration for underline. We can also apply text shadows, adjust letter spacing, and modify the line height, among other things.
+You must complete two lab exercises relating to layout design. Lab 1 consists of three design layouts that must be completed. Lab 2 includes four different design layouts. Further explanation is provided in the following subtopic.
 
-Here's an example of how to use CSS to set the text appearance of a paragraph:
+Lab 1: Mock 1 - Mock 3
 
-```html
-<style>
-  /* set the font family to Arial */
-  p {
-    font-family: Arial, sans-serif;
-  }
-  
-  /* set the font size to 18 pixels */
-  p {
-    font-size: 18px;
-  }
-  
-  /* set the font weight to bold */
-  p {
-    font-weight: bold;
-  }
-  
-  /* set the line height to 1.5 */
-  p {
-    line-height: 1.5;
-  }
-  
-  /* set the text color to red */
-  p {
-    color: red;
-  }
-  
-  /* set the text decoration to underline */
-  p {
-    text-decoration: underline;
-  }
-  
-  /* set the text alignment to center */
-  p {
-    text-align: center;
-  }
-</style>
+You must create three mock design layouts titled Mock 1, Mock 2, and Mock 3.
+You have the option of using the grid or flexbox concept.
+Each layout design must be created entirely with HTML files. In the HTML file, please use CSS styles.
+The layout design interface is shown in Figure 1.1 to Figure 1.3.
+The resulting files must be saved as mock1.html, mock2.html, and mock3.html. After that, please zip and send the file as lab12_1.zip.
+abc
+Figure 1.1: Mock 1. Save the file as mock1.html.
 
-<p>This is an example paragraph with text appearance styles applied.</p>
-```
 
-In this example, the CSS code sets the font family to *Arial*, the font size to 18 pixels, the font weight to bold, the line height to 1.5, the text color to red, the text decoration to underline, and the text alignment to center for the paragraph element. The actual appearance of the text will depend on the browser and device being used to view the page.
+abc
+Figure 1.2: Mock 2. Save the file as mock2.html.
 
-## Task
 
-Your task is to use CSS to change the appearance of text. The following is the text:
+abc
+Figure 1.3: Mock 3. Save the file as mock3.html.
 
-```html
-UTM has three campuses – the main campus is in Skudai, and was the first university in the state of Johor. 
-It has an area of 1148 hectares and is the second largest public university after Universiti Putra Malaysia (UPM). 
-It is about 20 km north of the state capital, Johor Bahru.
-    
-    The branch campus is situated in Jalan Semarak within Kuala Lumpur, with an area of 38 hectares. The branch 
-campus accommodates diploma students, part-time students (also known as the SPACE program), undergraduate students 
-(Malaysia-Japan International Institute of Technology) and foreign students taking business courses.
-    
-    The new branch campus located in Pagoh was officially opened on 2 May 2017. Universiti Teknologi Malaysia 
-Innovation Centre in Agritechnology for Advanced Bioprocessing (UTM-ICA) is strategically located off the Pagoh 
-interchange on the north–south expressway, in the district of Muar, Johor. A 50-hectare campus equipped with 
-shared facilities integrated with Bandar University Pagoh.
-```
+Lab 2: Style 1 - Style 4
 
-The given text requires tagging before it can be altered using CSS. Please apply the following tags:
-1. **Bold** the word UTM.
-2. *Italicize* all place names.
-3. Use the `<h6>` tag for all numbers.
+To generate interface design layouts for Style 1 through 4, you will need to create a style*.css file. Please follow the instructions below:
+Unzip the following file into some folder: lab12_2.zip.
+Inside the zip you will find an index.html file and a base.css file. These have the structure of the website and some base design. You should not change these files.
+Try to make each of the designs listed below. You only need to use a style*.css file.
+You must create a style1.css file through style4.css. Please send only this file. Make sure to zip the file and send it as lab12_2ans.zip.
+abc
+Figure 2.1: Style 1. Save the css file as style1.css.
 
-Make sure to incorporate the following CSS properties into your style sheet:
 
-1. Set the font to *fantasy*.
-2. For the first paragraph, set the font size to 24pt.
-3. Color the word UTM in orange.
-4. Underline all place names.
-5. Color all numbers in green.
+abc
+Figure 2.2: Style 2. Save the css file as style2.css.
 
-## Instructions
 
-1. Please include your contact information in the HTML `<head>`.
+abc
+Figure 2.3: Style 3. Save the css file as style3.css.
 
-``` 
-<!--
-Name:a
-Matrix No:
-Github id:
 
-Lab 11: HTML Text Appearance
--->
-```
-2. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L11_Githubid.html`.
-  > Example: 
-  > /submission/drshahizan/L11_drshahizan.html
+abc
+Figure 2.4: Style 4. Save the css file as style4.css.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
