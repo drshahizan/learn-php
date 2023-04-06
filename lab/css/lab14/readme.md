@@ -78,10 +78,10 @@ footer {
 ```
 
 3. Add CSS rules to style the header, content, and footer sections.
-  - The body rule sets the margin and padding to 0 to remove any default browser styles.
-  - The header rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
-  - The content rule sets the padding to provide spacing around the content, sets the maximum width to 800px, and centers the content using the margin property.
-  - The footer rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
+    * The body rule sets the margin and padding to 0 to remove any default browser styles.
+    * The header rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
+    * The content rule sets the padding to provide spacing around the content, sets the maximum width to 800px, and centers the content using the margin property.
+    * The footer rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
 
 With these CSS rules, you can easily create an HTML layout with a header, content, and footer using the power of CSS. You can modify these rules as per your requirements to make it more visually appealing.
 
