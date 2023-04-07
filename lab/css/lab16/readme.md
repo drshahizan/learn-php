@@ -85,7 +85,7 @@ Forms are always an important part of any project that collects user input infor
 
 Figure 1.1
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16b.png" width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16b.png" width="400" />
 </p>
 
 ### Output
@@ -127,7 +127,7 @@ You have been tasked with creating a search interface for UTMTravel. Users can s
 
 Figure 4.1
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16f.png" width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16f.png" width="300" />
 </p>
 
 Figure 4.2
