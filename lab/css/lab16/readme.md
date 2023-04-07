@@ -40,10 +40,6 @@ HTML code:
 **CSS**
 
 ```css
-CSS code:
-
-css
-Copy code
 .form-group {
   margin-bottom: 10px;
 }
@@ -75,50 +71,69 @@ In this example, we use a form element to wrap the form elements, and we group t
 
 We use CSS to style the form elements, including adding margins and padding, setting the width of input fields and textareas, and styling the submit button. This is just a simple example, and you can customize the form layout further to fit your specific needs.
 
-Instructions
+## Lab
 
-HTML forms are integral part of the web, it's a powerful and crucial tool for interacting with users. But without some styling and positioning, forms just look awful! So, how do you make it appealing and presentable? This is where the CSS comes into play. You are required to produce a simple form layout. There are four lab practise questions in this lab that must be answered. You've been given raw HTML and images to work with for this lab. You can download the files lab16.zip. The following files can be found in the lab15.zip file:
+You are required to produce a simple form layout. There are four lab practise questions in this lab that must be answered. You've been given raw HTML and images to work with for this lab. You can download the files lab16.zip. The following files can be found in the lab16.zip file:
 
-abc
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16a.png" width="200" />
+</p>
 
 ## Lab 1: Survey Form
 
 Forms are always an important part of any project that collects user input information. In this lab exercise, you will use HTML and CSS to create a survey form. You will design the basic layout of the form using HTML, and CSS will add a beautiful design to our layout using text-decoration, text colour, background colour, text alignment, margin, padding, and so on. The file you will use is lab1.html. Figure 1.1 is a display of the interface without using any CSS.
 
-abc
 Figure 1.1
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16b.png" width="600" />
+</p>
 
-Output
+### Output
 
 You must create the interface depicted in Figure 1.2. Please enter the appropriate CSS to create a more aesthetically pleasing and professional interface.
 
-abc
+
 Figure 1.2
-Lab 2: Persaka Survey Form
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16c.png" width="600" />
+</p>
+
+## Lab 2: Persaka Survey Form
 
 You have been tasked with creating an appealing survey form interface for Persaka. The files you'll need are lab2.html and mal2.jpeg. Enter CSS tags in the lab2.html file to change the appearance of the interface. The mal2.jpeg file is used as the survey form's background image. Figure 2.1 depicts the outcomes of the implementation for this lab exercise.
 
-abc
 Figure 2.1
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16c.png" width="600" />
+</p>
 
-Lab 3: Login Page
+## Lab 3: Login Page
 
 Before users can access the system, they must first enter a username and password into the login interface. You are required to change the appearance of the login page interface in this exercise. Please insert the appropriate CSS into a file called lab3.html. The implementation results are shown in Figure 3.1. When the user enters the username and password, the label will appear above the input, in a small, coloured font. When you move your cursor over the Submit button, it will transform into a coloured box (please refer to 3.2).
-abc
+
 Figure 3.1
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16d.png" width="600" />
+</p>
 
-abc
 Figure 3.2
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16e.png" width="600" />
+</p>
 
-Lab 4: UTMtravel
+## Lab 4: UTMtravel
 
 You have been tasked with creating a search interface for UTMTravel. Users can specify which locations they wish to visit. You must use the files lab4.html and mal3.jpeg. In the lab4.html file, please include a CSS tag. The mal3.jpeg file serves as the website's background image. Please see Figure 4.1 for the output results. When you move your cursor over the Register/Login button, the background colour of the box changes to red (please refer to Figure 4.2).
 
-abc
 Figure 4.1
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16f.png" width="600" />
+</p>
 
-abc
 Figure 4.2
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16g.png" width="600" />
+</p>
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
