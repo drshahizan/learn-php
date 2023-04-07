@@ -49,7 +49,7 @@ To design an HTML layout using a CSS file with a header, content, and footer, yo
 2. Create a new CSS file and link it to your HTML file using the `link` tag in the `head` section.
 
 **CSS**
-```html
+```css
 /* style.css */
 body {
   margin: 0;
