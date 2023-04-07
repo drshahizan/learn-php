@@ -21,7 +21,7 @@ Overall, HTML layout using CSS provides a powerful tool for designing modern and
 ## Code
 To design an HTML layout using a CSS file with a header, content, and footer, you can follow these steps:
 
-1.Create a new HTML file and add the basic structure, including the `head` and `body` tags.
+1. Create a new HTML file and add the basic structure, including the `head` and `body` tags.
 
 **HTML**
 ```html
