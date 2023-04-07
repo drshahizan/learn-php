@@ -36,7 +36,13 @@ Here is an example HTML and CSS code to create a basic website layout with heade
     </header>
     <div class="content">
       <h2>Content</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque eget massa id imperdiet. Maecenas vitae lacus auctor, aliquam sapien vel, semper quam. Nulla facilisi. Integer vitae lectus elit. Sed consequat ligula vel magna ultricies elementum. Ut venenatis mauris vitae velit pulvinar hendrerit. Duis interdum sapien sit amet erat convallis, eget posuere tellus gravida. Curabitur convallis ornare metus ac auctor. Ut faucibus libero et ligula convallis auctor. Praesent tincidunt elit eu elit tincidunt lacinia. Ut suscipit libero nec enim aliquam sollicitudin. Proin lacinia justo odio, sit amet tincidunt ante maximus sed. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque eget massa id imperdiet. 
+      Maecenas vitae lacus auctor, aliquam sapien vel, semper quam. Nulla facilisi. Integer vitae lectus elit. 
+      Sed consequat ligula vel magna ultricies elementum. Ut venenatis mauris vitae velit pulvinar hendrerit. 
+      Duis interdum sapien sit amet erat convallis, eget posuere tellus gravida. Curabitur convallis ornare 
+      metus ac auctor. Ut faucibus libero et ligula convallis auctor. Praesent tincidunt elit eu elit tincidunt 
+      lacinia. Ut suscipit libero nec enim aliquam sollicitudin. Proin lacinia justo odio, sit amet tincidunt 
+      ante maximus sed. </p>
     </div>
     <footer>
       <p>Footer</p>
