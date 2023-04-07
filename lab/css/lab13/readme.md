@@ -179,11 +179,11 @@ You must complete two layout design-related lab exercises. Lab 13a requires the 
 
 ### Lab 13a: Mock 1 - Mock 3
 
-- Create three mock design layouts titled Mock 1, Mock 2, and Mock 3.
+- Create three mock design layouts titled **Mock 1**, **Mock 2**, and **Mock 3**.
 - You have the option of using either the grid or flexbox concept.
 - Each layout design must be created entirely with HTML files. In the HTML file, please use CSS styles.
 - The layout design interface is shown in Mock 1 to Mock 3.
-- Save the resulting files as mock1.html, mock2.html, and mock3.html, respectively.
+- Save the resulting files as *mock1.html*, *mock2.html*, and *mock3.html*, respectively. After that, please zip and send the file as **lab12_1.zip**.
 
 **Mock 1**: Save the file as mock1.html.
 <p align="center">
@@ -192,40 +192,40 @@ You must complete two layout design-related lab exercises. Lab 13a requires the 
 
 **Mock 2**: Save the file as mock2.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13b.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13b.png" width="600" />
 </p>
 
 **Mock 3**: Save the file as mock3.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13c.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13c.png" width="600" />
 </p>
 Figure 1.3: Mock 3. Save the file as mock3.html.
 
 ### Lab 13b: Style 1 - Style 4
 
-To generate interface design layouts for Style 1 through 4, you need to create a style*.css file. Please follow the instructions below:
-- Unzip the lab12_2.zip file into a folder.
-- Inside the zip, you will find an index.html file and a base.css file that contain the website structure and some base design. Do not modify these files.
-- Create a style1.css through style4.css file to design each of the layouts listed below. Submit only the CSS file, and ensure to zip the file and send it as lab12_2ans.zip.
+To generate interface design layouts for Style 1 through 4, you need to create a *style.css* file. Please follow the instructions below:
+- Unzip the [**lab13_2.zip**](./download/lab13_2.zip) file into a folder.
+- Inside the zip, you will find an *index.html* file and a *base.css* file that contain the website structure and some base design. Do not modify these files.
+- Create a **style1.css** through **style4.css** file to design each of the layouts listed below. Submit only the CSS file, and ensure to zip the file and send it as **lab13_2ans.zip**.
 
 **Style 1**: Save the css file as style1.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13d.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13d.png" width="600" />
 </p>
 
 **Style 2**: Save the css file as style2.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13e.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13e.png" width="600" />
 </p>
 
 **Style 3**: Save the css file as style3.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13f.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13f.png" width="600" />
 </p>
 
 **Style 4**: Save the css file as style4.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13g.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13g.png" width="600" />
 </p>
 
 
