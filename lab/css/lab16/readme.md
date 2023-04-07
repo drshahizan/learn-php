@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 15: Form Layout
+# Lab 16: Form Layout
 
 HTML form layout refers to the arrangement of form elements such as input fields, labels, buttons, and other form controls on a web page. The layout of an HTML form can have a significant impact on the user experience, as it affects the usability, accessibility, and overall visual appeal of the form.
 
