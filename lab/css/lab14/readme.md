@@ -17,20 +17,13 @@ There are different types of website layouts, such as fixed, fluid, and responsi
 
 In addition to the layout, website design also includes the use of color, typography, and images to create a cohesive and visually appealing website. The choice of color and typography can influence the mood and tone of the website, while the use of images and multimedia content can enhance the user experience and make the website more engaging.
 
-Overall, a good website layout should be intuitive, easy to navigate, and visually appealing, allowing users to find the information they need quickly and easily.
+## Code
 
+Here is an example HTML and CSS code to create a basic website layout with header, content, and footer sections:
 
+**HTML** :
 
-
-Shahizan Othman
-give html and ccc code to create Website Layout
-
-Sure! Here is an example HTML and CSS code to create a basic website layout with header, content, and footer sections:
-
-HTML code:
-
-php
-Copy code
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -50,10 +43,11 @@ Copy code
     </footer>
   </body>
 </html>
-CSS code (in a file called style.css):
+```
 
-css
-Copy code
+**CSS code**: in a file called `style.css`
+
+```css
 body {
   margin: 0;
   padding: 0;
@@ -76,6 +70,8 @@ footer {
   padding: 20px;
   text-align: center;
 }
+```
+
 This code creates a basic layout with a header, content section, and footer, with the header and footer having a dark background and white text. The content section has a white background and contains some sample text. The CSS code sets the margins and padding of the body to zero to remove any default styling, and uses padding to add spacing between the sections.
 
 ## Instructions
