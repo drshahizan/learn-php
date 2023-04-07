@@ -78,14 +78,20 @@ This code creates a basic layout with a header, content section, and footer, wit
 
 You are required to produce a simple webpage layout. There are four lab practise questions in this lab that must be answered. You've been given some raw HTML and images to work with for this lab. You can download the files lab14.zip. The following files can be found in the lab14.zip file:
 
-abc
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14a.png"  width="200" />
+</p>
+
 
 ### Lab 1: My exciting website
 
 When you unzip  lab14.zip , you'll find a file called  lab14_1ques.html  and a folder called images. Opening the lab14_1ques.html file in a browser should give you a page with basic styling but no layout, which should look something like the image below (Figure 1.1).
 
-abc
+
 Figure 1.1
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14b.png"  width="600" />
+</p>
 
 **Tasks**
 
@@ -100,8 +106,11 @@ The photographs should display as a two column grid with a 1 pixel gap between t
 
 The following screenshot Figure 1.2 shows an example of what the finished layout for the design should look like:
 
-abc
 Figure 1.2
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14c.png"  width="600" />
+</p>
+
 
 ### Lab 2: A parallax website
 
@@ -115,20 +124,30 @@ You need to dividing the entire page into four distinct sections.
 Set three background images (refer folder images - mal1.jpeg, mal2.jpeg and mal3.jpeg), align the text for different sections, adjust margins and padding, and add background-position and other CSS elements and properties to achieve a parallax effect.
 Only the style.css file needs to be submitted.
 
-abc
 Figure 2.1
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14d.png" width="600" />
+</p>
 
-abc
 Figure 2.2
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14e.png" width="600" />
+</p>
 
-abc
 Figure 2.3
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14f.png" width="600" />
+</p>
 
-abc
 Figure 2.4
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14g.png" width="600" />
+</p>
 
-abc
 Figure 2.5
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14h.png" width="600" />
+</p>
 
 ### Lab 3: Landing Page
 
@@ -142,11 +161,15 @@ You must use CSS with caution to ensure that different elements do not overlap.
 Color schemes, padding, margins, and space between sections, paragraphs, and boxes will all be handled by you.
 For different sections or backgrounds, colour combinations should complement one another.
 
-abc
 Figure 3.1
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14i.png" width="600" />
+</p>
 
-abc
 Figure 3.2
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14j.png" width="600" />
+</p>
 
 ### Lab 4: Documentation
 
@@ -160,12 +183,16 @@ The documentation or description for the topics must be mentioned on the right s
 When you click on one of the topics on the left (we click Declaring Variables link), the content on the right should load (refer Figure 4.2).
 You don't need to make it too fancy; just give it a simple and respectable appearance that is appropriate for documentation.
 
-abc
+
 Figure 4.1
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14l.png" width="600" />
+</p>
 
-abc
 Figure 4.2
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14l.png" width="600" />
+</p>
 
 ## Instructions
 
