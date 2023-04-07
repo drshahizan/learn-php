@@ -27,7 +27,7 @@ Together, these properties allow developers to control the appearance and layout
 
 **Sample code**:
 
-1. Css:
+1. CSS:
 ```html
 <p class="text-example">This is an example of styled text</p>
 ```
