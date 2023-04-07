@@ -7,211 +7,118 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 15: Layout
+# Lab 15: Form Layout
 
-## HTML layout using CSS
-HTML layout using CSS involves using Cascading Style Sheets (CSS) to define the layout and presentation of the HTML elements in a webpage. CSS allows designers to separate the presentation and style of the webpage from the content, allowing for greater flexibility and control over the layout and design.
+HTML form layout refers to the arrangement of form elements such as input fields, labels, buttons, and other form controls on a web page. The layout of an HTML form can have a significant impact on the user experience, as it affects the usability, accessibility, and overall visual appeal of the form.
 
-By using CSS, designers can define rules for various HTML elements, such as the font, color, size, position, and alignment of the content. This makes it easier to create a consistent and visually appealing layout across multiple pages of a website.
-
-CSS also offers different layout techniques, such as the use of grids and flexboxes, that allow designers to create complex and responsive layouts that adapt to different screen sizes and devices.
-
-Overall, HTML layout using CSS provides a powerful tool for designing modern and attractive webpages with a high degree of control and flexibility.
+There are different ways to design the layout of an HTML form using CSS, including using tables, divs, and CSS grids. The layout should be organized in a way that makes it easy for the user to understand and fill out the form. Common form layouts include a single-column layout, multi-column layout, and a hybrid layout that combines both single and multi-column layouts.
 
 ## Code
-To design an HTML layout using a CSS file with a header, content, and footer, you can follow these steps:
+Here's an example of HTML and CSS code to create a simple form layout:
 
-1. Create a new HTML file and add the basic structure, including the `head` and `body` tags.
+HTML code:
 
 **HTML**
 ```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>HTML Layout with CSS</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Header</h1>
-    </header>
-    <div class="content">
-      <h2>Content</h2>
-      <p>This is the main content area.</p>
-    </div>
-    <footer>
-      <p>Footer</p>
-    </footer>
-  </body>
-</html>
+<form>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+  </div>
+  <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+  </div>
+  <button type="submit">Submit</button>
+</form>
 ```
-
-2. Create a new CSS file and link it to your HTML file using the `link` tag in the `head` section.
 
 **CSS**
+
 ```css
-/* style.css */
-body {
-  margin: 0;
-  padding: 0;
+CSS code:
+
+css
+Copy code
+.form-group {
+  margin-bottom: 10px;
 }
 
-header {
-  background-color: #333;
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
   color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.content {
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 ```
 
-3. Add CSS rules to style the `header`, `content`, and `footer` sections.
-    * The `body` rule sets the margin and padding to 0 to remove any default browser styles.
-    * The `header` rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
-    * The `content` rule sets the padding to provide spacing around the content, sets the maximum width to 800px, and centers the content using the `margin` property.
-    * The `footer` rule sets the background color to dark gray, the text color to white, and adds padding for spacing and centering the content.
+In this example, we use a form element to wrap the form elements, and we group the form elements using div elements with the class form-group. Each form element has a corresponding label element, which we link to the form element using the for attribute.
 
-With these CSS rules, you can easily create an HTML layout with a header, content, and footer using the power of CSS. You can modify these rules as per your requirements to make it more visually appealing.
+We use CSS to style the form elements, including adding margins and padding, setting the width of input fields and textareas, and styling the submit button. This is just a simple example, and you can customize the form layout further to fit your specific needs.
 
-## Task 1
+Instructions
 
-- You must create a web layout design similar to Figure 15.1.
-- This layout has five sections: header, article, navigation, ads, and footer.
-- Please use a white separator to divide this section.
-- The CSS style must be entered in the generated HTML file.
-- When finished, save the file as layout1.html.
+HTML forms are integral part of the web, it's a powerful and crucial tool for interacting with users. But without some styling and positioning, forms just look awful! So, how do you make it appealing and presentable? This is where the CSS comes into play. You are required to produce a simple form layout. There are four lab practise questions in this lab that must be answered. You've been given raw HTML and images to work with for this lab. You can download the files lab16.zip. The following files can be found in the lab15.zip file:
 
+abc
 
-Figure 15.1: Layout1. Save the file as layout1.html.
-<p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15a.png"  width="600" />
-</p>
+## Lab 1: Survey Form
 
-## Task 2
+Forms are always an important part of any project that collects user input information. In this lab exercise, you will use HTML and CSS to create a survey form. You will design the basic layout of the form using HTML, and CSS will add a beautiful design to our layout using text-decoration, text colour, background colour, text alignment, margin, padding, and so on. The file you will use is lab1.html. Figure 1.1 is a display of the interface without using any CSS.
 
-- You must create a web layout design that makes use of the flexbox concept.
-- Please download the layout2ques.html template file.
-- This layout is divided into two sections: the header and the article.
-- The <article> tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 15.2).
-- When you reduce the display size, the column size adjusts automatically (refer to Figure 15.3).
-- Please use a white separator to divide this section.
-- The CSS style must be entered in the generated HTML file. When finished, save the file as layout2.html.
+abc
+Figure 1.1
 
-  
-Figure 15.2: Layout a. Save the file as layout2.html.
-<p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15b.png"  width="600" />
-</p>
+Output
 
-  
-Figure 15.3: Layout b.
-<p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15c.png"  width="600" />
-</p>
+You must create the interface depicted in Figure 1.2. Please enter the appropriate CSS to create a more aesthetically pleasing and professional interface.
 
-## Task 3
+abc
+Figure 1.2
+Lab 2: Persaka Survey Form
 
-- You must create a layout design for a website called My Magazine (refer Figure 15.4).
-- Please download the layout3ques.html template.
-- After the section header, there is a navigation menu at the top of this website.
-- There are two classes in the content section: leftcolumn and rightcolumn. The title heading, title description, and content are all found in the left column. Editor, Photos, and Contact Us information can be found in the right column class.
-- The footer class is at the very bottom.
-- The CSS style must be specified in the HTML file that is generated. The resulting file must be saved as layout3.html.
+You have been tasked with creating an appealing survey form interface for Persaka. The files you'll need are lab2.html and mal2.jpeg. Enter CSS tags in the lab2.html file to change the appearance of the interface. The mal2.jpeg file is used as the survey form's background image. Figure 2.1 depicts the outcomes of the implementation for this lab exercise.
 
-  
-Figure 15.4: Save the file as layout3.html.
-<p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15d.png"  width="600" />
-</p>
+abc
+Figure 2.1
 
-## Task 4
+Lab 3: Login Page
 
-Using HTML 5 only, create a prototype of an online newspaper:
+Before users can access the system, they must first enter a username and password into the login interface. You are required to change the appearance of the login page interface in this exercise. Please insert the appropriate CSS into a file called lab3.html. The implementation results are shown in Figure 3.1. When the user enters the username and password, the label will appear above the input, in a small, coloured font. When you move your cursor over the Submit button, it will transform into a coloured box (please refer to 3.2).
+abc
+Figure 3.1
 
-- Throughout this lab exercise, do not worry about design. HTML is a markup language with pre-defined presentation semantics; most of the design is handled by CSS.
-- For now, you can edit your HTML files locally.
-- Validate and verify the result on the browser as you proceed.
+abc
+Figure 3.2
 
-### Some tips and ideas:
+Lab 4: UTMtravel
 
-- Use the site http://www.lipsum.com/ if you need to generate example paragraphs.
-- Use the site https://picsum.photos/ if you need some example photos.
+You have been tasked with creating a search interface for UTMTravel. Users can specify which locations they wish to visit. You must use the files lab4.html and mal3.jpeg. In the lab4.html file, please include a CSS tag. The mal3.jpeg file serves as the website's background image. Please see Figure 4.1 for the output results. When you move your cursor over the Register/Login button, the background colour of the box changes to red (please refer to Figure 4.2).
 
-**Steps**:
+abc
+Figure 4.1
 
-1. In this exercise, you will create the pages described in the following image:
-    - The **main** page represents the main page of the newspaper having a series of **abbreviated** news items.
-    - The **news article** page has one particular news item in its **complete** form. It also has comments written by the readers.
-    - The **section** page is very similar to the **main** page, but only has news about a particular topic (e.g., sports).
-    
-Image: The file type *.html was used.
-<p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/newspaper.svg"  width="600" />
-</p>
-    
-
-2. For each page, create a new HTML file, open it with your favorite code editor, and add the following basic HTML code:
-
-```html
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>Online Newspaper</title>
-   </head>
-   <body>
-   </body>
-</html>
-```
-
-3. Open the **main** page in a **web browser** (the most straightforward way is to drag the file into a new tab).
-
-4. Complete each page using the **correct semantic elements**.
-
-    * The header of each page should have:
-      * The name of the newspaper.
-      * A logo.
-      * The section's name (if it's a **section** page).
-      * Clicking any of these elements should take the user back to the main page.
-    * The **menu** should have links to each one of the **section** pages (e.g., sports, politics, and local)
-      * The links should be part of an unordered list.
-      * For now, all of those can point to section.html.
-    * Each **article** should have a title, some paragraphs, an image, and a footer.
-      * In the **main** and **section** pages, only a couple of paragraphs of each news item should be shown.
-      * The **news article** page should also have some comments. Each **comment** should have some text, a date/time, and the author's username. After all the comments, there should be a form (with a title, a username and a text fields) that allows users to add more comments.
-      * The **footer** should contain the date/time and the author's name. In the **main** and **section** pages, there should also be a "Read more" link that redirects the user to the **news article** page containing the complete news item.
-    * The **footer** of each page should have a Copyright Notice. Use a [character entity](https://www.amp-what.com/unicode/search/) for the © symbol.
-
-5. Don't forget to [validate](https://validator.w3.org/) the pages when you're done.
-
-
-## Instructions
-
-1. Please include your contact information in the HTML `<head>`.
-
-``` 
-<!--
-Name:a
-Matrix No:
-Github id:
-
-Lab 15: Layout
--->
-```
-2. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L15_Githubid.html`.
-  > Example: 
-  > /submission/drshahizan/L15_drshahizan.html
+abc
+Figure 4.2
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
