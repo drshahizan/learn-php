@@ -126,8 +126,8 @@ A parallax website has fixed images in the background that you can keep and scro
 
 - The use of the parallax effect in web design is very popular, and it gives the webpage a beautiful look and feel.
 - *Lab14_2ques.html* is the file that will be used in this lab. You are not permitted to make changes to HTML files. The CSS style code must be placed in the *style.css* file.
--You need to dividing the entire page into four distinct sections.
--Set three background images (refer folder images - mal1.jpeg, mal2.jpeg and mal3.jpeg), align the text for different sections, adjust margins and padding, and add background-position and other CSS elements and properties to achieve a parallax effect.
+- You need to dividing the entire page into four distinct sections.
+- Set three background images (refer folder images - mal1.jpeg, mal2.jpeg and mal3.jpeg), align the text for different sections, adjust margins and padding, and add background-position and other CSS elements and properties to achieve a parallax effect.
 - Only the **style.css** file needs to be submitted.
 
 Figure 2.1
