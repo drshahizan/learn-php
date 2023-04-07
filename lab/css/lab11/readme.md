@@ -97,7 +97,7 @@ Make sure to incorporate the following CSS properties into your style sheet:
 ```html
 <!--
 Lab 11: HTML Text Appearance
-Team:
+Group:
 1. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
 2. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
 3. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
