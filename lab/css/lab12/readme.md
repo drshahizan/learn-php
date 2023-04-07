@@ -27,7 +27,7 @@ Together, these properties allow developers to control the appearance and layout
 
 **Sample code**:
 
-1. Css:
+1. CSS:
 ```html
 <p class="text-example">This is an example of styled text</p>
 ```
@@ -145,11 +145,11 @@ Your task is to change the appearance of text using CSS. The following is the or
 </p>
 
 
-- The file [💾 lab12.zip](./download/lab12.zip) is available for download. This file contains the files lab11.html and utm_logo.png. In the lab11.html file, please enter your CSS code. You are not permitted to make any changes to the HTML file that has been provided. CSS code can be entered in the `<style>` tag: 
+- The file [💾 lab12.zip](./download/lab12.zip) is available for download. This file contains the files lab12.html and utm_logo.png. In the lab12.html file, please enter your CSS code. You are not permitted to make any changes to the HTML file that has been provided. CSS code can be entered in the `<style>` tag: 
 
-```html
+```css
 <style>
-/* your css */
+  /* your css */
 </style>
 ```
 - Part of the HTML code is as follows:
@@ -173,7 +173,7 @@ You must create the interface as shown below.
 - You can use properties such as width, border, text align, padding, and margin.
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab12/download/lab12d.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab12/download/lab12d.png" width="600" />
 </p>
 
 ### Lab 2: Style first letter, first line & last line
@@ -197,7 +197,7 @@ You must create the interface as shown below.
 - For this lab, you can also use features like background, colour, font, display, height, margin, padding top, text align, and width.
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab12/download/lab12f.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab12/download/lab12f.png" width="600" />
 </p>
 
 ### Lab 4: Box Model 1
@@ -242,20 +242,24 @@ box3 is the id for creating a model box. This box is located in the centre of th
 
 ## Instructions
 
-1. Please include your contact information in the HTML `<head>`.
-
-``` 
+1. This task must be done in groups (4 people per group). 
+2. Please provide your contact information in the HTML `<head>`.
+```html
 <!--
-Name:a
-Matrix No:
-Github id:
-
-Lab 11: HTML Text Appearance
+Lab 12: Text and Box Model
+Group:
+1. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+2. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+3. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+4. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
 -->
 ```
-2. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L11_Githubid.html`.
-  > Example: 
-  > /submission/drshahizan/L11_drshahizan.html
+
+3. You must place your file in the submission folder. Within the submission folder, create a folder named after your group.
+
+> Example: /submission/[group-name]/[your-file]
+>
+> (Note: please replace [Name], [Matrix Number], [Github ID], [group-name], and [your-file] with the appropriate information)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
