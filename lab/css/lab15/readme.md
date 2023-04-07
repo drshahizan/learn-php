@@ -104,7 +104,7 @@ Figure 15.1: Layout1. Save the file as layout1.html.
 - You must create a web layout design that makes use of the flexbox concept.
 - Please download the layout2ques.html template file.
 - This layout is divided into two sections: the header and the article.
-- The <article> tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 15.2).
+- The `<article>` tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 15.2).
 - When you reduce the display size, the column size adjusts automatically (refer to Figure 15.3).
 - Please use a white separator to divide this section.
 - The CSS style must be entered in the generated HTML file. When finished, save the file as layout2.html.
