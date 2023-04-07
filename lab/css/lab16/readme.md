@@ -104,7 +104,7 @@ You have been tasked with creating an appealing survey form interface for Persak
 
 Figure 2.1
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16c.png" width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16d.png" width="600" />
 </p>
 
 ## Lab 3: Login Page
@@ -113,12 +113,12 @@ Before users can access the system, they must first enter a username and passwor
 
 Figure 3.1
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16d.png" width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16e.png" width="600" />
 </p>
 
 Figure 3.2
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16e.png" width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16f.png" width="600" />
 </p>
 
 ## Lab 4: UTMtravel
@@ -127,12 +127,12 @@ You have been tasked with creating a search interface for UTMTravel. Users can s
 
 Figure 4.1
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16f.png" width="300" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16g.png" width="300" />
 </p>
 
 Figure 4.2
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16g.png" width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16h.png" width="600" />
 </p>
 
 ## Contribution 🛠️
