@@ -82,7 +82,7 @@ This code creates a basic layout with a header, content section, and footer, wit
 
 ## Lab
 
-You are required to produce a simple webpage layout. There are four lab practise questions in this lab that must be answered. You've been given some raw HTML and images to work with for this lab. You can download the files lab14.zip. The following files can be found in the lab14.zip file:
+You are required to produce a simple webpage layout. There are four lab practise questions in this lab that must be answered. You've been given some raw HTML and images to work with for this lab. You can download the files [**lab14.zip**](./download/lab14.zip). The following files can be found in the lab14.zip file:
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab14/download/lab14a.png"  width="200" />
@@ -91,7 +91,7 @@ You are required to produce a simple webpage layout. There are four lab practise
 
 ### Lab 1: My exciting website
 
-When you unzip  lab14.zip , you'll find a file called  lab14_1ques.html  and a folder called images. Opening the lab14_1ques.html file in a browser should give you a page with basic styling but no layout, which should look something like the image below (Figure 1.1).
+When you unzip  lab14.zip , you'll find a file called *lab14_1ques.html*  and a folder called *images*. Opening the *lab14_1ques.html* file in a browser should give you a page with basic styling but no layout, which should look something like the image below (Figure 1.1).
 
 
 Figure 1.1
@@ -102,11 +102,11 @@ Figure 1.1
 **Tasks**
 
 You now need to implement your layout. The tasks you need to achieve are:
-To display the navigation items in a row, with an equal amount of space between the items.
-The navigation bar should scroll with the content and then become stuck at the top of the viewport when it reaches it.
-The image that is inside the article should have text wrapped around it. 
-The <article> and <aside> elements should display as a two column layout. The columns should be a flexible size so that if the browser window shrinks smaller the columns become narrower.
-The photographs should display as a two column grid with a 1 pixel gap between the images.
+- To display the navigation items in a row, with an equal amount of space between the items.
+- The navigation bar should scroll with the content and then become stuck at the top of the viewport when it reaches it.
+- The image that is inside the article should have text wrapped around it. 
+- The `<article>` and `<aside>` elements should display as a two column layout. The columns should be a flexible size so that if the browser window shrinks smaller the columns become narrower.
+- The photographs should display as a two column grid with a 1 pixel gap between the images.
 
 **Output**
 
@@ -124,11 +124,11 @@ A parallax website has fixed images in the background that you can keep and scro
 
 **Tasks**
 
-The use of the parallax effect in web design is very popular, and it gives the webpage a beautiful look and feel.
-Lab14_2ques.html is the file that will be used in this lab. You are not permitted to make changes to HTML files. The CSS style code must be placed in the style.css file.
-You need to dividing the entire page into four distinct sections.
-Set three background images (refer folder images - mal1.jpeg, mal2.jpeg and mal3.jpeg), align the text for different sections, adjust margins and padding, and add background-position and other CSS elements and properties to achieve a parallax effect.
-Only the style.css file needs to be submitted.
+- The use of the parallax effect in web design is very popular, and it gives the webpage a beautiful look and feel.
+- *Lab14_2ques.html* is the file that will be used in this lab. You are not permitted to make changes to HTML files. The CSS style code must be placed in the *style.css* file.
+-You need to dividing the entire page into four distinct sections.
+-Set three background images (refer folder images - mal1.jpeg, mal2.jpeg and mal3.jpeg), align the text for different sections, adjust margins and padding, and add background-position and other CSS elements and properties to achieve a parallax effect.
+- Only the **style.css** file needs to be submitted.
 
 Figure 2.1
 <p align="center">
@@ -161,11 +161,11 @@ Another good project that you can create with HTML and CSS is a landing page, bu
 
 **Tasks**
 
-You need to use the lab14_3ques.html file to do this lab.
-You will practise adding a footer and header, creating columns, aligning items, dividing sections, and much more.
-You must use CSS with caution to ensure that different elements do not overlap.
-Color schemes, padding, margins, and space between sections, paragraphs, and boxes will all be handled by you.
-For different sections or backgrounds, colour combinations should complement one another.
+- You need to use the *lab14_3ques.html* file to do this lab.
+- You will practise adding a footer and header, creating columns, aligning items, dividing sections, and much more.
+- You must use CSS with caution to ensure that different elements do not overlap.
+- Color schemes, padding, margins, and space between sections, paragraphs, and boxes will all be handled by you.
+- For different sections or backgrounds, colour combinations should complement one another.
 
 Figure 3.1
 <p align="center">
@@ -179,15 +179,15 @@ Figure 3.2
 
 ### Lab 4: Documentation
 
-You can create a documentation website if you know a little Javascript. However, you are not required to use Javascript in this lab. It is necessary to be familiar with HTML, CSS, and basic javascript. To complete this lab, please use the lab14_4ques.html file.
+You can create a documentation website if you know a little Javascript. However, you are not required to use Javascript in this lab. It is necessary to be familiar with HTML, CSS, and basic javascript. To complete this lab, please use the *lab14_4ques.html* file.
 
 **Tasks**
 
-Separate the entire website into two sections.
-The left side generates a menu with all of the topics listed in order of appearance from top to bottom (refer Figure 4.1).
-The documentation or description for the topics must be mentioned on the right side.
-When you click on one of the topics on the left (we click Declaring Variables link), the content on the right should load (refer Figure 4.2).
-You don't need to make it too fancy; just give it a simple and respectable appearance that is appropriate for documentation.
+- Separate the entire website into two sections.
+- The left side generates a menu with all of the topics listed in order of appearance from top to bottom (refer Figure 4.1).
+- The documentation or description for the topics must be mentioned on the right side.
+- When you click on one of the topics on the left (we click Declaring Variables link), the content on the right should load (refer Figure 4.2).
+- You don't need to make it too fancy; just give it a simple and respectable appearance that is appropriate for documentation.
 
 
 Figure 4.1
