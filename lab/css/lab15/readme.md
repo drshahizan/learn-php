@@ -87,14 +87,14 @@ With these CSS rules, you can easily create an HTML layout with a header, conten
 
 ## Task 1
 
-- You must create a web layout design similar to Figure 14.1.
+- You must create a web layout design similar to Figure 15.1.
 - This layout has five sections: header, article, navigation, ads, and footer.
 - Please use a white separator to divide this section.
 - The CSS style must be entered in the generated HTML file.
 - When finished, save the file as layout1.html.
 
 
-Figure 14.1: Layout1. Save the file as layout1.html.
+Figure 15.1: Layout1. Save the file as layout1.html.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15a.png"  width="600" />
 </p>
@@ -104,26 +104,26 @@ Figure 14.1: Layout1. Save the file as layout1.html.
 - You must create a web layout design that makes use of the flexbox concept.
 - Please download the layout2ques.html template file.
 - This layout is divided into two sections: the header and the article.
-- The <article> tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 2.1).
-- When you reduce the display size, the column size adjusts automatically (refer to Figure 14.2).
+- The <article> tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 15.2).
+- When you reduce the display size, the column size adjusts automatically (refer to Figure 15.3).
 - Please use a white separator to divide this section.
 - The CSS style must be entered in the generated HTML file. When finished, save the file as layout2.html.
 
   
-Figure 14.1: Layout a. Save the file as layout2.html.
+Figure 15.2: Layout a. Save the file as layout2.html.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15b.png"  width="600" />
 </p>
 
   
-Figure 14.2: Layout b.
+Figure 15.3: Layout b.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15c.png"  width="600" />
 </p>
 
 ## Task 3
 
-- You must create a layout design for a website called My Magazine (refer Figure 14.3).
+- You must create a layout design for a website called My Magazine (refer Figure 15.4).
 - Please download the layout3ques.html template.
 - After the section header, there is a navigation menu at the top of this website.
 - There are two classes in the content section: leftcolumn and rightcolumn. The title heading, title description, and content are all found in the left column. Editor, Photos, and Contact Us information can be found in the right column class.
@@ -131,7 +131,7 @@ Figure 14.2: Layout b.
 - The CSS style must be specified in the HTML file that is generated. The resulting file must be saved as layout3.html.
 
   
-Figure 14.3: Save the file as layout3.html.
+Figure 15.4: Save the file as layout3.html.
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab15/download/lab15d.png"  width="600" />
 </p>
@@ -206,12 +206,12 @@ Name:a
 Matrix No:
 Github id:
 
-Lab 14: HTML Text Appearance
+Lab 15: Layout
 -->
 ```
-2. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L11_Githubid.html`.
+2. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L15_Githubid.html`.
   > Example: 
-  > /submission/drshahizan/L11_drshahizan.html
+  > /submission/drshahizan/L15_drshahizan.html
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
