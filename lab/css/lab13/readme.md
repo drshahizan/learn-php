@@ -98,24 +98,25 @@ Layout design in CSS refers to the process of positioning and arranging HTML ele
 
 ### Box Model Properties
 
-- width: specifies the width of an element.
-- height: specifies the height of an element.
-- padding: specifies the space between the content of an element and its border.
-- border: specifies the border around an element.
-- margin: specifies the space between the border of an element and the adjacent elements.
+- **width**: specifies the width of an element.
+- **height**: specifies the height of an element.
+- **padding**: specifies the space between the content of an element and its border.
+- **border**: specifies the border around an element.
+- **margin**: specifies the space between the border of an element and the adjacent elements.
 
 ### Positioning Properties
 
-- position: specifies the type of positioning for an element, such as static, relative, absolute, or fixed.
-- top, right, bottom, left: specify the offset of an element from its normal position, depending on the value of the position property.
-- z-index: specifies the stacking order of elements.
+- **position**: specifies the type of positioning for an element, such as static, relative, absolute, or fixed.
+- **top**, **right**, **bottom**, **left**: specify the offset of an element from its normal position, depending on the value of the position property.
+- **z-index**: specifies the stacking order of elements.
 
 ### Layout Techniques
 
-- CSS Grid: a two-dimensional layout system that allows for precise placement and sizing of elements within a grid container.
-- Flexbox: a one-dimensional layout system that allows for flexible and responsive layouts.
-- Floats: a layout technique that allows elements to float to the left or right of the container, enabling text to flow around them.
-- Here's an example of how these properties can be used to create a basic layout using CSS Grid:
+- **CSS Grid**: a two-dimensional layout system that allows for precise placement and sizing of elements within a grid container.
+- **Flexbox**: a one-dimensional layout system that allows for flexible and responsive layouts.
+- **Floats**: a layout technique that allows elements to float to the left or right of the container, enabling text to flow around them.
+
+Here's an example of how these properties can be used to create a basic layout using CSS Grid:
 
 1. **HTML**
 ```html
