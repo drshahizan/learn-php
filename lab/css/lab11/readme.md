@@ -108,8 +108,8 @@ Team:
 3. You must place your file in the submission folder. Within the submission folder, create a folder named after your group.
 
 > Example: /submission/[group-name]/[your-file]
-
-(Note: please replace [Name], [Matrix Number], [Github ID], [group-name], and [your-file] with the appropriate information)
+>
+> (Note: please replace [Name], [Matrix Number], [Github ID], [group-name], and [your-file] with the appropriate information)
 
 4. You need to submit using *.html file only.
 
