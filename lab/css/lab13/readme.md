@@ -14,25 +14,25 @@ Mock design in CSS refers to the process of creating a visual representation of 
 
 Mock design in CSS can be done in a variety of ways, including:
 
-1. Sketching: Sketching out a rough design on paper can be a quick and effective way to explore different layout options and get ideas down on paper before moving on to more detailed mock designs.
+1. **Sketching**: Sketching out a rough design on paper can be a quick and effective way to explore different layout options and get ideas down on paper before moving on to more detailed mock designs.
 
-2. Wireframing: Wireframing involves creating a simple, black and white layout of a web page or application to define its structure and content. This can be done using various tools like Figma, Sketch, Adobe XD, etc.
+2. **Wireframing**: Wireframing involves creating a simple, black and white layout of a web page or application to define its structure and content. This can be done using various tools like Figma, Sketch, Adobe XD, etc.
 
-3. Prototyping: Prototyping involves creating a functional version of the design, using tools like HTML, CSS, and JavaScript, that can be tested and refined before the final implementation.
+3. **Prototyping**: Prototyping involves creating a functional version of the design, using tools like HTML, CSS, and JavaScript, that can be tested and refined before the final implementation.
 
-4. Style Tiles: Style tiles are a way to visually communicate design direction and mood by creating a collection of typographic, color, and interface elements without defining layout.
+4. **Style Tiles**: Style tiles are a way to visually communicate design direction and mood by creating a collection of typographic, color, and interface elements without defining layout.
 
-5. Mood Board: A mood board is a visual collage of images, patterns, colors, and typography that represent the overall aesthetic or vibe of the design.
+5. **Mood Board**: A mood board is a visual collage of images, patterns, colors, and typography that represent the overall aesthetic or vibe of the design.
 
 When creating a mock design in CSS, it is important to consider the following design elements:
 
-1. Layout: The layout defines the structure of the website or application and how the content is organized. Common layout techniques include grid-based layouts, flexbox layouts, and float-based layouts.
+1. **Layout**: The layout defines the structure of the website or application and how the content is organized. Common layout techniques include grid-based layouts, flexbox layouts, and float-based layouts.
 
-2. Color: Color is an important aspect of any design and can evoke different emotions and moods. CSS provides various color properties that can be used to set the color of text, backgrounds, and other design elements.
+2. **Color**: Color is an important aspect of any design and can evoke different emotions and moods. CSS provides various color properties that can be used to set the color of text, backgrounds, and other design elements.
 
-3. Typography: Typography refers to the use of typefaces, fonts, and font sizes to enhance the readability and visual appeal of the design. CSS provides various typography properties, such as font-family, font-size, font-weight, and line-height, that can be used to control the typography of the design.
+3. **Typography**: Typography refers to the use of typefaces, fonts, and font sizes to enhance the readability and visual appeal of the design. CSS provides various typography properties, such as font-family, font-size, font-weight, and line-height, that can be used to control the typography of the design.
 
-4. Images: Images can be used to add visual interest and context to the design. CSS provides various image properties, such as background-image and object-fit, that can be used to control the appearance of images in the design.
+4. **Images**: Images can be used to add visual interest and context to the design. CSS provides various image properties, such as background-image and object-fit, that can be used to control the appearance of images in the design.
 
 Mock design in CSS can take many forms, depending on the design process and the tools used. Here's an example of a simple mock design for a blog post using HTML and CSS:
 
