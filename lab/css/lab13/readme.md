@@ -14,25 +14,25 @@ Mock design in CSS refers to the process of creating a visual representation of 
 
 Mock design in CSS can be done in a variety of ways, including:
 
-1. Sketching: Sketching out a rough design on paper can be a quick and effective way to explore different layout options and get ideas down on paper before moving on to more detailed mock designs.
+1. **Sketching**: Sketching out a rough design on paper can be a quick and effective way to explore different layout options and get ideas down on paper before moving on to more detailed mock designs.
 
-2. Wireframing: Wireframing involves creating a simple, black and white layout of a web page or application to define its structure and content. This can be done using various tools like Figma, Sketch, Adobe XD, etc.
+2. **Wireframing**: Wireframing involves creating a simple, black and white layout of a web page or application to define its structure and content. This can be done using various tools like Figma, Sketch, Adobe XD, etc.
 
-3. Prototyping: Prototyping involves creating a functional version of the design, using tools like HTML, CSS, and JavaScript, that can be tested and refined before the final implementation.
+3. **Prototyping**: Prototyping involves creating a functional version of the design, using tools like HTML, CSS, and JavaScript, that can be tested and refined before the final implementation.
 
-4. Style Tiles: Style tiles are a way to visually communicate design direction and mood by creating a collection of typographic, color, and interface elements without defining layout.
+4. **Style Tiles**: Style tiles are a way to visually communicate design direction and mood by creating a collection of typographic, color, and interface elements without defining layout.
 
-5. Mood Board: A mood board is a visual collage of images, patterns, colors, and typography that represent the overall aesthetic or vibe of the design.
+5. **Mood Board**: A mood board is a visual collage of images, patterns, colors, and typography that represent the overall aesthetic or vibe of the design.
 
 When creating a mock design in CSS, it is important to consider the following design elements:
 
-1. Layout: The layout defines the structure of the website or application and how the content is organized. Common layout techniques include grid-based layouts, flexbox layouts, and float-based layouts.
+1. **Layout**: The layout defines the structure of the website or application and how the content is organized. Common layout techniques include grid-based layouts, flexbox layouts, and float-based layouts.
 
-2. Color: Color is an important aspect of any design and can evoke different emotions and moods. CSS provides various color properties that can be used to set the color of text, backgrounds, and other design elements.
+2. **Color**: Color is an important aspect of any design and can evoke different emotions and moods. CSS provides various color properties that can be used to set the color of text, backgrounds, and other design elements.
 
-3. Typography: Typography refers to the use of typefaces, fonts, and font sizes to enhance the readability and visual appeal of the design. CSS provides various typography properties, such as font-family, font-size, font-weight, and line-height, that can be used to control the typography of the design.
+3. **Typography**: Typography refers to the use of typefaces, fonts, and font sizes to enhance the readability and visual appeal of the design. CSS provides various typography properties, such as font-family, font-size, font-weight, and line-height, that can be used to control the typography of the design.
 
-4. Images: Images can be used to add visual interest and context to the design. CSS provides various image properties, such as background-image and object-fit, that can be used to control the appearance of images in the design.
+4. **Images**: Images can be used to add visual interest and context to the design. CSS provides various image properties, such as background-image and object-fit, that can be used to control the appearance of images in the design.
 
 Mock design in CSS can take many forms, depending on the design process and the tools used. Here's an example of a simple mock design for a blog post using HTML and CSS:
 
@@ -98,24 +98,25 @@ Layout design in CSS refers to the process of positioning and arranging HTML ele
 
 ### Box Model Properties
 
-- width: specifies the width of an element.
-- height: specifies the height of an element.
-- padding: specifies the space between the content of an element and its border.
-- border: specifies the border around an element.
-- margin: specifies the space between the border of an element and the adjacent elements.
+- **width**: specifies the width of an element.
+- **height**: specifies the height of an element.
+- **padding**: specifies the space between the content of an element and its border.
+- **border**: specifies the border around an element.
+- **margin**: specifies the space between the border of an element and the adjacent elements.
 
 ### Positioning Properties
 
-- position: specifies the type of positioning for an element, such as static, relative, absolute, or fixed.
-- top, right, bottom, left: specify the offset of an element from its normal position, depending on the value of the position property.
-- z-index: specifies the stacking order of elements.
+- **position**: specifies the type of positioning for an element, such as static, relative, absolute, or fixed.
+- **top**, **right**, **bottom**, **left**: specify the offset of an element from its normal position, depending on the value of the position property.
+- **z-index**: specifies the stacking order of elements.
 
 ### Layout Techniques
 
-- CSS Grid: a two-dimensional layout system that allows for precise placement and sizing of elements within a grid container.
-- Flexbox: a one-dimensional layout system that allows for flexible and responsive layouts.
-- Floats: a layout technique that allows elements to float to the left or right of the container, enabling text to flow around them.
-- Here's an example of how these properties can be used to create a basic layout using CSS Grid:
+- **CSS Grid**: a two-dimensional layout system that allows for precise placement and sizing of elements within a grid container.
+- **Flexbox**: a one-dimensional layout system that allows for flexible and responsive layouts.
+- **Floats**: a layout technique that allows elements to float to the left or right of the container, enabling text to flow around them.
+
+Here's an example of how these properties can be used to create a basic layout using CSS Grid:
 
 1. **HTML**
 ```html
@@ -178,11 +179,11 @@ You must complete two layout design-related lab exercises. Lab 13a requires the 
 
 ### Lab 13a: Mock 1 - Mock 3
 
-- Create three mock design layouts titled Mock 1, Mock 2, and Mock 3.
+- Create three mock design layouts titled **Mock 1**, **Mock 2**, and **Mock 3**.
 - You have the option of using either the grid or flexbox concept.
 - Each layout design must be created entirely with HTML files. In the HTML file, please use CSS styles.
 - The layout design interface is shown in Mock 1 to Mock 3.
-- Save the resulting files as mock1.html, mock2.html, and mock3.html, respectively.
+- Save the resulting files as *mock1.html*, *mock2.html*, and *mock3.html*, respectively. After that, please zip and send the file as **lab12_1.zip**.
 
 **Mock 1**: Save the file as mock1.html.
 <p align="center">
@@ -191,40 +192,40 @@ You must complete two layout design-related lab exercises. Lab 13a requires the 
 
 **Mock 2**: Save the file as mock2.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13b.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13b.png" width="600" />
 </p>
 
 **Mock 3**: Save the file as mock3.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13c.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13c.png" width="600" />
 </p>
 Figure 1.3: Mock 3. Save the file as mock3.html.
 
 ### Lab 13b: Style 1 - Style 4
 
-To generate interface design layouts for Style 1 through 4, you need to create a style*.css file. Please follow the instructions below:
-- Unzip the lab12_2.zip file into a folder.
-- Inside the zip, you will find an index.html file and a base.css file that contain the website structure and some base design. Do not modify these files.
-- Create a style1.css through style4.css file to design each of the layouts listed below. Submit only the CSS file, and ensure to zip the file and send it as lab12_2ans.zip.
+To generate interface design layouts for Style 1 through 4, you need to create a *style.css* file. Please follow the instructions below:
+- Unzip the [**lab13_2.zip**](./download/lab13_2.zip) file into a folder.
+- Inside the zip, you will find an *index.html* file and a *base.css* file that contain the website structure and some base design. Do not modify these files.
+- Create a **style1.css** through **style4.css** file to design each of the layouts listed below. Submit only the CSS file, and ensure to zip the file and send it as **lab13_2ans.zip**.
 
 **Style 1**: Save the css file as style1.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13d.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13d.png" width="600" />
 </p>
 
 **Style 2**: Save the css file as style2.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13e.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13e.png" width="600" />
 </p>
 
 **Style 3**: Save the css file as style3.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13f.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13f.png" width="600" />
 </p>
 
 **Style 4**: Save the css file as style4.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13g.png"  width="600" />
+<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13g.png" width="600" />
 </p>
 
 
