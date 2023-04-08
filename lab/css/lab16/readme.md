@@ -141,7 +141,7 @@ Figure 4.2
 2. Please provide your contact information in the HTML `<head>`.
 ```html
 <!--
-Lab 11: HTML Text Appearance
+Lab 16: Form Layout
 Group:
 1. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
 2. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
