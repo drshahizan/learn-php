@@ -49,7 +49,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Sample: Online Recipe Book](./materials/html-recipe.md)
 - [HTML, CSS and JS](./materials/html-css-js.md)
 
-## Student Information
+## 👩👨 [Student Information](./materials/student-info.md)
 
 | No | Name | ID |  Github | 
 | ----- | ----- | ------ | :------: | 
