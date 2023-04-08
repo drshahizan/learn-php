@@ -90,7 +90,7 @@ Make sure to incorporate the following CSS properties into your style sheet:
 4. Underline all place names.
 5. Color all numbers in green.
 
-## Instructions
+## Submission
 
 1. This task must be done in groups (4 people per group). 
 2. Please provide your contact information in the HTML `<head>`.
