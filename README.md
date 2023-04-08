@@ -79,6 +79,11 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 15 | CSS | Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab15" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
 | 16 | CSS | Form Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
 
+### Lab CSS: Instruction
+
+1. This task must be done in groups (**4** people per group).
+2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
+
 ## Introduction to Web Programming
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
 - [Video: Learn web development as an absolute beginner](https://youtu.be/ysEN5RaKOlA)
