@@ -73,7 +73,7 @@ We use CSS to style the form elements, including adding margins and padding, set
 
 ## Lab
 
-You are required to produce a simple form layout. There are four lab practise questions in this lab that must be answered. You've been given raw HTML and images to work with for this lab. You can download the files lab16.zip. The following files can be found in the [lab16.zip](./download/lab16.zip) file:
+You are required to produce a simple form layout. There are four lab practise questions in this lab that must be answered. You've been given raw HTML and images to work with for this lab. You can download the files **lab16.zip**. The following files can be found in the [**lab16.zip**](./download/lab16.zip) file:
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16a.png" width="200" />
