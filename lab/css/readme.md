@@ -7,9 +7,18 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab: CSS
+# Lab Exercise
 
+## Cascading Style Sheets (CSS)
 
+| Lab | Topic | Title | Files |
+| -----: | ----- | ----- | :------: | 
+| 11 | CSS | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab11" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 12 | CSS | Text and Box Model |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab12" ><img src="../images/folder_info.png" width="24px" height="24px"></a>|
+| 13 | CSS | Layout (Mock & Style) |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab13" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 14 | CSS | Website Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab14" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 15 | CSS | Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab15" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 16 | CSS | Form Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
@@ -17,3 +26,4 @@ Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+
