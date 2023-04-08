@@ -240,7 +240,7 @@ box3 is the id for creating a model box. This box is located in the centre of th
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab12/download/lab12h.png"  width="600" />
 </p>
 
-## Instructions
+## Submission
 
 1. This task must be done in groups (4 people per group). 
 2. Please provide your contact information in the HTML `<head>`.
