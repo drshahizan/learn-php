@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 15: Form Layout
+# Lab 16: Form Layout
 
 HTML form layout refers to the arrangement of form elements such as input fields, labels, buttons, and other form controls on a web page. The layout of an HTML form can have a significant impact on the user experience, as it affects the usability, accessibility, and overall visual appeal of the form.
 
@@ -73,7 +73,7 @@ We use CSS to style the form elements, including adding margins and padding, set
 
 ## Lab
 
-You are required to produce a simple form layout. There are four lab practise questions in this lab that must be answered. You've been given raw HTML and images to work with for this lab. You can download the files lab16.zip. The following files can be found in the lab16.zip file:
+You are required to produce a simple form layout. There are four lab practise questions in this lab that must be answered. You've been given raw HTML and images to work with for this lab. You can download the files **lab16.zip**. The following files can be found in the [**lab16.zip**](./download/lab16.zip) file:
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16a.png" width="200" />
@@ -134,6 +134,28 @@ Figure 4.2
 <p align="center">
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16h.png" width="300" />
 </p>
+
+## Submission
+
+1. This task must be done in groups (4 people per group). 
+2. Please provide your contact information in the HTML `<head>`.
+```html
+<!--
+Lab 16: Form Layout
+Group:
+1. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+2. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+3. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+4. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+-->
+```
+
+3. You must place your file in the submission folder. Within the submission folder, create a folder named after your group.
+
+> Example: /submission/[group-name]/[your-file]
+>
+> (Note: please replace [Name], [Matrix Number], [Github ID], [group-name], and [your-file] with the appropriate information)
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.

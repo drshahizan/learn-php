@@ -228,6 +228,27 @@ To generate interface design layouts for Style 1 through 4, you need to create a
 <img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13g.png" width="600" />
 </p>
 
+## Submission
+
+1. This task must be done in groups (4 people per group). 
+2. Please provide your contact information in the HTML `<head>`.
+```html
+<!--
+Lab 13: Layout (Mock & Style)
+Group:
+1. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+2. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+3. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+4. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+-->
+```
+
+3. You must place your file in the submission folder. Within the submission folder, create a folder named after your group.
+
+> Example: /submission/[group-name]/[your-file]
+>
+> (Note: please replace [Name], [Matrix Number], [Github ID], [group-name], and [your-file] with the appropriate information)
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.

@@ -104,7 +104,7 @@ Figure 15.1: Layout1. Save the file as layout1.html.
 - You must create a web layout design that makes use of the flexbox concept.
 - Please download the layout2ques.html template file.
 - This layout is divided into two sections: the header and the article.
-- The <article> tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 15.2).
+- The `<article>` tag is made up of three parts. Please use the flexbox concept to automatically divide columns (refer to Figure 15.2).
 - When you reduce the display size, the column size adjusts automatically (refer to Figure 15.3).
 - Please use a white separator to divide this section.
 - The CSS style must be entered in the generated HTML file. When finished, save the file as layout2.html.
@@ -196,22 +196,26 @@ Image: The file type *.html was used.
 5. Don't forget to [validate](https://validator.w3.org/) the pages when you're done.
 
 
-## Instructions
+## Submission
 
-1. Please include your contact information in the HTML `<head>`.
-
-``` 
+1. This task must be done in groups (4 people per group). 
+2. Please provide your contact information in the HTML `<head>`.
+```html
 <!--
-Name:a
-Matrix No:
-Github id:
-
 Lab 15: Layout
+Group:
+1. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+2. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+3. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+4. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
 -->
 ```
-2. You must place your file in the [submission](./submission) folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `L15_Githubid.html`.
-  > Example: 
-  > /submission/drshahizan/L15_drshahizan.html
+
+3. You must place your file in the submission folder. Within the submission folder, create a folder named after your group.
+
+> Example: /submission/[group-name]/[your-file]
+>
+> (Note: please replace [Name], [Matrix Number], [Github ID], [group-name], and [your-file] with the appropriate information)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
