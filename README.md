@@ -144,7 +144,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Navigational Structures](https://cs.wellesley.edu/~cs110/lectures/WebNavigation/)
 - [Introduction to CSS](https://cs.wellesley.edu/~cs115/readings/CSS1.html)
 - [Fonts and Web Fonts](https://cs.wellesley.edu/~cs110/reading/fonts.html)
-- [Responsive Web Design]()
+- [Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
 
 ### E-book
 
