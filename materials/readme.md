@@ -35,7 +35,7 @@ We'll not only show you how to read and write JavaScript, but we’ll also teach
 All you need is a basic understanding of HTML and CSS.
 
 
-#### Source code: <a href="https://github.com/drshahizan/learn-php/tree/main/materials/javascript-and-jquery-book-code"><img src="../images/folder.png" width="48px" height="48px"></a>
+#### Source code: <a href="https://github.com/drshahizan/learn-php/tree/main/materials/javascript/javascript-and-jquery-book-code"><img src="../images/folder.png" width="48px" height="48px"></a>
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
