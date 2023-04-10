@@ -28,11 +28,9 @@ Don't forget to hit the :star: if you like this repo.
 This course is designed to introduce students the fundamental of knowledge, technologies and components for web application developments. The basic topics includes the standard HTML for content creation, CSS for content presentation, JavaScript for client-side logics, PHP for server-side logics and MySQL for data processing. At the end of the course, the students should be able to apply the web base technologies and then implement it all in the creating functional data-centric online system project.
 
 ## 🔥 Important things
-1. [Course Outline](./materials/CI%20Web%20Prog%20.pdf)
-2. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
-3. [Code Samples](./materials)
-4. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
-5. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
+1. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
+2. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
+3. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
 
 ## 👩👨 [Student Information](./materials/student-info.md)
 
