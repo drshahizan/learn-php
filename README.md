@@ -12,25 +12,17 @@ Don't forget to hit the :star: if you like this repo.
 - [Course Outline](#course-outline)
 - [Student Information](./materials/others/student-info.md)
 - [Code Samples](/materials/readme.md)
-- Notes
+- Useful Links
   - [Introduction to Web Programming](/materials/others/intro-wp.md)
   - [Visual Studio Code](/materials/others/vscode-intro.md)
-    - [ Video](#-video)
-    - [Useful Links](#useful-links)
   - [Code Quality Guide](/materials/others/intro-wp.md#code-quality-guide)
   - [HTML](/materials/html/readme.md#html)
-    - [Useful Links](/materials/html/readme.md#useful-links-1)
-    - [E-book](#e-book)
   - [CSS](./materials/css/readme.md)
-    - [E-book](#e-book-1)
-    - [Useful Links](#useful-links-2)
   - [Bootstrap](./materials/boostrap/readme.md)
-    - [Useful Links](#useful-links-3)
-    - [E-book \& Web Template](#e-book--web-template)
   - [JavaScript](./materials/javascript/readme.md)
-    - [Useful Links](#useful-links-4)
   - [PHP](./materials/php/readme.md)
-  - [Contribution 🛠️](#contribution-️)
+- Labs](./lab)
+- [Contribution 🛠️](#contribution-️)
 
 ## Synopsis
 This course is designed to introduce students the fundamental of knowledge, technologies and components for web application developments. The basic topics includes the standard HTML for content creation, CSS for content presentation, JavaScript for client-side logics, PHP for server-side logics and MySQL for data processing. At the end of the course, the students should be able to apply the web base technologies and then implement it all in the creating functional data-centric online system project.
