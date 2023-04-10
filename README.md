@@ -13,7 +13,7 @@ Don't forget to hit the :star: if you like this repo.
   - [Student Information](#student-information)
   - [Code Samples](#code-samples)
   - [Introduction to Web Programming](/materials/others/intro-wp.md)
-  - [Visual Studio Code](#visual-studio-code)
+  - [Visual Studio Code](/materials/others/vscode-intro.md)
     - [ Video](#-video)
     - [Useful Links](#useful-links)
   - [Code Quality Guide](/materials/others/intro-wp.md#code-quality-guide)
