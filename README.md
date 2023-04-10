@@ -216,7 +216,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [Level 1 Document Object Model Specification](https://www.w3.org/TR/WD-DOM/cover.html)
 - [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 - [javatpoint: Document Object Model](https://www.javatpoint.com/document-object-model)
-- [DOM (Document Object Model)](https://www.geeksforgeeks.org/dom-document-object-model/)
+- [DOM (Document Object Model)](https://www.geeksforgeeks.org/dom-document-object-model)
 - [JavaScript HTML DOM - W3Schools](https://www.w3schools.com/js/js_htmldom.asp)
 - [Youtube: HTML-CSS-DOM](https://youtu.be/tSv2KIF7uE4)
 - [Youtube: An Introduction to the DOM (Document Object Model) in JavaScript](https://youtu.be/l-0nPnSvbX8)
@@ -225,12 +225,11 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 ## PHP
 - [PHP]()
-- [XAMPP Apache + MariaDB + PHP + Perl]()
-- [Youtube: Running PHP in Visual Studio Code]()
-- [Youtube: How to run PHP on Visual Studio Code]()
-- [Wikipedia: XAMPP]()
-- [PHP & MySQL]()
-- [PHP: Sessions & Authorize user]()
+- [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/index.html)
+- [Youtube: Running PHP in Visual Studio Code](https://youtu.be/4vKJMLXGirw)
+- [Youtube: How to run PHP on Visual Studio Code](https://youtu.be/begPcGfAwzY)
+- [Wikipedia: XAMPP](https://en.wikipedia.org/wiki/XAMPP)
+
 
 
 ## Contribution 🛠️
