@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 # Visual Studio Code
-### <img src="./images/youtube64.png" width="24px" height="24px"></a> Video
+### <img src="../../images/youtube64.png" width="24px" height="24px"></a> Video
 - [Visual Studio Code Web Dev Setup In 6 Minutes](https://www.youtube.com/watch?v=4NfFFsQC77M)
 - [Visual Studio Code: HTML, CSS & JS Tips](https://www.youtube.com/watch?v=bJiIzz8mFMs)
 - [Top 10 Best VS Code Extensions](https://www.youtube.com/watch?v=GPv_SbfumJw)
