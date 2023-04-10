@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab Exercise
 
-## [Submission status](./lab-submit.md)
+## [Submission status](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit#gid=147654102)
 
 ## Hypertext Markup Language (HTML)
 
