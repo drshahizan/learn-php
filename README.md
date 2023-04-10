@@ -76,50 +76,6 @@ This course is designed to introduce students the fundamental of knowledge, tech
 1. This task must be done in groups (**4** people per group).
 2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
 
-## Notes
-1. Introduction to Web Programming
-2. Visual Studio Code
-3. [HTML](./materials/html/)
-
-## Introduction to Web Programming
-- [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
-- [Video: Learn web development as an absolute beginner](https://youtu.be/ysEN5RaKOlA)
-- [Introduction to Web Programming Languages](https://www.educba.com/web-programming-languages/)
-- [Learn Web Development Fast](https://seo-trench.com/learn-web-development)
-- [WHICH IS THE BEST PROGRAMMING LANGUAGE FOR WEB DEVELOPMENT](https://www.tekshapers.com/blog/Which-is-the-Best-Programming-Language-for-Web-Development)
-- [Beginner's roadmap to web development](https://www.freecodecamp.org/news/beginners-roadmap-web-development/)
-- [The 2020 Web Developer Roadmap – A Visual Guide to Becoming a Front End, Back End, or DevOps Developer](https://www.freecodecamp.org/news/2019-web-developer-roadmap/)
-- [Roadmap to Front-End & Full-Stack Development with JavaScript Stack](https://ilovecoding.org/blog/roadmap)
-- [How to Learn Web Development in 2021 - a Web Developer Roadmap](https://www.freecodecamp.org/news/how-to-learn-web-dev-in-2021-roadmap/)
-
-## Visual Studio Code
-### <img src="./images/youtube64.png" width="24px" height="24px"></a> Video
-- [Visual Studio Code Web Dev Setup In 6 Minutes](https://www.youtube.com/watch?v=4NfFFsQC77M)
-- [Visual Studio Code: HTML, CSS & JS Tips](https://www.youtube.com/watch?v=bJiIzz8mFMs)
-- [Top 10 Best VS Code Extensions](https://www.youtube.com/watch?v=GPv_SbfumJw)
-- [How to Setup Live Server in VS Code?](https://www.youtube.com/watch?v=y4qqQeUDCBQ)
-- [How to setup and use GitHub with Visual Studio Code - (2023)](https://youtu.be/mR9jhYD3bnI)
-- [How to Host a Website on GitHub [2023] | GitHub Pages Site](https://youtu.be/6GKwy56vN2c)
-
-### Useful Links
-- [Microsoft Visual Studio Code (VS Code)](./materials/vscode.md)
-- [Download: Visual Studio Code](https://code.visualstudio.com/download)
-- [VS Code: Getting Started](https://code.visualstudio.com/docs)
-- [Collaborate with Live Share](https://code.visualstudio.com/learn/collaboration/live-share)
-- [Install and sign in to Live Share in Visual Studio Code](https://learn.microsoft.com/en-us/visualstudio/liveshare/use/install-live-share-visual-studio-code)
-- [Marketplace: Live Share Extension Pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs-2022)
-- [VS Code Live SHARE | How to use LiveShare in VS code for live online collaboration [ Quick Guide ]](https://www.youtube.com/watch?v=wog5xNQegY0)
-- [GitHub Desktop](https://desktop.github.com/)
-- [Udemy: Beginner VS Code](https://www.udemy.com/course/beginner-vs-code/)
-
-## Code Quality Guide
-- [General Guidelines](https://courses.cs.washington.edu/courses/cse154/codequalityguide/)
-- [Google HTML/ CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
-- [HTML](https://courses.cs.washington.edu/courses/cse154/codequalityguide/html/)
-- [CSS](https://courses.cs.washington.edu/courses/cse154/codequalityguide/css/)
-- [JavaScript](https://courses.cs.washington.edu/courses/cse154/codequalityguide/javascript/)
-- [SQL](https://courses.cs.washington.edu/courses/cse154/codequalityguide/sql/)
-- [The little book of HTML/CSS coding guidelines – O'Reilly](https://www.oreilly.com/content/little-book-html-css-coding-guidelines/)
 
 
 ## Contribution 🛠️
