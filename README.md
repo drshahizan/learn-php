@@ -87,7 +87,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 ## Notes
 1. Introduction to Web Programming
 2. Visual Studio Code
-3. [HTML](.materials/html/)
+3. [HTML](./materials/html/)
 
 ## Introduction to Web Programming
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
