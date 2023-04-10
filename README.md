@@ -205,11 +205,11 @@ This course is designed to introduce students the fundamental of knowledge, tech
 ## JavaScript
 
 ### Useful Links
-- [Javascript.com]()
-- [The Modern JavaScript Tutorial]()
-- [Wikipedia JavaScript]()
-- [JavaScript Tutorial]()
-- [tutorialspoint JavaScript Tutorial]()
+- [Javascript.com](https://www.javascript.com/)
+- [The Modern JavaScript Tutorial](https://javascript.info/)
+- [Wikipedia JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [JavaScript Tutorial](https://www.w3schools.com/js/)
+- [tutorialspoint JavaScript Tutorial](https://www.tutorialspoint.com/javascript/index.htm)
 - [JavaScript Tutorial for Beginners: Learn Javascript Step by Step]()
 - [Mozilla: JavaScript]()
 - [Wikipedia: Document Object Model]()
