@@ -24,7 +24,7 @@ One of the key things that makes this book different from other titles that teac
 
 Alongside the code, there is plenty of practical advice on topics such as how to resize and prepare images for the web, how to control typography, and search engine optimization (SEO), so that you will be equipped with the full range of skills needed to create great looking websites.
 
-#### Source code: <a href="https://github.com/drshahizan/learn-php/tree/main/materials/html-and-css-book-code"><img src="../images/folder.png" width="48px" height="48px"></a>
+#### Source code: <a href="https://github.com/drshahizan/learn-php/tree/main/materials/html/html-and-css-book-code"><img src="../images/folder.png" width="48px" height="48px"></a>
 
 ## JavaScript and Jquery
 
