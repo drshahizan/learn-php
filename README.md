@@ -84,6 +84,11 @@ This course is designed to introduce students the fundamental of knowledge, tech
 1. This task must be done in groups (**4** people per group).
 2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
 
+## Notes
+1. Introduction to Web Programming
+2. Visual Studio Code
+3. [HTML](.materials/html/)
+
 ## Introduction to Web Programming
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
 - [Video: Learn web development as an absolute beginner](https://youtu.be/ysEN5RaKOlA)
