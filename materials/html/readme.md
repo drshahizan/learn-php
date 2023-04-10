@@ -10,11 +10,11 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Notes
 - [HyperText Markup Language (HTML)](html.md)
-- [How to create a simple HTML page with all the important tagging](./materials/html-example.md)
-- [HTML Projects](/materials/html-project.md)
-- [Sample: Personal Portfolio Website](./materials/html-portfolio.md)
-- [Sample: Online Recipe Book](./materials/html-recipe.md)
-- [HTML, CSS and JS](./materials/html-css-js.md)
+- [How to create a simple HTML page with all the important tagging](html-example.md)
+- [HTML Projects](html-project.md)
+- [Sample: Personal Portfolio Website](html-portfolio.md)
+- [Sample: Online Recipe Book](html-recipe.md)
+- [HTML, CSS and JS](html-css-js.md)
 
 ## Useful Links
 - [What tools do the professionals use? 🔥](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software#what_tools_do_the_professionals_use)
