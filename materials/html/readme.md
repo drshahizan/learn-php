@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 # HyperText Markup Language (HTML)
 
 ## Notes
-- [HyperText Markup Language (HTML)](./materials/html.md)
+- [HyperText Markup Language (HTML)](html.md)
 - [How to create a simple HTML page with all the important tagging](./materials/html-example.md)
 - [HTML Projects](/materials/html-project.md)
 - [Sample: Personal Portfolio Website](./materials/html-portfolio.md)
