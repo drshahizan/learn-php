@@ -16,35 +16,35 @@ Lab 7: Time Table -->
 </head>
 
 <body>
-    <h1>Web Programming: Time Table</h1> <br>
+    <h2>Web Programming: Time Table</h2>
     <table>
         <tr>
-            <th>Day/Period</th>
-            <th>I 9:30-10:20</th>
-            <th>II 10:20-11:10</th>
-            <th>III 10:20-11:10</th>
-            <th>12:40-1:30</th>
-            <th>IV 12:40-1:30</th>
-            <th>V 1:30-2:20</th>
-            <th>VI 2:20-3:10</th>
-            <th>VII 3:10-4:00</th>
+            <th><br>Day/Period</th>
+            <th><br>I 9:30-10:20</th>
+            <th><br>II 10:20-11:10</th>
+            <th><br>III 10:20-11:10</th>
+            <th><br>12:40-1:30</th>
+            <th><br>IV 12:40-1:30</th>
+            <th><br>V 1:30-2:20</th>
+            <th><br>VI 2:20-3:10</th>
+            <th><br>VII 3:10-4:00</th>
         </tr>
         <tr>
             <th>Monday</th>
             <th>Eng</th>
             <th>Math</th>
             <th>Che</th>
-            <th rowspan="5">LUNCH</th>
-            <th colspan="3">LAB</th>
+            <th rowspan="5" class="lunch">LUNCH</th>
+            <th colspan="3" class="lab">LAB</th>
             <th>Phy</th>
         </tr>
         <tr>
             <th>Tuesday</th>
-            <th colspan="3">LAB</th>
+            <th colspan="3" class="lab">LAB</th>
             <th>Eng</th>
             <th>Che</th>
             <th>Math</th>
-            <th>Sport</th>
+            <th class="sports">Sport</th>
         </tr>
         <tr>
             <th>Wednesday</th>
@@ -53,14 +53,14 @@ Lab 7: Time Table -->
             <th>Eng</th>
             <th>Che</th>
             <th colspan="3">LIBRARY</th>
-            
+
         </tr>
         <tr>
             <th>Thursday</th>
             <th>Phy</th>
             <th>Eng</th>
             <th>Che</th>
-            <th colspan="3">LAB</th>
+            <th colspan="3" class="lab">LAB</th>
             <th>Math</th>
         </tr>
         <tr>
@@ -74,22 +74,35 @@ Lab 7: Time Table -->
     </table>
 
     <style>
-        table,th,td 
-        {
-            border-collapse: collapse;
-            border: 2px  black;
-            padding-left: 20px;
-            padding-right: 20px;
+        h2{
+            font-weight: 900;
             text-align: center;
-            width: 700px;
+            width: 650px;;
         }
-        </style>
+    
+        table, th, td{
+                border: 2px groove black;
+                text-align: center;
+                width: 700px;
+                height: 40px;
+        }
+    
+        .lab{
+            background-color: yellow;
+        }
+    
+        .sports{
+            background-color: blue;
+        }
+    
+    .lunch{
+        background-color: green;
+    }
+    
+    
+    
+    </style>
 
 </body>
-</html>
 
-Monday	Eng	Mat	Che	LUNCH	LAB	Phy
-Tuesday	LAB	Eng	Che	Mat	SPORTS
-Wednesday	Mat	Phy	Eng	Che	LIBRARY
-Thursday	Phy	Eng	Che	LAB	Mat
-Friday	Phy	Eng	Che	LAB	Mat
+</html>
