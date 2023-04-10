@@ -10,8 +10,9 @@ Don't forget to hit the :star: if you like this repo.
 
 ### Contents:
 - [Course Outline](#course-outline)
-  - [Student Information](./materials/others/student-info.md)
-  - [Code Samples](/materials/readme.md)
+- [Student Information](./materials/others/student-info.md)
+- [Code Samples](/materials/readme.md)
+- Notes
   - [Introduction to Web Programming](/materials/others/intro-wp.md)
   - [Visual Studio Code](/materials/others/vscode-intro.md)
     - [ Video](#-video)
