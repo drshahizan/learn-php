@@ -28,7 +28,7 @@ Don't forget to hit the :star: if you like this repo.
     - [E-book \& Web Template](#e-book--web-template)
   - [JavaScript](./materials/javascript/readme.md)
     - [Useful Links](#useful-links-4)
-  - [PHP](#php)
+  - [PHP](./materials/php/readme.md)
   - [Contribution 🛠️](#contribution-️)
 
 ## Synopsis
@@ -120,14 +120,6 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [JavaScript](https://courses.cs.washington.edu/courses/cse154/codequalityguide/javascript/)
 - [SQL](https://courses.cs.washington.edu/courses/cse154/codequalityguide/sql/)
 - [The little book of HTML/CSS coding guidelines – O'Reilly](https://www.oreilly.com/content/little-book-html-css-coding-guidelines/)
-
-## PHP
-- [PHP]()
-- [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/index.html)
-- [Youtube: Running PHP in Visual Studio Code](https://youtu.be/4vKJMLXGirw)
-- [Youtube: How to run PHP on Visual Studio Code](https://youtu.be/begPcGfAwzY)
-- [Wikipedia: XAMPP](https://en.wikipedia.org/wiki/XAMPP)
-
 
 
 ## Contribution 🛠️
