@@ -6,11 +6,17 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
 
 Don't forget to hit the :star: if you like this repo.
-# SCSV1223 - WEB PROGRAMMING
+# HyperText Markup Language (HTML)
 
-## HTML
+## Notes
+- [HyperText Markup Language (HTML)](html.md)
+- [How to create a simple HTML page with all the important tagging](html-example.md)
+- [HTML Projects](html-project.md)
+- [Sample: Personal Portfolio Website](html-portfolio.md)
+- [Sample: Online Recipe Book](html-recipe.md)
+- [HTML, CSS and JS](html-css-js.md)
 
-### Useful Links
+## Useful Links
 - [What tools do the professionals use? 🔥](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software#what_tools_do_the_professionals_use)
 - [Are HTML and JavaScript both the same?](https://www.quora.com/Are-HTML-and-JavaScript-both-the-same)
 - [W3C validator: Markup Validation Service 🔥](https://validator.w3.org/)
