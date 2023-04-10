@@ -121,27 +121,6 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [SQL](https://courses.cs.washington.edu/courses/cse154/codequalityguide/sql/)
 - [The little book of HTML/CSS coding guidelines – O'Reilly](https://www.oreilly.com/content/little-book-html-css-coding-guidelines/)
 
-## JavaScript
-
-### Useful Links
-- [Javascript.com](https://www.javascript.com/)
-- [The Modern JavaScript Tutorial](https://javascript.info/)
-- [Wikipedia JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [JavaScript Tutorial](https://www.w3schools.com/js/)
-- [tutorialspoint JavaScript Tutorial](https://www.tutorialspoint.com/javascript/index.htm)
-- [JavaScript Tutorial for Beginners: Learn Javascript Step by Step](https://www.guru99.com/interactive-javascript-tutorials.html)
-- [Mozilla: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Wikipedia: Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)
-- [Level 1 Document Object Model Specification](https://www.w3.org/TR/WD-DOM/cover.html)
-- [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-- [javatpoint: Document Object Model](https://www.javatpoint.com/document-object-model)
-- [DOM (Document Object Model)](https://www.geeksforgeeks.org/dom-document-object-model)
-- [JavaScript HTML DOM - W3Schools](https://www.w3schools.com/js/js_htmldom.asp)
-- [Youtube: HTML-CSS-DOM](https://youtu.be/tSv2KIF7uE4)
-- [Youtube: An Introduction to the DOM (Document Object Model) in JavaScript](https://youtu.be/l-0nPnSvbX8)
-- [HTML DOM Diagram, Coded Example and Explanation](https://mrvirk.com/html-dom-diagram-and-explanation.html)
-
-
 ## PHP
 - [PHP]()
 - [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/index.html)
