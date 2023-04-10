@@ -41,14 +41,6 @@ This course is designed to introduce students the fundamental of knowledge, tech
 4. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
 5. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
 
-### HTML
-- [HyperText Markup Language (HTML)](./materials/html.md)
-- [How to create a simple HTML page with all the important tagging](./materials/html-example.md)
-- [HTML Projects](/materials/html-project.md)
-- [Sample: Personal Portfolio Website](./materials/html-portfolio.md)
-- [Sample: Online Recipe Book](./materials/html-recipe.md)
-- [HTML, CSS and JS](./materials/html-css-js.md)
-
 ## 👩👨 [Student Information](./materials/student-info.md)
 
 ## [Labs](./lab)
@@ -128,22 +120,6 @@ This course is designed to introduce students the fundamental of knowledge, tech
 - [JavaScript](https://courses.cs.washington.edu/courses/cse154/codequalityguide/javascript/)
 - [SQL](https://courses.cs.washington.edu/courses/cse154/codequalityguide/sql/)
 - [The little book of HTML/CSS coding guidelines – O'Reilly](https://www.oreilly.com/content/little-book-html-css-coding-guidelines/)
-
-## HTML
-
-### Useful Links
-- [What tools do the professionals use? 🔥](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software#what_tools_do_the_professionals_use)
-- [Are HTML and JavaScript both the same?](https://www.quora.com/Are-HTML-and-JavaScript-both-the-same)
-- [W3C validator: Markup Validation Service 🔥](https://validator.w3.org/)
-- [W3Schools: HTML 🔥](https://www.w3schools.com/html/default.asp)
-- [Emmet.io — the essential toolkit for web-developers](https://emmet.io/)
-- [Learn to Code HTML & CSS Develop & Style Websites](https://learn.shayhowe.com/html-css/)
-- [Free Web Development Tutorials for those who are broke and cannot afford paid courses.](https://www.reddit.com/r/learnjavascript/comments/8sulvf/free_web_development_tutorials_for_those_who_are/)
-- [Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
-- [HTML5 Periodical Table](https://websitesetup.org/html5-periodical-table/)
-- [HTML Cheat Sheet](https://htmlcheatsheet.com/)
-- [HTML Cheat Sheet - Stanford](https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
-- [Top 3 Biggest 'Misteaks' In Web Design](./materials/top3misteaks.ppt)
 
 ## CSS
 - [Navigational Structures](https://cs.wellesley.edu/~cs110/lectures/WebNavigation/)
