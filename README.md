@@ -26,7 +26,7 @@ Don't forget to hit the :star: if you like this repo.
   - [Bootstrap](./materials/boostrap/readme.md)
     - [Useful Links](#useful-links-3)
     - [E-book \& Web Template](#e-book--web-template)
-  - [JavaScript](#javascript)
+  - [JavaScript](./materials/javascript/readme.md)
     - [Useful Links](#useful-links-4)
   - [PHP](#php)
   - [Contribution 🛠️](#contribution-️)
