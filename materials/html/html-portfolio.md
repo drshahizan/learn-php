@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Project Title: Personal Portfolio Website
+# Project Title: Student Portfolio Showcase
 
 ## Description:
 Create a personal portfolio website that showcases your skills and experiences. The website should include an introduction section, a skills section, an experience section, and a contact section.

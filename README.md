@@ -31,6 +31,9 @@ This course is designed to introduce students the fundamental of knowledge, tech
 1. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
 2. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
 3. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
+4. [Project 1: Student Portfolio Showcase (HTML)](./project/1-portfolio/readme.md)
+5. [Project 2: Student Portfolio Showcase (Bootstrap)](./project/2-bootstrap/readme.md)
+6. [Student Portfolio Showcase](https://drshahizan.github.io/) 🆕
 
 ## 👩👨 [Student Information](./materials/student-info.md)
 
