@@ -33,10 +33,9 @@ Github id:
 Project 1: Personal Portfolio Website
 -->
 ```
-4. You must place your file in the submission folder. Within the [sec01](./sec01) or [sec02](./sec02) folder, create a folder called your `id github`. Name the file as `P1_Githubid.html`.
+4. You must place your file in the submission folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `index.html`.
 > Example: 
-> /sec01/drshahizan/P1_drshahizan.html or
-> /sec02/drshahizan/P1_drshahizan.html
+> /sec01/drshahizan/index.html
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
