@@ -33,6 +33,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 3. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
 4. [Project 1: Student Portfolio Showcase (HTML)](./project/1-portfolio/readme.md)
 5. [Project 2: Student Portfolio Showcase (Bootstrap)](./project/2-bootstrap/readme.md)
+6. [Student Portfolio Showcase](https://drshahizan.github.io/) 🆕
 
 ## 👩👨 [Student Information](./materials/student-info.md)
 
