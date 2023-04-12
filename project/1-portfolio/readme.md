@@ -33,7 +33,7 @@ Github id:
 Project 1: Personal Portfolio Website
 -->
 ```
-4. You must place your file in the submission folder. Within the [submission](./submission) folder, create a folder called your `id github`. Name the file as `index.html`.
+4. You must place your file in the submission folder. Within the [`submission`](./submission) folder, create a folder called your `id github`. Name the file as `index.html`.
 > Example: 
 > /sec01/drshahizan/index.html
 
