@@ -108,7 +108,7 @@ Github id:
 Project 2: Student Portfolio Showcase (Bootstrap)
 -->
 ```
-2. You must place your file in the submission folder. Within the [`submission`](./submission) folder, create a folder called your `id github`. Name the default file as `index.html`. Suggested folder structure for this project:
+2. You must place your file in the submission folder. Within the [`submission`](./submission) folder, create a folder called your `github_id`. Name the default file as `index.html`. Suggested folder structure for this project:
 
 ```html
 github_id/
