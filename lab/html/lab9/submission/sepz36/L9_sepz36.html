@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Form</title>
+    <!-- 
+Name     : SEPRIYANDI BIN AGUSR
+Matrix No: SX211697ECRHF04
+Github id: sepz36
+
+Lab 9: HTML Form -->
+</head>
+
+<body>
+
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Verdana;
+            color: blue;
+            font-weight: bold;
+        }
+
+        th,
+        td {
+            padding: 2px;
+            border: 1px solid black;
+            /* background-color: lightgray; */
+        }
+
+        /* #resetBtn {
+            margin-top: 20px;
+        } */
+
+        .margin {
+            margin: 10%;
+        }
+    </style>
+    <div class="margin">
+        <h1>Medical Form</h1>
+        <form action="process.php" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text"></td>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Female</label>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Male</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>Nationality</td>
+                        <td><select name="" id="">
+                                <option value="">Canadian</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td colspan="3"><textarea name="" id="" cols="30" rows="8"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset> <br>
+            <fieldset>
+                <table>
+                    <legend>Medical History</legend>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Smallpox</label>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Mumps</label>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Dizziness</label>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Sneezing</label>
+                </table>
+            </fieldset>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
