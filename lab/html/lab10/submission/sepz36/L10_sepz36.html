@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,11 +37,11 @@ Lab 10: Aplication Form -->
         #select {
             margin-right: 2px;
         }
+
         .margin {
             margin: 10%;
         }
-
-       </style>
+    </style>
 </head>
 
 <body>
@@ -48,78 +49,83 @@ Lab 10: Aplication Form -->
         <h2>Web Programming: Application Form</h2>
         <form action="process.php" method="post">
             <fieldset>
-                <legend>Personal Details</legend><br>
-                <tr>
-                    <td>Name</td>
-                    <td>
-                        <select id="" name="select">
-                            <option value="mr">Mr.</option>
-                            <option value="mrs">Mrs.</option>
-                        </select> <input type="text" name="" id="">
-                    </td>
-                </tr><br><br>
-                <tr>
-                    <td>Gender</td>
-                    <td>
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">Male</label>
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">Female</label>
-                    </td>
-                    <td>Date of Birth</td>
-                    <td>
-                        <input type="date" id="date" name="">
-                    </td>
-                </tr><br><br>
-                <tr>
-                    <td>Marital Status</td>
-                    <td>
-                        <select id="" name="select">
-                            <option value="mr">Single</option>
-                            <option value="sg">Married</option>
-                            <option value="dv">Divorce</option>
-                        </select>
-                    </td>
-                    <td>Religion</td>
-                    <td><select id="" name="select">
-                            <option value="is">Islam</option>
-                            <option value="ch">Christian</option>
-                            <option value="bd">Buddhist</option>
-                            <option value="hd">Hindu</option>
-                        </select>
-                    </td>
-                </tr><br><br>
+                <legend>Personal Details</legend>
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>
+                            <select id="" name="select">
+                                <option value="mr">Mr.</option>
+                                <option value="mrs">Mrs.</option>
+                            </select> <input type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Male</label>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Female</label>
+                        </td>
+                        <td>Date of Birth</td>
+                        <td>
+                            <input type="date" id="date" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Marital Status</td>
+                        <td>
+                            <select id="" name="select">
+                                <option value="mr">Single</option>
+                                <option value="sg">Married</option>
+                                <option value="dv">Divorce</option>
+                            </select>
+                        </td>
+                        <td>Religion</td>
+                        <td><select id="" name="select">
+                                <option value="is">Islam</option>
+                                <option value="ch">Christian</option>
+                                <option value="bd">Buddhist</option>
+                                <option value="hd">Hindu</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
             </fieldset><br>
             <fieldset>
-                <legend>Contact Details</legend><br>
-                <tr>
-                    <td>Phone</td>
-                    <td><input type="text" name="" id=""></td>
-                    <td>E-mail</td>
-                    <td><input type="text" name="" id=""></td>
-                </tr><br><br>
-                <tr>
-                    <td>Address Line 1</td>
-                    <td><input type="text" name="" id=""></td>
-                    <td>Address Line 2</td>
-                    <td><input type="text" name="" id=""></td>
-                </tr><br><br>
-                <tr>
-                    <td>City</td>
-                    <td><input type="text" name="" id=""></td>
-                    <td>State</td>
-                    <select id="" name="select">
-                        <option value="sl">Johor Baharu</option>
-                        <option value="sl">Selangor</option>
-                        <option value="kl">KL</option>
-                        <option value="n9">Negeri Sembilan</option>
-                        <option value="ml">Melaka</option>
-                    </select>
-                </tr><br><br>
+                    <legend>Contact Details</legend>
+                    <table>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>E-mail</td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Address Line 1</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>Address Line 2</td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>State</td>
+                        <td><select id="" name="select">
+                            <option value="sl">Johor Baharu</option>
+                            <option value="sl">Selangor</option>
+                            <option value="kl">KL</option>
+                            <option value="n9">Negeri Sembilan</option>
+                            <option value="ml">Melaka</option>
+                        </select></td>
+                    </tr>
+                </table>
             </fieldset><br>
             <fieldset>
+                </table>
                 <legend>Qualification Details</legend>
-                <tr><br>
+                <tr>
                     <td><b>No.</b></td>
                     <td><b>Qualification</b></td>
                     <td><b>University</b></td>
@@ -153,7 +159,9 @@ Lab 10: Aplication Form -->
                     <td><input type="text" name="" id=""></td>
                 </tr><br><br>
             </fieldset><br>
+            </table>
             <fieldset>
+                </table>
                 <legend>Language Knowledge</legend><br>
                 <tr>
                     <td><b>Language</b></td>
@@ -164,18 +172,20 @@ Lab 10: Aplication Form -->
                 </tr><br><br>
                 <tr>
                     <td>B. Melayu</td>
-                    <input type="checkbox" id="terms" name="terms" value="agree">
-                    <input type="checkbox" id="terms" name="terms" value="agree">
-                    <input type="checkbox" id="terms" name="terms" value="agree">
+                    <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value="">
                 </tr><br><br>
                 <tr>
                     <td>English</td>
-                    <input type="checkbox" id="terms" name="terms" value="agree">
-                    <input type="checkbox" id="terms" name="terms" value="agree">
-                    <input type="checkbox" id="terms" name="terms" value="agree">
+                    <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value="">
                 </tr><br><br>
+                </table>
             </fieldset><br>
             <fieldset>
+                </table>
                 <legend>Identification Details</legend><br>
                 <tr>
                     <td>Identity Card Number</td>
@@ -192,6 +202,7 @@ Lab 10: Aplication Form -->
                         <input type="file" id="signature" name="signature" accept="image/*">
                     </td>
                 </tr><br>
+                </table>
             </fieldset>
             <div class="btn">
                 <input type="submit" value="Submit">
