@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,22 +13,16 @@ Github id: sepz36
 Lab 10: Aplication Form -->
 
     <style>
-    
         h2 {
             text-align: center;
             font-family: Verdana;
             font-weight: bold;
         }
 
-        table th,
-        td {
+        table td,
+        th {
             width: 250px;
         }
-
-        .margin {
-            margin: 5%;
-        }
-
 
         table tr {
             height: 30px;
@@ -43,7 +36,11 @@ Lab 10: Aplication Form -->
         #select {
             margin-right: 2px;
         }
-    </style>
+        .margin {
+            margin: 10%;
+        }
+
+       </style>
 </head>
 
 <body>
@@ -56,7 +53,8 @@ Lab 10: Aplication Form -->
                     <td>Name</td>
                     <td>
                         <select id="" name="select">
-                            <option value="">--Select--</option>
+                            <option value="mr">Mr.</option>
+                            <option value="mrs">Mrs.</option>
                         </select> <input type="text" name="" id="">
                     </td>
                 </tr><br><br>
@@ -77,13 +75,19 @@ Lab 10: Aplication Form -->
                     <td>Marital Status</td>
                     <td>
                         <select id="" name="select">
-                            <option value="">--Select--</option>
+                            <option value="mr">Single</option>
+                            <option value="sg">Married</option>
+                            <option value="dv">Divorce</option>
                         </select>
                     </td>
                     <td>Religion</td>
                     <td><select id="" name="select">
-                            <option value="">--Select--</option>
-                        </select></td>
+                            <option value="is">Islam</option>
+                            <option value="ch">Christian</option>
+                            <option value="bd">Buddhist</option>
+                            <option value="hd">Hindu</option>
+                        </select>
+                    </td>
                 </tr><br><br>
             </fieldset><br>
             <fieldset>
@@ -105,7 +109,11 @@ Lab 10: Aplication Form -->
                     <td><input type="text" name="" id=""></td>
                     <td>State</td>
                     <select id="" name="select">
-                        <option value="">--Select--</option>
+                        <option value="sl">Johor Baharu</option>
+                        <option value="sl">Selangor</option>
+                        <option value="kl">KL</option>
+                        <option value="n9">Negeri Sembilan</option>
+                        <option value="ml">Melaka</option>
                     </select>
                 </tr><br><br>
             </fieldset><br>
@@ -121,7 +129,11 @@ Lab 10: Aplication Form -->
                 <tr>
                     <td>1.</td>
                     <td><select id="" name="select">
-                            <option value="">--Select--</option>
+                            <option value="spm1">SPM</option>
+                            <option value="dp1">Diploma</option>
+                            <option value="bc1">Bachelor Degree</option>
+                            <option value="ms1">Masters</option>
+                            <option value="phd1">Ph.D</option>
                         </select> </td>
                     <td><input type="text" name="" id=""></td>
                     <td><input type="text" name="" id=""></td>
@@ -130,7 +142,11 @@ Lab 10: Aplication Form -->
                 <tr>
                     <td>2.</td>
                     <td><select id="" name="select">
-                            <option value="">--Select--</option>
+                            <option value="spm2">SPM</option>
+                            <option value="dp2">Diploma</option>
+                            <option value="bc2">Bachelor Degree</option>
+                            <option value="ms2">Masters</option>
+                            <option value="phd2">Ph.D</option>
                         </select> </td>
                     <td><input type="text" name="" id=""></td>
                     <td><input type="text" name="" id=""></td>
@@ -141,9 +157,10 @@ Lab 10: Aplication Form -->
                 <legend>Language Knowledge</legend><br>
                 <tr>
                     <td><b>Language</b></td>
-                    <td>Reading</td>
-                    <td>Writing</td>
-                    <td>Speaking</td>
+                    <td><b>Reading</b></td>
+                    <td><b>Writing</b></td>
+                    <td><b>Speaking</b></td>
+
                 </tr><br><br>
                 <tr>
                     <td>B. Melayu</td>
