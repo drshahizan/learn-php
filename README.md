@@ -35,6 +35,13 @@ This course is designed to introduce students the fundamental of knowledge, tech
 5. [Project 2: Student Portfolio Showcase (Bootstrap)](./project/2-bootstrap/readme.md)
 6. [Student Portfolio Showcase](https://drshahizan.github.io/) 🆕
 
+#### Module
+
+| No | Module | Description | 01 | 02 |
+| :-----: | ------ | ------ | :-----: | :-----: |
+| 1 | HTML | Software definition, software engineering as a layered technology, types of software, inherent difficulties in software engineering, SE quality focus, Documentation Standard.|<a href="https://github.com/drshahizan/software-engineering/blob/main/materials/sec01/mod1.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| <a href="https://github.com/drshahizan/software-engineering/blob/main/materials/sec02/mod1.md" ><img src="./images/markdownh.png" width="24px" height="24px" ></a> |
+
+
 ## 👩👨 [Student Information](./materials/student-info.md)
 
 ## [Labs](./lab)
