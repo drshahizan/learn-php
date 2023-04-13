@@ -13,35 +13,7 @@ Github id: sepz36
 
 Lab 10: Aplication Form -->
 
-    <style>
-        h2 {
-            text-align: center;
-            font-family: Verdana;
-            font-weight: bold;
-        }
 
-        table td,
-        th {
-            width: 250px;
-        }
-
-        table tr {
-            height: 30px;
-        }
-
-        .btn {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        #select {
-            margin-right: 2px;
-        }
-
-        .margin {
-            margin: 10%;
-        }
-    </style>
 </head>
 
 <body>
@@ -49,7 +21,7 @@ Lab 10: Aplication Form -->
         <h2>Web Programming: Application Form</h2>
         <form action="process.php" method="post">
             <fieldset>
-                <legend>Personal Details</legend>
+                <legend>Personal Details</legend><br>
                 <table>
                     <tr>
                         <td>Name</td>
@@ -94,8 +66,8 @@ Lab 10: Aplication Form -->
                 </table>
             </fieldset><br>
             <fieldset>
-                    <legend>Contact Details</legend>
-                    <table>
+                <legend>Contact Details</legend><br>
+                <table>
                     <tr>
                         <td>Phone</td>
                         <td><input type="text" name="" id=""></td>
@@ -113,95 +85,94 @@ Lab 10: Aplication Form -->
                         <td><input type="text" name="" id=""></td>
                         <td>State</td>
                         <td><select id="" name="select">
-                            <option value="sl">Johor Baharu</option>
-                            <option value="sl">Selangor</option>
-                            <option value="kl">KL</option>
-                            <option value="n9">Negeri Sembilan</option>
-                            <option value="ml">Melaka</option>
-                        </select></td>
+                                <option value="sl">Johor Baharu</option>
+                                <option value="sl">Selangor</option>
+                                <option value="kl">KL</option>
+                                <option value="n9">Negeri Sembilan</option>
+                                <option value="ml">Melaka</option>
+                            </select></td>
                     </tr>
                 </table>
             </fieldset><br>
             <fieldset>
+                <table>
+                    <legend>Qualification Details</legend><br>
+                    <tr>
+                        <td><b>No.</b></td>
+                        <td><b>Qualification</b></td>
+                        <td><b>University</b></td>
+                        <td><b>Passing Year</b></td>
+                        <td><b>CGPA</b></td>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><select id="" name="select">
+                                <option value="spm1">SPM</option>
+                                <option value="dp1">Diploma</option>
+                                <option value="bc1">Bachelor Degree</option>
+                                <option value="ms1">Masters</option>
+                                <option value="phd1">Ph.D</option>
+                            </select> </td>
+                        <td ><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><select id="" name="select">
+                                <option value="spm2">SPM</option>
+                                <option value="dp2">Diploma</option>
+                                <option value="bc2">Bachelor Degree</option>
+                                <option value="ms2">Masters</option>
+                                <option value="phd2">Ph.D</option>
+                            </select> </td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
                 </table>
-                <legend>Qualification Details</legend>
-                <tr>
-                    <td><b>No.</b></td>
-                    <td><b>Qualification</b></td>
-                    <td><b>University</b></td>
-                    <td><b>Passing Year</b></td>
-                    <td><b>CGPA</b></td>
-                </tr><br><br>
-                <tr>
-                    <td>1.</td>
-                    <td><select id="" name="select">
-                            <option value="spm1">SPM</option>
-                            <option value="dp1">Diploma</option>
-                            <option value="bc1">Bachelor Degree</option>
-                            <option value="ms1">Masters</option>
-                            <option value="phd1">Ph.D</option>
-                        </select> </td>
-                    <td><input type="text" name="" id=""></td>
-                    <td><input type="text" name="" id=""></td>
-                    <td><input type="text" name="" id=""></td>
-                </tr><br><br>
-                <tr>
-                    <td>2.</td>
-                    <td><select id="" name="select">
-                            <option value="spm2">SPM</option>
-                            <option value="dp2">Diploma</option>
-                            <option value="bc2">Bachelor Degree</option>
-                            <option value="ms2">Masters</option>
-                            <option value="phd2">Ph.D</option>
-                        </select> </td>
-                    <td><input type="text" name="" id=""></td>
-                    <td><input type="text" name="" id=""></td>
-                    <td><input type="text" name="" id=""></td>
-                </tr><br><br>
             </fieldset><br>
-            </table>
             <fieldset>
-                </table>
-                <legend>Language Knowledge</legend><br>
-                <tr>
-                    <td><b>Language</b></td>
-                    <td><b>Reading</b></td>
-                    <td><b>Writing</b></td>
-                    <td><b>Speaking</b></td>
+                <table>
+                    <legend>Language Knowledge</legend><br>
+                    <tr>
+                        <td><b>Language</b></td>
+                        <td><b>Reading</b></td>
+                        <td><b>Writing</b></td>
+                        <td><b>Speaking</b></td>
 
-                </tr><br><br>
-                <tr>
-                    <td>B. Melayu</td>
-                    <input type="checkbox" id="" name="" value="">
-                    <input type="checkbox" id="" name="" value="">
-                    <input type="checkbox" id="" name="" value="">
-                </tr><br><br>
-                <tr>
-                    <td>English</td>
-                    <input type="checkbox" id="" name="" value="">
-                    <input type="checkbox" id="" name="" value="">
-                    <input type="checkbox" id="" name="" value="">
-                </tr><br><br>
+                    </tr>
+                    <tr>
+                        <td>B. Melayu</td>
+                        <td><input type="checkbox" id="" name="" value=""></td>
+                        <td><input type="checkbox" id="" name="" value=""></td>
+                        <td><input type="checkbox" id="" name="" value=""></td>
+                    <tr>
+                        <td>English</td>
+                        <td><input type="checkbox" id="" name="" value=""></td>
+                        <td><input type="checkbox" id="" name="" value=""></td>
+                        <td><input type="checkbox" id="" name="" value=""></td>
+                    </tr>
                 </table>
             </fieldset><br>
             <fieldset>
-                </table>
-                <legend>Identification Details</legend><br>
-                <tr>
-                    <td>Identity Card Number</td>
-                    <td><input type="text" name="" id=""></td>
-                    <td>Passport Number</td>
-                    <td><input type="text" name="" id=""></td>
-                </tr><br><br>
-                <tr>
-                    <td>Upload Photo</td>
-                    <td><input type="file" id="photo" name="photo">
-                    </td>
-                    <td>Upload Signature</td>
-                    <td>
-                        <input type="file" id="signature" name="signature" accept="image/*">
-                    </td>
-                </tr><br>
+                <table>
+                    <legend>Identification Details</legend><br>
+                    <tr>
+                        <td>Identity Card Number</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>Passport Number</td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Upload Photo</td>
+                        <td><input type="file" id="photo" name="photo">
+                        </td>
+                        <td>Upload Signature</td>
+                        <td>
+                            <input type="file" id="signature" name="signature" accept="image/*">
+                        </td>
+                    </tr>
                 </table>
             </fieldset>
             <div class="btn">
@@ -213,5 +184,35 @@ Lab 10: Aplication Form -->
     </div>
 
 </body>
+<style>
+    h2 {
+        text-align: center;
+        font-family: Verdana;
+        font-weight: bold;
+    }
+    #select {
+        margin-right: 2px;
+    }
+
+    .margin {
+        margin: 10%;
+    }
+
+    table td,
+    th {
+        width: 250px;
+    }
+
+    table tr {
+        height: 30px;
+    }
+
+    .btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+</style>
 
 </html>
