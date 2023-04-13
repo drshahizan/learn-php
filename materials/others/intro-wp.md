@@ -7,6 +7,8 @@
 
 Don't forget to hit the :star: if you like this repo.
 # Introduction to Web Programming
+Web programming is the process of creating web pages and web-based applications using a variety of programming languages and technologies. To get started with web programming, one should learn HTML, CSS, and JavaScript, which are the core technologies used for creating web pages and user interfaces. Bootstrap is a popular framework that can simplify the process of creating responsive and mobile-friendly web pages. PHP is a server-side scripting language used for creating dynamic web pages and web-based applications. By learning these technologies, one can create attractive and interactive web content that is compatible with a wide range of devices and browsers. In summary, learning HTML, CSS, JavaScript, Bootstrap, and PHP is essential for anyone interested in web programming and creating web-based applications.
+
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
 - [Video: Learn web development as an absolute beginner](https://youtu.be/ysEN5RaKOlA)
 - [Introduction to Web Programming Languages](https://www.educba.com/web-programming-languages/)
