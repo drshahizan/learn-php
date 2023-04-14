@@ -17,7 +17,6 @@ Here are 10 websites with links to exercises for HTML:
 7. [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Exercises)
 8. [SoloLearn](https://www.sololearn.com/Course/HTML/)
 9. [HTML Exercises](https://html-exercises.com/)
-10. [Coding Dojo](https://www.codingdojo.com/blog/html-exercises-for-beginners/)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
