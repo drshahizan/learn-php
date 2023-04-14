@@ -31,7 +31,7 @@ HTML exercises are a great way for beginners to learn and practice HTML coding s
 
 5. [Learn-HTML.org: HTML Exercises](https://www.learn-html.org/) - Learn-HTML.org is a free online resource for learning HTML that offers interactive exercises to help learners practice and reinforce their HTML skills.
 
-6. [Mozilla Developer Network: HTML Exercises](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Exercises) - Mozilla Developer Network is a resource for web developers that offers a series of HTML exercises designed to teach HTML from the ground up.
+6. [Mozilla Developer Network: HTML Exercises](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) - Mozilla Developer Network is a resource for web developers that offers a series of HTML exercises designed to teach HTML from the ground up.
 
 7. [HTML Exercises from SoloLearn](https://www.sololearn.com/Course/HTML/) - SoloLearn is a mobile app that offers interactive coding exercises for a variety of programming languages, including HTML. The exercises are designed to be completed on-the-go and include step-by-step instructions.
 
