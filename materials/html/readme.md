@@ -7,6 +7,18 @@
 
 Don't forget to hit the :star: if you like this repo.
 # HyperText Markup Language (HTML)
+## Introduction
+HTML (Hypertext Markup Language) is a markup language used to create the structure and content of web pages. It consists of a series of tags and attributes that define the elements of a web page, such as headings, paragraphs, images, links, forms, and tables.
+
+HTML documents are created using a text editor and saved with a .html file extension. The basic structure of an HTML document includes an HTML tag that encloses the entire document, a head tag that contains meta data and links to external resources, and a body tag that contains the content of the web page.
+
+HTML tags are used to define the structure of a web page, and can be nested to create more complex layouts. For example, the `<header>` tag can be used to define a page header, and can contain other tags such as `<h1>` for the page title and `<nav>` for a navigation menu.
+
+HTML attributes are used to provide additional information about an element, such as the source file of an image or the action to be taken when a form is submitted. Attributes are added to the opening tag of an element and are specified as name-value pairs, separated by an equals sign.
+
+In addition to the standard HTML elements and attributes, there are also many other elements and attributes provided by HTML5, such as `<video>`, `<audio>`, `<canvas>`, and `<svg>`, that allow for more advanced multimedia and graphical capabilities.
+
+Overall, HTML is a fundamental language for web development and is used in conjunction with other web technologies such as CSS and JavaScript to create visually appealing and interactive web pages.
 
 ## Notes
 - [HyperText Markup Language (HTML)](html.md)
