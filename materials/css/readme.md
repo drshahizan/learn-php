@@ -1,12 +1,62 @@
 # Cascading Style Sheets (CSS)
 Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language, such as HTML. CSS allows web designers to separate the presentation of a web page from its content, making it easier to maintain and update the design of the site.
 
-CSS works by selecting HTML elements and applying style rules to them, such as colors, fonts, spacing, and layout. CSS rules are written in a separate file or embedded directly into an HTML document using the <style> tag.
+CSS works by selecting HTML elements and applying style rules to them, such as colors, fonts, spacing, and layout. CSS rules are written in a separate file or embedded directly into an HTML document using the `<style>` tag.
 
 CSS is highly flexible and can be used to create a wide variety of design styles, from simple and minimalist to complex and highly visual. CSS has also evolved to include more advanced features, such as responsive design for creating websites that adapt to different screen sizes, and animations and transitions for adding interactivity to web pages.
 
 In summary, CSS is an essential component of modern web design that allows designers to control the visual appearance and layout of web pages, separate the design from the content, and create responsive and interactive websites.
   
+## CSS code in an HTML document
+Here is an example of how to include CSS code in an HTML document using the `<style>` tag:
+
+```php
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <style>
+      /* CSS code starts here */
+      body {
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      
+      h1 {
+        color: #333;
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+      
+      p {
+        color: #666;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      
+      /* CSS code ends here */
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph of text. <a href="#">This is a link.</a></p>
+  </body>
+</html>
+```
+
+In this example, the CSS code is written directly inside the `<style>` tag in the `<head>` section of the HTML document. The CSS code targets different HTML elements, such as the `<body>`, `<h1>`, `<p>`, and `<a>` tags, and applies different styles to them, such as font size, color, margin, and text decoration.
+
+Note that the CSS code is enclosed in a comment to distinguish it from the HTML code, and each CSS rule ends with a semicolon. The use of indentation and whitespace is optional, but it helps to make the code more readable and easier to edit.
+
+This is just a basic example, and there are many more advanced techniques and best practices for writing CSS code in HTML documents, such as using external CSS files, using CSS preprocessors, and using CSS frameworks like Bootstrap.
   
 ## Additional Notes
 - [Introduction to CSS](https://cs.wellesley.edu/~cs115/readings/CSS1.html)
