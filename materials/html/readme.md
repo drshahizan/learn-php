@@ -23,25 +23,23 @@ Overall, HTML is a fundamental language for web development and is used in conju
 ## Standard HTML tags
 Here are some standard tags that can be used in HTML:
 
-<html> - indicates the start of an HTML document
-<head> - contains meta data and links to external resources
-<title> - specifies the title of the web page
-<body> - contains the content of the web page
-<h1> to <h6> - creates headings of varying sizes
-<p> - creates a paragraph of text
-<a> - creates a hyperlink to another web page or resource
-<img> - embeds an image into the web page
-<ul> and <li> - creates an unordered list
-<ol> and <li> - creates an ordered list
-<table>, <tr>, <th>, and <td> - creates a table with rows and columns
-<form> - creates a form for user input
-<input> - creates various form controls, such as text boxes, radio buttons, and checkboxes
-<select> and <option> - creates a drop-down list
-<button> - creates a button that can be clicked to perform an action
+1. `<html>` - indicates the start of an HTML document
+2. `<head>` - contains meta data and links to external resources
+3. `<title>` - specifies the title of the web page
+4. `<body>` - contains the content of the web page
+5. `<h1>` to `<h6>` - creates headings of varying sizes
+6. `<p>` - creates a paragraph of text
+7. `<a>` - creates a hyperlink to another web page or resource
+8. `<img>` - embeds an image into the web page
+9. `<ul>` and `<li>` - creates an unordered list
+10. `<ol>` and `<li>` - creates an ordered list
+11. `<table>`, `<tr>`, `<th>`, and `<td>` - creates a table with rows and columns
+12. `<form>` - creates a form for user input
+13. `<input>` - creates various form controls, such as text boxes, radio buttons, and checkboxes
+14. `<select>` and `<option>` - creates a drop-down list
+25. `<button>` - creates a button that can be clicked to perform an action
 
 These are just a few of the many HTML tags available. It's important to use them appropriately and according to the standards set forth by the W3C (World Wide Web Consortium) to ensure that web pages are properly structured and can be viewed consistently across different browsers and devices.
-
-
 
 ## Notes
 - [HyperText Markup Language (HTML)](html.md)
