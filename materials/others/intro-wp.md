@@ -21,7 +21,7 @@ Web programming involves the creation of web pages and web-based applications us
 
 In summary, learning HTML, CSS, JavaScript, Bootstrap, and PHP is essential for anyone interested in web programming and creating web-based applications. These technologies provide the foundation for creating visually appealing, responsive, and interactive web content that can be accessed by a wide range of devices and browsers.
 
-## Additional Notes
+## Useful Links
 
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
 - [Video: Learn web development as an absolute beginner](https://youtu.be/ysEN5RaKOlA)
