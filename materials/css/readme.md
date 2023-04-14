@@ -114,7 +114,7 @@ This is just a basic example, and there are many more advanced techniques and be
 
 Here's an example of how external CSS can be used to style a simple webpage:
 
-HTML:
+**HTML:**
 
 ```html
 <!DOCTYPE html>
@@ -144,7 +144,7 @@ HTML:
 </html>
 ```  
 
-CSS (style.css):
+**CSS (style.css)**:
 
 ```css
 /* Global Styles */
