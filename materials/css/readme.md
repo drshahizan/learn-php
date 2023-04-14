@@ -6,7 +6,31 @@ CSS works by selecting HTML elements and applying style rules to them, such as c
 CSS is highly flexible and can be used to create a wide variety of design styles, from simple and minimalist to complex and highly visual. CSS has also evolved to include more advanced features, such as responsive design for creating websites that adapt to different screen sizes, and animations and transitions for adding interactivity to web pages.
 
 In summary, CSS is an essential component of modern web design that allows designers to control the visual appearance and layout of web pages, separate the design from the content, and create responsive and interactive websites.
-  
+
+The standard syntax for writing CSS code is as follows:
+
+```css
+selector {
+  property: value;
+  property: value;
+  property: value;
+}
+```
+In this syntax, the selector is the HTML element or group of elements that the CSS rule applies to, and the `{}` curly brackets enclose the CSS properties and values. Each property: value pair sets a specific style for the selected element(s), and multiple pairs can be separated by semicolons.
+
+For example, to set the font size of all `<h1>` tags to 24 pixels and the font color to red, you would use the following syntax:
+
+```css
+h1 {
+  font-size: 24px;
+  color: red;
+}
+```
+
+CSS also supports different types of selectors, such as class selectors, ID selectors, attribute selectors, and pseudo-selectors, which allow you to target specific elements based on their properties or position in the HTML document.
+
+Note that CSS is a case-insensitive language, meaning that color: red; and COLOR: RED; are equivalent. However, it is a best practice to use lowercase letters for consistency and readability.
+
 ## CSS code in an HTML document
 Here is an example of how to include CSS code in an HTML document using the `<style>` tag:
 
