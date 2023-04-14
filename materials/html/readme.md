@@ -41,6 +41,54 @@ Here are some standard tags that can be used in HTML:
 
 These are just a few of the many HTML tags available. It's important to use them appropriately and according to the standards set forth by the W3C (World Wide Web Consortium) to ensure that web pages are properly structured and can be viewed consistently across different browsers and devices.
 
+## HTML Code Structure
+Here is an example of the basic code structure for an HTML document:
+
+
+```php
+<!DOCTYPE html> <!-- specifies the HTML version -->
+
+<html> <!-- indicates the start of an HTML document -->
+  <head> <!-- contains meta data and links to external resources -->
+    <meta charset="UTF-8"> <!-- specifies the character encoding for the document -->
+    <title>Page Title</title> <!-- specifies the title of the web page -->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- links to an external stylesheet for CSS -->
+  </head>
+
+  <body> <!-- contains the content of the web page -->
+    <header> <!-- defines a header section for the page -->
+      <h1>Page Heading</h1> <!-- creates a top-level heading -->
+      <nav> <!-- defines a navigation menu -->
+        <ul>
+          <li><a href="#">Menu Item 1</a></li> <!-- creates a hyperlink for a menu item -->
+          <li><a href="#">Menu Item 2</a></li>
+          <li><a href="#">Menu Item 3</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main> <!-- defines the main content section of the page -->
+      <h2>Section Heading</h2>
+      <p>Paragraph of text.</p>
+      <img src="image.jpg" alt="Image description"> <!-- embeds an image into the web page -->
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <button type="submit">Submit</button> <!-- creates a button to submit the form -->
+      </form>
+    </main>
+
+    <footer> <!-- defines a footer section for the page -->
+      <p>Copyright © 2023 Dr MSO</p>
+    </footer>
+  </body>
+</html>
+```
+
+This code includes the basic structure of an HTML document, with tags for the HTML version, document head, document body, and several elements such as headings, paragraphs, images, navigation menu, form, and footer. This is just a basic example, and there are many more HTML tags and attributes that can be used to create more complex web pages.
+
 ## Notes
 - [HyperText Markup Language (HTML)](html.md)
 - [How to create a simple HTML page with all the important tagging](html-example.md)
@@ -62,10 +110,6 @@ These are just a few of the many HTML tags available. It's important to use them
 - [HTML Cheat Sheet](https://htmlcheatsheet.com/)
 - [HTML Cheat Sheet - Stanford](https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
 - [Top 3 Biggest 'Misteaks' In Web Design](./materials/top3misteaks.ppt)
-
-
-
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
