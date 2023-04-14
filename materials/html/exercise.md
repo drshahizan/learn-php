@@ -10,13 +10,13 @@ Don't forget to hit the :star: if you like this repo.
 # HTML: Exercise
 HTML exercises are a great way for beginners to learn and practice HTML coding skills. These exercises usually consist of small coding challenges that require the student to use different HTML tags and attributes to create simple web pages. Some examples of HTML exercises include creating a basic website layout, adding images and links, creating tables, and using forms to collect user input. By completing these exercises, students can develop their HTML skills, build their confidence, and prepare themselves for more complex web development projects. Many websites and online courses offer free HTML exercises for beginners to help them get started on their web development journey.
 
-1. [**W3Schools: HTML Exercises](https://www.w3schools.com/html/exercise.asp) - W3Schools is a popular resource for learning web development and their HTML exercises cover a wide range of topics, from basic HTML tags to more advanced topics like forms and multimedia.
+1. [**W3Schools: HTML Exercises**](https://www.w3schools.com/html/exercise.asp) - W3Schools is a popular resource for learning web development and their HTML exercises cover a wide range of topics, from basic HTML tags to more advanced topics like forms and multimedia.
 
-2. [**Codecademy: HTML Basics](https://www.codecademy.com/learn/learn-html) - Codecademy offers a series of interactive exercises to teach HTML, starting with the basics of HTML structure and moving on to more complex elements like tables and forms.
+2. [**Codecademy: HTML Basics**](https://www.codecademy.com/learn/learn-html) - Codecademy offers a series of interactive exercises to teach HTML, starting with the basics of HTML structure and moving on to more complex elements like tables and forms.
 
-3. [**FreeCodeCamp: HTML Exercises](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/) - FreeCodeCamp offers a comprehensive curriculum on web development, with a section on HTML that covers everything from basic tags to semantic HTML.
+3. [**FreeCodeCamp: HTML Exercises**](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/) - FreeCodeCamp offers a comprehensive curriculum on web development, with a section on HTML that covers everything from basic tags to semantic HTML.
 
-4. [**HTML Dog: Beginner Exercises](https://htmldog.com/examples/) - HTML Dog is a resource for web developers that offers a set of beginner HTML exercises to help learners get started with HTML.
+4. [**HTML Dog: Beginner Exercises**](https://htmldog.com/examples/) - HTML Dog is a resource for web developers that offers a set of beginner HTML exercises to help learners get started with HTML.
 
 5. [**Learn-HTML.org**: HTML Exercises](https://www.learn-html.org/) - Learn-HTML.org is a free online resource for learning HTML that offers interactive exercises to help learners practice and reinforce their HTML skills.
 
