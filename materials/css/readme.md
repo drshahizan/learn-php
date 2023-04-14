@@ -106,6 +106,84 @@ In this example, the CSS code is written directly inside the `<style>` tag in th
 Note that the CSS code is enclosed in a comment to distinguish it from the HTML code, and each CSS rule ends with a semicolon. The use of indentation and whitespace is optional, but it helps to make the code more readable and easier to edit.
 
 This is just a basic example, and there are many more advanced techniques and best practices for writing CSS code in HTML documents, such as using external CSS files, using CSS preprocessors, and using CSS frameworks like Bootstrap.
+
+## How CSS can be used to style a simple webpage
+Here's an example of how CSS can be used to style a simple webpage:
+
+HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to my website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod velit non urna posuere bibendum. Donec vitae metus in est faucibus vestibulum. Nunc vulputate turpis non metus ultricies, et maximus metus ultricies. Integer quis facilisis est, sit amet congue felis. Sed id velit eget quam aliquam laoreet nec vel eros. Praesent at nibh ut nisi lobortis eleifend. </p>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
+```  
+
+CSS (style.css):
+
+```css
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F9F9F9;
+}
+
+header {
+	background-color: #333;
+	color: #FFF;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
+```
+  
+In this example, the CSS styles are used to customize the font, colors, and layout of the website. The body element has a specific font family and background color applied to it, while the header, nav, and footer elements have their own unique styles for background color, text color, and padding. The nav element is customized with a list-style of none, making it easier to style and position the navigation links. Overall, the CSS styles create a cohesive and visually appealing design for the website.
   
 ## Additional Notes
 - [Introduction to CSS](https://cs.wellesley.edu/~cs115/readings/CSS1.html)
