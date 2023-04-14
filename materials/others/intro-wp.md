@@ -21,7 +21,7 @@ Web programming involves the creation of web pages and web-based applications us
 
 In summary, learning HTML, CSS, JavaScript, Bootstrap, and PHP is essential for anyone interested in web programming and creating web-based applications. These technologies provide the foundation for creating visually appealing, responsive, and interactive web content that can be accessed by a wide range of devices and browsers.
 
-# Additional Notes
+## Additional Notes
 
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
 - [Video: Learn web development as an absolute beginner](https://youtu.be/ysEN5RaKOlA)
@@ -34,6 +34,8 @@ In summary, learning HTML, CSS, JavaScript, Bootstrap, and PHP is essential for 
 - [How to Learn Web Development in 2021 - a Web Developer Roadmap](https://www.freecodecamp.org/news/how-to-learn-web-dev-in-2021-roadmap/)
 
 ## Code Quality Guide
+A Code Quality Guide in HTML is a set of guidelines and best practices for creating high-quality, maintainable, and scalable HTML code. The guide typically includes rules for formatting and organizing HTML code, as well as suggestions for naming conventions, commenting, and documentation. It may also cover topics such as accessibility, performance optimization, and cross-browser compatibility. The goal of a Code Quality Guide in HTML is to ensure that the HTML code is easy to read, understand, and maintain, and that it meets the requirements and standards of the project or organization. By following a Code Quality Guide in HTML, developers can improve the quality and consistency of their code, reduce errors and bugs, and make it easier for other team members to work with and modify the code in the future.
+
 - [General Guidelines](https://courses.cs.washington.edu/courses/cse154/codequalityguide/)
 - [Google HTML/ CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 - [HTML](https://courses.cs.washington.edu/courses/cse154/codequalityguide/html/)
