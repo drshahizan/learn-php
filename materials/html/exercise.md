@@ -8,14 +8,16 @@
 Don't forget to hit the :star: if you like this repo.
 
 # HTML: Exercise
-2. [W3Schools](https://www.w3schools.com/html/exercise.asp)
-3. [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
-4. [HTML Dog](https://htmldog.com/examples/)
-5. [Udacity](https://www.udacity.com/course/intro-to-html-and-css--ud001)
-6. [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
-7. [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Exercises)
-8. [SoloLearn](https://www.sololearn.com/Course/HTML/)
-9. [Codecademy](https://www.codecademy.com/learn/learn-html)
+HTML exercises are a great way for beginners to learn and practice HTML coding skills. These exercises usually consist of small coding challenges that require the student to use different HTML tags and attributes to create simple web pages. Some examples of HTML exercises include creating a basic website layout, adding images and links, creating tables, and using forms to collect user input. By completing these exercises, students can develop their HTML skills, build their confidence, and prepare themselves for more complex web development projects. Many websites and online courses offer free HTML exercises for beginners to help them get started on their web development journey.
+
+1. [W3Schools](https://www.w3schools.com/html/exercise.asp)
+2. [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
+3. [HTML Dog](https://htmldog.com/examples/)
+4. [Udacity](https://www.udacity.com/course/intro-to-html-and-css--ud001)
+5. [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
+6. [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Exercises)
+7. [SoloLearn](https://www.sololearn.com/Course/HTML/)
+8. [Codecademy](https://www.codecademy.com/learn/learn-html)
 
 
 ## Contribution 🛠️
