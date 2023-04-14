@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# HTML: Exercise
+# CSS: Exercise
 HTML exercises are a great way for beginners to learn and practice HTML coding skills. These exercises usually consist of small coding challenges that require the student to use different HTML tags and attributes to create simple web pages. Some examples of HTML exercises include creating a basic website layout, adding images and links, creating tables, and using forms to collect user input. By completing these exercises, students can develop their HTML skills, build their confidence, and prepare themselves for more complex web development projects. Many websites and online courses offer free HTML exercises for beginners to help them get started on their web development journey.
 
 1. [**W3Schools**: HTML Exercises](https://www.w3schools.com/html/exercise.asp) - W3Schools is a popular resource for learning web development and their HTML exercises cover a wide range of topics, from basic HTML tags to more advanced topics like forms and multimedia.
