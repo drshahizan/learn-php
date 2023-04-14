@@ -34,7 +34,7 @@ Note that CSS is a case-insensitive language, meaning that color: red; and COLOR
 ## CSS code in an HTML document
 Here is an example of how to include CSS code in an HTML document using the `<style>` tag:
 
-```php
+```html
 <!DOCTYPE html>
 <html>
   <head>
