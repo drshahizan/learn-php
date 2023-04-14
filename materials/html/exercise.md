@@ -6,8 +6,8 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
 
 Don't forget to hit the :star: if you like this repo.
-Here are 10 websites with links to exercises for HTML:
 
+# HTML: Exercise
 1. [Codecademy](https://www.codecademy.com/learn/learn-html)
 2. [W3Schools](https://www.w3schools.com/html/exercise.asp)
 3. [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
