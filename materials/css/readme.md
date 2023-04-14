@@ -56,7 +56,10 @@ Here are three ways to call a CSS file in an HTML document:
   
 Note that the first two methods are preferred over the third method, as they allow you to separate the HTML and CSS code and apply styles consistently across multiple pages. The first method is the most commonly used and recommended approach, as it loads the CSS file externally from the HTML document and can improve page loading speed and SEO. The second method is less commonly used and can affect page loading speed if the CSS file is large or there are multiple `@import` rules.
 
-## CSS code in an HTML document
+## Sample Code:
+
+### 1. Internal CSS
+	
 Here is an example of how to include CSS code in an HTML document using the `<style>` tag:
 
 ```html
@@ -107,8 +110,9 @@ Note that the CSS code is enclosed in a comment to distinguish it from the HTML 
 
 This is just a basic example, and there are many more advanced techniques and best practices for writing CSS code in HTML documents, such as using external CSS files, using CSS preprocessors, and using CSS frameworks like Bootstrap.
 
-## How CSS can be used to style a simple webpage
-Here's an example of how CSS can be used to style a simple webpage:
+### 2. External CSS
+
+Here's an example of how external CSS can be used to style a simple webpage:
 
 HTML:
 
