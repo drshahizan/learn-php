@@ -31,6 +31,31 @@ CSS also supports different types of selectors, such as class selectors, ID sele
 
 Note that CSS is a case-insensitive language, meaning that color: red; and COLOR: RED; are equivalent. However, it is a best practice to use lowercase letters for consistency and readability.
 
+## How to call a CSS file in an HTML document
+Here are three ways to call a CSS file in an HTML document:
+
+1. Using the `<link`> tag in the <head> section:
+
+```css
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  ```
+
+2. Using the `@import` rule in the `<style>` tag:
+```css
+<style>
+  @import url("style.css");
+</style>
+```
+  
+  3. Using the style attribute in the HTML element:
+```css
+<h1 style="color: red;">Hello World!</h1>
+```
+  
+Note that the first two methods are preferred over the third method, as they allow you to separate the HTML and CSS code and apply styles consistently across multiple pages. The first method is the most commonly used and recommended approach, as it loads the CSS file externally from the HTML document and can improve page loading speed and SEO. The second method is less commonly used and can affect page loading speed if the CSS file is large or there are multiple `@import` rules.
+
 ## CSS code in an HTML document
 Here is an example of how to include CSS code in an HTML document using the `<style>` tag:
 
