@@ -33,7 +33,7 @@ CSS Zen Garden is a popular website that showcases the power of CSS by displayin
 7. [**CSS-Tricks**](https://css-tricks.com/challenges/)
 CSS-Tricks is a website that provides tutorials, articles, and challenges on web development skills, including CSS. Their CSS challenges cover a range of topics, from basic layout techniques to more advanced topics like CSS animations and transitions.
 
-8. [**Mozilla Developer Network**](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Exercises)
+8. [**Mozilla Developer Network**](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
 Mozilla Developer Network is a resource that provides documentation and tutorials on various web development skills, including CSS. Their CSS exercises include challenges on basic styling techniques, positioning elements, and using Flexbox and Grid layout models.
 
 9. [**SoloLearn**](https://www.sololearn.com/Course/CSS/)
