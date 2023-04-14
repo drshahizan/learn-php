@@ -1,16 +1,25 @@
 # Cascading Style Sheets (CSS)
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language, such as HTML. CSS allows web designers to separate the presentation of a web page from its content, making it easier to maintain and update the design of the site.
 
+CSS works by selecting HTML elements and applying style rules to them, such as colors, fonts, spacing, and layout. CSS rules are written in a separate file or embedded directly into an HTML document using the <style> tag.
+
+CSS is highly flexible and can be used to create a wide variety of design styles, from simple and minimalist to complex and highly visual. CSS has also evolved to include more advanced features, such as responsive design for creating websites that adapt to different screen sizes, and animations and transitions for adding interactivity to web pages.
+
+In summary, CSS is an essential component of modern web design that allows designers to control the visual appearance and layout of web pages, separate the design from the content, and create responsive and interactive websites.
+  
+  
+## Additional Notes
 - [Introduction to CSS](https://cs.wellesley.edu/~cs115/readings/CSS1.html)
 - [Fonts and Web Fonts](https://cs.wellesley.edu/~cs110/reading/fonts.html)
 - [Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
 - [Navigational Structures](https://cs.wellesley.edu/~cs110/lectures/WebNavigation/)
 
-### E-book
+## E-book
 
 - [Essential HTML & CSS books (free e- books)](https://cssauthor.com/free-html-and-css-books/https://freefrontend.com/html-css-books/#css-books)
 - [CSS Books](https://freefrontend.com/html-css-books/#css-books)
 
-### Useful Links
+## Useful Links
 
 - [CSS Generators](https://www.cssportal.com/css-generators.php)
 - [CSS Tools](https://www.cssportal.com/css-tools.php)
