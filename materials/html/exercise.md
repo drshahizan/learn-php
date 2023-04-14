@@ -8,14 +8,15 @@
 Don't forget to hit the :star: if you like this repo.
 
 # HTML: Exercise
-1. [Codecademy](https://www.codecademy.com/learn/learn-html)
 2. [W3Schools](https://www.w3schools.com/html/exercise.asp)
-3. [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
+3. [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
 4. [HTML Dog](https://htmldog.com/examples/)
 5. [Udacity](https://www.udacity.com/course/intro-to-html-and-css--ud001)
 6. [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
 7. [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Exercises)
 8. [SoloLearn](https://www.sololearn.com/Course/HTML/)
+9. [Codecademy](https://www.codecademy.com/learn/learn-html)
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
