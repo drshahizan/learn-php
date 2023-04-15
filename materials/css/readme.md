@@ -1,3 +1,12 @@
+<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
+
+Don't forget to hit the :star: if you like this repo.
+
 # Cascading Style Sheets (CSS)
 Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language, such as HTML. CSS allows web designers to separate the presentation of a web page from its content, making it easier to maintain and update the design of the site.
 
