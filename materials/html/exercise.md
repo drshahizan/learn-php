@@ -18,7 +18,7 @@ HTML exercises are a great way for beginners to learn and practice HTML coding s
 | 1 | HTML | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 2 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 3 | HTML | Format an article with HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | HTML | HTML Image |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab4" ><img src=".../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 4 | HTML | HTML Image |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 5 | HTML | Nested List |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 6 | HTML | Table |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 7 | HTML | Timetable |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
