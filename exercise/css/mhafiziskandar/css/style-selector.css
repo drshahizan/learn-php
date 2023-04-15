@@ -1,6 +1,6 @@
 /* Type selector styles */
 h1 {
-  color: rgb(9, 255, 0);
+  color: yellowgreen;
 }
 
 p {
@@ -9,7 +9,7 @@ p {
 
 /* Class selector styles */
 .text {
-  color: rgb(222, 69, 184);
+  color: lightcoral;
 }
 
 .heading {
@@ -23,6 +23,6 @@ p {
 
 /* Specificity demonstration styles */
 .text#special-text {
-  color: rgb(226, 248, 59);
+  color: lightgreen;
   font-size: 24px;
 }
