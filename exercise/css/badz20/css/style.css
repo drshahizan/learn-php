@@ -1,11 +1,11 @@
 /* Global Styles */
 body {
-	font-family: Arial, sans-serif;
-	background-color: #F9F9F9;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #e19e9e;
 }
 
 header {
-	background-color: #333;
+	background-color: #a7c3aa;
 	color: #FFF;
 	padding: 20px;
 }
@@ -31,8 +31,12 @@ main {
 }
 
 footer {
-	background-color: #333;
+	background-color: #cd1313;
 	color: #FFF;
 	padding: 10px;
 	text-align: center;
+}
+
+p{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
