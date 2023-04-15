@@ -46,7 +46,7 @@ Some common CSS selectors include:
 - ID selectors: Select elements based on their ID attribute. For example, `#my-id` selects the element with `id="my-id"`.
 - Attribute selectors: Select elements based on their attribute values. For example, `[href="https://example.com"]` selects all elements with `href="https://example.com"`.
 
-  CSS specificity is a way of determining which styles apply to an element when multiple selectors target the same element with conflicting styles. The more specific a selector, the higher its specificity, and the more weight it carries in determining which styles apply.
+CSS specificity is a way of determining which styles apply to an element when multiple selectors target the same element with conflicting styles. The more specific a selector, the higher its specificity, and the more weight it carries in determining which styles apply.
 
 CSS specificity is calculated based on a point system, where each selector has a specific weight:
 
@@ -63,10 +63,11 @@ Understanding CSS selectors and specificity is important for creating well-organ
 
 Sure, here's an example of using CSS selectors and specificity:
 
-index.html:
+### Code:
+
+**index.html:
 
 ```html
-Copy code
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,7 +82,7 @@ Copy code
 </html>
 ```
 
-styles.css:
+**styles.css:
 
 ```css
 /* Type selector styles */
