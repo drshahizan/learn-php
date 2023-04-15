@@ -10,7 +10,26 @@ Don't forget to hit the :star: if you like this repo.
 # CSS: Exercise
 CSS exercises are designed to help web developers and designers practice and enhance their CSS skills. These exercises usually involve creating and styling web page elements, such as text, images, and layout, using CSS. They may also involve using CSS properties and selectors to manipulate various aspects of the page design, such as font size, color, background, borders, and positioning.
 
-CSS exercises can vary in difficulty level, from beginner to advanced, and often include challenges that require critical thinking and problem-solving skills. Completing CSS exercises can help web developers and designers to improve their proficiency with CSS, and develop the ability to create complex and visually appealing website designs. There are various online platforms and resources that offer CSS exercises and challenges:
+CSS exercises can vary in difficulty level, from beginner to advanced, and often include challenges that require critical thinking and problem-solving skills. Completing CSS exercises can help web developers and designers to improve their proficiency with CSS, and develop the ability to create complex and visually appealing website designs. 
+
+## Lab: Cascading Style Sheets (CSS)
+
+| Lab | Topic | Title | Files |
+| -----: | ----- | ----- | :------: | 
+| 11 | CSS | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 12 | CSS | Text and Box Model |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab12" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 13 | CSS | Layout (Mock & Style) |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab13" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 14 | CSS | Website Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab14" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 15 | CSS | Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab15" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 16 | CSS | Form Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+
+### Lab CSS: Instruction
+
+1. This task must be done in groups (**4** people per group).
+2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
+
+## Online platforms and resources
+There are various online platforms and resources that offer CSS exercises and challenges:
 
 1. [**Codecademy**](https://www.codecademy.com/learn/learn-css)
 Codecademy is a popular online learning platform that offers interactive tutorials and exercises on web development skills, including CSS. Their CSS course covers a range of topics, from basic styling to advanced layout techniques.
