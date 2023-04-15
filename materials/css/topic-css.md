@@ -61,6 +61,65 @@ When multiple selectors have the same specificity, the selector that appears las
 
 Understanding CSS selectors and specificity is important for creating well-organized and maintainable CSS code that applies styles consistently across a web page.
 
+Sure, here's an example of using CSS selectors and specificity:
+
+index.html:
+
+```html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Selectors and Specificity</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1 class="heading">Hello World</h1>
+	<p class="text">This is a paragraph of text.</p>
+	<p class="text" id="special-text">This is a special paragraph of text.</p>
+</body>
+</html>
+```
+
+styles.css:
+
+```css
+/* Type selector styles */
+h1 {
+	color: red;
+}
+
+p {
+	font-size: 16px;
+}
+
+/* Class selector styles */
+.text {
+	color: blue;
+}
+
+.heading {
+	font-weight: bold;
+}
+
+/* ID selector styles */
+#special-text {
+	font-style: italic;
+}
+
+/* Specificity demonstration styles */
+.text#special-text {
+	color: green;
+	font-size: 24px;
+}
+```
+
+In this example, we have an HTML document with three elements: an h1 heading and two p paragraphs. The h1 has a class of "heading", while the paragraphs both have a class of "text". The second paragraph also has an ID of "special-text".
+
+The CSS file includes a set of styles for each type of selector, demonstrating how each type of selector can target elements on the page. In addition, we have a set of styles that demonstrate CSS specificity: the .text#special-text selector targets the second paragraph specifically, with a larger font size and a different color than the other paragraphs.
+
+When you view this page in a browser, you should see the h1 heading in red, the paragraphs in blue, and the second paragraph with an italic font style and green color, as well as a larger font size. This demonstrates how CSS selectors and specificity can be used to apply different styles to different elements on a web page.
+
 ## 3. CSS box model and layout
 ## 4. Styling text with CSS
 ## 5. CSS positioning and layout techniques
