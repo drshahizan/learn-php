@@ -7,53 +7,22 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# CSS: Exercise
-CSS exercises are designed to help web developers and designers practice and enhance their CSS skills. These exercises usually involve creating and styling web page elements, such as text, images, and layout, using CSS. They may also involve using CSS properties and selectors to manipulate various aspects of the page design, such as font size, color, background, borders, and positioning.
+# Layout design
+In HTML, a layout refers to the arrangement and positioning of elements on a web page. Layout design is the process of structuring and organizing the content on a web page to make it visually appealing and easy to navigate.
 
-CSS exercises can vary in difficulty level, from beginner to advanced, and often include challenges that require critical thinking and problem-solving skills. Completing CSS exercises can help web developers and designers to improve their proficiency with CSS, and develop the ability to create complex and visually appealing website designs. There are various online platforms and resources that offer CSS exercises and challenges:
+HTML provides a basic structure for creating a web page, but CSS is used to style and position the content within that structure. CSS can be used to specify the placement, size, and style of elements on a web page, and can be used to create a variety of layout designs.
 
-1. [**Codecademy**](https://www.codecademy.com/learn/learn-css)
-Codecademy is a popular online learning platform that offers interactive tutorials and exercises on web development skills, including CSS. Their CSS course covers a range of topics, from basic styling to advanced layout techniques.
+Here are some examples of how CSS can be used for layout design in HTML:
 
-2. [**W3Schools**](https://www.w3schools.com/css/exercise.asp)
-W3Schools is a well-known online learning platform that provides tutorials and exercises on various web development skills, including CSS. Their CSS exercises include challenges on selecting and styling HTML elements, working with text and fonts, and creating responsive layouts.
+1. Setting the position of elements: CSS provides several properties, such as position and float, that can be used to control the placement of elements on a web page.
 
-3. [**FreeCodeCamp**](https://www.freecodecamp.org/learn/responsive-web-design/basic-css/)
-FreeCodeCamp is a nonprofit organization that offers a full web development curriculum, including a course on responsive web design that covers CSS. Their CSS exercises include challenges on styling HTML elements, creating responsive layouts, and implementing CSS animations.
+2. Creating columns: CSS can be used to create multi-column layouts by using the column-count or column-width properties.
 
-4. [**CSS Diner**](https://flukeout.github.io/)
-CSS Diner is a fun and interactive website that teaches CSS selectors through a series of restaurant-themed challenges. Users can select different menu items and apply different selectors to style them.
+3. Responsive design: CSS can be used to create responsive layouts that adjust to different screen sizes, by using media queries and the @media rule.
 
-5. [**Flexbox Froggy**](https://flexboxfroggy.com/)
-Flexbox Froggy is another interactive game that teaches CSS layout techniques using the Flexbox model. Users can move a frog through a series of challenges, applying different Flexbox properties to solve them.
+4. Grids and Flexbox: CSS Grid and Flexbox are layout modes in CSS that provide powerful tools for creating complex layouts with ease.
 
-6. [**CSS Zen Garden**](http://www.csszengarden.com/)
-CSS Zen Garden is a popular website that showcases the power of CSS by displaying the same HTML code styled in a variety of different ways. Users can study the CSS used to create each design and try to recreate them on their own.
-
-7. [**CSS-Tricks**](https://css-tricks.com/challenges/)
-CSS-Tricks is a website that provides tutorials, articles, and challenges on web development skills, including CSS. Their CSS challenges cover a range of topics, from basic layout techniques to more advanced topics like CSS animations and transitions.
-
-8. [**Mozilla Developer Network**](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
-Mozilla Developer Network is a resource that provides documentation and tutorials on various web development skills, including CSS. Their CSS exercises include challenges on basic styling techniques, positioning elements, and using Flexbox and Grid layout models.
-
-9. [**SoloLearn**](https://www.sololearn.com/Course/CSS/)
-SoloLearn is a mobile app that offers courses on various programming languages and web development skills, including CSS. Their CSS course includes interactive lessons and quizzes, as well as coding challenges to practice different CSS concepts.
-
-10. [**TutsPlus**](https://code.tutsplus.com/articles/30-css-best-practices-for-beginners--net-6741)
-TutsPlus is a website that offers tutorials and articles on various web development skills, including CSS. Their article on CSS best practices for beginners provides tips and exercises on using CSS effectively, from organizing CSS files to using CSS frameworks.
-
-## CSS Layout Design
-A CSS layout design refers to the arrangement of HTML elements on a web page using CSS (Cascading Style Sheets). CSS is a styling language used to control the visual appearance of HTML elements on a web page, including the layout.
-
-CSS layout design is important because it affects the overall user experience of a website. The layout determines the structure and flow of content on a page, making it easier for users to navigate and find the information they need.
-
-There are several different types of CSS layout designs, including fixed, fluid, responsive, and adaptive. A fixed layout design uses a set width for the web page and doesn't adjust to the size of the user's screen. A fluid layout design adjusts to the size of the user's screen but can result in elements becoming distorted or difficult to read.
-
-A responsive layout design uses a combination of flexible grids and media queries to adjust the layout of a web page based on the screen size of the user's device. This results in a more user-friendly experience for users on different devices.
-
-An adaptive layout design is similar to a responsive layout design, but it uses predetermined breakpoints to adjust the layout of a web page based on the screen size of the user's device. This can result in a more precise and consistent layout design for different screen sizes.
-
-Overall, CSS layout design is an essential aspect of web design, and it's important to choose the right type of layout design based on the needs of the website and the user experience goals.
+By using CSS for layout design in HTML, designers can create visually appealing and user-friendly web pages that are optimized for various screen sizes and devices.
 
 ## Various types of layout designs
 There are various types of layout designs that web developers can use for their websites. Here are some of the most common types of layout designs and the multiple ways to achieve them:
