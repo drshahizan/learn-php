@@ -191,6 +191,43 @@ When you view this page in a browser, you should see a box with a black border, 
 This demonstrates the basic concepts of the CSS box model. By adjusting the width, height, padding, border, and margin of an element, you can control its size, spacing, and appearance on a web page.
 
 ## 4. Styling text with CSS
+Styling text with CSS allows you to change the appearance of text on your web page. Here are some common CSS properties used for styling text:
+
+1. `font-family`: specifies the font family of the text.
+
+2. `font-size`: specifies the size of the text.
+
+3. `font-weight`: specifies the boldness of the text.
+
+4. `font-style`: specifies the style of the text (e.g. italic, oblique).
+
+5. `text-align`: specifies the alignment of the text (e.g. left, center, right).
+
+6. `text-decoration`: specifies the decoration of the text (e.g. underline, line-through).
+
+7. `text-transform`: specifies the capitalization of the text (e.g. uppercase, lowercase, capitalize).
+
+8. `color`: specifies the color of the text.
+
+To style text with CSS, you can use the following syntax:
+
+```css
+selector {
+  property: value;
+}
+```
+For example, to set the font family and font size for all paragraph elements on your web page, you can use:
+
+```css
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+```
+
+By using CSS to style your text, you can create a visually appealing and readable design for your web page.
+
+
 ## 5. CSS positioning and layout techniques
 ## 6. Understanding responsive web design with CSS
 ## 7. CSS frameworks like Bootstrap or Foundation
