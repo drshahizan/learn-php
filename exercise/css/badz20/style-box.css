@@ -1,0 +1,12 @@
+.box {
+	width: 600px;
+	height: 400px;
+	padding: 20px;
+	border: 2px solid rgb(227, 0, 0);
+	margin: 50px;
+}
+
+.content {
+	font-size: 30px;
+    color: rgb(58, 18, 235);
+}

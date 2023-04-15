@@ -248,7 +248,7 @@ By using CSS to style your text, you can create a visually appealing and readabl
   </body>
 </html>
 ```
-**style-test.css**:
+**style-text.css**:
 
 ```css
 h1 {
