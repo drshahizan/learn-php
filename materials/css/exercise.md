@@ -69,92 +69,104 @@ A fixed layout design uses a set width for the web page and does not adjust to t
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Fixed Layout Design</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="container">
-		<header>
-			<h1>Fixed Layout Design</h1>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-		</nav>
-		<main>
-			<p>Welcome to our website! This is an example of a fixed layout design using HTML and CSS.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lacus libero. Integer varius ipsum purus, eu sodales nulla molestie vel. Donec tincidunt quam in turpis euismod mollis.</p>
-			<p>Praesent consectetur mauris sit amet massa accumsan, ac tincidunt nunc euismod. Ut et justo id purus hendrerit bibendum ac sed tellus. Nam tincidunt eros velit, eget bibendum magna maximus nec.</p>
-		</main>
-		<footer>
-			<p>&copy; 2023  DR MSO - Fixed Layout Design. All rights reserved.</p>
-		</footer>
-	</div>
-</body>
+  <head>
+    <title>Fixed Layout Design</title>
+    <link rel="stylesheet" type="text/css" href="style-fixed.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Fixed Layout Design</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <main>
+        <p>
+          Welcome to our website! This is an example of a fixed layout design
+          using HTML and CSS.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lacus
+          libero. Integer varius ipsum purus, eu sodales nulla molestie vel.
+          Donec tincidunt quam in turpis euismod mollis.
+        </p>
+        <p>
+          Praesent consectetur mauris sit amet massa accumsan, ac tincidunt nunc
+          euismod. Ut et justo id purus hendrerit bibendum ac sed tellus. Nam
+          tincidunt eros velit, eget bibendum magna maximus nec.
+        </p>
+      </main>
+      <footer>
+        <p>&copy; 2023 DR MSO - Fixed Layout Design. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
 </html>
+
 ```
 **CSS Code: style-fixed.css**:
 
 ```css
-Copy code
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-	width: 960px; /* fixed width for the webpage container */
-	margin: 0 auto; /* center the webpage container */
-	background-color: #fff;
-	font-family: Arial, sans-serif;
+  width: 960px; /* fixed width for the webpage container */
+  margin: 0 auto; /* center the webpage container */
+  background-color: #fff;
+  font-family: Arial, sans-serif;
 }
 
 header {
-	background-color: #0072c6;
-	color: #fff;
-	padding: 20px;
+  background-color: #0072c6;
+  color: #fff;
+  padding: 20px;
 }
 
 nav {
-	background-color: #eee;
-	padding: 10px;
+  background-color: #eee;
+  padding: 10px;
 }
 
 nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 nav li {
-	display: inline-block;
-	margin-right: 10px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 nav a {
-	color: #000;
-	text-decoration: none;
-	padding: 5px;
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
 }
 
 nav a:hover {
-	background-color: #0072c6;
-	color: #fff;
+  background-color: #0072c6;
+  color: #fff;
 }
 
 main {
-	padding: 20px;
+  padding: 20px;
 }
 
 footer {
-	background-color: #ccc;
-	padding: 10px;
-	text-align: center;
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
 }
+
 ```
 
 In this example code, the webpage container has a fixed width of 960 pixels, which will not adjust to the size of the user's screen. The CSS code also includes styles for the header, navigation, main content, and footer sections of the webpage. Note that this is just an example code and can be customized further based on the needs and design goals of the website.
