@@ -332,6 +332,65 @@ This will position the element 20 pixels from the top of its parent container an
 
 By using CSS positioning and layout techniques, you can create a wide range of designs and layouts for your web page.
 
+### Code:
+
+**position.html**:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Positioning and Layout Techniques</title>
+    <link rel="stylesheet" type="text/css" href="style-position.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS Positioning and Layout Techniques</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="left-column">
+        <h2>Left Column</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+          velit sed ante faucibus sodales. Pellentesque blandit fringilla eros,
+          nec commodo dolor facilisis vel.
+        </p>
+      </div>
+      <div class="right-column">
+        <h2>Right Column</h2>
+        <p>
+          Integer vitae eros fermentum, vehicula quam nec, malesuada enim.
+          Quisque euismod, ipsum eu aliquet finibus, quam dolor lobortis sapien,
+          et lobortis enim magna sit amet odio.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2023 DR MSO CSS Positioning and Layout Techniques</p>
+    </footer>
+  </body>
+</html>
+
+```
+
+**style-podition.css**:
+
+```css
+```
+
+This code creates a simple layout with a header, navigation bar, two columns of content, and a footer. The `header` and `footer` elements are positioned using block-level layout, while the columns of content in the `section` element are positioned using flexbox layout.
+
+The `left-column` and `right-column` elements are given a flex value of 1, causing them to share the available space equally. They are also given a margin-right value of 20px to create some space between them.
+
+Overall, this code demonstrates some of the basic techniques used in CSS positioning and layout, including block-level layout, flexbox layout, and margin and padding.
 ## 6. Understanding responsive web design with CSS
 Responsive web design (RWD) is an approach to designing websites that aims to provide an optimal viewing and user experience across a wide range of devices, from desktop computers to mobile phones. CSS plays a key role in RWD by providing the ability to adjust the layout and styling of a website based on the screen size of the device being used.
 
