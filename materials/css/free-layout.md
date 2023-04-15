@@ -41,5 +41,12 @@ While free CSS layouts can be a great resource for designers, it's important to 
 8. [Grid by Example](https://gridbyexample.com/examples/)
 9. [Tailwind CSS](https://tailwindcss.com/)
 10. [Bulma](https://bulma.io/)
-11. 
+
 All of these websites offer a variety of free CSS layouts and templates that you can use for your web design projects. Make sure to check the license agreement before using them in any commercial project.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
