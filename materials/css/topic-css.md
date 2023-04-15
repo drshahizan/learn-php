@@ -65,7 +65,7 @@ Sure, here's an example of using CSS selectors and specificity:
 
 ### Code:
 
-**index.html:
+**index.html**:
 
 ```html
 <!DOCTYPE html>
@@ -82,7 +82,7 @@ Sure, here's an example of using CSS selectors and specificity:
 </html>
 ```
 
-**styles.css:
+**styles.css**:
 
 ```css
 /* Type selector styles */
