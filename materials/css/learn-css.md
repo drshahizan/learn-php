@@ -23,6 +23,27 @@ Learning CSS (Cascading Style Sheets) is an essential skill for anyone intereste
 
 Overall, learning CSS takes time and practice, but it's an essential skill for anyone interested in web design and development. With dedication and the right resources, anyone can learn CSS and create visually appealing and functional web pages.
 
+## Understand the basics of CSS
+Understanding the basics of CSS (Cascading Style Sheets) is essential for anyone interested in web design and development. Here are some key concepts to keep in mind when learning CSS:
+
+1. CSS Syntax: CSS consists of selectors, properties, and values. Selectors specify the HTML elements that you want to style, properties specify the type of style you want to apply, and values specify the specific style you want to apply.
+
+2. CSS Selectors: CSS selectors are used to select HTML elements that you want to style. There are several types of selectors, including element selectors, class selectors, and ID selectors.
+
+3. CSS Properties: CSS properties define the type of style you want to apply to the selected HTML elements. There are many CSS properties available, including font-size, color, background-color, margin, padding, and border.
+
+4. CSS Values: CSS values specify the specific style you want to apply to the selected HTML elements. For example, the font-size property can have a value of "12px" or "1.5em".
+
+5. CSS Box Model: The CSS box model is a way of describing the layout of HTML elements. It consists of four parts: content, padding, border, and margin. Understanding the box model is essential for creating layouts with CSS.
+
+6. CSS Cascade: The CSS cascade determines how conflicting styles are resolved. When there are multiple styles applied to the same HTML element, the CSS cascade determines which style takes precedence.
+
+7. CSS Specificity: CSS specificity determines which styles are applied when there are conflicting styles. Specificity is based on the type of selector used and the number of selectors used.
+
+8. CSS Units: CSS units are used to specify measurements for properties such as height, width, margin, and padding. There are several types of units, including pixels (px), em, and percentages.
+
+Understanding these basic concepts of CSS is essential for creating visually appealing and functional web pages. With practice and experience, you can become proficient in CSS and create complex layouts and styles.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
