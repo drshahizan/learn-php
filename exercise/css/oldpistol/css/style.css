@@ -1,11 +1,11 @@
 /* Global Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #f9f9f9;
 }
 
 header {
-  background-color: #333;
+  background-color: #8822f6;
   color: #fff;
   padding: 20px;
 }
@@ -22,7 +22,7 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: #dfa6f9;
   text-decoration: none;
 }
 
@@ -31,8 +31,8 @@ main {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #8822f6;
+  color: #dfa6f9;
   padding: 10px;
   text-align: center;
 }
