@@ -33,8 +33,8 @@ Some common types of free CSS layouts include:
 While free CSS layouts can be a great resource for designers, it's important to ensure that the layout is well-designed and meets the needs of the project. It's also important to understand how to customize the layout to fit the specific requirements of the project.
 1. [**Free CSS - Free CSS Templates, CSS Layouts & More!**](https://www.free-css.com/free-css-layouts/page1)
 2. [**W3layouts**](https://w3layouts.com/): W3layouts offers a wide range of free responsive website templates and themes built with HTML5, CSS, and Bootstrap framework.
-3. [**CSS Layouts**](https://csslayouts.io/): CSS Layouts is a website that provides a curated collection of CSS-based website layouts and templates that are free to use.
-4. [**Free Frontend**](https://freefrontend.com/css-layouts/): Free Frontend is a website that offers a vast collection of free CSS layouts, templates, and UI components that you can use to build your web projects.
+3. [**CSS Layouts**](https://csslayout.io/): CSS Layouts is a website that provides a curated collection of CSS-based website layouts and templates that are free to use.
+4. [**Free Frontend**](https://freefrontend.com/css-code-examples/): Free Frontend is a website that offers a vast collection of free CSS layouts, templates, and UI components that you can use to build your web projects.
 5. [**Layoutit**](https://layoutit.com/): Layoutit is an online CSS grid editor that lets you create custom grid layouts with drag and drop functionality.
 6. [**CodePen**](https://codepen.io/): CodePen is a popular online code editor that allows you to write, test, and share HTML, CSS, and JavaScript code snippets. It also has a large collection of user-generated CSS layouts and templates.
 7. [**Templatemo**](https://templatemo.com/): Templatemo offers a range of free HTML and CSS website templates that you can download and use for your web design projects.
