@@ -175,21 +175,47 @@ In this example code, the webpage container has a fixed width of 960 pixels, whi
 ### 2. Fluid Layout
 A fluid layout design adjusts to the size of the user's screen but can result in elements becoming distorted or difficult to read. This layout can be achieved using the CSS "width" property to specify a percentage width for the webpage container.
 
-#### Code: fixed layout design using HTML and CSS
+#### Code
 
 **HTML Code: fluid.html**:
+
+**CSS Code: style-fluid.css**:
 
 ### 3. Responsive Layout
 A responsive layout design uses a combination of flexible grids and media queries to adjust the layout of a web page based on the screen size of the user's device. This layout can be achieved using CSS media queries to adjust the layout based on the screen size.
 
+#### Code
+
+**HTML Code: responsive.html**:
+
+**CSS Code: style-responsive.css**:
+
 ### 4. Adaptive Layout
 An adaptive layout design is similar to a responsive layout design, but it uses predetermined breakpoints to adjust the layout of a web page based on the screen size of the user's device. This layout can be achieved using CSS media queries to adjust the layout based on specific breakpoints.
+
+#### Code
+
+**HTML Code: adaptive.html**:
+
+**CSS Code: style-adaptive.css**:
 
 ### 5. Grid Layout
 A grid layout design uses a grid system to arrange elements on a web page. This layout can be achieved using CSS Grid, a layout module that provides a flexible way to create grid layouts.
 
+#### Code
+
+**HTML Code: grid.html**:
+
+**CSS Code: style-grid.css**:
+
 ### 6. Flexbox Layout
 A flexbox layout design uses the CSS flexbox module to create a flexible and responsive layout. This layout can be achieved using the CSS "display: flex" property to create a flex container and "flex" properties to arrange the items inside the container.
+
+#### Code
+
+**HTML Code: flexbox.html**:
+
+**CSS Code: style-flexbox.css**:
 
 Overall, there are multiple ways to achieve each type of layout design using CSS. The choice of layout design and the approach used to achieve it will depend on the needs of the website and the design goals.
 
