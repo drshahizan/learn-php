@@ -1,11 +1,11 @@
 .box {
-	width: 400px;
-	height: 200px;
-	padding: 20px;
-	border: 2px solid black;
-	margin: 50px;
+	width: 450px;
+	height: 450px;
+	padding: 150px;
+	border: 2px solid rgb(104, 15, 70);
+	margin: 260px;
 }
 
 .content {
-	font-size: 24px;
+	font-size: 50px;
 }
