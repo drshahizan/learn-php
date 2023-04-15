@@ -147,6 +147,49 @@ Layout refers to the way that elements are arranged on a web page. There are sev
 4. **Positioning**: Absolute and relative positioning can be used to place elements precisely on a page, regardless of their normal flow.
 
 By combining these layout techniques with the CSS box model, you can create sophisticated and responsive layouts that work well on all devices.
+
+### Code:
+
+**box-model.html**:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Box Model Example</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="box">
+		<p class="content">This is the content of the box.</p>
+	</div>
+</body>
+</html>
+```
+**style-box.css**:
+
+```css
+.box {
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+	border: 2px solid black;
+	margin: 50px;
+}
+
+.content {
+	font-size: 24px;
+}
+```
+
+In this example, we have a single div element with a class of "box". The div has a width of 400 pixels, a height of 200 pixels, and a padding of 20 pixels. It also has a border of 2 pixels with a solid black color, and a margin of 50 pixels.
+
+Inside the div, we have a single paragraph element with a class of "content". The paragraph has a font size of 24 pixels.
+
+When you view this page in a browser, you should see a box with a black border, 20 pixels of padding, and 50 pixels of margin on all sides. The box should contain a paragraph of text with a font size of 24 pixels.
+
+This demonstrates the basic concepts of the CSS box model. By adjusting the width, height, padding, border, and margin of an element, you can control its size, spacing, and appearance on a web page.
+
 ## 4. Styling text with CSS
 ## 5. CSS positioning and layout techniques
 ## 6. Understanding responsive web design with CSS
