@@ -1,4 +1,13 @@
-## Free CSS layouts design
+<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
+
+Don't forget to hit the :star: if you like this repo.
+
+# Free CSS layouts design
 Free CSS layouts are pre-designed web page templates that can be used to create websites quickly and easily. These layouts are typically created using CSS, HTML, and sometimes JavaScript, and are available for download from various online resources.
 
 There are many advantages to using free CSS layouts for web design, including:
