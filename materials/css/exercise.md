@@ -287,8 +287,14 @@ A responsive layout design uses a combination of flexible grids and media querie
 #### Code
 
 **HTML Code: responsive.html**:
+```html
+
+```
 
 **CSS Code: style-responsive.css**:
+```css
+
+```
 
 ### 4. Adaptive Layout
 An adaptive layout design is similar to a responsive layout design, but it uses predetermined breakpoints to adjust the layout of a web page based on the screen size of the user's device. This layout can be achieved using CSS media queries to adjust the layout based on specific breakpoints.
@@ -296,8 +302,13 @@ An adaptive layout design is similar to a responsive layout design, but it uses 
 #### Code
 
 **HTML Code: adaptive.html**:
+```html
 
+```
 **CSS Code: style-adaptive.css**:
+```css
+
+```
 
 ### 5. Grid Layout
 A grid layout design uses a grid system to arrange elements on a web page. This layout can be achieved using CSS Grid, a layout module that provides a flexible way to create grid layouts.
@@ -305,8 +316,152 @@ A grid layout design uses a grid system to arrange elements on a web page. This 
 #### Code
 
 **HTML Code: grid.html**:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid Layout Design</title>
+    <link rel="stylesheet" href="style-grid.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Grid Layout Design</h1>
+    </header>
+
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main class="main">
+      <div class="card">
+        <h2>Card 1</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 2</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 3</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 4</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 5</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 6</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 7</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 8</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 9</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 10</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 11</h2>
+        <p>This is a sample card.</p>
+      </div>
+
+      <div class="card">
+        <h2>Card 12</h2>
+        <p>This is a sample card.</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2023 DR MSO Grid Layout Design</p>
+    </footer>
+  </body>
+</html>
+```
 
 **CSS Code: style-grid.css**:
+```css
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #0072c6;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.nav {
+  background-color: #eee;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav a:hover {
+  background-color: #0072c6;
+  color: #fff;
+}
+
+.main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #0072c6;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+```
 
 ### 6. Flexbox Layout
 A flexbox layout design uses the CSS flexbox module to create a flexible and responsive layout. This layout can be achieved using the CSS "display: flex" property to create a flex container and "flex" properties to arrange the items inside the container.
@@ -314,9 +469,13 @@ A flexbox layout design uses the CSS flexbox module to create a flexible and res
 #### Code
 
 **HTML Code: flexbox.html**:
+```html
 
+```
 **CSS Code: style-flexbox.css**:
+```css
 
+```
 Overall, there are multiple ways to achieve each type of layout design using CSS. The choice of layout design and the approach used to achieve it will depend on the needs of the website and the design goals.
 
 ##  Most commonly used CSS properties and values for layout design
