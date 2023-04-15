@@ -1,12 +1,12 @@
 /* Global Styles */
 body {
-	font-family: Arial, sans-serif;
-	background-color: #F9F9F9;
+	font-family: Arial, Verdana;
+	background-color: #e4cdcd;
 }
 
 header {
-	background-color: #333;
-	color: #FFF;
+	background-color: #b7dc33;
+	color: #ec4ea8;
 	padding: 20px;
 }
 
