@@ -44,6 +44,7 @@ TutsPlus is a website that offers tutorials and articles on various web developm
 
 ## Additional Notes
 - [Layout Design](layout-design.md)❤️
+- [Free CSS layouts design](free-layout.md) ❤️
 - [Introduction to CSS](https://cs.wellesley.edu/~cs115/readings/CSS1.html)
 - [Fonts and Web Fonts](https://cs.wellesley.edu/~cs110/reading/fonts.html)
 - [Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
