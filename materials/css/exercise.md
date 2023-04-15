@@ -288,11 +288,145 @@ A responsive layout design uses a combination of flexible grids and media querie
 
 **HTML Code: responsive.html**:
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Layout Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style-responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Responsive Layout Design</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <main>
+        <section>
+          <h2>Welcome to our website!</h2>
+          <p>
+            This is an example of a responsive layout design using HTML and CSS.
+          </p>
+        </section>
+        <section>
+          <h2>Our Services</h2>
+          <ul>
+            <li>Web Design</li>
+            <li>Web Development</li>
+            <li>SEO</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Our Clients</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
+            lacus libero. Integer varius ipsum purus, eu sodales nulla molestie
+            vel. Donec tincidunt quam in turpis euismod mollis.
+          </p>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2023 DR MSO Responsive Layout Design. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
 
 ```
 
 **CSS Code: style-responsive.css**:
 ```css
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 100%; /* set a maximum width for the webpage container */
+	margin: 0 auto; /* center the container on the page */
+	background-color: #fff;
+}
+
+header {
+	background-color: #0072c6;
+	color: #fff;
+	padding: 20px;
+}
+
+nav {
+	background-color: #eee;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav a:hover {
+	background-color: #0072c6;
+	color: #fff;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+section h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+section ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer {
+	background-color: #ccc;
+	padding: 10px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.container {
+		display: flex; /* use flexbox for layout */
+		flex-wrap: wrap; /* allow items to wrap to new lines if needed */
+	}
+	
+	main {
+		flex: 3; /* main content takes up 3/4 of the available space */
+	}
+	
+	nav {
+		flex: 1; /* navigation takes up 1/4 of the available space */
+		margin-left: 20px; /* add some margin between the main content and navigation */
+	}
+}
 
 ```
 
@@ -303,10 +437,150 @@ An adaptive layout design is similar to a responsive layout design, but it uses 
 
 **HTML Code: adaptive.html**:
 ```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adaptive Layout Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style-adaptive.css">
+</head>
+<body>
+	<header>
+		<h1>Adaptive Layout Design</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Welcome to our website!</h2>
+			<p>This is an example of an adaptive layout design using HTML and CSS.</p>
+		</section>
+		<section>
+			<h2>Our Services</h2>
+			<ul>
+				<li>Web Design</li>
+				<li>Web Development</li>
+				<li>SEO</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Our Clients</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lacus libero. Integer varius ipsum purus, eu sodales nulla molestie vel. Donec tincidunt quam in turpis euismod mollis.</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 DR MSO Adaptive Layout Design. All rights reserved.</p>
+	</footer>
+</body>
+</html>
 
 ```
 **CSS Code: style-adaptive.css**:
 ```css
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #0072c6;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  background-color: #eee;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #0072c6;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  main {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    display: flex;
+  }
+
+  nav {
+    order: 2;
+  }
+
+  main {
+    order: 1;
+    flex: 3;
+  }
+
+  section {
+    flex: 1;
+    margin-left: 20px;
+  }
+}
 
 ```
 
@@ -470,10 +744,137 @@ A flexbox layout design uses the CSS flexbox module to create a flexible and res
 
 **HTML Code: flexbox.html**:
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="style-flexbox.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Flexbox Layout</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <main>
+        <article>
+          <h2>Article Title</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget
+            tellus sed nibh tristique dictum. Integer in elementum turpis. Proin
+            ultrices, dolor sed feugiat suscipit, purus velit convallis enim, in
+            eleifend arcu mi vitae augue. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia curae; Aenean nec
+            ligula quis ipsum gravida fermentum. Donec ultrices tincidunt nunc,
+            eu lobortis nulla imperdiet eget. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia curae; Sed et
+            mauris turpis, sit amet convallis sem. Proin feugiat hendrerit velit
+            ac suscipit.
+          </p>
+        </article>
+        <aside>
+          <h3>Aside Title</h3>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </aside>
+      </main>
+      <footer>
+        <p>&copy; 2023 DR MSO Flexbox Layout</p>
+      </footer>
+    </div>
+  </body>
+</html>
 
 ```
 **CSS Code: style-flexbox.css**:
 ```css
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #0072c6;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #eee;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #0072c6;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+article {
+  flex: 1;
+  margin-right: 20px;
+}
+
+aside {
+  flex: 0 0 25%;
+  background-color: #eee;
+  padding: 20px;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #0072c6;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
 
 ```
 Overall, there are multiple ways to achieve each type of layout design using CSS. The choice of layout design and the approach used to achieve it will depend on the needs of the website and the design goals.
