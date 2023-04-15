@@ -37,6 +37,30 @@ CSS can be included in an HTML document either by embedding it directly in the H
 Overall, CSS is a powerful tool for creating visually appealing and responsive web pages, and its syntax is relatively easy to understand once you get the hang of it.
 
 ## 2. CSS selectors and specificity
+CSS selectors are patterns used to select HTML elements on a web page that you want to apply styles to. CSS selectors can target elements based on their type, class, ID, attributes, and even their relationship to other elements.
+
+Some common CSS selectors include:
+
+- Type selectors: Select elements based on their HTML tag name. For example, h1 selects all `<h1>` elements.
+- Class selectors: Select elements based on their class attribute. For example, `.my-class` selects all elements with `class="my-class"`.
+- ID selectors: Select elements based on their ID attribute. For example, `#my-id` selects the element with `id="my-id"`.
+- Attribute selectors: Select elements based on their attribute values. For example, `[href="https://example.com"]` selects all elements with `href="https://example.com"`.
+
+  CSS specificity is a way of determining which styles apply to an element when multiple selectors target the same element with conflicting styles. The more specific a selector, the higher its specificity, and the more weight it carries in determining which styles apply.
+
+CSS specificity is calculated based on a point system, where each selector has a specific weight:
+
+- Type selectors have a specificity of 0-0-1.
+- Class selectors have a specificity of 0-1-0.
+- ID selectors have a specificity of 1-0-0.
+- Inline styles have a specificity of 1-0-0-0.
+
+To calculate the specificity of a selector, count the number of type, class, and ID selectors it contains and add them up, with IDs counting for the highest weight. For example, the selector `h1.my-class#my-id` has a specificity of 1-1-1, because it has one type selector, one class selector, and one ID selector.
+
+When multiple selectors have the same specificity, the selector that appears last in the CSS code takes precedence. If there are conflicting styles within the same selector, the last style declared takes precedence.
+
+Understanding CSS selectors and specificity is important for creating well-organized and maintainable CSS code that applies styles consistently across a web page.
+
 ## 3. CSS box model and layout
 ## 4. Styling text with CSS
 ## 5. CSS positioning and layout techniques
