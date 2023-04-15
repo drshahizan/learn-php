@@ -62,11 +62,11 @@ There are various types of layout designs that web developers can use for their 
 
 A fixed layout design uses a set width for the web page and does not adjust to the size of the user's screen. This layout can be achieved using the CSS "width" property to specify a fixed pixel width for the webpage container.
 
-#### Code: fixed layout design using HTML and CSS** 
+#### Code: fixed layout design using HTML and CSS
 
-**HTML Code**:
+**HTML Code: fixed.html**:
 
-```php
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -91,13 +91,13 @@ A fixed layout design uses a set width for the web page and does not adjust to t
 			<p>Praesent consectetur mauris sit amet massa accumsan, ac tincidunt nunc euismod. Ut et justo id purus hendrerit bibendum ac sed tellus. Nam tincidunt eros velit, eget bibendum magna maximus nec.</p>
 		</main>
 		<footer>
-			<p>&copy; 2023 Fixed Layout Design. All rights reserved.</p>
+			<p>&copy; 2023  DR MSO - Fixed Layout Design. All rights reserved.</p>
 		</footer>
 	</div>
 </body>
 </html>
 ```
-**CSS Code**:
+**CSS Code: style.css**:
 
 ```css
 Copy code
