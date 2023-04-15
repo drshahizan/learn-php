@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html>
-<body>
 
-<h2>HTML Forms</h2>
+<head>
+  <style>
+    form {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: auto;
+    }
+  </style>
+  
+  <body>
+    <h2>HTML Forms</h2>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <label for="sex">Sex:</label><br>
-  <input type="radio" id="male" name="sex" value="male">
-  <label for="male">Male</label><br>
-  <input type="radio" id="female" name="sex" value="female">
-  <label for="female">Female</label><br><br>
-  <label for="department">Department:</label><br>
-  <select id="department" name="department">
-    <option value="hr">HR</option>
-    <option value="it">IT</option>
-    <option value="finance">Finance</option>
-  </select><br><br>
-  <input type="submit" value="Submit">
-</form>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+      <label for="sex">Sex:</label><br />
+      <input type="radio" id="male" name="sex" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="sex" value="female" />
+      <label for="female">Female</label><br /><br />
 
-</body>
+      <label for="department">Department:</label><br />
+      <select id="department" name="department">
+        <option value="hr">HR</option>
+        <option value="it">IT</option>
+        <option value="finance">Finance</option></select
+      ><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>
+      If you click the "Submit" button, the form-data will be sent to a page
+      called "/action_page.php".
+    </p>
+  </body>
 </html>
-
