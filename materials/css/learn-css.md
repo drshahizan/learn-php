@@ -44,6 +44,26 @@ Understanding the basics of CSS (Cascading Style Sheets) is essential for anyone
 
 Understanding these basic concepts of CSS is essential for creating visually appealing and functional web pages. With practice and experience, you can become proficient in CSS and create complex layouts and styles.
 
+## Practice coding
+
+Practicing coding is an essential part of learning CSS. Here are some tips for practicing CSS coding:
+
+1. **Start with simple projects**: When you're just starting out, it's best to begin with simple projects. This could include creating a basic layout or styling a single HTML element. This will help you build a strong foundation and gain confidence in your CSS skills.
+
+2. **Experiment with CSS properties**: CSS has many properties that you can use to style your web page. Experiment with different properties and values to see how they affect the layout and appearance of your page.
+
+3. **Use CSS frameworks**: CSS frameworks, such as Bootstrap and Foundation, can help you get started with CSS coding by providing pre-designed CSS components that you can use in your projects. This can help you save time and improve your coding efficiency.
+
+4. **Practice responsive design**: Responsive design is an important concept in web design, as it ensures that your web page looks great on all devices, including desktops, tablets, and smartphones. Practice creating responsive designs using media queries and responsive CSS frameworks.
+
+5. **Build a portfolio**: Building a portfolio of your CSS projects is a great way to showcase your skills to potential employers or clients. As you gain more experience, create more complex projects and add them to your portfolio.
+
+6. **Seek feedback**: Getting feedback on your CSS coding can help you identify areas for improvement and learn from your mistakes. Share your projects with other designers and developers and ask for constructive feedback.
+
+7. **Participate in online communities**: There are many online communities for web designers and developers, such as Stack Overflow and GitHub. Participating in these communities can help you learn from others, share your own knowledge, and build your professional network.
+
+Overall, practicing CSS coding is essential for improving your skills and becoming a proficient web designer or developer. By starting with simple projects, experimenting with different CSS properties, using CSS frameworks, practicing responsive design, building a portfolio, seeking feedback, and participating in online communities, you can become a skilled CSS coder in no time.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
