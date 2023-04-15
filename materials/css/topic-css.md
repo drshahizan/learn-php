@@ -381,9 +381,76 @@ By using CSS positioning and layout techniques, you can create a wide range of d
 
 ```
 
-**style-podition.css**:
+**style-position.css**:
 
 ```css
+/* Reset the default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a standard font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the section */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.left-column {
+  flex: 1;
+  background-color: #eee;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.right-column {
+  flex: 1;
+  background-color: #eee;
+  padding: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
 ```
 
 This code creates a simple layout with a header, navigation bar, two columns of content, and a footer. The `header` and `footer` elements are positioned using block-level layout, while the columns of content in the `section` element are positioned using flexbox layout.
