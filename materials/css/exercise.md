@@ -58,7 +58,11 @@ Overall, CSS layout design is an essential aspect of web design, and it's import
 ## Various types of layout designs
 There are various types of layout designs that web developers can use for their websites. Here are some of the most common types of layout designs and the multiple ways to achieve them:
 
-1. Fixed Layout: A fixed layout design uses a set width for the web page and does not adjust to the size of the user's screen. This layout can be achieved using the CSS "width" property to specify a fixed pixel width for the webpage container.
+### 1. Fixed Layout: 
+
+A fixed layout design uses a set width for the web page and does not adjust to the size of the user's screen. This layout can be achieved using the CSS "width" property to specify a fixed pixel width for the webpage container.
+
+** Code: fixed layout design using HTML and CSS ** 
 
 2. Fluid Layout: A fluid layout design adjusts to the size of the user's screen but can result in elements becoming distorted or difficult to read. This layout can be achieved using the CSS "width" property to specify a percentage width for the webpage container.
 
