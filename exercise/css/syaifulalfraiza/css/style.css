@@ -1,12 +1,12 @@
 /* Global Styles */
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #f9f9f9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightcyan;
 }
 
 header {
-  background-color: #8822f6;
-  color: #fff;
+  background-color: indianred;
+  color: lightyellow;
   padding: 20px;
 }
 
@@ -22,7 +22,7 @@ nav li {
 }
 
 nav a {
-  color: #dfa6f9;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -31,8 +31,8 @@ main {
 }
 
 footer {
-  background-color: #a551ff;
-  color: #dfa6f9;
+  background-color: lightskyblue;
+  color: black;
   padding: 10px;
   text-align: center;
 }

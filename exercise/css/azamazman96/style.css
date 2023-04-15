@@ -1,12 +1,12 @@
 /* Global Styles */
 body {
-	font-family: Arial, Verdana;
-	background-color: #e4cdcd;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #f063cd;
 }
 
 header {
-	background-color: #b7dc33;
-	color: #ec4ea8;
+	background-color: rgb(120, 195, 239);
+	color: #FFF;
 	padding: 20px;
 }
 
@@ -31,7 +31,7 @@ main {
 }
 
 footer {
-	background-color: #333;
+	background-color: rgb(123, 187, 235);
 	color: #FFF;
 	padding: 10px;
 	text-align: center;

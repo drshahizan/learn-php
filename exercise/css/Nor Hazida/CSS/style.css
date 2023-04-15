@@ -1,11 +1,11 @@
 /* Global Styles */
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #b3a1b7;
 }
 
 header {
-  background-color: #8822f6;
+  background-color: #7276dc;
   color: #fff;
   padding: 20px;
 }
@@ -22,7 +22,7 @@ nav li {
 }
 
 nav a {
-  color: #dfa6f9;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -31,8 +31,8 @@ main {
 }
 
 footer {
-  background-color: #a551ff;
-  color: #dfa6f9;
+  background-color: #8782cf;
+  color: #fff;
   padding: 10px;
   text-align: center;
 }
