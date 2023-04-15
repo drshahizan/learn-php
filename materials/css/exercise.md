@@ -43,6 +43,7 @@ SoloLearn is a mobile app that offers courses on various programming languages a
 TutsPlus is a website that offers tutorials and articles on various web development skills, including CSS. Their article on CSS best practices for beginners provides tips and exercises on using CSS effectively, from organizing CSS files to using CSS frameworks.
 
 ## Additional Notes
+- [Learn CSS](learn-css.md)❤️
 - [Layout Design](layout-design.md)❤️
 - [Free CSS layouts design](free-layout.md) ❤️
 - [Introduction to CSS](https://cs.wellesley.edu/~cs115/readings/CSS1.html)
