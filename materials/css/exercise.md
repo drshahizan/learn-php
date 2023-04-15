@@ -97,7 +97,7 @@ A fixed layout design uses a set width for the web page and does not adjust to t
 </body>
 </html>
 ```
-**CSS Code: style.css**:
+**CSS Code: style-fixed.css**:
 
 ```css
 Copy code
