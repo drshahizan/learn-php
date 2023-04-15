@@ -1,12 +1,12 @@
 /* Global Styles */
 body {
-	font-family: Arial, Verdana;
-	background-color: #e4cdcd;
+	font-family: 'Courier New', Courier, monospace, sans-serif;
+	background-color: #F9F9F9;
 }
 
 header {
-	background-color: #b7dc33;
-	color: #ec4ea8;
+	background-color: #b41818;
+	color: #FFF;
 	padding: 20px;
 }
 
@@ -22,7 +22,7 @@ nav li {
 }
 
 nav a {
-	color: #FFF;
+	color: #1b1284;
 	text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ main {
 }
 
 footer {
-	background-color: #333;
+	background-color: #440303;
 	color: #FFF;
 	padding: 10px;
 	text-align: center;
