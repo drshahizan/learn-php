@@ -1,0 +1,42 @@
+/* Global Styles */
+body {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #e19e9e;
+}
+
+header {
+	background-color: #a7c3aa;
+	color: #FFF;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #cd1313;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
+
+p{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
