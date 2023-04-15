@@ -58,7 +58,7 @@ Overall, CSS layout design is an essential aspect of web design, and it's import
 ## Various types of layout designs
 There are various types of layout designs that web developers can use for their websites. Here are some of the most common types of layout designs and the multiple ways to achieve them:
 
-### 1. Fixed Layout: 
+### 1. Fixed Layout
 
 A fixed layout design uses a set width for the web page and does not adjust to the size of the user's screen. This layout can be achieved using the CSS "width" property to specify a fixed pixel width for the webpage container.
 
@@ -172,15 +172,24 @@ footer {
 In this example code, the webpage container has a fixed width of 960 pixels, which will not adjust to the size of the user's screen. The CSS code also includes styles for the header, navigation, main content, and footer sections of the webpage. Note that this is just an example code and can be customized further based on the needs and design goals of the website.
 
 
-2. Fluid Layout: A fluid layout design adjusts to the size of the user's screen but can result in elements becoming distorted or difficult to read. This layout can be achieved using the CSS "width" property to specify a percentage width for the webpage container.
+### 2. Fluid Layout
+A fluid layout design adjusts to the size of the user's screen but can result in elements becoming distorted or difficult to read. This layout can be achieved using the CSS "width" property to specify a percentage width for the webpage container.
 
-3. Responsive Layout: A responsive layout design uses a combination of flexible grids and media queries to adjust the layout of a web page based on the screen size of the user's device. This layout can be achieved using CSS media queries to adjust the layout based on the screen size.
+#### Code: fixed layout design using HTML and CSS
 
-4. Adaptive Layout: An adaptive layout design is similar to a responsive layout design, but it uses predetermined breakpoints to adjust the layout of a web page based on the screen size of the user's device. This layout can be achieved using CSS media queries to adjust the layout based on specific breakpoints.
+**HTML Code: fluid.html**:
 
-5. Grid Layout: A grid layout design uses a grid system to arrange elements on a web page. This layout can be achieved using CSS Grid, a layout module that provides a flexible way to create grid layouts.
+### 3. Responsive Layout
+A responsive layout design uses a combination of flexible grids and media queries to adjust the layout of a web page based on the screen size of the user's device. This layout can be achieved using CSS media queries to adjust the layout based on the screen size.
 
-6. Flexbox Layout: A flexbox layout design uses the CSS flexbox module to create a flexible and responsive layout. This layout can be achieved using the CSS "display: flex" property to create a flex container and "flex" properties to arrange the items inside the container.
+### 4. Adaptive Layout
+An adaptive layout design is similar to a responsive layout design, but it uses predetermined breakpoints to adjust the layout of a web page based on the screen size of the user's device. This layout can be achieved using CSS media queries to adjust the layout based on specific breakpoints.
+
+### 5. Grid Layout
+A grid layout design uses a grid system to arrange elements on a web page. This layout can be achieved using CSS Grid, a layout module that provides a flexible way to create grid layouts.
+
+### 6. Flexbox Layout
+A flexbox layout design uses the CSS flexbox module to create a flexible and responsive layout. This layout can be achieved using the CSS "display: flex" property to create a flex container and "flex" properties to arrange the items inside the container.
 
 Overall, there are multiple ways to achieve each type of layout design using CSS. The choice of layout design and the approach used to achieve it will depend on the needs of the website and the design goals.
 
