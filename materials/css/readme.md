@@ -199,13 +199,10 @@ footer {
 In this example, the CSS styles are used to customize the font, colors, and layout of the website. The body element has a specific font family and background color applied to it, while the header, nav, and footer elements have their own unique styles for background color, text color, and padding. The nav element is customized with a list-style of none, making it easier to style and position the navigation links. Overall, the CSS styles create a cohesive and visually appealing design for the website.
   
 ## Additional Notes
+- [Learning CSS for a beginner](topic-css.md)❤️
 - [Learn CSS](learn-css.md)❤️
 - [Layout Design](layout-design.md)❤️
 - [Free CSS layouts design](free-layout.md) ❤️
-- [Introduction to CSS](https://cs.wellesley.edu/~cs115/readings/CSS1.html)
-- [Fonts and Web Fonts](https://cs.wellesley.edu/~cs110/reading/fonts.html)
-- [Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
-- [Navigational Structures](https://cs.wellesley.edu/~cs110/lectures/WebNavigation/)
 
 ## E-book
 
@@ -213,7 +210,10 @@ In this example, the CSS styles are used to customize the font, colors, and layo
 - [CSS Books](https://freefrontend.com/html-css-books/#css-books)
 
 ## Useful Links
-
+- [Introduction to CSS](https://cs.wellesley.edu/~cs115/readings/CSS1.html)
+- [Fonts and Web Fonts](https://cs.wellesley.edu/~cs110/reading/fonts.html)
+- [Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
+- [Navigational Structures](https://cs.wellesley.edu/~cs110/lectures/WebNavigation/)
 - [CSS Generators](https://www.cssportal.com/css-generators.php)
 - [CSS Tools](https://www.cssportal.com/css-tools.php)
 - [CSS Resources](https://www.cssportal.com/css-resources.php)
