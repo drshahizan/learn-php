@@ -227,8 +227,111 @@ p {
 
 By using CSS to style your text, you can create a visually appealing and readable design for your web page.
 
+### Code:
+
+**styling-text.html**:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Styling Text with CSS</title>
+    <link rel="stylesheet" type="text/css" href="style-text.css" />
+  </head>
+  <body>
+    <h1>Styling Text with CSS</h1>
+    <p class="large">This paragraph has larger font size.</p>
+    <p class="italic">This paragraph is italicized.</p>
+    <p class="underline">This paragraph has underlined text.</p>
+    <p class="uppercase">This paragraph is in uppercase.</p>
+    <p class="blue">This paragraph has blue text color.</p>
+  </body>
+</html>
+```
+**style-test.css**:
+
+```css
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  color: #333;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.large {
+  font-size: 24px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.blue {
+  color: blue;
+}
+
+```
+In this example, we've used CSS to style the heading and paragraph elements on our web page. We've set different font families, font sizes, line heights, and text colors for the elements. We've also used CSS classes to apply specific styles to certain paragraphs, such as larger font size, italicized text, underlined text, uppercase text, and blue text color.
 
 ## 5. CSS positioning and layout techniques
+CSS positioning and layout techniques are used to control the positioning and layout of elements on a web page. Here are some common CSS properties and techniques used for positioning and layout:
+
+1. `position`: specifies the position type of the element (e.g. static, relative, absolute, fixed).
+
+2. `top`, `bottom`, `left`, `right`: specifies the offset position of the element from its parent container or from the browser window, depending on the position type.
+
+3. `display`: specifies the display type of the element (e.g. block, inline, inline-block, flex).
+
+4. `float`: specifies whether the element should be floated to the left or right of its parent container.
+
+5. `clear`: specifies whether the element should clear any floated elements above it.
+
+6. `margin`: specifies the margin space around the element.
+
+7. `padding`: specifies the padding space within the element.
+
+8. `box-sizing`: specifies how the element's width and height should be calculated (e.g. content-box, border-box).
+
+9. `grid`: a layout system that allows you to create complex layouts with rows and columns.
+
+10. `flexbox`: a layout system that allows you to align and distribute elements within a container along a single axis.
+
+To position and layout elements with CSS, you can use the following syntax:
+
+```css
+selector {
+  property: value;
+}
+```
+For example, to position an element with absolute position, you can use:
+
+```css
+.element {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+```
+
+This will position the element 20 pixels from the top of its parent container and horizontally centered within the container.
+
+By using CSS positioning and layout techniques, you can create a wide range of designs and layouts for your web page.
+
 ## 6. Understanding responsive web design with CSS
 ## 7. CSS frameworks like Bootstrap or Foundation
 ## 8. Animations and transitions with CSS
