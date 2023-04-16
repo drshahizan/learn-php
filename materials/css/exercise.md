@@ -31,6 +31,7 @@ CSS exercises can vary in difficulty level, from beginner to advanced, and often
 ## Additional Notes
 - [Learning CSS for a beginner](topic-css.md) ❤️
 - [Learn CSS](learn-css.md) ❤️
+- [CSS Text](css-text.md)
 - [Layout Design](layout-design.md) ❤️
 - [Free CSS layouts design](free-layout.md) ❤️
 
