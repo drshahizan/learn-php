@@ -24,6 +24,65 @@ It's also worth noting that floats were originally designed for use with images 
 
 Finally, it's important to note that while floats are still used in some cases, they are becoming less common in modern web development as newer layout techniques become more widely supported. However, understanding how floats work is still an important part of CSS knowledge.
 
+Sure, here is an example of HTML and CSS code that demonstrates the use of floats to create a multi-column layout:
+
+HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Floats Example</title>
+	<style>
+		.container {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.col {
+			float: left;
+			width: 50%;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		.col img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.clearfix::after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div class="container clearfix">
+		<div class="col">
+			<h2>Column One</h2>
+			<img src="https://via.placeholder.com/300x200.png?text=Column+One" alt="Column One Image">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae purus faucibus, consectetur sapien nec, aliquam urna. Nulla nec pretium leo. Nullam vel diam in tellus dictum fringilla ac sit amet elit. </p>
+		</div>
+		<div class="col">
+			<h2>Column Two</h2>
+			<img src="https://via.placeholder.com/300x200.png?text=Column+Two" alt="Column Two Image">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae purus faucibus, consectetur sapien nec, aliquam urna. Nulla nec pretium leo. Nullam vel diam in tellus dictum fringilla ac sit amet elit. </p>
+		</div>
+	</div>
+</body>
+</html>
+```
+
+In this example, we have a `div` element with a class of "container" that wraps two `div` elements with a class of "col". The "col" class applies the `float: left` property to create two columns that are side-by-side. The `width: 50%` property ensures that each column takes up half of the available width.
+
+Each column contains an `img` element with a maximum width of 100% and a height that adjusts proportionally. This ensures that the images scale appropriately to fit the available space.
+
+To prevent any layout issues caused by the floated elements, we use a clearfix technique on the "container" class. The `::after` pseudo-element is used to add a clear-fix to the container div, which ensures that any content below the floated elements appears below them and does not wrap around them.
+
+Overall, the use of floats in this example allows us to create a multi-column layout that displays content side by side, making better use of the available space on the page. However, it's worth noting that floats have some limitations and alternative layout techniques like CSS Grid and Flexbox may be more suitable for complex layouts.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
