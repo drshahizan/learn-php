@@ -205,12 +205,13 @@ footer {
 ```
   
 In this example, the CSS styles are used to customize the font, colors, and layout of the website. The body element has a specific font family and background color applied to it, while the header, nav, and footer elements have their own unique styles for background color, text color, and padding. The nav element is customized with a list-style of none, making it easier to style and position the navigation links. Overall, the CSS styles create a cohesive and visually appealing design for the website.
-  
-## Additional Notes
-- [Learning CSS for a beginner](topic-css.md)❤️
-- [Learn CSS](learn-css.md)❤️
-- [Layout Design](layout-design.md)❤️
-- [Free CSS layouts design](free-layout.md) ❤️
+
+## Additional Notes ❤️
+- [Learning CSS for a beginner](topic-css.md) 
+- [Learn CSS](learn-css.md) 
+- [CSS Text](css-text.md)
+- [Layout Design](layout-design.md) 
+- [Free CSS layouts design](free-layout.md) 
 
 ## E-book
 
