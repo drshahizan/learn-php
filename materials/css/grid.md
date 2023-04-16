@@ -10,17 +10,17 @@ Don't forget to hit the :star: if you like this repo.
 # Grid
 CSS Grid is a powerful layout system that allows you to create two-dimensional layouts on the web. With CSS Grid, you can create complex, responsive layouts that adjust to different screen sizes and devices with ease. Here are some key features and benefits of CSS Grid:
 
-CSS Grid is a two-dimensional layout system, which means that you can specify both rows and columns. This makes it much more flexible than other layout systems like floats or flexbox.
+- CSS Grid is a two-dimensional layout system, which means that you can specify both rows and columns. This makes it much more flexible than other layout systems like floats or flexbox.
 
-With CSS Grid, you can create grid containers that define the overall layout of your page, as well as grid items that are placed within those containers. You can use a variety of properties to define the size and position of grid items, including grid-template-columns, grid-template-rows, grid-column-start, grid-column-end, grid-row-start, and grid-row-end.
+- With CSS Grid, you can create grid containers that define the overall layout of your page, as well as grid items that are placed within those containers. You can use a variety of properties to define the size and position of grid items, including grid-template-columns, grid-template-rows, grid-column-start, grid-column-end, grid-row-start, and grid-row-end.
 
-CSS Grid allows you to create responsive layouts that adapt to different screen sizes and devices. You can use media queries to adjust your grid layout based on the size of the screen, and you can also use auto-fit and auto-fill to automatically adjust the number of columns in your grid based on available space.
+- CSS Grid allows you to create responsive layouts that adapt to different screen sizes and devices. You can use media queries to adjust your grid layout based on the size of the screen, and you can also use auto-fit and auto-fill to automatically adjust the number of columns in your grid based on available space.
 
-CSS Grid offers a high degree of control over your layout, which means that you can create complex designs with ease. For example, you can create overlapping grid items, create asymmetrical layouts, and even create layouts with irregular shapes.
+- CSS Grid offers a high degree of control over your layout, which means that you can create complex designs with ease. For example, you can create overlapping grid items, create asymmetrical layouts, and even create layouts with irregular shapes.
 
-CSS Grid is supported in all major browsers, including Chrome, Firefox, Safari, and Edge. However, it's worth noting that some older browsers do not support CSS Grid, so you may need to provide fallbacks or alternative layouts for those users.
+- CSS Grid is supported in all major browsers, including Chrome, Firefox, Safari, and Edge. However, it's worth noting that some older browsers do not support CSS Grid, so you may need to provide fallbacks or alternative layouts for those users.
 
-Finally, CSS Grid is a relatively new technology, and it can take some time to learn and master. However, it's a powerful tool for creating flexible, responsive layouts on the web, and it's becoming an increasingly important part of modern web development.
+-CSS Grid is a relatively new technology, and it can take some time to learn and master. However, it's a powerful tool for creating flexible, responsive layouts on the web, and it's becoming an increasingly important part of modern web development.
 
 
 ## Code : CSS Grid
