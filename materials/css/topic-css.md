@@ -458,6 +458,7 @@ This code creates a simple layout with a header, navigation bar, two columns of 
 The `left-column` and `right-column` elements are given a flex value of 1, causing them to share the available space equally. They are also given a margin-right value of 20px to create some space between them.
 
 Overall, this code demonstrates some of the basic techniques used in CSS positioning and layout, including block-level layout, flexbox layout, and margin and padding.
+
 ## 6. Understanding responsive web design with CSS
 Responsive web design (RWD) is an approach to designing websites that aims to provide an optimal viewing and user experience across a wide range of devices, from desktop computers to mobile phones. CSS plays a key role in RWD by providing the ability to adjust the layout and styling of a website based on the screen size of the device being used.
 
@@ -490,6 +491,178 @@ To create a responsive website with CSS, you can use media queries to adjust the
 ```
 
 This code adjusts the font size to 14 pixels for screen sizes up to 768 pixels wide, and then adjusts it to 16 pixels for larger screen sizes. By using CSS to design a responsive website, you can create a user-friendly experience for visitors on any device.
+
+### Code:
+
+**responsive.html**:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Web Design Example</title>
+    <link rel="stylesheet" href="css/style-responsive.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Welcome to My Website!</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit
+          amet quam in diam fringilla commodo. Fusce commodo sagittis metus, ut
+          fermentum orci bibendum ac. Nulla facilisi. Sed ullamcorper, quam ut
+          pellentesque aliquam, enim leo pretium nisi, vitae varius nibh dolor
+          et ipsum.
+        </p>
+      </section>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          Nulla a metus sagittis, suscipit lorem in, suscipit augue. Nullam
+          lacinia faucibus turpis non blandit. Morbi congue dapibus tristique.
+          Praesent in diam eu libero accumsan vestibulum sed quis orci. Sed
+          facilisis libero vel risus ullamcorper, eget elementum nisl iaculis.
+          Sed vehicula est quis sapien ullamcorper aliquam.
+        </p>
+      </section>
+      <section>
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br />
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+
+```
+**style-responsive.css**:
+```css
+/* Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Styles */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  width: 100%;
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  nav li {
+    margin: 10px 0;
+  }
+
+  form label {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  input,
+  textarea {
+    max-width: 100%;
+  }
+}
+
+```
 
 ## 7. CSS frameworks like Bootstrap or Foundation
 CSS frameworks like Bootstrap or Foundation are pre-written CSS code libraries that provide a collection of CSS and JavaScript files with pre-defined styles, components, and layouts. These frameworks are designed to simplify the process of building responsive and modern web applications by providing pre-designed templates, reusable UI components, and layout grids.
