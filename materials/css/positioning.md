@@ -27,19 +27,20 @@ CSS positioning is a powerful tool for creating precise and complex layouts on t
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>CSS Positioning Example</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<div class="container">
-		<div class="box1">Box 1</div>
-		<div class="box2">Box 2</div>
-		<div class="box3">Box 3</div>
-		<div class="box4">Box 4</div>
-	</div>
-</body>
+  <head>
+    <title>CSS Positioning Example</title>
+    <link rel="stylesheet" href="css/style-positioning.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">Box 1</div>
+      <div class="box2">Box 2</div>
+      <div class="box3">Box 3</div>
+      <div class="box4">Box 4</div>
+    </div>
+  </body>
 </html>
+
 ```
 **CSS Code: style-positioning.css**
 
@@ -47,48 +48,49 @@ CSS Code:
 
 ```css
 .container {
-	position: relative;
-	width: 600px;
-	height: 400px;
-	border: 1px solid black;
+  position: relative;
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
 }
 
 .box1 {
-	position: absolute;
-	top: 20px;
-	left: 20px;
-	width: 100px;
-	height: 100px;
-	background-color: red;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
 
 .box2 {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-	width: 150px;
-	height: 150px;
-	background-color: blue;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 150px;
+  height: 150px;
+  background-color: blue;
 }
 
 .box3 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 200px;
-	height: 100px;
-	background-color: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 100px;
+  background-color: green;
 }
 
 .box4 {
-	position: fixed;
-	top: 20px;
-	right: 20px;
-	width: 100px;
-	height: 100px;
-	background-color: yellow;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
 }
+
 ```
 
 In this example, we have a container element with a border, and four different boxes inside it. Each box has a different position and size, using one of the four different types of positioning in CSS.
