@@ -22,11 +22,11 @@ CSS Flexbox is a relatively simple and easy-to-learn technology, making it a gre
 
 Overall, CSS Flexbox is a powerful and flexible tool for creating layouts on the web, and it's an important part of modern web development.
 
-CSS Flexbox:
+## Code : CSS Flexbox
 
-HTML Code:
+**HTML Code: flexbox.html**
 
-```php
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,7 +46,7 @@ HTML Code:
 </html>
 ```
 
-CSS Code:
+**CSS Code: style-flexbox.css**
 
 ```css
 
@@ -66,11 +66,12 @@ CSS Code:
 	flex-basis: calc(33.33% - 20px);
 }
 ```
+
 This code will create a flex container with 6 flex items, arranged in a row that wraps onto multiple lines when there's not enough space. The flex items themselves will have a gray background, white text, and a 20px padding on all sides.
 
-In this example, we're using the display: flex property to create a flex container, and the flex-wrap: wrap property to allow the items to wrap onto multiple lines when there's not enough space. We're also using the justify-content: center and align-items: center properties to center the items both horizontally and vertically within the container.
+In this example, we're using the `display: flex` property to create a flex container, and the `flex-wrap: wrap` property to allow the items to wrap onto multiple lines when there's not enough space. We're also using the `justify-content: center` and `align-items: center` properties to center the items both horizontally and vertically within the container.
 
-To control the size of the flex items, we're using the flex-basis property to specify the initial size of each item, and the calc() function to subtract the margin from the width of each item. This ensures that there's enough space between the items, while still allowing them to fill the available space in the container.
+To control the size of the flex items, we're using the `flex-basis` property to specify the initial size of each item, and the `calc()` function to subtract the margin from the width of each item. This ensures that there's enough space between the items, while still allowing them to fill the available space in the container.
 
 Overall, CSS Flexbox is a powerful and flexible tool for creating layouts on the web, and it can be used to create everything from simple rows or columns to complex, multi-dimensional layouts.
 
