@@ -683,7 +683,7 @@ Bootstrap is one of the most popular CSS frameworks available today. It includes
 
 To use a CSS framework like Bootstrap, you can download the CSS and JavaScript files and link them to your HTML document. Then, you can use the pre-designed styles and components provided by the framework to build your website or web application. For example, you can use the following code to add a Bootstrap navigation menu to your website:
 
-```php
+```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">My Website</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -710,7 +710,7 @@ This code adds a responsive navigation menu to your website that collapses into 
 ## 8. Animations and transitions with CSS
 Animations and transitions with CSS allow developers to add dynamic effects and movement to their web pages. CSS animations involve changing the style of an element over a period of time, while transitions involve smoothly transitioning an element from one state to another.
 
-CSS animations can be created using the @keyframes rule, which defines the animation's sequence of keyframes. Each keyframe specifies the style of the element at a specific point in time during the animation. The animation property is then used to apply the animation to an element, specifying the animation name, duration, timing function, delay, and other options.
+CSS animations can be created using the `@keyframes` rule, which defines the animation's sequence of keyframes. Each keyframe specifies the style of the element at a specific point in time during the animation. The animation property is then used to apply the animation to an element, specifying the animation name, duration, timing function, delay, and other options.
 
 Here is an example of a simple CSS animation that rotates a square element:
 
@@ -737,7 +737,7 @@ Here is an example of a simple CSS animation that rotates a square element:
 
 This code defines an animation called "rotate" that rotates the square element 360 degrees over a period of 2 seconds. The animation-iteration-count property is set to "infinite" to make the animation repeat indefinitely.
 
-CSS transitions, on the other hand, involve smoothly transitioning an element from one state to another. Transitions can be applied to any CSS property, such as color, background-color, opacity, or transform. The transition property is used to apply a transition to an element, specifying the property to transition, duration, timing function, and other options.
+CSS transitions, on the other hand, involve smoothly transitioning an element from one state to another. Transitions can be applied to any CSS property, such as `color`, `background-color`, `opacity`, or `transform`. The transition property is used to apply a transition to an element, specifying the property to transition, duration, timing function, and other options.
 
 Here is an example of a simple CSS transition that changes the background color of a button element when it is hovered over:
 
@@ -753,9 +753,59 @@ button:hover {
 }
 ```
 
-This code applies a transition to the background-color property of the button element, making the color change smoothly over a period of 0.5 seconds when the button is hovered over.
+This code applies a transition to the `background-color` property of the button element, making the color change smoothly over a period of 0.5 seconds when the button is hovered over.
 
 Animations and transitions with CSS can be used to add visual interest and interactivity to web pages, enhancing the user experience and making web content more engaging.
+
+### Code:
+
+**animation.html**:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animations and Transitions with CSS</title>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f2f2f2;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        background-color: #0077b6;
+        border-radius: 5px;
+        animation: box 2s ease-in-out infinite alternate;
+        transition: transform 0.5s ease-out;
+        cursor: pointer;
+      }
+      .box:hover {
+        transform: scale(1.2);
+      }
+      @keyframes box {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(200px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
+```
 
 ## 9. Debugging CSS with browser developer tools
 Debugging CSS with browser developer tools refers to the process of using the built-in developer tools in your web browser to identify and fix issues with your CSS code. Here's how you can use browser developer tools to debug your CSS:
