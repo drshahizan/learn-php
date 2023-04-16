@@ -30,40 +30,41 @@ Finally, CSS Grid is a relatively new technology, and it can take some time to l
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>CSS Grid Example</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<div class="grid-container">
-		<div class="grid-item">1</div>
-		<div class="grid-item">2</div>
-		<div class="grid-item">3</div>
-		<div class="grid-item">4</div>
-		<div class="grid-item">5</div>
-		<div class="grid-item">6</div>
-		<div class="grid-item">7</div>
-		<div class="grid-item">8</div>
-		<div class="grid-item">9</div>
-	</div>
-</body>
+  <head>
+    <title>CSS Grid Example</title>
+    <link rel="stylesheet" href="css/style-grid.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+      <div class="grid-item">9</div>
+    </div>
+  </body>
 </html>
+
 ```
 
 **CSS Code: style-grid.css**:
 
 ```css
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 
 .grid-item {
-	background-color: #ccc;
-	padding: 20px;
-	font-size: 30px;
-	text-align: center;
+  background-color: #ccc;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 ```
 This code will create a grid container with 3 columns and 3 rows, with a 10px gap between each grid item. The grid items themselves will have a gray background, white text, and a 20px padding on all sides.
