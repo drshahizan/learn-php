@@ -12,9 +12,9 @@ CSS Grid is a powerful layout system that allows you to create two-dimensional l
 
 - CSS Grid is a two-dimensional layout system, which means that you can specify both rows and columns. This makes it much more flexible than other layout systems like floats or flexbox.
 
-- With CSS Grid, you can create grid containers that define the overall layout of your page, as well as grid items that are placed within those containers. You can use a variety of properties to define the size and position of grid items, including grid-template-columns, grid-template-rows, grid-column-start, grid-column-end, grid-row-start, and grid-row-end.
+- With CSS Grid, you can create grid containers that define the overall layout of your page, as well as grid items that are placed within those containers. You can use a variety of properties to define the size and position of grid items, including `grid-template-columns`, `grid-template-rows`, `grid-column-start`, `grid-column-end`, `grid-row-start`, and `grid-row-end`.
 
-- CSS Grid allows you to create responsive layouts that adapt to different screen sizes and devices. You can use media queries to adjust your grid layout based on the size of the screen, and you can also use auto-fit and auto-fill to automatically adjust the number of columns in your grid based on available space.
+- CSS Grid allows you to create responsive layouts that adapt to different screen sizes and devices. You can use media queries to adjust your grid layout based on the size of the screen, and you can also use `auto-fit` and `auto-fill` to automatically adjust the number of columns in your grid based on available space.
 
 - CSS Grid offers a high degree of control over your layout, which means that you can create complex designs with ease. For example, you can create overlapping grid items, create asymmetrical layouts, and even create layouts with irregular shapes.
 
@@ -69,7 +69,7 @@ CSS Grid is a powerful layout system that allows you to create two-dimensional l
 ```
 This code will create a grid container with 3 columns and 3 rows, with a 10px gap between each grid item. The grid items themselves will have a gray background, white text, and a 20px padding on all sides.
 
-In this example, we're using the grid-template-columns property to specify the size of each column in the grid. The repeat function allows us to repeat a pattern multiple times, so repeat(3, 1fr) will create 3 columns, each with a width of 1 fraction of the available space. We're also using the grid-gap property to add a 10px gap between each grid item.
+In this example, we're using the `grid-template-columns` property to specify the size of each column in the grid. The `repeat` function allows us to repeat a pattern multiple times, so `repeat(3, 1fr)` will create 3 columns, each with a width of 1 fraction of the available space. We're also using the `grid-gap` property to add a 10px gap between each grid item.
 
 Overall, CSS Grid provides a powerful and flexible way to create layouts on the web, and it can be used to create everything from simple grids to complex, multi-dimensional layouts.
 
