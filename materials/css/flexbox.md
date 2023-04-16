@@ -26,8 +26,7 @@ CSS Flexbox:
 
 HTML Code:
 
-php
-Copy code
+```php
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,10 +44,12 @@ Copy code
 	</div>
 </body>
 </html>
+```
+
 CSS Code:
 
-css
-Copy code
+```css
+
 .flex-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -64,6 +65,7 @@ Copy code
 	margin: 10px;
 	flex-basis: calc(33.33% - 20px);
 }
+```
 This code will create a flex container with 6 flex items, arranged in a row that wraps onto multiple lines when there's not enough space. The flex items themselves will have a gray background, white text, and a 20px padding on all sides.
 
 In this example, we're using the display: flex property to create a flex container, and the flex-wrap: wrap property to allow the items to wrap onto multiple lines when there's not enough space. We're also using the justify-content: center and align-items: center properties to center the items both horizontally and vertically within the container.
