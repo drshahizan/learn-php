@@ -29,21 +29,22 @@ Overall, CSS Flexbox is a powerful and flexible tool for creating layouts on the
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>CSS Flexbox Example</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<div class="flex-container">
-		<div class="flex-item">1</div>
-		<div class="flex-item">2</div>
-		<div class="flex-item">3</div>
-		<div class="flex-item">4</div>
-		<div class="flex-item">5</div>
-		<div class="flex-item">6</div>
-	</div>
-</body>
+  <head>
+    <title>CSS Flexbox Example</title>
+    <link rel="stylesheet" href="css/style-flexbox.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <div class="flex-item">5</div>
+      <div class="flex-item">6</div>
+    </div>
+  </body>
 </html>
+
 ```
 
 **CSS Code: style-flexbox.css**
@@ -51,19 +52,19 @@ Overall, CSS Flexbox is a powerful and flexible tool for creating layouts on the
 ```css
 
 .flex-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-item {
-	background-color: #ccc;
-	padding: 20px;
-	font-size: 30px;
-	text-align: center;
-	margin: 10px;
-	flex-basis: calc(33.33% - 20px);
+  background-color: #ccc;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  flex-basis: calc(33.33% - 20px);
 }
 ```
 
