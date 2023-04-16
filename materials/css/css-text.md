@@ -32,6 +32,62 @@ Most commonly used CSS text properties:
 
 These are just a few of the many CSS Text properties available for controlling the presentation of text on a web page.
 
+## Code
+
+**HTML: format-text.html**
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Text Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+      }
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      p {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        line-height: 1.2;
+        word-spacing: 3px;
+      }
+      span {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>
+      This is an example of how to use CSS text properties. You can adjust the
+      <span>font-size</span>, <span>font-family</span>,
+      <span>font-weight</span>, <span>line-height</span>,
+      <span>text-align</span>, <span>text-decoration</span>,
+      <span>text-transform</span>, <span>letter-spacing</span>, and
+      <span>word-spacing</span> of your text to make it look exactly how you
+      want.
+    </p>
+  </body>
+</html>
+```
+
+In this example, the CSS code controls the font family, font size, line height, text alignment, text decoration, and text transformation of the heading and paragraph elements. It also styles links and a span element with custom colors and font sizes. The code is embedded within the HTML document using the style tag.
+
+You can save this code as a .html file and open it in a web browser to see how the text is formatted.
+
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
