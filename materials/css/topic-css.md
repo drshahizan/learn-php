@@ -138,13 +138,13 @@ Understanding the box model is important for creating layouts on a web page. By 
 
 Layout refers to the way that elements are arranged on a web page. There are several techniques for creating layouts in CSS, including:
 
-1. **Floats**: Floats allow elements to be placed side by side, with text flowing around them. Floats are commonly used for creating multi-column layouts.
+1. **[Floats](float.md)**: Floats allow elements to be placed side by side, with text flowing around them. Floats are commonly used for creating multi-column layouts.
 
-2. **Flexbox**: Flexbox is a layout mode that allows you to align and distribute elements within a container. It's ideal for creating responsive layouts that adapt to different screen sizes.
+2. **[Flexbox](flexbox.md)**: Flexbox is a layout mode that allows you to align and distribute elements within a container. It's ideal for creating responsive layouts that adapt to different screen sizes.
 
-3. **Grid**: CSS grid is a powerful layout system that allows you to create complex, multi-dimensional layouts. It's particularly useful for creating page layouts with multiple columns and rows.
+3. **[Grid](grid.md)**: CSS grid is a powerful layout system that allows you to create complex, multi-dimensional layouts. It's particularly useful for creating page layouts with multiple columns and rows.
 
-4. **Positioning**: Absolute and relative positioning can be used to place elements precisely on a page, regardless of their normal flow.
+4. **[Positioning](positioning.md)**: Absolute and relative positioning can be used to place elements precisely on a page, regardless of their normal flow.
 
 By combining these layout techniques with the CSS box model, you can create sophisticated and responsive layouts that work well on all devices.
 
