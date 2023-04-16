@@ -25,7 +25,7 @@ Finally, CSS Grid is a relatively new technology, and it can take some time to l
 
 ## Code : CSS Grid
 
-HTML Code:
+**HTML Code: grid.html**
 
 ```html
 <!DOCTYPE html>
@@ -50,10 +50,9 @@ HTML Code:
 </html>
 ```
 
-CSS Code:
+**CSS Code: style-grid.css**:
 
 ```css
-Copy code
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
