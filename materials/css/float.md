@@ -24,55 +24,72 @@ It's also worth noting that floats were originally designed for use with images 
 
 Finally, it's important to note that while floats are still used in some cases, they are becoming less common in modern web development as newer layout techniques become more widely supported. However, understanding how floats work is still an important part of CSS knowledge.
 
-Sure, here is an example of HTML and CSS code that demonstrates the use of floats to create a multi-column layout:
+## Code: The use of floats to create a multi-column layout
 
-HTML:
+**HTML: floats.html**
 
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Floats Example</title>
-	<style>
-		.container {
-			width: 80%;
-			margin: 0 auto;
-		}
+  <head>
+    <title>Floats Example</title>
+    <style>
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
 
-		.col {
-			float: left;
-			width: 50%;
-			padding: 20px;
-			box-sizing: border-box;
-		}
+      .col {
+        float: left;
+        width: 50%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
 
-		.col img {
-			max-width: 100%;
-			height: auto;
-		}
+      .col img {
+        max-width: 100%;
+        height: auto;
+      }
 
-		.clearfix::after {
-			content: "";
-			display: table;
-			clear: both;
-		}
-	</style>
-</head>
-<body>
-	<div class="container clearfix">
-		<div class="col">
-			<h2>Column One</h2>
-			<img src="https://via.placeholder.com/300x200.png?text=Column+One" alt="Column One Image">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae purus faucibus, consectetur sapien nec, aliquam urna. Nulla nec pretium leo. Nullam vel diam in tellus dictum fringilla ac sit amet elit. </p>
-		</div>
-		<div class="col">
-			<h2>Column Two</h2>
-			<img src="https://via.placeholder.com/300x200.png?text=Column+Two" alt="Column Two Image">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae purus faucibus, consectetur sapien nec, aliquam urna. Nulla nec pretium leo. Nullam vel diam in tellus dictum fringilla ac sit amet elit. </p>
-		</div>
-	</div>
-</body>
+      .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container clearfix">
+      <div class="col">
+        <h2>Column One</h2>
+        <img
+          src="https://via.placeholder.com/300x200.png?text=Column+One"
+          alt="Column One Image"
+        />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae
+          purus faucibus, consectetur sapien nec, aliquam urna. Nulla nec
+          pretium leo. Nullam vel diam in tellus dictum fringilla ac sit amet
+          elit.
+        </p>
+      </div>
+      <div class="col">
+        <h2>Column Two</h2>
+        <img
+          src="https://via.placeholder.com/300x200.png?text=Column+Two"
+          alt="Column Two Image"
+        />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae
+          purus faucibus, consectetur sapien nec, aliquam urna. Nulla nec
+          pretium leo. Nullam vel diam in tellus dictum fringilla ac sit amet
+          elit.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
+
 ```
 
 In this example, we have a `div` element with a class of "container" that wraps two `div` elements with a class of "col". The "col" class applies the `float: left` property to create two columns that are side-by-side. The `width: 50%` property ensures that each column takes up half of the available width.
