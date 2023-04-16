@@ -155,30 +155,30 @@ By combining these layout techniques with the CSS box model, you can create soph
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>CSS Box Model Example</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-	<div class="box">
-		<p class="content">This is the content of the box.</p>
-	</div>
-</body>
+  <head>
+    <title>CSS Box Model Example</title>
+    <link rel="stylesheet" type="text/css" href="style-box.css" />
+  </head>
+  <body>
+    <div class="box">
+      <p class="content">This is the content of the box.</p>
+    </div>
+  </body>
 </html>
 ```
 **style-box.css**:
 
 ```css
 .box {
-	width: 400px;
-	height: 200px;
-	padding: 20px;
-	border: 2px solid black;
-	margin: 50px;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 50px;
 }
 
 .content {
-	font-size: 24px;
+  font-size: 24px;
 }
 ```
 
