@@ -87,7 +87,7 @@ In this example, the CSS code controls the font family, font size, line height, 
 
 
 **HTML: format-text1.html**
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
