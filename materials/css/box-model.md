@@ -65,11 +65,11 @@ Understanding the CSS Box Model is essential for creating visually appealing and
 }
 ```
 
-In this example, we've created an HTML page with a div element that contains a paragraph of text. We've linked to an external stylesheet called style.css, where we've defined the styles for the div element.
+In this example, we've created an HTML page with a `div` element that contains a paragraph of text. We've linked to an external stylesheet called `style.css`, where we've defined the styles for the `div` element.
 
-In the CSS code, we've set the width and height of the div element to 300px and 150px, respectively. We've also added padding of 20px to the content layer, a border of 5px that is solid and black, and a margin of 50px around the element. We've also set the background-color of the content layer to lightblue.
+In the CSS code, we've set the `width` and `height` of the `div` element to `300px` and `150px`, respectively. We've also added `padding` of `20px` to the content layer, a `border` of `5px` that is `solid` and `black`, and a `margin` of `50px` around the element. We've also set the background-color of the content layer to `lightblue`.
 
-By adjusting the values of the padding, border, and margin properties, we can control the layout and spacing of the div element and create various visual effects using the CSS Box Model.
+By adjusting the values of the `padding`, `border`, and `margin` properties, we can control the layout and spacing of the `div` element and create various visual effects using the CSS Box Model.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
