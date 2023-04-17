@@ -40,29 +40,28 @@ Understanding the CSS Box Model is essential for creating visually appealing and
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>CSS Box Model Example</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="box">
-		<p>This is an example of the CSS Box Model.</p>
-	</div>
-</body>
+  <head>
+    <title>CSS Box Model Example</title>
+    <link rel="stylesheet" type="text/css" href="css/style-box-model.css" />
+  </head>
+  <body>
+    <div class="box">
+      <p>This is an example of the CSS Box Model.</p>
+    </div>
+  </body>
 </html>
 ```
 
 **CSS: style-box-model.css**
 
 ```css
-
 .box {
-	width: 300px;
-	height: 150px;
-	padding: 20px;
-	border: 5px solid black;
-	margin: 50px;
-	background-color: lightblue;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 50px;
+  background-color: lightblue;
 }
 ```
 
