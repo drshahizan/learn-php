@@ -82,67 +82,71 @@ Demonstrates various uses of the CSS Box Model, including sizing elements, addin
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>CSS Box Model Example</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<h1>CSS Box Model Example</h1>
-	<div class="box">
-		<h2>Box 1</h2>
-		<p>This box is sized using the CSS Box Model.</p>
-	</div>
-	<div class="box2">
-		<h2>Box 2</h2>
-		<p>This box has spacing added using the CSS Box Model.</p>
-	</div>
-	<div class="box3">
-		<h2>Box 3</h2>
-		<p>This box has a border created using the CSS Box Model.</p>
-	</div>
-	<div class="box4">
-		<h2>Box 4</h2>
-		<p>This box has a background color and image set using the CSS Box Model.</p>
-	</div>
-</body>
+  <head>
+    <title>CSS Box Model Example</title>
+    <link rel="stylesheet" type="text/css" href="css/style-box-model2.css" />
+  </head>
+  <body>
+    <h1>CSS Box Model Example</h1>
+    <div class="box">
+      <h2>Box 1</h2>
+      <p>This box is sized using the CSS Box Model.</p>
+    </div>
+    <div class="box2">
+      <h2>Box 2</h2>
+      <p>This box has spacing added using the CSS Box Model.</p>
+    </div>
+    <div class="box3">
+      <h2>Box 3</h2>
+      <p>This box has a border created using the CSS Box Model.</p>
+    </div>
+    <div class="box4">
+      <h2>Box 4</h2>
+      <p>
+        This box has a background color and image set using the CSS Box Model.
+      </p>
+    </div>
+  </body>
 </html>
+
 ```
 
 **CSS: style-box-model1.css**
 
 ```css
 .box {
-	width: 300px;
-	height: 150px;
-	padding: 20px;
-	background-color: lightblue;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  background-color: lightblue;
 }
 
 .box2 {
-	width: 300px;
-	height: 150px;
-	padding: 50px;
-	margin: 20px;
-	background-color: white;
+  width: 300px;
+  height: 150px;
+  padding: 50px;
+  margin: 20px;
+  background-color: white;
 }
 
 .box3 {
-	width: 300px;
-	height: 150px;
-	padding: 20px;
-	border: 5px solid black;
-	margin: 20px;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 20px;
 }
 
 .box4 {
-	width: 300px;
-	height: 150px;
-	padding: 20px;
-	margin: 20px;
-	background-color: lightblue;
-	background-image: url('example-image.jpg');
-	background-size: cover;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightblue;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/81/UTM-LOGO.png");
+  background-size: cover;
 }
+
 ```
 
 In this example, we've created an HTML page with four div elements that contain headings and paragraphs of text. We've linked to an external stylesheet called style.css, where we've defined the styles for each of the div elements.
