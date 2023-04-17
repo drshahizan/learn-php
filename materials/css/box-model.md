@@ -151,15 +151,15 @@ Demonstrates various uses of the CSS Box Model, including sizing elements, addin
 
 In this example, we've created an HTML page with four div elements that contain headings and paragraphs of text. We've linked to an external stylesheet called style.css, where we've defined the styles for each of the div elements.
 
-For box 1, we've set the width and height of the div element to 300px and 150px, respectively. We've also added padding of 20px to the content layer, and set a background-color of lightblue.
+For `box 1`, we've set the `width` and `height` of the `div` element to `300px` and `150px`, respectively. We've also added `padding` of `20px` to the content layer, and set a `background-color` of `lightblue`.
 
-For box 2, we've added more padding of 50px to the content layer, and added a margin of 20px around the element. We've also set a background-color of white.
+For `box 2`, we've added more `padding` of `50px` to the content layer, and added a margin of 20px around the element. We've also set a background-color of white.
 
-For box 3, we've added a border of 5px that is solid and black, and a margin of 20px around the element.
+For `box 3`, we've added a `border` of 5px that is solid and black, and a margin of 20px around the element.
 
-For box 4, we've set a background-color of lightblue, and added a background-image of example-image.jpg, which is a background image file that is located in the same directory as the HTML file. We've also set the background-size property to cover to ensure that the image fills the content layer of the element.
+For `box 4`, we've set a `background-color` of `lightblue`, and added a `background-image` of example-image.jpg, which is a background image file that is located in the same directory as the HTML file. We've also set the background-size property to cover to ensure that the image fills the content layer of the element.
 
-By adjusting the values of the padding, border, and margin properties, we can control the layout and spacing of the div elements and create various visual effects using the CSS Box Model.
+By adjusting the values of the `padding`, `border`, and `margin` properties, we can control the layout and spacing of the div elements and create various visual effects using the CSS Box Model.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
