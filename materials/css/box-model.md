@@ -72,9 +72,10 @@ In the CSS code, we've set the `width` and `height` of the `div` element to `300
 By adjusting the values of the `padding`, `border`, and `margin` properties, we can control the layout and spacing of the `div` element and create various visual effects using the CSS Box Model.
 
 
-Sure, here's an example of HTML and CSS code that demonstrates various uses of the CSS Box Model, including sizing elements, adding spacing, creating borders, and setting background colors and images:
+An example of HTML and CSS code that demonstrates various uses of the CSS Box Model, including sizing elements, adding spacing, creating borders, and setting background colors and images:
 
-## Code 1: 
+## Code 2: 
+Demonstrates various uses of the CSS Box Model, including sizing elements, adding spacing, creating borders, and setting background colors and images
 
 **HTML: box-model1.html**
 
