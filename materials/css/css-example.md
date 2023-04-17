@@ -14,7 +14,7 @@ CSS (Cascading Style Sheets) is an essential programming language used to define
 
 | No | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 1 | Effects | Animation |<a href="https://freefrontend.com/css-animation-examples/" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 1 | Effects | 95 CSS Animation |<a href="https://freefrontend.com/css-animation-examples/" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 2 | CSS | Text and Box Model |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab12" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
 | 3 | CSS | Layout (Mock & Style) |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab13" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 4 | CSS | Website Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab14" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
