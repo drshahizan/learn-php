@@ -22,3 +22,11 @@ Responsive design: With the increasing number of users accessing the web on mobi
 Animations and Transitions: CSS also provides a range of properties and values that allow you to create animations and transitions, adding interactivity and visual interest to your web pages.
 
 By focusing on these essential modules of CSS, you can gain a solid understanding of the language and start creating beautiful, responsive, and user-friendly web pages.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+
