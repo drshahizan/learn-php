@@ -13,7 +13,7 @@ If you want to learn CSS, it's important to understand the fundamentals of the l
 
 2. **Box Model**: The CSS Box Model is an essential concept that defines how an HTML element is displayed on a webpage. It includes the content area, padding, border, and margin.
 
-3. **Layout**: Understanding layout is essential to designing web pages that look good on different devices and screen sizes. CSS has several modules that deal with layout, including Flexbox, Grid, and Float.
+3. **[Layout](layout-design.md)**: Understanding layout is essential to designing web pages that look good on different devices and screen sizes. CSS has several modules that deal with layout, including Flexbox, Grid, and Float.
 
 4. **Typography**: CSS provides a wide range of typographic properties that can be used to style text, including font-family, font-size, line-height, text-align, and text-decoration.
 
