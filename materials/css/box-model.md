@@ -6,22 +6,15 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
 
 Don't forget to hit the :star: if you like this repo.
+# CSS Box Model 
 
-If you want to learn CSS, it's important to understand the fundamentals of the language, including its syntax, selectors, properties, and values. Here are some of the essential modules in CSS that you should focus on:
+The CSS Box Model is a fundamental concept in CSS that defines the layout and sizing of HTML elements on a web page. The box model consists of four layers: content, padding, border, and margin, which together determine the total size of an element.
 
-1. **Selectors**: The selector is the part of the CSS code that targets the specific element or group of elements that you want to style. There are many different types of selectors in CSS, including class, ID, tag, attribute, and pseudo-class selectors.
+The content layer is the area within the element that contains the text or other content. The padding layer is the space between the content and the border, which can be used to add extra space around the content. The border layer is the line that surrounds the padding and content and can be styled with various colors, thicknesses, and styles. Finally, the margin layer is the space between the border of the element and the neighboring elements.
 
-2. **Box Model**: The CSS Box Model is an essential concept that defines how an HTML element is displayed on a webpage. It includes the content area, padding, border, and margin.
+In the box model, the width and height of an element are calculated based on the sum of the content, padding, and border layers. For example, if you set the width of an element to 200 pixels and add 10 pixels of padding and a 2-pixel border, the total width of the element will be 224 pixels.
 
-3. **[Layout](layout-design.md)**: Understanding layout is essential to designing web pages that look good on different devices and screen sizes. CSS has several modules that deal with layout, including Flexbox, Grid, and Float.
-
-4. **Typography**: CSS provides a wide range of typographic properties that can be used to style text, including font-family, font-size, line-height, text-align, and text-decoration.
-
-5. **Responsive design**: With the increasing number of users accessing the web on mobile devices, it's essential to learn how to create responsive designs that adapt to different screen sizes. CSS has several modules that help with responsive design, including Media Queries and Viewport units.
-
-6. **Animations and Transitions**: CSS also provides a range of properties and values that allow you to create animations and transitions, adding interactivity and visual interest to your web pages.
-
-By focusing on these essential modules of CSS, you can gain a solid understanding of the language and start creating beautiful, responsive, and user-friendly web pages.
+The box model is an essential concept in web design, as it allows designers to control the layout and spacing of elements on a web page. By manipulating the content, padding, border, and margin layers, designers can create a wide range of layouts and styles, from simple text boxes to complex, multi-column designs. Understanding the box model is essential for creating visually appealing and user-friendly web pages.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
