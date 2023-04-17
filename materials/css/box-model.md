@@ -50,8 +50,9 @@ Understanding the CSS Box Model is essential for creating visually appealing and
 	</div>
 </body>
 </html>
+```
 
-CSS: style-box-model.css
+**CSS: style-box-model.css**
 
 ```css
 
