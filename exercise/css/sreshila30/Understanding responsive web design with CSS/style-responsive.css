@@ -1,15 +1,16 @@
+/* Base Styles */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
   }
   
   /* Header Styles */
   header {
-    background-color: #a34d4d;
-    color: #000000;
+    background-color: #d64949;
+    color: #cf9b9b;
   }
   
   nav ul {
@@ -27,7 +28,7 @@ body {
   }
   
   nav a {
-    color: #791010;
+    color: #0ddf99;
     text-decoration: none;
   }
   
@@ -67,20 +68,20 @@ body {
     max-width: 400px;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 7px;
+    border-radius: 5px;
     border: none;
-    background-color: #160303;
+    background-color: #f3ecec;
   }
   
   input[type="submit"] {
-    background-color: #ad6b6b;
-    color: #e9dcdc;
+    background-color: #3f1919;
+    color: #7ed3da;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   input[type="submit"]:hover {
-    background-color: #1181e9;
+    background-color: #da4242;
   }
   
   /* Responsive Styles */
