@@ -19,15 +19,15 @@ JavaScript has evolved over the years to become a highly versatile and powerful 
 | Step | Topic | Description |
 | :---: | --- | --- |
 | 1 | [Variables and Data Types](mod01/01-variable.md) | Learn about the different types of data that can be used in JavaScript, and how to store and manipulate them using variables. |
-| 2 | Operators and Expressions | Explore the various operators that can be used to perform operations on variables and values, as well as how to write expressions that combine these operators. |
-| 3 | Control Structures | Learn about control structures such as if/else statements and loops, which allow you to control the flow of your code based on conditions and iterations. |
-| 4 | Functions | Discover how to write and call functions, which allow you to group blocks of code together and reuse them throughout your program. |
-| 5 | Arrays | Learn about arrays, which allow you to store and manipulate lists of values, and how to use them in combination with loops and other control structures. |
-| 6 | Objects | Explore objects, which allow you to group related variables and functions together into a single entity, and how to create and manipulate them in JavaScript. |
-| 7 | DOM Manipulation | Learn about the Document Object Model (DOM), which represents the structure and content of a web page in JavaScript, and how to use JavaScript to manipulate and interact with it. |
-| 8 | Events | Discover how to handle events in JavaScript, which allow you to respond to user actions such as clicks and key presses. |
-| 9 | AJAX and APIs | Learn about Asynchronous JavaScript and XML (AJAX) and how to use it to fetch data from remote servers and APIs, as well as how to work with JSON data. |
-| 10 | Libraries and Frameworks | Explore popular JavaScript libraries and frameworks such as jQuery, React, and Angular, which can help you build more complex and powerful web applications with less code. |
+| 2 | [Operators and Expressions](mod01/02-operator.md)  | Explore the various operators that can be used to perform operations on variables and values, as well as how to write expressions that combine these operators. |
+| 3 | [Control Structures](mod01/03-control.md)  | Learn about control structures such as if/else statements and loops, which allow you to control the flow of your code based on conditions and iterations. |
+| 4 | [Functions](mod01/04-function.md)  | Discover how to write and call functions, which allow you to group blocks of code together and reuse them throughout your program. |
+| 5 | [Arrays](mod01/05-array.md)  | Learn about arrays, which allow you to store and manipulate lists of values, and how to use them in combination with loops and other control structures. |
+| 6 | [Objects](mod01/06-object.md)  | Explore objects, which allow you to group related variables and functions together into a single entity, and how to create and manipulate them in JavaScript. |
+| 7 | [DOM Manipulation](mod01/07-dom.md)  | Learn about the Document Object Model (DOM), which represents the structure and content of a web page in JavaScript, and how to use JavaScript to manipulate and interact with it. |
+| 8 | [Events](mod01/08-events.md)  | Discover how to handle events in JavaScript, which allow you to respond to user actions such as clicks and key presses. |
+| 9 | [AJAX and APIs](mod01/09-ajax.md)  | Learn about Asynchronous JavaScript and XML (AJAX) and how to use it to fetch data from remote servers and APIs, as well as how to work with JSON data. |
+| 10 | [Libraries and Frameworks](mod01/10-library.md)  | Explore popular JavaScript libraries and frameworks such as jQuery, React, and Angular, which can help you build more complex and powerful web applications with less code. |
 
 ### Useful Links
 - [Javascript.com](https://www.javascript.com/)
