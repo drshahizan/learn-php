@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Controlling program flow with loops and if-else statements
+# Controlling program flow
 
 Controlling program flow is an essential part of any programming language, including PHP. Program flow refers to the order in which the statements of a program are executed. In PHP, there are several ways to control program flow, including conditionals, loops, and branching statements.
 
