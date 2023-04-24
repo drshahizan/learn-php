@@ -17,7 +17,7 @@ When working with data types and operators in PHP, it's important to understand 
 
 Overall, mastering data types and operators in PHP is essential for developing efficient and effective PHP code. With these skills, you can create robust and dynamic applications that can handle a wide range of use cases.
 
-Sure, here's an example table with information about PHP data types:
+## PHP data types:
 
 | Data Type | Description | Example |
 | --- | --- | --- |
@@ -31,6 +31,55 @@ Sure, here's an example table with information about PHP data types:
 | Resource | A special variable that holds a reference to an external resource | `$file_handle = fopen("file.txt", "r");` |
 
 This table lists some of the most common data types used in PHP, along with a brief description and an example of how to use them. By understanding the characteristics of each data type, you can choose the right one for your specific use case and write more effective PHP code.
+
+## Example code: Data types
+
+```php
+<?php
+// String
+$name = "Dr MSO";
+
+// Integer
+$age = 30;
+
+// Float
+$price = 3.99;
+
+// Boolean
+$is_student = true;
+
+// Array
+$colors = ["red", "green", "blue"];
+
+// Object
+class Person {
+  public $name;
+  public $age;
+}
+
+$person = new Person();
+$person->name = "Sarah";
+$person->age = 25;
+
+// Null
+$description = null;
+
+// Resource
+$file_handle = fopen("file.txt", "r");
+
+// Output
+echo "Name: $name<br>";
+echo "Age: $age<br>";
+echo "Price: $price<br>";
+echo "Is student? " . ($is_student ? "Yes" : "No") . "<br>";
+echo "Colors: " . implode(", ", $colors) . "<br>";
+echo "Person: " . $person->name . " (Age: " . $person->age . ")<br>";
+echo "Description: " . ($description ?? "N/A") . "<br>";
+echo "File handle: " . $file_handle . "<br>";
+?>
+```
+
+This code declares variables of different data types, including strings, integers, floats, booleans, arrays, objects, null, and resources. It then outputs the values of these variables using the `echo` statement. By running this code, you can see how each data type works and how to use them in your PHP code.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
