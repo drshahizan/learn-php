@@ -8,7 +8,82 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Arrays and functions
+In PHP, arrays and functions are two fundamental building blocks of programming that allow developers to write efficient, organized, and reusable code. Arrays are used to store multiple values of the same type in a single variable, and they can be manipulated using a variety of built-in functions. Functions, on the other hand, allow you to encapsulate a block of code that can be reused throughout your application. Functions can take zero or more parameters, can have a return value, and can be called recursively. By mastering arrays and functions, PHP developers can write more complex and sophisticated applications that are easier to maintain and extend over time.
 
+A table summarizing some key features of arrays and functions in PHP:
+
+| Arrays                                   | Functions                                             |
+|------------------------------------------|-------------------------------------------------------|
+| Used to store multiple values of the same type in a single variable | Used to encapsulate a block of code that can be reused |
+| Can hold lists of data, implement complex data structures, and pass data between functions | Allow you to organize your code and make it more modular |
+| Can be created using the `array()` or `[]` syntax | Can be defined using the `function` keyword |
+| Array indices start at 0 | Functions can take zero or more parameters |
+| Array elements can be accessed using their index | Functions can have a return value using the `return` keyword |
+| Array elements can be added, modified, or removed using array manipulation functions | Function parameters can have default values |
+| Array manipulation functions include `array_push()`, `array_pop()`, `array_slice()`, and more | Functions can be called recursively |
+| Arrays can be iterated using `foreach()` loops | Functions can be called with variable-length argument lists using `func_get_args()` and `func_num_args()` |
+| PHP supports both indexed and associative arrays | PHP has many built-in functions, such as `strlen()`, `strpos()`, and `date()` |
+| Array functions include `count()`, `array_merge()`, `array_search()`, and more | You can also create your own custom functions |
+
+> Note that this table is not exhaustive and only provides a high-level overview of some common features of arrays and functions in PHP.
+
+## Arrays
+In PHP, arrays are used to store multiple values of the same type in a single variable. They are incredibly versatile and can be used in a variety of ways, such as holding lists of data, implementing complex data structures, and passing data between functions.
+
+How to create an array in PHP:
+
+```php
+$fruits = array("apple", "banana", "orange");
+```
+
+You can also create an array using the `[]` syntax introduced in PHP 5.4:
+
+```php
+$fruits = ["apple", "banana", "orange"];
+```
+
+To access an element in an array, you use its index. In PHP, array indices start at 0. So, to access the first element of the `$fruits` array, you would do:
+
+```php
+echo $fruits[0]; // output: apple
+```
+## Functions
+Functions are also a crucial part of PHP programming. Functions allow you to encapsulate a block of code that can be reused throughout your application. They also help you organize your code and make it more modular.
+
+How to define a function in PHP:
+
+```php
+function square($num) {
+  return $num * $num;
+}
+```
+
+This function takes one parameter, `$num`, and returns its square. You can call this function like so:
+
+```php
+echo square(5); // output: 25
+```
+
+You can also use arrays in functions by passing them as arguments. For example, here's a function that takes an array and returns its sum:
+
+```php
+function array_sum($arr) {
+  $sum = 0;
+  foreach ($arr as $num) {
+    $sum += $num;
+  }
+  return $sum;
+}
+```
+
+You can call this function like so:
+
+```php
+$nums = [1, 2, 3, 4, 5];
+echo array_sum($nums); // output: 15
+```
+
+Overall, arrays and functions are two essential tools in PHP programming, and by mastering them, you can write more efficient, organized, and reusable code.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
