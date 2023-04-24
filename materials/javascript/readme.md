@@ -6,7 +6,15 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
 
 Don't forget to hit the :star: if you like this repo.
+
 # JavaScript
+JavaScript is a popular programming language that is used to create dynamic and interactive web pages. It was first introduced in 1995 by Brendan Eich, and has since become one of the most widely used programming languages for web development.
+
+JavaScript is a client-side scripting language, which means that it runs on the client's computer (in their web browser) rather than on the web server. This allows it to provide a more dynamic and interactive user experience, as it can modify the content of a web page on the fly in response to user actions.
+
+Some common uses for JavaScript include form validation, creating animations and effects, and fetching and displaying data from APIs. It is also commonly used in conjunction with other web technologies such as HTML and CSS.
+
+JavaScript has evolved over the years to become a highly versatile and powerful language, and it continues to be a key tool in the web development world. With frameworks such as React and Node.js, JavaScript is even being used to build full-scale web applications and backend services.
 
 ### Useful Links
 - [Javascript.com](https://www.javascript.com/)
