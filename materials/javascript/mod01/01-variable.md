@@ -96,8 +96,8 @@ Overall, understanding data types is an essential part of writing effective Java
       console.log(typeof myVar); // Output: "undefined"
 
       // Use variables with different data types
-      let firstName = "John";
-      let lastName = "Doe";
+      let firstName = "Dr";
+      let lastName = "MSO";
       let fullName = firstName + " " + lastName;
       let num1 = 10;
       let num2 = "5";
