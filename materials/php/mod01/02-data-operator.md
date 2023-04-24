@@ -224,11 +224,11 @@ $is_available = false; // boolean
 
 // Check if student is eligible to register for course
 if ($has_prerequisites == true && $is_available == true) {
-  // Register student for course
-  echo "Congratulations, $student_name! You have successfully registered for $course_name ($course_code) for $course_credit credits.";
+    // Register student for course
+    echo "Congratulations, $student_name! You have successfully registered for $course_name ($course_code) for $course_credit credits.";
 } else {
-  // Display error message
-  echo "Sorry, $student_name. You are not eligible to register for $course_name ($course_code) at this time.";
+    // Display error message
+    echo "Sorry, $student_name. You are not eligible to register for $course_name ($course_code) at this time.";
 }
 
 // Define operator to calculate GPA
@@ -240,7 +240,7 @@ $gpa = $total_grade_points / $total_credits;
 
 // Display GPA
 echo "Your GPA is: $gpa";
-?>
+
 ```
 
 In this code, we use data types to define the course and student information, and operators to check course prerequisites and availability, and to calculate the student's GPA. We then use a conditional statement to check if the student is eligible to register for the course based on the prerequisites and availability. If the student is eligible, we display a message confirming their registration for the course. If not, we display an error message. We then calculate the student's GPA and display it. This example demonstrates how to use data types and operators in a real-world scenario and how they can be used to perform calculations and make decisions in a PHP application.
