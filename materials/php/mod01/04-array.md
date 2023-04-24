@@ -83,7 +83,66 @@ $nums = [1, 2, 3, 4, 5];
 echo array_sum($nums); // output: 15
 ```
 
-Overall, arrays and functions are two essential tools in PHP programming, and by mastering them, you can write more efficient, organized, and reusable code.
+Arrays and functions are two essential tools in PHP programming, and by mastering them, you can write more efficient, organized, and reusable code.
+
+## Case Study
+An example code that demonstrates the use of arrays and functions in a university academic course registration system:
+
+```php
+<?php
+
+// Define an array to hold the list of available courses
+$available_courses = array(
+  "COMP101" => "Introduction to Computer Science",
+  "MATH201" => "Calculus I",
+  "PHYS101" => "Introduction to Physics",
+  "ENGL101" => "Introduction to English Composition"
+);
+
+// Define a function to display the list of available courses
+function display_courses($courses) {
+  echo "Available courses:\n";
+  foreach ($courses as $code => $title) {
+    echo "$code: $title\n";
+  }
+}
+
+// Define a function to register a student for a course
+function register_student($student, $course, &$registrations) {
+  if (isset($registrations[$course])) {
+    echo "Error: Course $course is already full.\n";
+  } else {
+    $registrations[$course] = $student;
+    echo "Success: $student has been registered for $course.\n";
+  }
+}
+
+// Define an array to hold the list of course registrations
+$registrations = array();
+
+// Display the list of available courses
+display_courses($available_courses);
+
+// Register some students for courses
+register_student("John Smith", "COMP101", $registrations);
+register_student("Jane Doe", "MATH201", $registrations);
+register_student("Bob Johnson", "PHYS101", $registrations);
+register_student("Alice Williams", "COMP101", $registrations);
+
+// Display the list of course registrations
+echo "Course registrations:\n";
+foreach ($registrations as $course => $student) {
+  echo "$course: $student\n";
+}
+
+?>
+``` 
+
+In this example, we define an array called `$available_courses` to hold the list of available courses, and a function called `display_courses()` to display the list of courses. We also define a function called `register_student()` to register a student for a course, and an array called `$registrations` to hold the list of course registrations.
+
+We then display the list of available courses using the `display_courses()` function, and register some students for courses using the `register_student()` function. Finally, we display the list of course registrations using a `foreach` loop.
+
+This example demonstrates how arrays and functions can be used to create a simple academic course registration system in PHP.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
