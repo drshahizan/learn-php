@@ -70,6 +70,55 @@ It's important to understand data types in JavaScript because they determine how
 You can determine the data type of a value in JavaScript using the `typeof` operator, which returns a string indicating the type of the value. For example, `typeof "Hello, world!"` would return the string `"string"`. 
 
 Overall, understanding data types is an essential part of writing effective JavaScript code, and can help you avoid common programming errors.
+
+### How to use data types in JavaScript with an HTML page:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Types in JavaScript</title>
+	<script>
+		// Declare and initialize variables of different data types
+		let message = "Hello, world!";
+		let count = 42;
+		let pi = 3.14159;
+		let isActive = true;
+		let myValue = null;
+		let myVar;
+
+		// Output the data types of the variables
+		console.log(typeof message); // Output: "string"
+		console.log(typeof count); // Output: "number"
+		console.log(typeof pi); // Output: "number"
+		console.log(typeof isActive); // Output: "boolean"
+		console.log(typeof myValue); // Output: "object"
+		console.log(typeof myVar); // Output: "undefined"
+
+		// Use variables with different data types
+		let firstName = "John";
+		let lastName = "Doe";
+		let fullName = firstName + " " + lastName;
+		let num1 = 10;
+		let num2 = "5";
+		let sum = num1 + Number(num2);
+
+		// Output the values of the variables to the HTML page
+		document.write("<p>" + fullName + "</p>");
+		document.write("<p>" + sum + "</p>");
+	</script>
+</head>
+<body>
+	<h1>Data Types in JavaScript</h1>
+	<p>Open the console to view the output.</p>
+</body>
+</html>
+```
+
+In this example, we use an HTML page to display the output of our JavaScript code. We declare and initialize variables of different data types using the appropriate syntax, and output the data types of the variables to the console using the `typeof` operator. We then use variables of different data types in JavaScript, including concatenating strings and converting a string to a number using the `Number()` function. Finally, we output the values of the variables to the HTML page using the `document.write()` method.
+
+Overall, this example demonstrates how data types can be used and manipulated in JavaScript, and how the output can be displayed in an HTML page.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
