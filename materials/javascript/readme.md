@@ -18,7 +18,7 @@ JavaScript has evolved over the years to become a highly versatile and powerful 
 
 | Step | Topic | Description |
 | :---: | --- | --- |
-| 1 | Variables and Data Types | Learn about the different types of data that can be used in JavaScript, and how to store and manipulate them using variables. |
+| 1 | [Variables and Data Types](mod01/01-variable.md) | Learn about the different types of data that can be used in JavaScript, and how to store and manipulate them using variables. |
 | 2 | Operators and Expressions | Explore the various operators that can be used to perform operations on variables and values, as well as how to write expressions that combine these operators. |
 | 3 | Control Structures | Learn about control structures such as if/else statements and loops, which allow you to control the flow of your code based on conditions and iterations. |
 | 4 | Functions | Discover how to write and call functions, which allow you to group blocks of code together and reuse them throughout your program. |
