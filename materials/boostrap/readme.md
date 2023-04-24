@@ -24,7 +24,7 @@ Sure, here is a table outlining the topics to learn Bootstrap step-by-step for b
 | Step | Topic | Description |
 |:------:|-------|-------------|
 | 1 | [Introduction to Bootstrap](mod01/01-intro.md) | Learn what Bootstrap is, its benefits, and how it works |
-| 2 | [Downloading Bootstrap](mod01/02-downloas.md) | Download and install Bootstrap, including its CSS, JavaScript, and fonts |
+| 2 | [Downloading Bootstrap](mod01/02-download.md) | Download and install Bootstrap, including its CSS, JavaScript, and fonts |
 | 3 | [Bootstrap Grid System](mod01/03-grid.md) | Learn how to use the Bootstrap grid system to create responsive layouts |
 | 4 | Bootstrap CSS classes | Explore and learn the most common Bootstrap CSS classes, including buttons, forms, and typography |
 | 5 | Bootstrap JavaScript plugins | Learn how to use Bootstrap's JavaScript plugins to add interactivity and functionality to your web pages |
