@@ -185,6 +185,57 @@ Note that the `$matches` parameter in `preg_match()` and `preg_replace()` is an 
 
 Also, keep in mind that regular expressions can be complex and powerful tools, but they can also be difficult to learn and debug. It's important to test your regular expressions thoroughly and use tools like online regex testers to help you validate your patterns.
 
+## Case Study
+An example code for a university academic course registration system that uses strings and regular expressions in PHP:
+
+```php
+<?php
+
+// Sample data for the registration system
+$available_courses = array(
+  "CS101" => "Introduction to Computer Science",
+  "MATH202" => "Calculus II",
+  "ENG105" => "Composition and Rhetoric",
+  "PHYS201" => "Mechanics and Waves",
+);
+
+// Sample form data from the user
+$user_name = "John Doe";
+$user_email = "johndoe@example.com";
+$user_courses = "CS101, MATH202";
+
+// Validate the user's email address using a regular expression
+if (!preg_match("/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/", $user_email)) {
+  echo "Error: Invalid email address";
+  exit;
+}
+
+// Split the user's course list into individual course codes
+$courses = preg_split("/,\s*/", $user_courses);
+
+// Loop through the list of courses and validate them
+foreach ($courses as $course) {
+  if (!isset($available_courses[$course])) {
+    echo "Error: Invalid course code: $course";
+    exit;
+  }
+}
+
+// If all data is valid, register the user for the selected courses
+echo "Registration successful for $user_name ($user_email):\n";
+foreach ($courses as $course) {
+  echo "- " . $available_courses[$course] . "\n";
+}
+
+?>
+```
+
+In this example, we have a sample data of available courses, and a form data from the user containing their name, email address, and a comma-separated list of course codes they want to register for. 
+
+We use a regular expression to validate the user's email address format, and split their course list into individual course codes using another regular expression. Then, we loop through the list of courses to validate them against the available course data. If all data is valid, we register the user for the selected courses and output a success message with the course names.
+
+> This example demonstrates how strings and regular expressions can be used in a real-world application to validate and process user input data.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
