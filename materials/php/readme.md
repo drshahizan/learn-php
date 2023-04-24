@@ -45,60 +45,36 @@ A table outlining some key topics to learn PHP and MySQL step by step for beginn
 
 | Step | Topic                                                   |
 |------|---------------------------------------------------------|
-| 1    | Introduction to PHP and MySQL syntax and installation    |
-| 2    | Setting up a development environment with PHP and MySQL  |
-| 3    | Creating a database for the registration system          |
-| 4    | Building a user registration and login system            |
-| 5    | Implementing user roles and permissions                  |
-| 6    | Creating course and instructor tables in the database    |
-| 7    | Building a course registration form for students         |
-| 8    | Implementing a course search feature                      |
-| 9    | Creating a dashboard for administrators                   |
-| 10   | Implementing a grade tracking system for instructors      |
+| 1 | Introduction to PHP and MySQL syntax and installation    |
+| 2 | Setting up a development environment with PHP and MySQL  |
+| 3 | Creating a database for the registration system          |
+| 4 | Building a user registration and login system            |
+| 5 | Implementing user roles and permissions                  |
+| 6 | Creating course and instructor tables in the database    |
+| 7 | Building a course registration form for students         |
+| 8 | Implementing a course search feature                      |
+| 9 | Creating a dashboard for administrators                   |
+| 10 | Implementing a grade tracking system for instructors      |
 
 ### Case Study: University Academic Course Registration System
 -------------------------------------------------------------
 
 A university academic course registration system is a complex web application that allows students to search, register, and drop courses. The system should also provide an interface for instructors to manage their courses, including grading and attendance tracking.
 
-Sure, here is a table outlining the breakdown of the key steps for building a university academic course registration system using PHP and MySQL:
+These are the key steps to building a university academic course registration system using PHP and MySQL.
 
 | Step | Topic | Description |
 |:----:|------|------|
-| 1    | Setting up the development environment | Install and configure a web server, PHP, and MySQL on your local machine or a web hosting service.|
-| 2    | Creating a database for the registration system | Use PHPMyAdmin or other tools to create a MySQL database and define the necessary tables and relationships. Tables may include students, instructors, courses, course schedules, etc.|
-| 3    | Building a user registration and login system | Allow users to register for accounts and login to the system securely.|
-| 4    | Implementing user roles and permissions | Define different user roles, such as students, instructors, and administrators, and assign appropriate permissions for each role.|
-| 5    | Creating course and instructor tables in the database | Define the necessary database tables for courses, instructors, and other related information.|
-| 6    | Building a course registration form for students | Allow students to search for and register for courses through a user-friendly form. The form should validate user inputs and display available courses. |
-| 7    | Implementing a course search feature | Allow students to search for courses by various criteria, such as subject, instructor, and time slot.|
-| 8    | Creating a dashboard for administrators | Provide administrators with a dashboard that allows them to manage courses, students, and other system settings. The dashboard should have an easy-to-use interface to add new courses, edit existing courses, and view student enrollment.|
-| 9    | Implementing a grade tracking system for instructors | Allow instructors to manage and track student grades and attendance for their courses. The system should allow instructors to input grades for each assignment or exam and display grades to students.|
-| 10   | Building an email notification system for course updates and changes |Notify students about course updates, cancellations, or changes. The system should send automated emails to students who are registered in the course.|
-
-Here's a breakdown of each step:
-
-1. Setting up the development environment: Install and configure a web server, PHP, and MySQL on your local machine or a web hosting service.|
-
-2. Creating a database for the registration system: Use PHPMyAdmin or other tools to create a MySQL database and define the necessary tables and relationships. Tables may include students, instructors, courses, course schedules, etc.|
-
-3. Building a user registration and login system: Allow users to register for accounts and login to the system securely.|
-
-4. Implementing user roles and permissions: Define different user roles, such as students, instructors, and administrators, and assign appropriate permissions for each role.|
-
-5. Creating course and instructor tables in the database: Define the necessary database tables for courses, instructors, and other related information.|
-
-6. Building a course registration form for students: Allow students to search for and register for courses through a user-friendly form. The form should validate user inputs and display available courses. |
-
-7. Implementing a course search feature: Allow students to search for courses by various criteria, such as subject, instructor, and time slot.|
-
-8. Creating a dashboard for administrators: Provide administrators with a dashboard that allows them to manage courses, students, and other system settings. The dashboard should have an easy-to-use interface to add new courses, edit existing courses, and view student enrollment.|
-
-9. Implementing a grade tracking system for instructors: Allow instructors to manage and track student grades and attendance for their courses. The system should allow instructors to input grades for each assignment or exam and display grades to students.|
-
-10. Building an email notification system for course updates and changes: Notify students about course updates, cancellations, or changes. The system should send automated emails to students who are registered in the course.|
-
-These are the key steps to building a university academic course registration system using PHP and MySQL.
+| 1 | Setting up the development environment | Install and configure a web server, PHP, and MySQL on your local machine or a web hosting service.|
+| 2 | Creating a database for the registration system | Use PHPMyAdmin or other tools to create a MySQL database and define the necessary tables and relationships. Tables may include students, instructors, courses, course schedules, etc.|
+| 3 | Building a user registration and login system | Allow users to register for accounts and login to the system securely.|
+| 4 | Implementing user roles and permissions | Define different user roles, such as students, instructors, and administrators, and assign appropriate permissions for each role.|
+| 5 | Creating course and instructor tables in the database | Define the necessary database tables for courses, instructors, and other related information.|
+| 6 | Building a course registration form for students | Allow students to search for and register for courses through a user-friendly form. The form should validate user inputs and display available courses. |
+| 7 | Implementing a course search feature | Allow students to search for courses by various criteria, such as subject, instructor, and time slot.|
+| 8 | Creating a dashboard for administrators | Provide administrators with a dashboard that allows them to manage courses, students, and other system settings. The dashboard should have an easy-to-use interface to add new courses, edit existing courses, and view student enrollment.|
+| 9 | Implementing a grade tracking system for instructors | Allow instructors to manage and track student grades and attendance for their courses. The system should allow instructors to input grades for each assignment or exam and display grades to students.|
+| 10 | Building an email notification system for course updates and changes |Notify students about course updates, cancellations, or changes. The system should send automated emails to students who are registered in the course.|
 
 ## Additional Notes
 - [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/index.html)
