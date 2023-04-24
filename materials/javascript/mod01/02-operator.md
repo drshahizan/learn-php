@@ -16,7 +16,7 @@ Operators are symbols or keywords that perform actions on one or more operands (
 
 Operators play a crucial role in JavaScript programming as they help to perform various operations on values and variables. Understanding how to use and combine operators is essential for writing effective and efficient JavaScript code.
 
-### Arithmetic Operators
+### 1. Arithmetic Operators
 
 | Operator | Description | Code Example |
 |----------|-------------|--------------|
@@ -26,7 +26,7 @@ Operators play a crucial role in JavaScript programming as they help to perform 
 | /        | Division | `let d = 20 / 5;` (d will be 4) |
 | %        | Modulus (remainder) | `let e = 17 % 5;` (e will be 2) |
 
-### Assignment Operators
+### 2. Assignment Operators
 
 | Operator | Description | Code Example |
 |----------|-------------|--------------|
@@ -37,7 +37,7 @@ Operators play a crucial role in JavaScript programming as they help to perform 
 | /=       | Division assignment | `let j = 20; j /= 5;` (j will be 4) |
 | %=       | Modulus assignment | `let k = 17; k %= 5;` (k will be 2) |
 
-### Comparison Operators
+### 3. Comparison Operators
 
 | Operator | Description | Code Example |
 |----------|-------------|--------------|
@@ -50,7 +50,7 @@ Operators play a crucial role in JavaScript programming as they help to perform 
 | >=       | Greater than or equal to comparison | `if (e >= f) { ... }` |
 | <=       | Less than or equal to comparison | `if (g <= h) { ... }` |
 
-### Logical Operators
+### 4. Logical Operators
 
 | Operator | Description | Code Example |
 |----------|-------------|--------------|
