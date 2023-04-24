@@ -48,6 +48,28 @@ console.log(count); // Output: 1
 ```
 
 In this example, we declare three variables using the var, let, and const keywords, and assign them initial values. We then output the values of the variables using the console.log() function, which prints the values to the browser console. Finally, we change the values of the variables and output them again to show that they can be modified throughout the program.
+
+## Data types
+In JavaScript, a data type is a classification of the type of data that can be stored and manipulated in a program. JavaScript has six primitive data types: 
+
+| Data Type | Description | Code Example |
+| --------- | ----------- | ------------ |
+| `string` | Represents text data, enclosed in single or double quotes | `let message = "Hello, world!";` |
+| `number` | Represents numeric values, including integers and floating-point numbers | `let count = 42;` |
+| `boolean` | Represents a logical value of `true` or `false` | `let isActive = true;` |
+| `null` | Represents a deliberate non-value | `let myValue = null;` |
+| `undefined` | Represents an uninitialized value | `let myVar;` |
+| `symbol` | Represents a unique identifier that can be used as an object key | `const mySymbol = Symbol();` |
+
+In the `Code Example` column, we show how to declare a variable of each data type using the appropriate syntax in JavaScript.
+
+In addition to the primitive data types, JavaScript also has an object data type, which is a complex data structure that can contain multiple values and functions.
+
+It's important to understand data types in JavaScript because they determine how values can be used and manipulated, and can affect how your program behaves. For example, if you try to perform a mathematical operation on a string, JavaScript will attempt to convert the string to a number before performing the operation. Similarly, if you try to access a property of an object that doesn't exist, JavaScript will return the value `undefined`.
+
+You can determine the data type of a value in JavaScript using the `typeof` operator, which returns a string indicating the type of the value. For example, `typeof "Hello, world!"` would return the string `"string"`. 
+
+Overall, understanding data types is an essential part of writing effective JavaScript code, and can help you avoid common programming errors.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
