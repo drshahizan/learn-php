@@ -9,11 +9,13 @@ Don't forget to hit the :star: if you like this repo.
 
 # Working with strings and regular expressions
 
+
+
 Working with strings and regular expressions is a common task in PHP, and there are many built-in functions and features to help you manipulate and search through strings using regular expressions.
 
-In PHP, strings are sequences of characters that can be enclosed in single or double quotes. You can concatenate strings using the concatenation operator (.) or the shorthand operator (.=) to add additional text to an existing string.
+In PHP, strings are sequences of characters that can be enclosed in single or double quotes. You can concatenate strings using the concatenation operator (`.`) or the shorthand operator (`.=`) to add additional text to an existing string. 
 
-Regular expressions are a powerful way to search and manipulate strings. In PHP, you can use regular expressions with the preg_match and preg_replace functions to search for and replace text that matches a certain pattern. Regular expressions use special characters and syntax to define patterns, such as ^ to match the start of a string, $ to match the end of a string, and . to match any single character.
+Regular expressions are a powerful way to search and manipulate strings. In PHP, you can use regular expressions with the `preg_match` and `preg_replace` functions to search for and replace text that matches a certain pattern. Regular expressions use special characters and syntax to define patterns, such as `^` to match the start of a string, `$` to match the end of a string, and `.` to match any single character.
 
 A table summarizing the most commonly used functions and syntax for working with strings and regular expressions in PHP:
 
