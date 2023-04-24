@@ -16,6 +16,19 @@ Some common uses for JavaScript include form validation, creating animations and
 
 JavaScript has evolved over the years to become a highly versatile and powerful language, and it continues to be a key tool in the web development world. With frameworks such as React and Node.js, JavaScript is even being used to build full-scale web applications and backend services.
 
+| Step | Topic | Description |
+| :---: | --- | --- |
+| 1 | Variables and Data Types | Learn about the different types of data that can be used in JavaScript, and how to store and manipulate them using variables. |
+| 2 | Operators and Expressions | Explore the various operators that can be used to perform operations on variables and values, as well as how to write expressions that combine these operators. |
+| 3 | Control Structures | Learn about control structures such as if/else statements and loops, which allow you to control the flow of your code based on conditions and iterations. |
+| 4 | Functions | Discover how to write and call functions, which allow you to group blocks of code together and reuse them throughout your program. |
+| 5 | Arrays | Learn about arrays, which allow you to store and manipulate lists of values, and how to use them in combination with loops and other control structures. |
+| 6 | Objects | Explore objects, which allow you to group related variables and functions together into a single entity, and how to create and manipulate them in JavaScript. |
+| 7 | DOM Manipulation | Learn about the Document Object Model (DOM), which represents the structure and content of a web page in JavaScript, and how to use JavaScript to manipulate and interact with it. |
+| 8 | Events | Discover how to handle events in JavaScript, which allow you to respond to user actions such as clicks and key presses. |
+| 9 | AJAX and APIs | Learn about Asynchronous JavaScript and XML (AJAX) and how to use it to fetch data from remote servers and APIs, as well as how to work with JSON data. |
+| 10 | Libraries and Frameworks | Explore popular JavaScript libraries and frameworks such as jQuery, React, and Angular, which can help you build more complex and powerful web applications with less code. |
+
 ### Useful Links
 - [Javascript.com](https://www.javascript.com/)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
