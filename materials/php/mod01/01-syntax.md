@@ -64,9 +64,7 @@ Variable names in PHP must start with a dollar sign `$`, followed by a valid nam
 
 PHP is a loosely typed language, which means you do not need to declare the data type of a variable before using it. The data type of a variable is determined dynamically based on the value assigned to it. For example, you can assign a string value to a variable, and then later assign an integer value to the same variable, without having to declare the variable as a string or integer.
 
-Here's an example of how to declare and use variables in PHP:
-
-Sure, here's an example of PHP code that demonstrates variables:
+An example of how to declare and use variables in PHP:
 
 ```php
 <?php
