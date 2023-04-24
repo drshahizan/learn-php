@@ -109,6 +109,64 @@ In this example, `c` is assigned the value of the expression `(a + b) * 2`, whic
 
 Overall, expressions are an essential part of JavaScript programming, as they enable us to perform calculations, make decisions, and create dynamic and interactive code.
 
+## HTML code
+An example HTML code that demonstrates the use of operators and expressions in JavaScript:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Operators and Expressions in JavaScript</title>
+</head>
+<body>
+
+  <h1>Operators and Expressions Example</h1>
+
+  <p>Let's perform some calculations:</p>
+
+  <script>
+    // Define some variables
+    let a = 5;
+    let b = 3;
+
+    // Perform some calculations and display the results
+    document.write("<p>a + b = " + (a + b) + "</p>");
+    document.write("<p>a - b = " + (a - b) + "</p>");
+    document.write("<p>a * b = " + (a * b) + "</p>");
+    document.write("<p>a / b = " + (a / b) + "</p>");
+    document.write("<p>a % b = " + (a % b) + "</p>");
+
+    // Use logical operators to check some conditions
+    let c = 10;
+    let d = 20;
+    if (c > a && d < b) {
+      document.write("<p>c is greater than a and d is less than b</p>");
+    } else {
+      document.write("<p>The condition is not true</p>");
+    }
+
+    // Use expressions as function arguments
+    function greet(name) {
+      document.write("<p>Hello, " + name + "!</p>");
+    }
+    greet("Alice");
+
+    // Use expressions in loops
+    for (let i = 0; i < 5; i++) {
+      document.write("<p>" + i + "</p>");
+    }
+  </script>
+
+</body>
+</html>
+```
+
+This code defines some variables `a` and `b`, performs some arithmetic operations on them using the arithmetic operators (`+`, `-`, `*`, `/`, `%`), and displays the results using the `document.write` method.
+
+The code also uses logical operators (`>`, `<`, `&&`) to check some conditions, and expressions as function arguments and in loops.
+
+When you open this HTML file in a web browser, you should see the results of these calculations and operations displayed on the page.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
