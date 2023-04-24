@@ -60,6 +60,55 @@ Operators play a crucial role in JavaScript programming as they help to perform 
 
 > Note that this is not an exhaustive list of all operators in JavaScript, but rather a selection of some common ones grouped by type.
 
+## Expression
+In JavaScript, an expression is any valid unit of code that can be evaluated to a value. It can be a single value, a variable, or a combination of values and operators. Expressions are used in many different contexts in JavaScript, such as:
+
+### 1. Assigning values to variables
+```javascript
+let a = 5;
+let b = a + 3;
+```
+
+### 2. As function arguments
+```javascript
+function greet(name) {
+  console.log('Hello, ' + name + '!');
+}
+greet('Alice');
+```
+
+### 3. In conditional statements:
+```javascript
+if (a > 0 && b < 10) {
+  // do something
+}
+```
+
+### 4. In loops:
+```javascript
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
+
+### 5. As a return value from a function:
+```javascript
+function multiply(a, b) {
+  return a * b;
+}
+let c = multiply(2, 4);
+```
+
+An expression can be made up of variables, values, operators, function calls, and any combination of these. For example:
+```javascript
+let a = 5;
+let b = 10;
+let c = (a + b) * 2;
+```
+In this example, `c` is assigned the value of the expression `(a + b) * 2`, which evaluates to 30.
+
+Overall, expressions are an essential part of JavaScript programming, as they enable us to perform calculations, make decisions, and create dynamic and interactive code.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
