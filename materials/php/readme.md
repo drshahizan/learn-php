@@ -56,7 +56,7 @@ A table outlining some key topics to learn PHP and MySQL step by step for beginn
 | 9 | Creating a dashboard for administrators                   |
 | 10 | Implementing a grade tracking system for instructors      |
 
-### Case Study: University Academic Course Registration System
+## Case Study: University Academic Course Registration System
 
 A university academic course registration system is a complex web application that allows students to search, register, and drop courses. The system should also provide an interface for instructors to manage their courses, including grading and attendance tracking.
 
