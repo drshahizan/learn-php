@@ -149,6 +149,74 @@ In this example, the `goto` statement is used to jump back to the `start` label 
 
 While `goto` can be a powerful tool, it can also make the code harder to read and understand. Therefore, it is generally discouraged to use `goto` statements unless absolutely necessary. It's usually better to use alternative control flow statements like `if`, `for`, `while`, and `foreach` loops, as well as `break` and `continue` statements, to achieve the same results in a more readable and maintainable way.
 
+## Case Study
+Complete and functional code example for a university academic course registration system using PHP:
+
+```php
+<?php
+// assume there is an array of available courses
+$courses = array(
+    "CS101" => array(
+        "name" => "Introduction to Computer Science",
+        "credits" => 3,
+        "capacity" => 30,
+        "enrolled" => 0
+    ),
+    "MATH201" => array(
+        "name" => "Calculus I",
+        "credits" => 4,
+        "capacity" => 25,
+        "enrolled" => 0
+    ),
+    // add more courses here...
+);
+
+// assume the user has provided their student ID and desired course code through a form
+$student_id = $_POST["student_id"];
+$course_code = $_POST["course_code"];
+
+// check if the student ID is valid
+if (isValidStudentID($student_id)) {
+    // check if the course code is valid and there is still space available
+    if (array_key_exists($course_code, $courses) && $courses[$course_code]["enrolled"] < $courses[$course_code]["capacity"]) {
+        // register the student for the course
+        registerForCourse($student_id, $course_code);
+        $courses[$course_code]["enrolled"]++;
+
+        // display a success message
+        echo "Congratulations, you have successfully registered for " . $courses[$course_code]["name"] . "!";
+    } else {
+        // if the course is full or the code is invalid, display an error message
+        if (!array_key_exists($course_code, $courses)) {
+            echo "Invalid course code. Please choose a valid course.";
+        } else {
+            echo "Sorry, this course is already full. Please choose another course.";
+        }
+    }
+} else {
+    // if the student ID is invalid, display an error message
+    echo "Invalid student ID. Please provide a valid ID.";
+}
+
+// function to validate student ID format
+function isValidStudentID($id) {
+    // implement validation logic here
+    // for simplicity, assume any student ID with length 9 is valid
+    return strlen($id) === 9;
+}
+
+// function to register a student for a course in a database or file
+function registerForCourse($student_id, $course_code) {
+    // implement registration logic here
+    // for simplicity, just write the registration to a file
+    $registration = $student_id . "," . $course_code . "\n";
+    file_put_contents("registrations.txt", $registration, FILE_APPEND);
+}
+?>
+``` 
+
+This code checks if the student ID is valid using an `if` statement, and then checks if the course code is valid and has space available using another `if` statement. If both conditions are true, the code registers the student for the course, increments the course enrollment count, and displays a success message using an `echo` statement. If either condition is false, the code displays an error message using an `echo` statement. The `strlen` function is used to check the length of the student ID and validate it. The `file_put_contents` function is used to write the registration data to a file. Overall, the control flow statements in this example help to ensure that the registration process is smooth and error-free for the user.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
