@@ -7,14 +7,12 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# PHP
+# Hypertext Preprocessor (PHP)
 - [PHP]()
 - [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/index.html)
 - [Youtube: Running PHP in Visual Studio Code](https://youtu.be/4vKJMLXGirw)
 - [Youtube: How to run PHP on Visual Studio Code](https://youtu.be/begPcGfAwzY)
 - [Wikipedia: XAMPP](https://en.wikipedia.org/wiki/XAMPP)
-
-
 
 PHP (Hypertext Preprocessor) is a widely-used open source server-side scripting language designed for web development. It was originally created in 1994 by Rasmus Lerdorf and has since been maintained and developed by a large community of developers.
 
