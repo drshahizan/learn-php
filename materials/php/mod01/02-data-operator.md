@@ -17,7 +17,7 @@ When working with data types and operators in PHP, it's important to understand 
 
 Overall, mastering data types and operators in PHP is essential for developing efficient and effective PHP code. With these skills, you can create robust and dynamic applications that can handle a wide range of use cases.
 
-## PHP data types:
+## PHP data types
 
 | Data Type | Description | Example |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ Overall, mastering data types and operators in PHP is essential for developing e
 
 This table lists some of the most common data types used in PHP, along with a brief description and an example of how to use them. By understanding the characteristics of each data type, you can choose the right one for your specific use case and write more effective PHP code.
 
-## Example code: Data types
+### Example code: Data types
 
 ```php
 <?php
@@ -80,6 +80,124 @@ echo "File handle: " . $file_handle . "<br>";
 ```
 
 This code declares variables of different data types, including strings, integers, floats, booleans, arrays, objects, null, and resources. It then outputs the values of these variables using the `echo` statement. By running this code, you can see how each data type works and how to use them in your PHP code.
+
+## PHP operators
+PHP provides a wide range of operators that can be used to perform various operations on variables and values. Here are some of the most commonly used types of operators in PHP:
+
+### 1. Arithmetic operators
+These operators are used to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+```php
+$a = 10;
+$b = 5;
+
+$c = $a + $b; // addition
+$d = $a - $b; // subtraction
+$e = $a * $b; // multiplication
+$f = $a / $b; // division
+```
+
+### 2. Assignment operators 
+These operators are used to assign values to variables. 
+
+```php
+$x = 10;
+
+$x += 5; // equivalent to $x = $x + 5
+$x -= 5; // equivalent to $x = $x - 5
+$x *= 5; // equivalent to $x = $x * 5
+$x /= 5; // equivalent to $x = $x / 5
+```
+
+### 3. Comparison operators
+These operators are used to compare two values and return a boolean result.
+
+```php
+$a = 10;
+$b = 5;
+
+$c = $a == $b; // equal to
+$d = $a != $b; // not equal to
+$e = $a > $b; // greater than
+$f = $a < $b; // less than
+$g = $a >= $b; // greater than or equal to
+$h = $a <= $b; // less than or equal to
+```
+
+### 4. Logical operators 
+These operators are used to combine multiple conditions and return a boolean result. 
+
+```php
+$a = 10;
+$b = 5;
+
+$c = ($a > $b) && ($a < 20); // logical and
+$d = ($a < $b) || ($a < 20); // logical or
+$e = !($a == $b); // logical not
+```
+
+### 5. String operators 
+These operators are used to concatenate strings or find a substring within a string. 
+
+```php
+$a = "Hello";
+$b = "World";
+
+$c = $a . " " . $b; // concatenation
+$d = strpos($a, "e"); // find substring position
+```
+
+By using these operators in your PHP code, you can perform a wide range of operations on variables and values, making your code more powerful and flexible.
+
+### Example code: Different types of operators
+
+```php
+<?php
+// Arithmetic operators
+$a = 10;
+$b = 5;
+$c = $a + $b; // addition
+$d = $a - $b; // subtraction
+$e = $a * $b; // multiplication
+$f = $a / $b; // division
+
+// Assignment operators
+$x = 10;
+$x += 5; // equivalent to $x = $x + 5
+$x -= 5; // equivalent to $x = $x - 5
+$x *= 5; // equivalent to $x = $x * 5
+$x /= 5; // equivalent to $x = $x / 5
+
+// Comparison operators
+$a = 10;
+$b = 5;
+$c = ($a > $b); // greater than
+$d = ($a < $b); // less than
+$e = ($a == $b); // equal to
+
+// Logical operators
+$a = 10;
+$b = 5;
+$c = ($a > $b) && ($a < 20); // logical and
+$d = ($a < $b) || ($a < 20); // logical or
+$e = !($a == $b); // logical not
+
+// String operators
+$a = "Hello";
+$b = "World";
+$c = $a . " " . $b; // concatenation
+$d = strpos($a, "e"); // find substring position
+
+// Output
+echo "Arithmetic operators: $c, $d, $e, $f<br>";
+echo "Assignment operators: $x<br>";
+echo "Comparison operators: $c, $d, $e<br>";
+echo "Logical operators: $c, $d, $e<br>";
+echo "String operators: $c, $d<br>";
+?>
+```
+
+In this code, we use arithmetic operators to perform basic arithmetic operations, assignment operators to assign values to variables, comparison operators to compare two values, logical operators to combine multiple conditions, and string operators to concatenate strings and find substrings. We then output the results using the `echo` statement. By running this code, you can see how each type of operator works and how to use them in your PHP code.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
