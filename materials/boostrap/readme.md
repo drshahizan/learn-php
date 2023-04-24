@@ -6,8 +6,18 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
 
 Don't forget to hit the :star: if you like this repo.
+
 # Bootstrap
 
+Bootstrap is a popular open-source front-end web development framework used for designing responsive and mobile-first web applications. It was created by Twitter and is now maintained by a large community of developers.
+
+The primary aim of Bootstrap is to provide developers with a set of pre-written HTML, CSS, and JavaScript components that can be easily incorporated into their web projects. The framework includes a variety of pre-built UI elements such as buttons, forms, tables, modals, navigation menus, and more, which can be customized to match the style of the application.
+
+Bootstrap is built on a grid system, which allows developers to create responsive designs that adapt to different screen sizes and devices. The grid system consists of 12 columns, which can be combined in various ways to create flexible and dynamic layouts. 
+
+Bootstrap also provides built-in support for popular CSS preprocessors such as Sass and Less, making it easy to customize the framework to meet specific design requirements. Additionally, it includes JavaScript plugins that provide advanced functionality, such as carousels, tooltips, modals, and more.
+
+Overall, Bootstrap is a powerful and flexible framework that allows developers to create beautiful and responsive web applications quickly and easily, without having to write much CSS or JavaScript code from scratch.
 ### Useful Links
 - [Difference Between Bootstrap and CSS](https://pediaa.com/difference-between-bootstrap-and-css/#:~:text=The%20main%20difference%20between%20Bootstrap,HTML%2C%20CSS%2C%20and%20JavaScript.)
 - [W3.CSS vs. Bootstrap: A Head-to-Head Comparison](https://blog.hubspot.com/website/w3-css-vs-bootstrap)
