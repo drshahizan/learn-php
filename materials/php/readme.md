@@ -8,7 +8,6 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Hypertext Preprocessor (PHP)
-- [PHP]()
 - [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/index.html)
 - [Youtube: Running PHP in Visual Studio Code](https://youtu.be/4vKJMLXGirw)
 - [Youtube: How to run PHP on Visual Studio Code](https://youtu.be/begPcGfAwzY)
@@ -27,6 +26,12 @@ Some key features of PHP include:
 - Scalability: PHP is designed to be scalable, allowing it to handle high traffic websites and web applications.
 
 PHP is used by many popular websites, including Facebook, Wikipedia, and WordPress. It is also a popular choice for web development in the enterprise, due to its ease of use and flexibility.
+
+## Additional Notes
+- [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/index.html)
+- [Youtube: Running PHP in Visual Studio Code](https://youtu.be/4vKJMLXGirw)
+- [Youtube: How to run PHP on Visual Studio Code](https://youtu.be/begPcGfAwzY)
+- [Wikipedia: XAMPP](https://en.wikipedia.org/wiki/XAMPP)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
