@@ -199,6 +199,52 @@ echo "String operators: $c, $d<br>";
 
 In this code, we use arithmetic operators to perform basic arithmetic operations, assignment operators to assign values to variables, comparison operators to compare two values, logical operators to combine multiple conditions, and string operators to concatenate strings and find substrings. We then output the results using the `echo` statement. By running this code, you can see how each type of operator works and how to use them in your PHP code.
 
+## Case Study
+How to use data types and operators in a university academic course registration system:
+
+```php
+<?php
+// Define data types for course information
+$course_name = "Introduction to Computer Science"; // string
+$course_code = "CS101"; // string
+$course_credit = 3; // integer
+$course_description = "This course provides an introduction to computer science concepts and programming fundamentals."; // string
+
+// Define data types for student information
+$student_name = "Dr  MSO"; // string
+$student_id = "12345"; // string
+$student_email = "dr.mso@example.com"; // string
+$student_major = "Computer Science"; // string
+
+// Define operator to check course prerequisites
+$has_prerequisites = true; // boolean
+
+// Define operator to check course availability
+$is_available = false; // boolean
+
+// Check if student is eligible to register for course
+if ($has_prerequisites == true && $is_available == true) {
+  // Register student for course
+  echo "Congratulations, $student_name! You have successfully registered for $course_name ($course_code) for $course_credit credits.";
+} else {
+  // Display error message
+  echo "Sorry, $student_name. You are not eligible to register for $course_name ($course_code) at this time.";
+}
+
+// Define operator to calculate GPA
+$total_credits = 30; // integer
+$total_grade_points = 90; // integer
+
+// Calculate GPA
+$gpa = $total_grade_points / $total_credits;
+
+// Display GPA
+echo "Your GPA is: $gpa";
+?>
+```
+
+In this code, we use data types to define the course and student information, and operators to check course prerequisites and availability, and to calculate the student's GPA. We then use a conditional statement to check if the student is eligible to register for the course based on the prerequisites and availability. If the student is eligible, we display a message confirming their registration for the course. If not, we display an error message. We then calculate the student's GPA and display it. This example demonstrates how to use data types and operators in a real-world scenario and how they can be used to perform calculations and make decisions in a PHP application.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
