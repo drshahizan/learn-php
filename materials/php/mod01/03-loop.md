@@ -30,7 +30,7 @@ Note that these are not the only control flow statements available in PHP, but t
 Conditionals are used to execute a block of code based on whether a certain condition is true or false. In PHP, there are two types of conditionals: if and switch statements.
 
 ### If statement
-The if statement is used to execute a block of code if a certain condition is true. For example:
+The if statement is used to execute a block of code if a certain condition is true. 
 
 ```php
 if ($a > $b) {
@@ -39,7 +39,7 @@ if ($a > $b) {
 ```
 
 ### Switch statement
-The switch statement is used to execute a block of code based on the value of a variable. For example:
+The switch statement is used to execute a block of code based on the value of a variable. 
 
 ```php
 switch ($color) {
@@ -59,7 +59,7 @@ switch ($color) {
 Loops are used to execute a block of code repeatedly. In PHP, there are several types of loops, including for, while, do-while, and foreach loops.
 
 ### For loop
-The for loop is used to execute a block of code a specific number of times. For example:
+The for loop is used to execute a block of code a specific number of times. 
 
 ```php
 for ($i = 0; $i < 10; $i++) {
@@ -68,7 +68,7 @@ for ($i = 0; $i < 10; $i++) {
 ```
 
 ### While loop
-The while loop is used to execute a block of code as long as a certain condition is true. For example:
+The while loop is used to execute a block of code as long as a certain condition is true.
 
 ```php
 $i = 0;
@@ -79,7 +79,7 @@ while ($i < 10) {
 ```
 
 ### Do-while loop
-The do-while loop is similar to the while loop, except that it executes the block of code at least once, even if the condition is false. For example:
+The do-while loop is similar to the while loop, except that it executes the block of code at least once, even if the condition is false.
 
 ```php
 $i = 0;
@@ -90,7 +90,7 @@ do {
 ```
 
 ### Foreach loop
-The foreach loop is used to iterate over arrays and objects. For example:
+The foreach loop is used to iterate over arrays and objects. 
 
 ```php
 $colors = array("red", "green", "blue");
@@ -103,7 +103,7 @@ foreach ($colors as $color) {
 Branching statements are used to change the order of execution of a program. In PHP, there are three types of branching statements: break, continue, and goto.
 
 ### Break statement
-The break statement is used to terminate the execution of a loop or switch statement. For example:
+The break statement is used to terminate the execution of a loop or switch statement. 
 
 ```php
 for ($i = 0; $i < 10; $i++) {
@@ -115,7 +115,7 @@ for ($i = 0; $i < 10; $i++) {
 ```
 
 ### Continue statement
-The continue statement is used to skip to the next iteration of a loop. For example:
+The continue statement is used to skip to the next iteration of a loop.
 
 ```php
 for ($i = 0; $i < 10; $i++) {
@@ -127,7 +127,7 @@ for ($i = 0; $i < 10; $i++) {
 ```
 
 ### Goto statement
-The goto statement is used to jump to a specific line of code in a program. However, the use of goto is generally discouraged, as it can make the code harder to read and understand. For example:
+The goto statement is used to jump to a specific line of code in a program. However, the use of goto is generally discouraged, as it can make the code harder to read and understand.
 
 ```php
 <?php
