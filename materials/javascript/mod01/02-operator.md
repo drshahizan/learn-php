@@ -112,7 +112,7 @@ Overall, expressions are an essential part of JavaScript programming, as they en
 ## HTML code
 An example HTML code that demonstrates the use of operators and expressions in JavaScript:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
