@@ -26,25 +26,25 @@ PHP is used by many popular websites, including Facebook, Wikipedia, and WordPre
 ## Key topics to learn PHP
 A table outlining key topics to learn PHP step by step for beginners:
 
-| Step | Topic                                          |
-|------|------------------------------------------------|
-| 1    | Introduction to PHP syntax and variables       |
-| 2    | Working with data types and operators          |
-| 3    | Controlling program flow with loops and if-else statements |
-| 4    | Using arrays and functions                     |
-| 5    | Working with strings and regular expressions   |
-| 6    | Introduction to object-oriented programming in PHP |
-| 7    | Creating and using classes and objects          |
-| 8    | Handling errors and exceptions in PHP          |
-| 9    | Interacting with databases using PHP and SQL   |
-| 10   | Working with files and directories in PHP      |
+| Step | Topic |
+|:----:|------------------------------------------------|
+| 1 | Introduction to PHP syntax and variables |
+| 2 | Working with data types and operators |
+| 3 | Controlling program flow with loops and if-else statements |
+| 4 | Using arrays and functions |
+| 5 | Working with strings and regular expressions |
+| 6 | Introduction to object-oriented programming in PHP |
+| 7 | Creating and using classes and objects |
+| 8 | Handling errors and exceptions in PHP |
+| 9 | Interacting with databases using PHP and SQL |
+| 10 | Working with files and directories in PHP |
 
 ## Key topics to learn PHP and MySQL
 
 A table outlining some key topics to learn PHP and MySQL step by step for beginners, along with a case study for a university academic course registration system:
 
 | Step | Topic                                                   |
-|------|---------------------------------------------------------|
+|:----:|---------------------------------------------------------|
 | 1 | Introduction to PHP and MySQL syntax and installation    |
 | 2 | Setting up a development environment with PHP and MySQL  |
 | 3 | Creating a database for the registration system          |
