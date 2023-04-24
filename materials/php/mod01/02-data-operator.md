@@ -21,11 +21,11 @@ Sure, here's an example table with information about PHP data types:
 
 | Data Type | Description | Example |
 | --- | --- | --- |
-| String | A sequence of characters. In PHP, you can declare a string by enclosing the characters in either single quotes or double quotes. | `$name = "John";` <br> $message = 'Hello, World!'; |
-| Integer | A whole number with no decimal places | `$age = 30;` |
-| Float | A number with decimal places | `$price = 3.99;` |
-| Boolean | A data type with two possible values: true or false | `$is_student = true;` |
-| Array | A data structure that stores multiple values in a single variable | `$colors = ["red", "green", "blue"];` |
+| String | A sequence of characters. In PHP, you can declare a string by enclosing the characters in either single quotes or double quotes. | - `$name = "Dr MSO";` // double quotes <br> - `$message = 'Hello, World!';`// single quotes |
+| Integer | A whole number with no decimal places. In PHP, you can declare an integer simply by assigning a number to a variable. | `$age = 30;` |
+| Float | A number with decimal places. In PHP, you can declare a float by assigning a number with a decimal point to a variable. | `$price = 3.99;` |
+| Boolean | A data type with two possible values: true or false. In PHP, you can declare a boolean by assigning either true or false to a variable. | `$is_student = true;` |
+| Array | A data structure that stores multiple values in a single variable. In PHP, you can declare an array by using square brackets and separating the values with commas. | `$colors = ["red", "green", "blue"];` |
 | Object | An instance of a class | `$person = new Person();` |
 | Null | A variable with no value | `$name = null;` |
 | Resource | A special variable that holds a reference to an external resource | `$file_handle = fopen("file.txt", "r");` |
