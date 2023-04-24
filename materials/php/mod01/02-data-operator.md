@@ -17,6 +17,21 @@ When working with data types and operators in PHP, it's important to understand 
 
 Overall, mastering data types and operators in PHP is essential for developing efficient and effective PHP code. With these skills, you can create robust and dynamic applications that can handle a wide range of use cases.
 
+Sure, here's an example table with information about PHP data types:
+
+| Data Type | Description | Example |
+| --- | --- | --- |
+| String | A sequence of characters. In PHP, you can declare a string by enclosing the characters in either single quotes or double quotes. | `$name = "John";` <br> $message = 'Hello, World!'; |
+| Integer | A whole number with no decimal places | `$age = 30;` |
+| Float | A number with decimal places | `$price = 3.99;` |
+| Boolean | A data type with two possible values: true or false | `$is_student = true;` |
+| Array | A data structure that stores multiple values in a single variable | `$colors = ["red", "green", "blue"];` |
+| Object | An instance of a class | `$person = new Person();` |
+| Null | A variable with no value | `$name = null;` |
+| Resource | A special variable that holds a reference to an external resource | `$file_handle = fopen("file.txt", "r");` |
+
+This table lists some of the most common data types used in PHP, along with a brief description and an example of how to use them. By understanding the characteristics of each data type, you can choose the right one for your specific use case and write more effective PHP code.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
