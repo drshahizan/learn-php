@@ -25,12 +25,11 @@ Sure, here is a table outlining the topics to learn Bootstrap step-by-step for b
 |:------:|-------|-------------|
 | 1 | Introduction to Bootstrap | Learn what Bootstrap is, its benefits, and how it works |
 | 2 | Downloading Bootstrap | Download and install Bootstrap, including its CSS, JavaScript, and fonts |
-| 3 | Basic HTML and CSS | Review basic HTML and CSS concepts and syntax |
-| 4 | Bootstrap Grid System | Learn how to use the Bootstrap grid system to create responsive layouts |
-| 5 | Bootstrap CSS classes | Explore and learn the most common Bootstrap CSS classes, including buttons, forms, and typography |
-| 6 | Bootstrap JavaScript plugins | Learn how to use Bootstrap's JavaScript plugins to add interactivity and functionality to your web pages |
-| 7 | Customizing Bootstrap | Discover how to customize the appearance of Bootstrap to match your design needs, including modifying the default color scheme and creating custom styles |
-| 8 | Advanced Bootstrap topics | Explore advanced Bootstrap topics, including using Sass with Bootstrap, working with Bootstrap themes, and creating custom Bootstrap components |
+| 3 | Bootstrap Grid System | Learn how to use the Bootstrap grid system to create responsive layouts |
+| 4 | Bootstrap CSS classes | Explore and learn the most common Bootstrap CSS classes, including buttons, forms, and typography |
+| 5 | Bootstrap JavaScript plugins | Learn how to use Bootstrap's JavaScript plugins to add interactivity and functionality to your web pages |
+| 6 | Customizing Bootstrap | Discover how to customize the appearance of Bootstrap to match your design needs, including modifying the default color scheme and creating custom styles |
+| 7 | Advanced Bootstrap topics | Explore advanced Bootstrap topics, including using Sass with Bootstrap, working with Bootstrap themes, and creating custom Bootstrap components |
 
 By following these steps, beginners can gradually learn the basics of Bootstrap and gradually advance to more advanced topics.
 
