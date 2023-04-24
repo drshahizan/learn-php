@@ -9,9 +9,9 @@ Don't forget to hit the :star: if you like this repo.
 
 # Introduction to PHP syntax and variables
 
-PHP (Hypertext Preprocessor) is a popular server-side scripting language used to develop dynamic websites and web applications. Its syntax is similar to C, Java, and Perl, and it is easy to learn for beginners. Here are some key points about PHP syntax and variables:
+PHP (Hypertext Preprocessor) is a popular server-side scripting language used to develop dynamic websites and web applications. Its syntax is similar to C, Java, and Perl, and it is easy to learn for beginners. 
 
-Sure, here's a table outlining some important PHP syntax:
+## Key points about PHP syntax
 
 | Syntax | Description |
 | ------ | ----------- |
@@ -31,6 +31,30 @@ Sure, here's a table outlining some important PHP syntax:
 
 These are just some of the most common syntax elements in PHP. There are many more syntax elements available in PHP, and the language is constantly evolving with new features and updates.
 
+## PHP code
+
+```php
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// This is a comment in PHP code
+$message = "Hello, World!"; // Assigning a string value to the $message variable
+echo $message; // Outputting the value of the $message variable to the web page
+?>
+
+</body>
+</html>
+```
+
+This code starts with the standard HTML5 document structure, with a head and body section. Within the body section, the PHP code is enclosed in the `<?php` and `?>` tags. 
+
+The code first creates a comment using `//`, which is used for single-line comments in PHP. Then, it declares a variable named `$message` and assigns it the value `"Hello, World!"`. Note that variables in PHP are always preceded by a dollar sign `$`.
+
+Finally, the `echo` statement is used to output the value of the `$message` variable to the web page. This will display the text "Hello, World!" on the web page when it is viewed in a web browser.
+
+Overall, this example demonstrates some basic PHP syntax, including variable declaration and assignment, comments, and outputting values to the web page.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
