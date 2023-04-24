@@ -126,7 +126,49 @@ In the example above, we create two variables `$name` and `$age` with values "Jo
 ## Regular expressions
 Regular expressions are a powerful way to search and manipulate strings. In PHP, you can use regular expressions with the `preg_match` and `preg_replace` functions to search for and replace text that matches a certain pattern. Regular expressions use special characters and syntax to define patterns, such as `^` to match the start of a string, `$` to match the end of a string, and `.` to match any single character.
 
-A table summarizing the most commonly used functions and syntax for working with strings and regular expressions in PHP:
+
+### How to Use Regular Expressions in PHP
+
+In PHP, you can use regular expressions with a variety of functions, including `preg_match()`, `preg_replace()`, and `preg_split()`. These functions use a syntax called PCRE (Perl Compatible Regular Expressions), which is a widely-used standard for regular expressions.
+
+### Example Code
+
+Here are some examples of how to use regular expressions in PHP:
+
+#### 1. Matching a Pattern
+
+```php
+$text = "The quick brown fox jumps over the lazy dog.";
+if (preg_match("/quick.*fox/", $text)) {
+  echo "Match found!";
+} else {
+  echo "Match not found.";
+}
+```
+
+In this example, we have a string variable `$text` that contains a sentence. We then use the `preg_match()` function to search for a pattern that matches the word "quick", followed by any characters (`.*`), followed by the word "fox". If the pattern is found, the function returns a truthy value, and we output "Match found!". Otherwise, we output "Match not found.".
+
+#### 2. Replacing Text
+
+```php
+$text = "Hello, World!";
+$new_text = preg_replace("/Hello/", "Goodbye", $text);
+echo $new_text; // Output: Goodbye, World!
+```
+
+In this example, we have a string variable `$text` that contains a greeting. We then use the `preg_replace()` function to replace the word "Hello" with the word "Goodbye". The resulting string is assigned to a variable `$new_text`, and we output the new string to the screen using `echo`.
+
+#### 3. Splitting a String
+
+```php
+$text = "apple,banana,orange";
+$fruits = preg_split("/,/", $text);
+print_r($fruits); // Output: Array ( [0] => apple [1] => banana [2] => orange )
+```
+
+In this example, we have a string variable `$text` that contains a list of fruits separated by commas. We then use the `preg_split()` function to split the string into an array of substrings, using the comma character as a delimiter. The resulting array is assigned to a variable `$fruits`, and we output the array to the screen using `print_r()`.
+
+## Summarizing strings and regular expressions in PHP:
 
 | Task | Function | Syntax |
 | --- | --- | --- |
