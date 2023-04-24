@@ -11,6 +11,20 @@ Don't forget to hit the :star: if you like this repo.
 
 Controlling program flow is an essential part of any programming language, including PHP. Program flow refers to the order in which the statements of a program are executed. In PHP, there are several ways to control program flow, including conditionals, loops, and branching statements.
 
+| Statement | Description |
+| --- | --- |
+| `if`/`else` | Evaluates a condition and executes a block of code if the condition is true. If the condition is false, the code in the `else` block is executed. |
+| `switch` | Evaluates an expression and executes code blocks based on the value of the expression. |
+| `for` | Executes a block of code a specified number of times, based on a starting value, an ending value, and a step value. |
+| `while` | Executes a block of code as long as a specified condition is true. |
+| `do...while` | Executes a block of code once, and then repeats the code as long as a specified condition is true. |
+| `foreach` | Iterates over each element in an array or collection and executes a block of code for each element. |
+| `break` | Terminates the execution of a loop or switch statement. |
+| `continue` | Skips to the next iteration of a loop. |
+| `return` | Terminates the execution of a function and returns a value to the caller. |
+| `throw` | Throws an exception, which can be caught and handled by an exception handler. |
+
+Note that these are not the only control flow statements available in PHP, but they are some of the most commonly used ones. Additionally, there are variations and combinations of these statements that can be used to achieve more complex control flow logic in your programs.
 1. Conditionals: Conditionals are used to execute a block of code based on whether a certain condition is true or false. In PHP, there are two types of conditionals: if and switch statements.
 
 - If statement: The if statement is used to execute a block of code if a certain condition is true. For example:
