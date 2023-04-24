@@ -56,6 +56,30 @@ Finally, the `echo` statement is used to output the value of the `$message` vari
 
 Overall, this example demonstrates some basic PHP syntax, including variable declaration and assignment, comments, and outputting values to the web page.
 
+## PHP variables
+
+In PHP, a variable is a container that holds a value or reference to a value. A variable can be thought of as a named storage location in memory. You can use variables to store and manipulate data in your PHP code. 
+
+Variable names in PHP must start with a dollar sign `$`, followed by a valid name. A valid variable name consists of letters, numbers, and underscores, and must begin with a letter or underscore. Variable names are case-sensitive, so `$foo` and `$FOO` are two different variables.
+
+PHP is a loosely typed language, which means you do not need to declare the data type of a variable before using it. The data type of a variable is determined dynamically based on the value assigned to it. For example, you can assign a string value to a variable, and then later assign an integer value to the same variable, without having to declare the variable as a string or integer.
+
+Here's an example of how to declare and use variables in PHP:
+
+```php
+<?php
+  $name = "DR MSO"; // Assigning a string value to a variable
+  $age = 30; // Assigning an integer value to a variable
+  $is_student = true; // Assigning a boolean value to a variable
+
+  echo "My name is $name and I am $age years old. Am I a student? " . ($is_student ? "Yes" : "No"); // Outputting the values of the variables to the web page
+?>
+```
+
+In this example, we declare three variables named `$name`, `$age`, and `$is_student`. We assign a string value to `$name`, an integer value to `$age`, and a boolean value to `$is_student`. We then use the `echo` statement to output a message that includes the values of these variables.
+
+Overall, variables are a fundamental concept in PHP and are used extensively throughout PHP code. They allow you to store and manipulate data, making your code more flexible and powerful.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
