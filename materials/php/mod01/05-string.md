@@ -73,7 +73,7 @@ In the example above, we create two variables `$name` and `$age` with values "MS
 ### String Manipulation
 Certainly! Here are some examples of how to concatenate, trim, split, and format strings in PHP:
 
-#### 1.Concatenating Strings
+#### 1. Concatenating Strings
 
 You can concatenate two or more strings in PHP using the `.` (dot) operator. 
 
@@ -110,7 +110,7 @@ print_r($words); // Output: Array ( [0] => This [1] => is [2] => a [3] => sample
 
 In the example above, we create a string variable `$text` that contains a sample text. We then use the `explode()` function to split the string into an array of substrings, using the space character as a delimiter. The resulting array is assigned to a variable `$words`, and we output the array to the screen using `print_r()`.
 
-#### 4.Formatting Strings
+#### 4. Formatting Strings
 
 You can format a string using placeholders and format specifiers in PHP. 
 
