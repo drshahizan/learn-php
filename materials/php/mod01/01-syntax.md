@@ -66,19 +66,37 @@ PHP is a loosely typed language, which means you do not need to declare the data
 
 Here's an example of how to declare and use variables in PHP:
 
+Sure, here's an example of PHP code that demonstrates variables:
+
 ```php
 <?php
-  $name = "DR MSO"; // Assigning a string value to a variable
-  $age = 30; // Assigning an integer value to a variable
-  $is_student = true; // Assigning a boolean value to a variable
+  // declare and initialize variables
+  $name = "Dr MSO";
+  $age = 30;
+  $height = 1.75;
+  $is_student = true;
 
-  echo "My name is $name and I am $age years old. Am I a student? " . ($is_student ? "Yes" : "No"); // Outputting the values of the variables to the web page
+  // output values of variables
+  echo "My name is $name. I am $age years old and $height meters tall.";
+  echo " Am I a student? " . ($is_student ? "Yes" : "No");
+
+  // manipulate variables
+  $age += 5; // add 5 to the age variable
+  $height *= 100; // multiply the height variable by 100
+  $is_student = false; // change the value of the is_student variable
+
+  // output new values of variables
+  echo "In 5 years, I will be $age years old.";
+  echo " My height in centimeters is $height.";
+  echo " Am I a student now? " . ($is_student ? "Yes" : "No");
 ?>
 ```
 
-In this example, we declare three variables named `$name`, `$age`, and `$is_student`. We assign a string value to `$name`, an integer value to `$age`, and a boolean value to `$is_student`. We then use the `echo` statement to output a message that includes the values of these variables.
+In this example, we declare and initialize several variables of different data types. We then output the values of these variables using the `echo` statement. 
 
-Overall, variables are a fundamental concept in PHP and are used extensively throughout PHP code. They allow you to store and manipulate data, making your code more flexible and powerful.
+Next, we manipulate the values of some of these variables using basic arithmetic operators. We update the `$age` variable by adding 5 to it, we update the `$height` variable by multiplying it by 100, and we change the value of the `$is_student` variable from true to false.
+
+Finally, we output the new values of these variables using the `echo` statement. This demonstrates how variables can be updated and manipulated throughout the course of a PHP script.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
