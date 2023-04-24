@@ -77,21 +77,21 @@ function greet(name) {
 greet('Alice');
 ```
 
-### 3. In conditional statements:
+### 3. In conditional statements
 ```javascript
 if (a > 0 && b < 10) {
   // do something
 }
 ```
 
-### 4. In loops:
+### 4. In loops
 ```javascript
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 ```
 
-### 5. As a return value from a function:
+### 5. As a return value from a function
 ```javascript
 function multiply(a, b) {
   return a * b;
@@ -99,7 +99,7 @@ function multiply(a, b) {
 let c = multiply(2, 4);
 ```
 
-An expression can be made up of variables, values, operators, function calls, and any combination of these. For example:
+An expression can be made up of variables, values, operators, function calls, and any combination of these. 
 ```javascript
 let a = 5;
 let b = 10;
