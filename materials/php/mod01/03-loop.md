@@ -25,7 +25,9 @@ Controlling program flow is an essential part of any programming language, inclu
 | `throw` | Throws an exception, which can be caught and handled by an exception handler. |
 
 Note that these are not the only control flow statements available in PHP, but they are some of the most commonly used ones. Additionally, there are variations and combinations of these statements that can be used to achieve more complex control flow logic in your programs.
-1. Conditionals: Conditionals are used to execute a block of code based on whether a certain condition is true or false. In PHP, there are two types of conditionals: if and switch statements.
+
+## 1. Conditionals
+Conditionals are used to execute a block of code based on whether a certain condition is true or false. In PHP, there are two types of conditionals: if and switch statements.
 
 - If statement: The if statement is used to execute a block of code if a certain condition is true. For example:
 
@@ -51,7 +53,8 @@ switch ($color) {
 }
 ```
 
-2. Loops: Loops are used to execute a block of code repeatedly. In PHP, there are several types of loops, including for, while, do-while, and foreach loops.
+## 2. Loops
+Loops are used to execute a block of code repeatedly. In PHP, there are several types of loops, including for, while, do-while, and foreach loops.
 
 - For loop: The for loop is used to execute a block of code a specific number of times. For example:
 
@@ -90,7 +93,8 @@ foreach ($colors as $color) {
 }
 ```
 
-3. Branching statements: Branching statements are used to change the order of execution of a program. In PHP, there are three types of branching statements: break, continue, and goto.
+## 3. Branching statements: 
+Branching statements are used to change the order of execution of a program. In PHP, there are three types of branching statements: break, continue, and goto.
 
 - Break statement: The break statement is used to terminate the execution of a loop or switch statement. For example:
 
