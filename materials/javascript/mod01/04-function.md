@@ -60,33 +60,33 @@ Overall, functions are a powerful feature of JavaScript that enable developers t
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Function Example</title>
-</head>
-<body>
-	<h1>Function Example</h1>
+  <head>
+    <title>Function Example</title>
+  </head>
+  <body>
+    <h1>Function Example</h1>
 
-	<p>Enter two numbers:</p>
-	<input type="number" id="num1">
-	<input type="number" id="num2">
-	<button onclick="addNumbers()">Add</button>
+    <p>Enter two numbers:</p>
+    <input type="number" id="num1" />
+    <input type="number" id="num2" />
+    <button onclick="addNumbers()">Add</button>
 
-	<p>Result: <span id="result"></span></p>
+    <p>Result: <span id="result"></span></p>
 
-	<script>
-		function addNumbers() {
-			// Get the input values
-			const num1 = parseInt(document.getElementById('num1').value);
-			const num2 = parseInt(document.getElementById('num2').value);
+    <script>
+      function addNumbers() {
+        // Get the input values
+        const num1 = parseInt(document.getElementById("num1").value);
+        const num2 = parseInt(document.getElementById("num2").value);
 
-			// Add the numbers together
-			const sum = num1 + num2;
+        // Add the numbers together
+        const sum = num1 + num2;
 
-			// Update the result span with the sum
-			document.getElementById('result').innerText = sum;
-		}
-	</script>
-</body>
+        // Update the result span with the sum
+        document.getElementById("result").innerText = sum;
+      }
+    </script>
+  </body>
 </html>
 ```
 
