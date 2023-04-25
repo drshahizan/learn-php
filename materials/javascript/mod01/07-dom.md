@@ -117,7 +117,7 @@ In this example, the JavaScript code uses the DOM to access the elements on the 
 ## Case study
 An example HTML file and JavaScript code that demonstrate how to use the DOM to build a university academic course registration system
 
-HTML file (registration.html):
+### HTML file (registration.html):
 
 ```html
 <!DOCTYPE html>
@@ -157,7 +157,7 @@ HTML file (registration.html):
 </html>
 ```
 
-JavaScript file (registration.js):
+### JavaScript file (registration.js):
 
 ```javascript
 // Get the form and results elements by their IDs
