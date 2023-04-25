@@ -19,6 +19,33 @@ Bootstrap also includes a range of pre-built components, such as carousels, moda
 
 Overall, Bootstrap is a powerful tool for web developers looking to create responsive and mobile-first web pages quickly and easily, without sacrificing design quality or consistency.
 
+## How Bootstrap works?
+
+Bootstrap works by providing a set of pre-written HTML, CSS, and JavaScript code snippets that can be used to build responsive and mobile-first web pages. The framework is based on a grid system that allows developers to easily create layouts that adapt to different screen sizes and resolutions.
+
+To use Bootstrap, developers typically start by including the Bootstrap CSS and JavaScript files in their HTML page. This provides access to the various Bootstrap components and styles.
+
+Developers can then use the Bootstrap classes to create various UI elements such as buttons, forms, tables, and navigation menus. Bootstrap also includes pre-built components such as modals, carousels, and popovers that can be easily integrated into a web page.
+
+One of the key features of Bootstrap is its responsive design capabilities. Bootstrap's grid system allows developers to create layouts that automatically adjust based on the size of the screen, making it easy to create web pages that look great on both desktop and mobile devices.
+
+Bootstrap also includes a wide range of CSS classes and JavaScript plugins that can be used to add interactivity to a web page. For example, the Bootstrap Collapse plugin can be used to create collapsible content sections, while the Bootstrap Tooltip plugin can be used to add tooltips to UI elements.
+
+Steps involved in using Bootstrap:
+
+| Step | Description |
+| --- | --- |
+| 1 | Download or include the Bootstrap CSS and JavaScript files in your HTML page. |
+| 2 | Use the Bootstrap classes to create UI elements such as buttons, forms, tables, and navigation menus. |
+| 3 | Utilize the grid system to create responsive layouts that adjust based on the size of the screen. |
+| 4 | Customize the various Bootstrap components and styles to fit your specific project's needs. |
+| 5 | Integrate pre-built Bootstrap components such as modals, carousels, and popovers into your web page. |
+| 6 | Add interactivity to your web page using Bootstrap's CSS classes and JavaScript plugins. |
+| 7 | Test your web page on different devices and screen sizes to ensure it looks and functions as expected. |
+| 8 | Deploy your web page to a web server and make it available to users. |
+| 9 | Maintain and update your web page as needed, keeping in mind any updates or changes to the Bootstrap framework. |
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
