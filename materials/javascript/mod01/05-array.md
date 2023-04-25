@@ -138,6 +138,85 @@ We also define a `showFruits()` function that displays the fruits in the array a
 
 Finally, we call the `showFruits()` function once at the end of the script to display the initial array on the web page.
 
+## Case study
+An example of an HTML file with a JavaScript array and some functions that simulate a university academic course registration system:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course Registration System</title>
+  </head>
+  <body>
+    <h1>Course Registration System</h1>
+    <p>Select your courses from the list below:</p>
+    <form>
+      <select id="courseList">
+        <option value="">--Select a Course--</option>
+        <option value="CSC101">Introduction to Computer Science</option>
+        <option value="MAT201">Linear Algebra</option>
+        <option value="ENG101">English Composition</option>
+        <option value="PSY101">Introduction to Psychology</option>
+      </select>
+      <button type="button" onclick="addCourse()">Add Course</button>
+      <button type="button" onclick="removeCourse()">Remove Course</button>
+    </form>
+    <h2>Selected Courses:</h2>
+    <ul id="selectedCourses"></ul>
+    <script>
+      // Define an array to store the selected courses
+      const selectedCourses = [];
+
+      // Function to add a course to the array
+      function addCourse() {
+        const courseList = document.getElementById("courseList");
+        const selectedCourse = courseList.value;
+        if (selectedCourse) {
+          selectedCourses.push(selectedCourse);
+          showSelectedCourses();
+        }
+      }
+
+      // Function to remove a course from the array
+      function removeCourse() {
+        const selectedCoursesList = document.getElementById("selectedCourses");
+        const lastCourse = selectedCourses.pop();
+        if (lastCourse) {
+          const courseItem = document.getElementById(lastCourse);
+          selectedCoursesList.removeChild(courseItem);
+        }
+      }
+
+      // Function to display the selected courses
+      function showSelectedCourses() {
+        const selectedCoursesList = document.getElementById("selectedCourses");
+        selectedCoursesList.innerHTML = "";
+        selectedCourses.forEach(function(course) {
+          const li = document.createElement("li");
+          li.textContent = course;
+          li.id = course;
+          selectedCoursesList.appendChild(li);
+        });
+      }
+    </script>
+  </body>
+</html>
+```
+
+In this example, we first define an empty array (`const selectedCourses = [];`) to store the selected courses.
+
+Then we create two functions to add and remove courses from the array:
+
+- `addCourse()`: Gets the value of the selected course from the `<select>` element, and if a course is selected, it adds it to the `selectedCourses` array using the `push()` method. Then it calls the `showSelectedCourses()` function to display the updated list of selected courses.
+
+- `removeCourse()`: Removes the last course from the `selectedCourses` array using the `pop()` method. Then it finds and removes the corresponding list item from the unordered list using its `id` attribute.
+
+We also define a `showSelectedCourses()` function that displays the selected courses in an unordered list on the web page. It first clears any existing list items (`selectedCoursesList.innerHTML = "";`), then loops through the `selectedCourses` array using the `forEach()` method to create a new list item for each course and append it to the unordered list.
+
+In the HTML code, we create a `<select>` element with options for several courses, and two buttons to add and remove courses from the selected courses list. We also create an empty unordered list (`<ul>`) with the id `selectedCourses` where the selected courses will be displayed.
+
+This example is a simplified simulation of a university course registration system where students can select and remove courses from a list of available courses.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
