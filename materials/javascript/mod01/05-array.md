@@ -40,7 +40,7 @@ const myArray = ["apple", "banana", "orange"];
 myArray[1] = "pear";
 console.log(myArray); // ["apple", "pear", "orange"]
 ```
-## built-in methods 
+## Built-in methods 
 Arrays have a number of built-in methods that you can use to manipulate and work with them, such as `push()`, `pop()`, `shift()`, `unshift()`, `slice()`, `splice()`, `concat()`, `sort()`, `reverse()`, and `forEach()`. These methods allow you to add, remove, and modify elements in an array, as well as perform operations on each element.
 
 ```javascript
@@ -69,6 +69,74 @@ allFruits.forEach(function(fruit) {
   console.log(fruit);
 }); // logs each element in the array to the console
 ```
+
+## Code
+An example of an HTML file with a JavaScript array and some functions that manipulate the array:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Arrays Example</title>
+  </head>
+  <body>
+    <h1>JavaScript Arrays Example</h1>
+    <p>Click the buttons to manipulate the array:</p>
+    <button onclick="addFruit()">Add Fruit</button>
+    <button onclick="removeLast()">Remove Last Fruit</button>
+    <button onclick="showLength()">Show Length</button>
+    <ul id="fruitList"></ul>
+    <script>
+      // Define an array of fruits
+      const fruits = ["apple", "banana", "orange"];
+
+      // Function to add a new fruit to the array
+      function addFruit() {
+        const newFruit = prompt("Enter a new fruit:");
+        fruits.push(newFruit);
+        showFruits();
+      }
+
+      // Function to remove the last fruit from the array
+      function removeLast() {
+        fruits.pop();
+        showFruits();
+      }
+
+      // Function to show the length of the array
+      function showLength() {
+        alert("The length of the array is: " + fruits.length);
+      }
+
+      // Function to display the fruits in the array
+      function showFruits() {
+        const fruitList = document.getElementById("fruitList");
+        fruitList.innerHTML = "";
+        fruits.forEach(function(fruit) {
+          const li = document.createElement("li");
+          li.textContent = fruit;
+          fruitList.appendChild(li);
+        });
+      }
+
+      // Call the showFruits function to display the initial array
+      showFruits();
+    </script>
+  </body>
+</html>
+```
+
+In this example, we first define an array of fruits (`const fruits = ["apple", "banana", "orange"];`) and then create three functions that manipulate the array:
+
+- `addFruit()`: Prompts the user to enter a new fruit and adds it to the end of the array using the `push()` method. Then it calls the `showFruits()` function to display the updated array.
+
+- `removeLast()`: Removes the last fruit from the array using the `pop()` method. Then it calls the `showFruits()` function to display the updated array.
+
+- `showLength()`: Shows an alert with the length of the array using the `length` property.
+
+We also define a `showFruits()` function that displays the fruits in the array as an unordered list on the web page. It first clears any existing list items (`fruitList.innerHTML = "";`), then loops through the array using the `forEach()` method to create a new list item for each fruit and append it to the unordered list.
+
+Finally, we call the `showFruits()` function once at the end of the script to display the initial array on the web page.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
