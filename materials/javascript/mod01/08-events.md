@@ -8,7 +8,6 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Events
-
 In JavaScript, events are actions or occurrences that happen in a web page or application, such as a user clicking on a button, scrolling down a page, or the page finishing loading. Handling events in JavaScript involves writing code to respond to these events when they occur. 
 
 ## The steps involved in handling events in JavaScript
@@ -37,7 +36,29 @@ document.getElementById("myButton").addEventListener("click", function() {
 });
 ```
 
-In summary, handling events in JavaScript involves identifying the event, attaching an event listener to the triggering element, writing an event handler function, and responding to the event inside the event handler function.
+> In summary, handling events in JavaScript involves identifying the event, attaching an event listener to the triggering element, writing an event handler function, and responding to the event inside the event handler function.
+
+Types of events in JavaScript
+
+| Event Type | Description | Example |
+| --- | --- | --- |
+| `click` | User clicks on an element | Clicking a button to submit a form |
+| `submit` | User submits a form | Pressing the Enter key while in a form field |
+| `keyup` | User releases a key on the keyboard | Releasing the Enter key after typing in a form field |
+| `keydown` | User presses a key on the keyboard | Pressing the Tab key to move between form fields |
+| `mousemove` | User moves the mouse | Moving the mouse over a dropdown menu |
+| `load` | Page finishes loading | All resources (images, scripts, etc.) have finished loading |
+| `unload` | Page is unloaded or closed | User navigates away from the page or closes the browser |
+| `focus` | Element gains focus | Clicking on a form field to type in it |
+| `blur` | Element loses focus | Moving the focus away from a form field |
+| `change` | Value of an input element changes | Selecting a different option in a dropdown menu |
+| `mouseover` | Mouse pointer enters an element | Moving the mouse over a link |
+| `mouseout` | Mouse pointer leaves an element | Moving the mouse away from a link |
+| `resize` | Window or element is resized | Resizing the browser window |
+| `scroll` | User scrolls the page or an element | Scrolling through a long web page |
+| `contextmenu` | User right-clicks on an element | Right-clicking on an image to save it |
+
+Note that this is not an exhaustive list and there are many other types of events in JavaScript. Additionally, different elements may support different types of events.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
