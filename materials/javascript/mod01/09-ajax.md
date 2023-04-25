@@ -82,6 +82,71 @@ In JavaScript, there are several types of APIs that developers can use to intera
 
 It's worth noting that this is not an exhaustive list and there may be other types of APIs that exist in JavaScript. Additionally, some APIs may fall into multiple categories. For example, a server-side API may also be a third-party API if it's provided by an external service.
 
+## Case study
+An example HTML and JavaScript code that uses the Fetch API to read data from a "readme.txt" file and displays it in a table. This code is based on the case study of a university academic course registration system.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Registration System</title>
+	<script>
+		window.onload = function() {
+			fetch('readme.txt')
+				.then(response => response.text())
+				.then(text => {
+					const courses = text.split('\n').map(line => line.split(','));
+					const table = document.getElementById('course-table');
+					courses.forEach(course => {
+						const row = document.createElement('tr');
+						course.forEach(item => {
+							const cell = document.createElement('td');
+							cell.textContent = item;
+							row.appendChild(cell);
+						});
+						table.appendChild(row);
+					});
+				});
+		}
+	</script>
+</head>
+<body>
+	<h1>Course Registration System</h1>
+	<table id="course-table">
+		<thead>
+			<tr>
+				<th>Course Code</th>
+				<th>Course Name</th>
+				<th>Instructor</th>
+				<th>Schedule</th>
+				<th>Room</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+</body>
+</html>
+```
+
+### `readme.txt` file 
+
+```
+CSC101, Introduction to Computer Science, DR MSO, MWF 10:00-11:30, Room 101
+MAT201, Calculus I, El Insyiraah, TTH 13:00-14:30, Room 201
+ENG102, Composition and Literature, Adam Shah, MWF 13:00-14:30, Room 102
+PSY301, Social Psychology, Moganakumaran A/L Selvakumaran, TTH 10:00-11:30, Room 301
+HIS201, World History, Ikhmal Syazreel, MWF 9:00-10:30, Room 201
+```
+
+In this example, the file contains the course code, name, instructor, schedule, and room for five different courses offered by the university. Each line represents a separate course, and the values are separated by commas. 
+
+You can modify the content of the file to include information about the courses offered by your university, such as course prerequisites, credit hours, and descriptions.
+In this code, the `fetch()` method is used to read the content of a text file named "readme.txt". The file contains information about the university courses, such as the course code, name, instructor, schedule, and room. The content of the file is split into lines and each line is split into an array of items using the comma as a delimiter.
+
+The resulting array of course data is then used to populate a table with the `id` "course-table". The `forEach()` method is used to iterate over the array and create a new row in the table for each course. For each item in the course array, a new cell is created and added to the row.
+
+When the page loads, the `onload` event is fired, and the `fetch()` method is called to retrieve the course data from the file. Once the data is received, the table is populated with the course information.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
