@@ -19,7 +19,7 @@ One of the advantages of using libraries and frameworks is that they can save ti
 
 However, it's important to note that using libraries and frameworks can also come with some downsides. For example, relying too heavily on external code can make it difficult to maintain and debug applications, especially if updates to the library or framework break existing functionality. Additionally, some libraries and frameworks may not be well-suited to every project, and developers may need to spend time evaluating their options to find the best fit for a particular use case.
 
-## Popular JavaScript libraries
+## JavaScript libraries
 
 | No. | Library | Description |
 | --- | ------- | ----------- |
@@ -34,7 +34,45 @@ However, it's important to note that using libraries and frameworks can also com
 | 9 | Axios | A promise-based HTTP client for making API requests in JavaScript |
 | 10 | Lodash | A JavaScript utility library providing functions for common programming tasks |
 
-## Popular JavaScript frameworks 
+### jQuery
+jQuery is a fast, small, and feature-rich JavaScript library that simplifies DOM manipulation and event handling. It provides an easy-to-use API for traversing and manipulating HTML documents, handling events, and creating animations.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Example</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Include the jQuery library from a CDN -->
+	<script>
+		$(document).ready(function() {
+			// Code to run when the document is ready
+			$("button").click(function() {
+				// Code to run when a button is clicked
+				$("p").toggle(); // Toggle the visibility of all paragraphs
+			});
+		});
+	</script>
+	<!-- Include a script tag with your jQuery code -->
+</head>
+<body>
+	<h1>jQuery Example</h1>
+	<button>Toggle Paragraphs</button>
+	<!-- A button to trigger the jQuery code -->
+	<p>Paragraph 1</p>
+	<p>Paragraph 2</p>
+	<!-- Two paragraphs to manipulate with jQuery -->
+</body>
+</html>
+```
+
+In this example, we first include the jQuery library from a CDN by adding a script tag with the source URL. We then write our jQuery code inside a script tag with the "document.ready" function. This function ensures that the jQuery code runs only after the document has finished loading.
+
+Inside the "document.ready" function, we attach a click event handler to the button element. When the button is clicked, the "toggle" method is called on all paragraphs on the page, which toggles their visibility.
+
+Overall, jQuery simplifies DOM manipulation and event handling, making it a popular choice for front-end web development.
+
+##  JavaScript frameworks 
 
 | No. | Framework | Description |
 | --- | --------- | ----------- |
