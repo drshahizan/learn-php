@@ -87,7 +87,7 @@ In JavaScript, there are three types of loops: the `for` loop, the `while` loop,
 ### 1. The `for` loop
 The `for` loop is used to iterate over a range of values. You can specify the starting value, the ending value, and the increment or decrement between each iteration. Here's an example:
 
-```html
+```javascript
 for (let i = 0; i < 10; i++) {
    // code to execute repeatedly
 }
@@ -98,7 +98,7 @@ In this example, the loop will execute 10 times, with the value of `i` starting 
 ### 2. The `while` loop
 The `while` loop is used to execute a block of code while a certain condition is true. Here's an example:
 
-```html
+```javascript
 while (condition) {
    // code to execute repeatedly
 }
@@ -109,7 +109,7 @@ In this example, the loop will execute repeatedly as long as the condition is tr
 ### 3. The `do-while` loop
 The `do-while` loop is similar to the `while` loop, but the condition is checked at the end of each iteration instead of the beginning. This ensures that the loop body is executed at least once. Here's an example:
 
-```html
+```javascript
 do {
    // code to execute repeatedly
 } while (condition);
@@ -119,7 +119,7 @@ In this example, the loop body will be executed at least once, and then repeated
 
 Here's an example of how you can use loops in a web page with HTML and JavaScript:
 
-```html
+```javascript
 <!DOCTYPE html>
 <html>
 <head>
