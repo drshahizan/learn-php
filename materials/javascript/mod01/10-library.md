@@ -40,30 +40,31 @@ jQuery is a fast, small, and feature-rich JavaScript library that simplifies DOM
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>jQuery Example</title>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<!-- Include the jQuery library from a CDN -->
-	<script>
-		$(document).ready(function() {
-			// Code to run when the document is ready
-			$("button").click(function() {
-				// Code to run when a button is clicked
-				$("p").toggle(); // Toggle the visibility of all paragraphs
-			});
-		});
-	</script>
-	<!-- Include a script tag with your jQuery code -->
-</head>
-<body>
-	<h1>jQuery Example</h1>
-	<button>Toggle Paragraphs</button>
-	<!-- A button to trigger the jQuery code -->
-	<p>Paragraph 1</p>
-	<p>Paragraph 2</p>
-	<!-- Two paragraphs to manipulate with jQuery -->
-</body>
+  <head>
+    <title>jQuery Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include the jQuery library from a CDN -->
+    <script>
+      $(document).ready(function () {
+        // Code to run when the document is ready
+        $("button").click(function () {
+          // Code to run when a button is clicked
+          $("p").toggle(); // Toggle the visibility of all paragraphs
+        });
+      });
+    </script>
+    <!-- Include a script tag with your jQuery code -->
+  </head>
+  <body>
+    <h1>jQuery Example</h1>
+    <button>Toggle Paragraphs</button>
+    <!-- A button to trigger the jQuery code -->
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <!-- Two paragraphs to manipulate with jQuery -->
+  </body>
 </html>
+
 ```
 
 In this example, we first include the jQuery library from a CDN by adding a script tag with the source URL. We then write our jQuery code inside a script tag with the "document.ready" function. This function ensures that the jQuery code runs only after the document has finished loading.
@@ -72,7 +73,169 @@ Inside the "document.ready" function, we attach a click event handler to the but
 
 Overall, jQuery simplifies DOM manipulation and event handling, making it a popular choice for front-end web development.
 
-##  JavaScript frameworks 
+### React
+React is a popular JavaScript library for building user interfaces. It provides a declarative and efficient way to create reusable UI components, making it easier to build and maintain large web applications.
+
+Here's an example of how to use React in an HTML document:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Example</title>
+    <!-- Include the React and React DOM libraries from a CDN -->
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Define a React component using JSX -->
+    <script type="text/babel">
+      function App() {
+        return (
+          <div>
+            <h1>Hello, React!</h1>
+            <p>This is a paragraph.</p>
+          </div>
+        );
+      }
+
+      // Render the React component to the DOM
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
+
+```
+
+In this example, we include the React, React DOM, and Babel libraries from a CDN. Babel is a JavaScript compiler that allows us to write JSX code in our HTML document. We then define a React component called "App", which returns some HTML elements using JSX syntax.
+
+Finally, we use the ReactDOM.render method to render the "App" component to the DOM, passing in the root element as the target.
+
+### Three.js
+Three.js is a popular JavaScript library used for creating 3D graphics in the web browser. It provides a simple and powerful API for creating and manipulating 3D objects, scenes, and animations.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Three.js Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  </head>
+  <body>
+    <div id="canvas-container"></div>
+    <script>
+      // Create a Three.js scene
+      const scene = new THREE.Scene();
+
+      // Create a camera and add it to the scene
+      const camera = new THREE.PerspectiveCamera(
+        75,
+        window.innerWidth / window.innerHeight,
+        0.1,
+        1000
+      );
+      camera.position.z = 5;
+      scene.add(camera);
+
+      // Create a renderer and add it to the document
+      const renderer = new THREE.WebGLRenderer();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.getElementById("canvas-container").appendChild(renderer.domElement);
+
+      // Create a cube and add it to the scene
+      const geometry = new THREE.BoxGeometry();
+      const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+      const cube = new THREE.Mesh(geometry, material);
+      scene.add(cube);
+
+      // Render the scene
+      renderer.render(scene, camera);
+    </script>
+  </body>
+</html>
+```
+
+In this example, we first include the Three.js library from a CDN by adding a script tag with its source URL. We then create a Three.js scene, camera, and renderer. We set the camera's position and add it to the scene.
+
+Next, we create a cube geometry and material and add it to the scene as a Mesh object. Finally, we render the scene using the renderer.
+
+Overall, Three.js is a powerful library for creating 3D graphics and animations in the browser. With it, you can easily create and manipulate 3D objects and scenes, apply materials and textures, and add lighting and animation effects.
+
+### Chart.js
+Chart.js is a popular JavaScript library for creating interactive and customizable charts and graphs in web applications. Here's an example of how to use Chart.js in an HTML document:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <canvas id="myChart"></canvas>
+    <script>
+      // Get the canvas element and context
+      const canvas = document.getElementById("myChart");
+      const ctx = canvas.getContext("2d");
+
+      // Create the chart data
+      const data = {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [
+          {
+            label: "Sales",
+            data: [150, 200, 250, 300, 350, 400, 450],
+            backgroundColor: "rgba(54, 162, 235, 0.2)",
+            borderColor: "rgba(54, 162, 235, 1)",
+            borderWidth: 1,
+          },
+          {
+            label: "Expenses",
+            data: [100, 150, 200, 250, 300, 350, 400],
+            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            borderColor: "rgba(255, 99, 132, 1)",
+            borderWidth: 1,
+          },
+        ],
+      };
+
+      // Create the chart options
+      const options = {
+        responsive: true,
+        scales: {
+          yAxes: [
+            {
+              ticks: {
+                beginAtZero: true,
+              },
+            },
+          ],
+        },
+      };
+
+      // Create the chart
+      const chart = new Chart(ctx, {
+        type: "bar",
+        data: data,
+        options: options,
+      });
+    </script>
+  </body>
+</html>
+```
+
+In this example, we first include the Chart.js library from a CDN by adding a script tag with its source URL. We then create a canvas element with an ID of "myChart" that will be used to render the chart.
+
+Next, we create the chart data and options as JavaScript objects. The data object contains labels and datasets arrays that specify the chart labels and values, along with some styling options. The options object sets some chart options, such as making the chart responsive and setting the y-axis to start at zero.
+
+Finally, we create a new Chart instance with the canvas context, chart type, data, and options. This will render the chart on the canvas element.
+
+Chart.js supports many different chart types, including line charts, bar charts, pie charts, and more. It also allows for further customization and interactivity, such as adding tooltips, animations, and event listeners.
+
+## JavaScript Framework
 
 | No. | Framework | Description |
 | --- | --------- | ----------- |
