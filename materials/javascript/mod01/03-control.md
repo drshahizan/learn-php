@@ -198,6 +198,123 @@ The `calculate()` function is called when the user clicks the "Calculate" button
 
 In this way, `try-catch` blocks can be used to handle exceptions and prevent your program from crashing if an unexpected error occurs.
 
+## Case study
+An example of the complete HTML and JavaScript code for the university academic course registration system, using only two functions:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course Registration System</title>
+  </head>
+  <body>
+    <h1>Course Registration System</h1>
+    <label for="courses">Select a Course:</label>
+    <select id="courses"></select>
+    <br />
+    <label for="name">Name:</label>
+    <input type="text" id="name" />
+    <br />
+    <label for="id">Student ID:</label>
+    <input type="text" id="id" />
+    <br />
+    <button onclick="register()">Register</button>
+    <br />
+    <ul id="course-list"></ul>
+    <script>
+      const courses = [
+        {
+          code: "COMP101",
+          name: "Introduction to Computer Science",
+          credits: 3,
+          seats: 30,
+          enrolled: [],
+        },
+        {
+          code: "MATH101",
+          name: "Calculus I",
+          credits: 4,
+          seats: 20,
+          enrolled: [],
+        },
+        {
+          code: "PHYS101",
+          name: "Physics I",
+          credits: 4,
+          seats: 25,
+          enrolled: [],
+        },
+      ];
+
+      function displayCourses() {
+        const select = document.getElementById("courses");
+        for (let i = 0; i < courses.length; i++) {
+          const course = courses[i];
+          if (course.seats > 0) {
+            const option = document.createElement("option");
+            option.text = `${course.code} - ${course.name} (${course.credits} credits)`;
+            option.value = course.code;
+            select.add(option);
+          }
+        }
+      }
+
+      function register() {
+        const select = document.getElementById("courses");
+        const code = select.value;
+        const name = document.getElementById("name").value;
+        const id = document.getElementById("id").value;
+        const course = courses.find((c) => c.code === code);
+        if (!course) {
+          alert(`Invalid course code: ${code}.`);
+        } else if (course.seats === 0) {
+          alert(`Course ${course.code} is full.`);
+        } else if (course.enrolled.includes(id)) {
+          alert(`You are already enrolled in course ${course.code}.`);
+        } else {
+          course.seats--;
+          course.enrolled.push(id);
+          alert(
+            `Congratulations, ${name}! You have successfully registered for ${course.code} - ${course.name}.`
+          );
+        }
+        //displayCourses();
+        displayEnrollment();
+      }
+
+      function displayEnrollment() {
+        const list = document.getElementById("course-list");
+        list.innerHTML = "";
+        for (let i = 0; i < courses.length; i++) {
+          const course = courses[i];
+          const li = document.createElement("li");
+          li.innerHTML = `${course.code} - ${course.name} (${course.credits} credits) - Seats: ${course.seats} - Enrolled: ${course.enrolled.length}`;
+          list.appendChild(li);
+        }
+      }
+
+      displayCourses();
+      displayEnrollment();
+    </script>
+  </body>
+</html>
+
+```
+
+In this version of the code, there are only two functions: `displayCourses` and `register`. The `displayCourses` function generates a list of available courses based on the number of seats available in each course. The `register` function handles the course registration process, checking whether the selected course is valid, whether there are seats available, and whether the student is already enrolled in the course. If all checks pass, the function updates the course's seats and enrolled array, and displays a success message to the user.
+
+The displayEnrollment function is called after the register function, and updates the list of enrolled students for each course.
+
+When the page loads, both the displayCourses and displayEnrollment functions are called to generate the initial lists of available courses and enrolled students. Then, when the user clicks the "Register" button, the register function is called to handle the course registration process.
+
+Overall, this code provides a simple but functional course registration system for a university, using JavaScript control structures to handle user input and manage course enrollment.
+
+
+
+
+
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
