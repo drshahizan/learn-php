@@ -21,7 +21,7 @@ In programming, control structures are used to control the flow of execution of 
 ## Conditional statements
 In JavaScript, there are two types of conditional statements: the `if` statement and the `switch` statement.
 
-1. The `if` statement:
+### 1. The `if` statement
 The `if` statement allows you to execute a block of code if a certain condition is true. You can also include an `else` clause to execute a different block of code if the condition is false. Here's an example:
 
 ```javascript
@@ -32,7 +32,7 @@ if (condition) {
 }
 ```
 
-2. The `switch` statement:
+### 2. The `switch` statement
 The `switch` statement allows you to execute different blocks of code based on the value of a single variable. Here's an example:
 
 ```javascript
@@ -81,6 +81,76 @@ An example of how you can use conditional statements in a web page with HTML and
 
 In this example, the `checkAge()` function uses an `if` statement to check whether the user's age is less than 18, and displays a message accordingly. The message is displayed in a paragraph element with the `id` of "result". When the user clicks the "Check Age" button, the `checkAge()` function is called and the result is displayed on the page.
 
+## Loops
+In JavaScript, there are three types of loops: the `for` loop, the `while` loop, and the `do-while` loop. Each type of loop allows you to execute a block of code repeatedly, but they differ in the way that the loop condition is specified.
+
+### 1. The `for` loop
+The `for` loop is used to iterate over a range of values. You can specify the starting value, the ending value, and the increment or decrement between each iteration. Here's an example:
+
+```
+for (let i = 0; i < 10; i++) {
+   // code to execute repeatedly
+}
+```
+
+In this example, the loop will execute 10 times, with the value of `i` starting at 0 and incrementing by 1 on each iteration.
+
+### 2. The `while` loop
+The `while` loop is used to execute a block of code while a certain condition is true. Here's an example:
+
+```
+while (condition) {
+   // code to execute repeatedly
+}
+```
+
+In this example, the loop will execute repeatedly as long as the condition is true.
+
+### 3. The `do-while` loop
+The `do-while` loop is similar to the `while` loop, but the condition is checked at the end of each iteration instead of the beginning. This ensures that the loop body is executed at least once. Here's an example:
+
+```
+do {
+   // code to execute repeatedly
+} while (condition);
+```
+
+In this example, the loop body will be executed at least once, and then repeatedly as long as the condition is true.
+
+Here's an example of how you can use loops in a web page with HTML and JavaScript:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Loops Example</title>
+   <script>
+      function countdown() {
+         let count = 10;
+         let output = "";
+         
+         while (count >= 0) {
+            output += count + ", ";
+            count--;
+         }
+         
+         document.getElementById("result").innerHTML = output;
+      }
+   </script>
+</head>
+<body>
+   <h1>Loops Example</h1>
+   <p>Click the button to start the countdown:</p>
+   <button onclick="countdown()">Start Countdown</button>
+   <br>
+   <p id="result"></p>
+</body>
+</html>
+```
+
+In this example, the `countdown()` function uses a `while` loop to count down from 10 to 0, and displays the result on the page. The result is displayed in a paragraph element with the `id` of "result". When the user clicks the "Start Countdown" button, the `countdown()` function is called and the result is displayed on the page.
+
+I hope this example helps you understand how to use loops in JavaScript!
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
