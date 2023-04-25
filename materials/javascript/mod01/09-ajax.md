@@ -82,6 +82,66 @@ In JavaScript, there are several types of APIs that developers can use to intera
 
 It's worth noting that this is not an exhaustive list and there may be other types of APIs that exist in JavaScript. Additionally, some APIs may fall into multiple categories. For example, a server-side API may also be a third-party API if it's provided by an external service.
 
+## Code
+An example of using AJAX in JavaScript to fetch data from an API and display it on a webpage:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>AJAX Example</title>
+    <script>
+      function getWeather() {
+        // Create a new XHR object
+        let xhr = new XMLHttpRequest();
+
+        // Set up the API endpoint URL with a query parameter for the location (in this case, New York City)
+        let url = "https://api.openweathermap.org/data/2.5/weather?q=New York City&appid=your_api_key_here";
+
+        // Set the HTTP method and endpoint URL
+        xhr.open("GET", url);
+
+        // Set the response type to JSON
+        xhr.responseType = "json";
+
+        // Set up a callback function to handle the response
+        xhr.onload = function() {
+          if (xhr.status === 200) {
+            // If the request was successful, display the weather data in the result div
+            let weatherData = xhr.response;
+            let resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = `The current temperature in ${weatherData.name} is ${weatherData.main.temp} Kelvin.`;
+          } else {
+            // If the request failed, display an error message in the result div
+            let resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = "Error: Unable to retrieve weather data.";
+          }
+        };
+
+        // Send the request
+        xhr.send();
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Get Weather Data with AJAX</h1>
+    <button onclick="getWeather()">Get Weather</button>
+    <div id="result"></div>
+  </body>
+</html>
+```
+
+In this example, we define a `getWeather` function that uses the `XMLHttpRequest` object to make a GET request to the OpenWeatherMap API. The API endpoint URL includes a query parameter for the location (in this case, New York City) and an API key (which you'll need to replace with your own). We set the `responseType` property of the XHR object to "json" to indicate that we expect the response data to be in JSON format.
+
+We define an `onload` callback function that will be called when the response is received. If the HTTP status code is 200 (indicating a successful response), we extract the temperature data from the JSON response and display it in the result div using string interpolation. If the status code is anything other than 200, we display an error message in the result div.
+
+In the HTML, we define a button that calls the `getWeather` function when clicked, and a div with an id of "result" that will be used to display the weather data or error message.
+
+When the user clicks the "Get Weather" button, the `getWeather` function is called, which sends the AJAX request to the API. The response is handled asynchronously, meaning that the browser won't freeze while waiting for the response to be received. When the response is received, the `onload` callback function is called with the XHR object as its argument.
+
+In the `onload` function, we first check the HTTP status code to make sure the response was successful. If it was, we extract the temperature data from the JSON response using dot notation (`weatherData.main.temp`) and display it in the result div using string interpolation (`${weatherData.name}` and `${weatherData.main.temp}`). If the response was not successful, we display an error message in the result div.
+
 ## Case study
 An example HTML and JavaScript code that uses the Fetch API to read data from a "readme.txt" file and displays it in a table. This code is based on the case study of a university academic course registration system.
 
