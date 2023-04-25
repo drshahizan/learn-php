@@ -142,8 +142,6 @@ An example HTML and JavaScript code for a university academic course registratio
 
 In this example, there are two select elements: one for selecting the department and another for selecting the course. The JavaScript code defines an object called `courses` that contains the available courses for each department. When the department select element is changed, an event listener function is executed that gets the value of the selected department, clears the options in the course select element, and adds new options for each available course in the selected department using a forEach loop and the `createElement` and `appendChild` methods.
 
-Note that this is just a simplified example, and a real university academic course registration system would likely have many more features and require more complex event handling.
-
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
