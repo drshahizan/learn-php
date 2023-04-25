@@ -87,7 +87,7 @@ In JavaScript, there are three types of loops: the `for` loop, the `while` loop,
 ### 1. The `for` loop
 The `for` loop is used to iterate over a range of values. You can specify the starting value, the ending value, and the increment or decrement between each iteration. Here's an example:
 
-```
+```html
 for (let i = 0; i < 10; i++) {
    // code to execute repeatedly
 }
@@ -98,7 +98,7 @@ In this example, the loop will execute 10 times, with the value of `i` starting 
 ### 2. The `while` loop
 The `while` loop is used to execute a block of code while a certain condition is true. Here's an example:
 
-```
+```html
 while (condition) {
    // code to execute repeatedly
 }
@@ -109,7 +109,7 @@ In this example, the loop will execute repeatedly as long as the condition is tr
 ### 3. The `do-while` loop
 The `do-while` loop is similar to the `while` loop, but the condition is checked at the end of each iteration instead of the beginning. This ensures that the loop body is executed at least once. Here's an example:
 
-```
+```html
 do {
    // code to execute repeatedly
 } while (condition);
@@ -150,7 +150,53 @@ Here's an example of how you can use loops in a web page with HTML and JavaScrip
 
 In this example, the `countdown()` function uses a `while` loop to count down from 10 to 0, and displays the result on the page. The result is displayed in a paragraph element with the `id` of "result". When the user clicks the "Start Countdown" button, the `countdown()` function is called and the result is displayed on the page.
 
-I hope this example helps you understand how to use loops in JavaScript!
+## Handle exceptions
+In JavaScript, you can handle exceptions using `try-catch` blocks. The `try` block contains the code that may throw an exception, and the `catch` block is used to handle the exception if it is thrown. 
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Exception Handling Example</title>
+   <script>
+      function divide(a, b) {
+         try {
+            if (b === 0) {
+               throw "Division by zero error";
+            }
+            return a / b;
+         } catch (error) {
+            return error;
+         }
+      }
+      
+      function calculate() {
+         let num1 = document.getElementById("num1").value;
+         let num2 = document.getElementById("num2").value;
+         
+         let result = divide(num1, num2);
+         
+         document.getElementById("result").innerHTML = result;
+      }
+   </script>
+</head>
+<body>
+   <h1>Exception Handling Example</h1>
+   <p>Enter two numbers to divide:</p>
+   <input type="number" id="num1"><br>
+   <input type="number" id="num2"><br>
+   <button onclick="calculate()">Calculate</button>
+   <br>
+   <p id="result"></p>
+</body>
+</html>
+```
+
+In this example, the `divide()` function takes two parameters, `a` and `b`, and attempts to divide `a` by `b`. If `b` is equal to zero, the function throws an exception with the message "Division by zero error". Otherwise, it returns the result of the division.
+
+The `calculate()` function is called when the user clicks the "Calculate" button. It retrieves the values of `num1` and `num2` from the HTML input elements, and calls the `divide()` function with these values. If an exception is thrown, the `catch` block handles the exception and returns the error message. Otherwise, the result of the division is displayed on the page in a paragraph element with the `id` of "result".
+
+In this way, `try-catch` blocks can be used to handle exceptions and prevent your program from crashing if an unexpected error occurs.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
