@@ -18,6 +18,69 @@ In programming, control structures are used to control the flow of execution of 
 | Switch statements | Execute different code based on different values of a single variable | `switch (expression) { case value: code; break; default: code; }` |
 | Exception handling | JavaScript provides a try-catch-finally block for exception handling. This structure is used to handle errors that may occur during program execution. | `try { code } catch (error) { code } finally { code }` |
 
+## Conditional statements
+In JavaScript, there are two types of conditional statements: the `if` statement and the `switch` statement.
+
+1. The `if` statement:
+The `if` statement allows you to execute a block of code if a certain condition is true. You can also include an `else` clause to execute a different block of code if the condition is false. Here's an example:
+
+```javascript
+if (condition) {
+   // code to execute if the condition is true
+} else {
+   // code to execute if the condition is false
+}
+```
+
+2. The `switch` statement:
+The `switch` statement allows you to execute different blocks of code based on the value of a single variable. Here's an example:
+
+```javascript
+switch (expression) {
+   case value1:
+      // code to execute if expression equals value1
+      break;
+   case value2:
+      // code to execute if expression equals value2
+      break;
+   default:
+      // code to execute if expression doesn't match any of the cases
+}
+```
+
+An example of how you can use conditional statements in a web page with HTML and JavaScript:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Conditional Statements Example</title>
+   <script>
+      function checkAge() {
+         let age = document.getElementById("age").value;
+         
+         if (age < 18) {
+            document.getElementById("result").innerHTML = "You are not old enough to vote.";
+         } else {
+            document.getElementById("result").innerHTML = "You can vote!";
+         }
+      }
+   </script>
+</head>
+<body>
+   <h1>Conditional Statements Example</h1>
+   <p>Enter your age:</p>
+   <input type="text" id="age">
+   <br>
+   <button onclick="checkAge()">Check Age</button>
+   <br>
+   <p id="result"></p>
+</body>
+</html>
+```
+
+In this example, the `checkAge()` function uses an `if` statement to check whether the user's age is less than 18, and displays a message accordingly. The message is displayed in a paragraph element with the `id` of "result". When the user clicks the "Check Age" button, the `checkAge()` function is called and the result is displayed on the page.
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
