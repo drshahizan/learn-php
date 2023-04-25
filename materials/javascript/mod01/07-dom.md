@@ -66,6 +66,54 @@ myElement.addEventListener("click", function() {
 
 Overall, the DOM is a powerful tool for JavaScript developers, enabling them to create dynamic and interactive web pages that respond to user actions and update in real time.
 
+## Code
+An example HTML file and JavaScript code that demonstrate how to use the DOM to manipulate elements on a web page:
+
+### HTML file (dom.html):
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Example</title>
+  </head>
+  <body>
+    <h1 id="heading">Hello, World!</h1>
+    <p id="paragraph">This is a paragraph.</p>
+    <button id="button">Click me!</button>
+    <script src="dom.js"></script>
+  </body>
+</html>
+```
+
+### JavaScript file (dom.js):
+
+```javascript
+// Get the elements by their IDs
+var headingElement = document.getElementById("heading");
+var paragraphElement = document.getElementById("paragraph");
+var buttonElement = document.getElementById("button");
+
+// Change the text content of the heading element
+headingElement.textContent = "Welcome to my website!";
+
+// Change the text content and background color of the paragraph element
+paragraphElement.textContent = "This is a new paragraph.";
+paragraphElement.style.backgroundColor = "yellow";
+
+// Add a click event listener to the button element
+buttonElement.addEventListener("click", function() {
+  alert("Button clicked!");
+});
+
+// Create a new element and add it to the document
+var newElement = document.createElement("p");
+newElement.textContent = "This is a new paragraph added dynamically.";
+document.body.appendChild(newElement);
+```
+
+In this example, the JavaScript code uses the DOM to access the elements on the web page by their IDs, change their content and style, add an event listener to the button, and dynamically create and add a new element to the document. When the HTML file is opened in a web browser, the JavaScript code is executed and the web page is updated accordingly.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
