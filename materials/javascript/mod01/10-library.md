@@ -164,6 +164,87 @@ Next, we create a cube geometry and material and add it to the scene as a Mesh o
 
 Overall, Three.js is a powerful library for creating 3D graphics and animations in the browser. With it, you can easily create and manipulate 3D objects and scenes, apply materials and textures, and add lighting and animation effects.
 
+### D3.js
+D3.js is a popular JavaScript library for data visualization. It allows developers to create interactive and dynamic data-driven visualizations in web applications. Here is an example of how to use D3.js in an HTML document:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D3.js Example</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+  </head>
+  <body>
+    <svg id="myChart"></svg>
+    <script>
+      // Define the chart data
+      const data = [10, 20, 30, 40, 50];
+
+      // Define the SVG dimensions and margins
+      const margin = { top: 20, right: 20, bottom: 30, left: 50 };
+      const width = 600 - margin.left - margin.right;
+      const height = 400 - margin.top - margin.bottom;
+
+      // Create the SVG element
+      const svg = d3
+        .select("#myChart")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      // Define the x and y scales
+      const x = d3.scaleBand().range([0, width]).padding(0.1);
+      const y = d3.scaleLinear().range([height, 0]);
+
+      // Set the domain of the scales
+      x.domain(data.map((d) => d.toString()));
+      y.domain([0, d3.max(data)]);
+
+      // Create the x and y axes
+      const xAxis = d3.axisBottom(x);
+      const yAxis = d3.axisLeft(y);
+
+      // Add the x and y axes to the chart
+      svg
+        .append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+      svg.append("g").call(yAxis);
+
+      // Add the chart bars
+      svg
+        .selectAll(".bar")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", (d) => x(d.toString()))
+        .attr("y", (d) => y(d))
+        .attr("width", x.bandwidth())
+        .attr("height", (d) => height - y(d));
+    </script>
+  </body>
+</html>
+```
+
+In this example, we include the D3.js library from its official website by adding a script tag with its source URL. We then create an SVG element with an ID of "myChart" that will be used to render the chart.
+
+Next, we define the chart data as an array of numbers. We also define the SVG dimensions, margins, and scales as JavaScript variables.
+
+We then create the SVG element by selecting it with D3.js and setting its dimensions and margins. We also append a "g" element to translate the chart by the margins.
+
+Next, we define the x and y scales using the `d3.scaleBand()` and `d3.scaleLinear()` methods, respectively. We set the domain of the scales using the data array and some other methods.
+
+We then create the x and y axes using the `d3.axisBottom()` and `d3.axisLeft()` methods, respectively. We add the axes to the chart using the `svg.append("g")` and `call()` methods.
+
+Finally, we add the chart bars using the `svg.selectAll().data().enter().append()` method chain. We set the x and y positions of the bars using the x and y scales, and we set their width and height based on the dimensions of the SVG element.
+
+This example creates a simple bar chart using D3.js. However, D3.js is a powerful library that can be used to create many other types of data visualizations, including line charts, scatter plots, and more complex interactive visualizations.
+
+It's worth noting that this example uses the latest version of D3.js (version 6) which is different from earlier versions, so be sure to check the documentation and examples for the specific version you are using.
+
 ### Chart.js
 Chart.js is a popular JavaScript library for creating interactive and customizable charts and graphs in web applications. Here's an example of how to use Chart.js in an HTML document:
 
