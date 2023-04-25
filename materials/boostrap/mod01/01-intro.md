@@ -45,7 +45,27 @@ Steps involved in using Bootstrap:
 | 8 | Deploy your web page to a web server and make it available to users. |
 | 9 | Maintain and update your web page as needed, keeping in mind any updates or changes to the Bootstrap framework. |
 
+## Key points about Bootstrap:
 
+1. Responsive design: Bootstrap is designed to create responsive web pages that adapt to different screen sizes and resolutions, making it easy to build mobile-first websites.
+
+2. Grid system: Bootstrap includes a flexible grid system that allows developers to create layouts that adjust based on the size of the screen, making it easy to create consistent and responsive designs.
+
+3. Pre-built components: Bootstrap includes a wide range of pre-built components such as forms, buttons, and navigation menus that can be easily customized to fit a specific project's needs.
+
+4. Customizable styles: Bootstrap's CSS styles can be easily customized to fit a specific project's needs, allowing developers to create unique and visually appealing designs.
+
+5. JavaScript plugins: Bootstrap includes a range of JavaScript plugins that can be used to add interactivity and functionality to a web page, such as carousels, modals, and tooltips.
+
+6. Large community: Bootstrap has a large and active community of developers who contribute to the framework, providing extensive documentation and resources to support its use.
+
+7. Accessibility: Bootstrap is designed to be accessible to a wide range of users, with built-in support for screen readers and keyboard navigation.
+
+8. Cross-browser compatibility: Bootstrap is tested and supported across a wide range of web browsers, ensuring consistent performance and functionality.
+
+9. Open source: Bootstrap is an open-source framework, meaning that it is free to use and can be modified and redistributed by anyone.
+
+Overall, Bootstrap is a powerful and flexible framework that provides developers with a range of tools and resources to create responsive, mobile-first web pages quickly and easily.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
