@@ -60,6 +60,90 @@ Types of events in JavaScript
 
 Note that this is not an exhaustive list and there are many other types of events in JavaScript. Additionally, different elements may support different types of events.
 
+## Code
+An example HTML and JavaScript code that uses events
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Example</title>
+</head>
+<body>
+  <button id="myButton">Click me!</button>
+  <p id="myParagraph"></p>
+
+  <script>
+    // Add an event listener for the click event on the button
+    document.getElementById("myButton").addEventListener("click", function() {
+      // Update the text of the paragraph when the button is clicked
+      document.getElementById("myParagraph").textContent = "Button clicked!";
+    });
+  </script>
+</body>
+</html>
+```
+
+In this example, there is a button element with the ID "myButton" and a paragraph element with the ID "myParagraph". The JavaScript code adds an event listener for the click event on the button using the `addEventListener` method. When the button is clicked, the event handler function is executed, which updates the text of the paragraph element to say "Button clicked!" using the `textContent` property.
+
+## Case study
+An example HTML and JavaScript code for a university academic course registration system, which uses events to update the available courses when the selected department is changed:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Course Registration System</title>
+</head>
+<body>
+  <h1>Course Registration System</h1>
+
+  <label for="departmentSelect">Select Department:</label>
+  <select id="departmentSelect">
+    <option value="cs">Computer Science</option>
+    <option value="math">Mathematics</option>
+    <option value="phy">Physics</option>
+  </select><br>
+
+  <label for="courseSelect">Select Course:</label>
+  <select id="courseSelect"></select>
+
+  <script>
+    // Define an object that contains the available courses for each department
+    const courses = {
+      cs: ["Intro to Programming", "Data Structures", "Algorithms"],
+      math: ["Calculus I", "Calculus II", "Linear Algebra"],
+      phy: ["Classical Mechanics", "Quantum Mechanics", "Thermodynamics"]
+    };
+
+    // Get references to the department and course select elements
+    const departmentSelect = document.getElementById("departmentSelect");
+    const courseSelect = document.getElementById("courseSelect");
+
+    // Add an event listener for the change event on the department select element
+    departmentSelect.addEventListener("change", function() {
+      // Get the value of the selected department
+      const department = departmentSelect.value;
+
+      // Clear the options in the course select element
+      courseSelect.innerHTML = "";
+
+      // Add a new option for each available course in the selected department
+      courses[department].forEach(function(course) {
+        const option = document.createElement("option");
+        option.textContent = course;
+        courseSelect.appendChild(option);
+      });
+    });
+  </script>
+</body>
+</html>
+```
+
+In this example, there are two select elements: one for selecting the department and another for selecting the course. The JavaScript code defines an object called `courses` that contains the available courses for each department. When the department select element is changed, an event listener function is executed that gets the value of the selected department, clears the options in the course select element, and adds new options for each available course in the selected department using a forEach loop and the `createElement` and `appendChild` methods.
+
+Note that this is just a simplified example, and a real university academic course registration system would likely have many more features and require more complex event handling.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
