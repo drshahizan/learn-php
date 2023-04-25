@@ -220,6 +220,104 @@ This HTML file creates an object called `person` using object literal notation, 
 
 To run this code, save it as a `.html` file and open it in a web browser. Open the browser console to see the output of the JavaScript code.
 
+## Case Study
+Example HTML page with JavaScript object code for a university academic course registration system
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Course Registration System</title>
+</head>
+<body>
+  <h1>Course Registration System</h1>
+  
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+    
+    <label for="id">Student ID:</label>
+    <input type="text" id="id"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email"><br><br>
+    
+    <label for="course">Select a course:</label>
+    <select id="course">
+      <option value="CS101">Introduction to Computer Science</option>
+      <option value="ENG101">English Composition I</option>
+      <option value="HIS101">World History I</option>
+    </select><br><br>
+    
+    <input type="button" value="Register" onclick="register()">
+  </form>
+  
+  <script>
+    // Define the Student object
+    function Student(name, id, email) {
+      this.name = name;
+      this.id = id;
+      this.email = email;
+      this.courses = [];
+    }
+    
+    // Define the Course object
+    function Course(code, name, instructor) {
+      this.code = code;
+      this.name = name;
+      this.instructor = instructor;
+      this.students = [];
+    }
+    
+    // Create some sample students and courses
+    const student1 = new Student("John Smith", "12345", "jsmith@example.com");
+    const student2 = new Student("Jane Doe", "67890", "jdoe@example.com");
+    
+    const course1 = new Course("CS101", "Introduction to Computer Science", "Dr. Smith");
+    const course2 = new Course("ENG101", "English Composition I", "Dr. Johnson");
+    const course3 = new Course("HIS101", "World History I", "Dr. Williams");
+    
+    // Add the sample students to the courses
+    course1.students.push(student1);
+    course2.students.push(student2);
+    course3.students.push(student1, student2);
+    
+    // Register the student for the selected course
+    function register() {
+      const name = document.getElementById("name").value;
+      const id = document.getElementById("id").value;
+      const email = document.getElementById("email").value;
+      const courseCode = document.getElementById("course").value;
+      
+      const student = new Student(name, id, email);
+      let course;
+      
+      if (courseCode === "CS101") {
+        course = course1;
+      } else if (courseCode === "ENG101") {
+        course = course2;
+      } else if (courseCode === "HIS101") {
+        course = course3;
+      }
+      
+      course.students.push(student);
+      
+      alert("Registration successful!");
+    }
+  </script>
+</body>
+</html>
+```
+Sure, let me describe the coding used in the Course Registration System example.
+
+The HTML page contains a form where the user can input their name, student ID, email, and select a course from a drop-down list. When the user clicks the "Register" button, a JavaScript function called `register()` is called. This function creates a new `Student` object with the data entered in the form, and then finds the corresponding `Course` object based on the selected course code. It then adds the newly created `Student` object to the `students` array of the selected `Course` object. Finally, the function displays an alert message indicating that the registration was successful.
+
+The JavaScript code also defines the `Student` and `Course` objects using constructor functions. The `Student` object has properties for name, ID, email, and an array of enrolled courses. The `Course` object has properties for course code, name, instructor, and an array of enrolled students.
+
+The `register()` function creates a new `Student` object using the data entered in the form, and finds the corresponding `Course` object based on the selected course code. It then adds the newly created `Student` object to the `students` array of the selected `Course` object. This data is stored in memory for the duration of the program, but it could be stored persistently in a database for a real-world system.
+
+Overall, this coding example shows how JavaScript objects can be used to represent and manipulate data in a simple academic course registration system.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
