@@ -9,7 +9,6 @@ Don't forget to hit the :star: if you like this repo.
 
 # Objects
 
-
 In JavaScript, an object is a data structure that can store data and methods. It is an instance of a class, which is a blueprint for creating objects with specific properties and behaviors. 
 
 Objects in JavaScript are used to represent real-world entities or concepts, and they can be created using object literals or constructor functions. Object literals are a simple and concise way of creating objects using curly braces {} and key-value pairs, whereas constructor functions are used to create objects with more complex behaviors and properties.
@@ -20,11 +19,11 @@ Objects in JavaScript are dynamic, which means that properties and methods can b
 
 Overall, objects in JavaScript are a powerful tool for organizing and manipulating data and behavior, and they are used extensively in web development, data processing, and other programming domains.
 
-Sure! Here is a table of common types of objects in JavaScript, along with their description and an example code snippet:
+## Type of object in JavaScript
+A brief description of each type of object in JavaScript, along with a code example:
 
-| Type | Description | Example |
-| ---- | ----------- | ------- |
-| Object | The most basic type of object, which stores key-value pairs of data and methods. | 
+1. **Object**: The most basic type of object in JavaScript, which stores key-value pairs of data and methods. 
+
 ```javascript
 const person = {
   firstName: "John",
@@ -35,45 +34,191 @@ const person = {
   }
 };
 ```
-| Array | An object that stores an ordered list of values. | 
+
+2. **Array**: An object that stores an ordered list of values.
+
 ```javascript
 const fruits = ["apple", "banana", "orange"];
 console.log(fruits[1]); // "banana"
 ```
-| String | An object that represents a sequence of characters. |
+
+3. **String**: An object that represents a sequence of characters.
+
 ```javascript
 const greeting = "Hello, world!";
 console.log(greeting.length); // 13
 ```
-| Number | An object that represents a numeric value. |
+
+4. **Number**: An object that represents a numeric value.
+
 ```javascript
 const num = 42;
 console.log(num.toString()); // "42"
 ```
-| Boolean | An object that represents a boolean value (`true` or `false`). |
+
+5. **Boolean**: An object that represents a boolean value (`true` or `false`).
+
 ```javascript
 const isReady = true;
 console.log(!isReady); // false
 ```
-| Function | An object that represents a callable block of code. |
+
+6. **Function**: An object that represents a callable block of code.
+
 ```javascript
 function addNumbers(a, b) {
   return a + b;
 }
 console.log(addNumbers(2, 3)); // 5
 ```
-| Date | An object that represents a date and time. |
+
+7. **Date**: An object that represents a date and time.
+
 ```javascript
 const now = new Date();
 console.log(now.getFullYear()); // current year
 ```
-| RegExp | An object that represents a regular expression pattern. |
+
+8. **RegExp**: An object that represents a regular expression pattern.
+
 ```javascript
 const pattern = /hello/gi;
 console.log(pattern.test("Hello, world!")); // true
 ```
 
-These are just a few examples of the many types of objects in JavaScript. Each type has its own unique properties and methods for manipulating and accessing data.
+9. **Error**: An object that represents an error message.
+
+```javascript
+try {
+  // some code that might throw an error
+} catch(error) {
+  console.error(error.message);
+}
+```
+
+10. **Math**: An object that provides mathematical constants and functions.
+
+```javascript
+console.log(Math.PI); // 3.141592653589793
+console.log(Math.floor(2.99)); // 2
+```
+
+11. **JSON**: An object that provides methods for working with JSON (JavaScript Object Notation) data.
+
+```javascript
+const data = {
+  name: "John",
+  age: 30
+};
+const jsonString = JSON.stringify(data);
+console.log(jsonString); // {"name":"John","age":30}
+```
+
+12. **Promise**: An object that represents a value that may not be available yet, but will be resolved at some point in the future.
+
+```javascript
+const promise = new Promise(function(resolve, reject) {
+  // some async operation
+  if (success) {
+    resolve(result);
+  } else {
+    reject(error);
+  }
+});
+promise.then(function(result) {
+  console.log(result);
+}).catch(function(error) {
+  console.error(error);
+});
+```
+
+13. **Map**: An object that stores key-value pairs, similar to an object, but with additional methods for manipulating the data.
+
+```javascript
+const map = new Map();
+map.set("key1", "value1");
+map.set("key2", "value2");
+console.log(map.get("key1")); // "value1"
+```
+
+14. **Set**: An object that stores a collection of unique values.
+
+```javascript
+const set = new Set([1, 2, 3, 3, 4, 5]);
+console.log(set.size); // 5
+```
+
+15. **WeakMap**: An object that stores key-value pairs, but with weaker references to the keys, allowing them to be garbage collected if they are no longer used.
+
+```javascript
+const weakMap = new WeakMap();
+const key = {};
+weakMap.set(key, "value");
+console.log(weakMap.get(key)); // "value"
+```
+
+16. **WeakSet**: An object that stores a collection of weakly referenced objects.
+
+```javascript
+const weakSet = new WeakSet();
+const obj = {};
+weakSet.add(obj);
+console.log(weakSet.has(obj)); // true
+```
+
+These are just a few examples of the many types of objects available in JavaScript. Each object has its own unique properties and methods that can be used to manipulate and interact with the data stored within it.
+
+## Code
+An example HTML file with JavaScript code that demonstrates how to create and manipulate an object in JavaScript:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object Manipulation Example</title>
+  </head>
+  <body>
+    <h1>Object Manipulation Example</h1>
+    <p>Open the browser console to see the output.</p>
+    <script>
+      // Creating an object using object literal notation
+      const person = {
+        firstName: "Dr",
+        lastName: "MSO",
+        age: 30,
+        greet: function () {
+          console.log(
+            `Hello, my name is ${this.firstName} ${this.lastName} and I'm ${this.age} years old.`
+          );
+        },
+      };
+
+      // Accessing object properties
+      console.log(person.firstName);
+      console.log(person["lastName"]);
+
+      // Modifying object properties
+      person.age = 35;
+      console.log(person.age);
+
+      // Adding new properties and methods to the object
+      person.email = "drmso@example.com";
+      person.sayHello = function () {
+        console.log("Hello!");
+      };
+
+      // Calling object methods
+      person.greet();
+      person.sayHello();
+    </script>
+  </body>
+</html>
+
+```
+
+This HTML file creates an object called `person` using object literal notation, which has properties for first name, last name, age, and a `greet` method that logs a greeting message to the console. The JavaScript code also demonstrates how to access object properties, modify object properties, add new properties and methods to the object, and call object methods.
+
+To run this code, save it as a `.html` file and open it in a web browser. Open the browser console to see the output of the JavaScript code.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
