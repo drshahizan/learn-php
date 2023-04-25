@@ -21,18 +21,33 @@ However, it's important to note that using libraries and frameworks can also com
 
 ## Popular JavaScript libraries
 
-| No. | Library | Description | Example |
-| --- | ------- | ----------- | ------- |
-| 1 | jQuery | A fast, small, and feature-rich JavaScript library for DOM manipulation and event handling | `$('button').click(function() { alert('Hello, world!'); });` |
-| 2 | React | A JavaScript library for building user interfaces | `const element = <h1>Hello, world!</h1>; ReactDOM.render(element, document.getElementById('root'));` |
-| 3 | Vue.js | A progressive framework for building user interfaces | `new Vue({ el: '#app', data: { message: 'Hello, Vue.js!' } });` |
-| 4 | AngularJS | A JavaScript framework for building dynamic web applications | `<div ng-app="myApp" ng-controller="myCtrl"> {{ message }} </div>` |
-| 5 | D3.js | A JavaScript library for visualizing data using HTML, SVG, and CSS | `const svg = d3.select('svg'); svg.selectAll('circle').data(data).enter().append('circle').attr('cx', d => d.x).attr('cy', d => d.y).attr('r', d => d.r);` |
-| 6 | Three.js | A JavaScript library for creating 3D graphics on the web | `const scene = new THREE.Scene(); const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000); const renderer = new THREE.WebGLRenderer(); renderer.setSize(window.innerWidth, window.innerHeight); document.body.appendChild(renderer.domElement);` |
-| 7 | Chart.js | A simple yet flexible JavaScript charting library for creating interactive charts and graphs | `const ctx = document.getElementById('myChart').getContext('2d'); const myChart = new Chart(ctx, { type: 'bar', data: { labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'], datasets: [{ label: '# of Votes', data: [12, 19, 3, 5, 2, 3], backgroundColor: [ 'rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)' ], borderColor: [ 'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)' ], borderWidth: 1 }] }, options: { scales: { yAxes: [{ ticks: { beginAtZero: true } }] } } });` |
-| 8 | Moment.js | A JavaScript library for working with dates and times | `const now = moment(); console.log(now.format('MMMM Do YYYY, h:mm:ss a'));` |
-| 9 | Axios | A promise-based HTTP client for making API requests in JavaScript | `axios.get('/api/users') .then(response => console.log(response.data)) .catch(error => console.log(error));` |
-| 10 | Lodash | A JavaScript utility library providing functions for common programming tasks | `const numbers = [1, 2, 3, 4, 5]; const sum = _.sum(numbers); console.log(sum);` |
+| No. | Library | Description |
+| --- | ------- | ----------- |
+| 1 | jQuery | A fast, small, and feature-rich JavaScript library for DOM manipulation and event handling |
+| 2 | React | A JavaScript library for building user interfaces |
+| 3 | Vue.js | A progressive framework for building user interfaces |
+| 4 | AngularJS | A JavaScript framework for building dynamic web applications |
+| 5 | D3.js | A JavaScript library for visualizing data using HTML, SVG, and CSS |
+| 6 | Three.js | A JavaScript library for creating 3D graphics on the web |
+| 7 | Chart.js | A simple yet flexible JavaScript charting library for creating interactive charts and graphs |
+| 8 | Moment.js | A JavaScript library for working with dates and times |
+| 9 | Axios | A promise-based HTTP client for making API requests in JavaScript |
+| 10 | Lodash | A JavaScript utility library providing functions for common programming tasks |
+
+## Popular JavaScript frameworks 
+
+| No. | Framework | Description |
+| --- | --------- | ----------- |
+| 1 | Angular | A platform for building mobile and desktop web applications |
+| 2 | React | A JavaScript library for building user interfaces |
+| 3 | Vue.js | A progressive framework for building user interfaces |
+| 4 | Ember.js | A JavaScript framework for building scalable web applications |
+| 5 | Backbone.js | A lightweight JavaScript library for building scalable and maintainable web applications |
+| 6 | Meteor | A full-stack JavaScript framework for building real-time web applications |
+| 7 | Aurelia | A next-generation JavaScript framework for building web applications |
+| 8 | Polymer | A JavaScript library for building web components |
+| 9 | Svelte | A new way to build web applications by writing less code |
+| 10 | Next.js | A React-based framework for building server-side rendered web applications |
 
 
 ## Contribution 🛠️
