@@ -98,6 +98,80 @@ Note that the function is defined using the `function` keyword, followed by the 
 
 The function is called by adding an `onclick` attribute to the button HTML element, which tells the browser to execute the `addNumbers()` function when the button is clicked.
 
+## Case Study
+An example of a complete HTML and JavaScript code for a university academic course registration system:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Registration System</title>
+	<script>
+		// Define a function to register for a course
+		function registerForCourse() {
+			// Get the selected course from the dropdown
+			const course = document.getElementById("courseSelect").value;
+			
+			// Check if the course is already registered for
+			const registeredCourses = document.getElementById("registeredCourses").innerText;
+			if (registeredCourses.includes(course)) {
+				alert("You are already registered for this course.");
+				return;
+			}
+			
+			// Add the course to the list of registered courses
+			document.getElementById("registeredCourses").innerText += course + ", ";
+			
+			// Display a confirmation message
+			alert("You have successfully registered for " + course + ".");
+		}
+		
+		// Define a function to drop a course
+		function dropCourse() {
+			// Get the selected course from the dropdown
+			const course = document.getElementById("courseSelect").value;
+			
+			// Check if the course is registered for
+			const registeredCourses = document.getElementById("registeredCourses").innerText;
+			if (!registeredCourses.includes(course)) {
+				alert("You are not registered for this course.");
+				return;
+			}
+			
+			// Remove the course from the list of registered courses
+			const updatedCourses = registeredCourses.replace(course + ", ", "");
+			document.getElementById("registeredCourses").innerText = updatedCourses;
+			
+			// Display a confirmation message
+			alert("You have successfully dropped " + course + ".");
+		}
+	</script>
+</head>
+<body>
+	<h1>Course Registration System</h1>
+	
+	<p>Select a course to register for:</p>
+	<select id="courseSelect">
+		<option value="math101">Math 101</option>
+		<option value="english101">English 101</option>
+		<option value="history101">History 101</option>
+	</select>
+	
+	<button onclick="registerForCourse()">Register</button>
+	<button onclick="dropCourse()">Drop</button>
+	
+	<p>Registered Courses: <span id="registeredCourses"></span></p>
+</body>
+</html>
+```
+
+In this example, we have two functions: `registerForCourse()` and `dropCourse()`. The `registerForCourse()` function gets the selected course from a dropdown menu, checks if the student is already registered for the course, and adds the course to a list of registered courses. It also displays a confirmation message.
+
+The `dropCourse()` function gets the selected course from the dropdown menu, checks if the student is registered for the course, and removes the course from the list of registered courses. It also displays a confirmation message.
+
+The HTML code includes a dropdown menu to select a course, as well as two buttons to register for or drop the selected course. The list of registered courses is displayed below the buttons.
+
+This example demonstrates how functions can be used to implement complex features in a web application, such as a course registration system. By breaking the code down into smaller functions, we can make it easier to read, understand, and maintain.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
