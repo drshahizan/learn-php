@@ -20,6 +20,61 @@ Objects in JavaScript are dynamic, which means that properties and methods can b
 
 Overall, objects in JavaScript are a powerful tool for organizing and manipulating data and behavior, and they are used extensively in web development, data processing, and other programming domains.
 
+Sure! Here is a table of common types of objects in JavaScript, along with their description and an example code snippet:
+
+| Type | Description | Example |
+| ---- | ----------- | ------- |
+| Object | The most basic type of object, which stores key-value pairs of data and methods. | 
+```javascript
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+  greet: function() {
+    console.log(`Hello, my name is ${this.firstName} ${this.lastName} and I'm ${this.age} years old.`);
+  }
+};
+```
+| Array | An object that stores an ordered list of values. | 
+```javascript
+const fruits = ["apple", "banana", "orange"];
+console.log(fruits[1]); // "banana"
+```
+| String | An object that represents a sequence of characters. |
+```javascript
+const greeting = "Hello, world!";
+console.log(greeting.length); // 13
+```
+| Number | An object that represents a numeric value. |
+```javascript
+const num = 42;
+console.log(num.toString()); // "42"
+```
+| Boolean | An object that represents a boolean value (`true` or `false`). |
+```javascript
+const isReady = true;
+console.log(!isReady); // false
+```
+| Function | An object that represents a callable block of code. |
+```javascript
+function addNumbers(a, b) {
+  return a + b;
+}
+console.log(addNumbers(2, 3)); // 5
+```
+| Date | An object that represents a date and time. |
+```javascript
+const now = new Date();
+console.log(now.getFullYear()); // current year
+```
+| RegExp | An object that represents a regular expression pattern. |
+```javascript
+const pattern = /hello/gi;
+console.log(pattern.test("Hello, world!")); // true
+```
+
+These are just a few examples of the many types of objects in JavaScript. Each type has its own unique properties and methods for manipulating and accessing data.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
