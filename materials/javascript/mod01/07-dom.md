@@ -114,6 +114,102 @@ document.body.appendChild(newElement);
 
 In this example, the JavaScript code uses the DOM to access the elements on the web page by their IDs, change their content and style, add an event listener to the button, and dynamically create and add a new element to the document. When the HTML file is opened in a web browser, the JavaScript code is executed and the web page is updated accordingly.
 
+## Case study
+An example HTML file and JavaScript code that demonstrate how to use the DOM to build a university academic course registration system
+
+HTML file (registration.html):
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course Registration System</title>
+  </head>
+  <body>
+    <h1>Course Registration System</h1>
+    
+    <div id="form">
+      <h2>Register for Courses</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="major">Major:</label>
+        <input type="text" id="major" name="major"><br><br>
+        <label for="course1">Course 1:</label>
+        <input type="text" id="course1" name="course1"><br><br>
+        <label for="course2">Course 2:</label>
+        <input type="text" id="course2" name="course2"><br><br>
+        <label for="course3">Course 3:</label>
+        <input type="text" id="course3" name="course3"><br><br>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+    
+    <div id="results">
+      <h2>Registration Results</h2>
+      <p id="nameResult"></p>
+      <p id="majorResult"></p>
+      <ul id="courseList"></ul>
+    </div>
+    
+    <script src="registration.js"></script>
+  </body>
+</html>
+```
+
+JavaScript file (registration.js):
+
+```javascript
+// Get the form and results elements by their IDs
+var formElement = document.getElementById("form");
+var resultsElement = document.getElementById("results");
+
+// Add an event listener to the form submit button
+formElement.addEventListener("submit", function(event) {
+  // Prevent the default form submission behavior
+  event.preventDefault();
+  
+  // Get the input values from the form
+  var nameInput = document.getElementById("name").value;
+  var majorInput = document.getElementById("major").value;
+  var course1Input = document.getElementById("course1").value;
+  var course2Input = document.getElementById("course2").value;
+  var course3Input = document.getElementById("course3").value;
+  
+  // Display the input values in the results section
+  document.getElementById("nameResult").textContent = "Name: " + nameInput;
+  document.getElementById("majorResult").textContent = "Major: " + majorInput;
+  
+  var courseListElement = document.getElementById("courseList");
+  courseListElement.innerHTML = "";
+  
+  if (course1Input) {
+    var course1Element = document.createElement("li");
+    course1Element.textContent = course1Input;
+    courseListElement.appendChild(course1Element);
+  }
+  
+  if (course2Input) {
+    var course2Element = document.createElement("li");
+    course2Element.textContent = course2Input;
+    courseListElement.appendChild(course2Element);
+  }
+  
+  if (course3Input) {
+    var course3Element = document.createElement("li");
+    course3Element.textContent = course3Input;
+    courseListElement.appendChild(course3Element);
+  }
+  
+  // Show the results section
+  resultsElement.style.display = "block";
+});
+```
+
+In this example, the JavaScript code uses the DOM to access the form elements and results elements by their IDs, add an event listener to the form submit button, and dynamically create and add elements to display the registration results. When the user submits the form by clicking the submit button, the event listener function is called, which gets the input values from the form using the DOM's getElementById method, creates new elements using the createElement method, and sets their text content using the textContent property. It then adds the new elements to the DOM using the appendChild method, and shows the results section by setting its display style to "block".
+
+This university academic course registration system example allows students to enter their name, major, and up to three course selections. After submitting the form, the system displays the student's name, major, and the list of courses they have registered for in a formatted manner. The DOM is used to dynamically create and update the content of the page based on user input, providing a responsive and interactive user experience.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
