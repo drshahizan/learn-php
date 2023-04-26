@@ -22,16 +22,16 @@ You need to create the complete program code with the use of JavaScript. Name yo
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 01 | JS | Compute the exponent of a number |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | JS | Determine whether a number is even or odd |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab12" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | JS | Conditional Statement and loops |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab13" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | JS | Calculate the students' averages and grades |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab14" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | JS | Create a pattern with a nested for loop |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab15" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | JS | Create a JavaScript conditional statement to sort the numbers. |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | JS | Multiplication and division of two numbers |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | JS | Determine whether three given integer values fall within the range 50..99 |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 09 | JS | Converts upper case letters to lower case letters and vice versa |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | JS | Determine the longest word in a string |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 01 | JS | Compute the exponent of a number |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 02 | JS | Determine whether a number is even or odd |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 03 | JS | Conditional Statement and loops |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | JS | Calculate the students' averages and grades |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | JS | Create a pattern with a nested for loop |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | JS | Create a JavaScript conditional statement to sort the numbers. |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07 | JS | Multiplication and division of two numbers |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 08 | JS | Determine whether three given integer values fall within the range 50..99 |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 09 | JS | Converts upper case letters to lower case letters and vice versa |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 10 | JS | Determine the longest word in a string |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 
 
