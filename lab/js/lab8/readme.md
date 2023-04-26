@@ -15,11 +15,11 @@ Create a JavaScript programme to determine whether three given integer values ar
 
 **Output**: True
 
-<img src="./download/l8ajs.png"  width="300" />
+<img src="./download/l8ajs.png"  width="400" />
 
 **Figure 8.1**: Pictorial Presentation
 
-<img src="./download/l8bjs.png"  width="300" />
+<img src="./download/l8bjs.png"  width="200" />
 
 **Figure 8.2**: Flowchart
 
