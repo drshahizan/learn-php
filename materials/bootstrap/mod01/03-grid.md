@@ -103,7 +103,7 @@ By using the appropriate class prefixes, developers can create responsive layout
 
 ## Code
 
-### Three equal-width columns centered in the page using the Bootstrap Grid System
+### 1. Three equal-width columns centered in the page using the Bootstrap Grid System
 
 ```html
 <!DOCTYPE html>
@@ -152,6 +152,46 @@ By using the appropriate class prefixes, developers can create responsive layout
 In this code, we first include the Bootstrap CSS file and the necessary meta tags in the head section. The `container` class centers the columns in the page, while the `row` class creates a row to contain the columns. Each column is given the `col-sm-4`, `col-md-4`, `col-lg-4`, and `col-xl-4` classes to make them equal-width on small, medium, large, and extra large devices respectively. 
 
 I also added some sample content to the columns to show how they can be used. Finally, we include the necessary jQuery and Bootstrap JS files at the end of the body section for additional functionality.
+
+### 2. Auto-layout columns using breakpoint-specific column classes in the Bootstrap Grid System
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auto-Layout Columns</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Column 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+      </div>
+      <div class="col-md">
+        <h2>Column 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+      </div>
+      <div class="col">
+        <h2>Column 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+
+In this code, we first include the Bootstrap CSS file and the necessary meta tags in the head section. The `container` class centers the columns in the page, while the `row` class creates a row to contain the columns. 
+
+Instead of using explicit numbered classes like `col-sm-6`, we can use breakpoint-specific classes like `col-md` to allow the columns to automatically adjust their width based on the device screen size. In this example, the first and third columns are given the `col` class, which means they will occupy an equal amount of space in all screen sizes. The second column is given the `col-md` class, which means it will occupy the remaining space in medium and larger screen sizes, but an equal amount of space in small and extra small screen sizes.
+
+As before, I added some sample content to the columns to show how they can be used. Finally, we include the necessary jQuery and Bootstrap JS files at the end of the body section for additional functionality.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
