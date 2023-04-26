@@ -487,8 +487,6 @@ Vue.js provides many other features for building complex user interfaces, includ
 | Performance | Lightweight | Heavy         |
 | Community | Large        | Large         |
 
-Keep in mind that these points are generalizations, and may not apply to all libraries or frameworks. It's important to do your research and choose the tool that's best suited for your specific use case.
-
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
