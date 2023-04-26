@@ -12,16 +12,20 @@ Don't forget to hit the :star: if you like this repo.
 Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the result.
 
 Input : -5, -2, -6, 0, -1
+
 Output : 0
 
-abc
-Figure 3.1: Pictorial Presentation
+<img src="./download/l3ajs.png"  width="300" />
 
-abc
-Figure 3.2: Flowchart
+**Figure 3.1**: Pictorial Presentation
 
-abc
-Figure 3.3: Result
+<img src="./download/l3bjs.png"  width="300" />
+
+**Figure 3.2**: Flowchart
+
+<img src="./download/l3cjs.png"  width="300" />
+
+**Figure 3.3**: Result
 
 
 ## Contribution 🛠️
