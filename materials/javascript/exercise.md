@@ -14,6 +14,11 @@ JavaScript is a programming language that is widely used for creating interactiv
 Exercises in JavaScript typically involve working with variables, data types, functions, loops, conditional statements, objects, and arrays. These exercises are designed to help developers practice and improve their skills in programming with JavaScript. Continuous practice with exercises helps developers become more proficient in JavaScript and enables them to build more robust and sophisticated web applications.
 
 ## Lab: JavaScript (Basic)
+JavaScript is a dynamic programming language that's used for web development, in web applications. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS. JavaScript is a client-side scripting language, which means the source code is processed by the client's web browser rather than on the web server. This means JavaScript functions can run after a webpage has loaded without communicating with the server.
+
+This lab contains a total of 10 exercises related to JavaScript. There are various topics in this lab such as string manipulation, mathematical formulas, numbers, conditional statements and loops. A description, pictorial presentation, and flowchart will be provided for each lab exercise. In addition, there is an exercise lab with input values and outputs that must be produced.
+
+You need to create the complete program code with the use of JavaScript. Name your file based on the question number. For example for Lab1, name the file as lab1js.html. When you have completed all of the lab exercises, please zip the file and send it as labjs-basic.zip. Please ensure that each file contains the name of the group member who completed the assignment.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
