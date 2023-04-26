@@ -38,7 +38,7 @@ You need to create the complete program code with the use of JavaScript. Name yo
 ### JavaScript (Intermediate)
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 01 | JS | Compute the exponent of a number |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 01 | JS | Compute the exponent of a number |<a href="./lab/js/basic/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02 | JS | Determine whether a number is even or odd |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
 | 03 | JS | Conditional Statement and loops |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | JS | Calculate the students' averages and grades |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
