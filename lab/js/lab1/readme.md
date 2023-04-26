@@ -16,16 +16,19 @@ Write a JavaScript program to compute the exponent of a number. The exponent of 
 <p align="left">
 <img src="./download/l1ajs.png"  width="300" />
 </p>
+
 **Figure 1.1**: Pictorial Presentation
 
 <p align="left">
 <img src="./download/l1bjs.png" />
 </p>
+
 **Figure 1.2**: Flowchart
 
 <p align="left">
 <img src="./download/l1cjs.png"  width="300" />
 </p>
+
 **Figure 1.3**: Result
 
 ## Contribution 🛠️
