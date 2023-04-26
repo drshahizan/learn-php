@@ -352,7 +352,7 @@ Chart.js supports many different chart types, including line charts, bar charts,
 | No. | Framework | Description |
 | --- | --------- | ----------- |
 | 1 | [Angular](#1-angular-framework) | A platform for building mobile and desktop web applications |
-| 2 | React](#2-react-framework)  | A JavaScript library for building user interfaces |
+| 2 | [React](#2-react-framework)  | A JavaScript library for building user interfaces |
 | 3 | [Vue.js](#3-vuejs-framework)  | A progressive framework for building user interfaces |
 | 4 | Ember.js | A JavaScript framework for building scalable web applications |
 | 5 | Backbone.js | A lightweight JavaScript library for building scalable and maintainable web applications |
@@ -463,6 +463,31 @@ In this example, we include the Vue.js library from a CDN and create a simple Vu
 The `el` property is used to specify the element that the Vue instance will be mounted to, in this case the `div` element with the ID `app`.
 
 Vue.js provides many other features for building complex user interfaces, including computed properties, methods, directives, and more. The above example is just a starting point, and there are many other things you can do with Vue.js. It's worth checking out the official documentation and examples to learn more.
+
+## Key points about Libraries and Frameworks in JavaScript:
+
+|       | Libraries     | Frameworks    |
+|-------|---------------|---------------|
+| Usage | Provides      | Provides      |
+|       | pre-written   | a pre-defined |
+|       | functionality | structure     |
+|       | for specific  | for building   |
+|       | tasks         | applications  |
+|       |               |               |
+| Example 1  | jQuery        | React         |
+| Example 2  | Chart.js     | Angular       |
+| Example 3 | D3.js        | Vue.js        |
+|       |               |               |
+| Language  | JavaScript   | JavaScript    |
+| License   | Varies       | Varies        |
+| Size      | Small        | Large         |
+| Dependencies | Fewer    | More          |
+| Learning Curve | Easy   | Steep         |
+| Flexibility | Limited    | High          |
+| Performance | Lightweight | Heavy         |
+| Community | Large        | Large         |
+
+Keep in mind that these points are generalizations, and may not apply to all libraries or frameworks. It's important to do your research and choose the tool that's best suited for your specific use case.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
