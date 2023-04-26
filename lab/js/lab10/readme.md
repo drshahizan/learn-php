@@ -12,13 +12,14 @@ Don't forget to hit the :star: if you like this repo.
 Create a JavaScript function that takes a string as a parameter and returns the longest word in the string.
 
 **Input**:'Web Development Tutorial'
+
 **Output**:'Development'
 
-<img src="./download/l1ajs.png"  width="300" />
+<img src="./download/l10ajs.png"  width="300" />
 
 **Figure 10.1**: Pictorial Presentation
 
-<img src="./download/l1ajs.png"  width="300" />
+<img src="./download/l10bjs.png"  width="300" />
 
 **Figure 10.2**: Flowchart
 
