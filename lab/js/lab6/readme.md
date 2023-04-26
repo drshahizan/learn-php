@@ -11,9 +11,9 @@ Don't forget to hit the :star: if you like this repo.
 
 Create a JavaScript conditional statement to sort the numbers.
 
-Input: 56, 32, 53, 25, 19, 48
+**Input**: 56, 32, 53, 25, 19, 48
 
-Output: 56, 53, 48, 32, 25, 19
+**Output**: 56, 53, 48, 32, 25, 19
 
 <img src="./download/l6ajs.png" width="500" />
 
