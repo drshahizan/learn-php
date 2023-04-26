@@ -11,14 +11,16 @@ Don't forget to hit the :star: if you like this repo.
 
 Create a JavaScript function that takes a string as a parameter and converts upper case letters to lower case and lower case letters to upper case.
 
-Input: console.log(swapcase('PyThon'));
-Output: "pYtHON"
+**Input**: console.log(swapcase('PyThon'));
+**Output**: "pYtHON"
 
-abc
-Figure 9.1: Pictorial Presentation
+<img src="./download/l9ajs.png"  width="300" />
 
-abc
-Figure 9.2: Flowchart
+**Figure 9.1**: Pictorial Presentation
+
+<img src="./download/l9bjs.png"  width="300" />
+
+**Figure 9.2**: Flowchart
 
 
 ## Contribution 🛠️
