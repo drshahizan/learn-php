@@ -15,12 +15,12 @@ Input: 56, 32, 53, 25, 19, 48
 
 Output: 56, 53, 48, 32, 25, 19
 
-<img src="./download/l6ajs.png" width="400" />
+<img src="./download/l6ajs.png" width="500" />
 
 
 **Figure 6.1**: Pictorial Presentation
 
-<img src="./download/l6bjs.png" width="400" />
+<img src="./download/l6bjs.png" width="500" />
 
 **Figure 6.2**: Flowchart
 
