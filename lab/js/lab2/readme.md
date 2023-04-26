@@ -19,6 +19,13 @@ Test odd number:
 - Check whether a number is odd or even using the modulo (%) operator.
 - Return true if the number is odd, false if the number is even.
 
+<img src="./download/l2ajs.png"  width="200" />
+
+**Figure 2.1**: Pictorial Presentation
+
+<img src="./download/l2bjs.png"  width="200" />
+
+**Figure 2.2**: Result
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
