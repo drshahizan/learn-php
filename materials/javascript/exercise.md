@@ -24,30 +24,30 @@ You need to create the complete program code with the use of JavaScript. Name yo
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 01 | JS | Compute the exponent of a number |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | JS | Determine whether a number is even or odd |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | JS | Conditional Statement and loops |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | JS | Calculate the students' averages and grades |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | JS | Create a pattern with a nested for loop |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | JS | Conditional statement to sort the numbers |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | JS | Multiplication and division of two numbers |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | JS | Determine integer values fall within the range |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 09 | JS | Converts upper case letters to lower case letters and vice versa |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | JS | Determine the longest word in a string |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 01 | JS | Compute the exponent of a number |<a href="../../lab/js/basic/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 02 | JS | Determine whether a number is even or odd |<a href="../../lab/js/basic/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 03 | JS | Conditional Statement and loops |<a href="./../lab/js/basic/ab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | JS | Calculate the students' averages and grades |<a href="./../lab/js/basic/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | JS | Create a pattern with a nested for loop |<a href="./../lab/js/basic/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | JS | Conditional statement to sort the numbers |<a href="./../lab/js/basic/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07 | JS | Multiplication and division of two numbers |<a href="./../lab/js/basic/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 08 | JS | Determine integer values fall within the range |<a href="./../lab/js/basic/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 09 | JS | Converts upper case letters to lower case letters and vice versa |<a href="./../lab/js/basic/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 10 | JS | Determine the longest word in a string |<a href="./../lab/js/basic/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### JavaScript (Intermediate)
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 01 | JS | Compute the exponent of a number |<a href="../lab/js/basic/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 01 | JS | Compute the exponent of a number |<a href="../../lab/js/basic/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02 | JS | Determine whether a number is even or odd |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | JS | Conditional Statement and loops |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | JS | Calculate the students' averages and grades |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | JS | Create a pattern with a nested for loop |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | JS | Conditional statement to sort the numbers |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | JS | Multiplication and division of two numbers |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | JS | Determine integer values fall within the range |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 09 | JS | Converts upper case letters to lower case letters and vice versa |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | JS | Determine the longest word in a string |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 03 | JS | Conditional Statement and loops |<a href="./../lab/js/basic/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | JS | Calculate the students' averages and grades |<a href="./../lab/js/basic/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | JS | Create a pattern with a nested for loop |<a href="./../lab/js/basic/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | JS | Conditional statement to sort the numbers |<a href="./../lab/js/basic/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07 | JS | Multiplication and division of two numbers |<a href="./../lab/js/basic/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 08 | JS | Determine integer values fall within the range |<a href="./../lab/js/basic/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 09 | JS | Converts upper case letters to lower case letters and vice versa |<a href="./../lab/js/basic/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 10 | JS | Determine the longest word in a string |<a href="./../lab/js/basic/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### Lab JS: Instruction
 
