@@ -24,27 +24,27 @@ This website has six sections on one page: Home, About, Services, Skills, Teams,
 > - Provide an overall summary of the website's creation.
 > 
 
-<img src="./download/l1ajs.png" width="400" />
+<img src="./download/l1ajs.png" width="600" />
 
 **Figure 1.1**: Mainpage
 
-<img src="./download/l1bjs.png" width="400" />
+<img src="./download/l1bjs.png" width="600" />
 
 **Figure 1.2**: Interface 2
 
-<img src="./download/l1cjs.png" width="400" />
+<img src="./download/l1cjs.png" width="600" />
 
 **Figure 1.3**: Interface 3
 
-<img src="./download/l1djs.png" width="400" />
+<img src="./download/l1djs.png" width="600" />
 
 **Figure 1.4**: Interface 4
 
-<img src="./download/l1ejs.png" width="400" />
+<img src="./download/l1ejs.png" width="600" />
 
 **Figure 1.5**: Interface 5
 
-<img src="./download/l1fjs.png" width="400" />
+<img src="./download/l1fjs.png" width="600" />
 
 **Figure 1.6**: Interface 6
 
