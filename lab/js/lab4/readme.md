@@ -12,9 +12,11 @@ Don't forget to hit the :star: if you like this repo.
 Create a JavaScript programme that computes the average grades of the following students. This average is then used to determine the corresponding grade. You must provide student data as well as grades. After that, please compute the average score. Use the marks classification to determine the grade. The final grade will be displayed as output (see Figure 4.1 & 4.2).
 
 <img src="./download/l4ajs.png"  width="300" />
+
 **Figure 4.1**: Pictorial Presentation
 
-<img src="./download/l4bjs.png"  width="300" />
+<img src="./download/l4bjs.png"  width="500" />
+
 **Figure 4.2**: Flowchart
 
 ## Contribution 🛠️
