@@ -13,6 +13,19 @@ Write a JavaScript program to compute the exponent of a number. The exponent of 
 
 4<sup>2</sup> = 4 x 4 = 16. Here 4 is the base and 2 is the exponent (refer Figure 1.1). Figure 1.2 depicts the flowchart for this lab exercise.
 
+<p align="center">
+<img src="./download/l1ajs.png"  width="300" />
+</p>
+
+<p align="center">
+<img src="./download/l1bjs.png"  width="300" />
+</p>
+
+## Result
+<p align="center">
+<img src="./download/l1cjs.png"  width="300" />
+</p>
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
