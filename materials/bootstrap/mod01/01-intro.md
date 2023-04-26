@@ -19,6 +19,20 @@ Bootstrap also includes a range of pre-built components, such as carousels, moda
 
 Overall, Bootstrap is a powerful tool for web developers looking to create responsive and mobile-first web pages quickly and easily, without sacrificing design quality or consistency.
 
+## History
+
+Bootstrap is a popular open-source framework for developing responsive and mobile-first web applications. It was originally developed by two Twitter employees, Mark Otto and Jacob Thornton, as an internal tool for the company. They needed a framework that could help them quickly prototype and build consistent web interfaces for their various internal projects.
+
+In August 2011, Mark Otto released the first version of Bootstrap on GitHub as an open-source project. The initial version was based on the Blueprint CSS framework and included basic typography, forms, buttons, tables, grids, and navigation components.
+
+As the popularity of Bootstrap grew, the framework underwent several major revisions and added many new features and components. In version 2.0 released in January 2012, Bootstrap became responsive, which means that its components could adjust to different screen sizes and devices. This was a significant milestone that made Bootstrap an ideal choice for developing mobile-first web applications.
+
+In August 2013, Bootstrap 3 was released, which introduced a major redesign and many new features, such as a flat design, a new grid system, and a mobile-first approach. Bootstrap 4 was released in January 2018, which included a complete rewrite of the framework and added many new features, such as support for Sass and flexbox.
+
+In May 2019, the development of Bootstrap 5 was announced, which aimed to remove jQuery as a dependency, simplify the framework's codebase, and improve accessibility and performance. Bootstrap 5 was released in May 2021, which included significant improvements to the grid system, new utility classes, and updated components.
+
+Today, Bootstrap is one of the most popular front-end frameworks used by developers worldwide. It is widely used by developers and organizations to build responsive, mobile-first web applications quickly and easily.
+
 ## How Bootstrap works?
 
 Bootstrap works by providing a set of pre-written HTML, CSS, and JavaScript code snippets that can be used to build responsive and mobile-first web pages. The framework is based on a grid system that allows developers to easily create layouts that adapt to different screen sizes and resolutions.
@@ -66,6 +80,19 @@ Steps involved in using Bootstrap:
 9. Open source: Bootstrap is an open-source framework, meaning that it is free to use and can be modified and redistributed by anyone.
 
 Overall, Bootstrap is a powerful and flexible framework that provides developers with a range of tools and resources to create responsive, mobile-first web pages quickly and easily.
+
+## Benefits of using Bootstrap
+
+| Benefits | Description |
+| --- | --- |
+| Responsive design | Bootstrap has a mobile-first approach and includes a responsive grid system that allows web pages to adjust their layout and size to different screen sizes and devices. |
+| Consistency | Bootstrap provides a set of predefined styles and components that ensure a consistent look and feel across different web pages and applications. |
+| Time-saving | Bootstrap includes a wide range of UI components, such as forms, buttons, modals, and carousels, that can be easily added to web pages without the need for custom CSS or JavaScript code. This can save developers a significant amount of time and effort. |
+| Accessibility | Bootstrap is designed with accessibility in mind and includes features such as keyboard navigation, ARIA labels, and high contrast modes. |
+| Community support | Bootstrap has a large and active community of developers who contribute to the framework's development, provide support, and create extensions and plugins. |
+| Cross-browser compatibility | Bootstrap is designed to work on all modern web browsers, including Chrome, Firefox, Safari, and Edge. |
+| Customization | Bootstrap can be customized using its built-in Sass variables and mixins or by creating custom CSS styles. This allows developers to create unique and personalized designs while still benefiting from the framework's features and components. | 
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
