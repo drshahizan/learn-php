@@ -20,7 +20,7 @@ Create a JavaScript conditional statement to sort the numbers.
 
 **Figure 6.1**: Pictorial Presentation
 
-<img src="./download/l6bjs.png" width="500" />
+<img src="./download/l6bjs.png" width="600" />
 
 **Figure 6.2**: Flowchart
 
