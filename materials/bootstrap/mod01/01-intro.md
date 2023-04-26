@@ -45,7 +45,7 @@ One of the key features of Bootstrap is its responsive design capabilities. Boot
 
 Bootstrap also includes a wide range of CSS classes and JavaScript plugins that can be used to add interactivity to a web page. For example, the Bootstrap Collapse plugin can be used to create collapsible content sections, while the Bootstrap Tooltip plugin can be used to add tooltips to UI elements.
 
-Steps involved in using Bootstrap:
+Steps involved in using Bootstrap
 
 | Step | Description |
 | --- | --- |
