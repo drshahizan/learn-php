@@ -34,7 +34,7 @@ However, it's important to note that using libraries and frameworks can also com
 | 9 | Axios | A promise-based HTTP client for making API requests in JavaScript |
 | 10 | Lodash | A JavaScript utility library providing functions for common programming tasks |
 
-### jQuery
+### 1. jQuery
 jQuery is a fast, small, and feature-rich JavaScript library that simplifies DOM manipulation and event handling. It provides an easy-to-use API for traversing and manipulating HTML documents, handling events, and creating animations.
 
 ```html
@@ -73,7 +73,7 @@ Inside the "document.ready" function, we attach a click event handler to the but
 
 Overall, jQuery simplifies DOM manipulation and event handling, making it a popular choice for front-end web development.
 
-### React
+### 2. React
 React is a popular JavaScript library for building user interfaces. It provides a declarative and efficient way to create reusable UI components, making it easier to build and maintain large web applications.
 
 Here's an example of how to use React in an HTML document:
@@ -114,7 +114,38 @@ In this example, we include the React, React DOM, and Babel libraries from a CDN
 
 Finally, we use the ReactDOM.render method to render the "App" component to the DOM, passing in the root element as the target.
 
-### Three.js
+### 3. Vue.js
+Vue.js is a progressive JavaScript framework used for building user interfaces. It's designed to be easy to learn and use, while also being highly performant and scalable. Here's a simple example of how to use Vue.js in an HTML file:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vue.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <p>{{ message }}</p>
+    </div>
+
+    <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello, Vue!'
+        }
+      })
+    </script>
+  </body>
+</html>
+```
+
+In this example, we include the Vue.js library from a CDN and create a simple Vue instance with an element (`#app`) and some data (`message`). The `{{ message }}` syntax is used to bind the `message` data to the `p` element, which will display the text "Hello, Vue!".
+
+Vue.js provides a lot of features for building dynamic user interfaces, including computed properties, methods, directives, and event handling. The above example is just a starting point, and there are many other things you can do with Vue.js. It's worth checking out the official documentation and examples to learn more.
+
+### 4. Three.js
 Three.js is a popular JavaScript library used for creating 3D graphics in the web browser. It provides a simple and powerful API for creating and manipulating 3D objects, scenes, and animations.
 
 ```html
@@ -164,7 +195,7 @@ Next, we create a cube geometry and material and add it to the scene as a Mesh o
 
 Overall, Three.js is a powerful library for creating 3D graphics and animations in the browser. With it, you can easily create and manipulate 3D objects and scenes, apply materials and textures, and add lighting and animation effects.
 
-### D3.js
+### 5. D3.js
 D3.js is a popular JavaScript library for data visualization. It allows developers to create interactive and dynamic data-driven visualizations in web applications. Here is an example of how to use D3.js in an HTML document:
 
 ```html
@@ -245,7 +276,7 @@ This example creates a simple bar chart using D3.js. However, D3.js is a powerfu
 
 It's worth noting that this example uses the latest version of D3.js (version 6) which is different from earlier versions, so be sure to check the documentation and examples for the specific version you are using.
 
-### Chart.js
+### 6. Chart.js
 Chart.js is a popular JavaScript library for creating interactive and customizable charts and graphs in web applications. Here's an example of how to use Chart.js in an HTML document:
 
 ```html
