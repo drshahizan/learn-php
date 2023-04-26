@@ -82,7 +82,7 @@ The grid system is also responsive, meaning that it can adapt to different scree
 A table that summarizes the grid options for the different screen sizes in the Bootstrap Grid System:
 
 | Screen Size | CSS Class Prefix | Maximum Container Width | Number of Columns | Gutter Width |
-|-------------|-----------------|-------------------------|-------------------|--------------|
+|-------------|--------------|:-----------:|:-----------:|:-----------:|
 | Extra small | `col-`          | None                    | 12                | 15px         |
 | Small       | `col-sm-`       | 540px                   | 12                | 15px         |
 | Medium      | `col-md-`       | 720px                   | 12                | 30px         |
