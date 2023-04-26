@@ -26,7 +26,7 @@ Write a JavaScript program to compute the exponent of a number. The exponent of 
 **Figure 1.2**: Flowchart
 
 <p align="left">
-<img src="./download/l1cjs.png"  />
+<img src="./download/l1cjs.png" width="200" />
 </p>
 
 **Figure 1.3**: Result
