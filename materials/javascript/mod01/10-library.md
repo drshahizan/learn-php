@@ -26,10 +26,10 @@ However, it's important to note that using libraries and frameworks can also com
 | 1 | jQuery | A fast, small, and feature-rich JavaScript library for DOM manipulation and event handling |
 | 2 | React | A JavaScript library for building user interfaces |
 | 3 | Vue.js | A progressive framework for building user interfaces |
-| 4 | AngularJS | A JavaScript framework for building dynamic web applications |
+| 4 | Three.js | A JavaScript library for creating 3D graphics on the web |
 | 5 | D3.js | A JavaScript library for visualizing data using HTML, SVG, and CSS |
-| 6 | Three.js | A JavaScript library for creating 3D graphics on the web |
-| 7 | Chart.js | A simple yet flexible JavaScript charting library for creating interactive charts and graphs |
+| 6 | Chart.js | A simple yet flexible JavaScript charting library for creating interactive charts and graphs |
+| 7 | AngularJS | A JavaScript framework for building dynamic web applications |
 | 8 | Moment.js | A JavaScript library for working with dates and times |
 | 9 | Axios | A promise-based HTTP client for making API requests in JavaScript |
 | 10 | Lodash | A JavaScript utility library providing functions for common programming tasks |
