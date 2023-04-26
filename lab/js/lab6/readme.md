@@ -12,13 +12,17 @@ Don't forget to hit the :star: if you like this repo.
 Create a JavaScript conditional statement to sort the numbers.
 
 Input: 56, 32, 53, 25, 19, 48
+
 Output: 56, 53, 48, 32, 25, 19
 
-abc
-Figure 6.1: : Pictorial Presentation
+<img src="./download/l6ajs.png"  width="300" />
 
-abc
-Figure 6.2: Flowchart
+
+**Figure 6.1**: Pictorial Presentation
+
+<img src="./download/l6bjs.png"  width="300" />
+
+**Figure 6.2**: Flowchart
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
