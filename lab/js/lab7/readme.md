@@ -10,11 +10,13 @@ Don't forget to hit the :star: if you like this repo.
 # Lab 7: Multiplication and division of two numbers	
 Create a JavaScript programme that multiplies and divides two numbers. This lab requires you to use a <form> tag. You must provide two textboxes for users to enter input. This input must only contain numbers.  Once the input is entered, the user can click on the Multiply or Divide button. If the user click on the Multiply button, it will perform a multiplication process based on the number entered. If the user click on the Divide button, the Division process will be executed.
 
-abc
-Figure 7.1: Form
+<img src="./download/l7ajs.png"  width="300" />
 
-abc
-Figure 7.2: Pictorial Presentation
+**Figure 7.1**: Form
+
+<img src="./download/l7bjs.png"  width="300" />
+
+**Figure 7.2**: Pictorial Presentation
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
