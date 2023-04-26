@@ -257,7 +257,23 @@ We use the `align-items-center` and `justify-content-center` classes on the `row
 
 Each column has the `col-md-4` class, which means it will occupy 4 out of 12 columns in medium and larger screen sizes, but will automatically adjust its width in smaller screen sizes. The `text-center` class centers the content of each column.
 
-As before, I added some sample content to the columns to show how they can be used. Finally, we include the necessary jQuery and Bootstrap JS files at the end of the body section for additional functionality.
+## Key points of Bootstrap Grid System
+
+| Key Points | Description |
+| --- | --- |
+| Container | Used to contain rows and columns with a fixed or fluid width |
+| Row | Used to create a horizontal group of columns |
+| Column | Used to specify the layout of a column, and contains content |
+| Grid Classes | Used to define the width of columns based on screen size (xs, sm, md, lg, xl) |
+| Auto-layout Columns | Column classes that allow columns to be sized without specifying a specific number of columns (e.g. `col-md`) |
+| Responsive Breakpoints | Specific screen widths where columns will change layout (e.g. `sm` for small screens) |
+| Nesting Columns | Allows columns to be placed within other columns to create more complex layouts |
+| Offset Classes | Used to offset columns by a certain number of columns |
+| Alignment Classes | Used to align columns vertically and horizontally |
+| Reordering Classes | Used to reorder columns for specific screen sizes |
+| Flexbox | The underlying technology used by Bootstrap Grid System for layout and alignment |
+
+These are some of the key features and concepts of Bootstrap Grid System that are important to understand when working with it.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
