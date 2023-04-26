@@ -33,8 +33,6 @@ On the Bootstrap website, you can download the latest version of the framework, 
 
 In addition to the documentation and resources, the Bootstrap website also provides information about the community, including contributors, supporters, and events. You can also follow Bootstrap on social media platforms and join the official Slack channel to connect with other developers and stay up-to-date with the latest news and updates.
 
-Some features of Bootstrap as described on the official Bootstrap website (https://getbootstrap.com):
-
 | Bootstrap Features | Description |
 | --- | --- |
 | Responsive Design | Bootstrap's grid system allows web pages to adjust their layout and size to different screen sizes and devices, ensuring a consistent user experience across different devices. |
