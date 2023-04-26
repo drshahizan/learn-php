@@ -29,7 +29,7 @@ You need to create the complete program code with the use of JavaScript. Name yo
 | 05 | JS | Create a pattern with a nested for loop |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 06 | JS | Conditional statement to sort the numbers |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07 | JS | Multiplication and division of two numbers |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | JS | Determine whether three given integer values fall within the range 50..99 |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 08 | JS | Determine integer values fall within the range |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 09 | JS | Converts upper case letters to lower case letters and vice versa |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 10 | JS | Determine the longest word in a string |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
