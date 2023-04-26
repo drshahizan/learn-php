@@ -19,7 +19,7 @@ Create a JavaScript programme that uses a nested for loop to create the followin
 
 **Figure 5.2**: Flowchart
 
-<img src="./download/l5cjs.png"  width="250" />
+<img src="./download/l5cjs.png"  width="150" />
 
 **Figure 5.3**: Result
 
