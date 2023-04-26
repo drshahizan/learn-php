@@ -8,9 +8,10 @@
 Don't forget to hit the :star: if you like this repo.
 
 # JavaScript: Exercise
-CSS exercises are designed to help web developers and designers practice and enhance their CSS skills. These exercises usually involve creating and styling web page elements, such as text, images, and layout, using CSS. They may also involve using CSS properties and selectors to manipulate various aspects of the page design, such as font size, color, background, borders, and positioning.
 
-CSS exercises can vary in difficulty level, from beginner to advanced, and often include challenges that require critical thinking and problem-solving skills. Completing CSS exercises can help web developers and designers to improve their proficiency with CSS, and develop the ability to create complex and visually appealing website designs. 
+JavaScript is a programming language that is widely used for creating interactive web applications. It is a client-side scripting language that runs on the user's web browser, allowing developers to create dynamic and responsive websites. 
+
+Exercises in JavaScript typically involve working with variables, data types, functions, loops, conditional statements, objects, and arrays. These exercises are designed to help developers practice and improve their skills in programming with JavaScript. Continuous practice with exercises helps developers become more proficient in JavaScript and enables them to build more robust and sophisticated web applications.
 
 ## Lab: Cascading Style Sheets (CSS)
 
