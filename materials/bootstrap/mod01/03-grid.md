@@ -103,8 +103,7 @@ By using the appropriate class prefixes, developers can create responsive layout
 
 ## Code
 
-### 1. Three equal-width columns centered in the page using the Bootstrap Grid System
-
+### 1. Three equal-width columns centered in the page
 ```html
 <!DOCTYPE html>
 <html>
@@ -153,7 +152,7 @@ In this code, we first include the Bootstrap CSS file and the necessary meta tag
 
 I also added some sample content to the columns to show how they can be used. Finally, we include the necessary jQuery and Bootstrap JS files at the end of the body section for additional functionality.
 
-### 2. Auto-layout columns using breakpoint-specific column classes in the Bootstrap Grid System
+### 2. Auto-layout columns using breakpoint-specific column classes
 
 ```html
 <!DOCTYPE html>
@@ -203,6 +202,60 @@ I also added some sample content to the columns to show how they can be used. Fi
 In this code, we first include the Bootstrap CSS file and the necessary meta tags in the head section. The `container` class centers the columns in the page, while the `row` class creates a row to contain the columns. 
 
 Instead of using explicit numbered classes like `col-sm-6`, we can use breakpoint-specific classes like `col-md` to allow the columns to automatically adjust their width based on the device screen size. In this example, the first and third columns are given the `col` class, which means they will occupy an equal amount of space in all screen sizes. The second column is given the `col-md` class, which means it will occupy the remaining space in medium and larger screen sizes, but an equal amount of space in small and extra small screen sizes.
+
+As before, I added some sample content to the columns to show how they can be used. Finally, we include the necessary jQuery and Bootstrap JS files at the end of the body section for additional functionality.
+
+### 3. Flexbox alignment utilities 
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flexbox Alignment</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-4 text-center">
+          <h2>Column 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            odio. Praesent libero. Sed cursus ante dapibus diam.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2>Column 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            odio. Praesent libero. Sed cursus ante dapibus diam.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2>Column 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            odio. Praesent libero. Sed cursus ante dapibus diam.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
+```
+
+In this code, we first include the Bootstrap CSS file and the necessary meta tags in the head section. The `container` class centers the columns in the page, while the `row` class creates a row to contain the columns.
+
+We use the `align-items-center` and `justify-content-center` classes on the `row` element to vertically and horizontally center the columns respectively.
+
+Each column has the `col-md-4` class, which means it will occupy 4 out of 12 columns in medium and larger screen sizes, but will automatically adjust its width in smaller screen sizes. The `text-center` class centers the content of each column.
 
 As before, I added some sample content to the columns to show how they can be used. Finally, we include the necessary jQuery and Bootstrap JS files at the end of the body section for additional functionality.
 
