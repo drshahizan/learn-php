@@ -13,16 +13,22 @@ JavaScript is a programming language that is widely used for creating interactiv
 
 Exercises in JavaScript typically involve working with variables, data types, functions, loops, conditional statements, objects, and arrays. These exercises are designed to help developers practice and improve their skills in programming with JavaScript. Continuous practice with exercises helps developers become more proficient in JavaScript and enables them to build more robust and sophisticated web applications.
 
-## Lab: Cascading Style Sheets (CSS)
+## Lab: JavaScript (Basic)
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 01 | CSS | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | CSS | Text and Box Model |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab12" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | CSS | Layout (Mock & Style) |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab13" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | CSS | Website Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab14" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | CSS | Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab15" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | CSS | Form Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 01 | JS | Compute the exponent of a number |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 02 | JS | Determine whether a number is even or odd |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab12" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 03 | JS | Conditional Statement and loops |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab13" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | JS | Calculate the students' averages and grades |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab14" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | JS | Create a pattern with a nested for loop |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab15" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | JS | Create a JavaScript conditional statement to sort the numbers. |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07 | JS | Multiplication and division of two numbers |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 08 | JS | Determine whether three given integer values fall within the range 50..99 |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 09 | JS | Converts upper case letters to lower case letters and vice versa |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 10 | JS | Determine the longest word in a string |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+
+
 
 ### Lab CSS: Instruction
 
