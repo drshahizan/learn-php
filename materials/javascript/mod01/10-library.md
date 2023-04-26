@@ -351,9 +351,9 @@ Chart.js supports many different chart types, including line charts, bar charts,
 
 | No. | Framework | Description |
 | --- | --------- | ----------- |
-| 1 | Angular | A platform for building mobile and desktop web applications |
-| 2 | React | A JavaScript library for building user interfaces |
-| 3 | Vue.js | A progressive framework for building user interfaces |
+| 1 | [Angular]() | A platform for building mobile and desktop web applications |
+| 2 | React]()  | A JavaScript library for building user interfaces |
+| 3 | [Vue.js]()  | A progressive framework for building user interfaces |
 | 4 | Ember.js | A JavaScript framework for building scalable web applications |
 | 5 | Backbone.js | A lightweight JavaScript library for building scalable and maintainable web applications |
 | 6 | Meteor | A full-stack JavaScript framework for building real-time web applications |
@@ -362,6 +362,11 @@ Chart.js supports many different chart types, including line charts, bar charts,
 | 9 | Svelte | A new way to build web applications by writing less code |
 | 10 | Next.js | A React-based framework for building server-side rendered web applications |
 
+### 1. Angular Framework
+
+### 2. React Framework
+
+### 3. Vue.js Framework
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
