@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 Create a JavaScript programme that uses a nested for loop to create the following pattern.
 
-<img src="./download/l5ajs.png"  width="200" />
+<img src="./download/l5ajs.png"  width="150" />
 
 **Figure 5.1**: Pictorial Presentation
 
