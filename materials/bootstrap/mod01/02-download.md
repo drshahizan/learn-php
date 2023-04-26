@@ -33,6 +33,19 @@ On the Bootstrap website, you can download the latest version of the framework, 
 
 In addition to the documentation and resources, the Bootstrap website also provides information about the community, including contributors, supporters, and events. You can also follow Bootstrap on social media platforms and join the official Slack channel to connect with other developers and stay up-to-date with the latest news and updates.
 
+Some features of Bootstrap as described on the official Bootstrap website (https://getbootstrap.com):
+
+| Bootstrap Features | Description |
+| --- | --- |
+| Responsive Design | Bootstrap's grid system allows web pages to adjust their layout and size to different screen sizes and devices, ensuring a consistent user experience across different devices. |
+| CSS Preprocessing | Bootstrap is built using Sass, a popular CSS preprocessor that allows developers to write CSS more efficiently and maintainably. |
+| UI Components | Bootstrap provides a set of predefined UI components, such as forms, buttons, modals, and carousels, that can be easily added to web pages without the need for custom CSS or JavaScript code. |
+| JavaScript Plugins | Bootstrap includes a range of JavaScript plugins, such as dropdowns, tooltips, and popovers, that enhance the functionality of web pages and make them more interactive. |
+| Customizable | Bootstrap can be customized using its built-in Sass variables and mixins or by creating custom CSS styles. This allows developers to create unique and personalized designs while still benefiting from the framework's features and components. |
+| Browser Compatibility | Bootstrap is designed to work on all modern web browsers, including Chrome, Firefox, Safari, and Edge. |
+| Community Support | Bootstrap has a large and active community of developers who contribute to the framework's development, provide support, and create extensions and plugins. |
+| Accessibility | Bootstrap is designed with accessibility in mind and includes features such as keyboard navigation, ARIA labels, and high contrast modes. |
+
 Overall, the Bootstrap website is a valuable resource for developers who want to learn how to use the framework and build modern and responsive web applications quickly and easily.
 
 ## Contribution 🛠️
