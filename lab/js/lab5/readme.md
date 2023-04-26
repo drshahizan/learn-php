@@ -11,14 +11,17 @@ Don't forget to hit the :star: if you like this repo.
 
 Create a JavaScript programme that uses a nested for loop to create the following pattern.
 
-abc
-Figure 5.1: Pictorial Presentation
+<img src="./download/l5ajs.png"  width="300" />
 
-abc
-Figure 5.2: Flowchart
+**Figure 5.1**: Pictorial Presentation
 
-abc
-Figure 5.3: Result
+<img src="./download/l5bjs.png"  width="300" />
+
+**Figure 5.2**: Flowchart
+
+<img src="./download/l5cjs.png"  width="300" />
+
+**Figure 5.3**: Result
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
