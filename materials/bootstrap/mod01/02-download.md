@@ -26,6 +26,15 @@ npm install bootstrap
 
 This will install the latest version of Bootstrap and its dependencies in your project's node_modules directory. You can then include the necessary Bootstrap files in your HTML and CSS files to start using it in your project.
 
+## Official website of Bootstrap 
+[https://getbootstrap.com](https://getbootstrap.com) is the official website of Bootstrap, a popular open-source front-end framework used for developing responsive and mobile-first web applications. The website provides documentation, tutorials, examples, and resources to help developers learn how to use Bootstrap and build modern and professional-looking web applications.
+
+On the Bootstrap website, you can download the latest version of the framework, access the documentation, and browse through examples and templates to get started with Bootstrap quickly. You can also find information about the framework's features and components, such as the grid system, forms, buttons, modals, and carousels, and learn how to customize and extend Bootstrap using Sass and JavaScript.
+
+In addition to the documentation and resources, the Bootstrap website also provides information about the community, including contributors, supporters, and events. You can also follow Bootstrap on social media platforms and join the official Slack channel to connect with other developers and stay up-to-date with the latest news and updates.
+
+Overall, the Bootstrap website is a valuable resource for developers who want to learn how to use the framework and build modern and responsive web applications quickly and easily.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
