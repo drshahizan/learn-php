@@ -351,9 +351,9 @@ Chart.js supports many different chart types, including line charts, bar charts,
 
 | No. | Framework | Description |
 | --- | --------- | ----------- |
-| 1 | [Angular]() | A platform for building mobile and desktop web applications |
-| 2 | React]()  | A JavaScript library for building user interfaces |
-| 3 | [Vue.js]()  | A progressive framework for building user interfaces |
+| 1 | [Angular](#1-angular-framework) | A platform for building mobile and desktop web applications |
+| 2 | React](#2-react-framework)  | A JavaScript library for building user interfaces |
+| 3 | [Vue.js](#3-vuejs-framework)  | A progressive framework for building user interfaces |
 | 4 | Ember.js | A JavaScript framework for building scalable web applications |
 | 5 | Backbone.js | A lightweight JavaScript library for building scalable and maintainable web applications |
 | 6 | Meteor | A full-stack JavaScript framework for building real-time web applications |
@@ -363,10 +363,106 @@ Chart.js supports many different chart types, including line charts, bar charts,
 | 10 | Next.js | A React-based framework for building server-side rendered web applications |
 
 ### 1. Angular Framework
+Angular is a popular JavaScript framework used for building dynamic web applications. Here's a simple example of how to use Angular in an HTML file:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  </head>
+  <body ng-app="myApp">
+    <div ng-controller="myCtrl">
+      <p>{{ message }}</p>
+    </div>
+
+    <script>
+      var app = angular.module('myApp', []);
+      app.controller('myCtrl', function($scope) {
+        $scope.message = 'Hello, Angular!';
+      });
+    </script>
+  </body>
+</html>
+```
+
+In this example, we include the AngularJS library from a CDN and create a simple Angular module called `myApp` with a controller called `myCtrl`. We then use the `ng-app` directive to bootstrap the Angular application on the `body` element, and the `ng-controller` directive to bind the `myCtrl` controller to the `div` element.
+
+The `{{ message }}` syntax is used to bind the `message` variable in the `$scope` object of the `myCtrl` controller to the `p` element, which will display the text "Hello, Angular!".
+
+Angular provides a lot of features for building complex web applications, including two-way data binding, dependency injection, directives, services, and more. The above example is just a starting point, and there are many other things you can do with Angular. It's worth checking out the official documentation and examples to learn more.
 
 ### 2. React Framework
+React is a popular JavaScript library used for building user interfaces. It provides a component-based approach to building web applications, making it easy to create reusable UI elements. Here's a simple example of how to use React in an HTML file:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Example</title>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      class Greeting extends React.Component {
+        render() {
+          return (
+            <div>
+              <h1>Hello, React!</h1>
+            </div>
+          );
+        }
+      }
+
+      ReactDOM.render(<Greeting />, document.getElementById('root'));
+    </script>
+  </body>
+</html>
+```
+
+In this example, we include the React and ReactDOM libraries from a CDN, as well as the Babel library for transpiling JSX syntax. We then define a simple `Greeting` component that renders a heading with the text "Hello, React!".
+
+Finally, we use the `ReactDOM.render` method to render the `Greeting` component inside the `div` element with the ID `root`.
+
+React provides many other features for building complex user interfaces, including state management, lifecycle methods, and event handling. The above example is just a starting point, and there are many other things you can do with React. It's worth checking out the official documentation and examples to learn more.
 
 ### 3. Vue.js Framework
+Vue.js is a progressive JavaScript framework used for building user interfaces. It provides a reactive and composable view layer with a simple and flexible API. Here's a simple example of how to use Vue.js in an HTML file:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vue.js Example</title>
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+    <div id="app">
+      <p>{{ message }}</p>
+    </div>
+
+    <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello, Vue!'
+        }
+      });
+    </script>
+  </body>
+</html>
+```
+
+In this example, we include the Vue.js library from a CDN and create a simple Vue instance with a `data` object that contains a `message` property. We then use the double curly braces `{{ message }}` to display the value of the `message` property inside the `p` element.
+
+The `el` property is used to specify the element that the Vue instance will be mounted to, in this case the `div` element with the ID `app`.
+
+Vue.js provides many other features for building complex user interfaces, including computed properties, methods, directives, and more. The above example is just a starting point, and there are many other things you can do with Vue.js. It's worth checking out the official documentation and examples to learn more.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
