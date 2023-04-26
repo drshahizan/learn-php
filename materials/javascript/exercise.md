@@ -52,6 +52,22 @@ You need to create the complete program code with the use of JavaScript. Name yo
 | 12 | JS | Password Strength Analyzer |<a href="./../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 13 | JS | Multi step form wizard |<a href="./../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
+### JavaScript (Advanced)
+You will learn advanced JavaScript. This lab exercise does not need to be submitted, but you will need to discuss the questions given at each lab exercise with your team. The group marks will be deducted if the discussion does not take place during the break out session. Please thoroughly examine each lab exercise provided. Please save the lab18.zip file to your computer.
+
+| Lab | Topic | Title | Files |
+| -----: | ----- | ----- | :------: | 
+| 01 | JS | A Notes App |<a href="../../lab/js/adv/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 02 | JS | Tags Input Box |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 03 | JS | A Todo List App |<a href="./../lab/js/adv/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | JS | Text To Speech Converter  |<a href="./../lab/js/adv/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | JS | A Dictionary App |<a href="./../lab/js/adv/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | JS | A Language Translator AppA Dictionary App|<a href="./../lab/js/adv/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07 | JS | A Random Quote Generator |<a href="./../lab/js/adv/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 08 | JS | A Weather App |<a href="./../lab/js/adv/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 09 | JS | A Currency Converter |<a href="./../lab/js/adv/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 10 | JS | QR Code Generator  |<a href="./../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 11 | JS | A Quiz App with Timer |<a href="./../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### Lab JS: Instruction
 
