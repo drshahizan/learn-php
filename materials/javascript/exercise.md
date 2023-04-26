@@ -36,6 +36,8 @@ You need to create the complete program code with the use of JavaScript. Name yo
 | 10 | JS | Determine the longest word in a string |<a href="../../lab/js/basic/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### JavaScript (Intermediate)
+You will learn about JavaScript. Personal Portfolio Website, JDT Jersey Product Card, and Coming Soon landing page are among the 13 exercises provided to you. Please discuss with your team to find a solution.
+
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
 | 01 | JS | Personal Portfolio Website |<a href="../../lab/js/inter/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
