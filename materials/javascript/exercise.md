@@ -43,7 +43,7 @@ You will learn about JavaScript. Personal Portfolio Website, JDT Jersey Product 
 | 01 | JS | Personal Portfolio Website |<a href="../../lab/js/inter/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02 | JS | JDT Jersey Product Card |<a href="../../lab/js/inter/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
 | 03 | JS | Coming soon landing page |<a href="../../lab/js/inter/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | JS | Range Slider |<a href="./../lab/js/inter/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | JS | Range Slider |<a href="../../lab/js/inter/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 05 | JS | Admin Dashboard Panel |<a href="../../lab/js/inter/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 06 | JS | Custom Color Theme Website |<a href="../../lab/js/inter/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07 | JS | Login |<a href="../../lab/js/inter/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
