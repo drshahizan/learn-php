@@ -78,7 +78,7 @@ In this example, we have included the Bootstrap CSS and JavaScript files from a 
 When you open this HTML file in a web browser and resize the window, you will see that the columns adjust their widths to maintain the same layout, even on different screen sizes. This is the power of Bootstrap's grid system, which allows developers to create responsive web designs that work well on any device. 
 
 ### Case study
-Sure, here is an example of a complete HTML code using Bootstrap's grid classes for a university academic course registration system:
+An example of a complete HTML code using Bootstrap's grid classes for a university academic course registration system:
 
 ```
 <!DOCTYPE html>
