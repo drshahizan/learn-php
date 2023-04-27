@@ -23,17 +23,15 @@ Figure 9.1 shows a login form with a login title, some input fields with beautif
 
 You will see information such as a title, an input field, a button, and some text with navigation links on the registration form. The registration form disappears when you click the SignIn link, and the login form appears.
 
-<img src="./download/l1bjs.png" width="600" />
+<img src="./download/l9int-b.png" width="300" />
 
 **Figure 9.2**: Registration
 
 To see the words you typed in the password input, click show eye toggle button (see Figure 9.3).
 
-<img src="./download/l9int-b.png" width="300" />
+<img src="./download/l9int-c.png" width="300" />
 
 **Figure 9.3**: Sample data
-
-<img src="./download/l9int-c.png" width="300" />
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
