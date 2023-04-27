@@ -29,9 +29,9 @@ The user first selected the "to" currency conversion rate, which was then calcul
 
 **Figure 9.1**: Currency converter
 
-<img src="./download/L9adv-b.png" width="300" />
-
 You will see information such as a title, an input field, a button, and some text with navigation links on the registration form. The registration form disappears when you click the SignIn link, and the login form appears.
+
+<img src="./download/L9adv-b.png" width="300" />
 
 **Figure 9.2**: Change country
 
