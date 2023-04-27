@@ -7,46 +7,35 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 5: Admin Dashboard Panel
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+Admin Dashboard is a header section of the website where the admin can see the overall performance of his/her website. Admin dashboard panel helps to make quick decisions for admin to make decisions of what should they improve in his website or business.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+The information that needs to be in the admin panel dashboard is as follows: 
+- Overall details of the website
+- Quick Navigation Links
+- Search box
+- Responsive Feature
+- Login and Logout Feature
+- Fully Controllable
 
-> File 📁 : lab 17_1.zip
+> File 📁 : lab 5.zip
 > 
-> Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> Activity 🏆 :<br>
+> For the JavaScript code used in this lab exercise, you must create a script.js file. A sidebar on the right side of the interface contains the logo image, name, and some navigation links (Figure 17.1). Furthermore, at the left - bottom, there is a fascinating section "Dark Mode" with a toggle button (Figure 17.2). When you click on that toggle button, the interface of this admin panel changes to dark mode. On the left side, there is a sidebar toggle button that allows you to open or close that sidebar (Figure 17.3). Also included are a search box and data summaries.
 > 
 
-<img src="./download/l1ajs.png" width="600" />
+<img src="./download/l5int-c.png" width="600" />
 
-**Figure 1.1**: Mainpage
+**Figure 5.1**: Admin dashboard
 
-<img src="./download/l1bjs.png" width="600" />
+<img src="./download/l5int-c.png" width="600" />
 
-**Figure 1.2**: Interface 2
+**Figure 5.2**: Admin dashboard - dark mode
 
-<img src="./download/l1cjs.png" width="600" />
+<img src="./download/l5int-c.png" width="300" />
 
-**Figure 1.3**: Interface 3
-
-<img src="./download/l1djs.png" width="600" />
-
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1ejs.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1fjs.png" width="600" />
-
-**Figure 1.6**: Interface 6
+**Figure 5.3**: Close sidebar
 
 
 ## Contribution 🛠️
