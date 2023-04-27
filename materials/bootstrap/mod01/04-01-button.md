@@ -91,43 +91,60 @@ An example of complete HTML code using Bootstrap CSS classes for button:
 ```
 
 ## Case study
-
-An example of complete HTML code using Bootstrap CSS classes for button
+An example of how you could use Bootstrap CSS classes for buttons in a university academic course registration system
 
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Course Registration System</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-</head>
-<body>
-	<div class="container mt-5">
-		<h1>Course Registration System</h1>
-		<form>
-			<div class="form-group">
-				<label for="course-name">Course Name:</label>
-				<input type="text" class="form-control" id="course-name" placeholder="Enter course name">
-			</div>
-			<div class="form-group">
-				<label for="course-code">Course Code:</label>
-				<input type="text" class="form-control" id="course-code" placeholder="Enter course code">
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-			<button type="reset" class="btn btn-secondary">Reset</button>
-		</form>
-	</div>
+  <head>
+    <meta charset="utf-8" />
+    <title>Course Registration System</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Course Registration System</h1>
+      <form>
+        <div class="form-group">
+          <label for="course-name">Course Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="course-name"
+            placeholder="Enter course name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="course-code">Course Code:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="course-code"
+            placeholder="Enter course code"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-secondary">Reset</button>
+      </form>
+    </div>
 
-	<!-- Bootstrap JavaScript -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</body>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
-
 ```
+
+In this example, the registration form for a university course is set up using Bootstrap CSS classes. The `form-group` class is used to group form elements together and provide a consistent look and feel. The `form-control` class is used to style the input fields.
+
+The btn class is used to create buttons, and the `btn-primary` and `btn-secondary` classes are used to give the buttons different styles. The `type` attribute of the `button` tag is set to either `submit` or `reset` to define the functionality of the button.
+
+This code uses the Bootstrap grid system to create a responsive layout, which is important for a modern web application like a course registration system. Overall, using Bootstrap CSS classes can help you create a consistent and professional-looking interface for your application.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
