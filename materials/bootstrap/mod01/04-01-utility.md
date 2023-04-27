@@ -54,6 +54,82 @@ Sure, here's a table describing some of the commonly used Bootstrap CSS utility 
 
 These utility classes can be used to quickly add styles and modify the layout of elements in a Bootstrap-powered web page.
 
+## Code
+An example of a webpage that uses Bootstrap utility classes to create a simple and responsive layout:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Utility Classes Example</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header class="bg-dark text-white py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h1>My Website</h1>
+          </div>
+          <div class="col-6 text-right">
+            <p>Welcome, Dr MSO</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Latest News</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
+            molestie quam. Morbi quis ante velit. Pellentesque vel dolor at eros
+            varius lacinia in vel magna. Sed rhoncus, libero ac scelerisque
+            rutrum, est quam consectetur arcu, non volutpat nibh nunc non nisi.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Upcoming Events</h2>
+          <ul class="list-group">
+            <li class="list-group-item">Event 1</li>
+            <li class="list-group-item">Event 2</li>
+            <li class="list-group-item">Event 3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-white py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>&copy; 2023 My Website</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+```
+
+In this example, Bootstrap utility classes are used to:
+
+- Set the background color and text color of the header and footer using the `bg-dark` and `text-white` classes
+- Create a row with two columns that are sized differently on small and medium screens using the `row` and `col-*` classes
+- Add spacing between the header and the main content using the `mt-3` class
+- Create a list of events using the `list-group` and `list-group-item` classes
+- Center the text in the footer using the `text-center` class. 
+
+The HTML code also includes links to the Bootstrap CSS and JavaScript files hosted on CDNs, which are necessary to use Bootstrap.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
