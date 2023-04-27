@@ -13,7 +13,7 @@ A login is a set of credentials used to authenticate a user. Most often, these c
 
 At a basic level, logins make user accounts possible. Most systems require unique usernames, which ensures every user's login is different. On a more advanced level, logins provide a security layer between unsecured and secure activity. Once a user logs in to a secure website, for example, all data transfers are typically encrypted. This prevents other systems from viewing or recording the data transferred from the server.
 
-> File 📁 : lab 7.zip
+> File 📁 : [lab7.zip](./download/lab7.zip?raw=true)
 > 
 > Activity 🏆 :<br>
 >You are required to generate a file named login.js for the JavaScript code used in this lab exercise. In the input field provided, the user will enter their username and password. The user will then click the Login button to Sign In (see Figure 7.1). Please use the username "user" and password "abc" as a default data. If the value is incorrect (check with default data), display the message "Invalid user name and/or password" (see Figure 7.2). If the input is correct, display the message "You have successfully logged in" in a pop-up window (see Figure 7.3).
