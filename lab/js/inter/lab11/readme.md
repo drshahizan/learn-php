@@ -7,47 +7,29 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 11: Password Validation
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+When we are setting our new password to login into a website, we will mostly use the check password and confirm password features. It helps users remember their passwords because they must match the password in both input fields. When creating a password, you must include the Confirm password field. Because a password field conceals the user's input. Users will not recognise their password if they type it incorrectly. The confirm password prevents typos by assisting users in typing their passwords twice. Users are less likely to mistype passwords when using this confirm password field.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
-
-> File 📁 : lab 17_1.zip
+> File 📁 : lab 11.zip
 > 
-> Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> Activity 🏆 :<br>
+> This lab exercise requires you to include JavaScript code in the HTML file provided. Users must enter a password of at least six characters. Please click the Check button once the user has entered the password in both inputs provided. If both password inputs are the same, the message "Nice! Password Matched" will be displayed. If the inputs are not identical, the message "Error! Password Does Not Match" will be displayed. You must also configure the Show/Hide button toggle to change the password to a word or vice versa.
 > 
 
-<img src="./download/l1ajs.png" width="600" />
+<img src="./download/l11int-a.png" width="300" />
 
-**Figure 1.1**: Mainpage
+**Figure 11.1**: Check password
 
-<img src="./download/l1bjs.png" width="600" />
+<img src="./download/l11int-b.png" width="300" />
 
-**Figure 1.2**: Interface 2
+**Figure 11.2**: Password not match
 
-<img src="./download/l1cjs.png" width="600" />
+If your password and confirm password match, a success message is displayed; if your two passwords do not match, an error message is displayed. A toggle button or icon is also provided to show or hide the password characters. You can easily identify the mistyped character in your passwords by using this toggle (refer Figure 11.3).
 
-**Figure 1.3**: Interface 3
+<img src="./download/l11int-c.png" width="300" />
 
-<img src="./download/l1djs.png" width="600" />
-
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1ejs.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1fjs.png" width="600" />
-
-**Figure 1.6**: Interface 6
-
+**Figure 11.3**: Password matched
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
