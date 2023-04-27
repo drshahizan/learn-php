@@ -25,19 +25,19 @@ You will learn about JavaScript array methods, Event listeners, and local storag
 
 **Figure 1.1**: Mainpage
 
-<img src="./download/L1adv-a.png" width="200" />
+<img src="./download/L1adv-b.png" width="200" />
 
 **Figure 1.2**: Add new note
 
-<img src="./download/L1adv-a.png" width="300" />
+<img src="./download/L1adv-c.png" width="300" />
 
 **Figure 1.3**: Add Note
 
-<img src="./download/L1adv-a.png" width="300" />
+<img src="./download/L1adv-d.png" width="300" />
 
 **Figure 1.4**: Edit & Delete
 
-<img src="./download/L1adv-a.png" width="300" />
+<img src="./download/L1adv-e.png" width="300" />
 
 **Figure 1.5**: Update a note
 
