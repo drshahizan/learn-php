@@ -11,6 +11,8 @@ Don't forget to hit the :star: if you like this repo.
 
 When you’re introducing a new website or a product, there are often several aspects that need to fall into place before you could even end up making it publicly available. Leaving your website empty, whether you have vague plans for the future, is not really a SMART option for your customers. Rather, put a bit more effort towards developing a creatively enticing Coming Soon page that covers your pre-launch marketing as well as notifies your customers of your forthcoming presence.
 
+<img src="./download/l3int-a.png" width="600" />
+
 **Figure 3.1**: Coming soon
 
 A coming soon page can be a valuable asset to have during these glacial periods, not just as a stopgap for your forthcoming store or product. Moreover, these pre-launch marketing pages, if used properly, can help you achieve exposure, gather feedback, and begin marketing as you strategize before your public launch.
@@ -21,7 +23,7 @@ A coming soon page can be a valuable asset to have during these glacial periods,
 >There is a count-down timer with days, hours, minutes, and seconds on the coming soon landing page that informs your visitors when your site is launched or live (Figure 3.2). You must write JavaScript to display time-related information.
 > 
 
-<img src="./download/l1ajs.png" width="600" />
+<img src="./download/l3int-b.png" width="600" />
 
 **Figure 3.2**: Coming soon landing page
 
