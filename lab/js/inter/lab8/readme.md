@@ -17,11 +17,11 @@ In HTML, form validation means determining whether the user's entered credential
 > You are required to provide javascript to login.This exercise includes a login form with login text, two input fields, and a login button. Those login errors are not displayed at first, but they appear when the user clicks on the login button without entering their email address or password. These errors will be hidden once the user begins entering their credentials into the input fields.
 > 
 
-<img src="./download/l8int-a.png" width="400" />
+<img src="./download/l8int-a.png" width="300" />
 
 **Figure 8.1**: Login
 
-<img src="./download/l8int-a.png" width="400" />
+<img src="./download/l8int-a.png" width="300" />
 
 **Figure 8.2**: Error message
 
