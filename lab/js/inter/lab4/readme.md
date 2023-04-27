@@ -7,46 +7,31 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab : Range Slider
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+Range sliders are used on web pages to allow the user to specify a numeric value that should not be less than a certain value and not greater than another given value. That is, it allows you to choose a value from a range represented as a slider.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+Sliders allow users to view and select a value (or range) in the range along a bar. They are ideal for adjusting settings such as volume and brightness or for applying image filters.
 
-> File 📁 : lab 17_1.zip
+Sliders can use icons at either end of the bar to represent a numeric or relative scale. The range of values or the nature of the values, such as the change in volume, can be communicated via icons. Sliders should not be used to adjust parameters with a delay in providing feedback to the user.
+
+### Important points:
+- Range sliders have a technical advantage over the input field as it will require less validation to be sure. For the same reason, it can benefit the user because a range slider will not generate an unnecessary error due to an “incorrect” entry.
+- They are, however, somewhat limited as they cannot allow an infinite range of numbers, which makes them impractical, for example a phone number or a date.
+- Range sliders work great when you have a strictly defined range that can only have a small number of values. For example, guest meal reservations or maybe a volume control.
+
+The Range Slider is a very intuitive user interface with one or two handles to allow the user to choose a value within a limited range. The user drags a handle along a dimension to set a value. A typical slider is usually found in the color picker where we can drag the arrow left and right to select the correct RGB value.
+
+> File 📁 : lab 4.zip
 > 
-> Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> Activity 🏆 :<br>
+> You must create javascript for a price range with a value between 0 (minimum) and 10000. (max). The user can enter data in the provided field, which will automatically change the range of the slider. Furthermore, users can drag along the available price range line.
+
 > 
 
-<img src="./download/l1ajs.png" width="600" />
+<img src="./download/l4int-a.png" width="400" />
 
-**Figure 1.1**: Mainpage
-
-<img src="./download/l1bjs.png" width="600" />
-
-**Figure 1.2**: Interface 2
-
-<img src="./download/l1cjs.png" width="600" />
-
-**Figure 1.3**: Interface 3
-
-<img src="./download/l1djs.png" width="600" />
-
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1ejs.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1fjs.png" width="600" />
-
-**Figure 1.6**: Interface 6
+**Figure 4.1**: Price range
 
 
 ## Contribution 🛠️
