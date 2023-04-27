@@ -7,46 +7,33 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 2: JDT Jersey Product Card
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+A product card is used to display a picture of an item that is related to other items, such as products we sell. Jersey JDT was the case study used in this exercise. It enables users to quickly identify a specific item of interest to them from a group, such as search results.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+In this lab exercise, the webpage initially contains only a product image (Figure 2.1), but when you hover over that image, the options/customize container for that product appears with a sliding animation (Figure 2.2). The product customise container contains a product name, size numbers, price value, colour options, and buttons. This product has only three colour options, and when you click on one of them, the product image, background colour, and colour of the customise container change to match your selection.
 
-> File 📁 : lab 17_1.zip
+> File 📁 : lab 17_2.zip
 > 
-> Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
-> 
+> Activity 🏆 : <br>
+> You are asked to write JavaScript that will display another jersey after you click the colour radio button. You only need to add the <script> tag to the HTML file. When you click the grey radio button, the colours in the background, button, size, and price become grey. A white-pink jersey will also be displayed (Figure 2.3). Please see Figure 2.4 for the implementation results after clicking on the Gold radio button.
 
-<img src="./download/l1ajs.png" width="600" />
+<img src="./download/l2int-a.png" width="400" />
 
-**Figure 1.1**: Mainpage
+**Figure 2.1**: Main page
 
-<img src="./download/l1bjs.png" width="600" />
+<img src="./download/l2int-b.png" width="400" />
 
-**Figure 1.2**: Interface 2
+**Figure 2.2**: Hover your mouse over the image section
 
-<img src="./download/l1cjs.png" width="600" />
+<img src="./download/l2int-c.png" width="400" />
 
-**Figure 1.3**: Interface 3
+**Figure 2.3**: You select the grey radio option
 
-<img src="./download/l1djs.png" width="600" />
+<img src="./download/l2int-d.png" width="400" />
 
-**Figure 1.4**: Interface 4
+**Figure 2.4**: You select the gold radio option
 
-<img src="./download/l1ejs.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1fjs.png" width="600" />
-
-**Figure 1.6**: Interface 6
 
 
 ## Contribution 🛠️
