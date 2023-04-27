@@ -23,7 +23,7 @@ A password strength analyzer indicates or shows that the user-entered password c
 
 The interface of the password strength analyzer consists of a white box with a title and a password input field (Figure 12.1). When you type some characters into this password field, an indicator or metre and an information text appear at the bottom of an input field. Three metres or indicators with different colours indicate different information. A password show or hide button is also displayed.
 
-> File 📁 : lab 12.zip
+> File 📁 : [lab12.zip](./download/lab12.zip?raw=true)
 > 
 > Activity 🏆 :<br>
 > You are required to create a javascript that can do the following:

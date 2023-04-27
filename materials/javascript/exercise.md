@@ -9,18 +9,16 @@ Don't forget to hit the :star: if you like this repo.
 
 # JavaScript: Exercise
 
-JavaScript is a programming language that is widely used for creating interactive web applications. It is a client-side scripting language that runs on the user's web browser, allowing developers to create dynamic and responsive websites. 
-
-Exercises in JavaScript typically involve working with variables, data types, functions, loops, conditional statements, objects, and arrays. These exercises are designed to help developers practice and improve their skills in programming with JavaScript. Continuous practice with exercises helps developers become more proficient in JavaScript and enables them to build more robust and sophisticated web applications.
+JavaScript is a popular programming language that is used to create interactive online applications. It is a scripting language that runs on the web browser's client side, allowing developers to create dynamic and responsive websites. This lab activity is divided into three levels: basic, intermediate, and advanced, with the goal of assisting developers in polishing their JavaScript programming skills. Developers can improve their JavaScript skills and create more robust and sophisticated web applications by routinely practising these activities. Continuous practice with exercises helps developers become more proficient in JavaScript and enables them to build more robust and sophisticated web applications.
 
 ## Lab
 
 ### JavaScript (Basic)
-JavaScript is a dynamic programming language that's used for web development, in web applications. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS. JavaScript is a client-side scripting language, which means the source code is processed by the client's web browser rather than on the web server. This means JavaScript functions can run after a webpage has loaded without communicating with the server.
+JavaScript is a versatile programming language used primarily for web development in building web applications. It provides the capability to implement dynamic features on web pages that cannot be achieved with HTML and CSS alone. As a client-side scripting language, JavaScript code is processed by the user's web browser rather than on the web server, allowing JavaScript functions to run after a webpage has loaded without the need to communicate with the server.
 
-This lab contains a total of 10 exercises related to JavaScript. There are various topics in this lab such as string manipulation, mathematical formulas, numbers, conditional statements and loops. A description, pictorial presentation, and flowchart will be provided for each lab exercise. In addition, there is an exercise lab with input values and outputs that must be produced.
+The lab comprises ten exercises related to JavaScript, covering a broad range of topics such as string manipulation, mathematical formulas, numbers, conditional statements, and loops. Each lab exercise includes a detailed description, a pictorial representation, and a flowchart to aid in completing the exercises. Additionally, an exercise lab is provided, which includes input values and outputs that must be produced.
 
-You need to create the complete program code with the use of JavaScript. Name your file based on the question number. For example for Lab1, name the file as lab1js.html. When you have completed all of the lab exercises, please zip the file and send it as labjs-basic.zip. Please ensure that each file contains the name of the group member who completed the assignment.
+To complete the exercises, you need to write the complete program code using JavaScript and save the files with a name based on the question number, such as "lab1js.html" for Lab 1. It is essential to include the name of the group member who completed the assignment in each file to avoid confusion during grading. By completing these exercises, you can enhance your programming skills and gain practical experience in implementing JavaScript functions in real-world scenarios.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
@@ -36,7 +34,7 @@ You need to create the complete program code with the use of JavaScript. Name yo
 | 10 | JS | Determine the longest word in a string |<a href="../../lab/js/basic/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### JavaScript (Intermediate)
-You will learn about JavaScript. Personal Portfolio Website, JDT Jersey Product Card, and Coming Soon landing page are among the 13 exercises provided to you. Please discuss with your team to find a solution.
+This lab will cover intermediate JavaScript concepts. To help you apply what you learn, 13 exercises are provided, including Personal Portfolio Website, JDT Jersey Product Card, and Coming Soon landing page. We recommend that you collaborate with your team to discuss and find solutions to the exercises. This teamwork approach can foster a supportive and collaborative learning environment, enabling you to share knowledge and skills with each other and ultimately improve your problem-solving abilities.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
@@ -55,7 +53,7 @@ You will learn about JavaScript. Personal Portfolio Website, JDT Jersey Product 
 | 13 | JS | Multi step form wizard |<a href="../../lab/js/inter/lab13" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### JavaScript (Advanced)
-You will learn advanced JavaScript. This lab exercise does not need to be submitted, but you will need to discuss the questions given at each lab exercise with your team. The group marks will be deducted if the discussion does not take place during the break out session. Please thoroughly examine each lab exercise provided. Please save the lab18.zip file to your computer.
+This section will cover advanced JavaScript topics, which will require you to delve deeper into the language and its advanced features. To complete the lab exercises successfully, you will need to collaborate with your team and discuss the questions given at each exercise thoroughly. The lab exercises are designed to challenge your problem-solving skills and push you to think creatively to find solutions. Therefore, it is crucial to pay close attention to each lab exercise and take the time to analyze and understand the problem statement. Through this collaborative and rigorous approach, you can enhance your proficiency in advanced JavaScript and become better equipped to tackle more complex programming tasks in the future.
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 

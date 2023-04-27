@@ -19,7 +19,7 @@ The information that needs to be in the admin panel dashboard is as follows:
 - Login and Logout Feature
 - Fully Controllable
 
-> File 📁 : lab 5.zip
+> File 📁 : [lab5.zip](./download/lab5.zip?raw=true)
 > 
 > Activity 🏆 :<br>
 > For the JavaScript code used in this lab exercise, you must create a script.js file. A sidebar on the right side of the interface contains the logo image, name, and some navigation links (Figure 17.1). Furthermore, at the left - bottom, there is a fascinating section "Dark Mode" with a toggle button (Figure 17.2). When you click on that toggle button, the interface of this admin panel changes to dark mode. On the left side, there is a sidebar toggle button that allows you to open or close that sidebar (Figure 17.3). Also included are a search box and data summaries.
