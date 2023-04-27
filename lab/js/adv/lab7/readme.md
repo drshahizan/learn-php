@@ -26,11 +26,11 @@ Inside this function:
 > - Please use the Twitter icon to post a quote. Explain what happened and how it happened?
 > 
 
-<img src="./download/L7adv-a.png" width="300" />
+<img src="./download/L7adv-a.png" width="400" />
 
 **Figure 7.1**: Quote of the day
 
-<img src="./download/L7adv-b.png" width="300" />
+<img src="./download/L7adv-b.png" width="400" />
 
 **Figure 7.2**: New quote
 
