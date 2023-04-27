@@ -17,7 +17,7 @@ When you’re introducing a new website or a product, there are often several as
 
 A coming soon page can be a valuable asset to have during these glacial periods, not just as a stopgap for your forthcoming store or product. Moreover, these pre-launch marketing pages, if used properly, can help you achieve exposure, gather feedback, and begin marketing as you strategize before your public launch.
 
-> File 📁 : lab 17_3.zip
+> File 📁 : [lab3.zip](./download/lab3.zip?raw=true)
 > 
 > Activity 🏆 :<br>
 >There is a count-down timer with days, hours, minutes, and seconds on the coming soon landing page that informs your visitors when your site is launched or live (Figure 3.2). You must write JavaScript to display time-related information.
