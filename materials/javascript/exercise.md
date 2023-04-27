@@ -58,16 +58,16 @@ This section will cover advanced JavaScript topics, which will require you to de
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
 | 01 | JS | A Notes App |<a href="../../lab/js/adv/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | JS | Tags Input Box |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | JS | A Todo List App |<a href="./../lab/js/adv/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | JS | Text To Speech Converter  |<a href="./../lab/js/adv/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | JS | A Dictionary App |<a href="./../lab/js/adv/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | JS | A Language Translator AppA Dictionary App|<a href="./../lab/js/adv/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | JS | A Random Quote Generator |<a href="./../lab/js/adv/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | JS | A Weather App |<a href="./../lab/js/adv/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 09 | JS | A Currency Converter |<a href="./../lab/js/adv/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | JS | QR Code Generator  |<a href="./../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 11 | JS | A Quiz App with Timer |<a href="./../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 02 | JS | Tags Input Box |<a href="../../lab/js/adv/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 03 | JS | A Todo List App |<a href="../../lab/js/adv/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | JS | Text To Speech Converter  |<a href="../../lab/js/adv/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | JS | A Dictionary App |<a href="../../lab/js/adv/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | JS | A Language Translator AppA Dictionary App|<a href="../../lab/js/adv/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07 | JS | A Random Quote Generator |<a href="../../lab/js/adv/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 08 | JS | A Weather App |<a href="../../lab/js/adv/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 09 | JS | A Currency Converter |<a href="../../lab/js/adv/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 10 | JS | QR Code Generator  |<a href="../../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 11 | JS | A Quiz App with Timer |<a href="../../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### Lab JS: Instruction
 
