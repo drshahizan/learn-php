@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 When we are setting our new password to login into a website, we will mostly use the check password and confirm password features. It helps users remember their passwords because they must match the password in both input fields. When creating a password, you must include the Confirm password field. Because a password field conceals the user's input. Users will not recognise their password if they type it incorrectly. The confirm password prevents typos by assisting users in typing their passwords twice. Users are less likely to mistype passwords when using this confirm password field.
 
-> File 📁 : lab 11.zip
+> File 📁 : [lab11.zip](./download/lab11.zip?raw=true)
 > 
 > Activity 🏆 :<br>
 > This lab exercise requires you to include JavaScript code in the HTML file provided. Users must enter a password of at least six characters. Please click the Check button once the user has entered the password in both inputs provided. If both password inputs are the same, the message "Nice! Password Matched" will be displayed. If the inputs are not identical, the message "Error! Password Does Not Match" will be displayed. You must also configure the Show/Hide button toggle to change the password to a word or vice versa.
