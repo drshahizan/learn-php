@@ -22,19 +22,19 @@ You can remove each tag individually by clicking the close icon, or you can remo
 > - How do I remove all tags?
 > 
 
-<img src="./download/l1int-a.png" width="600" />
+<img src="./download/L2adv-a.png" width="400" />
 
 **Figure 2.1**: Mainpage
 
-<img src="./download/l1int-b.png" width="600" />
+<img src="./download/L2adv-b.png" width="400" />
 
 **Figure 2.2**: Add php
 
-<img src="./download/l1int-c.png" width="600" />
+<img src="./download/L2adv-c.png" width="400" />
 
 **Figure 2.3**: php tag
 
-<img src="./download/l1int-d.png" width="600" />
+<img src="./download/L2adv-d.png" width="400" />
 
 **Figure 2.4**: Remove all tags
 
