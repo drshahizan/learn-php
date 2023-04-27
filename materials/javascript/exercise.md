@@ -50,9 +50,9 @@ You will learn about JavaScript. Personal Portfolio Website, JDT Jersey Product 
 | 08 | JS | Login Form Validation |<a href="../../lab/js/inter/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 09 | JS | Form for Login and Registration |<a href="../../lab/js/inter/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 10 | JS | Registration Form |<a href="../../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 11 | JS | Password Validation |<a href="../../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 12 | JS | Password Strength Analyzer |<a href="../../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 13 | JS | Multi step form wizard |<a href="../../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 11 | JS | Password Validation |<a href="../../lab/js/inter/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 12 | JS | Password Strength Analyzer |<a href="../../lab/js/inter/lab12" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 13 | JS | Multi step form wizard |<a href="../../lab/js/inter/lab13" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### JavaScript (Advanced)
 You will learn advanced JavaScript. This lab exercise does not need to be submitted, but you will need to discuss the questions given at each lab exercise with your team. The group marks will be deducted if the discussion does not take place during the break out session. Please thoroughly examine each lab exercise provided. Please save the lab18.zip file to your computer.
