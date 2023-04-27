@@ -7,47 +7,31 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 8: A Weather App
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+In this weather app, you can get weather details for a specific city by entering the city name, or you can get weather details for your current location by clicking on the "Get Device Location" button. If you enter an invalid city name, an error message will appear. This app provides a wealth of weather information, including temperature in Celsius, weather conditions, location, how it feels, and humidity. The OpenWeatherMap API is used to get the weather details of the user entered city or user’s current location.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+After the user entered the city name, the JavaScript file sent a get request to an OpenWeatherMap API and passing the city name. If the user clicks the "Get Device Location" button, the apps will determine whether or not the user's browser supports geolocation API. If supported, obtain the device's current latitude and longitude and send these coordinates to the OpenWeatherMap API. It will display the property value to a specific HTML element after receiving an object as a response from the API. Finally, we displayed the custom weather icon/image based on the weather condition using the id value provided by the API.
 
 > File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
 > 
 > Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
-> 
+> - Provide weather information for the cities of Longyearbyen and Novosibirsk.
+> - Demonstrate how to use device location.
+> - What is the openweathermap API?
+> - What exactly is the purpose of weatherDetails?
 
-<img src="./download/l1int-a.png" width="600" />
+<img src="./download/L8adv-a.png" width="600" />
 
-**Figure 1.1**: Mainpage
+**Figure 8.1**: Weather App - fill in the location
 
-<img src="./download/l1int-b.png" width="600" />
+<img src="./download/L8adv-b.png" width="600" />
 
-**Figure 1.2**: Interface 2
+**Figure 8.2**: Weather - Johor Bahru
 
-<img src="./download/l1int-c.png" width="600" />
+<img src="./download/L8adv-c.png" width="600" />
 
-**Figure 1.3**: Interface 3
-
-<img src="./download/l1int-d.png" width="600" />
-
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1int-e.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1int-f.png" width="600" />
-
-**Figure 1.6**: Interface 6
-
+**Figure 8.3**: Weather - Kuala Lumpur
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
