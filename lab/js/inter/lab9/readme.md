@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 9: Form for Login and Registration
 
-> File 📁 : lab 9.zip
+> File 📁 : [lab9.zip](./download/lab9.zip?raw=true)
 > 
 > Activity 🏆 :
 > You will learn how to create a form with two parts: login and registration. The login form is the section of the website where users enter their information in order to access the website. Same as the Registration form is the section with the combination of input fields where users need to fill in details to create a login id and password. The login form will appear first, and when we click the signup now button, the login form will be replaced by the registration form.
