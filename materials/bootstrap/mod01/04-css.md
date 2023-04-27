@@ -266,21 +266,21 @@ An example HTML code that includes Bootstrap CSS classes for typography:
 
 In this code, we have included the Bootstrap CSS file in the `<head>` section and added various Bootstrap CSS classes for typography to different elements on the page. The result is a page that is visually appealing and easy to read.
 
-The `<h1>` element uses the default Bootstrap typography style for headings, which is bold and has a larger font size than regular text. 
+- The `<h1>` element uses the default Bootstrap typography style for headings, which is bold and has a larger font size than regular text. 
 
-The `<p>` elements use various Bootstrap typography classes, such as `lead` for the first paragraph, `text-muted` for the third paragraph, and color classes such as `text-primary`, `text-secondary`, and `text-success` for the fourth, fifth, and sixth paragraphs respectively. 
+- The `<p>` elements use various Bootstrap typography classes, such as `lead` for the first paragraph, `text-muted` for the third paragraph, and color classes such as `text-primary`, `text-secondary`, and `text-success` for the fourth, fifth, and sixth paragraphs respectively. 
 
-We have also used `text-danger` and `text-warning` classes for the seventh and eighth paragraphs, which are used to display text in red and yellow colors respectively. 
+- We have also used `text-danger` and `text-warning` classes for the seventh and eighth paragraphs, which are used to display text in red and yellow colors respectively. 
 
-The ninth paragraph uses `text-info` class, which displays text in a light blue color.
+- The ninth paragraph uses `text-info` class, which displays text in a light blue color.
 
-The tenth paragraph uses `text-dark` class, which displays text in a dark gray color. 
+- The tenth paragraph uses `text-dark` class, which displays text in a dark gray color. 
 
-The eleventh and twelfth paragraphs use `font-weight-bold` and `font-weight-normal` classes, which are used to make the text bold and normal respectively.
+- The eleventh and twelfth paragraphs use `font-weight-bold` and `font-weight-normal` classes, which are used to make the text bold and normal respectively.
 
-The thirteenth, fourteenth, and fifteenth paragraphs use `text-center`, `text-right`, and `text-left` classes respectively, which are used to align the text to the center, right, and left respectively.
+- The thirteenth, fourteenth, and fifteenth paragraphs use `text-center`, `text-right`, and `text-left` classes respectively, which are used to align the text to the center, right, and left respectively.
 
-Lastly, we have used `list-unstyled` class for the unordered list to remove the default bullets and make the list items appear as plain text.
+- Lastly, we have used `list-unstyled` class for the unordered list to remove the default bullets and make the list items appear as plain text.
 
 Overall, the use of Bootstrap typography classes helps to create a visually consistent and aesthetically pleasing design for the webpage.
 
