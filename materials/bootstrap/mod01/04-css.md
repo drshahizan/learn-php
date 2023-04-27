@@ -336,13 +336,13 @@ An example HTML code that uses Bootstrap CSS classes for typography in a univers
 
 In this code, we have included the Bootstrap CSS file in the `<head>` section and used various Bootstrap CSS classes for typography throughout the page. 
 
-The heading uses the `display-4` class to make it large and prominent. 
+- The heading uses the `display-4` class to make it large and prominent. 
 
-The form elements use the `form-control` class to give them a consistent look and feel. 
+- The form elements use the `form-control` class to give them a consistent look and feel. 
 
-The labels for the form elements use regular text, while the form inputs use the Bootstrap typography classes to style the input text, such as `placeholder` for the input fields, `select` for the course selection dropdown, and `textarea` for the message field.
+- The labels for the form elements use regular text, while the form inputs use the Bootstrap typography classes to style the input text, such as `placeholder` for the input fields, `select` for the course selection dropdown, and `textarea` for the message field.
 
-The submit button uses the `btn` and `btn-primary` classes to style it as a primary action button.
+- The submit button uses the `btn` and `btn-primary` classes to style it as a primary action button.
 
 Overall, the use of Bootstrap typography classes helps to create a visually appealing and consistent design for the university course registration system.
 
