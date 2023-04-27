@@ -195,6 +195,49 @@ By using the grid system, we have created a responsive layout that adjusts to th
 
 Bootstrap's grid system is a powerful tool for creating responsive layouts that work on different screen sizes. By using the `container`, `row`, and `col` classes, we can create a flexible and responsive layout that adjusts to the screen size. This is especially important for web applications like the university academic course registration system, which need to work well on different devices and screen sizes.
 
+## Typography
+Bootstrap CSS classes for typography are designed to help create a consistent and readable text across your web pages. Bootstrap provides a range of classes to style your text, including headings, paragraphs, lists, and more.
+
+| Bootstrap CSS Classes | Description |
+|-----------------------|-------------|
+| `h1` to `h6`           | Define the six levels of headings in HTML. You can use these classes to apply a consistent style to your headings, making them more readable and visually appealing. |
+| `lead`                 | This class is used to style a paragraph to be larger and more prominent than the surrounding text. It is often used for introductory paragraphs or to highlight key points. |
+| `text-muted`           | This class is used to style text that is less important or secondary to the main content. It is often used for footnotes, captions, or other supporting text. |
+| `text-primary`        | Apply a primary color to text |
+| `text-secondary`      | Apply a secondary color to text |
+| `text-success`        | Apply a success color to text |
+| `text-danger`         | Apply a danger color to text |
+| `text-warning`        | Apply a warning color to text |
+| `text-info`           | Apply an info color to text |
+| `text-dark`           | Apply a dark color to text |
+| `font-weight-bold`    | Make the text bold |
+| `font-weight-normal`  | Restore the default weight of the text |
+| `text-center`         | Center align the text |
+| `text-right`          | Right align the text |
+| `text-left`           | Left align the text |
+| `list-unstyled`       | This class is used to remove the default styling from unordered and ordered lists. It is often used to create custom list styles.| 
+
+| Bootstrap CSS Classes | Description | Example |
+|-----------------------|-------------|---------|
+| `h1` to `h6`           | Define the six levels of headings in HTML | `<h1>Heading 1</h1>` |
+| `lead`                 | Style a paragraph to be larger and more prominent | `<p class="lead">This paragraph is larger and more prominent</p>` |
+| `text-muted`           | Style less important or secondary text | `<p class="text-muted">This text is less important</p>` |
+| `text-primary`        | Apply a primary color to text | `<p class="text-primary">This text is in a primary color</p>` |
+| `text-secondary`      | Apply a secondary color to text | `<p class="text-secondary">This text is in a secondary color</p>` |
+| `text-success`        | Apply a success color to text | `<p class="text-success">This text is in a success color</p>` |
+| `text-danger`         | Apply a danger color to text | `<p class="text-danger">This text is in a danger color</p>` |
+| `text-warning`        | Apply a warning color to text | `<p class="text-warning">This text is in a warning color</p>` |
+| `text-info`           | Apply an info color to text | `<p class="text-info">This text is in an info color</p>` |
+| `text-dark`           | Apply a dark color to text | `<p class="text-dark">This text is in a dark color</p>` |
+| `font-weight-bold`    | Make the text bold | `<p class="font-weight-bold">This text is bold</p>` |
+| `font-weight-normal`  | Restore the default weight of the text | `<p class="font-weight-normal">This text has a normal weight</p>` |
+| `text-center`         | Center align the text | `<p class="text-center">This text is centered</p>` |
+| `text-right`          | Right align the text | `<p class="text-right">This text is aligned to the right</p>` |
+| `text-left`           | Left align the text | `<p class="text-left">This text is aligned to the left</p>` |
+| `list-unstyled`       | Remove default styling from lists | `<ul class="list-unstyled"><li>List item 1</li><li>List item 2</li></ul>` |
+
+These are just some examples of how to use Bootstrap CSS classes for typography in your HTML code. By using these classes, you can style your text consistently and effectively, creating a professional and engaging website.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
