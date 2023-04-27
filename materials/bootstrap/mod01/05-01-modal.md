@@ -7,25 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Bootstrap JavaScript plugins
-Bootstrap is a popular front-end web development framework that provides a wide range of pre-designed CSS and JavaScript components that developers can use to create modern, responsive web applications. Bootstrap includes a large library of JavaScript plugins that can be used to add interactivity and functionality to web pages.
-
-Bootstrap JavaScript plugins include:
-
-| Plugin Name | Description |
-| --- | --- |
-| Modal | Creates a modal window that can display content or messages to users. |
-| Collapse | Hides or shows content with a click of a button. |
-| Carousel | Creates a slideshow of images or other content that can be navigated with previous and next buttons. |
-| Tooltip | Displays a small pop-up message when a user hovers over an element on a web page. |
-| Scrollspy | Highlights navigation links as a user scrolls down a page. |
-| Dropdown | Creates a drop-down menu with customizable options. |
-| Popover | Displays a small pop-up message when a user clicks on an element on a web page. |
-| Tab | Creates a tabbed interface that allows users to switch between different sections of content. |
-| Alert | Displays an alert message to users. |
-| Button | Enhances the functionality of buttons with additional features like toggle, checkbox, and radio functionality. |
-
-## Modal
+# Modal
 The Bootstrap JavaScript plugin for a modal window allows you to display a dialog box or pop-up window over your web page. This can be useful for displaying additional content, forms, or messages without navigating away from the current page.
 
 To use the Bootstrap modal plugin, you'll need to include the Bootstrap JavaScript and CSS files in your HTML file. Once you've done that, you can create a button that will trigger the modal window.
