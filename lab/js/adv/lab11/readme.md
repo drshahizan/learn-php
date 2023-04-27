@@ -7,46 +7,54 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 11: A Quiz App with Timer
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+This programme has three layers or boxes, which are displayed one by one when a specific button is pressed. On the webpage, there is a button labelled "Start Quiz," and when you click on that button, an info box with popup animation appears.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+There are some quiz rules and two buttons labelled "Exit" and "Continue" in this infobox. When you click the Exit button, the information box is hidden, but when you click the Continue button, the Quiz Box appears.
+
+There is a header with a title on the left side of the Quiz Box and a timer box on the right side. This timer decrements from 15 to 0 seconds, and there is also a timeline indicator that slides from left to right according to the timer. If the user chooses a time between 15 and 0 seconds, the timer is stopped and all available options are disabled.
+
+If the user selected option is correct, the selected option colour, background colour, and tick icon are all changed to green to notify the user that the selected answer is correct. If the user selects an incorrect option, the selected option's colour, background colour, and the cross icon change to alert the user that the selected option is incorrect, and the correct option is automatically selected.
+
+If the user does not select an option between 15 and 0 seconds, the timer will stop when it reaches 0 and the correct answer to that question will be selected automatically. Following that, there is a next button that displays the next question, and this Quiz has a total of five questions.
+
+Finally, the result box will appear, displaying the user's score as well as two buttons [Replay Quiz, Quit Quiz]. If the user clicks on the replay quiz button, the quiz will restart with the first question and the user's score will be 0, but if the user clicks on the quit quiz button, the current window will be reloaded and the quiz will begin from the beginning.
 
 > File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
 > 
 > Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> - What are the functions of question.js and script.js?
+> - Try adding quiz questions to the list of ten questions.
+> - How to change Response Time to 30 Seconds.
+> - Where are the scores saved?
+> - What happens when you click the Quiz replay button?
+> - What are the css/all.min.css files for?
 > 
 
-<img src="./download/l1int-a.png" width="600" />
+<img src="./download/L11adv-a.png" width="200" />
 
-**Figure 1.1**: Mainpage
+**Figure 11.1**: Start quiz
 
-<img src="./download/l1int-b.png" width="600" />
+<img src="./download/L11adv-b.png" width="400" />
 
-**Figure 1.2**: Interface 2
+**Figure 11.2**: Rules if this quiz
 
-<img src="./download/l1int-c.png" width="600" />
+<img src="./download/L11adv-c.png" width="400" />
 
-**Figure 1.3**: Interface 3
+**Figure 11.3**:  Question 1
 
-<img src="./download/l1int-d.png" width="600" />
+<img src="./download/L11adv-d.png" width="400" />
 
-**Figure 1.4**: Interface 4
+**Figure 11.4**: Answer Question 1
 
-<img src="./download/l1int-e.png" width="600" />
+<img src="./download/L11adv-e.png" width="400" />
 
-**Figure 1.5**: Interface 5
+**Figure 11.5**:  Question 2
 
-<img src="./download/l1int-f.png" width="600" />
+<img src="./download/L11adv-f.png" width="400" />
 
-**Figure 1.6**: Interface 6
+**Figure 11.6**:  Finish quiz
 
 
 ## Contribution 🛠️
