@@ -33,6 +33,37 @@ Sure, I can provide the information in a table format as well. Here it is:
 
 By using Bootstrap CSS classes for buttons, developers can quickly create consistent and visually appealing buttons that are optimized for different device sizes and screen resolutions.
 
+Sure, here is an example of complete HTML code using Bootstrap CSS classes for button:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Button Example</title>
+    <!-- Include Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Bootstrap Button Example</h1>
+        <button class="btn btn-primary mr-2">Submit</button>
+        <button class="btn btn-secondary mr-2">Cancel</button>
+        <button class="btn btn-success mr-2">Save</button>
+        <button class="btn btn-danger mr-2">Delete</button>
+        <button class="btn btn-warning mr-2">Are you sure?</button>
+        <button class="btn btn-info mr-2">Learn More</button>
+    </div>
+    <!-- Include Bootstrap JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
+```
+
+In this example, we have included the Bootstrap CSS and JavaScript files in the head and body sections, respectively. We have also created six buttons with different Bootstrap CSS classes to demonstrate the different styles and effects available. Finally, we have included the necessary jQuery, Popper.js, and Bootstrap JavaScript files at the end of the body section to ensure that all components work correctly.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
