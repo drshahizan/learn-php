@@ -284,6 +284,68 @@ In this code, we have included the Bootstrap CSS file in the `<head>` section an
 
 Overall, the use of Bootstrap typography classes helps to create a visually consistent and aesthetically pleasing design for the webpage.
 
+## Case study
+
+An example HTML code that uses Bootstrap CSS classes for typography in a university academic course registration system:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>University Course Registration</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1 class="display-4 mb-5">Welcome to the Course Registration System</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="course">Select a course:</label>
+        <select class="form-control" id="course">
+          <option>Introduction to Computer Science</option>
+          <option>Web Development</option>
+          <option>Data Science</option>
+          <option>Artificial Intelligence</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+```
+
+In this code, we have included the Bootstrap CSS file in the `<head>` section and used various Bootstrap CSS classes for typography throughout the page. 
+
+The heading uses the `display-4` class to make it large and prominent. 
+
+The form elements use the `form-control` class to give them a consistent look and feel. 
+
+The labels for the form elements use regular text, while the form inputs use the Bootstrap typography classes to style the input text, such as `placeholder` for the input fields, `select` for the course selection dropdown, and `textarea` for the message field.
+
+The submit button uses the `btn` and `btn-primary` classes to style it as a primary action button.
+
+Overall, the use of Bootstrap typography classes helps to create a visually appealing and consistent design for the university course registration system.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
