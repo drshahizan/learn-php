@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 Colors are the first thing people notice when they visit your site, and your color scheme can make a huge impact on both style and consistency. You will perform an exercise in which you will change the colour theme of the website.
 
-> File 📁 : lab 6.zip
+> File 📁 : [lab6.zip](./download/lab6.zip?raw=true)
 > 
 > Activity 🏆 :<br>
 > In this lab exercise, you must complete two tasks using JavaScript:
