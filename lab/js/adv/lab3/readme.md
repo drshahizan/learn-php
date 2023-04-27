@@ -28,8 +28,6 @@ You can easily add, edit, or delete tasks in this todo app. There is also a filt
 
 **Figure 3.2**: Edit task
 
-<img src="./download/l1int-b.png" width="400" />
-
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
