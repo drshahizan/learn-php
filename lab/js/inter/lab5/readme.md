@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 5: Admin Dashboard Panel
 
-Admin Dashboard is a header section of the website where the admin can see the overall performance of his/her website. Admin dashboard panel helps to make quick decisions for admin to make decisions of what should they improve in his website or business.
+Admin Dashboard is a header section of the website where the admin can see the overall performance of website. Admin dashboard panel helps to make quick decisions for admin to make decisions of what should they improve in his website or business.
 
 The information that needs to be in the admin panel dashboard is as follows: 
 - Overall details of the website
