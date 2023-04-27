@@ -8,7 +8,18 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Navbar
+Bootstrap is a popular front-end development framework that provides a set of pre-defined CSS classes and JavaScript plugins for creating responsive and mobile-first web designs. One of the most commonly used components of Bootstrap is the navbar, which is a horizontal navigation bar that contains links to different sections of a website.
 
+The Bootstrap CSS classes for the navbar allow developers to quickly and easily create a customizable and responsive navigation bar. Some of the key classes for creating a navbar include:
+
+| Item | Description | Example |
+| --- | --- | --- |
+| `navbar` | The main class used to create a navbar. It sets the basic styles and layout for the navbar, such as the background color and padding. | `<nav class="navbar"></nav>` |
+| `navbar-expand-*` | This class controls how the navbar expands and collapses on different screen sizes. The `*` can be replaced with a screen size, such as `sm` for small screens or `lg` for large screens. | `<nav class="navbar navbar-expand-lg"></nav>` |
+| `navbar-brand` | This class is used to create a logo or brand name for the navbar. It provides styles for the text and image that are used as the brand. | `<a class="navbar-brand" href="#">My Brand</a>` |
+| `navbar-nav` | This class is used to create a list of links that appear in the navbar. It provides styles for the list items and the links. | `<ul class="navbar-nav"></ul>` |
+| `nav-item` | This class is used to create individual items in the navbar list. It provides styles for the list item and the link. | `<li class="nav-item"></li>` |
+| `nav-link` | This class is used to create links within the navbar list. It provides styles for the link, such as setting the color and hover effects. | `<a class="nav-link" href="#">Link</a>` |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
