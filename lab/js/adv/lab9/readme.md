@@ -7,47 +7,39 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
-
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
-
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+# Lab 9: A Currency Converter
 
 > File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
 > 
 > Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
-> 
+> - Convert RM100 to EUR.
+> - Please identify the French currency.
+> - You've been asked to change the default setting from US to UK.
+> - What is the name of the currency exchange API?
 
-<img src="./download/l1int-a.png" width="600" />
+You can enter your amount and convert your currency to a different country's currency using this app. You cannot leave the amount field blank or enter 0. If you do this, the amount field will be automatically filled with "1." You can also easily exchange or reverse the currencies of the two countries by clicking on the exchange icon.
 
-**Figure 1.1**: Mainpage
+All possible country codes and currency codes were saved as an object in the JavaScript file (country-list.js). Then, in the script.js file, create an options tag and insert those currency codes inside each option tag using a for-in loop before inserting these tags inside the select tag.
 
-<img src="./download/l1int-b.png" width="600" />
+Following that, a function was called and the user-entered amount was obtained. Then, using the user-selected "from" currency code, system sent a get request to an exchange rate API. The API returned an object containing the user-selected "from" currency's all-country currency conversion rate.
 
-**Figure 1.2**: Interface 2
+The user first selected the "to" currency conversion rate, which was then calculated with the user-entered amount and displayed in the exchange rate text. After that, simply reverse the "from" currency to "to" currency and call the function to swap the currency codes. To display the user-selected country flag, used the countryflags.io API.
 
-<img src="./download/l1int-c.png" width="600" />
+<img src="./download/L9adv-a.png" width="300" />
 
-**Figure 1.3**: Interface 3
+**Figure 9.1**: Currency converter
 
-<img src="./download/l1int-d.png" width="600" />
+<img src="./download/L9adv-b.png" width="300" />
 
-**Figure 1.4**: Interface 4
+You will see information such as a title, an input field, a button, and some text with navigation links on the registration form. The registration form disappears when you click the SignIn link, and the login form appears.
 
-<img src="./download/l1int-e.png" width="600" />
+**Figure 9.2**: Change country
 
-**Figure 1.5**: Interface 5
+To see the words you typed in the password input, click show eye toggle button (see Figure 9.3).
 
-<img src="./download/l1int-f.png" width="600" />
+<img src="./download/L9adv-c.png" width="300" />
 
-**Figure 1.6**: Interface 6
-
+**Figure 9.3**: Sample data
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
