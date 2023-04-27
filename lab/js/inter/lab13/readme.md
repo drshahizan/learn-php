@@ -7,46 +7,35 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 13: Multi step form wizard
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+A multi-step form is a long form that is broken into multiple pieces. They’re used to make long forms, such as shipping or registration forms, less intimidating and daunting. By allowing customers and leads to complete their information in smaller chunks, you create a positive user experience and increase conversions.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+By splitting up long forms into multiple steps, you will make your life easier when reviewing the form entries. You will also simplify things for the people completing your form. Forms that require a lot of information, such as registration forms or order forms, almost always benefit from being split up into multiple steps. For example, check out registration form. The sections in their form range from questions about appointment times to billing information. The form separates each category of questions into segmented steps, making the form easy-to-follow.
 
-> File 📁 : lab 17_1.zip
+This form is lengthy and divided into four steps (see Figure 13.1). Name, Contact, Birth, and Submit are the steps. There is information that the user must enter at each step. Furthermore, there is a step progress bar at the top of the Form that indicates the number of steps. On each step, there are two buttons (Next and Previous). When you click the next button, you will be taken to the next step, and when you click the previous button, you will be taken back to the previous step.
+
+> File 📁 : lab 13.zip
 > 
 > Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> You are required to generate a script.js file that allows the Next button to be active when clicked. Once the Next button is clicked, information related to the Contact will be displayed. Information related to a step progress bar for Name will be pink (refer Figure 13.2). Please complete the same process until step 4 which is Submit (Figure 13.3 and Figure 13.4).
 > 
 
-<img src="./download/l1ajs.png" width="600" />
+<img src="./download/l13int-a.png" width="300" />
 
-**Figure 1.1**: Mainpage
+**Figure 13.1**: Mainpage - name
 
-<img src="./download/l1bjs.png" width="600" />
+<img src="./download/l13int-b.png" width="300" />
 
-**Figure 1.2**: Interface 2
+**Figure 13.2**: Contact
 
-<img src="./download/l1cjs.png" width="600" />
+<img src="./download/l13int-c.png" width="300" />
 
-**Figure 1.3**: Interface 3
+**Figure 13.3**: Birth
 
-<img src="./download/l1djs.png" width="600" />
+<img src="./download/l13int-d.png" width="300" />
 
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1ejs.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1fjs.png" width="600" />
-
-**Figure 1.6**: Interface 6
+**Figure 13.4**: Submit
 
 
 ## Contribution 🛠️
