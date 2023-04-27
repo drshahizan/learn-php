@@ -7,46 +7,45 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 6: Custom Color Theme Website
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+Colors are the first thing people notice when they visit your site, and your color scheme can make a huge impact on both style and consistency. You will perform an exercise in which you will change the colour theme of the website.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
-
-> File 📁 : lab 17_1.zip
+> File 📁 : lab 6.zip
 > 
-> Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> Activity 🏆 :<br>
+> In this lab exercise, you must complete two tasks using JavaScript:
+> - customise the colour theme for the website
+> - create a website with a day-night mode (dark/light theme).
 > 
 
-<img src="./download/l1ajs.png" width="600" />
+Take a look at the image of our website design provided (see Figure 6.1). On the top, there's a navigation menu bar, a home section with some text, and a lovely button. We can see an icon to switch the website into dark and light mode on the right side of the navigation menu bar, and a colour switcher button on the right end side, from it we can switch any colour we want.
 
-**Figure 1.1**: Mainpage
+The entire UI design of this website is made up of HTML and CSS code, with some JavaScript code used to make the website dark and light mode (day-night mode) and to switch the website colour theme.
 
-<img src="./download/l1bjs.png" width="600" />
+<img src="./download/l6int-a.png" width="600" />
 
-**Figure 1.2**: Interface 2
+**Figure 6.1**: Maroon colour
 
-<img src="./download/l1cjs.png" width="600" />
+At first, we have seen a navigation bar on the top with some text and a button. When I clicked on the website's theme color switcher one color switcher box appear and some color, and also we have seen which color was active. When I clicked on the second orange color, all the theme colors of the website changed into orange and like this, I switched the website to a different color (refer Figure 6.2 - 6.4).
 
-**Figure 1.3**: Interface 3
+<img src="./download/l6int-b.png" width="600" />
 
-<img src="./download/l1djs.png" width="600" />
+**Figure 6.2**: Orange colour
 
-**Figure 1.4**: Interface 4
+<img src="./download/l6int-c.png" width="600" />
 
-<img src="./download/l1ejs.png" width="600" />
+**Figure 6.3**: Purple colour
 
-**Figure 1.5**: Interface 5
+<img src="./download/l6int-d.png" width="600" />
 
-<img src="./download/l1fjs.png" width="600" />
+**Figure 6.4**: Green colour
 
-**Figure 1.6**: Interface 6
+When I clicked on the moon button, the website went into dark mode and sun icons appeared; when I clicked on the sun icons again, the website went back into light mode (Figure 6.5).
+
+<img src="./download/l6int-e.png" width="600" />
+
+**Figure 6.5**: Dark mode
 
 
 ## Contribution 🛠️
