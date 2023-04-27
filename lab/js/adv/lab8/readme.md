@@ -21,15 +21,15 @@ After the user entered the city name, the JavaScript file sent a get request to 
 > - What is the openweathermap API?
 > - What exactly is the purpose of weatherDetails?
 
-<img src="./download/L8adv-a.png" width="600" />
+<img src="./download/L8adv-a.png" width="300" />
 
 **Figure 8.1**: Weather App - fill in the location
 
-<img src="./download/L8adv-b.png" width="600" />
+<img src="./download/L8adv-b.png" width="300" />
 
 **Figure 8.2**: Weather - Johor Bahru
 
-<img src="./download/L8adv-c.png" width="600" />
+<img src="./download/L8adv-c.png" width="300" />
 
 **Figure 8.3**: Weather - Kuala Lumpur
 
