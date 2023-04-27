@@ -198,25 +198,6 @@ Bootstrap's grid system is a powerful tool for creating responsive layouts that 
 ## Typography
 Bootstrap CSS classes for typography are designed to help create a consistent and readable text across your web pages. Bootstrap provides a range of classes to style your text, including headings, paragraphs, lists, and more.
 
-| Bootstrap CSS Classes | Description |
-|-----------------------|-------------|
-| `h1` to `h6`           | Define the six levels of headings in HTML. You can use these classes to apply a consistent style to your headings, making them more readable and visually appealing. |
-| `lead`                 | This class is used to style a paragraph to be larger and more prominent than the surrounding text. It is often used for introductory paragraphs or to highlight key points. |
-| `text-muted`           | This class is used to style text that is less important or secondary to the main content. It is often used for footnotes, captions, or other supporting text. |
-| `text-primary`        | Apply a primary color to text |
-| `text-secondary`      | Apply a secondary color to text |
-| `text-success`        | Apply a success color to text |
-| `text-danger`         | Apply a danger color to text |
-| `text-warning`        | Apply a warning color to text |
-| `text-info`           | Apply an info color to text |
-| `text-dark`           | Apply a dark color to text |
-| `font-weight-bold`    | Make the text bold |
-| `font-weight-normal`  | Restore the default weight of the text |
-| `text-center`         | Center align the text |
-| `text-right`          | Right align the text |
-| `text-left`           | Left align the text |
-| `list-unstyled`       | This class is used to remove the default styling from unordered and ordered lists. It is often used to create custom list styles.| 
-
 | Bootstrap CSS Classes | Description | Example |
 |-----------------------|-------------|---------|
 | `h1` to `h6`           | Define the six levels of headings in HTML | `<h1>Heading 1</h1>` |
