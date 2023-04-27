@@ -7,47 +7,30 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 5: A Dictionary App
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+In this project, there is only a search input, and when you enter any existing word and press enter, a loading text of "Searching the meaning of..." is displayed.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+If the searched word exists, the meaning, example, synonyms, and so on are displayed with a slide animation; otherwise, a message stating "Can't find the meaning of......" is displayed. There is also a pronunciation icon to help you pronounce the word you searched for.
+
+This dictionary's implementation is as follows:
+
+- First, get searched input, and then, using the fetch API method
+- Send a get request to an API (dictionaryapi.dev) with the user searched word as a parameter.
+- If the searched word exists, the API returns an object containing many details (definition, example, synonyms) about the word; otherwise, it returns the message "Can't find the definitions."
+- After retrieving the data from the API, inserted it into a specific HTML element.
 
 > File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
 > 
 > Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
-> 
+> - Explain how dictionaryapi works.
+> - Where can I find a list of available dictionaries?
+> - Please repair the voice until it is audible.
+>
 
-<img src="./download/l1int-a.png" width="600" />
+<img src="./download/L5adv-a.png" width="400" />
 
-**Figure 1.1**: Mainpage
-
-<img src="./download/l1int-b.png" width="600" />
-
-**Figure 1.2**: Interface 2
-
-<img src="./download/l1int-c.png" width="600" />
-
-**Figure 1.3**: Interface 3
-
-<img src="./download/l1int-d.png" width="600" />
-
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1int-e.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1int-f.png" width="600" />
-
-**Figure 1.6**: Interface 6
-
+**Figure 5.1**: English Dictionary
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
