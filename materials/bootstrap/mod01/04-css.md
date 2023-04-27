@@ -40,6 +40,161 @@ Bootstrap's Grid system is a powerful and flexible way to create responsive layo
 
 By using these classes, developers can create complex and responsive layouts that work across a variety of screen sizes and devices. For example, a developer might create a layout with two columns on a desktop screen (`col-md-6`), but change to a single column layout on a mobile screen (`col-sm-12`).
 
+### Code
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Grid Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bootstrap Grid Example</h1>
+      <p>Resize the browser window to see the effect.</p>
+      <div class="row">
+        <div class="col-sm-4" style="background-color: lavender">Column 1</div>
+        <div class="col-sm-4" style="background-color: lavenderblush">
+          Column 2
+        </div>
+        <div class="col-sm-4" style="background-color: lavender">Column 3</div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
+```
+
+In this example, we have included the Bootstrap CSS and JavaScript files from a CDN, but you can also download and host them locally if you prefer. The `container` class is used to create a fixed-width container that centers the content on the page. Within the container, we have a `row` class that contains three `col-sm-4` classes. This creates a row with three equal-width columns on small and larger screens. We have also added some inline styles to give each column a different background color for demonstration purposes.
+
+When you open this HTML file in a web browser and resize the window, you will see that the columns adjust their widths to maintain the same layout, even on different screen sizes. This is the power of Bootstrap's grid system, which allows developers to create responsive web designs that work well on any device. 
+
+### Case study
+Sure, here is an example of a complete HTML code using Bootstrap's grid classes for a university academic course registration system:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course Registration System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Course Registration System</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Student Information</h2>
+          <form>
+            <div class="form-group">
+              <label for="student-name">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="student-name"
+                placeholder="Enter name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="student-id">ID:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="student-id"
+                placeholder="Enter ID"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-lg-8">
+          <h2>Course Information</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Title</th>
+                <th>Credit Hours</th>
+                <th>Select</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CSCI101</td>
+                <td>Introduction to Computer Science</td>
+                <td>3</td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="csci101"
+                    name="csci101"
+                    value="csci101"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>MATH201</td>
+                <td>Calculus I</td>
+                <td>4</td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="math201"
+                    name="math201"
+                    value="math201"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>PHYS101</td>
+                <td>Introductory Physics</td>
+                <td>4</td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="phys101"
+                    name="phys101"
+                    value="phys101"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="submit" class="btn btn-primary">
+            Register Courses
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+```
+
+In this example, we have created a course registration system for a university. The `container` class is used to create a fixed-width container that centers the content on the page. Within the container, we have a `row` class that contains two `col-lg-4` and `col-lg-8` classes. This creates a row with two columns, one for student information and the other for course information. The `lg` size modifier specifies that the column layout should be applied for large screens and above.
+
+In the left column, we have a form for entering student information, including name and ID. In the right column, we have a table that displays course information, including the course code, title, credit hours, and a checkbox to select the course. We have used the `table` class to create a responsive table that adjusts to the screen size. Finally, we have a `button` to register the selected courses.
+
+By using the grid system, we have created a responsive layout that adjusts to the screen size. The `container` class ensures that the content is centered on the page and the `row` and `col` classes create a flexible layout that adjusts based on the screen size.
+
+Bootstrap's grid system is a powerful tool for creating responsive layouts that work on different screen sizes. By using the `container`, `row`, and `col` classes, we can create a flexible and responsive layout that adjusts to the screen size. This is especially important for web applications like the university academic course registration system, which need to work well on different devices and screen sizes.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
