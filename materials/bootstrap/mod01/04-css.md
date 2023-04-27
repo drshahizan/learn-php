@@ -80,7 +80,7 @@ When you open this HTML file in a web browser and resize the window, you will se
 ### Case study
 An example of a complete HTML code using Bootstrap's grid classes for a university academic course registration system:
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -221,9 +221,9 @@ These are just some examples of how to use Bootstrap CSS classes for typography 
 
 ### Code
 
-Sure, here's an example HTML code that includes Bootstrap CSS classes for typography:
+An example HTML code that includes Bootstrap CSS classes for typography:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
