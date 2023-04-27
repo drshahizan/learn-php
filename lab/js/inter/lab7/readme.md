@@ -7,47 +7,29 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 7: Login
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+A login is a set of credentials used to authenticate a user. Most often, these consist of a username and password. Logins are used by websites, computer applications, and mobile apps. They are a security measure designed to prevent unauthorized access to confidential data. When a login fails (i.e, the username and password combination does not match a user account), the user is disallowed access. Many systems block users from even trying to log in after multiple failed login attempts.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+At a basic level, logins make user accounts possible. Most systems require unique usernames, which ensures every user's login is different. On a more advanced level, logins provide a security layer between unsecured and secure activity. Once a user logs in to a secure website, for example, all data transfers are typically encrypted. This prevents other systems from viewing or recording the data transferred from the server.
 
-> File 📁 : lab 17_1.zip
+> File 📁 : lab 7.zip
 > 
-> Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> Activity 🏆 :<br>
+>You are required to generate a file named login.js for the JavaScript code used in this lab exercise. In the input field provided, the user will enter their username and password. The user will then click the Login button to Sign In (see Figure 7.1). Please use the username "user" and password "abc" as a default data. If the value is incorrect (check with default data), display the message "Invalid user name and/or password" (see Figure 7.2). If the input is correct, display the message "You have successfully logged in" in a pop-up window (see Figure 7.3).
 > 
 
-<img src="./download/l1ajs.png" width="600" />
+<img src="./download/l7int-a.png" width="300" />
 
-**Figure 1.1**: Mainpage
+**Figure 7.1**: Login Page
 
-<img src="./download/l1bjs.png" width="600" />
+<img src="./download/l7int-b.png" width="300" />
 
-**Figure 1.2**: Interface 2
+**Figure 7.2**: Invalid username and/or password
 
-<img src="./download/l1cjs.png" width="600" />
+<img src="./download/l7int-c.png" width="350" />
 
-**Figure 1.3**: Interface 3
-
-<img src="./download/l1djs.png" width="600" />
-
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1ejs.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1fjs.png" width="600" />
-
-**Figure 1.6**: Interface 6
-
+**Figure 7.3**: Login successful
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
