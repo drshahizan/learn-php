@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab : Range Slider
+# Lab 4: Range Slider
 
 Range sliders are used on web pages to allow the user to specify a numeric value that should not be less than a certain value and not greater than another given value. That is, it allows you to choose a value from a range represented as a slider.
 
