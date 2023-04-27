@@ -22,11 +22,10 @@ Sliders can use icons at either end of the bar to represent a numeric or relativ
 
 The Range Slider is a very intuitive user interface with one or two handles to allow the user to choose a value within a limited range. The user drags a handle along a dimension to set a value. A typical slider is usually found in the color picker where we can drag the arrow left and right to select the correct RGB value.
 
-> File 📁 : lab 4.zip
+> File 📁 : [lab4.zip](./download/lab4.zip?raw=true)
 > 
 > Activity 🏆 :<br>
 > You must create javascript for a price range with a value between 0 (minimum) and 10000. (max). The user can enter data in the provided field, which will automatically change the range of the slider. Furthermore, users can drag along the available price range line.
-
 > 
 
 <img src="./download/l4int-a.png" width="400" />
