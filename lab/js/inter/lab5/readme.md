@@ -25,11 +25,11 @@ The information that needs to be in the admin panel dashboard is as follows:
 > For the JavaScript code used in this lab exercise, you must create a script.js file. A sidebar on the right side of the interface contains the logo image, name, and some navigation links (Figure 17.1). Furthermore, at the left - bottom, there is a fascinating section "Dark Mode" with a toggle button (Figure 17.2). When you click on that toggle button, the interface of this admin panel changes to dark mode. On the left side, there is a sidebar toggle button that allows you to open or close that sidebar (Figure 17.3). Also included are a search box and data summaries.
 > 
 
-<img src="./download/l5int-c.png" width="600" />
+<img src="./download/l5int-a.png" width="600" />
 
 **Figure 5.1**: Admin dashboard
 
-<img src="./download/l5int-c.png" width="600" />
+<img src="./download/l5int-b.png" width="600" />
 
 **Figure 5.2**: Admin dashboard - dark mode
 
