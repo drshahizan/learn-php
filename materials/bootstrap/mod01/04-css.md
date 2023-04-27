@@ -219,6 +219,71 @@ Bootstrap CSS classes for typography are designed to help create a consistent an
 
 These are just some examples of how to use Bootstrap CSS classes for typography in your HTML code. By using these classes, you can style your text consistently and effectively, creating a professional and engaging website.
 
+### Code
+
+Sure, here's an example HTML code that includes Bootstrap CSS classes for typography:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Typography Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Bootstrap Typography Example</h1>
+    <p class="lead">This paragraph is larger and more prominent.</p>
+    <p>This is some regular text.</p>
+    <p class="text-muted">This text is less important.</p>
+    <p class="text-primary">This text is in a primary color.</p>
+    <p class="text-secondary">This text is in a secondary color.</p>
+    <p class="text-success">This text is in a success color.</p>
+    <p class="text-danger">This text is in a danger color.</p>
+    <p class="text-warning">This text is in a warning color.</p>
+    <p class="text-info">This text is in an info color.</p>
+    <p class="text-dark">This text is in a dark color.</p>
+    <p class="font-weight-bold">This text is bold.</p>
+    <p class="font-weight-normal">This text has a normal weight.</p>
+    <p class="text-center">This text is centered.</p>
+    <p class="text-right">This text is aligned to the right.</p>
+    <p class="text-left">This text is aligned to the left.</p>
+    <ul class="list-unstyled">
+      <li>List item 1</li>
+      <li>List item 2</li>
+    </ul>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+```
+
+In this code, we have included the Bootstrap CSS file in the `<head>` section and added various Bootstrap CSS classes for typography to different elements on the page. The result is a page that is visually appealing and easy to read.
+
+The `<h1>` element uses the default Bootstrap typography style for headings, which is bold and has a larger font size than regular text. 
+
+The `<p>` elements use various Bootstrap typography classes, such as `lead` for the first paragraph, `text-muted` for the third paragraph, and color classes such as `text-primary`, `text-secondary`, and `text-success` for the fourth, fifth, and sixth paragraphs respectively. 
+
+We have also used `text-danger` and `text-warning` classes for the seventh and eighth paragraphs, which are used to display text in red and yellow colors respectively. 
+
+The ninth paragraph uses `text-info` class, which displays text in a light blue color.
+
+The tenth paragraph uses `text-dark` class, which displays text in a dark gray color. 
+
+The eleventh and twelfth paragraphs use `font-weight-bold` and `font-weight-normal` classes, which are used to make the text bold and normal respectively.
+
+The thirteenth, fourteenth, and fifteenth paragraphs use `text-center`, `text-right`, and `text-left` classes respectively, which are used to align the text to the center, right, and left respectively.
+
+Lastly, we have used `list-unstyled` class for the unordered list to remove the default bullets and make the list items appear as plain text.
+
+Overall, the use of Bootstrap typography classes helps to create a visually consistent and aesthetically pleasing design for the webpage.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
