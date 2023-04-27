@@ -7,47 +7,27 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 6: A Language Translator App
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
-
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+A language translator is a programme that allows you to translate text into multiple languages such as Malay, Spanish, and others. Users can easily translate text into different languages, copy translated text, and convert text to speech using the language translator app. It is comparable to Google Translate.
 
 > File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
 > 
 > Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> - Describe the operation of this JavaScript.
+> - What API was used in this exercise? how it operates?
+> - Enter text to be converted to French. Is the text accurate?
 > 
 
-<img src="./download/l1int-a.png" width="600" />
+You'll discover how to use the free API to convert user-entered text into various languages. This API is only used to translate text into other languages. This lab exercise also explains the JavaScript array, fetch, and speech synthesis APIs, as well as the code for this language translator.
 
-**Figure 1.1**: Mainpage
+<img src="./download/L6adv-a.png" width="400" />
 
-<img src="./download/l1int-b.png" width="600" />
+**Figure 6.1**: Translate text
 
-**Figure 1.2**: Interface 2
+<img src="./download/L6adv-a.png" width="400" />
 
-<img src="./download/l1int-c.png" width="600" />
-
-**Figure 1.3**: Interface 3
-
-<img src="./download/l1int-d.png" width="600" />
-
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1int-e.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1int-f.png" width="600" />
-
-**Figure 1.6**: Interface 6
-
+**Figure 6.2**: Change Language
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
