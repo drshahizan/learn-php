@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 You can easily add, edit, or delete tasks in this todo app. There is also a filter button that allows you to narrow down the tasks. The tasks you add to this todo app will be saved in the browser's local storage and will not be removed when you refresh the page or close the tab.
 
-<img src="./download/L3adv-a.png" width="400" />
+<img src="./download/L3adv-a.png" width="350" />
 
 **Figure 3.1**: Todo List
 
@@ -24,7 +24,7 @@ You can easily add, edit, or delete tasks in this todo app. There is also a filt
 > - How the Clear All button is used
 > 
 
-<img src="./download/L3adv-b.png" width="400" />
+<img src="./download/L3adv-b.png" width="350" />
 
 **Figure 3.2**: Edit task
 
