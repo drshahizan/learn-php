@@ -13,7 +13,7 @@ A product card is used to display a picture of an item that is related to other 
 
 In this lab exercise, the webpage initially contains only a product image (Figure 2.1), but when you hover over that image, the options/customize container for that product appears with a sliding animation (Figure 2.2). The product customise container contains a product name, size numbers, price value, colour options, and buttons. This product has only three colour options, and when you click on one of them, the product image, background colour, and colour of the customise container change to match your selection.
 
-> File 📁 : lab 17_2.zip
+> File 📁 : [lab2.zip](./download/lab2.zip?raw=true)
 > 
 > Activity 🏆 : <br>
 > You are asked to write JavaScript that will display another jersey after you click the colour radio button. You only need to add the <script> tag to the HTML file. When you click the grey radio button, the colours in the background, button, size, and price become grey. A white-pink jersey will also be displayed (Figure 2.3). Please see Figure 2.4 for the implementation results after clicking on the Gold radio button.
