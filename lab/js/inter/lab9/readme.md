@@ -7,47 +7,33 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 9: Form for Login and Registration
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
-
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
-
-> File 📁 : lab 17_1.zip
+> File 📁 : lab 9.zip
 > 
 > Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> You will learn how to create a form with two parts: login and registration. The login form is the section of the website where users enter their information in order to access the website. Same as the Registration form is the section with the combination of input fields where users need to fill in details to create a login id and password. The login form will appear first, and when we click the signup now button, the login form will be replaced by the registration form.
 > 
 
-<img src="./download/l1ajs.png" width="600" />
+Figure 9.1 shows a login form with a login title, some input fields with beautiful focus animation, a button, text, links, a password hide and show eye toggle button, and a password hide and show eye toggle button. When you clicked on the signup link, a registration form with a beautiful sliding animation will appeared.
 
-**Figure 1.1**: Mainpage
+<img src="./download/l9int-a.png" width="300" />
+
+**Figure 9.1**: Sign In
+
+You will see information such as a title, an input field, a button, and some text with navigation links on the registration form. The registration form disappears when you click the SignIn link, and the login form appears.
 
 <img src="./download/l1bjs.png" width="600" />
 
-**Figure 1.2**: Interface 2
+**Figure 9.2**: Registration
 
-<img src="./download/l1cjs.png" width="600" />
+To see the words you typed in the password input, click show eye toggle button (see Figure 9.3).
 
-**Figure 1.3**: Interface 3
+<img src="./download/l9int-b.png" width="300" />
 
-<img src="./download/l1djs.png" width="600" />
+**Figure 9.3**: Sample data
 
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1ejs.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1fjs.png" width="600" />
-
-**Figure 1.6**: Interface 6
-
+<img src="./download/l9int-c.png" width="300" />
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
