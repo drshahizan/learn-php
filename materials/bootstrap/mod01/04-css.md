@@ -25,6 +25,21 @@ Bootstrap is a popular front-end development framework that provides a set of pr
 
 These are just a few examples of the many Bootstrap CSS classes available. By using these classes, developers can quickly and easily create responsive, mobile-first websites without having to write a lot of custom CSS code.
 
+## Grid system
+Bootstrap's Grid system is a powerful and flexible way to create responsive layouts for websites. The Grid system is based on a 12-column layout, with columns that can be combined and customized to create different layouts for different screen sizes. Here are some key concepts and classes related to the Bootstrap Grid system:
+
+1. **Containers**: Containers are used to create a fixed-width container for content. Containers are defined using the `container` class.
+
+2. **Rows**: Rows are used to group columns together horizontally. Rows are defined using the `row` class.
+
+3. **Columns**: Columns are used to define the width of a section of content. Columns are defined using the `col` class, followed by a number indicating the number of columns the section should occupy. For example, `col-6` would create a section that occupies 6 out of the 12 columns in the row.
+
+4. **Column sizes**: In addition to `col-`, Bootstrap provides a variety of classes to customize column sizes for different screen sizes. These include `col-sm-`, `col-md-`, and `col-lg-`, among others.
+
+5. **Column offsets**: Column offsets can be used to create space between columns. Column offsets are defined using the `offset-` class, followed by a number indicating the number of columns to offset.
+
+By using these classes, developers can create complex and responsive layouts that work across a variety of screen sizes and devices. For example, a developer might create a layout with two columns on a desktop screen (`col-md-6`), but change to a single column layout on a mobile screen (`col-sm-12`).
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
