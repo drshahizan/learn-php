@@ -42,17 +42,17 @@ You will learn about JavaScript. Personal Portfolio Website, JDT Jersey Product 
 | -----: | ----- | ----- | :------: | 
 | 01 | JS | Personal Portfolio Website |<a href="../../lab/js/inter/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02 | JS | DT Jersey Product Card |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | JS | Coming soon landing page |<a href="./../lab/js/inter/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 03 | JS | Coming soon landing page |<a href="../../lab/js/inter/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | JS | Range Slider |<a href="./../lab/js/inter/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | JS | Admin Dashboard Panel |<a href="./../lab/js/inter/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | JS | Custom Color Theme Website |<a href="./../lab/js/inter/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | JS | Login |<a href="./../lab/js/inter/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | JS | Login Form Validation |<a href="./../lab/js/inter/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 09 | JS | Form for Login and Registration |<a href="./../lab/js/inter/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | JS | Registration Form |<a href="./../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 11 | JS | Password Validation |<a href="./../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 12 | JS | Password Strength Analyzer |<a href="./../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 13 | JS | Multi step form wizard |<a href="./../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | JS | Admin Dashboard Panel |<a href="../../lab/js/inter/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | JS | Custom Color Theme Website |<a href="../../lab/js/inter/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07 | JS | Login |<a href="../../lab/js/inter/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 08 | JS | Login Form Validation |<a href="../../lab/js/inter/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 09 | JS | Form for Login and Registration |<a href="../../lab/js/inter/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 10 | JS | Registration Form |<a href="../../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 11 | JS | Password Validation |<a href="../../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 12 | JS | Password Strength Analyzer |<a href="../../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 13 | JS | Multi step form wizard |<a href="../../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### JavaScript (Advanced)
 You will learn advanced JavaScript. This lab exercise does not need to be submitted, but you will need to discuss the questions given at each lab exercise with your team. The group marks will be deducted if the discussion does not take place during the break out session. Please thoroughly examine each lab exercise provided. Please save the lab18.zip file to your computer.
