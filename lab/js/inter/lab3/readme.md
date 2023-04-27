@@ -7,46 +7,23 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 3: Coming soon landing page
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+When you’re introducing a new website or a product, there are often several aspects that need to fall into place before you could even end up making it publicly available. Leaving your website empty, whether you have vague plans for the future, is not really a SMART option for your customers. Rather, put a bit more effort towards developing a creatively enticing Coming Soon page that covers your pre-launch marketing as well as notifies your customers of your forthcoming presence.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+**Figure 3.1**: Coming soon
 
-> File 📁 : lab 17_1.zip
+A coming soon page can be a valuable asset to have during these glacial periods, not just as a stopgap for your forthcoming store or product. Moreover, these pre-launch marketing pages, if used properly, can help you achieve exposure, gather feedback, and begin marketing as you strategize before your public launch.
+
+> File 📁 : lab 17_3.zip
 > 
-> Activity 🏆 :
-> This exercise makes use of three files: HTML, CSS, and JavaScript. Please see Figures 1.1–1.6 for the Lab 1 interface. You must spend 10-15 minutes with a team member in this exercise lab. Please debate and research the following:
-> - How to create this website?
-> - Would you be able to complete it if you were given the task of creating a website like this?
-> - What steps are needed to create this website?
-> - Which part is difficult to understand and produce?
-> - Provide an overall summary of the website's creation.
+> Activity 🏆 :<br>
+>There is a count-down timer with days, hours, minutes, and seconds on the coming soon landing page that informs your visitors when your site is launched or live (Figure 3.2). You must write JavaScript to display time-related information.
 > 
 
 <img src="./download/l1ajs.png" width="600" />
 
-**Figure 1.1**: Mainpage
-
-<img src="./download/l1bjs.png" width="600" />
-
-**Figure 1.2**: Interface 2
-
-<img src="./download/l1cjs.png" width="600" />
-
-**Figure 1.3**: Interface 3
-
-<img src="./download/l1djs.png" width="600" />
-
-**Figure 1.4**: Interface 4
-
-<img src="./download/l1ejs.png" width="600" />
-
-**Figure 1.5**: Interface 5
-
-<img src="./download/l1fjs.png" width="600" />
-
-**Figure 1.6**: Interface 6
+**Figure 3.2**: Coming soon landing page
 
 
 ## Contribution 🛠️
