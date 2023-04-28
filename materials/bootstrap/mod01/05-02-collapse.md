@@ -137,7 +137,7 @@ Finally, the JavaScript files for jQuery, Popper.js, and Bootstrap are included 
 ## Case study
 An example HTML code for a course registration system in a university that uses the Bootstrap Collapse component:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
