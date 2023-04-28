@@ -14,12 +14,12 @@ Bootstrap is a popular front-end development framework that provides a set of pr
 | CSS Class Category | Description |
 | --- | --- |
 | [Grid](04-01-grid.md) | A responsive grid system that allows you to create layouts for different screen sizes. Grid classes include container, row, and col classes. |
-| [Typography](04-01-typo.md) | Typography classes to style headings, paragraphs, and other text elements. Typography classes include h1-h6, lead, and text-muted. |
-| [Button](04-01-button.md) | A variety of button styles, including primary, secondary, success, danger, warning, info, and light. Button classes include btn, btn-primary, btn-secondary, and so on. |
-| [Form](04-01-form.md) | Form classes to style form elements such as inputs, labels, and buttons. Form classes include form-control, form-label, and form-check. |
-| [Navbar](04-01-navbar.md)  | A responsive navbar component that can be easily customized using navbar classes. Navbar classes include navbar, navbar-brand, navbar-nav, and navbar-toggler. |
-| [Card](04-01-card.md)  | Classes to create flexible and attractive content containers. Card classes include card, card-header, card-body, and card-footer. |
-| [Utility](04-01-utility.md) | A variety of utility classes that can be used to quickly add margin, padding, text alignment, and other styles to HTML elements. Utility classes include mx-auto, text-center, and text-muted. |
+| [Typography](04-02-typo.md) | Typography classes to style headings, paragraphs, and other text elements. Typography classes include h1-h6, lead, and text-muted. |
+| [Button](04-03-button.md) | A variety of button styles, including primary, secondary, success, danger, warning, info, and light. Button classes include btn, btn-primary, btn-secondary, and so on. |
+| [Form](04-04-form.md) | Form classes to style form elements such as inputs, labels, and buttons. Form classes include form-control, form-label, and form-check. |
+| [Navbar](04-05-navbar.md)  | A responsive navbar component that can be easily customized using navbar classes. Navbar classes include navbar, navbar-brand, navbar-nav, and navbar-toggler. |
+| [Card](04-06-card.md)  | Classes to create flexible and attractive content containers. Card classes include card, card-header, card-body, and card-footer. |
+| [Utility](04-07-utility.md) | A variety of utility classes that can be used to quickly add margin, padding, text alignment, and other styles to HTML elements. Utility classes include mx-auto, text-center, and text-muted. |
 
 > Note: This is not an exhaustive list and there are many more Bootstrap CSS classes available.
 
