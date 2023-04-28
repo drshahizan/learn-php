@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Modal
+# Bootstrap JavaScript plugins: Modal
 The Bootstrap JavaScript plugin for a modal window allows you to display a dialog box or pop-up window over your web page. This can be useful for displaying additional content, forms, or messages without navigating away from the current page.
 
 To use the Bootstrap modal plugin, you'll need to include the Bootstrap JavaScript and CSS files in your HTML file. Once you've done that, you can create a button that will trigger the modal window.
