@@ -50,6 +50,91 @@ In this example, the `Accordion` class is used to initialize the plugin on the `
 
 With the Collapse plugin, you can create interactive and space-saving content sections that enhance the user experience on your website.
 
+## Code
+An example HTML code for the Bootstrap Collapse component:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Collapse Example</title>
+  <!-- Bootstrap CSS file -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container my-5">
+    <h1 class="text-center mb-4">Bootstrap Collapse Example</h1>
+
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Section 1
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            Content for section 1 goes here.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Section 2
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Content for section 2 goes here.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Section 3
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Content for section 3 goes here.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JavaScript files (jQuery and Popper.js are required) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+
+In this example, the HTML code creates an accordion-style Collapse component with three collapsible sections. The `container` class is used to add a responsive padding to the content. The `accordion` and `card` classes are used to structure the component, while the `card-header` and `card-body` classes are used to define the header and body of each collapsible section. 
+
+The `btn`, `btn-link`, and `collapsed` classes are used to style the clickable control elements of the collapsible sections. The `collapse` class is used to indicate that the content sections should be initially collapsed. The `show` class is used to indicate which section should be initially expanded.
+
+The `data-toggle="collapse"` and `data-target="#..."` attributes are used to specify that the control element should toggle the collapse state of the section with the corresponding `id` attribute.
+
+Finally, the JavaScript files for jQuery, Popper.js, and Bootstrap are included at the end of the HTML file to enable the Collapse functionality.
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
