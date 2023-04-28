@@ -134,6 +134,99 @@ The `data-toggle="collapse"` and `data-target="#..."` attributes are used to spe
 
 Finally, the JavaScript files for jQuery, Popper.js, and Bootstrap are included at the end of the HTML file to enable the Collapse functionality.
 
+## Case study
+An example HTML code for a course registration system in a university that uses the Bootstrap Collapse component:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>University Course Registration System</title>
+  <!-- Bootstrap CSS file -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container my-5">
+    <h1 class="text-center mb-4">University Course Registration System</h1>
+
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Available Courses
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Course 1
+                <button class="btn btn-primary" type="button">Register</button>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Course 2
+                <button class="btn btn-primary" type="button">Register</button>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Course 3
+                <button class="btn btn-primary" type="button">Register</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Registered Courses
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Course 2
+                <button class="btn btn-danger" type="button">Drop</button>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Course 3
+                <button class="btn btn-danger" type="button">Drop</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JavaScript files (jQuery and Popper.js are required) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+
+In this example, the HTML code creates a registration system for university courses using the Bootstrap Collapse component. The `container` class is used to add a responsive container that centers the page content, and the `my-5` class is used to add margin to the top and bottom of the container.
+
+The `accordion` class is used to create a container for the two course sections, and each course section is a `card` element. The `card-header` class is used to create the header for each course section, which contains a `button` element with the `data-toggle="collapse"` and `data-target="#..."` attributes to enable the Collapse functionality.
+
+The first course section (`Available Courses`) is set to be initially expanded by adding the `show` class to the `collapseOne` section. The second course section (`Registered Courses`) is initially collapsed.
+
+Each course is displayed as a `list-group-item` element, with the course name on the left and a `Register` or `Drop` button on the right. The `d-flex`, `justify-content-between`, and `align-items-center` classes are used to align the course name and button within the list item.
+
+Finally, the Bootstrap JavaScript files are included at the end of the HTML code to enable the Collapse functionality. The `jQuery` and `Popper.js` libraries are also required for Bootstrap to work properly, so they are included as well.
+
+I hope this example helps illustrate how to use the Bootstrap Collapse component in a university course registration system!
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
