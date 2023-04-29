@@ -19,7 +19,7 @@ Don't forget to hit the :star: if you like this repo.
   - [HTML](/materials/html/readme.md#html)
   - [CSS](./materials/css/readme.md)
   - [JavaScript](./materials/javascript/readme.md)
-  - [Bootstrap](./materials/boostrap/readme.md)
+  - [Bootstrap](./materials/bootstrap/readme.md)
   - [PHP](./materials/php/readme.md)
 - [Labs](./lab)
 - [Contribution 🛠️](#contribution-️)
