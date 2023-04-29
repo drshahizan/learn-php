@@ -21,7 +21,7 @@ If the user does not select an option between 15 and 0 seconds, the timer will s
 
 Finally, the result box will appear, displaying the user's score as well as two buttons [Replay Quiz, Quit Quiz]. If the user clicks on the replay quiz button, the quiz will restart with the first question and the user's score will be 0, but if the user clicks on the quit quiz button, the current window will be reloaded and the quiz will begin from the beginning.
 
-> File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
+> File 📁 : [11 Quiz](./download/11%20Quiz)
 > 
 > Activity 🏆 :
 > - What are the functions of question.js and script.js?
