@@ -20,7 +20,7 @@ This dictionary's implementation is as follows:
 - If the searched word exists, the API returns an object containing many details (definition, example, synonyms) about the word; otherwise, it returns the message "Can't find the definitions."
 - After retrieving the data from the API, inserted it into a specific HTML element.
 
-> File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
+> File 📁 : [5Dictionary App](./download/5Dictionary%20App)
 > 
 > Activity 🏆 :
 > - Explain how dictionaryapi works.
