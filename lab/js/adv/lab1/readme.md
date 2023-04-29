@@ -13,7 +13,7 @@ Users can easily add, edit, and delete notes in this note app. The notes that th
 
 You will learn about JavaScript array methods, Event listeners, and local storage, and you will use these concepts to build simple projects.
 
-> File 📁 : [1 Notes App](./download/1Notes App)
+> File 📁 : [1 Notes App](./download/1Notes%20App)
 > 
 > Activity 🏆 :
 > - For this application, you must create a flowchart.
