@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 A language translator is a programme that allows you to translate text into multiple languages such as Malay, Spanish, and others. Users can easily translate text into different languages, copy translated text, and convert text to speech using the language translator app. It is comparable to Google Translate.
 
-> File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
+> File 📁 : [6 Lang Trans](./download/6LangTrans)
 > 
 > Activity 🏆 :
 > - Describe the operation of this JavaScript.
