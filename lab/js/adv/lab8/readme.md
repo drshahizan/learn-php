@@ -13,7 +13,7 @@ In this weather app, you can get weather details for a specific city by entering
 
 After the user entered the city name, the JavaScript file sent a get request to an OpenWeatherMap API and passing the city name. If the user clicks the "Get Device Location" button, the apps will determine whether or not the user's browser supports geolocation API. If supported, obtain the device's current latitude and longitude and send these coordinates to the OpenWeatherMap API. It will display the property value to a specific HTML element after receiving an object as a response from the API. Finally, we displayed the custom weather icon/image based on the weather condition using the id value provided by the API.
 
-> File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
+> File 📁 : [8 weather](./download/8%20weather)
 > 
 > Activity 🏆 :
 > - Provide weather information for the cities of Longyearbyen and Novosibirsk.
