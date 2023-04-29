@@ -24,7 +24,7 @@ QR (Quick Response) codes can store a large amount of data, and users can easily
 
 **Figure 10.1**: Insert url example https://www.utm.my/
 
-<img src="./download/L10adv-a.png" width="300" />
+<img src="./download/L10adv-b.png" width="300" />
 
 **Figure 10.2**: click Generate QR Code
 
