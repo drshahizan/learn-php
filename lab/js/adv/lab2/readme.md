@@ -13,7 +13,7 @@ A tags input is a user interface (UI) component that allows the user to add or i
 
 You can remove each tag individually by clicking the close icon, or you can remove all tags at once by clicking the Remove All button. You can only insert a maximum of ten tags, and duplicate tags will not be added to the input field.
 
-> File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
+> File 📁 : [2 Add Tags](./download/2Add%20Tags)
 > 
 > Activity 🏆 :
 > - For this application, you must create a flowchart.
