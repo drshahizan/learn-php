@@ -15,7 +15,7 @@ In the JavaScript code, we must enter text and call the `textToSpeech ()` functi
 
 Then, using the `getVoices ()` method of Speech Synthesis, extract voices from the user device and insert them into the HTML select tag.
 
-> File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
+> File 📁 : [4Text To Speech](./download/4Text%20To%20Speech)
 > 
 > Activity 🏆 :
 > - For this application, you must create a flowchart.
