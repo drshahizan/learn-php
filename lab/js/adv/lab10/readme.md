@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 QR (Quick Response) codes can store a large amount of data, and users can easily access it by scanning the QR code. Users can enter a text or URL into my QR Code Generator app to generate a QR code for it. It is a QR code generator app, not a scanner app. The qrserver API was used to generate a QR code from user inputs.
 
-> File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
+> File 📁 : [10 QR Code Generator](./download/10%20QR%20Code%20Generator)
 > 
 > Activity 🏆 :
 > - How are QR codes generated?
