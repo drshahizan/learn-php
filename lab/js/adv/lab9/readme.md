@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 9: A Currency Converter
 
-> File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
+> File 📁 : [9 currency](./download/9%20currency)
 > 
 > Activity 🏆 :
 > - Convert RM100 to EUR.
