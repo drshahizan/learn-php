@@ -18,7 +18,7 @@ Inside this function:
 - Third: to copy the quote, used the `writeText()` property of the navigator object.
 - Last: for sharing to Twitter, passed the quote text in the Tweet URL, and using the window `open()` method,  opened this URL in the new tab.
 
-> File 📁 : [7quote.zip](./download/7quote)
+> File 📁 : [7quote](./download/7quote)
 > 
 > Activity 🏆 :
 > - Describe how this JavaScript works.
