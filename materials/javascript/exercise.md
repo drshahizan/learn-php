@@ -67,7 +67,7 @@ This section will cover advanced JavaScript topics, which will require you to de
 | 08 | JS | A Weather App |<a href="../../lab/js/adv/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 09 | JS | A Currency Converter |<a href="../../lab/js/adv/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 10 | JS | QR Code Generator  |<a href="../../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 11 | JS | A Quiz App with Timer |<a href="../../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 11 | JS | A Quiz App with Timer |<a href="../../lab/js/adv/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### Lab JS: Instruction
 
