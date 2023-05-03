@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Bootstrap JavaScript plugins: Tooltip
+# Bootstrap JavaScript plugins: Button
 
 Bootstrap provides additional features to enhance the functionality of form inputs like toggle switches, checkboxes, and radio buttons.
 
