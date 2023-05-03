@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Bootstrap JavaScript plugins: Tooltip
+# Bootstrap JavaScript plugins: DropDown
 
 
 ## Contribution 🛠️
