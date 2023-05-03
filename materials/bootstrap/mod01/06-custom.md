@@ -75,7 +75,7 @@ Customizing the appearance of Bootstrap using Sass variables:
 ## Example 2
 A complete HTML code example that demonstrates how to customize the appearance of Bootstrap to match your design needs:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -132,7 +132,7 @@ In this example, we have overridden some of the default Bootstrap styles using C
 ## Example 3
 Sure, here's an example of customizing the appearance of Bootstrap by overriding the default styles with custom CSS:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
