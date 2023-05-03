@@ -46,6 +46,64 @@ In this example, we use a button element and add the `data-toggle="tooltip"` and
 
 When you hover over the button in this example, a tooltip will appear with the text "Click me!". You can customize the appearance of tooltips by using Bootstrap's CSS classes or by adding your own CSS rules.
 
+## Case study
+An example of how to use Bootstrap tooltips in an academic course registration system for a university.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Course Registration System</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Course Registration System</h1>
+    <form>
+      <div class="form-group">
+        <label for="course-code">Course Code:</label>
+        <input type="text" class="form-control" id="course-code" name="course-code" placeholder="Enter course code" data-toggle="tooltip" data-placement="right" title="Enter the unique code for the course you want to register for.">
+      </div>
+      <div class="form-group">
+        <label for="course-title">Course Title:</label>
+        <input type="text" class="form-control" id="course-title" name="course-title" placeholder="Enter course title" data-toggle="tooltip" data-placement="right" title="Enter the full title of the course you want to register for.">
+      </div>
+      <div class="form-group">
+        <label for="course-description">Course Description:</label>
+        <textarea class="form-control" id="course-description" name="course-description" rows="3" placeholder="Enter course description" data-toggle="tooltip" data-placement="right" title="Enter a brief description of the course you want to register for."></textarea>
+      </div>
+      <div class="form-group">
+        <label for="credit-hours">Credit Hours:</label>
+        <select class="form-control" id="credit-hours" name="credit-hours" data-toggle="tooltip" data-placement="right" title="Select the number of credit hours for the course you want to register for.">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip(); 
+    });
+  </script>
+</body>
+</html>
+```
+
+In this example, we have a form for students to register for a course. We use Bootstrap tooltips on the input fields and select menu to provide additional information to the students about what data to enter in each field. 
+
+The `data-toggle="tooltip"` attribute is used to activate the tooltip functionality, and the `data-placement` attribute determines where the tooltip should be displayed (in this case, to the right of the input fields).
+
+When the user hovers over the input fields or select menu, a tooltip will appear with a brief description of what data to enter.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
