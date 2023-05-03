@@ -13,7 +13,7 @@ In Bootstrap JavaScript, a tooltip is a small pop-up box that appears when a use
 
 To use tooltips in Bootstrap JavaScript, you first need to include the Bootstrap JavaScript and CSS files in your HTML document. Then, you can add the `data-toggle="tooltip"` attribute to the element you want to add the tooltip to, and set the `title` attribute to the text you want to display in the tooltip.
 
-## How to use tooltips in Bootstrap JavaScript:
+## How to use tooltips in Bootstrap JavaScript
 
 ```html
 <!DOCTYPE html>
