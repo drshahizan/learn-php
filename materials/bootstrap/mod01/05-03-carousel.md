@@ -66,7 +66,75 @@ var myCarousel = new bootstrap.Carousel(document.getElementById('myCarousel'), {
 })
 ```
 
-In this example, the `bootstrap.Carousel` constructor is used to initialize the carousel. The first argument is the element that contains the carousel markup, and the second argument is an options object that allows you to customize the behavior of the carousel. In this case, the interval between
+In this example, the `bootstrap.Carousel` constructor is used to initialize the carousel. The first argument is the element that contains the carousel markup, and the second argument is an options object that allows you to customize the behavior of the carousel. 
+
+## Code
+HTML code for the Bootstrap Carousel, with sample images included:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Carousel Example</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ul>
+    
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Slide 1">
+          <div class="carousel-caption">
+            <h3>Slide 1</h3>
+            <p>Description of slide 1.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+2" alt="Slide 2">
+          <div class="carousel-caption">
+            <h3>Slide 2</h3>
+            <p>Description of slide 2.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Slide 3">
+          <div class="carousel-caption">
+            <h3>Slide 3</h3>
+            <p>Description of slide 3.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
+```
+
+> In this example, we use a placeholder image URL to display sample images in the carousel. If you replace the image URLs with the URLs of your own images, you will be able to view those images in the carousel.
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
