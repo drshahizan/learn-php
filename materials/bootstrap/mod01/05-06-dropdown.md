@@ -37,7 +37,7 @@ The menu options are created using `<a>` elements with the `dropdown-item` class
 Bootstrap provides many options and styles to customize Dropdowns, such as sizing, placement, and alignment. We can also add headers, dividers, and icons to the Dropdown menu to enhance the user experience.
 
 ## Code
-
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
