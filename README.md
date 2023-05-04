@@ -53,7 +53,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 | Lab | Topic | Files |
 | :-----: | ----- | :------: | 
-| 1| Hypertext Markup Language |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab0" ><img src="./images/html.png" width="36px" height="36px" ></a> |
+| 1| Hypertext Markup Language |<a href="./materials/html/exercise.md" ><img src="./images/html.png" width="36px" height="36px" ></a> |
 | 2 | Cascading Style Sheets |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="./images/css.png" width="36px" height="36px" ></a> |
 | 3 | JavaScript |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="./images/javascript.png" width="36px" height="36px" ></a> |
 | 4 | Bootstrap |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
