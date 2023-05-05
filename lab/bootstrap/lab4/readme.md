@@ -7,21 +7,22 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Fluid Grid
+# Lab 4: Gallery page
 
-The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
+Instructions to create a gallery page using Bootstrap:
 
-- Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
-- Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
+1. Create a new HTML file called `gallery.html`.
+2. Add the necessary Bootstrap CSS and JavaScript files to your `gallery.html` file by linking to them in the `<head>` section of the file.
+3. Create a new section in the body of your `gallery.html` file where you will add your gallery content.
+4. Create a container element (`<div class="container">`) inside the gallery section to hold your gallery content.
+5. Use Bootstrap's grid system to create a layout for your gallery. For example, you could use the `row` and `col-*` classes to create a grid of cards or images.
+6. Create a card for each item in your gallery using Bootstrap's card component. Add an image, title, and description for each card.
+7. Use CSS to style your gallery as desired. You can also customize the card component using custom CSS.
+8. Add any additional features you want, such as pagination or filtering.
+9. Test your gallery page to make sure everything looks and works as expected.
+10. Publish your gallery page to your website.
 
-<img src="./download/grid.gif" width="800" />
-
-
-Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
-
-Play around with changing the styling (fonts, colors) by editing grid.css.
-
-Or play around with adding more components!
+> Remember to refer to the Bootstrap documentation for more detailed instructions and examples of how to use each component. Good luck with your gallery page!
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
