@@ -9,6 +9,18 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 12: Sidebar Menu Templates
 
+
+> File 📁 : [12 Sidebar](./download/12%20Sidebar)
+> 
+> Activity 🏆 :
+> - What are the functions of question.js and script.js?
+> - Try adding quiz questions to the list of ten questions.
+> - How to change Response Time to 30 Seconds.
+> - Where are the scores saved?
+> - What happens when you click the Quiz replay button?
+> - What are the css/all.min.css files for?
+> 
+
 A sidebar menu is a commonly used user interface element in web design. It is a vertical navigation menu that appears on the left or right side of a web page and typically displays links to various sections of a website. 
 
 Sidebar menu templates in HTML, CSS, and JavaScript are pre-designed code snippets that developers can use to quickly and easily create a sidebar menu on their web pages. These templates often include styles for basic functionality such as hover effects, active states, and responsive design for mobile devices. 
@@ -136,16 +148,6 @@ document.querySelector('.hamburger').addEventListener('click', function() {
 
 This example includes a basic sidebar menu with four menu items and a hamburger menu button that toggles the visibility of the sidebar on smaller screens. The CSS includes styles for the sidebar, menu items, and hamburger menu button, as well as responsive styles for smaller screens. The JavaScript adds a click event listener to the hamburger menu button and toggles the active class on both the sidebar and hamburger menu button when clicked.
 
-> File 📁 : [11 Quiz](./download/11%20Quiz)
-> 
-> Activity 🏆 :
-> - What are the functions of question.js and script.js?
-> - Try adding quiz questions to the list of ten questions.
-> - How to change Response Time to 30 Seconds.
-> - Where are the scores saved?
-> - What happens when you click the Quiz replay button?
-> - What are the css/all.min.css files for?
-> 
 
 <img src="./download/L11adv-a.png" width="200" />
 
