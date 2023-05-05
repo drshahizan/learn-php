@@ -7,21 +7,43 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 3: Contact Me Page
+# Lab 3: Contact Form
 
-The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
+The goal of this exercise is to use the CSS components you've learned so far from [Bootstrap](http://v4-alpha.getbootstrap.com) to create a contact form for your website.
 
-- Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
-- Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
+## Part 1: Setup
 
-<img src="./download/grid.gif" width="800" />
+1. Make a copy of your `index.html` from the previous exercise.
+2. Name it `contact.html` and save it in the same folder as your `index.html`.
+3. Delete the main content from `contact.html`, but keep the header, navigation, and footer if you have it.
+4. Paste [this starter code](/bootstrap-hosting-github/exercises/contact/contact_starter) into your `contact.html` instead.
 
+## Part 2: Create form!
 
-Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
+### Add input fields
+- Use the [form control](http://v4-alpha.getbootstrap.com/components/forms/#form-controls) classes such as `.form-group` and `.form-control` to style your Name, Email, Subject, and Message fields.
+- Use the [button](http://v4-alpha.getbootstrap.com/components/buttons/) component's `.btn` classes to style your Send button.
+- When the form submits, have it send to your own email? (Hint: how does the form know which email to send to?)
 
-Play around with changing the styling (fonts, colors) by editing grid.css.
+## Bonus
+- Add a header and introductory text to your Contact page.
+- Use the [grid classes](http://v4-alpha.getbootstrap.com/layout/grid) we have already learned to style/position your new content on the page.
 
-Or play around with adding more components!
+<button class="btn" onclick="showSolution();">Show Solution</button>
+
+<div id="solution" style="display:none; margin-top: 20px;">
+<a href='/bootstrap-hosting-github/exercises/contact/contact_solution' target='_blank'>View Solution in New Window</a>
+</p>
+
+<script>
+function showSolution() {
+  if (confirm('You surrrrre?')) {
+    document.getElementById('solution').style.display = 'block';
+    window.scrollTo(0, document.body.scrollHeight);
+  }
+}
+</script>
+</div>
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
