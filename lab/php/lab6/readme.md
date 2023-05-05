@@ -7,21 +7,36 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Fluid Grid
+# Lab 1: Tourism Management System in PHP
 
-The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
+The modules of a Tourism Management System in PHP typically consist of three main categories: Admin, Users, and Guest Users. Each of these categories has its own set of features and functionalities. Here is a brief description of the modules of a typical Tourism Management System:
 
-- Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
-- Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
+## 1. Admin Module:
+This module provides the Admin access to manage the entire system. Admin can create and manage packages, users, bookings, inquiries, issues, pages, etc. The main features of this module include:
+- Creating packages and managing them (updating, deleting)
+- Managing user accounts (adding, editing, deleting)
+- Managing inquiries and issues
+- Managing bookings
+- Managing pages of the website
+- Changing password
+- Admin Dashboard to view system statistics, bookings, inquiries, etc.
 
-<img src="./download/grid.gif" width="800" />
+## 2. User Module:
+This module allows users to register and create their accounts. Once registered, users can log in and book packages, manage their bookings, generate tickets, change their password, and recover their forgotten password. The main features of this module include:
+- User registration
+- User login/logout
+- Forgot password (user can recover own password)
+- Tour booking
+- Manage booking
+- Generate ticket (regarding complaints)
+- Change password
 
+## 3. Guest User Module:
+This module allows guests to visit the website and enquire about the packages and services offered. The main features of this module include:
+- Visit the website
+- Enquiry about the packages and services offered
 
-Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
-
-Play around with changing the styling (fonts, colors) by editing grid.css.
-
-Or play around with adding more components!
+In summary, the Tourism Management System in PHP has modules for Admin, Users, and Guest Users to manage and utilize the system efficiently.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
