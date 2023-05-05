@@ -144,55 +144,69 @@ This Sidebar can be your best choice if you’re a complete beginner and want to
 
 <img src="./download/sidebar1.png" width="400" />
 
-**Figure 12.1**
+**Figure 13.1**
 
 ### 3. Navigation Bar with Scrolling to the Top Button
 This is the most useful Navigation Bar you get in this Navigation Bar list. The main feature of this Navigation Bar is that when you click on each navigation link its section appears and also you can move to the top by clicking on the scroll to top button which is aligned at the right bottom.
 
-If you want to create a Navigation Bar with an active link and scroll to the top button then you should definitely try to create this Navigation Bar.
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar1)
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/sidebar1.png" width="400" />
+
+**Figure 13.1**
 
 ### 5. All Navigation Links Hover Animations
 As you can see, I made all of the regularly used navigation links’ hover animations. When I hover over each navigation link in this area, four hover animations are displayed. The first starts from the left and turns around, the second starts from the middle, the third starts from the bottom, and the last one starts from the left and turns around.
 
-If you want to learn to create regularly used modern hover animation on the link then you can try this. With the basic HTML and CSS, you can create this. You can get to the source code and video tutorial from the given link for this navigation link hover animation.
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar1)
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/sidebar1.png" width="400" />
+
+**Figure 13.2**
 
 ### 6. Sticky Navigation Bar
 This is the Sticky Navigation Bar which is created in HTML CSS and JavaScript. Bascially, when you scroll the webpage the Navigation gets stuck on the top. We will get to find this type of Sticky Navigation on modern websites mostly.
 
-You must attempt to develop this Sticky Navigation Bar in HTML CSS & JavaScript if you want to learn how to make a navigation bar for a trendy website. You can click on the provided links to see the source code and the video tutorial for this Sticky Navigation Bar.
+You must attempt to develop this Sticky Navigation Bar in HTML CSS & JavaScript if you want to learn how to make a navigation bar for a trendy website. You can click on the provided links to see the source code for this Sticky Navigation Bar.
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar1)
+
+<img src="./download/sidebar1.png" width="400" />
+
+**Figure 13.3**
 
 ### 8. Navigation Bar with Dark and Light Mode
 Additionally, this navigation bar is totally responsive and has functionality for Dark and Light Modes. The selected mode remains unchanged even if the page is refreshed or reopened, which is another fascinating feature I’ve introduced to this navigation. Additionally, there is a search box, which makes this navigation bar more modern and practical.
 
-I used HTML, CSS, and JavaScript to build this navigation bar. Local website storage was used to keep the mode that was chosen. I sincerely hope you like it and try to create it. For the source code and the video tutorial for this navigation bar, please click on the provided links.
+For the source code for this navigation bar, please click on the provided links.
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar1)
+
+<img src="./download/sidebar1.png" width="400" />
+
+**Figure 13.4**
 
 ### 9. Dropdown Navigation Bar
 You will find a search bar and a submenu in this responsive dropdown navigation bar, just like I have shown in the picture. JavaScript, CSS, and HTML were used to create this navigation. The dropdown menu appears when you hover over the navigation links, and you may access the submenu from there as well.
 
-This can be the ideal strategy for you if you want to develop a responsive drop-down menu bar with submenus. This Dropdown Navigation Bar can be made even with very minimal knowledge of HTML, CSS, and JavaScript. For the source code and video instructions for this drop-down navigation bar, click on the following links.
+This can be the ideal strategy for you if you want to develop a responsive drop-down menu bar with submenus. This Dropdown Navigation Bar can be made even with very minimal knowledge of HTML, CSS, and JavaScript. For the source code for this drop-down navigation bar, click on the following links.
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar1)
+
+<img src="./download/sidebar1.png" width="400" />
+
+**Figure 13.5**
 
 ### 10. Navigation Bar with Search Box
 The finest responsive navigation bar with a long search bar on this list is this one. All the navigation links disappear when you click the search icon, and a lengthy search field appears with lovely animation. You can see the responsive overview of the navigation bar on the left.
 
-This could be the finest example to meet your requirements if you’re looking for a Responsive Navigation Bar with a lengthy search box. This navigation bar can be made using simple lines of HTML, CSS, and JavaScript code. For the source code and a video tutorial for this Responsive Navigation Bar with the search box, click on the provided links.
+This could be the finest example to meet your requirements if you’re looking for a Responsive Navigation Bar with a lengthy search box. This navigation bar can be made using simple lines of HTML, CSS, and JavaScript code. For the source code for this Responsive Navigation Bar with the search box, click on the provided links.
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar1)
+
+<img src="./download/sidebar1.png" width="400" />
+
+**Figure 13.6**
 
 
 
