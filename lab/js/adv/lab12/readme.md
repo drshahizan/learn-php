@@ -9,7 +9,6 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 12: Sidebar Menu Templates
 
-https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab12/download
 > File 📁 : [12 Sidebar](./download)
 > 
 > Activity 🏆 :
@@ -156,8 +155,8 @@ This is the most simple Sidebar Menu in this list which is created in basic HTML
 
 This Sidebar can be your best choice if you’re a complete beginner and want to make a stunning sidebar using only HTML and CSS. For the source code and a video instruction for this Sidebar Menu, click on the given link.
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar1)
+
 <img src="./download/sidebar1.png" width="400" />
 
 **Figure 11.1**: Start quiz
