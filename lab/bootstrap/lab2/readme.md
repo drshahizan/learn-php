@@ -13,7 +13,7 @@ The goal of this exercise is to use the CSS classes and components you've learne
 
 ## Navigation & Jumbrotron
 
-Download the [starter code](download/starter-code.html) by right-clicking and saving the file to your computer. Save the file as `index.html`.
+Download the [starter code](download/starter_code.html) by right-clicking and saving the file to your computer. Save the file as `index.html`.
 
 ### Add navigation
 
@@ -22,8 +22,8 @@ Download the [starter code](download/starter-code.html) by right-clicking and sa
 
 ### Make a splash with the jumbotron
 
-- Use the [jumbotron component](http://v4-alpha.getbootstrap.com/components/jumbotron/) to create an attention-grabbing introductory section to your homepage.
-- You can either start from scratch, or copy your content & code from the first workshop into the [starter code](/bootstrap-hosting-github/exercises/hero/hero_starter).
+- Use the [jumbotron component](https://getbootstrap.com/docs/5.3/examples/jumbotron/) to create an attention-grabbing introductory section to your homepage.
+- You can either start from scratch, or copy your content & code from the first workshop into the [starter code](download/starter-code.html).
 - In the jumbotron include a:
   - Headline
   - Paragraph(s)
