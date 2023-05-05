@@ -153,72 +153,58 @@ This example includes a basic sidebar menu with four menu items and a hamburger 
 
 This is the most simple Sidebar Menu in this list which is created in basic HTML and CSS code. 
 
-This Sidebar can be your best choice if you’re a complete beginner and want to make a stunning sidebar using only HTML and CSS. For the source code and a video instruction for this Sidebar Menu, click on the given link.
+This Sidebar can be your best choice if you’re a complete beginner and want to make a stunning sidebar using only HTML and CSS. For the source code for this Sidebar Menu, click on the given link.
 
 <img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar1)
 
 <img src="./download/sidebar1.png" width="400" />
 
-**Figure 11.1**: Start quiz
+**Figure 12.1**
 
 ### 2. Simple Sidebar in HTML CSS & JavaScript
 
 This is the another simple Sidebar Menu that in created in HTML CSS and JavaScript. To open and close this Sidebar I used some JavaScript code. In this Sidebar Menu I have tried to add various type of navigaion link and their icon. You can also use checkbox to open and close it as like as I did above sidebar.
 
+If you are a complete beginner and want to create this Sidebar Bar then this Sidebar can be you best option.  Even with you basic HTML CSS and JavaScript skills you can create this Sidebar. For the source code for the Sidebar Menu, you can visit the given links.
 
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar2)
 
-If you are a complete beginner and want to create this Sidebar Bar then this Sidebar can be you best option.  Even with you basic HTML CSS and JavaScript skills you can create this Sidebar. For the source code and video tutorial for the Sidebar Menu, you can visit the given links.
+<img src="./download/sidebar2.png" width="400" />
 
-Watch Video Tutorial
-Download Source Code
+**Figure 12.2**
+
 ### 3. Sidebar Menu with Tooltip in HTML CSS & JavaScript
-Sidebar Menu with Tooltip in HTML CSS & JavaScript
 This is the best Sidebar in this list which is created in HTML CSS and JavaScript. The fascination part of this sidebar is that when you close the Sidebar Menu then the naivgation icons will visible. Take a look on the image of this Sidebar Menu the left section is the open and right is the close view of the sidebar.
 
 This can be the finest choice for you if you’re seeking for a sidebar menu with contemporary features like a tooltip and a search bar. Also, you can create this Sidebar Menu in simple HTML CSS and JavaScript code. For the source code and the video tutorial for this Sidebar Menu, do visit the given links.
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar3)
+
+<img src="./download/sidebar3.png" width="400" />
+
+**Figure 12.3**
 
 ### 4. Dropdown Sidebar Menu in HTML CSS & JavaScript
 This is the improve version of the above Sidebar Menu. In this Sidebar Menu I have added dropdown facility. When you click on the dropdown arrow icon then it’s dropdown section appear and this sidebar menu is scrollable.
 
 You should definitely try to make this Sidebar Menu because I have included all the features that a trendy Sidebar needs to have. For the source code and a video tutorial for this drop-down sidebar menu, click on the provided links.
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar4)
+
+<img src="./download/sidebar4.png" width="400" />
+
+**Figure 12.4**
 
 ### 5. Sidebar Menu with Dark Light Mode in HTML CSS & JS
 This is the unique Sidebar Menu in this list. The main feature of this Sidebar Menu is its dark and light mode. Also, I have added search box and toggle button on this trendy Sidebar Menu. There is a dark and light mode toggle section at the bottom, by clicking on that toggle button you can turn on or off the dark light mode.
 
 If you are seeking for a trendy Sidebar Menu with the dark and light mode feature then this Sidebar Menu can fulfill your demand. Additionally, you can create this trendy Sidebar with basci HTML CSS & JavaScript code. For the source code and video tutorial for this Sidebar Menu, you can visit the given links.
 
-Watch Video Tutorial
-Download Source Code
+<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar5)
 
-<img src="./download/L11adv-a.png" width="200" />
+<img src="./download/sidebar5.png" width="400" />
 
-**Figure 11.1**: Start quiz
-
-<img src="./download/L11adv-b.png" width="400" />
-
-**Figure 11.2**: Rules if this quiz
-
-<img src="./download/L11adv-c.png" width="400" />
-
-**Figure 11.3**:  Question 1
-
-<img src="./download/L11adv-d.png" width="400" />
-
-**Figure 11.4**: Answer Question 1
-
-<img src="./download/L11adv-e.png" width="400" />
-
-**Figure 11.5**:  Question 2
-
-<img src="./download/L11adv-f.png" width="400" />
-
-**Figure 11.6**:  Finish quiz
+**Figure 12.5**
 
 
 ## Contribution 🛠️
