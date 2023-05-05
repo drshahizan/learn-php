@@ -14,10 +14,12 @@ The Bootstrap lab is a series of exercises that teaches web development students
 
 | Lab | Title | Files |
 | :-----: | ----- | :------: | 
-| 01 | Bootstrap: Fluid Grid |<a href="../../lab/bootstrap/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | Hero Homepage |<a href="../../lab/bootstrap/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | Contact Me Page |<a href="../../lab/bootstrap/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | Gallery Page |<a href="../../lab/bootstrap/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 01 | How to Install XAMPP Server on Windows 11 |<a href="../../lab/bootstrap/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 02 | How to add PHP Intelephense and PHP Server extensions in VSCAssignment |<a href="../../lab/bootstrap/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 03 | How to run PHP on Visual Studio Code |<a href="../../lab/bootstrap/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | PHP & MySQL source code |<a href="../../lab/bootstrap/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | Tourism Management System |<a href="../../lab/bootstrap/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | Hospital Management System|<a href="../../lab/bootstrap/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 
 ### Lab Bootstrap: Instruction
