@@ -32,9 +32,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 2. 👩👨 [Student Information](./materials/student-info.md)
 3. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
 4. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
-5. [Project 1: Student Portfolio Showcase (HTML)](./project/1-portfolio/readme.md)
-6. [Project 2: Student Portfolio Showcase (Bootstrap)](./project/2-bootstrap/readme.md)
-7. [Student Portfolio Showcase](https://drshahizan.github.io/) 🆕
+9. [Student Portfolio Showcase](https://drshahizan.github.io/) 🆕
 
 #### Module
 
@@ -46,8 +44,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 4 | [Cascading Style Sheets (CSS)](/materials/css) | CSS is a stylesheet language used for describing the presentation of web pages and other web-based content. It allows content creators to control the layout, colors, fonts, and other visual elements of a web page, separate from the HTML markup. CSS works by applying rules to HTML elements, which define how they should be displayed. These rules can be applied to individual elements, groups of elements, or the entire page. CSS also supports the use of media queries, which allow for the creation of responsive designs that adapt to different device sizes and screen orientations. |<a href="./materials/css/readme.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| <a href="./materials/css/exercise.md" ><img src="./images/css.png" width="24px" height="24px" ></a> |
 | 5 | [JavaScript](./materials/javascript/readme.md) | JavaScript is a scripting language used primarily for creating interactive web pages and web-based applications. It is a client-side language that runs directly in a web browser and can be used to manipulate the content and behavior of web pages in real-time. JavaScript can be used to create animations, validate user input, fetch data from servers, and much more. It is a powerful language with a large and active community, and is commonly used alongside HTML and CSS to create dynamic and engaging web content. |<a href="./materials/javascript/readme.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| <a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="24px" height="24px" ></a> |
 | 6 | [Bootstrap](./materials/bootstrap/readme.md) | Bootstrap is a popular open-source framework used for creating responsive and mobile-first web pages and applications. It provides pre-designed templates, CSS styles, and JavaScript plugins that make it easy for developers to create visually appealing and functional websites. Bootstrap uses a grid system to enable the creation of flexible layouts that adapt to different device sizes and screen orientations. It also provides a variety of UI components, such as forms, buttons, navigation menus, and modals, that can be easily customized and integrated into web projects. |<a href="./materials/bootstrap" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| <a href="./materials/bootstrap/readme.md" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
-| 7 | [Hypertext Preprocessor (PHP)](./materials/php/readme.md) | PHP is a server-side scripting language used primarily for web development. It is a popular language for creating dynamic web pages and web-based applications, as it can interact with databases, handle form data, and perform other server-side tasks. PHP code is executed on the server before the web page is sent to the client's browser, allowing for the creation of complex and dynamic web content. PHP also has a large and active community that has developed many frameworks and libraries to simplify web development tasks.|<a href="./materials/sec01/mod1.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| <a href="./materials/php/readme.md" ><img src="./images/markdownh.png" width="24px" height="24px" ></a> |
-
+| 7 | [Hypertext Preprocessor (PHP)](./materials/php/readme.md) | PHP is a server-side scripting language used primarily for web development. It is a popular language for creating dynamic web pages and web-based applications, as it can interact with databases, handle form data, and perform other server-side tasks. PHP code is executed on the server before the web page is sent to the client's browser, allowing for the creation of complex and dynamic web content. PHP also has a large and active community that has developed many frameworks and libraries to simplify web development tasks.|<a href="./materials/php/readme.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| <a href="./materials/php/readme.md" ><img src="./images/php.png" width="24px" height="24px" ></a> |
 
 ## Lab
 
@@ -57,7 +54,16 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 2 | Cascading Style Sheets |<a href="./materials/css/exercise.md" ><img src="./images/css.png" width="36px" height="36px" ></a> |
 | 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="36px" height="36px" ></a> |
 | 4 | Bootstrap |<a href="./materials/bootstrap/exercise.md" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
-| 5 | Hypertext Preprocessor |<a href="" ><img src="./images/php.png" width="36px" height="36px" ></a> |
+| 5 | Hypertext Preprocessor |<a href="./materials/php/exercise.md" ><img src="./images/php.png" width="36px" height="36px" ></a> |
+
+## Project
+
+| Project | Topic | Files |
+| :-----: | ----- | :------: | 
+| 1| Student Portfolio Showcase (HTML) |<a href="./project/1-portfolio" ><img src="./images/html.png" width="36px" height="36px" ></a> |
+| 2 | Student Portfolio Showcase (Bootstrap) |<a href="./project/2-bootstrap/" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
+| 3 | Web Responsive using Bootstrap |<a href="./project/3-web" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
+| 4 | Final Project using PHP |<a href="./project/4-project" ><img src="./images/php.png" width="36px" height="36px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
