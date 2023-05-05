@@ -32,11 +32,12 @@ This assignment requires you to create a responsive website using the Bootstrap 
 Examples of websites that you can referred:
 1. [Kuching food hunter](https://www.behance.net/gallery/119237341/App-Design-KUCHING-FOOD-HUNTER)
 2. [Sarawak Layer Cake](https://www.behance.net/gallery/155042793/Sarawak-Layer-Cake-Website-Design)
-3. [Mobile Web Menu - Mamak](https://www.behance.net/gallery/152300087/Mobile-Web-Menu-Mamak)
-4. [Berau-by-Benak](https://www.behance.net/gallery/155239669/Berau-by-Benak-Raya/modules/875922315)
-5. [Cultured Society Website](https://www.behance.net/gallery/116697291/Cultured-Society-Website-(Anchor-Link-Project)/modules/665409291)
-6. [Malaysian Food Culture](https://www.behance.net/gallery/110721813/Malaysian-Food-Culture-Digital-Editorial)
-7. [BOOS - Kadazan Language Learning](https://www.behance.net/gallery/123080573/BOOS-Mobile-App-Design)
+3. [Child Charity](https://www.behance.net/gallery/119371597/Website-Design-CHILD-CHARITY/modules/679559279)
+4. [Mobile Web Menu - Mamak](https://www.behance.net/gallery/152300087/Mobile-Web-Menu-Mamak)
+5. [Berau-by-Benak](https://www.behance.net/gallery/155239669/Berau-by-Benak-Raya/modules/875922315)
+6. [Cultured Society Website](https://www.behance.net/gallery/116697291/Cultured-Society-Website-(Anchor-Link-Project)/modules/665409291)
+7. [Malaysian Food Culture](https://www.behance.net/gallery/110721813/Malaysian-Food-Culture-Digital-Editorial)
+8. [BOOS - Kadazan Language Learning](https://www.behance.net/gallery/123080573/BOOS-Mobile-App-Design)
 
 ## File and Folder Structure 
 1. Please include your contact information in the HTML `<head>`.
