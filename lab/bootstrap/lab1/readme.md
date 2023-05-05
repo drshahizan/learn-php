@@ -14,7 +14,7 @@ The goal of this exercise use the [responsive grids classes](https://getbootstra
 - Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
 - Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
 
-<img src="./download/grid.gif" width="600" />
+<img src="./download/grid.gif" width="800" />
 
 
 Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
