@@ -73,6 +73,8 @@ There are multiple ways of running `PHP server`:
 
 To stop the server, the `PHP Server: Stop project` command can be executed likewise.
 
+<img src="./download/lab2-1.png" width="200" />
+
 ![PHP Intephense](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.39.06%20PM.png "PHP Intephense")
 
 *Figure 1.1: PHP Intephense*
