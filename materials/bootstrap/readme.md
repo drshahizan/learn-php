@@ -34,7 +34,7 @@ Sure, here is a table outlining the topics to learn Bootstrap step-by-step for b
 By following these steps, beginners can gradually learn the basics of Bootstrap and gradually advance to more advanced topics.
 
 ### Useful Links
-- [Intro to Bootstrap](https://www.teaching-materials.org/bootstrap-hosting-github/#/1)
+- [Intro to Bootstrap (Slide)](https://www.teaching-materials.org/bootstrap-hosting-github/#/1)
 - [Difference Between Bootstrap and CSS](https://pediaa.com/difference-between-bootstrap-and-css/#:~:text=The%20main%20difference%20between%20Bootstrap,HTML%2C%20CSS%2C%20and%20JavaScript.)
 - [W3.CSS vs. Bootstrap: A Head-to-Head Comparison](https://blog.hubspot.com/website/w3-css-vs-bootstrap)
 - [Bootstrap vs HTML5](https://stackshare.io/stackups/bootstrap-vs-html5)
