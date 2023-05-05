@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Bootstrap: Exercise
-The Bootstrap lab is a series of exercises that teaches web development students how to use Bootstrap, a popular CSS framework, to create responsive and visually appealing web pages. The lab consists of four exercises, including Fluid Grid, Hero Homepage, Contact Me Page, and Gallery Page. By completing these exercises, students gain a solid understanding of how to use Bootstrap to build modern, responsive web pages.
+The Bootstrap lab is a series of exercises that teaches web development students how to use Bootstrap, a popular CSS framework, to create responsive and visually appealing web pages. The lab consists of four exercises, including Fluid Grid, Hero Homepage, Contact Form, and Gallery Page. By completing these exercises, students gain a solid understanding of how to use Bootstrap to build modern, responsive web pages.
 
 ## Lab
 
@@ -16,7 +16,7 @@ The Bootstrap lab is a series of exercises that teaches web development students
 | :-----: | ----- | :------: | 
 | 01 | Bootstrap: Fluid Grid |<a href="lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02 | Hero Homepage |<a href="lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | Contact Me Page |<a href="lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 03 | Contact Form |<a href="lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | Gallery Page |<a href="lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 
