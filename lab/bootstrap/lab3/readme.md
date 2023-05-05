@@ -18,7 +18,7 @@ The goal of this exercise is to use the CSS components you've learned so far fro
 3. Delete the main content from `contact.html`, but keep the header, navigation, and footer if you have it.
 4. Paste [this starter code](download/starter_code.html) into your `contact.html` instead.
 
-## Part 2: Create form!
+## Part 2: Create form
 
 ### Add input fields
 - Use the (form control)[https://getbootstrap.com/docs/5.3/forms/form-control/) classes such as `.form-group` and `.form-control` to style your Name, Email, Subject, and Message fields.
