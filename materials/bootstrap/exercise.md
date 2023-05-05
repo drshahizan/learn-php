@@ -7,9 +7,8 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# JavaScript: Exercise
+# Bootstrap: Exercise
 
-JavaScript is a popular programming language that is used to create interactive online applications. It is a scripting language that runs on the web browser's client side, allowing developers to create dynamic and responsive websites. This lab activity is divided into three levels: basic, intermediate, and advanced, with the goal of assisting developers in polishing their JavaScript programming skills. Developers can improve their JavaScript skills and create more robust and sophisticated web applications by routinely practising these activities. Continuous practice with exercises helps developers become more proficient in JavaScript and enables them to build more robust and sophisticated web applications.
 
 ## Lab
 
@@ -33,45 +32,8 @@ To complete the exercises, you need to write the complete program code using Jav
 | 09 | Converts upper case letters to lower case letters and vice versa |<a href="../../lab/js/basic/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 10 | Determine the longest word in a string |<a href="../../lab/js/basic/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
-### JavaScript (Intermediate)
-This lab will cover intermediate JavaScript concepts. To help you apply what you learn, 13 exercises are provided, including Personal Portfolio Website, JDT Jersey Product Card, and Coming Soon landing page. We recommend that you collaborate with your team to discuss and find solutions to the exercises. This teamwork approach can foster a supportive and collaborative learning environment, enabling you to share knowledge and skills with each other and ultimately improve your problem-solving abilities.
 
-| Lab | Title | Files |
-| :-----: | ----- | :------: | 
-| 01 | Personal Portfolio Website |<a href="../../lab/js/inter/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | JDT Jersey Product Card |<a href="../../lab/js/inter/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | Coming soon landing page |<a href="../../lab/js/inter/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | Range Slider |<a href="../../lab/js/inter/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | Admin Dashboard Panel |<a href="../../lab/js/inter/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | Custom Color Theme Website |<a href="../../lab/js/inter/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | Login |<a href="../../lab/js/inter/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | Login Form Validation |<a href="../../lab/js/inter/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 09 | Form for Login and Registration |<a href="../../lab/js/inter/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | Registration Form |<a href="../../lab/js/inter/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 11 | Password Validation |<a href="../../lab/js/inter/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 12 | Password Strength Analyzer |<a href="../../lab/js/inter/lab12" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 13 | Multi step form wizard |<a href="../../lab/js/inter/lab13" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-
-### JavaScript (Advanced)
-This section will cover advanced JavaScript topics, which will require you to delve deeper into the language and its advanced features. To complete the lab exercises successfully, you will need to collaborate with your team and discuss the questions given at each exercise thoroughly. The lab exercises are designed to challenge your problem-solving skills and push you to think creatively to find solutions. Therefore, it is crucial to pay close attention to each lab exercise and take the time to analyze and understand the problem statement. Through this collaborative and rigorous approach, you can enhance your proficiency in advanced JavaScript and become better equipped to tackle more complex programming tasks in the future.
-
-| Lab | Title | Files |
-| :-----: | ----- | :------: | 
-| 01 | A Notes App |<a href="../../lab/js/adv/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | Tags Input Box |<a href="../../lab/js/adv/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | A Todo List App |<a href="../../lab/js/adv/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | Text To Speech Converter  |<a href="../../lab/js/adv/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | A Dictionary App |<a href="../../lab/js/adv/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | A Language Translator AppA Dictionary App|<a href="../../lab/js/adv/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | A Random Quote Generator |<a href="../../lab/js/adv/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | A Weather App |<a href="../../lab/js/adv/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 09 | A Currency Converter |<a href="../../lab/js/adv/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | QR Code Generator  |<a href="../../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 11 | A Quiz App with Timer |<a href="../../lab/js/adv/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 12 | Sidebar Menu Templates |<a href="../../lab/js/adv/lab12" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 13 | Responsive Navigation Bar |<a href="../../lab/js/adv/lab13" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-
-### Lab JS: Instruction
+### Lab Bootstrap: Instruction
 
 1. This task must be done in groups (**4** people per group).
 2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
