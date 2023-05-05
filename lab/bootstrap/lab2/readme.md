@@ -13,7 +13,7 @@ The goal of this exercise is to use the CSS classes and components you've learne
 
 ## Navigation & Jumbrotron
 
-Download the [starter code](download/starter-code.html) by right-clicking and saving the file to your computer. Save the file as `index.html`.
+Download the [starter code](download/starter_code.html) by right-clicking and saving the file to your computer. Save the file as `index.html`.
 
 ### Add navigation
 
