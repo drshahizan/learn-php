@@ -7,7 +7,13 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 2: How to add PHP Intelephense and PHP Server extensions in VSC
+# Lab 2: PHP Intelephense and PHP Server
+
+PHP Intelephense and PHP Server are two popular extensions for Visual Studio Code that enhance the PHP development experience.
+
+- PHP Intelephense: is an advanced PHP language server that offers intelligent code completion, code navigation, and syntax highlighting. It also provides features like parameter suggestions, documentation pop-ups, and code formatting. PHP Intelephense makes coding in PHP easier, faster, and more efficient.
+
+- PHP Server: is a simple extension that allows you to run a PHP server within Visual Studio Code. It saves developers the hassle of setting up and configuring a separate web server to test their PHP applications. With PHP Server, you can launch a web server with just a few clicks, specify a root folder, and then test your PHP code within the editor.
 
 Here are the step-by-step instructions to add PHP Intelephense and PHP Server extensions in Visual Studio Code:
 
