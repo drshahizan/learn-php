@@ -11,21 +11,26 @@ Don't forget to hit the :star: if you like this repo.
 
 This assignment requires you to create a responsive website using the Bootstrap framework with a focus on Malaysian culture. The detailed instructions for this project:
 
-1. Create a team: Form a team of four students, and make sure everyone has a clear understanding of the project requirements and timelines.
+## 1. Create a team
+Form a team of four students, and make sure everyone has a clear understanding of the project requirements and timelines.
 
-2. Research and planning: Conduct research on Malaysian culture and design trends. Brainstorm ideas and create a plan for your website, including the content, layout, and features.
+## 2. Research and planning
+Conduct research on Malaysian culture and design trends. Brainstorm ideas and create a plan for your website, including the content, layout, and features.
 
-3. Wireframing: Create a wireframe of your website using tools like Figma or Sketch. This will give you a visual representation of the website's layout and help you organize the content.
+## 3. Wireframing
+Create a wireframe of your website using tools like Figma or Sketch. This will give you a visual representation of the website's layout and help you organize the content.
 
-4. Design: Use your wireframe to design the website using Bootstrap. Customize the design to include Malaysian cultural elements and colors.
+## 4. Design
+Use your wireframe to design the website using Bootstrap. Customize the design to include Malaysian cultural elements and colors.
 
-5. Build the website: Build the website using HTML, CSS, and Bootstrap. Ensure that the website is responsive and works well on different screen sizes.
+## 5. Build the website
+Build the website using HTML, CSS, and Bootstrap. Ensure that the website is responsive and works well on different screen sizes.
 
-6. Test the website: Test the website thoroughly to ensure that it works as intended. Check for errors, broken links, and other issues. Test the website on different devices and screen sizes to ensure that it is fully responsive.
+## 6. Test the website
+Test the website thoroughly to ensure that it works as intended. Check for errors, broken links, and other issues. Test the website on different devices and screen sizes to ensure that it is fully responsive.
 
-7. Submit the source code and report: Submit the source code for your website and a report outlining the tasks you completed, the challenges you faced, and the solutions you implemented.
-
-8. Present your website: Finally, present your website to the class and showcase the features and design elements that make it unique. Get feedback from your classmates and use it to improve your website.
+## 7. Submit the source code and report
+Submit the source code for your website and a report outlining the tasks you completed, the challenges you faced, and the solutions you implemented.
 
 ### Example
 
