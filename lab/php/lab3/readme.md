@@ -7,21 +7,37 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Fluid Grid
+# Lab 3: How to run PHP on Visual Studio Code
 
-The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
+# Download the file phpweb.zip
 
-- Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
-- Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
+Download the file `phpweb.zip`.
 
-<img src="./download/grid.gif" width="800" />
+This lab exercise will introduce you to PHP files. Make sure you have XAMPP installed. You must have Apache Web Server running in order for PHP code to be processed. Please ensure that your XAMPP is configured as follows.
 
+![Figure 1.1: PHP](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/333303570/Screenshot%202022-05-28%20at%209.54.57%20AM.png)
 
-Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
+Please download the [phpweb.zip](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/333303570/phpweb.zip) PHP source code file. When you unzip this file, you will see two folders: `exercise` and `msoWP`. This file should be placed in the `XAMPP/htdocs` folder. You will be using the `exercise` folder (Figure 1.2) in this exercise lab.
 
-Play around with changing the styling (fonts, colors) by editing grid.css.
+![Figure 1.2: Exercise folder](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/333303570/Screenshot%202022-05-28%20at%201.08.57%20PM.png)
 
-Or play around with adding more components!
+Please open the `exercise` folder in Visual Studio Code. The following are the outcomes of the implementation (Figure 1.3).
+
+![Figure 1.3: File exercise opens in Visual Studio Code](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/333303570/Screenshot%202022-05-28%20at%201.15.16%20PM.png)
+
+# Hello World in PHP
+
+Make a file called `hello.php`. Then, in the `<body>` tag section, enter the following code:
+
+```
+<?php
+    echo "Hello, World!";
+?>
+```
+
+![Figure 1.3: hello.php](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/333303570/Screenshot%202022-05-28%20at%208.13.49%20PM.png)
+
+Let’s break down the different components of the code. All PHP code falls within a PHP Code Block, starting with `<?php` and ending with `?>`. `echo` is a language construct. Its arguments are a list of expressions following the `echo` keyword, separated by commas and not delimited by parentheses. `echo` tells PHP to display or output whatever is included between `echo` and the ending semicolon `;`. Between the `echo` and the `;` is a sequence of characters — `Hello, World!` — that is enclosed in quotation marks. Any characters that are inside quotation marks...
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
