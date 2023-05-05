@@ -68,6 +68,7 @@ This section will cover advanced JavaScript topics, which will require you to de
 | 09 | A Currency Converter |<a href="../../lab/js/adv/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 10 | QR Code Generator  |<a href="../../lab/js/adv/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 11 | A Quiz App with Timer |<a href="../../lab/js/adv/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 12 | Sidebar Menu Templates |<a href="../../lab/js/adv/lab12" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ### Lab JS: Instruction
 
