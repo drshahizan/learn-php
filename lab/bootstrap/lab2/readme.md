@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 2: Hero Homepage
 
-The goal of this exercise is to use the CSS classes and components you've learned so far from [Bootstrap](http://v4-alpha.getbootstrap.com) to lay out a homepage for your website.
+The goal of this exercise is to use the CSS classes and components you've learned so far from [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a homepage for your website.
 
 ## Navigation & Jumbrotron
 
