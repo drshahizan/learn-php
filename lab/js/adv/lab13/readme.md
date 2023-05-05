@@ -7,9 +7,9 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 12: Sidebar Menu Templates
+# Lab 13: Sidebar Menu Templates
 
-> File 📁 : [12 Sidebar](./download)
+> File 📁 : [13 Sidebar](./download)
 > 
 > Activity 🏆 :
 > 1. What is a sidebar menu template, and how is it used in web design?
@@ -19,132 +19,118 @@ Don't forget to hit the :star: if you like this repo.
 > 5. What are some best practices for designing and implementing a sidebar menu template, and how can you ensure it is user-friendly and accessible?
 > 
 
-A sidebar menu is a commonly used user interface element in web design. It is a vertical navigation menu that appears on the left or right side of a web page and typically displays links to various sections of a website. 
+A responsive navigation bar is an important component of modern web design that provides users with easy access to different pages and sections of a website. A responsive navigation bar adjusts its layout and design to fit different screen sizes, from desktops to mobile devices, and ensures that users can navigate the site regardless of the device they are using.
 
-Sidebar menu templates in HTML, CSS, and JavaScript are pre-designed code snippets that developers can use to quickly and easily create a sidebar menu on their web pages. These templates often include styles for basic functionality such as hover effects, active states, and responsive design for mobile devices. 
+Creating a responsive navigation bar involves using HTML, CSS, and JavaScript to build and style the navigation bar and add interactivity.
 
-Some common features and techniques used in creating sidebar menu templates:
+Here are the steps to create a basic responsive navigation bar:
 
-1. HTML Markup: The HTML structure of the sidebar menu typically consists of an unordered list (ul) with nested list items (li) to represent the menu items. Each list item can have an anchor tag (a) with a hyperlink to the relevant page.
+1. HTML Markup: The HTML structure of the navigation bar typically consists of a container element that holds the logo and navigation links. Each navigation link is represented by an anchor tag (a) with a hyperlink to the relevant page.
 
-2. CSS Styling: CSS is used to style the menu items, including setting the font, color, background, and positioning of the menu. CSS is also used to create hover effects, which are applied to a menu item when the user hovers over it with their cursor. Active states can also be styled with CSS, which indicates the currently selected menu item.
-
-3. JavaScript Interactivity: JavaScript can be used to add interactivity to the sidebar menu, such as adding a toggle button to open and close the menu on smaller devices. This is commonly referred to as a "hamburger" menu. JavaScript can also be used to animate the opening and closing of the menu.
-
-Some popular libraries and frameworks that offer pre-built sidebar menu templates include Bootstrap, Foundation, and Materialize. Developers can also create their own custom sidebar menu templates using HTML, CSS, and JavaScript.
-
-## Example
-An example of a sidebar menu template in HTML, CSS, and JavaScript. Please note that this is just one example and there are many different ways to create a sidebar menu template.
-
-### 1. HTML:
 ```html
-<nav class="sidebar">
-  <ul>
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
+<header class="header">
+  <a href="#" class="logo">Logo</a>
+  <nav class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="hamburger-menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+</header>
 ```
 
-### 2. CSS:
+2. CSS Styling: CSS is used to style the navigation bar and make it responsive. This includes setting the font, color, background, and positioning of the navigation links. CSS is also used to create media queries that adjust the layout and design of the navigation bar for different screen sizes.
+
 ```css
-/* Sidebar styles */
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  overflow-x: hidden;
-  transition: all 0.3s ease-in-out;
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
 }
 
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar li {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.sidebar li a {
-  display: block;
-  color: #333;
+.logo {
+  font-size: 24px;
+  font-weight: bold;
   text-decoration: none;
+  color: #fff;
 }
 
-.sidebar li.active {
-  background-color: #ddd;
+.nav {
+  display: flex;
 }
 
-.sidebar li:hover {
-  background-color: #ddd;
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Hamburger menu styles */
-.hamburger {
+.hamburger-menu {
   display: none;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-  z-index: 100;
 }
 
-.hamburger .bar {
+.hamburger-menu .bar {
   width: 25px;
   height: 3px;
   margin: 5px 0;
-  background-color: #333;
+  background-color: #fff;
   transition: all 0.3s ease-in-out;
-}
-
-.hamburger.active .bar:nth-child(1) {
-  transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active .bar:nth-child(3) {
-  transform: rotate(45deg) translate(-6px, -6px);
 }
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
-  .sidebar {
-    width: 0;
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .sidebar.active {
-    width: 200px;
+  .nav a {
+    margin: 10px 0;
   }
 
-  .hamburger {
+  .hamburger-menu {
     display: block;
+    cursor: pointer;
+  }
+
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-6px, -6px);
   }
 }
 ```
 
-### 3. JavaScript:
+3. JavaScript Interactivity: JavaScript is used to add interactivity to the navigation bar, such as adding a hamburger menu button that opens and closes the navigation menu on smaller devices.
+
 ```javascript
 // Add event listener to hamburger menu button
-document.querySelector('.hamburger').addEventListener('click', function() {
-  // Toggle active class on sidebar
-  document.querySelector('.sidebar').classList.toggle('active');
+document.querySelector('.hamburger-menu').addEventListener('click', function() {
   // Toggle active class on hamburger menu button
   this.classList.toggle('active');
+  // Toggle display property on navigation menu
+  document.querySelector('.nav').classList.toggle('active');
 });
 ```
 
-This example includes a basic sidebar menu with four menu items and a hamburger menu button that toggles the visibility of the sidebar on smaller screens. The CSS includes styles for the sidebar, menu items, and hamburger menu button, as well as responsive styles for smaller screens. The JavaScript adds a click event listener to the hamburger menu button and toggles the active class on both the sidebar and hamburger menu button when clicked.
+This example includes a basic responsive
 
 ## Code
 
