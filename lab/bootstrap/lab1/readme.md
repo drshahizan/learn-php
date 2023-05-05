@@ -16,7 +16,7 @@ The goal of this exercise use the [responsive grids classes](https://getbootstra
 
 ![Responsive Grid instructions](grid.gif)
 
-Bonus: Add images, using the [card group](http://v4-alpha.getbootstrap.com/components/card/) class to organize the content.
+Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
 
 Play around with changing the styling (fonts, colors) by editing grid.css.
 
@@ -48,7 +48,7 @@ Or play around with adding more components!
 > - Provide an overall summary of the website's creation.
 > 
 
-<img src="./download/l1int-a.png" width="600" />
+<img src="./download/grid.gif" width="600" />
 
 **Figure 1.1**: Mainpage
 
