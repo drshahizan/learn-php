@@ -21,7 +21,7 @@ To complete the exercises, you need to write the complete program code using Jav
 
 | Lab | Title | Files |
 | :-----: | ----- | :------: | 
-| 01 | Bootstrap: Fluid Grid |<a href="../../lab/bootstrap/lab/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 01 | Bootstrap: Fluid Grid |<a href="../../lab/bootstrap/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02 | Hero Homepage |<a href="../../lab/js/basic/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
 | 03 | Contact Me Page |<a href="../../lab/js/basic/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | Gallery Page |<a href="../../lab/js/basic/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
