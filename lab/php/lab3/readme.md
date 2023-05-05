@@ -44,7 +44,7 @@ To create a `hello.php` file, follow these steps:
 
 Refer to Figure 1.4 for an example of what the `hello.php` file should look like.
 
-<img src="./download/lab3-4.png"  width="300" />
+<img src="./download/lab3-4.png"  width="400" />
 
 **Figure 1.4**: hello.php
 
@@ -54,7 +54,7 @@ Let’s break down the different components of the code. All PHP code falls with
 
 To run the code, right-click and then choose `PHP Server: Project Service`. The results of the implementation are shown in Figure 1.5.
 
-<img src="./download/lab3-5.png"  width="300" />
+<img src="./download/lab3-5.png"  width="500" />
 
 **Figure 1.5: PHP Serve**
 
@@ -66,13 +66,13 @@ Let’s go over what the program did in more detail. PHP executed the line `echo
 
 ## Download the file PHP mso.ppt
 
-[PHP mso.zip](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/333303570/PHP%20mso.pdf) contains descriptions related to PHP. Please read each item one by one. This slide also includes a lab exercise, such as Lesson 2a.php. Please see page 32 for more information. The code is available in VSC in the Syntax 2 folder (Figure 1.7).
+[PHP mso.zip](https://) contains descriptions related to PHP. Please read each item one by one. This slide also includes a lab exercise, such as Lesson 2a.php. Please see page 32 for more information. The code is available in VSC in the Syntax 2 folder (Figure 1.7).
 
-<img src="./download/lab3-7.png"  width="300" />
+<img src="./download/lab3-7.png"  width="500" />
 
 **Figure 1.7**: PHP Slide
 
-<img src="./download/lab3-8.png"  width="300" />
+<img src="./download/lab3-8.png"  width="500" />
 
 **Figure 1.8**: Code
 
