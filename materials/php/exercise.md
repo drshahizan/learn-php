@@ -15,17 +15,11 @@ The Bootstrap lab is a series of exercises that teaches web development students
 | Lab | Title | Files |
 | :-----: | ----- | :------: | 
 | 01 | How to Install XAMPP Server on Windows 11 |<a href="../../lab/php/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | How to add PHP Intelephense and PHP Server extensions in VSC |<a href="../../lab/php/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 02 | PHP Intelephense and PHP Server |<a href="../../lab/php/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
 | 03 | How to run PHP on Visual Studio Code |<a href="../../lab/php/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | PHP & MySQL source code |<a href="../../lab/php/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 05 | Tourism Management System |<a href="../../lab/php/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 06 | Hospital Management System|<a href="../../lab/php/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-
-
-### Lab Bootstrap: Instruction
-
-1. This task must be done in groups (**4** people per group).
-2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.

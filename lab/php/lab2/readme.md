@@ -7,21 +7,75 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Fluid Grid
+# Lab 2: PHP Intelephense and PHP Server
 
-The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
+PHP Intelephense and PHP Server are two popular extensions for Visual Studio Code that enhance the PHP development experience.
 
-- Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
-- Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
+- PHP Intelephense: is an advanced PHP language server that offers intelligent code completion, code navigation, and syntax highlighting. It also provides features like parameter suggestions, documentation pop-ups, and code formatting. PHP Intelephense makes coding in PHP easier, faster, and more efficient.
 
-<img src="./download/grid.gif" width="800" />
+- PHP Server: is a simple extension that allows you to run a PHP server within Visual Studio Code. It saves developers the hassle of setting up and configuring a separate web server to test their PHP applications. With PHP Server, you can launch a web server with just a few clicks, specify a root folder, and then test your PHP code within the editor.
 
+Here are the step-by-step instructions to add PHP Intelephense and PHP Server extensions in Visual Studio Code:
 
-Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
+1. Open Visual Studio Code on your computer.
+2. Click on the "Extensions" icon in the left-hand sidebar (or press Ctrl+Shift+X on Windows, or Cmd+Shift+X on Mac) to open the Extensions panel.
+3. In the search bar at the top of the Extensions panel, type "PHP Intelephense" and press Enter.
+4. From the search results, click on the "Install" button next to the "PHP Intelephense" extension.
+5. Wait for the installation process to complete, and then click the "Reload" button to restart Visual Studio Code and activate the extension.
+6. Repeat steps 3-5 to install the "PHP Server" extension.
+7. Once both extensions are installed and activated, open a PHP file in Visual Studio Code.
+8. In the bottom right corner of the editor window, you should see the current language mode displayed. Click on it to open the language mode selection menu.
+9. In the language mode selection menu, select "PHP" to activate the PHP language mode.
+10. If you have not already done so, create a PHP server using the "PHP Server" extension. To do this, open the Command Palette (Ctrl+Shift+P on Windows, or Cmd+Shift+P on Mac) and type "PHP Server: Serve Project" in the search bar. Select this command to start a new server and serve your project.
+11. You should now be able to use PHP Intelephense to get code completion, syntax highlighting, and other advanced features for your PHP code. The PHP Server extension allows you to run and test your PHP code directly from within Visual Studio Code.
 
-Play around with changing the styling (fonts, colors) by editing grid.css.
+Congratulations! You have successfully added PHP Intelephense and PHP Server extensions to Visual Studio Code and can now use them to develop and debug your PHP projects.
 
-Or play around with adding more components!
+Here is the HTML code converted to markdown:
+
+---
+
+Before using PHP, you are required to add the PHP Intelephense and PHP Server extensions.
+
+![PHP Intephense](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.25.28%20PM.png "PHP Intephense")
+
+*Figure 1.1: PHP Intephense*
+
+![PHP Server](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.26.58%20PM.png "PHP Server")
+
+*Figure 1.2: PHP Server*
+
+Please watch the video below to learn how to add both extensions.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4vKJMLXGirw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**PHP Intelephense**
+
+Intelephense is a high performance PHP language server packed full of essential features for productive PHP development.
+
+- Fast camel/underscore case code completion (IntelliSense) for document, workspace and built-in symbols and keywords with automatic addition of use declarations.
+- Detailed signature (parameter) help for document, workspace and built-in constructors, methods, and functions.
+- Rapid workspace wide go to definition support. Workspace wide find all references.
+- Fast camel/underscore case workspace symbol search. Full document symbol search that also powers breadcrumbs and outline UI.
+- Multiple diagnostics for open files via an error tolerant parser and powerful static analysis engine. Lossless PSR-12 compatible document/range formatting.
+- Formats combined HTML/PHP/JS/CSS files too.
+- Embedded HTML/JS/CSS code intelligence.
+- Detailed hover with links to official PHP documentation.
+- Smart highlight of references and keywords. Reads PHPStorm metadata for improved type analysis and suggestions.
+
+**PHP Server**
+
+There are multiple ways of running `PHP server`:
+
+- `CTRL + SHIFT + P` and searching for `PHP Server: Serve project` command
+- Clicking on vscode's editor button (icon on the top-right corner)
+- Right-clicking on vscode's editor when a `.php` or an `.html` is open.
+
+To stop the server, the `PHP Server: Stop project` command can be executed likewise.
+
+![PHP Intephense](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.39.06%20PM.png "PHP Intephense")
+
+*Figure 1.1: PHP Intephense*
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
