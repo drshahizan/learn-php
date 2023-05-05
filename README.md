@@ -54,7 +54,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 2 | Cascading Style Sheets |<a href="./materials/css/exercise.md" ><img src="./images/css.png" width="36px" height="36px" ></a> |
 | 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="36px" height="36px" ></a> |
 | 4 | Bootstrap |<a href="./materials/bootstrap/exercise.md" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
-| 5 | Hypertext Preprocessor |<a href="" ><img src="./images/php.png" width="36px" height="36px" ></a> |
+| 5 | Hypertext Preprocessor |<a href="./materials/php/exercise.md" ><img src="./images/php.png" width="36px" height="36px" ></a> |
 
 ## Project
 
