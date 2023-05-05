@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
 
-- Start with the starter code file [`grid_starter.html`](/download/grid_starter.html) and css [`grid.css`](/download/grid.css) by right-clicking and saving the file it to your computer.
+- Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
 - Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
 
 ![Responsive Grid instructions](grid.gif)
