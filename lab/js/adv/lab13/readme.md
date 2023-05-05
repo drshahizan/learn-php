@@ -146,50 +146,54 @@ This Sidebar can be your best choice if you’re a complete beginner and want to
 
 **Figure 12.1**
 
-### 2. Simple Sidebar in HTML CSS & JavaScript
+### 3. Navigation Bar with Scrolling to the Top Button
+This is the most useful Navigation Bar you get in this Navigation Bar list. The main feature of this Navigation Bar is that when you click on each navigation link its section appears and also you can move to the top by clicking on the scroll to top button which is aligned at the right bottom.
 
-This is the another simple Sidebar Menu that in created in HTML CSS and JavaScript. To open and close this Sidebar I used some JavaScript code. In this Sidebar Menu I have tried to add various type of navigaion link and their icon. You can also use checkbox to open and close it as like as I did above sidebar.
+If you want to create a Navigation Bar with an active link and scroll to the top button then you should definitely try to create this Navigation Bar.
 
-If you are a complete beginner and want to create this Sidebar Bar then this Sidebar can be you best option.  Even with you basic HTML CSS and JavaScript skills you can create this Sidebar. For the source code for the Sidebar Menu, you can visit the given links.
+Watch Video Tutorial
+Download Source Code
 
-<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar2)
+### 5. All Navigation Links Hover Animations
+As you can see, I made all of the regularly used navigation links’ hover animations. When I hover over each navigation link in this area, four hover animations are displayed. The first starts from the left and turns around, the second starts from the middle, the third starts from the bottom, and the last one starts from the left and turns around.
 
-<img src="./download/sidebar2.png" width="400" />
+If you want to learn to create regularly used modern hover animation on the link then you can try this. With the basic HTML and CSS, you can create this. You can get to the source code and video tutorial from the given link for this navigation link hover animation.
 
-**Figure 12.2**
+Watch Video Tutorial
+Download Source Code
 
-### 3. Sidebar Menu with Tooltip in HTML CSS & JavaScript
-This is the best Sidebar in this list which is created in HTML CSS and JavaScript. The fascination part of this sidebar is that when you close the Sidebar Menu then the naivgation icons will visible. Take a look on the image of this Sidebar Menu the left section is the open and right is the close view of the sidebar.
+### 6. Sticky Navigation Bar
+This is the Sticky Navigation Bar which is created in HTML CSS and JavaScript. Bascially, when you scroll the webpage the Navigation gets stuck on the top. We will get to find this type of Sticky Navigation on modern websites mostly.
 
-This can be the finest choice for you if you’re seeking for a sidebar menu with contemporary features like a tooltip and a search bar. Also, you can create this Sidebar Menu in simple HTML CSS and JavaScript code. For the source code and the video tutorial for this Sidebar Menu, do visit the given links.
+You must attempt to develop this Sticky Navigation Bar in HTML CSS & JavaScript if you want to learn how to make a navigation bar for a trendy website. You can click on the provided links to see the source code and the video tutorial for this Sticky Navigation Bar.
 
-<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar3)
+Watch Video Tutorial
+Download Source Code
 
-<img src="./download/sidebar3.png" width="400" />
+### 8. Navigation Bar with Dark and Light Mode
+Additionally, this navigation bar is totally responsive and has functionality for Dark and Light Modes. The selected mode remains unchanged even if the page is refreshed or reopened, which is another fascinating feature I’ve introduced to this navigation. Additionally, there is a search box, which makes this navigation bar more modern and practical.
 
-**Figure 12.3**
+I used HTML, CSS, and JavaScript to build this navigation bar. Local website storage was used to keep the mode that was chosen. I sincerely hope you like it and try to create it. For the source code and the video tutorial for this navigation bar, please click on the provided links.
 
-### 4. Dropdown Sidebar Menu in HTML CSS & JavaScript
-This is the improve version of the above Sidebar Menu. In this Sidebar Menu I have added dropdown facility. When you click on the dropdown arrow icon then it’s dropdown section appear and this sidebar menu is scrollable.
+Watch Video Tutorial
+Download Source Code
 
-You should definitely try to make this Sidebar Menu because I have included all the features that a trendy Sidebar needs to have. For the source code and a video tutorial for this drop-down sidebar menu, click on the provided links.
+### 9. Dropdown Navigation Bar
+You will find a search bar and a submenu in this responsive dropdown navigation bar, just like I have shown in the picture. JavaScript, CSS, and HTML were used to create this navigation. The dropdown menu appears when you hover over the navigation links, and you may access the submenu from there as well.
 
-<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar4)
+This can be the ideal strategy for you if you want to develop a responsive drop-down menu bar with submenus. This Dropdown Navigation Bar can be made even with very minimal knowledge of HTML, CSS, and JavaScript. For the source code and video instructions for this drop-down navigation bar, click on the following links.
 
-<img src="./download/sidebar4.png" width="400" />
+Watch Video Tutorial
+Download Source Code
 
-**Figure 12.4**
+### 10. Navigation Bar with Search Box
+The finest responsive navigation bar with a long search bar on this list is this one. All the navigation links disappear when you click the search icon, and a lengthy search field appears with lovely animation. You can see the responsive overview of the navigation bar on the left.
 
-### 5. Sidebar Menu with Dark Light Mode in HTML CSS & JS
-This is the unique Sidebar Menu in this list. The main feature of this Sidebar Menu is its dark and light mode. Also, I have added search box and toggle button on this trendy Sidebar Menu. There is a dark and light mode toggle section at the bottom, by clicking on that toggle button you can turn on or off the dark light mode.
+This could be the finest example to meet your requirements if you’re looking for a Responsive Navigation Bar with a lengthy search box. This navigation bar can be made using simple lines of HTML, CSS, and JavaScript code. For the source code and a video tutorial for this Responsive Navigation Bar with the search box, click on the provided links.
 
-If you are seeking for a trendy Sidebar Menu with the dark and light mode feature then this Sidebar Menu can fulfill your demand. Additionally, you can create this trendy Sidebar with basci HTML CSS & JavaScript code. For the source code and video tutorial for this Sidebar Menu, you can visit the given links.
+Watch Video Tutorial
+Download Source Code
 
-<img src="./download/code.png" width="24" /> [Source Code](./download/Sidebar5)
-
-<img src="./download/sidebar5.png" width="400" />
-
-**Figure 12.5**
 
 
 ## Contribution 🛠️
