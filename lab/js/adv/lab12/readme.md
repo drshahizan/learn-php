@@ -12,12 +12,11 @@ Don't forget to hit the :star: if you like this repo.
 > File 📁 : [12 Sidebar](./download)
 > 
 > Activity 🏆 :
-> - What are the functions of question.js and script.js?
-> - Try adding quiz questions to the list of ten questions.
-> - How to change Response Time to 30 Seconds.
-> - Where are the scores saved?
-> - What happens when you click the Quiz replay button?
-> - What are the css/all.min.css files for?
+> 1. What is a sidebar menu template, and how is it used in web design?
+> 2. What are the key features of a responsive sidebar menu template, and how do they work?
+> 3. How can you customize a sidebar menu template to match the design of your website?
+> 4. What are some popular CSS frameworks and libraries that offer pre-built sidebar menu templates, and how do they work?
+> 5. What are some best practices for designing and implementing a sidebar menu template, and how can you ensure it is user-friendly and accessible?
 > 
 
 A sidebar menu is a commonly used user interface element in web design. It is a vertical navigation menu that appears on the left or right side of a web page and typically displays links to various sections of a website. 
