@@ -21,29 +21,13 @@ The goal of this exercise is to use the CSS components you've learned so far fro
 ## Part 2: Create form!
 
 ### Add input fields
-- Use the [form control](http://v4-alpha.getbootstrap.com/components/forms/#form-controls) classes such as `.form-group` and `.form-control` to style your Name, Email, Subject, and Message fields.
-- Use the [button](http://v4-alpha.getbootstrap.com/components/buttons/) component's `.btn` classes to style your Send button.
+- Use the (form control)[https://getbootstrap.com/docs/5.3/forms/form-control/) classes such as `.form-group` and `.form-control` to style your Name, Email, Subject, and Message fields.
+- Use the [button](https://getbootstrap.com/docs/5.3/components/buttons/) component's `.btn` classes to style your Send button.
 - When the form submits, have it send to your own email? (Hint: how does the form know which email to send to?)
 
 ## Bonus
 - Add a header and introductory text to your Contact page.
-- Use the [grid classes](http://v4-alpha.getbootstrap.com/layout/grid) we have already learned to style/position your new content on the page.
-
-<button class="btn" onclick="showSolution();">Show Solution</button>
-
-<div id="solution" style="display:none; margin-top: 20px;">
-<a href='/bootstrap-hosting-github/exercises/contact/contact_solution' target='_blank'>View Solution in New Window</a>
-</p>
-
-<script>
-function showSolution() {
-  if (confirm('You surrrrre?')) {
-    document.getElementById('solution').style.display = 'block';
-    window.scrollTo(0, document.body.scrollHeight);
-  }
-}
-</script>
-</div>
+- Use the [grid classes](https://getbootstrap.com/docs/5.3/layout/grid/) we have already learned to style/position your new content on the page.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
