@@ -56,9 +56,63 @@ For the final project, your group will develop a functional data-centric online 
    - Any added functions, such as input validation using JavaScript (highlight during presentation)
    - A clean, consistent, and attractive presentation using HTML and CSS.
 
-## Instructions
-Please read and understand the following instructions carefully:
+## Codebase structure
+An example of what the codebase structure for a Malaysian culture system could look like, including the different folders and files that would be included:
 
-1. Carefully read and understand the problem and instructions for the final project.
-2. Form a group of 3 to 4 members for the project. Enter the group details on the provided Google form (refer to your e-learning platform).
-3. Submit the completed project file via github.
+1. HTML/CSS:
+- `index.html`: This is the main homepage of the website, which would include links to other pages, images, and descriptions of different cultural practices or events.
+- `style.css`: This file would handle the styling and layout of different elements on the website, such as fonts, colors, and margins.
+
+2. JavaScript:
+- `script.js`: This file would include JavaScript code for adding interactivity and dynamic features to the website, such as dropdown menus, image sliders, and modal windows.
+
+3. PHP:
+- `config.php`: This file would contain the configuration settings for connecting to the MySQL database.
+- `db_functions.php`: This file would include PHP functions for retrieving data from the database, generating dynamic web pages, and handling user authentication and authorization.
+
+4. MySQL:
+- `database.sql`: This file would contain the SQL code for creating the database tables and defining the relationships between them.
+
+5. Reporting:
+- `report.php`: This file would include PHP code for generating reports and visualizations based on data extracted from the MySQL database.
+
+Overall, the codebase for a Malaysian culture system would be organized into different folders based on the type of content or functionality, such as HTML/CSS, JavaScript, PHP, MySQL, and reporting. The file structure would be designed to be easily navigable and intuitive for developers working on the project, with clear naming conventions and comments to explain the purpose of each file. By using this structure, the codebase would be modular, scalable, and maintainable over time, allowing the system to be updated or enhanced as needed to meet the evolving needs of users.
+
+## Folder Structure
+A folder structure for a Malaysian culture system with CSS, JS, HTML, database, PHP, and reporting:
+
+```
+github_id/
+├── index.php
+├── css/
+│   ├── bootstrap.min.css
+│   └── style.css
+├── js/
+│   ├── jquery.min.js
+│   └── bootstrap.min.js
+├── includes/
+│   ├── config.php
+│   ├── functions.php
+│   └── header.php
+├── images/
+│   ├── banner.jpg
+│   └── logo.png
+├── pages/
+│   ├── about.php
+│   ├── events.php
+│   ├── gallery.php
+│   ├── news.php
+│   ├── profile.php
+│   └── search.php
+├── reporting/
+│   ├── daily-report.php
+│   ├── monthly-report.php
+│   └── yearly-report.php
+└── database/
+    ├── db_config.php
+    ├── db_create.php
+    ├── db_seed.php
+    └── db_connection.php
+```
+
+In this structure, `index.php` serves as the main landing page that includes the necessary header and footer from the `includes/` folder. The `css/` and `js/` folders contain the necessary stylesheets and scripts for the website. The `images/` folder contains all the necessary images such as logos, banners, and photos. The `pages/` folder contains all the different pages of the website such as the about, events, gallery, news, profile, and search pages. The `reporting/` folder contains all the different reporting pages such as the daily, monthly, and yearly reports. Lastly, the `database/` folder contains all the necessary files for setting up and connecting to the database such as the database configuration, creation, seeding, and connection files.
