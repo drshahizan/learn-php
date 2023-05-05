@@ -21,16 +21,10 @@ To complete the exercises, you need to write the complete program code using Jav
 
 | Lab | Title | Files |
 | :-----: | ----- | :------: | 
-| 01 | Compute the exponent of a number |<a href="../../lab/js/basic/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | Determine whether a number is even or odd |<a href="../../lab/js/basic/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | Conditional Statement and loops |<a href="../../lab/js/basic/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 |  Calculate the students' averages and grades |<a href="../../lab/js/basic/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | Create a pattern with a nested for loop |<a href="../../lab/js/basic/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | Conditional statement to sort the numbers |<a href="../../lab/js/basic/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | Multiplication and division of two numbers |<a href="../../lab/js/basic/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | Determine integer values fall within the range |<a href="../../lab/js/basic/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 09 | Converts upper case letters to lower case letters and vice versa |<a href="../../lab/js/basic/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | Determine the longest word in a string |<a href="../../lab/js/basic/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 01 | Bootstrap: Fluid Grid |<a href="../../lab/bootstrap/lab/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 02 | Hero Homepage |<a href="../../lab/js/basic/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 03 | Contact Me Page |<a href="../../lab/js/basic/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | Gallery Page |<a href="../../lab/js/basic/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 
 ### Lab Bootstrap: Instruction
