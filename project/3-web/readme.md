@@ -15,19 +15,24 @@ This assignment requires you to create a responsive website using the Bootstrap 
 Form a team of four students, and make sure everyone has a clear understanding of the project requirements and timelines.
 
 ## 2. Research and planning
-Conduct research on Malaysian culture and design trends. Brainstorm ideas and create a plan for your website, including the content, layout, and features.
+Conduct research on Malaysian culture and design trends. Brainstorm ideas and create a plan for your website, including the content, layout, and features. To create a website that represents Malaysian culture, choose a theme that incorporates the colors, patterns, and designs that are common in Malaysia. You can use traditional motifs and patterns to create a unique and visually appealing design.
 
 ## 3. Wireframing
 Create a wireframe of your website using tools like Figma or Sketch. This will give you a visual representation of the website's layout and help you organize the content.
 
 ## 4. Design
-Use your wireframe to design the website using Bootstrap. Customize the design to include Malaysian cultural elements and colors.
+Use your wireframe to design the website using Bootstrap. 
+
+- Customize the design to include Malaysian cultural elements and colors.
+- Use Bootstrap's grid system: Bootstrap's grid system allows you to create a responsive layout by dividing the page into 12 columns. You can then assign classes to your HTML elements to specify how many columns they should span on different screen sizes.
 
 ## 5. Build the website
 Build the website using HTML, CSS, and Bootstrap. Ensure that the website is responsive and works well on different screen sizes.
+- Use Bootstrap's pre-built components: Bootstrap comes with a variety of pre-built components, such as buttons, forms, and navigation menus, that are designed to work well on different screen sizes. By using these components, you can save time and ensure that your website looks great on all devices.
+- Include Malaysian cultural elements: Incorporate Malaysian cultural elements, such as traditional patterns, colors, and symbols, into your website design. This will help to make your website more visually appealing and engaging to visitors.
 
 ## 6. Test the website
-Test the website thoroughly to ensure that it works as intended. Check for errors, broken links, and other issues. Test the website on different devices and screen sizes to ensure that it is fully responsive.
+Test the website thoroughly to ensure that it works as intended. Check for errors, broken links, and other issues. Use tools like Google's Mobile-Friendly Test or BrowserStack to test your website on different devices and screen sizes.
 
 ## 7. Submit the source code and report
 Submit the source code for your website and a report outlining the tasks you completed, the challenges you faced, and the solutions you implemented.
