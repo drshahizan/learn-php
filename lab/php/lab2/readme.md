@@ -31,6 +31,52 @@ Here are the step-by-step instructions to add PHP Intelephense and PHP Server ex
 
 Congratulations! You have successfully added PHP Intelephense and PHP Server extensions to Visual Studio Code and can now use them to develop and debug your PHP projects.
 
+Here is the HTML code converted to markdown:
+
+---
+
+Before using PHP, you are required to add the PHP Intelephense and PHP Server extensions.
+
+![PHP Intephense](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.25.28%20PM.png "PHP Intephense")
+
+*Figure 1.1: PHP Intephense*
+
+![PHP Server](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.26.58%20PM.png "PHP Server")
+
+*Figure 1.2: PHP Server*
+
+Please watch the video below to learn how to add both extensions.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4vKJMLXGirw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**PHP Intelephense**
+
+Intelephense is a high performance PHP language server packed full of essential features for productive PHP development.
+
+- Fast camel/underscore case code completion (IntelliSense) for document, workspace and built-in symbols and keywords with automatic addition of use declarations.
+- Detailed signature (parameter) help for document, workspace and built-in constructors, methods, and functions.
+- Rapid workspace wide go to definition support. Workspace wide find all references.
+- Fast camel/underscore case workspace symbol search. Full document symbol search that also powers breadcrumbs and outline UI.
+- Multiple diagnostics for open files via an error tolerant parser and powerful static analysis engine. Lossless PSR-12 compatible document/range formatting.
+- Formats combined HTML/PHP/JS/CSS files too.
+- Embedded HTML/JS/CSS code intelligence.
+- Detailed hover with links to official PHP documentation.
+- Smart highlight of references and keywords. Reads PHPStorm metadata for improved type analysis and suggestions.
+
+**PHP Server**
+
+There are multiple ways of running `PHP server`:
+
+- `CTRL + SHIFT + P` and searching for `PHP Server: Serve project` command
+- Clicking on vscode's editor button (icon on the top-right corner)
+- Right-clicking on vscode's editor when a `.php` or an `.html` is open.
+
+To stop the server, the `PHP Server: Stop project` command can be executed likewise.
+
+![PHP Intephense](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.39.06%20PM.png "PHP Intephense")
+
+*Figure 1.1: PHP Intephense*
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
