@@ -54,7 +54,7 @@ Firstly, we’ll download the latest version of XAMPP available on the internet,
 
 ## Step 3: Run XAMPP and Start Apache and MySQL servers
 
-Sure, here are the updated step-by-step instructions for starting Apache and MySQL using XAMPP:
+Step-by-step instructions for starting Apache and MySQL using XAMPP:
 
 1. Open the File Explorer on your computer.
 2. Navigate to the location where you installed XAMPP. This is usually "C:\Program Files\xampp" on Windows or "/Applications/XAMPP" on macOS.
@@ -63,11 +63,24 @@ Sure, here are the updated step-by-step instructions for starting Apache and MyS
 5. Wait for Apache to start. You can see the status of Apache on the right-hand side of the XAMPP Control Panel.
 6. Next, locate the "MySQL Database" service in the list of services and click on the "Start" button next to it.
 7. Wait for MySQL to start. You can see the status of MySQL on the right-hand side of the XAMPP Control Panel.
-8. Congratulations! You have successfully started Apache and MySQL using XAMPP. You can now begin using them to serve web pages and store data, respectively.
+8. You have successfully started Apache and MySQL using XAMPP. You can now begin using them to serve web pages and store data, respectively.
 
-### Conclusion
+I apologize for the confusion. Here are the step-by-step instructions for accessing the Local Dashboard for XAMPP, phpMyAdmin, and the phpinfo page, as per your instructions:
 
-Congratulations! You have successfully installed XAMPP on Windows 11. With XAMPP, you can now easily create and host websites and web applications on your local machine. If you encounter any issues during the installation process, feel free to leave a comment below.
+## Step 4: Local Dashboard for XAMPP
+
+1. Open Windows Explorer and navigate to the location where XAMPP is installed (usually `C:\Program Files\xampp`).
+2. Double-click on the `xampp-control.exe` file to open the XAMPP Control Panel.
+3. Click on the `Start` buttons next to both `Apache` and `MySQL` to start them.
+4. Open a web browser on your computer.
+5. In the address bar, type `http://localhost/` and press Enter.
+6. You should be directed to the Local Dashboard for XAMPP, which provides links to various applications and tools.
+7. Click on the `phpMyAdmin` link in the "Tools" section of the Local Dashboard.
+8. This will bring you to the phpMyAdmin dashboard, where you can manage your MySQL databases and tables.
+9. To access the `phpinfo` page, return to the XAMPP dashboard by clicking the `Dashboard` link at the top of the page.
+10. In the "Tools" section of the dashboard, click on the `phpinfo` link.
+11. This will display a page with detailed information about your PHP configuration and environment.
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
