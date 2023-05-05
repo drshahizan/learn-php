@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 3: Contact Form
 
-The goal of this exercise is to use the CSS components you've learned so far from [Bootstrap](http://v4-alpha.getbootstrap.com) to create a contact form for your website.
+The goal of this exercise is to use the CSS components you've learned so far from [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) to create a contact form for your website.
 
 ## Part 1: Setup
 
