@@ -7,17 +7,17 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 13: Sidebar Menu Templates
+# Lab 13: Responsive Navigation Bar
 
-> File 📁 : [13 Sidebar](./download)
+> File 📁 : [13 Navbar](./download)
 > 
 > Activity 🏆 :
-> 1. What is a sidebar menu template, and how is it used in web design?
-> 2. What are the key features of a responsive sidebar menu template, and how do they work?
-> 3. How can you customize a sidebar menu template to match the design of your website?
-> 4. What are some popular CSS frameworks and libraries that offer pre-built sidebar menu templates, and how do they work?
-> 5. What are some best practices for designing and implementing a sidebar menu template, and how can you ensure it is user-friendly and accessible?
-> 
+> 1. What is a responsive navigation bar, and why is it important for web design?
+> 2. What are the key components of a responsive navigation bar, and how do they work together?
+> 3. How can you create a responsive navigation bar using HTML, CSS, and JavaScript?
+> 4. What are some popular CSS frameworks and libraries that offer pre-built responsive navigation bar templates, and how do they work?
+> 5. What are some best practices for designing and implementing a responsive navigation bar, and how can you ensure it is user-friendly and accessible on different devices?
+
 
 A responsive navigation bar is an important component of modern web design that provides users with easy access to different pages and sections of a website. A responsive navigation bar adjusts its layout and design to fit different screen sizes, from desktops to mobile devices, and ensures that users can navigate the site regardless of the device they are using.
 
