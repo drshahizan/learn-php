@@ -7,11 +7,35 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Personal Portfolio Website
+# Lab 1: Fluid Grid Exercise
 
-Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
+The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+- Start with the starter code file [grid_starter.html](/bootstrap-hosting-github/exercises/grid/grid_starter) and css [grid.css](grid.css) by right-clicking and saving the file it to your computer.
+- Use the [Bootstrap grids classes](http://v4-alpha.getbootstrap.com/layout/grid/) to make the content a fluid layout according to the following:
+
+![Responsive Grid instructions](grid.gif)
+
+Bonus: Add images, using the [card group](http://v4-alpha.getbootstrap.com/components/card/) class to organize the content.
+
+Play around with changing the styling (fonts, colors) by editing grid.css.
+
+Or play around with adding more components!
+
+<button class="btn" onclick="showSolution();">Show Solution</button>
+
+<div id="solution" style="display:none; margin-top: 20px;">
+    <a href='/bootstrap-hosting-github/exercises/grid/grid_solution' target='_blank'>View Solution in New Window</a>
+</div>
+
+<script>
+    function showSolution() {
+        if (confirm('You surrrrre?')) {
+            document.getElementById('solution').style.display = 'block';
+            window.scrollTo(0, document.body.scrollHeight);
+        }
+    }
+</script>
 
 > File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
 > 
