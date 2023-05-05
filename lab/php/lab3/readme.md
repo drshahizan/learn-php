@@ -9,9 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 3: How to run PHP on Visual Studio Code
 
-# Download the file phpweb.zip
-
-Download the file `phpweb.zip`.
+## Download the file phpweb.zip
 
 This lab exercise will introduce you to PHP files. Make sure you have XAMPP installed. You must have Apache Web Server running in order for PHP code to be processed. Please ensure that your XAMPP is configured as follows.
 
