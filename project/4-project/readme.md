@@ -116,3 +116,10 @@ github_id/
 ```
 
 In this structure, `index.php` serves as the main landing page that includes the necessary header and footer from the `includes/` folder. The `css/` and `js/` folders contain the necessary stylesheets and scripts for the website. The `images/` folder contains all the necessary images such as logos, banners, and photos. The `pages/` folder contains all the different pages of the website such as the about, events, gallery, news, profile, and search pages. The `reporting/` folder contains all the different reporting pages such as the daily, monthly, and yearly reports. Lastly, the `database/` folder contains all the necessary files for setting up and connecting to the database such as the database configuration, creation, seeding, and connection files.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
