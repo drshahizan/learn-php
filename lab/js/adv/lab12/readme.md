@@ -23,6 +23,118 @@ Some common features and techniques used in creating sidebar menu templates:
 
 Some popular libraries and frameworks that offer pre-built sidebar menu templates include Bootstrap, Foundation, and Materialize. Developers can also create their own custom sidebar menu templates using HTML, CSS, and JavaScript.
 
+## Code
+An example of a sidebar menu template in HTML, CSS, and JavaScript. Please note that this is just one example and there are many different ways to create a sidebar menu template.
+
+### 1. HTML:
+```html
+<nav class="sidebar">
+  <ul>
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+```
+
+### 2. CSS:
+```css
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sidebar li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar li.active {
+  background-color: #ddd;
+}
+
+.sidebar li:hover {
+  background-color: #ddd;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 0;
+  }
+
+  .sidebar.active {
+    width: 200px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+```
+
+### 3. JavaScript:
+```javascript
+// Add event listener to hamburger menu button
+document.querySelector('.hamburger').addEventListener('click', function() {
+  // Toggle active class on sidebar
+  document.querySelector('.sidebar').classList.toggle('active');
+  // Toggle active class on hamburger menu button
+  this.classList.toggle('active');
+});
+```
+
+This example includes a basic sidebar menu with four menu items and a hamburger menu button that toggles the visibility of the sidebar on smaller screens. The CSS includes styles for the sidebar, menu items, and hamburger menu button, as well as responsive styles for smaller screens. The JavaScript adds a click event listener to the hamburger menu button and toggles the active class on both the sidebar and hamburger menu button when clicked.
 
 > File 📁 : [11 Quiz](./download/11%20Quiz)
 > 
