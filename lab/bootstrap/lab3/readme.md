@@ -16,7 +16,7 @@ The goal of this exercise is to use the CSS components you've learned so far fro
 1. Make a copy of your `index.html` from the previous exercise.
 2. Name it `contact.html` and save it in the same folder as your `index.html`.
 3. Delete the main content from `contact.html`, but keep the header, navigation, and footer if you have it.
-4. Paste [this starter code](/bootstrap-hosting-github/exercises/contact/contact_starter) into your `contact.html` instead.
+4. Paste [this starter code](download/starter_code.html) into your `contact.html` instead.
 
 ## Part 2: Create form!
 
