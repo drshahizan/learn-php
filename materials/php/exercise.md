@@ -21,12 +21,6 @@ The Bootstrap lab is a series of exercises that teaches web development students
 | 05 | Tourism Management System |<a href="../../lab/php/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 06 | Hospital Management System|<a href="../../lab/php/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
-
-### Lab Bootstrap: Instruction
-
-1. This task must be done in groups (**4** people per group).
-2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
-
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
