@@ -52,6 +52,23 @@ Firstly, we’ll download the latest version of XAMPP available on the internet,
 
 ![XAMPP Control Panel](https://techdecodetutorials.com/wp-content/uploads/2021/08/0001-6300368137_20210820_175124_0000.png?ezimgfmt=rs:770x433/rscb1/ng:webp/ngcb1)
 
+## Step 3: Run XAMPP and Start Apache and MySQL servers
+
+Sure, here are the updated step-by-step instructions for starting Apache and MySQL using XAMPP:
+
+1. Open the File Explorer on your computer.
+2. Navigate to the location where you installed XAMPP. This is usually "C:\Program Files\xampp" on Windows or "/Applications/XAMPP" on macOS.
+3. Double-click on the "xampp-control.exe" file to open the XAMPP Control Panel.
+4. In the XAMPP Control Panel, you will see a list of services on the left-hand side. Locate the "Apache Web Server" service and click on the "Start" button next to it.
+5. Wait for Apache to start. You can see the status of Apache on the right-hand side of the XAMPP Control Panel.
+6. Next, locate the "MySQL Database" service in the list of services and click on the "Start" button next to it.
+7. Wait for MySQL to start. You can see the status of MySQL on the right-hand side of the XAMPP Control Panel.
+8. Congratulations! You have successfully started Apache and MySQL using XAMPP. You can now begin using them to serve web pages and store data, respectively.
+
+### Conclusion
+
+Congratulations! You have successfully installed XAMPP on Windows 11. With XAMPP, you can now easily create and host websites and web applications on your local machine. If you encounter any issues during the installation process, feel free to leave a comment below.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
