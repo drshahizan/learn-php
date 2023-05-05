@@ -7,21 +7,23 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Fluid Grid
+# Lab 2: How to add PHP Intelephense and PHP Server extensions in VSC
 
-The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
+Here are the step-by-step instructions to add PHP Intelephense and PHP Server extensions in Visual Studio Code:
 
-- Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
-- Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
+1. Open Visual Studio Code on your computer.
+2. Click on the "Extensions" icon in the left-hand sidebar (or press Ctrl+Shift+X on Windows, or Cmd+Shift+X on Mac) to open the Extensions panel.
+3. In the search bar at the top of the Extensions panel, type "PHP Intelephense" and press Enter.
+4. From the search results, click on the "Install" button next to the "PHP Intelephense" extension.
+5. Wait for the installation process to complete, and then click the "Reload" button to restart Visual Studio Code and activate the extension.
+6. Repeat steps 3-5 to install the "PHP Server" extension.
+7. Once both extensions are installed and activated, open a PHP file in Visual Studio Code.
+8. In the bottom right corner of the editor window, you should see the current language mode displayed. Click on it to open the language mode selection menu.
+9. In the language mode selection menu, select "PHP" to activate the PHP language mode.
+10. If you have not already done so, create a PHP server using the "PHP Server" extension. To do this, open the Command Palette (Ctrl+Shift+P on Windows, or Cmd+Shift+P on Mac) and type "PHP Server: Serve Project" in the search bar. Select this command to start a new server and serve your project.
+11. You should now be able to use PHP Intelephense to get code completion, syntax highlighting, and other advanced features for your PHP code. The PHP Server extension allows you to run and test your PHP code directly from within Visual Studio Code.
 
-<img src="./download/grid.gif" width="800" />
-
-
-Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
-
-Play around with changing the styling (fonts, colors) by editing grid.css.
-
-Or play around with adding more components!
+Congratulations! You have successfully added PHP Intelephense and PHP Server extensions to Visual Studio Code and can now use them to develop and debug your PHP projects.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
