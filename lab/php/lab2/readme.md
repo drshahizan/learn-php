@@ -31,19 +31,17 @@ Here are the step-by-step instructions to add PHP Intelephense and PHP Server ex
 
 Congratulations! You have successfully added PHP Intelephense and PHP Server extensions to Visual Studio Code and can now use them to develop and debug your PHP projects.
 
-Here is the HTML code converted to markdown:
 
----
 
 Before using PHP, you are required to add the PHP Intelephense and PHP Server extensions.
 
-![PHP Intephense](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.25.28%20PM.png "PHP Intephense")
+<img src="./download/lab2-1.png" width="400" />
 
-*Figure 1.1: PHP Intephense*
+**Figure 1.1**: PHP Intephense
 
-![PHP Server](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.26.58%20PM.png "PHP Server")
+<img src="./download/lab2-2.png" width="400" />
 
-*Figure 1.2: PHP Server*
+**Figure 1.2**: PHP Server
 
 Please watch the video below to learn how to add both extensions.
 
@@ -73,11 +71,10 @@ There are multiple ways of running `PHP server`:
 
 To stop the server, the `PHP Server: Stop project` command can be executed likewise.
 
-<img src="./download/lab2-1.png" width="200" />
+<img src="./download/lab2-3.png" width="400" />
 
-![PHP Intephense](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/240877344/Screenshot%202022-05-26%20at%203.39.06%20PM.png "PHP Intephense")
 
-*Figure 1.1: PHP Intephense*
+**Figure 1.3**: PHP Server
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
