@@ -50,7 +50,6 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 6 | [Bootstrap](./materials/bootstrap/readme.md) | Bootstrap is a popular open-source framework used for creating responsive and mobile-first web pages and applications. It provides pre-designed templates, CSS styles, and JavaScript plugins that make it easy for developers to create visually appealing and functional websites. Bootstrap uses a grid system to enable the creation of flexible layouts that adapt to different device sizes and screen orientations. It also provides a variety of UI components, such as forms, buttons, navigation menus, and modals, that can be easily customized and integrated into web projects. |<a href="./materials/bootstrap" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| <a href="./materials/bootstrap/readme.md" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 7 | [Hypertext Preprocessor (PHP)](./materials/php/readme.md) | PHP is a server-side scripting language used primarily for web development. It is a popular language for creating dynamic web pages and web-based applications, as it can interact with databases, handle form data, and perform other server-side tasks. PHP code is executed on the server before the web page is sent to the client's browser, allowing for the creation of complex and dynamic web content. PHP also has a large and active community that has developed many frameworks and libraries to simplify web development tasks.|<a href="./materials/sec01/mod1.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| <a href="./materials/php/readme.md" ><img src="./images/markdownh.png" width="24px" height="24px" ></a> |
 
-
 ## Lab
 
 | Lab | Topic | Files |
@@ -60,6 +59,20 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="36px" height="36px" ></a> |
 | 4 | Bootstrap |<a href="./materials/bootstrap/exercise.md" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 5 | Hypertext Preprocessor |<a href="" ><img src="./images/php.png" width="36px" height="36px" ></a> |
+
+## Project
+
+| Project | Topic | Files |
+| :-----: | ----- | :------: | 
+| 1| Student Portfolio Showcase (HTML) |<a href="./project/1-portfolio" ><img src="./images/html.png" width="36px" height="36px" ></a> |
+| 2 | Student Portfolio Showcase (Bootstrap) |<a href="./project/2-bootstrap/" ><img src="./images/bootstrap.png" width="36px" height="36px" ></a> |
+| 3 | Web Responsive using Bootstrap |<a href="./project/3-web" ><img src="./images/bootstrap.png" width="36px" height="36px" ></a> |
+| 4 | Final Project using PHP |<a href="./project/4-project" ><img src="./images/php.png" width="24px" height="24px" ></a> |
+
+5. [Project 1: Student Portfolio Showcase (HTML)](./project/1-portfolio)
+6. [Project 2: Student Portfolio Showcase (Bootstrap)](./project/2-bootstrap/readme.md)
+7. [Project 3: Web Responsive using Bootstrap](./project/3-web)
+8. [Project 4: Final Project using PHP](./project/4-project)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
