@@ -64,9 +64,9 @@ To run the code, right-click and then choose `PHP Server: Project Service`. The 
 
 Let’s go over what the program did in more detail. PHP executed the line `echo "Hello, World!";` by calling the language construct `echo`. The string value of `Hello, World!` was passed to the construct. In this example, the string `Hello, World!` is also called an argument since it is a value that is passed to another part of the code, such as a construct or a function. The quotes that are on either side of `Hello, World!` were not output to the screen because they are used to tell PHP that this section of code contains a string. The quotation marks delineate where the string begins and ends.
 
-## Download the file PHP mso.ppt
+## Download the file PHP-mso.pdf
 
-[PHP mso.zip](https://) contains descriptions related to PHP. Please read each item one by one. This slide also includes a lab exercise, such as Lesson 2a.php. Please see page 32 for more information. The code is available in VSC in the Syntax 2 folder (Figure 1.7).
+[PHP mso.pdf](download/PHP-mso.pdf) contains descriptions related to PHP. Please read each item one by one. This slide also includes a lab exercise, such as Lesson 2a.php. Please see page 32 for more information. The code is available in VSC in the Syntax 2 folder (Figure 1.7).
 
 <img src="./download/lab3-7.png"  width="500" />
 
