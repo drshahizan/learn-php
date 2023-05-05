@@ -9,8 +9,8 @@ Don't forget to hit the :star: if you like this repo.
 
 # Lab 12: Sidebar Menu Templates
 
-
-> File 📁 : [12 Sidebar](./download/12%20Sidebar)
+https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab12/download
+> File 📁 : [12 Sidebar](./download)
 > 
 > Activity 🏆 :
 > - What are the functions of question.js and script.js?
@@ -158,6 +158,9 @@ This Sidebar can be your best choice if you’re a complete beginner and want to
 
 Watch Video Tutorial
 Download Source Code
+<img src="./download/sidebar1.png" width="400" />
+
+**Figure 11.1**: Start quiz
 
 ### 2. Simple Sidebar in HTML CSS & JavaScript
 
