@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Conditional Statements Example</title>
+   <!--
+     Name: Muhammad Faiz Fitri 
+     Matric No: SX220354ECJHS04
+     GitHub ID: AshuraRin
+     
+    -->
+   <script>
+      function checkAge() {
+         let age = document.getElementById("age").value;
+         
+         if (age < 18) {
+            document.getElementById("result").innerHTML = "You are not old enough to vote.";
+         } else {
+            document.getElementById("result").innerHTML = "You can vote!";
+         }
+      }
+   </script>
+</head>
+<body>
+   <h1>Conditional Statements Example</h1>
+   <p>Enter your age:</p>
+   <input type="text" id="age">
+   <br>
+   <button onclick="checkAge()">Check Age</button>
+   <br>
+   <p id="result"></p>
+</body>
+</html>
