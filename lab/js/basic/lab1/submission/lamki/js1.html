@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Power of 2 Calculator</title>
+    <script>
+      function powerOfTwo() {
+        // Get the input value from the form
+        var num = parseInt(document.getElementById("num").value);
+        
+        // Calculate the power of 2
+        var result = Math.pow(2, num);
+        
+        // Update the result text
+        document.getElementById("result").innerHTML = result;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Power of 2 Calculator</h1>
+    
+    <form>
+      <label for="num">Enter a number:</label>
+      <input type="number" id="num" name="num">
+      <br>
+      <button type="button" onclick="powerOfTwo()">Calculate</button>
+    </form>
+    
+    <p>The power of 2 is: <span id="result"></span></p>
+  </body>
+</html>

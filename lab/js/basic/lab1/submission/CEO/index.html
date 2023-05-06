@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Lab 1: Compute the exponent of a number
+    Group:
+    1. Name: ISMAIL BIN AMAN, Matrix No: SX211939ECJHF04, Github ID: oldpistol
+    2. Name: SEPRIYANDI BIN AGUSR, Matrix No: SX211697ECRHF04, Github ID: sepz36
+    3. Name: MUHAMMAD AZAM BIN AZMAN, Matrix No: SX211707ECRHF04, Github ID: Azamazman96
+    4. Name: MUHAMMAD BADRUL AMIN BIN MASROL, Matrix No: SX220346ECJHS04, Github ID: badz20  
+    -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+</head>
+
+<body>
+
+    <label for="base-input">Enter the base number:</label>
+    <input type="number" id="base-input" />
+
+    <label for="exponent-input">Enter the exponent number:</label>
+    <input type="number" id="exponent-input" />
+
+    <button id="calculate-btn">Calculate Exponent</button>
+
+    <p id="result"></p>
+
+    <script>
+        const baseInput = document.getElementById('base-input');
+        const exponentInput = document.getElementById('exponent-input');
+        const calculateBtn = document.getElementById('calculate-btn');
+        const resultOutput = document.getElementById('result');
+
+        function calculateExponent(base, exponent) {
+            let result = 1;
+
+            for (let i = 0; i < exponent; i++) {
+                result *= base;
+            }
+
+            return result;
+        }
+
+        calculateBtn.addEventListener('click', () => {
+            const base = Number(baseInput.value);
+            const exponent = Number(exponentInput.value);
+            const result = calculateExponent(base, exponent);
+
+            resultOutput.textContent = `${base}^${exponent} = ${result}`;
+        });
+    </script>
+
+</body>
+
+</html>
