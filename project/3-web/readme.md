@@ -64,7 +64,7 @@ Project 3: Web Responsive using Bootstrap
 2. You must place your file in the submission folder. Within the [`submission`](./submission) folder, create a folder called your `github_id`. Name the default file as `index.html`. Suggested folder structure for this project:
 
 ```html
-github_id/
+group/
 ├── index.html
 ├── css/
 │   ├── bootstrap.min.css
