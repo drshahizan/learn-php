@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Example</title>
+</head>
+<body>
+  <button id="myButton">Click me!</button>
+  <p id="myParagraph"></p>
+
+  <script>
+    // Add an event listener for the click event on the button
+    document.getElementById("myButton").addEventListener("click", function() {
+      // Update the text of the paragraph when the button is clicked
+      document.getElementById("myParagraph").textContent = "Button clicked!";
+    });
+  </script>
+</body>
+</html>
