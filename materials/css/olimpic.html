@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paralympic Medal Table</title>
+	<style>
+		table {
+			border: 2px solid red;
+			border-radius: 10px;
+			border-collapse: collapse;
+			margin: auto;
+			text-align: center;
+			width: 80%;
+		}
+
+		th, td {
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			padding: 3px;
+		}
+
+		th {
+			background-color: black;
+			color: white;
+			font-weight: bold;
+		}
+
+		td:nth-child(2) {
+			background-color: white;
+			color: black;
+			text-align: left;
+			vertical-align: middle;
+			padding-left: 10px;
+		}
+
+		td:nth-child(3) {
+			background-color: gold;
+		}
+
+		td:nth-child(4) {
+			background-color: silver;
+		}
+
+		td:nth-child(5) {
+			background-color: #cd7f32;
+		}
+
+		td:nth-child(6) {
+			background-color: green;
+			color: black;
+		}
+
+		tr:hover td {
+			background-color: lightgrey;
+		}
+
+		td:hover {
+			border-top-width: 3px;
+			border-bottom-width: 3px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Paralympic Medal Table</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Rank</th>
+				<th>Country</th>
+				<th>Gold</th>
+				<th>Silver</th>
+				<th>Bronze</th>
+				<th>Total</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>🇨🇳 China</td>
+				<td>96</td>
+				<td>60</td>
+				<td>51</td>
+				<td>207</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>🇺🇸 United States</td>
+				<td>74</td>
+				<td>60</td>
+				<td>64</td>
+				<td>198</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>🇬🇧 Great Britain</td>
+				<td>41</td>
+				<td>38</td>
+				<td>45</td>
+				<td>124</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>🇺🇦 Ukraine</td>
+				<td>36</td>
+				<td>28</td>
+				<td>32</td>
+				<td>96</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>🇦🇺 Australia</td>
+				<td>32</td>
+				<td>23</td>
+				<td>30</td>
+				<td>85</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

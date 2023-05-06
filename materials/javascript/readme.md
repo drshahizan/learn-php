@@ -6,7 +6,28 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
 
 Don't forget to hit the :star: if you like this repo.
+
 # JavaScript
+JavaScript is a popular programming language that is used to create dynamic and interactive web pages. It was first introduced in 1995 by Brendan Eich, and has since become one of the most widely used programming languages for web development.
+
+JavaScript is a client-side scripting language, which means that it runs on the client's computer (in their web browser) rather than on the web server. This allows it to provide a more dynamic and interactive user experience, as it can modify the content of a web page on the fly in response to user actions.
+
+Some common uses for JavaScript include form validation, creating animations and effects, and fetching and displaying data from APIs. It is also commonly used in conjunction with other web technologies such as HTML and CSS.
+
+JavaScript has evolved over the years to become a highly versatile and powerful language, and it continues to be a key tool in the web development world. With frameworks such as React and Node.js, JavaScript is even being used to build full-scale web applications and backend services.
+
+| Step | Topic | Description |
+| :---: | --- | --- |
+| 1 | [Variables and Data Types](mod01/01-variable.md) | Learn about the different types of data that can be used in JavaScript, and how to store and manipulate them using variables. |
+| 2 | [Operators and Expressions](mod01/02-operator.md)  | Explore the various operators that can be used to perform operations on variables and values, as well as how to write expressions that combine these operators. |
+| 3 | [Control Structures](mod01/03-control.md)  | Learn about control structures such as if/else statements and loops, which allow you to control the flow of your code based on conditions and iterations. |
+| 4 | [Functions](mod01/04-function.md)  | Discover how to write and call functions, which allow you to group blocks of code together and reuse them throughout your program. |
+| 5 | [Arrays](mod01/05-array.md)  | Learn about arrays, which allow you to store and manipulate lists of values, and how to use them in combination with loops and other control structures. |
+| 6 | [Objects](mod01/06-object.md)  | Explore objects, which allow you to group related variables and functions together into a single entity, and how to create and manipulate them in JavaScript. |
+| 7 | [DOM Manipulation](mod01/07-dom.md)  | Learn about the Document Object Model (DOM), which represents the structure and content of a web page in JavaScript, and how to use JavaScript to manipulate and interact with it. |
+| 8 | [Events](mod01/08-events.md)  | Discover how to handle events in JavaScript, which allow you to respond to user actions such as clicks and key presses. |
+| 9 | [AJAX and APIs](mod01/09-ajax.md)  | Learn about Asynchronous JavaScript and XML (AJAX) and how to use it to fetch data from remote servers and APIs, as well as how to work with JSON data. |
+| 10 | [Libraries and Frameworks](mod01/10-library.md)  | Explore popular JavaScript libraries and frameworks such as jQuery, React, and Angular, which can help you build more complex and powerful web applications with less code. |
 
 ### Useful Links
 - [Javascript.com](https://www.javascript.com/)
