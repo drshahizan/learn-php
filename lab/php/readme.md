@@ -15,13 +15,13 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | Lab | Title | Files |
 | :-----: | ----- | :------: | 
 | 01 | How to Install XAMPP Server on Windows 11 |<a href="lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02 | PHP Intelephense and PHP Server |<a href="../../lab/php/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
-| 03 | How to run PHP on Visual Studio Code |<a href="../../lab/php/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | PHP & MySQL source code |<a href="../../lab/php/lab4/phpweb.zip" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | MySQL & image |<a href="../../lab/php/lab5/crudimage.zip" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | Tourism Management System |<a href="../../lab/php/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | Hospital Management System |<a href="../../lab/php/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | COVID19 Testing Management System |<a href="../../lab/php/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 02 | PHP Intelephense and PHP Server |<a href="lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
+| 03 | How to run PHP on Visual Studio Code |<a href="lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | PHP & MySQL source code |<a href="lab4/phpweb.zip" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | MySQL & image |<a href="lab5/crudimage.zip" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | Tourism Management System |<a href="lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07 | Hospital Management System |<a href="lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 08 | COVID19 Testing Management System |<a href="lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
