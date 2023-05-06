@@ -10,11 +10,22 @@ Ans1:
 Q2: State the javascript technology you have learned.
 Ans2:
 
+1. Array
+2. EventListeners
+3. localStorage
+
 Q3: Give a brief description of each function that was used.
 Ans3:
 
+
+
 Q4: Where is the data kept? How is it kept?
 Ans4:
+
+- The data is kept in the browser as the localStorage object allows saving key/value pairs.
+- The localStorage object stores data with no expiration date.
+- The data is not deleted when the browser is closed, and are available for future sessions.
+- localStorage.clear() function has to be called to clear all data in the browser.
 
 
 
