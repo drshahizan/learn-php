@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Data Types in JavaScript</title>
+        <script>
+          // Declare and initialize variables of different data types
+          let message = "Hello, world!";
+          let count = 42;
+          let pi = 3.14159; //declaration
+          let isActive = true;
+          let myValue = null;
+          let myVar;
+
+          // Output the data types of the variables
+          console.log(typeof message); // Output: "string"
+          console.log(typeof count); // Output: "number"
+          console.log(typeof pi); // Output: "number"
+          console.log(typeof isActive); // Output: "boolean"                    //output
+          console.log(typeof myValue); // Output: "object"
+          console.log(typeof myVar); // Output: "undefined"
+
+          // Use variables with different data types
+          let firstName = "Dr";
+          let lastName = "MSO";
+          let fullName = firstName + " " + lastName; //gabung string
+          let num1 = 10;
+          let num2 = "5";
+          let sum = num1 + Number(num2);
+
+          // Output the values of the variables to the HTML page
+          document.write("<p>" + fullName + "</p>"); //paparan utk web
+          document.write("<p>" + sum + "</p>");
+        </script>
+      </head>
+      <body>
+        <h1>Data Types in JavaScript</h1>
+        <p>Open the console to view the output.</p>
+      </body>
+    </html>
+  </body>
+</html>
