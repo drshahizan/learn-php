@@ -8,11 +8,14 @@ Ans1:
 Q2: State the javascript technology you have learned.
 Ans2:
 
-Give a brief description of each function that was used.
+Q3: Give a brief description of each function that was used.
 Ans3:
 
-Where is the data kept? How is it kept?
+Q4: Where is the data kept? How is it kept?
 Ans4:
 
+
+
 Team Name:
+
 Team Members:
