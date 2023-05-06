@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sort Numbers</title>
+</head>
+
+<body>
+    <h1>Sort Numbers</h1>
+    <p>Input: 56, 32, 53, 25, 19, 48</p>
+    <p id="output"></p>
+    <script>
+        // Input numbers
+        let numbers = [56, 32, 53, 25, 19, 48];
+
+        // Sort the numbers in descending order
+        numbers.sort(function (a, b) {
+            return b - a;
+        });
+
+        // Output the sorted numbers
+        let output = document.getElementById("output");
+        output.innerHTML = "Output: " + numbers.join(", ");
+    </script>
+</body>
+
+</html>
