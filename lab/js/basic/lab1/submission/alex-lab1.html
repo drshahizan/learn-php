@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 1 - Basic</title>
+    <script>
+      function calculate() {
+        let base = document.getElementById("base").value;
+        let exponent = document.getElementById("exponent").value;
+
+        if (exponent == 0) {
+          output = 1;
+
+        } 
+        else {
+          document.write("Result: " + base * exponent + "</p>");
+          
+        }
+        document.getElementById("result").innerHTML = output;
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Result of the Exponent of a Number</h2>
+
+    <p>Let's compute a number with the exponent:</p>
+    <label for="base">Base:</label>
+    <input id="base" type="number" />
+    <p></p>
+    <label for="exponent">Exponent:</label>
+    <input id="exponent" type="number" />
+    <p></p>
+    <button onclick="calculate()">Calculate Now</button>
+    <br />
+    <p id="result"></p>
+  </body>
+</html>
