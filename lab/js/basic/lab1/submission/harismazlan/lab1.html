@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Compute Exponent</title>
+  </head>
+  <body>
+    <label for="base-input">Base:</label>
+    <input type="number" id="base-input">
+    <br>
+    <label for="exponent-input">Exponent:</label>
+    <input type="number" id="exponent-input">
+    <br>
+    <button onclick="computeExponent()">Compute</button>
+    <br>
+    <p id="result"></p>
+    <script>
+      function computeExponent() {
+        const base = Number(document.getElementById("base-input").value);
+        const exponent = Number(document.getElementById("exponent-input").value);
+        const result = document.getElementById("result");
+
+        if (exponent === 0) {
+          result.textContent = "Result: 1";
+        } else if (exponent === 1) {
+          result.textContent = `Result: ${base}`;
+        } else {
+          let answer = 1;
+          for (let i = 0; i < exponent; i++) {
+            answer *= base;
+          }
+          result.textContent = `Result: ${answer}`;
+        }
+      }
+    </script>
+  </body>
+</html>
