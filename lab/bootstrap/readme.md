@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Bootstrap: Exercise
-The Bootstrap lab is a series of exercises that teaches web development students how to use Bootstrap, a popular CSS framework, to create responsive and visually appealing web pages. The lab consists of four exercises, including Fluid Grid, Hero Homepage, Contact Form, and Gallery Page. By completing these exercises, students gain a solid understanding of how to use Bootstrap to build modern, responsive web pages.
+The Bootstrap lab is a series of exercises that teaches web development students how to use Bootstrap, a popular CSS framework, to create responsive and visually appealing web pages. The lab consists of five exercises, including Fluid Grid, Hero Homepage, Contact Form, Gallery Page and Cookie store web page. By completing these exercises, students gain a solid understanding of how to use Bootstrap to build modern, responsive web pages.
 
 ## Lab
 
@@ -18,7 +18,8 @@ The Bootstrap lab is a series of exercises that teaches web development students
 | 02 | Hero Homepage |<a href="lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
 | 03 | Contact Form |<a href="lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | Gallery Page |<a href="lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-
+| 05 | Cookie store web page |<a href="lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+cookie store web page
 
 ### Lab Bootstrap: Instruction
 
