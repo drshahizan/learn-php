@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Course Registration System</title>
+</head>
+<body>
+  <h1>Course Registration System</h1>
+  
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+    
+    <label for="id">Student ID:</label>
+    <input type="text" id="id"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email"><br><br>
+    
+    <label for="course">Select a course:</label>
+    <select id="course">
+      <option value="CS101">Introduction to Computer Science</option>
+      <option value="ENG101">English Composition I</option>
+      <option value="HIS101">World History I</option>
+    </select><br><br>
+    
+    <input type="button" value="Register" onclick="register()">
+  </form>
+  
+  <script>
+    // Define the Student object
+    function Student(name, id, email) {
+      this.name = name;
+      this.id = id;
+      this.email = email;
+      this.courses = [];
+    }
+    
+    // Define the Course object
+    function Course(code, name, instructor) {
+      this.code = code;
+      this.name = name;
+      this.instructor = instructor;
+      this.students = [];
+    }
+    
+    // Create some sample students and courses
+    const student1 = new Student("John Smith", "12345", "jsmith@example.com");
+    const student2 = new Student("Jane Doe", "67890", "jdoe@example.com");
+    
+    const course1 = new Course("CS101", "Introduction to Computer Science", "Dr. Smith");
+    const course2 = new Course("ENG101", "English Composition I", "Dr. Johnson");
+    const course3 = new Course("HIS101", "World History I", "Dr. Williams");
+    
+    // Add the sample students to the courses
+    course1.students.push(student1);
+    course2.students.push(student2);
+    course3.students.push(student1, student2);
+    
+    // Register the student for the selected course
+    function register() {
+      const name = document.getElementById("name").value;
+      const id = document.getElementById("id").value;
+      const email = document.getElementById("email").value;
+      const courseCode = document.getElementById("course").value;
+      
+      const student = new Student(name, id, email);
+      let course;
+      
+      if (courseCode === "CS101") {
+        course = course1;
+      } else if (courseCode === "ENG101") {
+        course = course2;
+      } else if (courseCode === "HIS101") {
+        course = course3;
+      }
+      
+      course.students.push(student);
+      
+      alert("Registration successful!");
+    }
+  </script>
+</body>
+</html>
