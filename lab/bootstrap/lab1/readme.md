@@ -38,7 +38,7 @@ Group:
 -->
 ```
 
-3. You must place your file in the [*submission*](submission) folder. Within the submission folder, create a folder named after your group.
+3. You must place your file in the [**submission**](submission) folder. Within the submission folder, create a folder named after your group.
 
 > Example: /submission/[group-name]/[your-file]
 >
