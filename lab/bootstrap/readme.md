@@ -19,7 +19,6 @@ The Bootstrap lab is a series of exercises that teaches web development students
 | 03 | Contact Form |<a href="lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | Gallery Page |<a href="lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 05 | Cookie store web page |<a href="lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-cookie store web page
 
 ### Lab Bootstrap: Instruction
 
