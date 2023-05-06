@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+</head>
+
+<body>
+
+    <label for="base-input">Enter the base number:</label>
+    <input type="number" id="base-input" />
+
+    <label for="exponent-input">Enter the exponent number:</label>
+    <input type="number" id="exponent-input" />
+
+    <button id="calculate-btn">Calculate Exponent</button>
+
+    <p id="result"></p>
+
+    <script>
+        const baseInput = document.getElementById('base-input');
+        const exponentInput = document.getElementById('exponent-input');
+        const calculateBtn = document.getElementById('calculate-btn');
+        const resultOutput = document.getElementById('result');
+
+        function calculateExponent(base, exponent) {
+            let result = 1;
+
+            for (let i = 0; i < exponent; i++) {
+                result *= base;
+            }
+
+            return result;
+        }
+
+        calculateBtn.addEventListener('click', () => {
+            const base = Number(baseInput.value);
+            const exponent = Number(exponentInput.value);
+            const result = calculateExponent(base, exponent);
+
+            resultOutput.textContent = `${base}^${exponent} = ${result}`;
+        });
+    </script>
+
+</body>
+
+</html>
