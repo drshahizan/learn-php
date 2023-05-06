@@ -7,36 +7,15 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 6: Tourism Management System in PHP
+# Lab 8: COVID19 Testing Management System
 
-The modules of a Tourism Management System in PHP typically consist of three main categories: Admin, Users, and Guest Users. Each of these categories has its own set of features and functionalities. Here is a brief description of the modules of a typical Tourism Management System:
+The COVID19 Testing Management System is a web-based application that is built using PHP and MySQL database. It aims to provide an efficient and effective solution to manage the testing process of COVID-19. This system has two modules, the Admin module, and the User (Patient) module.
 
-## 1. Admin Module:
-This module provides the Admin access to manage the entire system. Admin can create and manage packages, users, bookings, inquiries, issues, pages, etc. The main features of this module include:
-- Creating packages and managing them (updating, deleting)
-- Managing user accounts (adding, editing, deleting)
-- Managing inquiries and issues
-- Managing bookings
-- Managing pages of the website
-- Changing password
-- Admin Dashboard to view system statistics, bookings, inquiries, etc.
+The Admin module is the superuser of the system who has complete control over the website. The admin can log in through the login page and view the dashboard where he can see all the details in brief, such as the total assigned and completed tests. In the Phlebotomist section, the admin can manage the Phlebotomist by adding, updating, or deleting their profiles. The Testing section allows the admin to manage all the tests by assigning the test to Phlebotomist and updating the history. The Report section enables the admin to generate two types of reports; one is between dates, and the other one is by search. The admin can also search the report by order number, name, and mobile number. Additionally, the Notification section is there to get notified of every new test request.
 
-## 2. User Module:
-This module allows users to register and create their accounts. Once registered, users can log in and book packages, manage their bookings, generate tickets, change their password, and recover their forgotten password. The main features of this module include:
-- User registration
-- User login/logout
-- Forgot password (user can recover own password)
-- Tour booking
-- Manage booking
-- Generate ticket (regarding complaints)
-- Change password
+On the other hand, the User module is designed to cater to the needs of the Patients. Users can visit the application through a URL, and in the Testing section, they can provide their personal and testing information. There are two parts in this section; one is for new users, and another one is for registered users. A registered user only needs to provide test information, and their personal information will be fetched from the database. In the Report section, users can search their test report using order number, name, and registered mobile number. Lastly, the Dashboard section shows the user the number of tests done in the state they live in.
 
-## 3. Guest User Module:
-This module allows guests to visit the website and enquire about the packages and services offered. The main features of this module include:
-- Visit the website
-- Enquiry about the packages and services offered
-
-In summary, the Tourism Management System in PHP has modules for Admin, Users, and Guest Users to manage and utilize the system efficiently.
+To run the Online COVID Testing Management System, one has to download the zip file, extract the file, and copy the covid-tms folder. Paste the folder inside the root directory (for xampp xampp/htdocs) and open PHPMyAdmin (http://localhost/phpmyadmin). Create a database with the name covidtmsdb and import the covidtmsdb.sql file (given inside the zip package in SQL file folder). Lastly, run the script http://localhost/covid-tms and use the admin credential, which is Username: admin and Password: Test@123.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
