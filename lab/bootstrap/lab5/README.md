@@ -1,6 +1,13 @@
-# Bootstrap 5.2 Lab
+<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
 
-## Build a responsive cookie store web page
+Don't forget to hit the :star: if you like this repo.
+
+# Lab 5: Build a responsive cookie store web page
 
 In this lab, you are given an [index.html](index.html) file that contains our web page's content, and we will be using Bootstrap to build a responsive layout and style the page.
 
@@ -76,6 +83,14 @@ In this lab, you are given an [index.html](index.html) file that contains our we
 
 ## Credits
 
-- Coffee mug and biscuit photo by <a href="https://unsplash.com/es/@epicantus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daria Nepriakhina 🇺🇦</a> on <a href="https://unsplash.com/s/photos/coffee-and-cookies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Coffee mug and biscuit photo by <a href="https://unsplash.com/es/@epicantus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daria Nepriakhina</a> on <a href="https://unsplash.com/s/photos/coffee-and-cookies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Bakers illustration from https://undraw.co/illustrations
 - Cookie images from https://www.girlscouts.org/
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+
