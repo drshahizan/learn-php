@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Course Registration System</title>
+</head>
+
+<body>
+    <h1>Course Registration System</h1>
+    <p>Select your courses from the list below:</p>
+    <form>
+        <select id="courseList">
+            <option value="">--Select a Course--</option>
+            <option value="CSC101">Introduction to Computer Science</option>
+            <option value="MAT201">Linear Algebra</option>
+            <option value="ENG101">English Composition</option>
+            <option value="PSY101">Introduction to Psychology</option>
+        </select>
+        <button type="button" onclick="addCourse()">Add Course</button>
+        <button type="button" onclick="removeCourse()">Remove Course</button>
+    </form>
+    <h2>Selected Courses:</h2>
+    <ul id="selectedCourses"></ul>
+    <script>
+        // Define an array to store the selected courses
+        const selectedCourses = [];
+
+        // Function to add a course to the array
+        function addCourse() {
+            const courseList = document.getElementById("courseList");
+            const selectedCourse = courseList.value;
+            if (selectedCourse) {
+                selectedCourses.push(selectedCourse);
+                showSelectedCourses();
+            }
+        }
+
+        // Function to remove a course from the array
+        function removeCourse() {
+            const selectedCoursesList = document.getElementById("selectedCourses");
+            const lastCourse = selectedCourses.pop();
+            if (lastCourse) {
+                const courseItem = document.getElementById(lastCourse);
+                selectedCoursesList.removeChild(courseItem);
+            }
+        }
+
+        // Function to display the selected courses
+        function showSelectedCourses() {
+            const selectedCoursesList = document.getElementById("selectedCourses");
+            selectedCoursesList.innerHTML = "";
+            selectedCourses.forEach(function (course) {
+                const li = document.createElement("li");
+                li.textContent = course;
+                li.id = course;
+                selectedCoursesList.appendChild(li);
+            });
+        }
+    </script>
+</body>
+
+</html>
