@@ -4,6 +4,7 @@ Activity 🏆 :
 
 Q1: For this application, you must create a flowchart.
 Ans1:
+![flowchart-todo-app](https://user-images.githubusercontent.com/38247575/236631962-7ce6632a-d380-4083-ab70-f0c954cb5f70.png)
 
 Q2: State the javascript technology you have learned.
 Ans2:
