@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Largest of Five Numbers</title>
+    <script>
+      function findLargest() {
+        // Get the input values from the form
+        var num1 = parseInt(document.getElementById("num1").value);
+        var num2 = parseInt(document.getElementById("num2").value);
+        var num3 = parseInt(document.getElementById("num3").value);
+        var num4 = parseInt(document.getElementById("num4").value);
+        var num5 = parseInt(document.getElementById("num5").value);
+        
+        // Find the largest number
+        var largest = num1;
+        if (num2 > largest) {
+          largest = num2;
+        }
+        if (num3 > largest) {
+          largest = num3;
+        }
+        if (num4 > largest) {
+          largest = num4;
+        }
+        if (num5 > largest) {
+          largest = num5;
+        }
+        
+        // Display the result in an alert box
+        alert("The largest number is: " + largest);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Largest of Five Numbers</h1>
+    
+    <form>
+      <label for="num1">Number 1:</label>
+      <input type="number" id="num1" name="num1">
+      <br>
+      <label for="num2">Number 2:</label>
+      <input type="number" id="num2" name="num2">
+      <br>
+      <label for="num3">Number 3:</label>
+      <input type="number" id="num3" name="num3">
+      <br>
+      <label for="num4">Number 4:</label>
+      <input type="number" id="num4" name="num4">
+      <br>
+      <label for="num5">Number 5:</label>
+      <input type="number" id="num5" name="num5">
+      <br>
+      <button type="button" onclick="findLargest()">Find Largest</button>
+    </form>
+  </body>
+</html>
