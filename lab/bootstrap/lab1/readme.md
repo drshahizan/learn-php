@@ -23,6 +23,28 @@ Play around with changing the styling (fonts, colors) by editing grid.css.
 
 Or play around with adding more components!
 
+### Submission
+
+1. This task must be done in groups (4 people per group). 
+2. Please provide your contact information in the HTML `<head>`.
+```html
+<!--
+Lab XX: XXX
+Group:
+1. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+2. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+3. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+4. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+-->
+```
+
+3. You must place your file in the [*submission*](submission) folder. Within the submission folder, create a folder named after your group.
+
+> Example: /submission/[group-name]/[your-file]
+>
+> (Note: please replace [Name], [Matrix Number], [Github ID], [group-name], and [your-file] with the appropriate information)
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
