@@ -14,6 +14,7 @@ The Bootstrap lab is a series of exercises that teaches web development students
 
 | Lab | Title | Files |
 | :-----: | ----- | :------: | 
+| 00 | Exercise |<a href="../../lab/bootstrap/exercise" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 01 | Bootstrap: Fluid Grid |<a href="../../lab/bootstrap/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02 | Hero Homepage |<a href="../../lab/bootstrap/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
 | 03 | Contact Me Page |<a href="../../lab/bootstrap/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
