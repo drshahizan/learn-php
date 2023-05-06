@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# JavaScript: Exercise
+# JavaScript: Lab
 
 JavaScript is a popular programming language that is used to create interactive online applications. It is a scripting language that runs on the web browser's client side, allowing developers to create dynamic and responsive websites. This lab activity is divided into three levels: basic, intermediate, and advanced, with the goal of assisting developers in polishing their JavaScript programming skills. Developers can improve their JavaScript skills and create more robust and sophisticated web applications by routinely practising these activities. Continuous practice with exercises helps developers become more proficient in JavaScript and enables them to build more robust and sophisticated web applications.
 
