@@ -79,7 +79,7 @@ An example of what the codebase structure for a Malaysian culture system could l
 Overall, the codebase for a Malaysian culture system would be organized into different folders based on the type of content or functionality, such as HTML/CSS, JavaScript, PHP, MySQL, and reporting. The file structure would be designed to be easily navigable and intuitive for developers working on the project, with clear naming conventions and comments to explain the purpose of each file. By using this structure, the codebase would be modular, scalable, and maintainable over time, allowing the system to be updated or enhanced as needed to meet the evolving needs of users.
 
 ## Folder Structure
-You must place your file in the submission folder. Within the [`submission`](./submission) folder, create a folder called your `group_id`. Name the default file as `index.html or index.php`. Suggested folder structure for this project:
+You must place your file in the submission folder. Within the [`submission`](./submission) folder, create a folder called your `group_id`. Name the default file as `index.php`. Suggested folder structure for this project:
 
 A folder structure for a Malaysian culture system with CSS, JS, HTML, database, PHP, and reporting:
 
