@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <script>
+        function multiply() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var result = num1 * num2;
+            document.getElementById("result").innerHTML = "Result: " + result;
+        }
+
+        function divide() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var result = num1 / num2;
+            document.getElementById("result").innerHTML = "Result: " + result;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <label for="num1">Number 1:</label>
+    <input type="text" id="num1" name="num1" required><br><br>
+    <label for="num2">Number 2:</label>
+    <input type="text" id="num2" name="num2" required><br><br>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button><br><br>
+    <p id="result"></p>
+</body>
+
+</html>
