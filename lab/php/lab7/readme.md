@@ -7,36 +7,24 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 6: Tourism Management System in PHP
+# Lab 7: Hospital Management System
 
-The modules of a Tourism Management System in PHP typically consist of three main categories: Admin, Users, and Guest Users. Each of these categories has its own set of features and functionalities. Here is a brief description of the modules of a typical Tourism Management System:
+The PHP Hospital Management System is a web-based application that manages patient registration and data storage. The system assigns a unique ID to each patient and stores their personal information. To access the Hospital Management System, a username and password are required. It is only accessible by an administrator who has access to the database. The interface is user-friendly and data processing is fast, while personal data is well-protected.
 
-## 1. Admin Module:
-This module provides the Admin access to manage the entire system. Admin can create and manage packages, users, bookings, inquiries, issues, pages, etc. The main features of this module include:
-- Creating packages and managing them (updating, deleting)
-- Managing user accounts (adding, editing, deleting)
-- Managing inquiries and issues
-- Managing bookings
-- Managing pages of the website
-- Changing password
-- Admin Dashboard to view system statistics, bookings, inquiries, etc.
+The Hospital Management System consists of three modules: Admin, User (patient), and Doctor. The Admin module has a dashboard where the admin can view patient, doctor, appointment, and query details. Admin can add and manage doctors and their specializations, view and delete user details, view patient details, and manage appointment history. Admin can also view contact queries, doctor and user session logs, generate patient reports, search patients by name and mobile number, and change passwords.
 
-## 2. User Module:
-This module allows users to register and create their accounts. Once registered, users can log in and book packages, manage their bookings, generate tickets, change their password, and recover their forgotten password. The main features of this module include:
-- User registration
-- User login/logout
-- Forgot password (user can recover own password)
-- Tour booking
-- Manage booking
-- Generate ticket (regarding complaints)
-- Change password
+The User (patient) module allows patients to view their profile, appointments, and appointment history. Patients can book appointments, view medical history, update their profile, and recover their password.
 
-## 3. Guest User Module:
-This module allows guests to visit the website and enquire about the packages and services offered. The main features of this module include:
-- Visit the website
-- Enquiry about the packages and services offered
+The Doctor module has a dashboard where doctors can view their own profile and online appointments, appointment history, manage patients, and search for patients by name and mobile number. Doctors can also update their profile, change passwords, and recover passwords.
 
-In summary, the Tourism Management System in PHP has modules for Admin, Users, and Guest Users to manage and utilize the system efficiently.
+How to run the Hospital Management System (HMS) Project
+1.  Download the zip file
+2. Extract the file and copy hospital folder
+3. Paste inside root directory(for xampp xampp/htdocs)
+4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+5. Create a database with name hms
+6. Import hms.sql file(given inside the zip package in SQL file folder)
+7. Run the script http://localhost/hms/hospital/index.html (frontend)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
