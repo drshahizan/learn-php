@@ -2,7 +2,7 @@
 
 Activity 🏆 :
 ## Q1: For this application, you must create a flowchart.
-Ans:
+Ans: index.html
 
 ## Q2: State the javascript technology you have learned.
 Ans:
