@@ -28,6 +28,13 @@ CSS exercises can vary in difficulty level, from beginner to advanced, and often
 1. This task must be done in groups (**4** people per group).
 2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
 
+## Additional Notes ❤️
+- [Learning CSS for a beginner](topic-css.md) 
+- [Learn CSS](learn-css.md) 
+- [CSS Text](css-text.md)
+- [Layout Design](layout-design.md) 
+- [Free CSS layouts design](free-layout.md) 
+
 ## Online platforms and resources
 There are various online platforms and resources that offer CSS exercises and challenges:
 
@@ -60,12 +67,6 @@ SoloLearn is a mobile app that offers courses on various programming languages a
 
 10. [**TutsPlus**](https://code.tutsplus.com/articles/30-css-best-practices-for-beginners--net-6741)
 TutsPlus is a website that offers tutorials and articles on various web development skills, including CSS. Their article on CSS best practices for beginners provides tips and exercises on using CSS effectively, from organizing CSS files to using CSS frameworks.
-
-## Additional Notes
-- [Learning CSS for a beginner](topic-css.md) ❤️
-- [Learn CSS](learn-css.md) ❤️
-- [Layout Design](layout-design.md) ❤️
-- [Free CSS layouts design](free-layout.md) ❤️
 
 ## E-book
 - [Essential HTML & CSS books (free e- books)](https://cssauthor.com/free-html-and-css-books/https://freefrontend.com/html-css-books/#css-books)

@@ -138,13 +138,13 @@ Understanding the box model is important for creating layouts on a web page. By 
 
 Layout refers to the way that elements are arranged on a web page. There are several techniques for creating layouts in CSS, including:
 
-1. **Floats**: Floats allow elements to be placed side by side, with text flowing around them. Floats are commonly used for creating multi-column layouts.
+1. **[Floats](float.md)**: Floats allow elements to be placed side by side, with text flowing around them. Floats are commonly used for creating multi-column layouts.
 
-2. **Flexbox**: Flexbox is a layout mode that allows you to align and distribute elements within a container. It's ideal for creating responsive layouts that adapt to different screen sizes.
+2. **[Flexbox](flexbox.md)**: Flexbox is a layout mode that allows you to align and distribute elements within a container. It's ideal for creating responsive layouts that adapt to different screen sizes.
 
-3. **Grid**: CSS grid is a powerful layout system that allows you to create complex, multi-dimensional layouts. It's particularly useful for creating page layouts with multiple columns and rows.
+3. **[Grid](grid.md)**: CSS grid is a powerful layout system that allows you to create complex, multi-dimensional layouts. It's particularly useful for creating page layouts with multiple columns and rows.
 
-4. **Positioning**: Absolute and relative positioning can be used to place elements precisely on a page, regardless of their normal flow.
+4. **[Positioning](positioning.md)**: Absolute and relative positioning can be used to place elements precisely on a page, regardless of their normal flow.
 
 By combining these layout techniques with the CSS box model, you can create sophisticated and responsive layouts that work well on all devices.
 
@@ -155,30 +155,30 @@ By combining these layout techniques with the CSS box model, you can create soph
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>CSS Box Model Example</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-	<div class="box">
-		<p class="content">This is the content of the box.</p>
-	</div>
-</body>
+  <head>
+    <title>CSS Box Model Example</title>
+    <link rel="stylesheet" type="text/css" href="style-box.css" />
+  </head>
+  <body>
+    <div class="box">
+      <p class="content">This is the content of the box.</p>
+    </div>
+  </body>
 </html>
 ```
 **style-box.css**:
 
 ```css
 .box {
-	width: 400px;
-	height: 200px;
-	padding: 20px;
-	border: 2px solid black;
-	margin: 50px;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 50px;
 }
 
 .content {
-	font-size: 24px;
+  font-size: 24px;
 }
 ```
 
@@ -248,7 +248,7 @@ By using CSS to style your text, you can create a visually appealing and readabl
   </body>
 </html>
 ```
-**style-test.css**:
+**style-text.css**:
 
 ```css
 h1 {
@@ -458,6 +458,7 @@ This code creates a simple layout with a header, navigation bar, two columns of 
 The `left-column` and `right-column` elements are given a flex value of 1, causing them to share the available space equally. They are also given a margin-right value of 20px to create some space between them.
 
 Overall, this code demonstrates some of the basic techniques used in CSS positioning and layout, including block-level layout, flexbox layout, and margin and padding.
+
 ## 6. Understanding responsive web design with CSS
 Responsive web design (RWD) is an approach to designing websites that aims to provide an optimal viewing and user experience across a wide range of devices, from desktop computers to mobile phones. CSS plays a key role in RWD by providing the ability to adjust the layout and styling of a website based on the screen size of the device being used.
 
@@ -491,6 +492,178 @@ To create a responsive website with CSS, you can use media queries to adjust the
 
 This code adjusts the font size to 14 pixels for screen sizes up to 768 pixels wide, and then adjusts it to 16 pixels for larger screen sizes. By using CSS to design a responsive website, you can create a user-friendly experience for visitors on any device.
 
+### Code:
+
+**responsive.html**:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Web Design Example</title>
+    <link rel="stylesheet" href="css/style-responsive.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Welcome to My Website!</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit
+          amet quam in diam fringilla commodo. Fusce commodo sagittis metus, ut
+          fermentum orci bibendum ac. Nulla facilisi. Sed ullamcorper, quam ut
+          pellentesque aliquam, enim leo pretium nisi, vitae varius nibh dolor
+          et ipsum.
+        </p>
+      </section>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          Nulla a metus sagittis, suscipit lorem in, suscipit augue. Nullam
+          lacinia faucibus turpis non blandit. Morbi congue dapibus tristique.
+          Praesent in diam eu libero accumsan vestibulum sed quis orci. Sed
+          facilisis libero vel risus ullamcorper, eget elementum nisl iaculis.
+          Sed vehicula est quis sapien ullamcorper aliquam.
+        </p>
+      </section>
+      <section>
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br />
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+
+```
+**style-responsive.css**:
+```css
+/* Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Styles */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  width: 100%;
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  nav li {
+    margin: 10px 0;
+  }
+
+  form label {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  input,
+  textarea {
+    max-width: 100%;
+  }
+}
+
+```
+
 ## 7. CSS frameworks like Bootstrap or Foundation
 CSS frameworks like Bootstrap or Foundation are pre-written CSS code libraries that provide a collection of CSS and JavaScript files with pre-defined styles, components, and layouts. These frameworks are designed to simplify the process of building responsive and modern web applications by providing pre-designed templates, reusable UI components, and layout grids.
 
@@ -510,7 +683,7 @@ Bootstrap is one of the most popular CSS frameworks available today. It includes
 
 To use a CSS framework like Bootstrap, you can download the CSS and JavaScript files and link them to your HTML document. Then, you can use the pre-designed styles and components provided by the framework to build your website or web application. For example, you can use the following code to add a Bootstrap navigation menu to your website:
 
-```php
+```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">My Website</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -537,7 +710,7 @@ This code adds a responsive navigation menu to your website that collapses into 
 ## 8. Animations and transitions with CSS
 Animations and transitions with CSS allow developers to add dynamic effects and movement to their web pages. CSS animations involve changing the style of an element over a period of time, while transitions involve smoothly transitioning an element from one state to another.
 
-CSS animations can be created using the @keyframes rule, which defines the animation's sequence of keyframes. Each keyframe specifies the style of the element at a specific point in time during the animation. The animation property is then used to apply the animation to an element, specifying the animation name, duration, timing function, delay, and other options.
+CSS animations can be created using the `@keyframes` rule, which defines the animation's sequence of keyframes. Each keyframe specifies the style of the element at a specific point in time during the animation. The animation property is then used to apply the animation to an element, specifying the animation name, duration, timing function, delay, and other options.
 
 Here is an example of a simple CSS animation that rotates a square element:
 
@@ -564,7 +737,7 @@ Here is an example of a simple CSS animation that rotates a square element:
 
 This code defines an animation called "rotate" that rotates the square element 360 degrees over a period of 2 seconds. The animation-iteration-count property is set to "infinite" to make the animation repeat indefinitely.
 
-CSS transitions, on the other hand, involve smoothly transitioning an element from one state to another. Transitions can be applied to any CSS property, such as color, background-color, opacity, or transform. The transition property is used to apply a transition to an element, specifying the property to transition, duration, timing function, and other options.
+CSS transitions, on the other hand, involve smoothly transitioning an element from one state to another. Transitions can be applied to any CSS property, such as `color`, `background-color`, `opacity`, or `transform`. The transition property is used to apply a transition to an element, specifying the property to transition, duration, timing function, and other options.
 
 Here is an example of a simple CSS transition that changes the background color of a button element when it is hovered over:
 
@@ -580,9 +753,59 @@ button:hover {
 }
 ```
 
-This code applies a transition to the background-color property of the button element, making the color change smoothly over a period of 0.5 seconds when the button is hovered over.
+This code applies a transition to the `background-color` property of the button element, making the color change smoothly over a period of 0.5 seconds when the button is hovered over.
 
 Animations and transitions with CSS can be used to add visual interest and interactivity to web pages, enhancing the user experience and making web content more engaging.
+
+### Code:
+
+**animation.html**:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animations and Transitions with CSS</title>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f2f2f2;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        background-color: #0077b6;
+        border-radius: 5px;
+        animation: box 2s ease-in-out infinite alternate;
+        transition: transform 0.5s ease-out;
+        cursor: pointer;
+      }
+      .box:hover {
+        transform: scale(1.2);
+      }
+      @keyframes box {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(200px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
+```
 
 ## 9. Debugging CSS with browser developer tools
 Debugging CSS with browser developer tools refers to the process of using the built-in developer tools in your web browser to identify and fix issues with your CSS code. Here's how you can use browser developer tools to debug your CSS:
