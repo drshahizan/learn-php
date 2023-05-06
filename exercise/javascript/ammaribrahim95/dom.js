@@ -8,7 +8,7 @@ headingElement.textContent = "Welcome to my website!";
 
 // Change the text content and background color of the paragraph element
 paragraphElement.textContent = "This is a new paragraph.";
-paragraphElement.style.backgroundColor = "yellow";
+paragraphElement.style.backgroundColor = "red";
 
 // Add a click event listener to the button element
 buttonElement.addEventListener("click", function() {
