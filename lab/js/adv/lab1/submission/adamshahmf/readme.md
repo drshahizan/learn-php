@@ -6,7 +6,7 @@ Ans:
 
 ## Q2: State the javascript technology you have learned.
 Ans: 
-# DOM manipulation: 
+### DOM manipulation: 
 The code uses several methods and properties to manipulate the Document Object Model (DOM) elements, such as querySelector(), querySelectorAll(), insertAdjacentHTML(), innerText, value, classList, remove(), addEventListener(), and removeEventListener().
 
 ### localStorage: 
