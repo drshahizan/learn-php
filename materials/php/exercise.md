@@ -7,8 +7,8 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# PHP: Exercise
-The Bootstrap lab is a series of exercises that teaches web development students how to use Bootstrap, a popular CSS framework, to create responsive and visually appealing web pages. The lab consists of four exercises, including Fluid Grid, Hero Homepage, Contact Me Page, and Gallery Page. By completing these exercises, students gain a solid understanding of how to use Bootstrap to build modern, responsive web pages.
+# PHP: Lab
+PHP Lab is a collection of programming projects that provide hands-on experience in developing web applications using PHP and MySQL database. The lab covers a range of projects, from setting up the XAMPP server to developing full-scale applications such as Hospital Management System, Tourism Management System, and COVID19 Testing Management System. The projects also cover important topics such as PHP Intelephense and PHP Server, running PHP on Visual Studio Code, MySQL and image handling, and more. By working through these projects, users can gain valuable experience in PHP development and database management.
 
 ## Lab
 
