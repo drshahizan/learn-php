@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 2</title>
+    <script>
+        function powerOfTwo() {
+          // Get the input value from the form
+          var num = parseInt(document.getElementById("num").value);
+          
+          // Calculate the power of 2
+          var result = num % 2
+
+          if (result == 0)
+            returnVal = 'Even'
+          else
+            returnVal = 'Odd'
+          
+          // Update the result text
+          document.getElementById("result").innerHTML = returnVal;
+        }
+      </script>
+</head>
+<body>
+    <h1>Check if the number is even or odd</h1>
+
+    <form>
+        <label for="num">Enter a number:</label>
+        <input type="number" id="num" name="num">
+        <br>
+        <button type="button" onclick="powerOfTwo()">Calculate</button>
+    </form>
+
+    <p>The number is: <span id="result"></span></p>
+</body>
+</html>
