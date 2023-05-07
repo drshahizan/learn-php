@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Grades</title>
+	<script>
+		function computeGrades() {
+			// Get student data and grades
+			var students = document.getElementById("students").value.split(",");
+			var grades = document.getElementById("grades").value.split(",").map(Number);
+			
+			// Compute average grade
+			var sum = 0;
+			for (var i = 0; i < grades.length; i++) {
+				sum += grades[i];
+			}
+			var avg = sum / grades.length;
+			
+			// Determine grade based on average
+			var grade = "";
+			if (avg >= 90) {
+				grade = "A";
+			} else if (avg >= 80) {
+				grade = "B";
+			} else if (avg >= 70) {
+				grade = "C";
+			} else if (avg >= 60) {
+				grade = "D";
+			} else {
+				grade = "F";
+			}
+			
+			// Display results
+			var results = document.getElementById("results");
+			results.innerHTML = "Average Grade: " + avg.toFixed(2) + "<br>";
+			results.innerHTML += "Final Grade: " + grade;
+		}
+	</script>
+</head>
+<body>
+	<h1>Student Grades</h1>
+	<p>Enter student data and grades separated by commas:</p>
+	<p>
+		<label for="students">Students:</label>
+		<input type="text" id="students">
+	</p>
+	<p>
+		<label for="grades">Grades:</label>
+		<input type="text" id="grades">
+	</p>
+	<button onclick="computeGrades()">Compute Grades</button>
+	<div id="results"></div>
+</body>
+</html>
