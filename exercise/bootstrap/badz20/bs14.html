@@ -9,6 +9,23 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .dropdown-submenu {
+        position: relative;
+      }
+
+      .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -1px;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -45,16 +62,20 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Computer Science</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Computer Science</a>
+                <a class="dropdown-item" href="#">Mathematics</a>
+                <a class="dropdown-item" href="#">Biology</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">All Courses</a>
+              </div>
               <a class="dropdown-item" href="#">Mathematics</a>
               <a class="dropdown-item" href="#">Biology</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">All Courses</a>
             </div>
-             
           </li>
-
-          </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -63,20 +84,53 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
+              class="nav-link"
+              href="#"
+              >Registration</a
             >
-              Registration
-            </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Students</a>
-              <a class="dropdown-item" href="#">Lecture</a>
-              <a class="dropdown-item" href="#">Guest</a>
+              <a class="dropdown-item" href="#">Computer Science</a>
+              <a class="dropdown-item" href="#">Mathematics</a>
+              <a class="dropdown-item" href="#">Biology</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">All Courses</a>
             </div>
-             
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Login</a>
           </li>
         </ul>
+        <div class="dropdown">
+          <button
+            class="btn btn-default dropdown-toggle"
+            type="button"
+            data-toggle="dropdown"
+          >
+            Tutorials <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="#">HTML</a></li>
+            <li><a tabindex="-1" href="#">CSS</a></li>
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#"
+                >New dropdown <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#"
+                    >Another dropdown <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -96,5 +150,14 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(document).ready(function () {
+        $(".dropdown-submenu a.test").on("click", function (e) {
+          $(this).next("ul").toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+    </script>
   </body>
 </html>
