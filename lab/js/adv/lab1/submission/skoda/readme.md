@@ -7,16 +7,22 @@ Ans:
 
 ## Q2: State the javascript technology you have learned.
 Ans:
+1. array
+2. function
 
 ## Q3: Give a brief description of each function that was used.
 Ans:
+Arrays are commonly used to represent lists, tables, or matrices of values. They can be initialized with a fixed number of elements or dynamically resized during program execution. 
+
+Functions can be declared and defined in various ways depending on the programming language being used.
+
 
 ## Q4: Where is the data kept? How is it kept?
 Ans:
-
+"localStorage" has a storage limit of 5-10MB, depending on the browser. Also, the data stored in localStorage can be accessed and modified by any script from the same origin.
 
 ### Team Abc:
-1.
-2.
+1.Mohd Noor Hafiz
+2.Ikhmal Syazreel
 3.
 4.
