@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nested for loop pattern</title>
+</head>
+
+<body>
+    <h1>Nested for loop pattern</h1>
+    <script>
+        // Define the number of rows
+        var rows = 5;
+
+        // Loop through each row
+        for (var i = 1; i <= rows; i++) {
+
+            // Create a string to hold the stars for this row
+            var stars = '';
+
+            // Loop through each column in this row
+            for (var j = 1; j <= i; j++) {
+                // Add a star to the string for each column
+                stars += '*';
+            }
+
+            // Output the row with its stars
+            document.write(stars + '<br>');
+        }
+    </script>
+</body>
+
+</html>
