@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conditional Statement and Loops Example</title>
+	<script>
+		function displayNumbers() {
+			let num = document.getElementById("number").value;
+			let output = "";
+			if (num > 0) {
+				for (let i = 1; i <= num; i++) {
+					output += i + " ";
+				}
+			} else {
+				output = "Please enter a positive number.";
+			}
+			document.getElementById("result").innerHTML = output;
+		}
+	</script>
+</head>
+<body>
+	<h1>Enter a positive number to display all numbers from 1 to that number:</h1>
+	<input type="number" id="number">
+	<button onclick="displayNumbers()">Display</button>
+	<p id="result"></p>
+</body>
+</html>
