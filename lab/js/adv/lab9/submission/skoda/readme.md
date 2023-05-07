@@ -1,20 +1,20 @@
-# Lab 2: A Notes App
+# Lab 9: currency
 
 Activity 🏆 :
-## Q1: For this application, you must create a flowchart.
-Ans:
-![flowchart-todo-app](http://www.plantuml.com/plantuml/png/TSzDJkmm40JWlKzHcbLoXPV56mHhDi01J5mPB1ptoDr1pEs97NuoGgpzTLNvgEQBBNDo5YqHDo7WqPyK9hWNetCDk7zFoW9bucWAZop6QlpgRVM3YnEwUl696Fxti1TcT1Tgxu0jOannV5L8nk6hwu3dnKpoKD5Tr7Fob_thBC6duJk1sLYqjIBcsW7Zks6AJA6nsv-E1__6VNvTMLEtbDyZr-jQtC9DsZVhsMwOBkD8LSnKzQVsogH4bwM_bYn5ofNB8Kvkh_-ocrIJipioXsLE7m00)
-## Q2: How are the three default tags displayed?
+## Q1: Convert RM100 to EUR.
 Ans:
 
-## Q3: Explain the purpose of each function used.
+## Q2: Please identify the French currency.
 Ans:
 
-## Q4: How do I remove all tags?
+## Q3: You've been asked to change the default setting from US to UK.
+Ans:
+
+## Q4: What is the name of the currency exchange API?
 Ans:
 
 
-### Team Abc:
+### Team Skoda:
 1.Mohd Noor Hafiz
 2.Ikhmal Syazreel
 3.

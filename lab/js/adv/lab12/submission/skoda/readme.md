@@ -1,20 +1,23 @@
-# Lab 2: A Notes App
+# Lab 12: Sidebar
 
 Activity 🏆 :
-## Q1: For this application, you must create a flowchart.
-Ans:
-![flowchart-todo-app](http://www.plantuml.com/plantuml/png/TSzDJkmm40JWlKzHcbLoXPV56mHhDi01J5mPB1ptoDr1pEs97NuoGgpzTLNvgEQBBNDo5YqHDo7WqPyK9hWNetCDk7zFoW9bucWAZop6QlpgRVM3YnEwUl696Fxti1TcT1Tgxu0jOannV5L8nk6hwu3dnKpoKD5Tr7Fob_thBC6duJk1sLYqjIBcsW7Zks6AJA6nsv-E1__6VNvTMLEtbDyZr-jQtC9DsZVhsMwOBkD8LSnKzQVsogH4bwM_bYn5ofNB8Kvkh_-ocrIJipioXsLE7m00)
-## Q2: How are the three default tags displayed?
+## Q1: What is a sidebar menu template, and how is it used in web design?
 Ans:
 
-## Q3: Explain the purpose of each function used.
+## Q2: What are the key features of a responsive sidebar menu template, and how do they work?
 Ans:
 
-## Q4: How do I remove all tags?
+## Q3: How can you customize a sidebar menu template to match the design of your website?
+Ans:
+
+## Q4: What are some popular CSS frameworks and libraries that offer pre-built sidebar menu templates, and how do they work?
+Ans:
+
+## Q5: What are some best practices for designing and implementing a sidebar menu template, and how can you ensure it is user-friendly and accessible?
 Ans:
 
 
-### Team Abc:
+### Team Skoda:
 1.Mohd Noor Hafiz
 2.Ikhmal Syazreel
 3.

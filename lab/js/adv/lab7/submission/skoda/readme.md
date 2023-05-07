@@ -1,20 +1,18 @@
-# Lab 2: A Notes App
+# Lab 7: quote
 
 Activity 🏆 :
-## Q1: For this application, you must create a flowchart.
-Ans:
-![flowchart-todo-app](http://www.plantuml.com/plantuml/png/TSzDJkmm40JWlKzHcbLoXPV56mHhDi01J5mPB1ptoDr1pEs97NuoGgpzTLNvgEQBBNDo5YqHDo7WqPyK9hWNetCDk7zFoW9bucWAZop6QlpgRVM3YnEwUl696Fxti1TcT1Tgxu0jOannV5L8nk6hwu3dnKpoKD5Tr7Fob_thBC6duJk1sLYqjIBcsW7Zks6AJA6nsv-E1__6VNvTMLEtbDyZr-jQtC9DsZVhsMwOBkD8LSnKzQVsogH4bwM_bYn5ofNB8Kvkh_-ocrIJipioXsLE7m00)
-## Q2: How are the three default tags displayed?
+## Q1: Describe how this JavaScript works.
 Ans:
 
-## Q3: Explain the purpose of each function used.
+## Q2: In this exercise, what API was used? how it functions
 Ans:
 
-## Q4: How do I remove all tags?
+## Q3: Please use the Twitter icon to post a quote. Explain what happened and how it happened?
 Ans:
 
 
-### Team Abc:
+
+### Team Skoda:
 1.Mohd Noor Hafiz
 2.Ikhmal Syazreel
 3.

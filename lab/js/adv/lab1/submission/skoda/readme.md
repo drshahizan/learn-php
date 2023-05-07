@@ -21,7 +21,7 @@ Functions can be declared and defined in various ways depending on the programmi
 Ans:
 "localStorage" has a storage limit of 5-10MB, depending on the browser. Also, the data stored in localStorage can be accessed and modified by any script from the same origin.
 
-### Team Abc:
+### Team Skoda:
 1.Mohd Noor Hafiz
 2.Ikhmal Syazreel
 3.
