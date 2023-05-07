@@ -3,7 +3,7 @@
 Activity 🏆 :
 ## Q1: For this application, you must create a flowchart.
 Ans:
-![flowchart-todo-app]http://www.plantuml.com/plantuml/png/hP513e8m44NtFSKiuGgm40DktN22XdwaIMqDCsgylNLYH1CMB5nrfl_bvoNJiDXPhkTWT31LFwKx7PE0Q-D7AlREwRehIIP4AXxWqX1LxGmhqApE-uljxGshSCPpji0832fYUcUTvy7ERecZysD-VsJqKvKEpikwKu-0GJuzbPB_D6md6q_W3P8T0WJRDB_OUhsH9LrCa-TygIS0
+![flowchart-todo-app](http://www.plantuml.com/plantuml/png/hP513e8m44NtFSKiuGgm40DktN22XdwaIMqDCsgylNLYH1CMB5nrfl_bvoNJiDXPhkTWT31LFwKx7PE0Q-D7AlREwRehIIP4AXxWqX1LxGmhqApE-uljxGshSCPpji0832fYUcUTvy7ERecZysD-VsJqKvKEpikwKu-0GJuzbPB_D6md6q_W3P8T0WJRDB_OUhsH9LrCa-TygIS0)
 
 ## Q2: State the javascript technology you have learned.
 Ans:
