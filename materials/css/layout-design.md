@@ -49,7 +49,7 @@ A fixed layout design uses a set width for the web page and does not adjust to t
       </header>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
@@ -161,7 +161,7 @@ A fluid layout design adjusts to the size of the user's screen but can result in
       </header>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
@@ -271,7 +271,7 @@ A responsive layout design uses a combination of flexible grids and media querie
       </header>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
@@ -419,7 +419,7 @@ An adaptive layout design is similar to a responsive layout design, but it uses 
       <h1>Adaptive Layout Design</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
@@ -580,7 +580,7 @@ A grid layout design uses a grid system to arrange elements on a web page. This 
     </header>
 
     <nav class="nav">
-      <a href="#">Home</a>
+      <a href="#">ホーム</a>
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Contact</a>
@@ -734,7 +734,7 @@ A flexbox layout design uses the CSS flexbox module to create a flexible and res
       </header>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>

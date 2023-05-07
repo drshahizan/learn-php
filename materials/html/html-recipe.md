@@ -12,13 +12,13 @@ Don't forget to hit the :star: if you like this repo.
 ## Introduction
 An Online Recipe Book website is a platform for sharing and organizing recipes online. It provides users with a convenient and easy-to-use way to store, search, and share their favorite recipes.
 
-Typically, an Online Recipe Book website will have a homepage that features a search bar, categories, and featured recipes. The categories may include options such as breakfast, lunch, dinner, desserts, vegetarian, and others.
+Typically, an Online Recipe Book website will have a ホームpage that features a search bar, categories, and featured recipes. The categories may include options such as breakfast, lunch, dinner, desserts, vegetarian, and others.
 
 Each recipe is displayed on a separate page and includes a title, photo, list of ingredients, instructions, and often a rating or review system. Some Online Recipe Book websites may also provide nutritional information for each recipe.
 
 Users can create their own accounts and save their favorite recipes to their personal recipe collections. They may also have the ability to create and share their own recipes with the community.
 
-Overall, an Online Recipe Book website is a great resource for anyone who loves to cook, whether they are a professional chef or a home cook looking for inspiration and new ideas.
+Overall, an Online Recipe Book website is a great resource for anyone who loves to cook, whether they are a professional chef or a ホーム cook looking for inspiration and new ideas.
 
 ## HTML structure
 The Online Recipe Book is a website that allows users to share their favorite recipes with others. The website should be designed to be user-friendly, easy to navigate, and visually appealing. In this project, we will create a one-page website using only HTML to showcase some sample recipes.
@@ -26,7 +26,7 @@ The Online Recipe Book is a website that allows users to share their favorite re
 Here is a breakdown of the different sections and features that should be included in the website:
 
 ### 1. Header section
-The header section should contain the name of the website and a navigation menu that allows users to jump to different sections of the page. For example, we can have links for Home, Recipes, About, and Contact.
+The header section should contain the name of the website and a navigation menu that allows users to jump to different sections of the page. For example, we can have links for ホーム, Recipes, About, and Contact.
 
 ### 2. Hero section
 The hero section should be visually appealing and contain an image related to cooking or food. It should also have a heading that describes the website's purpose, such as "Share Your Favorite Recipes with the World."
