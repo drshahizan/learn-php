@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course Registration System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Course Registration System</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Student Information</h2>
+          <form>
+            <div class="form-group">
+              <label for="student-name">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="student-name"
+                placeholder="Enter name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="student-id">ID:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="student-id"
+                placeholder="Enter ID"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-8">
+          <h2>Course Information</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Title</th>
+                <th>Credit Hours</th>
+                <th>Select</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CSCI101</td>
+                <td>Introduction to Computer Science</td>
+                <td>3</td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="csci101"
+                    name="csci101"
+                    value="csci101"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>MATH201</td>
+                <td>Calculus I</td>
+                <td>4</td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="math201"
+                    name="math201"
+                    value="math201"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>PHYS101</td>
+                <td>Introductory Physics</td>
+                <td>4</td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="phys101"
+                    name="phys101"
+                    value="phys101"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="submit" class="btn btn-primary">
+            Register Courses
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
