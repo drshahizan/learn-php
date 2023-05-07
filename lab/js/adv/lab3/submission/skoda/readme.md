@@ -1,4 +1,4 @@
-# Lab 2: A Notes App
+# Lab 3: Todo List
 
 Activity 🏆 :
 ## Q1: For this application, you must create a flowchart.
@@ -7,10 +7,10 @@ Ans:
 ## Q2: Give a brief description of each function that was used.
 Ans:
 
-## Q3: Explain the purpose of each function used.
+## Q3: Where is the data kept? How is it kept?
 Ans:
 
-## Q4: How do I remove all tags?
+## Q4: How the Clear All button is used
 Ans:
 
 
