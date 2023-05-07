@@ -1,0 +1,217 @@
+/*---------------------
+  Sidebar
+-----------------------*/
+.sidebar__item {
+    margin-bottom: 35px;
+
+    &.sidebar__item__color--option {
+        overflow: hidden;
+    }
+
+    h4 {
+        color: $normal-color;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    ul {
+
+        li {
+            list-style: none;
+
+            a {
+                font-size: 16px;
+                color: $normal-color;
+                line-height: 39px;
+                display: block;
+            }
+        }
+    }
+
+    .latest-product__text {
+        position: relative;
+
+        h4 {
+            margin-bottom: 45px;
+        }
+
+        .owl-carousel {
+
+            .owl-nav {
+                right: 0;
+            }
+        }
+    }
+}
+
+.price-range-wrap {
+
+    .range-slider {
+        margin-top: 20px;
+
+        .price-input {
+            position: relative;
+
+            &:after {
+                position: absolute;
+                left: 38px;
+                top: 13px;
+                height: 1px;
+                width: 5px;
+                background: #dd2222;
+                content: "";
+            }
+
+            input {
+                font-size: 16px;
+                color: #dd2222;
+                font-weight: 700;
+                max-width: 20%;
+                border: none;
+                display: inline-block;
+            }
+        }
+    }
+
+    .price-range {
+        border-radius: 0;
+
+        &.ui-widget-content {
+            border: none;
+            background: #ebebeb;
+            height: 5px;
+
+            .ui-slider-handle {
+                height: 13px;
+                width: 13px;
+                border-radius: 50%;
+                background: $white-color;
+                border: none;
+                -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+                outline: none;
+                cursor: pointer;
+            }
+        }
+
+        .ui-slider-range {
+            background: #dd2222;
+            border-radius: 0;
+
+            &.ui-corner-all.ui-widget-header:last-child {
+                background: #dd2222;
+            }
+        }
+    }
+}
+
+.sidebar__item__color {
+    float: left;
+    width: 40%;
+
+    &.sidebar__item__color--white {
+
+        label {
+
+            &:after {
+                border: 2px solid #333333;
+                background: transparent;
+            }
+        }
+    }
+
+    &.sidebar__item__color--gray {
+
+        label {
+
+            &:after {
+                background: #E9A625;
+            }
+        }
+    }
+
+    &.sidebar__item__color--red {
+
+        label {
+
+            &:after {
+                background: #D62D2D;
+            }
+        }
+    }
+
+    &.sidebar__item__color--black {
+
+        label {
+
+            &:after {
+                background: $heading-color-2;
+            }
+        }
+    }
+
+    &.sidebar__item__color--blue {
+
+        label {
+
+            &:after {
+                background: #249BC8;
+            }
+        }
+    }
+
+    &.sidebar__item__color--green {
+
+        label {
+
+            &:after {
+                background: #3CC032;
+            }
+        }
+    }
+
+    label {
+        font-size: 16px;
+        color: #333333;
+        position: relative;
+        padding-left: 32px;
+        cursor: pointer;
+
+        input {
+            position: absolute;
+            visibility: hidden;
+        }
+
+        &:after {
+            position: absolute;
+            left: 0;
+            top: 5px;
+            height: 14px;
+            width: 14px;
+            background: #222;
+            content: '';
+            border-radius: 50%;
+        }
+    }
+}
+
+.sidebar__item__size {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 10px;
+
+    label {
+        font-size: 12px;
+        color: $para-color;
+        display: inline-block;
+        padding: 8px 25px 6px;
+        background: $background;
+        cursor: pointer;
+        margin-bottom: 0;
+
+        input {
+            position: absolute;
+            visibility: hidden;
+        }
+    }
+}
