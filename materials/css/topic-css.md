@@ -348,7 +348,7 @@ By using CSS positioning and layout techniques, you can create a wide range of d
       <h1>CSS Positioning and Layout Techniques</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
@@ -507,7 +507,7 @@ This code adjusts the font size to 14 pixels for screen sizes up to 768 pixels w
     <header>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -692,7 +692,7 @@ To use a CSS framework like Bootstrap, you can download the CSS and JavaScript f
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">ホーム <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">About</a>
