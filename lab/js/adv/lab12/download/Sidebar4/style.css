@@ -211,7 +211,7 @@ body{
 .sidebar .profile-details .job{
   font-size: 12px;
 }
-.home-section{
+.ホーム-section{
   position: relative;
   background: #E4E9F7;
   height: 100vh;
@@ -220,25 +220,25 @@ body{
   transition: all 0.5s ease;
   padding: 12px;
 }
-.sidebar.close ~ .home-section{
+.sidebar.close ~ .ホーム-section{
   left: 78px;
   width: calc(100% - 78px);
 }
-.home-content{
+.ホーム-content{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-.home-section .home-content .bx-menu,
-.home-section .home-content .text{
+.ホーム-section .ホーム-content .bx-menu,
+.ホーム-section .ホーム-content .text{
   color: #11101d;
   font-size: 35px;
 }
-.home-section .home-content .bx-menu{
+.ホーム-section .ホーム-content .bx-menu{
   cursor: pointer;
   margin-right: 10px;
 }
-.home-section .home-content .text{
+.ホーム-section .ホーム-content .text{
   font-size: 26px;
   font-weight: 600;
 }
@@ -259,11 +259,11 @@ body{
   .sidebar.close .profile-details{
     width: 78px;
   }
-  .home-section{
+  .ホーム-section{
     left: 240px;
     width: calc(100% - 240px);
   }
-  .sidebar.close ~ .home-section{
+  .sidebar.close ~ .ホーム-section{
     left: 78px;
     width: calc(100% - 78px);
   }

@@ -222,7 +222,7 @@
   width: 50px;
   background: none;
 }
-.home-section{
+.ホーム-section{
   position: relative;
   background: #E4E9F7;
   min-height: 100vh;
@@ -232,11 +232,11 @@
   transition: all 0.5s ease;
   z-index: 2;
 }
-.sidebar.open ~ .home-section{
+.sidebar.open ~ .ホーム-section{
   left: 250px;
   width: calc(100% - 250px);
 }
-.home-section .text{
+.ホーム-section .text{
   display: inline-block;
   color: #11101d;
   font-size: 25px;
