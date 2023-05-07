@@ -21,7 +21,7 @@ Ans:    DOM manipulation: The code is using the DOM API to manipulate the elemen
 
 ## Q3: Give a brief description of each function that was used.
 
-Ans:
+Ans: 
 
 ## Q4: Where is the data kept? How is it kept?
 
