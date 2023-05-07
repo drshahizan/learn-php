@@ -163,7 +163,7 @@ Bootstrap provides many options and styles to customize Dropdowns, such as sizin
     ></script>
   </body>
 </html>
-
+```
 
 
 In this example, we have added a Bootstrap Dropdown component to the right side of the navbar. This dropdown has a button that says "My Account" and a menu that contains links for the user's profile, settings, and logout. This allows the user to easily access their account information without cluttering the main navigation.
