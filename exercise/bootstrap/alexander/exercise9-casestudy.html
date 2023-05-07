@@ -11,7 +11,6 @@
     />
   </head>
   <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">University</a>
       <button
@@ -29,11 +28,9 @@
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+              >Home<span class="sr-only">(current)</span>
+            </a>
           </li>
-          
-          <!--start of Courses dropdown-->
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -44,56 +41,45 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Courses
+            Courses
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Computer Science</a>
-              <a class="dropdown-item" href="#">Mathematics</a>
-              <div class="dropdown-divider"></div>
-              <div class="dropdown">
-                <a
-                  class="dropdown-item dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown2"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Science <!--why doesnt the science sub nav not showing??? recheck-->
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                  <a class="dropdown-item" href="#">Biology</a>
-                  <a class="dropdown-item" href="#">Chemistry</a>
-                  <a class="dropdown-item" href="#">Physics</a>
+              <a class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">Mathematics
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Easy</a>
+                  <a class="dropdown-item" href="#">Normal</a>
+                  <a class="dropdown-item" href="#">Hard</a>
+                  <div class="dropdown-divider"></div>
                 </div>
-              </div>
+              <a class="dropdown-item" href="#">Biology</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">All Courses</a>
             </div>
           </li>
-          <!--end of Courses dropdown-->
-  
-
-        <!--start of Registration dropdown-->
-        <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Registration
-            </a>
+          <li class="nav-item">
+            <a  class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+            Registration</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">New Student</a>
-              <a class="dropdown-item" href="#">Existing Student</a>
-          </li> <!--end of Registration dropdown-->
-
-        
+              <a class="dropdown-item" href="#">Students</a>
+              <a class="dropdown-item" href="#">Alumni</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Contributors</a>
+            </div>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Login</a>
           </li>
