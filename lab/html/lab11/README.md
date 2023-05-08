@@ -28,58 +28,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 <!-- hide -->
 
-#### Before we start... other related tutorials
 
-<ol>
-  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a>← 🔥 You are here now</li>
-  <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML5 Forms</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
-</ol>
-
-## One click installation (recommended):
-
-You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://github.com/codespaces/new/?repo=4GeeksAcademy/html-tutorial-exercises-course) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git).
-
-> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
-
-## Manual installation
-
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
-
-```sh
-$ npm i learnpack -g
-$ learnpack plugins:install learnpack-html
-```
-
-2. Download these particular exercises using learnpack and `cd` into the folder:
-
-```sh
-$ learnpack download html-tutorial-exercises-course
-$ cd html-tutorial-exercises-course
-```
-
-> Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
-
-3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
-
-```sh
-$ npm i jest@24.8.0 -g
-$ learnpack start
-```
-
-<!-- endhide -->
-
-> Note: The exercises have automatic grading, but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion, or you may get frustrated.
-
-## How are the exercises organized?
-
-Each exercise is a small React application containing the following files:
-
-1. **index.js:** represents the entry file for the entire app.
-2. **README.md:** contains exercise instructions.
-3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
 ## Contributors
  
