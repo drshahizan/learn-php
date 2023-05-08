@@ -25,7 +25,10 @@ HTML exercises are a great way for beginners to learn and practice HTML coding s
 | 8 | HTML | Table |<a href="lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 9 | HTML | Form |<a href="lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 10 | HTML | Form |<a href="lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 11 | HTML | HTML5 Exercises Tutorial at 4Geeks Academy |<a href="lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 11 | HTML | HTML5 Exercises Tutorial (4Geeks Academy) |<a href="lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 11 | HTML | HTML5 Forms Tutorial & Exercises (4Geeks Academy) |<a href="lab12" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+
+HTML5 Forms Tutorial & Exercises
 
 ## Online platforms and resources
 1. [**W3Schools**: HTML Exercises](https://www.w3schools.com/html/exercise.asp) - W3Schools is a popular resource for learning web development and their HTML exercises cover a wide range of topics, from basic HTML tags to more advanced topics like forms and multimedia.
