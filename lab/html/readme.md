@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# HTML: Exercise
+# HTML: Lab
 HTML exercises are a great way for beginners to learn and practice HTML coding skills. These exercises usually consist of small coding challenges that require the student to use different HTML tags and attributes to create simple web pages. Some examples of HTML exercises include creating a basic website layout, adding images and links, creating tables, and using forms to collect user input. By completing these exercises, students can develop their HTML skills, build their confidence, and prepare themselves for more complex web development projects. Many websites and online courses offer free HTML exercises for beginners to help them get started on their web development journey.
 
 # Lab: Hypertext Markup Language (HTML)
@@ -15,17 +15,17 @@ HTML exercises are a great way for beginners to learn and practice HTML coding s
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
 | 0 | HTML | Your first HTML Page |<a href="lab0" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 1 | HTML | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 2 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 3 | HTML | Format an article with HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | HTML | HTML Image |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 5 | HTML | Nested List |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 6 | HTML | Table |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 7 | HTML | Timetable |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 8 | HTML | Table |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 9 | HTML | Form |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | HTML | Form |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 11 | HTML | HTML5 Exercises Tutorial at 4Geeks Academy |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 1 | HTML | HTML Text Appearance |<a href="lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 2 | HTML | Troubleshooting HTML |<a href="lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 3 | HTML | Format an article with HTML |<a href="lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 4 | HTML | HTML Image |<a href="lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 5 | HTML | Nested List |<a href="lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 6 | HTML | Table |<a href="lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 7 | HTML | Timetable |<a href="lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 8 | HTML | Table |<a href="lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 9 | HTML | Form |<a href="lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 10 | HTML | Form |<a href="lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 11 | HTML | HTML5 Exercises Tutorial at 4Geeks Academy |<a href="lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## Online platforms and resources
 1. [**W3Schools**: HTML Exercises](https://www.w3schools.com/html/exercise.asp) - W3Schools is a popular resource for learning web development and their HTML exercises cover a wide range of topics, from basic HTML tags to more advanced topics like forms and multimedia.
