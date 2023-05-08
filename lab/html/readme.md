@@ -26,7 +26,7 @@ HTML exercises are a great way for beginners to learn and practice HTML coding s
 | 9 | HTML | Form |<a href="lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 10 | HTML | Form |<a href="lab10" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 11 | HTML | HTML5 Exercises Tutorial (4Geeks Academy) |<a href="lab11" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 11 | HTML | HTML5 Forms Tutorial & Exercises (4Geeks Academy) |<a href="lab12" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 12 | HTML | HTML5 Forms Tutorial & Exercises (4Geeks Academy) |<a href="lab12" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 HTML5 Forms Tutorial & Exercises
 
