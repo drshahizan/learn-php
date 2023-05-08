@@ -12,7 +12,6 @@
 <a href="https://gitpod.io#https://github.com/4GeeksAcademy/html-forms-tutorial-exercises.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" /></a>
 <!-- endhide -->
 
-*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/html-forms-tutorial-exercises/blob/master/README.es.md) :es:*
 
 Forms are so important in the world of HTML, CSS and Javascript that I decided to give them a special course to focus in all the inputs, buttons and elements that HTML brings by default to focus on interaction. During these exercises you will learn:
 
