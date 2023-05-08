@@ -19,7 +19,7 @@ Colors are the first thing people notice when they visit your site, and your col
 > - create a website with a day-night mode (dark/light theme).
 > 
 
-Take a look at the image of our website design provided (see Figure 6.1). On the top, there's a navigation menu bar, a home section with some text, and a lovely button. We can see an icon to switch the website into dark and light mode on the right side of the navigation menu bar, and a colour switcher button on the right end side, from it we can switch any colour we want.
+Take a look at the image of our website design provided (see Figure 6.1). On the top, there's a navigation menu bar, a ホーム section with some text, and a lovely button. We can see an icon to switch the website into dark and light mode on the right side of the navigation menu bar, and a colour switcher button on the right end side, from it we can switch any colour we want.
 
 The entire UI design of this website is made up of HTML and CSS code, with some JavaScript code used to make the website dark and light mode (day-night mode) and to switch the website colour theme.
 

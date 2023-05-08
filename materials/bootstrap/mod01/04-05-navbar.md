@@ -55,7 +55,7 @@ An example HTML code for a navbar using Bootstrap CSS classes:
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+              >ホーム <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
@@ -131,7 +131,7 @@ An example HTML code for a navbar using Bootstrap CSS classes for a university a
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+              >ホーム <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item dropdown">
@@ -184,7 +184,7 @@ An example HTML code for a navbar using Bootstrap CSS classes for a university a
 </html>
 ```
 
-In this example, we have added a navbar with links to the homepage, course listings, registration page and login page using Bootstrap CSS classes. We used the `navbar` class to create the basic structure of the navbar and `navbar-expand-lg` to make it responsive on large screens.
+In this example, we have added a navbar with links to the ホームpage, course listings, registration page and login page using Bootstrap CSS classes. We used the `navbar` class to create the basic structure of the navbar and `navbar-expand-lg` to make it responsive on large screens.
 
 We included a brand name "University" on the left side of the navbar using the `navbar-brand` class, and a toggler icon on the right side using the `navbar-toggler` class. The toggler icon collapses the navbar menu on smaller screens.
 
