@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Medical Form</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="">
+  <script>
+    function resetForm() {
+      document.getElementById("medicalForm").reset();
+    }
+  </script>
+  <!--
+    Name: Mohamed Haris Bin Mohamed Mazlan
+    Matrix No: SX221954ECJHF04
+    Github id: harismazlan
+
+    Lab 9: HTML Forms
+    -->
+</head>
+
+<style>
+  body {
+    font-family: 'Verdana';
+  }
+
+  input {
+    border: 1px solid;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    font-size: 14px;
+  }
+
+  span,
+  label {
+    font-size: 14px;
+  }
+</style>
+
+<body>
+  <form action="/medical_form.php" id="medicalForm" method="post">
+    <h1 style="color: #0070c1; text-align: center; font-weight: bold;">Medical Form</h1>
+    <fieldset style="width: 75%;">
+      <legend>Personal Information</legend>
+      <table>
+        <tr>
+          <td>First Name</td>
+          <td><input type="text"></td>
+          <td>Gender</td>
+          <td>
+            <label for="html">
+              <input type="radio" id="female" name="gender" value="female">Female
+            </label>
+            <label for="css">
+              <input type="radio" id="male" name="gender" value="male">Male
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td><input type="text"></td>
+          <td>Nationality</td>
+          <td>
+            <select name="nationality" id="nationality">
+              <option value="canadian">Canadian</option>
+              <option value="malaysian">Malaysian</option>
+              <option value="eu">EU</option>
+              <option value="others">Others</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td colspan="3">
+            <textarea id="address" name="address" rows="4" cols="25"></textarea>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset style="width: 75%;">
+      <legend>Medical History</legend>
+      <input type="checkbox" id="smallpox" name="smallpox" value="Smallpox">
+      <label for="smallpox">Smallpox</label>
+      <input type="checkbox" id="mumps" name="mumps" value="Mumps">
+      <label for="mumps">Mumps</label>
+      <input type="checkbox" id="dizziness" name="dizziness" value="Dizziness">
+      <label for="dizziness">Dizziness</label>
+      <input type="checkbox" id="sneezing" name="sneezing" value="Sneezing">
+      <label for="sneezing">Sneezing</label>
+    </fieldset>
+    <fieldset>
+      <legend>Current Medication</legend>
+      <span>Are you currently taking any kind of medication?</span>
+      <label for="html">
+        <input type="radio" id="yes" name="medication" value="yes">Yes
+      </label>
+      <label for="css">
+        <input type="radio" id="no" name="medication" value="no">No
+      </label>
+      <br>
+      <span>If you are currently taking any medication, please indicate it in the space below:</span>
+      <br>
+      <textarea id="medication_history" name="medication_history" rows="10"
+        style="width:100%; max-width:100%; max-height:50%;"></textarea>
+    </fieldset>
+    <div style="margin-left: 0.1em;">
+      <input name="form" type="submit" value="Submit" />
+      <input type="button" onclick="resetForm()" value="Reset">
+    </div>
+  </form>
+</body>
+
+</html>

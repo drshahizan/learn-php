@@ -30,7 +30,7 @@ let questions = [
       "Hypertext Preprocessor",
       "Hypertext Programming",
       "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "ホームtext Preprocessor"
     ]
   },
     {
