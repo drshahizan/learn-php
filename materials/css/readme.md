@@ -8,6 +8,9 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Cascading Style Sheets (CSS)
+![Introduction to CSS](webdev-css.png)
+> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
+> 
 Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language, such as HTML. CSS allows web designers to separate the presentation of a web page from its content, making it easier to maintain and update the design of the site.
 
 CSS works by selecting HTML elements and applying style rules to them, such as colors, fonts, spacing, and layout. CSS rules are written in a separate file or embedded directly into an HTML document using the `<style>` tag.
@@ -137,7 +140,7 @@ Here's an example of how external CSS can be used to style a simple webpage:
       <h1>Welcome to my website</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>

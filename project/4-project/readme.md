@@ -20,10 +20,10 @@ By combining web responsiveness and Malaysian culture, your group can create an 
 
 ## Example: A responsive website about Malaysian culture
 
-### Homepage
-- The homepage features a banner image of a cultural landmark or festival in Malaysia, such as the Petronas Twin Towers or the Thaipusam Festival.
-- The homepage also includes a navigation menu that is optimized for both desktop and mobile devices, allowing users to easily access different sections of the website.
-- The homepage could also feature a "Featured Article" section, highlighting a piece of Malaysian culture, such as a traditional dish or a local legend.
+### ホームpage
+- The ホームpage features a banner image of a cultural landmark or festival in Malaysia, such as the Petronas Twin Towers or the Thaipusam Festival.
+- The ホームpage also includes a navigation menu that is optimized for both desktop and mobile devices, allowing users to easily access different sections of the website.
+- The ホームpage could also feature a "Featured Article" section, highlighting a piece of Malaysian culture, such as a traditional dish or a local legend.
 
 ### Culture Section
 - The Culture section could include articles on various aspects of Malaysian culture, such as food, clothing, music, and dance.
@@ -60,7 +60,7 @@ For the final project, your group will develop a functional data-centric online 
 An example of what the codebase structure for a Malaysian culture system could look like, including the different folders and files that would be included:
 
 1. HTML/CSS:
-- `index.html`: This is the main homepage of the website, which would include links to other pages, images, and descriptions of different cultural practices or events.
+- `index.html`: This is the main ホームpage of the website, which would include links to other pages, images, and descriptions of different cultural practices or events.
 - `style.css`: This file would handle the styling and layout of different elements on the website, such as fonts, colors, and margins.
 
 2. JavaScript:
@@ -84,37 +84,37 @@ You must place your file in the submission folder. Within the [`submission`](./s
 A folder structure for a Malaysian culture system with CSS, JS, HTML, database, PHP, and reporting:
 
 ```
-group_id/
-├── index.php
-├── css/
-│   ├── bootstrap.min.css
-│   └── style.css
-├── js/
-│   ├── jquery.min.js
-│   └── bootstrap.min.js
-├── includes/
-│   ├── config.php
-│   ├── functions.php
-│   └── header.php
-├── images/
-│   ├── banner.jpg
-│   └── logo.png
-├── pages/
-│   ├── about.php
-│   ├── events.php
-│   ├── gallery.php
-│   ├── news.php
-│   ├── profile.php
-│   └── search.php
-├── reporting/
-│   ├── daily-report.php
-│   ├── monthly-report.php
-│   └── yearly-report.php
-└── database/
-    ├── db_config.php
-    ├── db_create.php
-    ├── db_seed.php
-    └── db_connection.php
+📁group_id
+├── 📄index.php
+├── 📁css
+│   ├── 📄bootstrap.min.css
+│   └── 📄style.css
+├── 📁js
+│   ├── 📄jquery.min.js
+│   └── 📄bootstrap.min.js
+├── 📁includes
+│   ├── 📄config.php
+│   ├── 📄functions.php
+│   └── 📄header.php
+├── 📁images
+│   ├── 📄banner.jpg
+│   └── 📄logo.png
+├── 📁pages
+│   ├── 📄about.php
+│   ├── 📄events.php
+│   ├── 📄gallery.php
+│   ├── 📄news.php
+│   ├── 📄profile.php
+│   └── 📄search.php
+├── 📁reporting
+│   ├── 📄daily-report.php
+│   ├── 📄monthly-report.php
+│   └── 📄yearly-report.php
+└── 📁database
+    ├── 📄db_config.php
+    ├── 📄db_create.php
+    ├── 📄db_seed.php
+    └── 📄db_connection.php
 ```
 
 In this structure, `index.php` serves as the main landing page that includes the necessary header and footer from the `includes/` folder. The `css/` and `js/` folders contain the necessary stylesheets and scripts for the website. The `images/` folder contains all the necessary images such as logos, banners, and photos. The `pages/` folder contains all the different pages of the website such as the about, events, gallery, news, profile, and search pages. The `reporting/` folder contains all the different reporting pages such as the daily, monthly, and yearly reports. Lastly, the `database/` folder contains all the necessary files for setting up and connecting to the database such as the database configuration, creation, seeding, and connection files.

@@ -31,7 +31,7 @@ Here are the steps to create a basic responsive navigation bar:
 <header class="header">
   <a href="#" class="logo">Logo</a>
   <nav class="nav">
-    <a href="#">Home</a>
+    <a href="#">ホーム</a>
     <a href="#">About</a>
     <a href="#">Services</a>
     <a href="#">Contact</a>
