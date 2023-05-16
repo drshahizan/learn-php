@@ -10,7 +10,6 @@ Don't forget to hit the :star: if you like this repo.
 
 ![Introduction to HTML](webdev-html.png)
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab10/download/Lab10.png"  height="600" />
 
 ## Introduction
 HTML (Hypertext Markup Language) is a markup language used to create the structure and content of web pages. It consists of a series of tags and attributes that define the elements of a web page, such as headings, paragraphs, images, links, forms, and tables.
