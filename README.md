@@ -7,6 +7,8 @@
 
 Don't forget to hit the :star: if you like this repo.
 # SCSV1223 - WEB PROGRAMMING
+![Introduction to web programming](/images/webdev-programming.png)
+> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ### Contents:
 - [Course Outline](#course-outline)
