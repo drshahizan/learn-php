@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 # DOM Manipulation
-![Introduction to HTML](webdev-dom.png)
+![Introduction to js](webdev-js.png)
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 > 
 The Document Object Model (DOM) is a programming interface that represents HTML or XML documents as a tree-like structure. It allows programs and scripts to dynamically access and update the content, structure, and style of web documents. The DOM provides a way to programmatically access and manipulate elements on a webpage, including their attributes and content.
