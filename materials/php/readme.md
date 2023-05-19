@@ -33,7 +33,7 @@ A table outlining key topics to learn PHP step by step for beginners:
 | 3 | [Controlling program flow with loops and if-else statements](mod01/03-loop.md)  |
 | 4 | [Using arrays and functions](mod01/04-array.md)  |
 | 5 | [Working with strings and regular expressions](mod01/05-string.md) |
-| 6 | Introduction to object-oriented programming in PHP |
+| 6 | [Introduction to object-oriented programming in PHP](mod01/06-oo.md) |
 | 7 | Creating and using classes and objects |
 | 8 | Handling errors and exceptions in PHP |
 | 9 | Interacting with databases using PHP and SQL |
