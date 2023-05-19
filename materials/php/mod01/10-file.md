@@ -9,199 +9,213 @@ Don't forget to hit the :star: if you like this repo.
 
 Sure! Here's the introduction to object-oriented programming in PHP with the topic emphasized:
 
-# Introduction to Object-Oriented Programming in PHP
+# Working with files and directories
+Working with files and directories is a common task in PHP. PHP provides a variety of built-in functions and features to handle file operations. Here are some commonly used functions and techniques for working with files and directories in PHP:
 
-Object-oriented programming (OOP) is a programming paradigm that focuses on the concept of objects, which are instances of classes. PHP, a popular server-side scripting language, also supports object-oriented programming. In this paradigm, the code is organized around objects that interact with each other to perform tasks and represent real-world entities or abstract concepts.
+1. **File Operations:**
 
-To understand OOP in PHP, it's essential to grasp some key concepts:
+- **Opening and Reading Files:**
+  - `fopen($filename, $mode)`: Opens a file in the specified mode (e.g., read, write, append).
+  - `fgets($fileHandle)`: Reads a line from an open file.
+  - `file_get_contents($filename)`: Reads the entire contents of a file into a string.
 
-1. **Classes:** A class is a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of that class possess.
+- **Writing to Files:**
+  - `fwrite($fileHandle, $data)`: Writes data to an open file.
+  - `file_put_contents($filename, $data)`: Writes data to a file (overwriting existing content).
 
-2. **Objects:** An object is an instance of a class. It represents a specific entity or concept based on the class blueprint.
+- **Closing Files:**
+  - `fclose($fileHandle)`: Closes an open file.
 
-3. **Encapsulation:** Encapsulation is the process of bundling data (properties) and related behavior (methods) into a single unit called an object.
+- **Checking File Existence:**
+  - `file_exists($filename)`: Checks if a file exists.
+  - `is_file($filename)`: Checks if a path is a regular file.
 
-4. **Inheritance:** Inheritance is a mechanism that allows classes to inherit properties and methods from other classes.
+- **Deleting Files:**
+  - `unlink($filename)`: Deletes a file.
 
-5. **Polymorphism:** Polymorphism allows objects of different classes to be treated as objects of a common base class.
+2. **Directory Operations:**
 
-6. **Abstraction:** Abstraction involves simplifying complex systems by breaking them down into more manageable and understandable components.
+- **Creating Directories:**
+  - `mkdir($dirname)`: Creates a new directory.
 
-These concepts provide a foundation for writing object-oriented code in PHP. By utilizing OOP principles, developers can create modular, maintainable, and reusable code. It promotes code organization, separation of concerns, and flexibility in handling complex systems.
+- **Listing Directory Contents:**
+  - `scandir($dirname)`: Retrieves the list of files and directories in a directory.
+  - `glob($pattern)`: Returns an array of files/directories that match a specific pattern.
 
-## An example of using object-oriented programming in PHP
+- **Deleting Directories:**
+  - `rmdir($dirname)`: Removes an empty directory.
+  - `unlink($filename)`: Deletes a file.
+
+- **Recursive Operations:**
+  - `recursive_directory_iterator()`: Iterates through directories and subdirectories recursively.
+  - `recursiveIteratorIterator()`: Iterates through a recursive iterator.
+
+- **File Information:**
+  - `filetype($filename)`: Returns the file type (file, directory, symlink, etc.).
+  - `filesize($filename)`: Returns the size of a file.
+
+These are just a few examples of the functions available in PHP for working with files and directories. PHP also offers functions for renaming files, copying files, changing file permissions, and more. It's important to handle file operations with care and validate user input to ensure security and prevent unauthorized access or data loss.
+
+## Code
+An example of working with files and directories in PHP, along with complete PHP and HTML code:
 
 ```php
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Car Details</title>
+    <title>File and Directory Operations</title>
 </head>
 <body>
     <?php
-    // Define a class
-    class Car {
-        // Properties
-        public $color;
-        public $model;
-
-        // Constructor
-        public function __construct($color, $model) {
-            $this->color = $color;
-            $this->model = $model;
-        }
-
-        // Method
-        public function startEngine() {
-            echo "The $this->color $this->model car is starting the engine.";
-        }
+    // Create a directory
+    $dirName = 'my_directory';
+    if (!is_dir($dirName)) {
+        mkdir($dirName);
+        echo "Directory '$dirName' created successfully.<br>";
+    } else {
+        echo "Directory '$dirName' already exists.<br>";
     }
 
-    // Create objects from the Car class
-    $myCar = new Car("Red", "Honda Civic");
-    $anotherCar = new Car("Blue", "Toyota Corolla");
+    // Create a file
+    $fileName = $dirName . '/my_file.txt';
+    $fileContent = "This is the content of my file.";
+    file_put_contents($fileName, $fileContent);
+    echo "File '$fileName' created successfully.<br>";
+
+    // Read file content
+    $readContent = file_get_contents($fileName);
+    echo "File content: $readContent<br>";
+
+    // List directory contents
+    $dirContents = scandir($dirName);
+    echo "Directory contents:<br>";
+    echo "<ul>";
+    foreach ($dirContents as $item) {
+        if ($item !== '.' && $item !== '..') {
+            echo "<li>$item</li>";
+        }
+    }
+    echo "</ul>";
+
+    // Delete the file
+    unlink($fileName);
+    echo "File '$fileName' deleted successfully.<br>";
+
+    // Delete the directory
+    rmdir($dirName);
+    echo "Directory '$dirName' deleted successfully.<br>";
     ?>
-
-    <h1>Car Details</h1>
-    <h2>My Car</h2>
-    <p>Color: <?php echo $myCar->color; ?></p>
-    <p>Model: <?php echo $myCar->model; ?></p>
-    <button onclick="<?php $myCar->startEngine(); ?>">Start Engine</button>
-
-    <h2>Another Car</h2>
-    <p>Color: <?php echo $anotherCar->color; ?></p>
-    <p>Model: <?php echo $anotherCar->model; ?></p>
-    <button onclick="<?php $anotherCar->startEngine(); ?>">Start Engine</button>
 </body>
 </html>
 ```
 
-> In the above example, we have a PHP code embedded within the HTML code. We define a `Car` class with properties (`$color` and `$model`), a constructor (`__construct()`), and a method (`startEngine()`). We then create two objects (`$myCar` and `$anotherCar`) from the `Car` class and set their properties.
->
-> In the HTML section, we display the car details by accessing the object properties (`$myCar->color`, `$myCar->model`, etc.). We also have buttons that, when clicked, invoke the `startEngine()` method for each car object.
+In this example, we perform file and directory operations using PHP functions. Here's a breakdown of the code:
+
+1. We first check if the directory 'my_directory' exists using `is_dir()`. If it doesn't exist, we create the directory using `mkdir()`. We display a message indicating whether the directory was created or if it already exists.
+
+2. We create a file 'my_file.txt' inside the 'my_directory' directory using `file_put_contents()`. The content of the file is set to "This is the content of my file.".
+
+3. We read the content of the file using `file_get_contents()` and display it on the webpage.
+
+4. We list the contents of the 'my_directory' directory using `scandir()`. We exclude the current directory (.) and the parent directory (..) from the listing.
+
+5. We delete the file using `unlink()` and display a message indicating that the file was deleted.
+
+6. Finally, we delete the directory using `rmdir()` and display a message indicating that the directory was deleted.
+
+When you run this code, it will create a directory, create a file inside it, read the file's content, display the directory contents, delete the file, and delete the directory. Each step is accompanied by an appropriate message displayed on the webpage.
 
 ## Case Study
-An example code for a university academic course registration system that uses strings and regular expressions in PHP:
-
-Certainly! Here's an example of using object-oriented programming in PHP for a university academic course registration system:
+An example of working with files and directories in PHP for a university academic course registration system, along with complete PHP and HTML code:
 
 ```php
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Course Registration</title>
+    <title>Course Registration System</title>
 </head>
 <body>
     <?php
-    // Define a class for Student
-    class Student {
-        // Properties
-        private $name;
-        private $studentId;
-        private $registeredCourses;
+    // Function to save registration data to a file
+    function saveRegistrationToFile($studentName, $courseName) {
+        $fileName = 'registrations.txt';
+        $data = "$studentName,$courseName\n";
+        file_put_contents($fileName, $data, FILE_APPEND);
+    }
 
-        // Constructor
-        public function __construct($name, $studentId) {
-            $this->name = $name;
-            $this->studentId = $studentId;
-            $this->registeredCourses = [];
-        }
+    // Function to retrieve registration data from a file
+    function getRegistrationsFromFile() {
+        $fileName = 'registrations.txt';
+        $registrations = [];
 
-        // Method to register for a course
-        public function registerCourse($course) {
-            $this->registeredCourses[] = $course;
-            echo "$this->name has registered for $course.<br>";
-        }
-
-        // Method to display registered courses
-        public function displayRegisteredCourses() {
-            echo "<h3>$this->name's Registered Courses</h3>";
-            if (count($this->registeredCourses) > 0) {
-                echo "<ul>";
-                foreach ($this->registeredCourses as $course) {
-                    echo "<li>$course</li>";
-                }
-                echo "</ul>";
-            } else {
-                echo "No courses registered.";
+        if (file_exists($fileName)) {
+            $fileContents = file($fileName, FILE_IGNORE_NEW_LINES);
+            foreach ($fileContents as $line) {
+                $data = explode(',', $line);
+                $studentName = $data[0];
+                $courseName = $data[1];
+                $registrations[] = [$studentName, $courseName];
             }
         }
+
+        return $registrations;
     }
 
-    // Define a class for Course
-    class Course {
-        // Properties
-        private $courseCode;
-        private $courseName;
+    // Handle form submission
+    if (isset($_POST['submit'])) {
+        $studentName = $_POST['student'];
+        $courseName = $_POST['course'];
 
-        // Constructor
-        public function __construct($courseCode, $courseName) {
-            $this->courseCode = $courseCode;
-            $this->courseName = $courseName;
-        }
-
-        // Getter for course code
-        public function getCourseCode() {
-            return $this->courseCode;
-        }
-
-        // Getter for course name
-        public function getCourseName() {
-            return $this->courseName;
-        }
+        // Save registration to file
+        saveRegistrationToFile($studentName, $courseName);
     }
 
-    // Create student objects
-    $student1 = new Student("John Doe", "2021001");
-    $student2 = new Student("Jane Smith", "2021002");
-
-    // Create course objects
-    $course1 = new Course("CSCI101", "Introduction to Computer Science");
-    $course2 = new Course("MATH201", "Linear Algebra");
-    $course3 = new Course("ENG202", "English Composition");
-
-    // Register courses for students
-    $student1->registerCourse($course1->getCourseName());
-    $student1->registerCourse($course2->getCourseName());
-    $student2->registerCourse($course1->getCourseName());
-    $student2->registerCourse($course3->getCourseName());
-
-    // Display registered courses for students
-    $student1->displayRegisteredCourses();
-    $student2->displayRegisteredCourses();
+    // Retrieve registrations from file
+    $registrations = getRegistrationsFromFile();
     ?>
 
+    <h1>Course Registration System</h1>
+
+    <h2>Register for a Course</h2>
+    <form method="post" action="">
+        <label for="student">Student Name:</label>
+        <input type="text" name="student" id="student" required><br>
+
+        <label for="course">Course Name:</label>
+        <input type="text" name="course" id="course" required><br>
+
+        <input type="submit" name="submit" value="Register">
+    </form>
+
+    <h2>Registered Students</h2>
+    <?php if (count($registrations) > 0) : ?>
+        <ul>
+            <?php foreach ($registrations as $registration) : ?>
+                <li><?php echo $registration[0] ?> - <?php echo $registration[1] ?></li>
+            <?php endforeach; ?>
+        </ul>
+    <?php else : ?>
+        <p>No registrations found.</p>
+    <?php endif; ?>
 </body>
 </html>
 ```
 
-In this example, we have a university academic course registration system. We define two classes: `Student` and `Course`. The `Student` class represents a student and has properties like `name`, `studentId`, and `registeredCourses` (an array to store the registered courses). It also has methods like `registerCourse()` to register for a course and `displayRegisteredCourses()` to display the registered courses.
+In this example, we have a university academic course registration system. Here's a breakdown of the code:
 
-The `Course` class represents a course and has properties like `courseCode` and `courseName`. It has getters (`getCourseCode()` and `getCourseName()`) to access the course details.
+1. We define two functions: `saveRegistrationToFile()` and `getRegistrationsFromFile()`. The `saveRegistrationToFile()` function takes the student name and course name as parameters and appends the data to a file named 'registrations.txt'. The `getRegistrationsFromFile()` function reads the data from the file and returns an array of registrations.
 
-We then create student objects (`$student1` and `$student2`) and course objects (`$course1`, `$course2`, and `$course3`). We register courses for students using the `registerCourse()` method and display the registered courses using the `displayRegisteredCourses()` method.
+2. When the form is submitted (`$_POST['submit']` is set), we retrieve the student name and course name from the form inputs and call the `saveRegistrationToFile()` function to save the registration data to the file.
 
-The HTML section of the code is responsible for rendering the output on the web page. It displays the registration information for each student and their registered courses.
+3. We retrieve the registrations from the file using the `getRegistrationsFromFile()` function and store them in the `$registrations` variable.
 
-When you run this code, it will output the following:
+4. The HTML section of the code displays a form where students can register for a course. The form data is submitted to the same page using the `POST` method. Registered students are listed below the form.
 
-```php
-John Doe has registered for Introduction to Computer Science.
-John Doe has registered for Linear Algebra.
-Jane Smith has registered for Introduction to Computer Science.
-Jane Smith has registered for English Composition.
+5. If there are registrations (`count($registrations) > 0
 
-John Doe's Registered Courses
-- Introduction to Computer Science
-- Linear Algebra
+`), the registered students are displayed in an unordered list. Otherwise, a message indicating no registrations are found is displayed.
 
-Jane Smith's Registered Courses
-- Introduction to Computer Science
-- English Composition
-```
-
-This example demonstrates how object-oriented programming can be used to model a university course registration system. The `Student` class encapsulates student information and provides methods for course registration and displaying registered courses. The `Course` class represents a course and provides getters for accessing course details. By utilizing objects and their interactions, we can create a scalable and maintainable system for course registration.
-
+When you run this code, it will display a form where students can register for a course. The registration data will be saved to the 'registrations.txt' file, and the registered students will be displayed below the form. Each time a student registers, their name and the course they registered for will be appended to the file.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
