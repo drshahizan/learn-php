@@ -7,8 +7,6 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-Sure! Here's the introduction to object-oriented programming in PHP with the topic emphasized:
-
 # Creating and using classes and objects
 
 In PHP, classes and objects are fundamental concepts of object-oriented programming (OOP). A class is a blueprint or template that defines the structure and behavior of objects. An object, on the other hand, is an instance of a class that represents a specific entity or concept.
