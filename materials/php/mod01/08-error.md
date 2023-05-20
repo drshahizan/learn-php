@@ -9,198 +9,161 @@ Don't forget to hit the :star: if you like this repo.
 
 Sure! Here's the introduction to object-oriented programming in PHP with the topic emphasized:
 
-# Introduction to Object-Oriented Programming in PHP
+# Handling errors and exceptions in PHP
 
-Object-oriented programming (OOP) is a programming paradigm that focuses on the concept of objects, which are instances of classes. PHP, a popular server-side scripting language, also supports object-oriented programming. In this paradigm, the code is organized around objects that interact with each other to perform tasks and represent real-world entities or abstract concepts.
+In PHP, error handling and exception handling are essential for dealing with unexpected situations and errors that may occur during the execution of a script. Error handling refers to how errors and warnings are reported and logged, while exception handling provides a structured way to catch and handle exceptional situations in your code.
 
-To understand OOP in PHP, it's essential to grasp some key concepts:
+Here's an overview of how errors and exceptions can be handled in PHP:
 
-1. **Classes:** A class is a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of that class possess.
+1. **Error Reporting:**
+   PHP provides several directives in the configuration file (`php.ini`) and runtime functions to control error reporting. The `error_reporting` directive sets the level of errors to report, and the `display_errors` directive determines whether errors are displayed on the screen or logged to a file. The `error_reporting()` function can be used to change the error reporting level at runtime.
 
-2. **Objects:** An object is an instance of a class. It represents a specific entity or concept based on the class blueprint.
+2. **Error Types:**
+   PHP defines different error types, such as notices, warnings, and fatal errors. Notices are non-critical issues, warnings indicate potential problems, and fatal errors halt script execution. The error types can be controlled using the `error_reporting` directive or the `error_reporting()` function.
 
-3. **Encapsulation:** Encapsulation is the process of bundling data (properties) and related behavior (methods) into a single unit called an object.
+3. **Error Handling Functions:**
+   PHP provides a set of functions to handle errors programmatically. These functions include `set_error_handler()`, which allows you to define a custom error handler function to process errors, and `restore_error_handler()`, which restores the default error handler. The `error_get_last()` function retrieves the last error that occurred, and `error_log()` allows you to log errors to a file or another destination.
 
-4. **Inheritance:** Inheritance is a mechanism that allows classes to inherit properties and methods from other classes.
+4. **Exception Handling:**
+   Exceptions provide a more structured way to handle errors and exceptional situations. Exceptions are thrown using the `throw` statement and caught using `try-catch` blocks. The `try` block contains the code that may throw an exception, while `catch` blocks specify how to handle specific types of exceptions. The `catch` block can also be used without specifying a particular exception type to catch any exception that occurs. The `finally` block is optional and executes regardless of whether an exception was thrown or caught.
 
-5. **Polymorphism:** Polymorphism allows objects of different classes to be treated as objects of a common base class.
+   Example:
+   ```php
+   try {
+       // Code that may throw an exception
+   } catch (ExceptionType1 $e) {
+       // Handle exception of type ExceptionType1
+   } catch (ExceptionType2 $e) {
+       // Handle exception of type ExceptionType2
+   } finally {
+       // Optional block that always executes
+   }
+   ```
 
-6. **Abstraction:** Abstraction involves simplifying complex systems by breaking them down into more manageable and understandable components.
+5. **Custom Exceptions:**
+   PHP allows you to define your own custom exception classes by extending the built-in `Exception` class. This enables you to create more specific exception types tailored to your application's needs.
 
-These concepts provide a foundation for writing object-oriented code in PHP. By utilizing OOP principles, developers can create modular, maintainable, and reusable code. It promotes code organization, separation of concerns, and flexibility in handling complex systems.
+   Example:
+   ```php
+   class CustomException extends Exception {
+       // Custom exception code and behavior
+   }
 
-## An example of using object-oriented programming in PHP
+   try {
+       if ($condition) {
+           throw new CustomException("Something went wrong.");
+       }
+   } catch (CustomException $e) {
+       // Handle the custom exception
+   }
+   ```
+
+6. **Logging Exceptions:**
+   It's common practice to log exceptions for debugging and monitoring purposes. PHP provides the `error_log()` function, which can be used to log exceptions or other error messages to a file or syslog.
+
+By effectively handling errors and exceptions in PHP, you can improve the robustness and reliability of your code, making it easier to identify and resolve issues that may arise during script execution.
+
+## Code
+An example that demonstrates handling errors and exceptions in PHP within a complete PHP and HTML code:
 
 ```php
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Car Details</title>
+    <title>Error Handling Example</title>
 </head>
 <body>
+    <h1>Error Handling Example</h1>
+
     <?php
-    // Define a class
-    class Car {
-        // Properties
-        public $color;
-        public $model;
-
-        // Constructor
-        public function __construct($color, $model) {
-            $this->color = $color;
-            $this->model = $model;
-        }
-
-        // Method
-        public function startEngine() {
-            echo "The $this->color $this->model car is starting the engine.";
-        }
+    // Custom exception class
+    class CustomException extends Exception {
+        // Custom exception code and behavior
     }
 
-    // Create objects from the Car class
-    $myCar = new Car("Red", "Honda Civic");
-    $anotherCar = new Car("Blue", "Toyota Corolla");
+    try {
+        // Simulating an error
+        $numerator = 10;
+        $denominator = 0;
+        if ($denominator === 0) {
+            throw new Exception("Division by zero error.");
+        }
+        $result = $numerator / $denominator;
+        echo "Result: $result";
+    } catch (CustomException $e) {
+        echo "Custom Exception: " . $e->getMessage();
+    } catch (Exception $e) {
+        echo "Exception: " . $e->getMessage();
+    } finally {
+        echo "<br>Finally block executed.";
+    }
     ?>
 
-    <h1>Car Details</h1>
-    <h2>My Car</h2>
-    <p>Color: <?php echo $myCar->color; ?></p>
-    <p>Model: <?php echo $myCar->model; ?></p>
-    <button onclick="<?php $myCar->startEngine(); ?>">Start Engine</button>
-
-    <h2>Another Car</h2>
-    <p>Color: <?php echo $anotherCar->color; ?></p>
-    <p>Model: <?php echo $anotherCar->model; ?></p>
-    <button onclick="<?php $anotherCar->startEngine(); ?>">Start Engine</button>
 </body>
 </html>
 ```
 
-> In the above example, we have a PHP code embedded within the HTML code. We define a `Car` class with properties (`$color` and `$model`), a constructor (`__construct()`), and a method (`startEngine()`). We then create two objects (`$myCar` and `$anotherCar`) from the `Car` class and set their properties.
->
-> In the HTML section, we display the car details by accessing the object properties (`$myCar->color`, `$myCar->model`, etc.). We also have buttons that, when clicked, invoke the `startEngine()` method for each car object.
+In this example, we have a division operation that may throw an exception if the denominator is zero. We catch the exception using `try-catch` blocks. If a `CustomException` is thrown, we handle it in the first `catch` block, and if any other `Exception` is thrown, we handle it in the second `catch` block. The `finally` block is optional and executes regardless of whether an exception was thrown or caught.
+
+When you run this PHP script, it will display the appropriate error message based on the exception caught or the custom exception. The `finally` block will also execute and display a message indicating that it was executed.
 
 ## Case Study
-An example code for a university academic course registration system that uses strings and regular expressions in PHP:
-
-Certainly! Here's an example of using object-oriented programming in PHP for a university academic course registration system:
+An example of handling errors and exceptions in PHP within a complete PHP and HTML code for a university academic course registration system:
 
 ```php
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Course Registration</title>
+    <title>Course Registration System</title>
 </head>
 <body>
+    <h1>Course Registration System</h1>
+
     <?php
-    // Define a class for Student
-    class Student {
-        // Properties
-        private $name;
-        private $studentId;
-        private $registeredCourses;
-
-        // Constructor
-        public function __construct($name, $studentId) {
-            $this->name = $name;
-            $this->studentId = $studentId;
-            $this->registeredCourses = [];
-        }
-
-        // Method to register for a course
-        public function registerCourse($course) {
-            $this->registeredCourses[] = $course;
-            echo "$this->name has registered for $course.<br>";
-        }
-
-        // Method to display registered courses
-        public function displayRegisteredCourses() {
-            echo "<h3>$this->name's Registered Courses</h3>";
-            if (count($this->registeredCourses) > 0) {
-                echo "<ul>";
-                foreach ($this->registeredCourses as $course) {
-                    echo "<li>$course</li>";
-                }
-                echo "</ul>";
-            } else {
-                echo "No courses registered.";
-            }
-        }
+    // Custom exception class for course registration errors
+    class CourseRegistrationException extends Exception {
+        // Custom exception code and behavior
     }
 
-    // Define a class for Course
-    class Course {
-        // Properties
-        private $courseCode;
-        private $courseName;
+    try {
+        // Simulating course registration
+        $availableCourses = array("Math", "English", "Computer Science");
+        $selectedCourse = $_POST["course"];
 
-        // Constructor
-        public function __construct($courseCode, $courseName) {
-            $this->courseCode = $courseCode;
-            $this->courseName = $courseName;
+        if (!in_array($selectedCourse, $availableCourses)) {
+            throw new CourseRegistrationException("Invalid course selection.");
         }
 
-        // Getter for course code
-        public function getCourseCode() {
-            return $this->courseCode;
-        }
-
-        // Getter for course name
-        public function getCourseName() {
-            return $this->courseName;
-        }
+        // Save the registration details to the database or perform further actions
+        echo "Registration successful! You have registered for $selectedCourse.";
+    } catch (CourseRegistrationException $e) {
+        echo "Course Registration Exception: " . $e->getMessage();
+    } catch (Exception $e) {
+        echo "Exception: " . $e->getMessage();
     }
-
-    // Create student objects
-    $student1 = new Student("John Doe", "2021001");
-    $student2 = new Student("Jane Smith", "2021002");
-
-    // Create course objects
-    $course1 = new Course("CSCI101", "Introduction to Computer Science");
-    $course2 = new Course("MATH201", "Linear Algebra");
-    $course3 = new Course("ENG202", "English Composition");
-
-    // Register courses for students
-    $student1->registerCourse($course1->getCourseName());
-    $student1->registerCourse($course2->getCourseName());
-    $student2->registerCourse($course1->getCourseName());
-    $student2->registerCourse($course3->getCourseName());
-
-    // Display registered courses for students
-    $student1->displayRegisteredCourses();
-    $student2->displayRegisteredCourses();
     ?>
 
+    <form method="POST" action="">
+        <label for="course">Select a course:</label>
+        <select name="course" id="course">
+            <option value="Math">Math</option>
+            <option value="English">English</option>
+            <option value="Computer Science">Computer Science</option>
+        </select>
+        <br>
+        <input type="submit" value="Register">
+    </form>
 </body>
 </html>
 ```
 
-In this example, we have a university academic course registration system. We define two classes: `Student` and `Course`. The `Student` class represents a student and has properties like `name`, `studentId`, and `registeredCourses` (an array to store the registered courses). It also has methods like `registerCourse()` to register for a course and `displayRegisteredCourses()` to display the registered courses.
+In this example, we have a course registration system where a user can select a course from a dropdown menu and submit the registration form. We simulate the course registration process by validating the selected course against the available courses. If the selected course is not in the list of available courses, we throw a `CourseRegistrationException`. 
 
-The `Course` class represents a course and has properties like `courseCode` and `courseName`. It has getters (`getCourseCode()` and `getCourseName()`) to access the course details.
+We handle the custom exception in the first `catch` block, displaying a specific error message. Any other generic exception is handled in the second `catch` block. 
 
-We then create student objects (`$student1` and `$student2`) and course objects (`$course1`, `$course2`, and `$course3`). We register courses for students using the `registerCourse()` method and display the registered courses using the `displayRegisteredCourses()` method.
+The user interface consists of an HTML form where the user can select a course from the dropdown menu and submit the form. The selected course is sent via the `POST` method to the same PHP script for processing. Upon successful registration, a success message is displayed. Otherwise, the appropriate error message is shown.
 
-The HTML section of the code is responsible for rendering the output on the web page. It displays the registration information for each student and their registered courses.
-
-When you run this code, it will output the following:
-
-```php
-John Doe has registered for Introduction to Computer Science.
-John Doe has registered for Linear Algebra.
-Jane Smith has registered for Introduction to Computer Science.
-Jane Smith has registered for English Composition.
-
-John Doe's Registered Courses
-- Introduction to Computer Science
-- Linear Algebra
-
-Jane Smith's Registered Courses
-- Introduction to Computer Science
-- English Composition
-```
-
-This example demonstrates how object-oriented programming can be used to model a university course registration system. The `Student` class encapsulates student information and provides methods for course registration and displaying registered courses. The `Course` class represents a course and provides getters for accessing course details. By utilizing objects and their interactions, we can create a scalable and maintainable system for course registration.
+Please note that this is a simplified example for illustrative purposes. In a real-world scenario, you would have more robust validation, database operations, and additional functionality.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
