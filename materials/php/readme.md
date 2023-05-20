@@ -34,9 +34,9 @@ A table outlining key topics to learn PHP step by step for beginners:
 | 4 | [Using arrays and functions](mod01/04-array.md)  |
 | 5 | [Working with strings and regular expressions](mod01/05-string.md) |
 | 6 | [Introduction to object-oriented programming in PHP](mod01/06-oo.md) |
-| 7 | Creating and using classes and objects |
-| 8 | Handling errors and exceptions in PHP |
-| 9 | Interacting with databases using PHP and SQL |
+| 7 | [Creating and using classes and objects](mod01/07-class.md) |
+| 8 | [Handling errors and exceptions in PHP](mod01/08-error.md) |
+| 9 | [Interacting with databases using PHP and SQL](mod01/09-db.md) |
 | 10 | [Working with files and directories in PHP](mod01/10-file.md) |
 
 ## Key topics to learn PHP and MySQL
