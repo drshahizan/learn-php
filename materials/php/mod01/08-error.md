@@ -7,8 +7,6 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-Sure! Here's the introduction to object-oriented programming in PHP with the topic emphasized:
-
 # Handling errors and exceptions in PHP
 
 In PHP, error handling and exception handling are essential for dealing with unexpected situations and errors that may occur during the execution of a script. Error handling refers to how errors and warnings are reported and logged, while exception handling provides a structured way to catch and handle exceptional situations in your code.
