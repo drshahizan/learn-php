@@ -7,8 +7,6 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-Sure! Here's the introduction to object-oriented programming in PHP with the topic emphasized:
-
 # Working with files and directories
 Working with files and directories is a common task in PHP. PHP provides a variety of built-in functions and features to handle file operations. Here are some commonly used functions and techniques for working with files and directories in PHP:
 
