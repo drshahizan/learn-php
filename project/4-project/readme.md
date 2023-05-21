@@ -60,7 +60,7 @@ For the final project, your group will develop a functional data-centric online 
 An example of what the codebase structure for a Malaysian culture system could look like, including the different folders and files that would be included:
 
 1. HTML/CSS:
-- `index.html`: This is the main ホームpage of the website, which would include links to other pages, images, and descriptions of different cultural practices or events.
+- `index.html`: This is the main homepage of the website, which would include links to other pages, images, and descriptions of different cultural practices or events.
 - `style.css`: This file would handle the styling and layout of different elements on the website, such as fonts, colors, and margins.
 
 2. JavaScript:
