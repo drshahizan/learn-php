@@ -20,10 +20,10 @@ By combining web responsiveness and Malaysian culture, your group can create an 
 
 ## Example: A responsive website about Malaysian culture
 
-### ホームpage
-- The ホームpage features a banner image of a cultural landmark or festival in Malaysia, such as the Petronas Twin Towers or the Thaipusam Festival.
-- The ホームpage also includes a navigation menu that is optimized for both desktop and mobile devices, allowing users to easily access different sections of the website.
-- The ホームpage could also feature a "Featured Article" section, highlighting a piece of Malaysian culture, such as a traditional dish or a local legend.
+### Homepage
+- The homepage features a banner image of a cultural landmark or festival in Malaysia, such as the Petronas Twin Towers or the Thaipusam Festival.
+- The homepage also includes a navigation menu that is optimized for both desktop and mobile devices, allowing users to easily access different sections of the website.
+- The homepage could also feature a "Featured Article" section, highlighting a piece of Malaysian culture, such as a traditional dish or a local legend.
 
 ### Culture Section
 - The Culture section could include articles on various aspects of Malaysian culture, such as food, clothing, music, and dance.
@@ -60,7 +60,7 @@ For the final project, your group will develop a functional data-centric online 
 An example of what the codebase structure for a Malaysian culture system could look like, including the different folders and files that would be included:
 
 1. HTML/CSS:
-- `index.html`: This is the main ホームpage of the website, which would include links to other pages, images, and descriptions of different cultural practices or events.
+- `index.html`: This is the main homepage of the website, which would include links to other pages, images, and descriptions of different cultural practices or events.
 - `style.css`: This file would handle the styling and layout of different elements on the website, such as fonts, colors, and margins.
 
 2. JavaScript:
