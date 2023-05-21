@@ -11,7 +11,7 @@ Ans:an array of initial tags (tags).
 Ans:
 -The countTags function updates the tag count displayed on the page by subtracting the current number of tags from the maximum allowed (maxTags).
 
--The createTag function dynamically creates and inserts HTML elements representing the tags. It removes any existing <li> elements, iterates through the tags array (in reverse order), and generates HTML for each tag with a corresponding removal icon. The HTML is inserted into the <ul> element using insertAdjacentHTML, and the countTags function is called to update the tag count.
+-The createTag function dynamically creates and inserts HTML elements representing the tags. It removes any existing  elements, iterates through the tags array (in reverse order), and generates HTML for each tag with a corresponding removal icon. The HTML is inserted into the  element using insertAdjacentHTML, and the countTags function is called to update the tag count.
   
 -The remove function is called when a tag's removal icon is clicked. It retrieves the index of the tag in the tags array, removes the tag from the array using array slicing, removes the corresponding <li> element from the DOM, and updates the tag count.
   
