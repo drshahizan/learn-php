@@ -25,7 +25,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 
 ## MySQL
 | No  | Topic | Description | File |
-|---|---------- ------------------|------------------------------------------|-------------------------------------|
+|---|----------------------------|------------------------------------------|-------------------------------------|
 |12a| Connecting to MySQL Database Server | In PHP you can easily do this using the mysqli_connect() function. All communication between PHP and the MySQL database server takes place through this connection. | [File](http://localhost/msoWP/DBmysql/lesson/1connect-to-mysql-database-server.php)                       |
 |12b| Closing the MySQL Database Server Connection | The connection to the MySQL database server will be closed automatically as soon as the execution of the script ends. However, if you want to close it earlier you can do this by simply calling the PHP mysqli_close() function. | [File](http://localhost/msoWP/DBmysql/lesson/1connect-to-mysql-database-server.php) |
 |12c| Creating MySQL Database Using PHP | Before saving or accessing the data, we need to create a database first. The CREATE DATABASE statement is used to create a new database in MySQL. Let's make a SQL query using the CREATE DATABASE statement, after that we will execute this SQL query through passing it to the PHP mysqli_query() function to finally create our database. Database: demo1. | [File](http://localhost/msoWP/DBmysql/lesson/3create-mysql-database.php) |
