@@ -8,7 +8,9 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Functions
-
+![JavaScript Basics - Functions](webdev-js-functions.png)
+> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
+> 
 In JavaScript, a function is a block of code that can be executed when it is called. Functions can be defined and called in a variety of ways, making them a fundamental building block of JavaScript programming.
 
 Functions can be defined using the "function" keyword, followed by the function name and a set of parentheses. The body of the function is enclosed in curly braces {} and may contain any number of statements. For example, the following function takes two parameters and returns their sum:
