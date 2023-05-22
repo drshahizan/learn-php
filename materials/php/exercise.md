@@ -96,7 +96,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | 12m | Updating Database Table Data | The `UPDATE statement` is used to change or modify the existing records in a database table. This statement is typically used in conjunction with the `WHERE` clause to apply the changes to only those records that match specific criteria. Database: demo1, table: persons. | [![![File](https://example.com/icon.png)](https://example.com/icon.png)](http://localhost/msoWP/DBmysql/lesson/13mysql-update-query.php) |
 | 12n | Deleting Database Table Data | Just as you insert records into tables, you can delete records from a table using the `SQL DELETE` statement. It is typically used in conjunction with the `WHERE` clause to delete only those records that match specific criteria or condition. Database: demo1, table: persons. | [![![File](https://example.com/icon.png)](https://example.com/icon.png)](http://localhost/msoWP/DBmysql/lesson/14mysql-delete-query.php) |
 
-
+## Chart.JS and Google Charts
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
