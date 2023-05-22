@@ -25,7 +25,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 
 ## Basic
 | Lesson | Topic | Subtopic | Result |
-|---------|---------------------|---------------------------------------|------------------------------------------------------------------------------------------------------------------|
+|---------|---------------------|---------------------------------------|:------:|
 | 02a | Syntax | Basic PHP Syntax |  <a href="http://localhost/exercise/2%20Syntax/Lesson%202a-s.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02b | Syntax | Write a Comment in PHP |  <a href="http://localhost/exercise/2%20Syntax/Lesson%202b-s.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02c | Syntax | PHP Case Sensitivity |  <a href="http://localhost/exercise/2%20Syntax/Lesson%202c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
@@ -68,7 +68,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 ## Forms
 
 | Lesson | Topic | Description | Result |
-| ------ | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------ | -------------------------- | ------------------------------------------------------------------- | :------: |
 | 09a | PHP POST method | Information sent from a form with the POST method is invisible to others and has no limits on the amount of information to send. | <a href="http://localhost/msoWP/form/9post-method.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 09b | PHP GET method | The GET method sends the encoded user information appended to the page request. | <a href="http://localhost/msoWP/form/9get-method.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 09c | PHP $_REQUEST variable | $_REQUEST is an associative array that contains the contents of $_GET, $_POST, and $_COOKIE by default. | <a href="http://localhost/msoWP/form/9request-method.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
@@ -80,7 +80,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 
 ## MySQL
 | Lesson | Topic | Description | Result |
-| --- | --- | --- | --- |
+| --- | --- | --- | :------: |
 | 12a | Connecting to MySQL Database Server | In PHP you can easily do this using the `mysqli_connect()` function. All communication between PHP and the MySQL database server takes place through this connection. |  <a href="http://localhost/msoWP/DBmysql/lesson/1connect-to-mysql-database-server.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 12b | Closing the MySQL Database Server Connection | The connection to the MySQL database server will be closed automatically as soon as the execution of the script ends. However, if you want to close it earlier you can do this by simply calling the PHP `mysqli_close()` function. |  <a href="http://localhost/msoWP/DBmysql/lesson/1connect-to-mysql-database-server.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 12c | Creating MySQL Database Using PHP | Before saving or accessing the data, we need to create a database first. The `CREATE DATABASE` statement is used to create a new database in MySQL. Let's make a SQL query using the `CREATE DATABASE` statement, after that we will execute this SQL query through passing it to the PHP `mysqli_query()` function to finally create our database. Database: demo1. |  <a href="http://localhost/msoWP/DBmysql/lesson/3create-mysql-database.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
@@ -98,7 +98,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 
 ## Chart.JS and Google Charts
 | Lesson | Topic | Description | Result |
-| --- | --- | --- | --- |
+| --- | --- | --- | :------: |
 | 13a | Chart.JS: Bar Chart | Bar charts are created by setting type to bar (to flip the direction of the bars, set type to horizontalBar). The colors of the bars are set by passing one color to backgroundColor (all bars will have the same color), or an array of colors. |  <a href="http://localhost/msoWP/chartjs/1chartjs_bar.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 13b | Chart.JS: Line Chart | Line charts are created by setting type to line. By default, lines come with a dark transparent fill, covering the area between the line and x-axis. |  <a href="http://localhost/msoWP/chartjs/2chartjs_line.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 13c | Chart.JS: Mixed Chart | You can mix several charts and overlay them on top of each other. This is done by setting type to bar (not to e.g. mixed or line—it has to be bar), and then setting the bar type for every dataset object in your datasets array. |  <a href="http://localhost/msoWP/chartjs/3chartjs_mixed.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
