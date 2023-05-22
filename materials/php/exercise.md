@@ -24,60 +24,59 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | 08 | COVID19 Testing Management System |<a href="../../lab/php/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## Basic
-| Lesson  | Topic | Subtopic | Result |
+| Lesson | Topic | Subtopic | Result |
 |---------|---------------------|---------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| 02a     | Syntax              | Basic PHP Syntax                      | [![File](https://example.com/icon.png)](http://localhost/exercise/2%20Syntax/Lesson%202a-s.php)                  |
-| 02b     | Syntax              | Write a Comment in PHP                | [![File](https://example.com/icon.png)](http://localhost/exercise/2%20Syntax/Lesson%202b-s.php)                  |
-| 02c     | Syntax              | PHP Case Sensitivity                  | [![File](https://example.com/icon.png)](http://localhost/exercise/2%20Syntax/Lesson%202c.php)                    |
-| 03a     | Variable            | Creating (Declaring) PHP Variables    | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203a-s.php)                |
-| 03b     | Variable            | PHP Variables Scope: Local & Global   | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203b.php)                  |
-| 03c     | Variable            | PHP Variables Scope: Global           | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203c.php)                  |
-| 03d     | Variable            | PHP Variables Scope: Global           | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203d-s.php)                |
-| 03e     | Variable            | PHP Variables Scope: Static           | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203e.php)                  |
-| 03f-a   | Variable            | PHP Variables Scope: Functions Parameters Scope | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203f-a.php)           |
-| 03f-b   | Variable            | PHP Variables Scope: Functions Parameters Scope | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203f-b.php)           |
-| 03g     | Variable            | PHP Variables: String                 | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203g.php)                  |
-| 03h     | Variable            | PHP Variables: String                 | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203h.php)                  |
-| 04a     | Operators           | Arithmetical Operators                | [![File](https://example.com/icon.png)](http://localhost/exercise/4%20Operators/Lesson%204a.php)                  |
-| 04b     | Operators           | Assignment Operators                  | [![File](https://example.com/icon.png)](http://localhost/exercise/4%20Operators/Lesson%204b.php)                  |
-| 04c     | Operators           | String Operators                      | [![File](https://example.com/icon.png)](http://localhost/exercise/4%20Operators/Lesson%204c.php)                  |
- 04d    | Operators            | Comparison Operators                    | [![File](http://localhost/exercise/4%20Operators/Lesson%204d.php)](http://localhost/exercise/4%20Operators/Lesson%204d.php) |
-| 04e    | Operators            | PHP Incrementing/Decrementing Operators  | [![File](http://localhost/exercise/4%20Operators/Lesson%204e.php)](http://localhost/exercise/4%20Operators/Lesson%204e.php) |
-| 04f    | Operators            | Logical Operators                       | [![File](http://localhost/exercise/4%20Operators/Lesson%204f.php)](http://localhost/exercise/4%20Operators/Lesson%204f.php) |
-| 04g    | Operators            | Conditional Operators                   | [![File](http://localhost/exercise/4%20Operators/Lesson%204g.php)](http://localhost/exercise/4%20Operators/Lesson%204g.php) |
-| 05a    | Conditional Statement | if statement                            | [![File](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205a.php)](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205a.php) |
-| 05b    | Conditional Statement | if else statement                       | [![File](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205b.php)](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205b.php) |
-| 05c    | Conditional Statement | if else if statement                    | [![File](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205c.php)](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205c.php) |
-| 05d    | Conditional Statement | Switch statement                        | [![File](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205d.php)](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205d.php) |
-| 06a    | Loop                 | The for Loop                            | [![File](http://localhost/exercise/6%20Loop/Lesson%206a.php)](http://localhost/exercise/6%20Loop/Lesson%206a.php) |
-| 06b    | Loop                 | The While Loop                          | [![File](http://localhost/exercise/6%20Loop/Lesson%206b.php)](http://localhost/exercise/6%20Loop/Lesson%206b.php) |
-| 06c    | Loop                 | The do....While Loop                    | [![File](http://localhost/exercise/6%20Loop/Lesson%206c.php)](http://localhost/exercise/6%20Loop/Lesson%206c.php) |
-| 06d    | Loop                 | The foreach Loop                        | [![File](http://localhost/exercise/6%20Loop/Lesson%206d.php)](http://localhost/exercise/6%20Loop/Lesson%206d.php) |
-| 07a    | Array                | Numeric or Indexed Array                 | [![File](http://localhost/exercise/7%20Array/Lesson%207a.php)](http://localhost/exercise/7%20Array/Lesson%207a.php) |
-| 07b    | Array                | Get The Length of an Array               | [![File](http://localhost/exercise/7%20Array/Lesson%207b.php)](http://localhost/exercise/7%20Array/Lesson%207b.php) |
-| 07c    | Array                | Loop Through an Indexed Array            | [![File](http://localhost/exercise/7%20Array/Lesson%207c.php)](http://localhost/exercise/7%20Array/Lesson%207c.php) |
-| 07d    | Array                | Associate array or Hash Array            | [![File](http://localhost/exercise/7%20Array/Lesson%207d.php)](http://localhost/exercise/7%20Array/Lesson%207d.php) |
-| 07e    | Array                | Loop Through an Associative Array        | [![File](http://localhost/exercise/7%20Array/Lesson%207e.php)](http://localhost/exercise/7%20Array/Lesson%207e.php) |
-| 07f    | Array                | Multidimensional Array                   | [![File](http://localhost/exercise/7%20Array/Lesson%207f.php)](http://localhost/exercise/7%20Array/Lesson%207f.php) |
-| 07g    | Array                | Sort(), rsort() function Array           | [![File](http://localhost/exercise/7%20Array/Lesson%207g.php)](http://localhost/exercise/7%20Array/Lesson%207g.php) |
-| 07h    | Array                | asort(), ksort() function Array          | [![File](http://localhost/exercise/7%20Array/Lesson%207h.php)](http://localhost/exercise/7%20Array/Lesson%207h.php) |
-| 08a    | Function             | Writing PHP Function                     | [![File](http://localhost/exercise/8%20Function/Lesson%208a.php)](http://localhost/exercise/8%20Function/Lesson%208a.php) |
-| 08b    | Function             | Writing PHP Function with Parameters     | [![File](http://localhost/exercise/8%20Function/Lesson%208b.php)](http://localhost/exercise/8%20Function/Lesson%208b.php) |
-| 08c    | Function             | Writing PHP Function which returns value | [![File](http://localhost/exercise/8%20Function/Lesson%208c.php)](http://localhost/exercise/8%20Function/Lesson%208c.php) |
+| 02a | Syntax | Basic PHP Syntax | [![File](https://example.com/icon.png)](http://localhost/exercise/2%20Syntax/Lesson%202a-s.php) |
+| 02b | Syntax | Write a Comment in PHP | [![File](https://example.com/icon.png)](http://localhost/exercise/2%20Syntax/Lesson%202b-s.php) |
+| 02c | Syntax | PHP Case Sensitivity | [![File](https://example.com/icon.png)](http://localhost/exercise/2%20Syntax/Lesson%202c.php) |
+| 03a | Variable | Creating (Declaring) PHP Variables | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203a-s.php) |
+| 03b | Variable | PHP Variables Scope: Local & Global | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203b.php) |
+| 03c | Variable | PHP Variables Scope: Global | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203c.php) |
+| 03d | Variable | PHP Variables Scope: Global | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203d-s.php) |
+| 03e | Variable | PHP Variables Scope: Static | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203e.php) |
+| 03f-a | Variable | PHP Variables Scope: Functions Parameters Scope | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203f-a.php) |
+| 03f-b | Variable | PHP Variables Scope: Functions Parameters Scope | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203f-b.php) |
+| 03g | Variable | PHP Variables: String | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203g.php) |
+| 03h | Variable | PHP Variables: String | [![File](https://example.com/icon.png)](http://localhost/exercise/3%20Variable/Lesson%203h.php) |
+| 04a | Operators | Arithmetical Operators | [![File](https://example.com/icon.png)](http://localhost/exercise/4%20Operators/Lesson%204a.php) |
+| 04b | Operators | Assignment Operators | [![File](https://example.com/icon.png)](http://localhost/exercise/4%20Operators/Lesson%204b.php) |
+| 04c | Operators | String Operators | [![File](https://example.com/icon.png)](http://localhost/exercise/4%20Operators/Lesson%204c.php) |
+ 04d | Operators | Comparison Operators | [![File](http://localhost/exercise/4%20Operators/Lesson%204d.php)](http://localhost/exercise/4%20Operators/Lesson%204d.php) |
+| 04e | Operators | PHP Incrementing/Decrementing Operators | [![File](http://localhost/exercise/4%20Operators/Lesson%204e.php)](http://localhost/exercise/4%20Operators/Lesson%204e.php) |
+| 04f | Operators | Logical Operators | [![File](http://localhost/exercise/4%20Operators/Lesson%204f.php)](http://localhost/exercise/4%20Operators/Lesson%204f.php) |
+| 04g | Operators | Conditional Operators | [![File](http://localhost/exercise/4%20Operators/Lesson%204g.php)](http://localhost/exercise/4%20Operators/Lesson%204g.php) |
+| 05a | Conditional Statement | if statement | [![File](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205a.php)](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205a.php) |
+| 05b | Conditional Statement | if else statement | [![File](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205b.php)](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205b.php) |
+| 05c | Conditional Statement | if else if statement | [![File](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205c.php)](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205c.php) |
+| 05d | Conditional Statement | Switch statement | [![File](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205d.php)](http://localhost/exercise/5%20Conditional%20Statement/Lesson%205d.php) |
+| 06a | Loop | The for Loop | [![File](http://localhost/exercise/6%20Loop/Lesson%206a.php)](http://localhost/exercise/6%20Loop/Lesson%206a.php) |
+| 06b | Loop | The While Loop | [![File](http://localhost/exercise/6%20Loop/Lesson%206b.php)](http://localhost/exercise/6%20Loop/Lesson%206b.php) |
+| 06c | Loop | The do....While Loop | [![File](http://localhost/exercise/6%20Loop/Lesson%206c.php)](http://localhost/exercise/6%20Loop/Lesson%206c.php) |
+| 06d | Loop | The foreach Loop | [![File](http://localhost/exercise/6%20Loop/Lesson%206d.php)](http://localhost/exercise/6%20Loop/Lesson%206d.php) |
+| 07a | Array | Numeric or Indexed Array | [![File](http://localhost/exercise/7%20Array/Lesson%207a.php)](http://localhost/exercise/7%20Array/Lesson%207a.php) |
+| 07b | Array | Get The Length of an Array | [![File](http://localhost/exercise/7%20Array/Lesson%207b.php)](http://localhost/exercise/7%20Array/Lesson%207b.php) |
+| 07c | Array | Loop Through an Indexed Array | [![File](http://localhost/exercise/7%20Array/Lesson%207c.php)](http://localhost/exercise/7%20Array/Lesson%207c.php) |
+| 07d | Array | Associate array or Hash Array | [![File](http://localhost/exercise/7%20Array/Lesson%207d.php)](http://localhost/exercise/7%20Array/Lesson%207d.php) |
+| 07e | Array | Loop Through an Associative Array | [![File](http://localhost/exercise/7%20Array/Lesson%207e.php)](http://localhost/exercise/7%20Array/Lesson%207e.php) |
+| 07f | Array | Multidimensional Array | [![File](http://localhost/exercise/7%20Array/Lesson%207f.php)](http://localhost/exercise/7%20Array/Lesson%207f.php) |
+| 07g | Array | Sort(), rsort() function Array | [![File](http://localhost/exercise/7%20Array/Lesson%207g.php)](http://localhost/exercise/7%20Array/Lesson%207g.php) |
+| 07h | Array | asort(), ksort() function Array | [![File](http://localhost/exercise/7%20Array/Lesson%207h.php)](http://localhost/exercise/7%20Array/Lesson%207h.php) |
+| 08a | Function | Writing PHP Function | [![File](http://localhost/exercise/8%20Function/Lesson%208a.php)](http://localhost/exercise/8%20Function/Lesson%208a.php) |
+| 08b | Function | Writing PHP Function with Parameters | [![File](http://localhost/exercise/8%20Function/Lesson%208b.php)](http://localhost/exercise/8%20Function/Lesson%208b.php) |
+| 08c | Function | Writing PHP Function which returns value | [![File](http://localhost/exercise/8%20Function/Lesson%208c.php)](http://localhost/exercise/8%20Function/Lesson%208c.php) |
 
 ## Forms
 
-| Lesson | Topic                      | Description                                                                                                                                                  | Result                                                                                                                                                             |
+| Lesson | Topic | Description | Result |
 | ------ | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 09a    | PHP POST method            | Information sent from a form with the POST method is invisible to others and has no limits on the amount of information to send.                               | [![File](http://localhost/msoWP/form/9post-method.php)](http://localhost/msoWP/form/9post-method.php)                                                             |
-| 09b    | PHP GET method             | The GET method sends the encoded user information appended to the page request.                                                                             | [![File](http://localhost/msoWP/form/9get-method.php)](http://localhost/msoWP/form/9get-method.php)                                                               |
-| 09c    | PHP $_REQUEST variable     | $_REQUEST is an associative array that contains the contents of $_GET, $_POST, and $_COOKIE by default.                                                     | [![File](http://localhost/msoWP/form/9request-method.php)](http://localhost/msoWP/form/9request-method.php)                                                       |
-| 09d    | Sanitizing and Validating  | Sanitization and validation of form fields using PHP have become important aspects of security.                                                              | [![File](http://localhost/msoWP/form/9phpValidationExer.php)](http://localhost/msoWP/form/9phpValidationExer.php)                                                 |
-|        | Form Data                  |                                                                                                                                                              |                                                                                                                                                                    |
-| 09e    | Supply Order Form          | This lesson demonstrates how to use PHP to retrieve information from forms.                                                                                    | [![File](http://localhost/msoWP/form/12OrderForm.php)](http://localhost/msoWP/form/12OrderForm.php)                                                               |
-| 09f    | Contact Form               | In this tutorial, you will learn how to create a simple contact form using PHP to collect comments and feedback and display them in the browser.                  | [![File](http://localhost/msoWP/form/13contact-form.php)](http://localhost/msoWP/form/13contact-form.php)                                                         |
-| 10     | File Upload                | This tutorial covers how to upload files to a remote server using a simple HTML form and PHP. You can upload various file types, including images, videos, and documents. | [![File](http://localhost/msoWP/form/10file-upload-form.php)](http://localhost/msoWP/form/10file-upload-form.php)                                                 |
-| 11     | Include files              | Including files can be useful when multiple pages on your website share common parts, such as headers or footers.                                            | [![File](http://localhost/msoWP/form/11include-files.php)](http://localhost/msoWP/form/11include-files.php)                                                       |
+| 09a | PHP POST method | Information sent from a form with the POST method is invisible to others and has no limits on the amount of information to send. | [![File](http://localhost/msoWP/form/9post-method.php)](http://localhost/msoWP/form/9post-method.php) |
+| 09b | PHP GET method | The GET method sends the encoded user information appended to the page request. | [![File](http://localhost/msoWP/form/9get-method.php)](http://localhost/msoWP/form/9get-method.php) |
+| 09c | PHP $_REQUEST variable | $_REQUEST is an associative array that contains the contents of $_GET, $_POST, and $_COOKIE by default. | [![File](http://localhost/msoWP/form/9request-method.php)](http://localhost/msoWP/form/9request-method.php) |
+| 09d | Sanitizing and Validating Form Data | Sanitization and validation of form fields using PHP have become important aspects of security. | [![File](http://localhost/msoWP/form/9phpValidationExer.php)](http://localhost/msoWP/form/9phpValidationExer.php) |
+| 09e | Supply Order Form | This lesson demonstrates how to use PHP to retrieve information from forms. | [![File](http://localhost/msoWP/form/12OrderForm.php)](http://localhost/msoWP/form/12OrderForm.php) |
+| 09f | Contact Form | In this tutorial, you will learn how to create a simple contact form using PHP to collect comments and feedback and display them in the browser. | [![File](http://localhost/msoWP/form/13contact-form.php)](http://localhost/msoWP/form/13contact-form.php) |
+| 10 | File Upload | This tutorial covers how to upload files to a remote server using a simple HTML form and PHP. You can upload various file types, including images, videos, and documents. | [![File](http://localhost/msoWP/form/10file-upload-form.php)](http://localhost/msoWP/form/10file-upload-form.php) |
+| 11 | Include files | Including files can be useful when multiple pages on your website share common parts, such as headers or footers. | [![File](http://localhost/msoWP/form/11include-files.php)](http://localhost/msoWP/form/11include-files.php) |
 
 ## MySQL
 | Lesson | Topic | Description | Result |
