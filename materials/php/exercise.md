@@ -70,7 +70,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | Lesson | Topic | Description | Result |
 | ------ | -------------------------- | ------------------------------------------------------------------- | :------: |
 | 09a | PHP POST method | Information sent from a form with the POST method is invisible to others and has no limits on the amount of information to send. | <a href="http://localhost/msoWP/form/9post-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
-| 09b | PHP GET method | The GET method sends the encoded user information appended to the page request. | <a href="http://localhost/msoWP/form/9get-method.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 09b | PHP GET method | The GET method sends the encoded user information appended to the page request. | <a href="http://localhost/msoWP/form/9get-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
 | 09c | PHP $_REQUEST variable | $_REQUEST is an associative array that contains the contents of $_GET, $_POST, and $_COOKIE by default. | <a href="http://localhost/msoWP/form/9request-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
 | 09d | Sanitizing and Validating Form Data | Sanitization and validation of form fields using PHP have become important aspects of security. | <a href="http://localhost/msoWP/form/9phpValidationExer.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
 | 09e | Supply Order Form | This lesson demonstrates how to use PHP to retrieve information from forms. | <a href="http://localhost/msoWP/form/12OrderForm.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
