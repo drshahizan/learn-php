@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <!--
+Name: AMMAR IBRAHIM BIN MOHAMED
+Matrix No: SC220326ECJHS04
+Github id: ammaribrahim95
+
+Project 1: Personal Portfolio Website
+-->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      section {
+        margin-bottom: 30px;
+      }
+
+      .intro {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .intro img {
+        border-radius: 50%;
+        width: 200px;
+        height: 250px;
+      }
+
+      .intro h1 {
+        margin-bottom: 10px;
+      }
+
+      .intro p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.5;
+      }
+
+      .intro button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .intro button:hover {
+        background-color: #555;
+      }
+
+      .skills ul {
+        list-style: square;
+        padding: 0;
+      }
+
+      .skills li {
+        margin-bottom: 10px;
+      }
+
+      .experience .timeline {
+        position: relative;
+        margin-top: 30px;
+        padding: 0;
+      }
+
+      .experience .timeline li {
+        position: relative;
+        margin-bottom: 30px;
+      }
+
+      .experience .timeline .date {
+        font-size: 14px;
+        color: #999;
+        margin-bottom: 10px;
+      }
+
+      .experience .timeline .content {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .contact form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      .contact input[type="text"],
+      .contact input[type="email"],
+      .contact textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      .contact textarea {
+        height: 100px;
+      }
+
+      .contact input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .contact input[type="submit"]:hover {
+        background-color: #555;
+      }
+      a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <div class="container">
+      <section class="intro">
+        <img src="profilepic.jpg" alt="Profile Picture" />
+        <h1>Ammar Ibrahim bin Mohamed</h1>
+        <p>Bachelor of Computer Science (Software Engineering)</p>
+        <button><a href="#contact">Contact Me</a></button>
+        <br>
+        <p>Hi! My name is <b>Ammar Ibrahim</b> and I am currently studying Bachelor of Computer Science (Software Engineering) at <i>University Tecknologi Malaysia.</i> </p>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Java</li>
+        </ul>
+      </section>
+
+      <section class="experience">
+        <h2>Experience</h2>
+        <ul class="timeline">
+          <li>
+            <span class="date">October 2022 - April 2023</span>
+            <div class="content">
+              <h3>Technical Service Assistant</h3>
+              <p>Electrolux Malaysia</p>
+            </div>
+          </li>
+          <li>
+            <span class="date">July 2022 - September 2022</span>
+            <div class="content">
+              <h3>Junior Engineer</h3>
+              <p>Alpha Technic Automation Sdn Bhd</p>
+            </div>
+          </li>
+          <li>
+            <span class="date">December 2021 - June 2022</span>
+            <div class="content">
+              <h3>Intern</h3>
+              <p>Alpha Technic Automation Sdn Bhd</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message" />
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
