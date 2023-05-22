@@ -54,9 +54,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | 06c    | Loop                 | The do....While Loop                    | [![File](http://localhost/exercise/6%20Loop/Lesson%206c.php)](http://localhost/exercise/6%20Loop/Lesson%206c.php) |
 | 06d    | Loop                 | The foreach Loop                        | [![File](http://localhost/exercise/6%20Loop/Lesson%206d.php)](http://localhost/exercise/6%20Loop/Lesson%206d.php) |
 | 07a    | Array                | Numeric or Indexed Array                 | [![File](http://localhost/exercise/7%20Array/Lesson%207a.php)](http://localhost/exercise/7%20Array/Lesson%207a.php) |
-|
-
- 07b    | Array                | Get The Length of an Array               | [![File](http://localhost/exercise/7%20Array/Lesson%207b.php)](http://localhost/exercise/7%20Array/Lesson%207b.php) |
+| 07b    | Array                | Get The Length of an Array               | [![File](http://localhost/exercise/7%20Array/Lesson%207b.php)](http://localhost/exercise/7%20Array/Lesson%207b.php) |
 | 07c    | Array                | Loop Through an Indexed Array            | [![File](http://localhost/exercise/7%20Array/Lesson%207c.php)](http://localhost/exercise/7%20Array/Lesson%207c.php) |
 | 07d    | Array                | Associate array or Hash Array            | [![File](http://localhost/exercise/7%20Array/Lesson%207d.php)](http://localhost/exercise/7%20Array/Lesson%207d.php) |
 | 07e    | Array                | Loop Through an Associative Array        | [![File](http://localhost/exercise/7%20Array/Lesson%207e.php)](http://localhost/exercise/7%20Array/Lesson%207e.php) |
