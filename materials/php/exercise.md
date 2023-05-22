@@ -23,6 +23,8 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | 07 | Hospital Management System |<a href="../../lab/php/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 08 | COVID19 Testing Management System |<a href="../../lab/php/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
+## Basic
+
 ## MySQL
 | No  | Topic | Description | File |
 |---|----------------------------|------------------------------------------|-------------------------------------|
