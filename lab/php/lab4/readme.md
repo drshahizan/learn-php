@@ -7,9 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Certainly! Here are the instructions in a Markdown format:
-
-## Downloading and Placing "msoWP" and "exercise" Folders in htdocs
+# Downloading and Placing "msoWP" and "exercise" Folders in htdocs
 
 This step-by-step guide will walk you through the process of downloading the "phpweb.zip" file, extracting its contents, and placing the "msoWP" and "exercise" folders into the "htdocs" folder. These folders contain PHP and MySQL code, including basic syntax, charts, and CRUD (Create, Read, Update, Delete) functionality. By following these instructions, you will be able to set up and access the PHP files and code within these folders on your local web server.
 
