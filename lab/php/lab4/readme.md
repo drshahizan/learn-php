@@ -29,7 +29,19 @@ This step-by-step guide will walk you through the process of downloading the "ph
 - Next, copy the "msoWP" folder from the extracted "phpweb" folder.
 - Paste the "msoWP" folder into the "htdocs" folder.
 
-After completing these steps, both the "msoWP" and "exercise" folders will be successfully placed inside the "htdocs" folder on your web server. You can now access the PHP files and code within these folders by using your web server's local address.
+A visual representation of the folder structure for the "htdocs" directory with the "msoWP" and "exercise" folders:
+
+```
+📁htdocs/
+├── 📁msoWP/
+│   ├── [msoWP files and subfolders]
+│   └── ...
+└── 📁exercise/
+    ├── [exercise files and subfolders]
+    └── ...
+```
+
+>In the above structure, the "htdocs" folder is the root directory. Inside it, there are two main folders: "msoWP" and "exercise". These folders contain their respective files and any subfolders you may have within them.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
