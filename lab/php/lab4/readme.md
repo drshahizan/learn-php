@@ -14,7 +14,7 @@ This step-by-step guide will walk you through the process of downloading the "ph
 ### Instructions
 
 **Step 1: Downloading the 💾 [phpweb.zip](download/phpweb.zip) file**
-- Go to the download location of the "phpweb.zip" file.
+- Download 💾 [phpweb.zip](download/phpweb.zip) file.
 - Click on the download link to initiate the download.
 
 **Step 2: Extracting the contents of the "phpweb.zip" file**
