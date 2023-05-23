@@ -32,13 +32,15 @@ This step-by-step guide will walk you through the process of downloading the "ph
 A visual representation of the folder structure for the "htdocs" directory with the "msoWP" and "exercise" folders:
 
 ```
-📁htdocs/
-├── 📁msoWP/
-│   ├── [msoWP files and subfolders]
-│   └── ...
-└── 📁exercise/
-    ├── [exercise files and subfolders]
-    └── ...
+📁XAMPP/
+├── 📁[Other XAMPP folders]
+└── 📁htdocs/
+    ├── 📁msoWP/
+    │   ├── [msoWP files and subfolders]
+    │   └── ...
+    └── 📁exercise/
+        ├── [exercise files and subfolders]
+        └── ...
 ```
 
 >In the above structure, the "htdocs" folder is the root directory. Inside it, there are two main folders: "msoWP" and "exercise". These folders contain their respective files and any subfolders you may have within them.
