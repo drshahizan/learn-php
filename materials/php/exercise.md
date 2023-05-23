@@ -17,7 +17,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | 01 | How to Install XAMPP Server on Windows 11 |<a href="../../lab/php/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 02 | PHP Intelephense and PHP Server |<a href="../../lab/php/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
 | 03 | How to run PHP on Visual Studio Code |<a href="../../lab/php/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04 | PHP & MySQL source code |<a href="../../lab/php/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 04 | Downloading and Placing `msoWP` and `exercise` Folders in htdocs |<a href="../../lab/php/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 05 | MySQL & image |<a href="../../lab/php/lab5/crudimage.zip" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 06 | Tourism Management System |<a href="../../lab/php/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07 | Hospital Management System |<a href="../../lab/php/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
@@ -45,22 +45,22 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | 04e | Operators | PHP Incrementing/Decrementing Operators | <a href="http://localhost/exercise/4%20Operators/Lesson%204e.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04f | Operators | Logical Operators | <a href="http://localhost/exercise/4%20Operators/Lesson%204f.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04g | Operators | Conditional Operators | <a href="http://localhost/exercise/4%20Operators/Lesson%204g.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05a | Conditional Statement | if statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05b | Conditional Statement | if else statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05c | Conditional Statement | if else if statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05a | Conditional Statement | `if statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05b | Conditional Statement | `if else` statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05c | Conditional Statement | `if else if` statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 05d | Conditional Statement | Switch statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205d.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06a | Loop | The for Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06b | Loop | The While Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06c | Loop | The do....While Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06d | Loop | The foreach Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206d.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06a | Loop | The `for` Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06b | Loop | The `While` Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06c | Loop | The `do....While` Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06d | Loop | The `foreach` Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206d.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07a | Array | Numeric or Indexed Array | <a href="http://localhost/exercise/7%20Array/Lesson%207a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07b | Array | Get The Length of an Array | <a href="http://localhost/exercise/7%20Array/Lesson%207b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07c | Array | Loop Through an Indexed Array | <a href="http://localhost/exercise/7%20Array/Lesson%207c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07d | Array | Associate array or Hash Array | <a href="http://localhost/exercise/7%20Array/Lesson%207d.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07e | Array | Loop Through an Associative Array | <a href="http://localhost/exercise/7%20Array/Lesson%207e.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07f | Array | Multidimensional Array | <a href="http://localhost/exercise/7%20Array/Lesson%207f.php)](http://localhost/exercise/7%20Array/Lesson%207f.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07g | Array | Sort(), rsort() function Array | <a href="http://localhost/exercise/7%20Array/Lesson%207g.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07h | Array | asort(), ksort() function Array | <a href="http://localhost/exercise/7%20Array/Lesson%207h.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07g | Array | `Sort()`, `rsort()` function Array | <a href="http://localhost/exercise/7%20Array/Lesson%207g.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 07h | Array | `asort()`, `ksort()` function Array | <a href="http://localhost/exercise/7%20Array/Lesson%207h.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 08a | Function | Writing PHP Function | <a href="http://localhost/exercise/8%20Function/Lesson%208a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 08b | Function | Writing PHP Function with Parameters | <a href="http://localhost/exercise/8%20Function/Lesson%208b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 08c | Function | Writing PHP Function which returns value | <a href="http://localhost/exercise/8%20Function/Lesson%208c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
@@ -71,7 +71,7 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | ------ | -------------------------- | ------------------------------------------------------------------- | :------: |
 | 09a | PHP POST method | Information sent from a form with the POST method is invisible to others and has no limits on the amount of information to send. | <a href="http://localhost/msoWP/form/9post-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
 | 09b | PHP GET method | The GET method sends the encoded user information appended to the page request. | <a href="http://localhost/msoWP/form/9get-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
-| 09c | PHP $_REQUEST variable | $_REQUEST is an associative array that contains the contents of $_GET, $_POST, and $_COOKIE by default. | <a href="http://localhost/msoWP/form/9request-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
+| 09c | PHP `$_REQUEST` variable | `$_REQUEST` is an associative array that contains the contents of `$_GET`, `$_POST`, and `$_COOKIE` by default. | <a href="http://localhost/msoWP/form/9request-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
 | 09d | Sanitizing and Validating Form Data | Sanitization and validation of form fields using PHP have become important aspects of security. | <a href="http://localhost/msoWP/form/9phpValidationExer.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
 | 09e | Supply Order Form | This lesson demonstrates how to use PHP to retrieve information from forms. | <a href="http://localhost/msoWP/form/12OrderForm.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
 | 09f | Contact Form | In this tutorial, you will learn how to create a simple contact form using PHP to collect comments and feedback and display them in the browser. | <a href="http://localhost/msoWP/form/13contact-form.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
