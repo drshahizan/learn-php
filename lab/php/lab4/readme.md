@@ -7,21 +7,31 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Fluid Grid
+# Certainly! Here are the instructions in a Markdown format:
 
-The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
+## Downloading and Placing "msoWP" and "exercise" Folders in htdocs
 
-- Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
-- Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
+This step-by-step guide will walk you through the process of downloading the "phpweb.zip" file, extracting its contents, and placing the "msoWP" and "exercise" folders into the "htdocs" folder. These folders contain PHP and MySQL code, including basic syntax, charts, and CRUD (Create, Read, Update, Delete) functionality. By following these instructions, you will be able to set up and access the PHP files and code within these folders on your local web server.
 
-<img src="./download/grid.gif" width="800" />
+### Instructions
 
+**Step 1: Downloading the "phpweb.zip" file**
+- Go to the download location of the "phpweb.zip" file.
+- Click on the download link to initiate the download.
 
-Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
+**Step 2: Extracting the contents of the "phpweb.zip" file**
+- Locate the downloaded "phpweb.zip" file on your computer.
+- Right-click on the file and select "Extract All" or use a file extraction software of your choice.
+- This will create a folder named "phpweb" containing the "exercise" and "msoWP" folders.
 
-Play around with changing the styling (fonts, colors) by editing grid.css.
+**Step 3: Placing the "msoWP" and "exercise" folders in htdocs**
+- Open your file explorer and navigate to the "htdocs" folder. The "htdocs" folder is typically located in the root directory of your web server.
+- Copy the "exercise" folder from the extracted "phpweb" folder.
+- Paste the "exercise" folder into the "htdocs" folder.
+- Next, copy the "msoWP" folder from the extracted "phpweb" folder.
+- Paste the "msoWP" folder into the "htdocs" folder.
 
-Or play around with adding more components!
+After completing these steps, both the "msoWP" and "exercise" folders will be successfully placed inside the "htdocs" folder on your web server. You can now access the PHP files and code within these folders by using your web server's local address.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
