@@ -43,7 +43,7 @@ A visual representation of the folder structure for the "htdocs" directory with 
         └── ...
 ```
 
->In the above structure, the "htdocs" folder is the root directory. Inside it, there are two main folders: "msoWP" and "exercise". These folders contain their respective files and any subfolders you may have within them.
+>In the above structure, the "XAMPP" directory represents the root directory of XAMPP. Inside the "XAMPP" directory, there is the "htdocs" folder. Within the "htdocs" folder, there are two main folders: "msoWP" and "exercise". These folders contain their respective files and any subfolders you may have within them.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
