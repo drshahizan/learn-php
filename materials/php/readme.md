@@ -45,7 +45,7 @@ A table outlining some key topics to learn PHP and MySQL step by step for beginn
 
 | Step | Topic                                                   |
 |:----:|---------------------------------------------------------|
-| 1 | Introduction to PHP and MySQL syntax and installation    |
+| 1 | [Introduction to PHP and MySQL syntax and installation](mod02/01.md)    |
 | 2 | Setting up a development environment with PHP and MySQL  |
 | 3 | Creating a database for the registration system          |
 | 4 | Building a user registration and login system            |
