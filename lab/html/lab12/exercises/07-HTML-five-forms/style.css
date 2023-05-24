@@ -1,0 +1,27 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 10px 0;
+	font-weight: 800;
+}
+labels {
+	font-weight: 400;
+}
+input[type="text"],
+input[type="tel"],
+input[type="url"] {
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 16px;
+}
+input[type="submit"] {
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	background-color: #f65252;
+	color: white;
+	width: 100%;
+}

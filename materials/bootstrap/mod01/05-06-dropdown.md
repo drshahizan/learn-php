@@ -69,8 +69,8 @@ Bootstrap provides many options and styles to customize Dropdowns, such as sizin
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#home"
-              >Home <span class="sr-only">(current)</span></a
+            <a class="nav-link" href="#ホーム"
+              >ホーム <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
@@ -101,7 +101,7 @@ Bootstrap provides many options and styles to customize Dropdowns, such as sizin
       </div>
     </nav>
 
-    <div class="container-fluid" id="home">
+    <div class="container-fluid" id="ホーム">
       <h1>Welcome to the University Academic Course Registration System</h1>
       <p>
         This is a system designed to make course registration for students at

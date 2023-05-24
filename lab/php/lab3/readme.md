@@ -17,7 +17,7 @@ This lab exercise will introduce you to PHP files. Make sure you have XAMPP inst
 
 **Figure 1.1**: PHP
 
-Please download the [phpweb.zip](https://elearning.utm.my/21222/draftfile.php/78793/user/draft/333303570/phpweb.zip) PHP source code file. When you unzip this file, you will see two folders: `exercise` and `msoWP`. This file should be placed in the `XAMPP/htdocs` folder. You will be using the `exercise` folder (Figure 1.2) in this exercise lab.
+Please download the [phpweb.zip](download/phpweb.zip) PHP source code file. When you unzip this file, you will see two folders: `exercise` and `msoWP`. This file should be placed in the `XAMPP/htdocs` folder. You will be using the `exercise` folder (Figure 1.2) in this exercise lab.
 
 <img src="./download/lab3-2.png"  width="300" />
 
