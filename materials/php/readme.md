@@ -45,9 +45,9 @@ A table outlining some key topics to learn PHP and MySQL step by step for beginn
 
 | Step | Topic                                                   |
 |:----:|---------------------------------------------------------|
-| 1 | [Introduction to PHP and MySQL syntax and installation](mod02/01.md) |
-| 2 | [Setting up a development environment with PHP and MySQL](mod02/02.md) |
-| 3 | [Creating a database for the registration system](mod02/03.md) |
+| 1 | Introduction to PHP and MySQL syntax and installation |
+| 2 | Setting up a development environment with PHP and MySQL |
+| 3 | Creating a database for the registration system |
 | 4 | Building a user registration and login system            |
 | 5 | Implementing user roles and permissions                  |
 | 6 | Creating course and instructor tables in the database    |
@@ -64,16 +64,16 @@ These are the key steps to building a university academic course registration sy
 
 | Step | Topic | Description |
 |:----:|------|------|
-| 1 | Setting up the development environment | Install and configure a web server, PHP, and MySQL on your local machine or a web hosting service.|
-| 2 | Creating a database for the registration system | Use PHPMyAdmin or other tools to create a MySQL database and define the necessary tables and relationships. Tables may include students, instructors, courses, course schedules, etc.|
-| 3 | Building a user registration and login system | Allow users to register for accounts and login to the system securely.|
-| 4 | Implementing user roles and permissions | Define different user roles, such as students, instructors, and administrators, and assign appropriate permissions for each role.|
-| 5 | Creating course and instructor tables in the database | Define the necessary database tables for courses, instructors, and other related information.|
-| 6 | Building a course registration form for students | Allow students to search for and register for courses through a user-friendly form. The form should validate user inputs and display available courses. |
-| 7 | Implementing a course search feature | Allow students to search for courses by various criteria, such as subject, instructor, and time slot.|
-| 8 | Creating a dashboard for administrators | Provide administrators with a dashboard that allows them to manage courses, students, and other system settings. The dashboard should have an easy-to-use interface to add new courses, edit existing courses, and view student enrollment.|
-| 9 | Implementing a grade tracking system for instructors | Allow instructors to manage and track student grades and attendance for their courses. The system should allow instructors to input grades for each assignment or exam and display grades to students.|
-| 10 | Building an email notification system for course updates and changes |Notify students about course updates, cancellations, or changes. The system should send automated emails to students who are registered in the course.|
+| 1 | [Setting up the development environment](mod02/01.md) | Install and configure a web server, PHP, and MySQL on your local machine or a web hosting service.|
+| 2 | [Creating a database for the registration system](mod02/02.md) | Use PHPMyAdmin or other tools to create a MySQL database and define the necessary tables and relationships. Tables may include students, instructors, courses, course schedules, etc.|
+| 3 | [Building a user registration and login system](mod02/03.md) | Allow users to register for accounts and login to the system securely.|
+| 4 | [Implementing user roles and permissions](mod02/04.md) | Define different user roles, such as students, instructors, and administrators, and assign appropriate permissions for each role.|
+| 5 | [Creating course and instructor tables in the database](mod02/05.md) | Define the necessary database tables for courses, instructors, and other related information.|
+| 6 | [Building a course registration form for students](mod02/06.md) | Allow students to search for and register for courses through a user-friendly form. The form should validate user inputs and display available courses. |
+| 7 | [Implementing a course search feature](mod02/07.md) | Allow students to search for courses by various criteria, such as subject, instructor, and time slot.|
+| 8 | [Creating a dashboard for administrators](mod02/08.md) | Provide administrators with a dashboard that allows them to manage courses, students, and other system settings. The dashboard should have an easy-to-use interface to add new courses, edit existing courses, and view student enrollment.|
+| 9 | [Implementing a grade tracking system for instructors](mod02/09.md) | Allow instructors to manage and track student grades and attendance for their courses. The system should allow instructors to input grades for each assignment or exam and display grades to students.|
+| 10 | [Building an email notification system for course updates and changes](mod02/10.md) |Notify students about course updates, cancellations, or changes. The system should send automated emails to students who are registered in the course.|
 
 ## Additional Notes
 - [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/index.html)
