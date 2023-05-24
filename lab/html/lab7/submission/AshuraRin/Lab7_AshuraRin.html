@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Lab 7</title>
+
+    <!--
+        Name     : Muhammad Faiz Fitri 
+        Matrix No: SX220354ECJHS04
+        Gitdub id: AshuraRin
+        Lab 7-->
+</head>
+
+<body>
+    <h2>Web Programming: Time Table</h2>
+    <table>
+        <tr>
+            <th>Day/Period</th>
+            <th>I<br> 9:30-10:20</th>
+            <th>II<br> 10:20-11:10</th>
+            <th>III<br> 10:20-11:10</th>
+            <th>12:40-1:30</th>
+            <th>IV<br> 12:40-1:30</th>
+            <th>V<br> 1:30-2:20</th>
+            <th>VI<br> 2:20-3:10</th>
+            <th>VII<br> 3:10-4:00</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Eng</td>
+            <td>Matd</td>
+            <td>Che</td>
+            <td rowspan="5" class="lunch">LUNCH</td>
+            <td colspan="3" class="lab">LAB</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="3" class="lab">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Matd</td>
+            <td class="sports">Sport</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Matd</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+
+        </tr>
+        <tr>
+            <td>tdursday</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3" class="lab">LAB</td>
+            <td>Matd</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3" class="lab">LAB</td>
+            <td>Matd</td>
+        </tr>
+    </table>
+
+    <style>
+        h2 {
+            font-weight: 900;
+            text-align: center;
+            width: 650px;
+            ;
+        }
+
+        table, td, td 
+        {
+            border: 2px groove black;
+            text-align: center;
+            width: 700px;
+            height: 40px;
+        }
+
+        .lab {
+            background-color: yellow;
+        }
+
+        .sports {
+            background-color: blue;
+        }
+
+        .lunch {
+            background-color: green;
+        }
+    </style>
+
+</body>
+
+</html>

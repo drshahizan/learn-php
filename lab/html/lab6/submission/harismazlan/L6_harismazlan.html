@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML Table</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="">
+  <!--
+    Name: Mohamed Haris Bin Mohamed Mazlan
+    Matrix No: SX221954ECJHF04
+    Github id: harismazlan
+
+    Lab 6: HTML Table
+    -->
+</head>
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+
+  td,
+  th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    font-weight: bold;
+  }
+</style>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <table style="border: 2px solid black; width: 75%;">
+    <tr>
+      <th>Flight No</th>
+      <th>Place</th>
+      <th>Destination</th>
+      <th colspan="2">Time</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Arrival</td>
+      <td>Departure</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <table style="border: 2px solid black; width: 75%;">
+    <tr>
+      <th rowspan="2" style="font-weight: normal; vertical-align: top;">Time</th>
+      <th>Johor Bahru</th>
+      <th>Jakarta</th>
+      <th>Dhaka</th>
+      <th>Jeddah</th>
+    </tr>
+    <tr>
+      <td>3:30 pm</td>
+      <td>2:30 pm</td>
+      <td>1:30 pm</td>
+      <td>10:30 am</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <table style="border: 2px solid black; width: 75%; table-layout: fixed;">
+    <tr>
+      <th colspan="3" style="padding: 3%; background-color: #4572c4;">BLUE</th>
+    </tr>
+    <tr>
+      <td style="width: 33%; padding: 3%; background-color: #ff0000;">RED</td>
+      <td style="width: 33%; padding: 3%; background-color: #00af51;">GREEN</td>
+      <td style="width: 33%; padding: 3%; background-color: #ffff00;">YELLOW</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <table style="border: 2px solid black; width: 75%; table-layout: fixed;">
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td colspan="2" rowspan="2"><b>Image</b></td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+    </tr>
+  </table>
+
+
+
+
+  <script src="" async defer></script>
+</body>
+
+</html>

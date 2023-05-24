@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<!--
+    Lab 4: Calculate the students' averages and grades
+    Group:
+    1. Name: ISMAIL BIN AMAN, Matrix No: SX211939ECJHF04, Github ID: oldpistol
+    2. Name: SEPRIYANDI BIN AGUSR, Matrix No: SX211697ECRHF04, Github ID: sepz36
+    3. Name: MUHAMMAD AZAM BIN AZMAN, Matrix No: SX211707ECRHF04, Github ID: Azamazman96
+    4. Name: MUHAMMAD BADRUL AMIN BIN MASROL, Matrix No: SX220346ECJHS04, Github ID: badz20  
+    -->
+<head>
+
+	<title>Lab 4</title>
+	<script>
+		function computeGrades() {
+			// Get student data and grades
+			var students = document.getElementById("students").value.split(",");
+			var grades = document.getElementById("grades").value.split(",").map(Number);
+			
+			// Compute average grade
+			var sum = 0;
+			for (var i = 0; i < grades.length; i++) {
+				sum += grades[i];
+			}
+			var avg = sum / grades.length;
+			
+			// Determine grade based on average
+			var grade = "";
+			if (avg >= 90) {
+				grade = "A";
+			} else if (avg >= 80) {
+				grade = "B";
+			} else if (avg >= 70) {
+				grade = "C";
+			} else if (avg >= 60) {
+				grade = "D";
+			} else {
+				grade = "F";
+			}
+			
+			// Display results
+			var results = document.getElementById("results");
+			results.innerHTML = "Average Grade: " + avg.toFixed(2) + "<br>";
+			results.innerHTML += "Final Grade: " + grade;
+		}
+	</script>
+</head>
+<body>
+	<h1>Student Grades</h1>
+	<p>Enter student data and grades separated by commas:</p>
+	<p>
+		<label for="students">Students:</label>
+		<input type="text" id="students">
+	</p>
+	<p>
+		<label for="grades">Grades:</label>
+		<input type="text" id="grades">
+	</p>
+	<button onclick="computeGrades()">Compute Grades</button>
+	<div id="results"></div>
+</body>
+</html>

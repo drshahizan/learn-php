@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Form</title>
+    <!-- 
+Name     : Muhammad Faiz Fitri
+Matrix No: SX220354ECJHS04
+Github id: AshuraRin
+
+Lab 9: HTML Form -->
+</head>
+
+<body>
+    <div class="margin">
+        <h1>Medical Form</h1>
+        <form action="process.php" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text"></td>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Female</label>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Male</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>Nationality</td>
+                        <td><select name="" id="">
+                                <option value="Cnd">Canadian</option>
+                                <option value="oth">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td colspan="3"><textarea name="" id="" cols="30" rows="8"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset> <br>
+            <fieldset>
+                <table>
+                    <legend>Medical History</legend>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Smallpox</label>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Mumps</label>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Dizziness</label>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Sneezing</label>
+                </table>
+            </fieldset><br>
+            <fieldset>
+                <table>
+                    <legend>Current Medication</legend>
+                    <label> Are you currently talking any medication?</label>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Yes</label>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">No</label>
+                    <label> If you are currently talking medication, please indicate it in the space below:</label>
+                    <textarea name="" id="" cols="150" rows="15"></textarea>
+                </table>
+            </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </div>
+
+    <style>
+        div{
+            width:50%;
+        }
+        th,
+        td {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
+</body>
