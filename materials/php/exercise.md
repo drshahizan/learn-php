@@ -10,7 +10,6 @@ Don't forget to hit the :star: if you like this repo.
 # PHP: Lab
 PHP Lab is a collection of programming projects that provide hands-on experience in developing web applications using PHP and MySQL database. The lab covers a range of projects, from setting up the XAMPP server to developing full-scale applications such as Hospital Management System, Tourism Management System, and COVID19 Testing Management System. The projects also cover important topics such as PHP Intelephense and PHP Server, running PHP on Visual Studio Code, MySQL and image handling, and more. By working through these projects, users can gain valuable experience in PHP development and database management.
 
-## Lab
 
 | Lab | Title | Files |
 | :-----: | ----- | :------: | 
@@ -19,60 +18,12 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | 03 | How to run PHP on Visual Studio Code |<a href="../../lab/php/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | Downloading and Placing `msoWP` and `exercise` Folders in htdocs |<a href="../../lab/php/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
-## Basic
-| Lesson | Topic | Subtopic | Result |
-|---------|---------------------|---------------------------------------|:------:|
-| 02a | Syntax | Basic PHP Syntax |  <a href="http://localhost/exercise/2%20Syntax/Lesson%202a-s.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02b | Syntax | Write a Comment in PHP |  <a href="http://localhost/exercise/2%20Syntax/Lesson%202b-s.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 02c | Syntax | PHP Case Sensitivity |  <a href="http://localhost/exercise/2%20Syntax/Lesson%202c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 03a | Variable | Creating (Declaring) PHP Variables |  <a href="http://localhost/exercise/3%20Variable/Lesson%203a-s.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 03b | Variable | PHP Variables Scope: Local & Global |  <a href="http://localhost/exercise/3%20Variable/Lesson%203b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 03c | Variable | PHP Variables Scope: Global |  <a href="http://localhost/exercise/3%20Variable/Lesson%203c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 03d | Variable | PHP Variables Scope: Global |  <a href="http://localhost/exercise/3%20Variable/Lesson%203d-s.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 03e | Variable | PHP Variables Scope: Static |  <a href="http://localhost/exercise/3%20Variable/Lesson%203e.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 03f-a | Variable | PHP Variables Scope: Functions Parameters Scope |  <a href="http://localhost/exercise/3%20Variable/Lesson%203f-a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 03f-b | Variable | PHP Variables Scope: Functions Parameters Scope |  <a href="http://localhost/exercise/3%20Variable/Lesson%203f-b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 03g | Variable | PHP Variables: String |  <a href="http://localhost/exercise/3%20Variable/Lesson%203g.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 03h | Variable | PHP Variables: String |  <a href="http://localhost/exercise/3%20Variable/Lesson%203h.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04a | Operators | Arithmetical Operators |  <a href="http://localhost/exercise/4%20Operators/Lesson%204a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04b | Operators | Assignment Operators |  <a href="http://localhost/exercise/4%20Operators/Lesson%204b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04c | Operators | String Operators |  <a href="http://localhost/exercise/4%20Operators/Lesson%204c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
- 04d | Operators | Comparison Operators | <a href="http://localhost/exercise/4%20Operators/Lesson%204d.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04e | Operators | PHP Incrementing/Decrementing Operators | <a href="http://localhost/exercise/4%20Operators/Lesson%204e.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04f | Operators | Logical Operators | <a href="http://localhost/exercise/4%20Operators/Lesson%204f.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 04g | Operators | Conditional Operators | <a href="http://localhost/exercise/4%20Operators/Lesson%204g.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05a | Conditional Statement | `if` statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05b | Conditional Statement | `if else` statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05c | Conditional Statement | `if else if` statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05d | Conditional Statement | Switch statement | <a href="http://localhost/exercise/5%20Conditional%20Statement/Lesson%205d.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06a | Loop | The `for` Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06b | Loop | The `While` Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06c | Loop | The `do....While` Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06d | Loop | The `foreach` Loop | <a href="http://localhost/exercise/6%20Loop/Lesson%206d.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07a | Array | Numeric or Indexed Array | <a href="http://localhost/exercise/7%20Array/Lesson%207a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07b | Array | Get The Length of an Array | <a href="http://localhost/exercise/7%20Array/Lesson%207b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07c | Array | Loop Through an Indexed Array | <a href="http://localhost/exercise/7%20Array/Lesson%207c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07d | Array | Associate array or Hash Array | <a href="http://localhost/exercise/7%20Array/Lesson%207d.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07e | Array | Loop Through an Associative Array | <a href="http://localhost/exercise/7%20Array/Lesson%207e.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07f | Array | Multidimensional Array | <a href="http://localhost/exercise/7%20Array/Lesson%207f.php)](http://localhost/exercise/7%20Array/Lesson%207f.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07g | Array | `Sort()`, `rsort()` function Array | <a href="http://localhost/exercise/7%20Array/Lesson%207g.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07h | Array | `asort()`, `ksort()` function Array | <a href="http://localhost/exercise/7%20Array/Lesson%207h.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08a | Function | Writing PHP Function | <a href="http://localhost/exercise/8%20Function/Lesson%208a.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08b | Function | Writing PHP Function with Parameters | <a href="http://localhost/exercise/8%20Function/Lesson%208b.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08c | Function | Writing PHP Function which returns value | <a href="http://localhost/exercise/8%20Function/Lesson%208c.php"><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+## [Basic PHP](01-basic.md)
+The lab exercise for basic PHP consists of various lessons covering topics such as syntax, variables, operators, conditional statements, loops, arrays, and functions. Each lesson focuses on specific subtopics and provides a result in the form of a link to the corresponding exercise file. The exercises involve practical tasks like understanding basic PHP syntax, writing comments, working with variables, utilizing operators, implementing conditional statements and loops, manipulating arrays, and creating functions with or without parameters. These exercises serve as hands-on practice to reinforce understanding and proficiency in PHP programming.
 
-## Forms
+## [Forms](02-form.md)
+The lab exercise for PHP forms covers a range of topics. It begins with lessons on the POST and GET methods for sending form data, explaining their differences and usage. The lesson on the PHP `$_REQUEST` variable introduces an associative array that combines the contents of `$_GET`, `$_POST`, and `$_COOKIE`. The importance of sanitizing and validating form data for security purposes is emphasized in another lesson. Two practical examples are provided: a supply order form and a contact form that collects user feedback. Additionally, the exercise covers file upload functionality and the concept of including common files like headers or footers in multiple web pages. Each lesson includes a brief description and a link to access the corresponding lab exercise.
 
-| Lesson | Topic | Description | Result |
-| ------ | -------------------------- | ------------------------------------------------------------------- | :------: |
-| 09a | PHP POST method | Information sent from a form with the POST method is invisible to others and has no limits on the amount of information to send. | <a href="http://localhost/msoWP/form/9post-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
-| 09b | PHP GET method | The GET method sends the encoded user information appended to the page request. | <a href="http://localhost/msoWP/form/9get-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
-| 09c | PHP `$_REQUEST` variable | `$_REQUEST` is an associative array that contains the contents of `$_GET`, `$_POST`, and `$_COOKIE` by default. | <a href="http://localhost/msoWP/form/9request-method.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
-| 09d | Sanitizing and Validating Form Data | Sanitization and validation of form fields using PHP have become important aspects of security. | <a href="http://localhost/msoWP/form/9phpValidationExer.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
-| 09e | Supply Order Form | This lesson demonstrates how to use PHP to retrieve information from forms. | <a href="http://localhost/msoWP/form/12OrderForm.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
-| 09f | Contact Form | In this tutorial, you will learn how to create a simple contact form using PHP to collect comments and feedback and display them in the browser. | <a href="http://localhost/msoWP/form/13contact-form.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
-| 10 | File Upload | This tutorial covers how to upload files to a remote server using a simple HTML form and PHP. You can upload various file types, including images, videos, and documents. | <a href="http://localhost/msoWP/form/10file-upload-form.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
-| 11 | Include files | Including files can be useful when multiple pages on your website share common parts, such as headers or footers. | <a href="http://localhost/msoWP/form/11include-files.php"><img src="../../images/form.png" width="24px" height="24px" ></a> |
 
 ## MySQL
 | Lesson | Topic | Description | Result |
