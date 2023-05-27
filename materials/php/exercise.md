@@ -127,6 +127,8 @@ The table provides information about various lessons related to advanced PHP top
 | 18 | CRUD Application | A CRUD application in PHP enables users to create, read, update, and delete data in a database, providing essential functionality for managing and manipulating data in web applications.. DB: demo, Table: employees, File: employees.sql | <a href="http://localhost/msoWP/DBmysql/crud/index.php"><img src="../../images/form.png" width="24px" height="24px" ></a>|
 
 ## Complete system
+| Lab | Title | Files |
+| :-----: | ----- | :------: | 
 | 19 | Tourism Management System |<a href="../../lab/php/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 20 | Hospital Management System |<a href="../../lab/php/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 21 | COVID19 Testing Management System |<a href="../../lab/php/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
