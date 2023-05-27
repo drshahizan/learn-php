@@ -18,10 +18,6 @@ PHP Lab is a collection of programming projects that provide hands-on experience
 | 02 | PHP Intelephense and PHP Server |<a href="../../lab/php/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px"></a>|
 | 03 | How to run PHP on Visual Studio Code |<a href="../../lab/php/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | Downloading and Placing `msoWP` and `exercise` Folders in htdocs |<a href="../../lab/php/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | MySQL & image |<a href="../../lab/php/lab5/crudimage.zip" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | Tourism Management System |<a href="../../lab/php/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 07 | Hospital Management System |<a href="../../lab/php/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 08 | COVID19 Testing Management System |<a href="../../lab/php/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## Basic
 | Lesson | Topic | Subtopic | Result |
@@ -129,6 +125,11 @@ The table provides information about various lessons related to advanced PHP top
 | 16 | Ajax Search | AJAX search is a functionality that enables real-time search results without the need to reload the entire web page. In this case, the input entered by the user in the search form is displayed dynamically using AJAX. DB: demo, Table: countries, File: countries-table.zip | <a href="http://localhost/msoWP/DBmysql/ajax/search-form.php"><img src="../../images/form.png" width="24px" height="24px" ></a>|
 | 17 | Login | A login functionality is a common feature in many applications and websites that requires users to authenticate themselves before accessing certain content or performing specific actions. Users are required to provide their credentials, usually a username and password, to log in and gain access to their personal accounts or exclusive features. DB: demo, Table: users, File: users.sql | <a href="http://localhost/msoWP/DBmysql/login/login.php"><img src="../../images/form.png" width="24px" height="24px" ></a>|
 | 18 | CRUD Application | A CRUD application in PHP enables users to create, read, update, and delete data in a database, providing essential functionality for managing and manipulating data in web applications.. DB: demo, Table: employees, File: employees.sql | <a href="http://localhost/msoWP/DBmysql/crud/index.php"><img src="../../images/form.png" width="24px" height="24px" ></a>|
+
+## Complete system
+| 19 | Tourism Management System |<a href="../../lab/php/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 20 | Hospital Management System |<a href="../../lab/php/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 21 | COVID19 Testing Management System |<a href="../../lab/php/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
