@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Carousel Example</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ul>
+    
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="picture.jpg" alt="Slide 1" alt="Girl in a jacket" width="500" height="100">
+          <div class="carousel-caption">
+            <h3>Slide 1</h3>
+            <p>Description of slide 1.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="picture1.jpg" alt="Slide 2"  alt="Girl in a jacket" width="500" height="100">
+          <div class="carousel-caption">
+            <h3>Slide 2</h3>
+            <p>Description of slide 2.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Slide 3">
+          <div class="carousel-caption">
+            <h3>Slide 3</h3>
+            <p>Description of slide 3.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

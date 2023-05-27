@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 7: Hospital Management System
+# Lab 20: Hospital Management System
 
 The PHP Hospital Management System is a web-based application that manages patient registration and data storage. The system assigns a unique ID to each patient and stores their personal information. To access the Hospital Management System, a username and password are required. It is only accessible by an administrator who has access to the database. The interface is user-friendly and data processing is fast, while personal data is well-protected.
 
