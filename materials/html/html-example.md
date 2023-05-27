@@ -27,7 +27,7 @@ Don't forget to hit the :star: if you like this repo.
       <h1>Welcome to My Website</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -78,7 +78,7 @@ Here is an explanation of the important tagging used in this HTML page:
 
 - `<li>`: This tag represents a list item, which is typically used within a `<ul>` or `<ol>` tag.
 
-- `<a href="#">Home</a>`: This tag represents a hyperlink, which is used to link to other web pages or resources. The href attribute specifies the URL of the resource being linked to.
+- `<a href="#">ホーム</a>`: This tag represents a hyperlink, which is used to link to other web pages or resources. The href attribute specifies the URL of the resource being linked to.
 
 - `<main>`: This tag represents the main content of the HTML document.
 
@@ -106,7 +106,7 @@ Here is an explanation of the important tagging used in this HTML page:
       <h1>Welcome to my website!</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">ホーム</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>

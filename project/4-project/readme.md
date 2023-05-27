@@ -84,37 +84,37 @@ You must place your file in the submission folder. Within the [`submission`](./s
 A folder structure for a Malaysian culture system with CSS, JS, HTML, database, PHP, and reporting:
 
 ```
-group_id/
-├── index.php
-├── css/
-│   ├── bootstrap.min.css
-│   └── style.css
-├── js/
-│   ├── jquery.min.js
-│   └── bootstrap.min.js
-├── includes/
-│   ├── config.php
-│   ├── functions.php
-│   └── header.php
-├── images/
-│   ├── banner.jpg
-│   └── logo.png
-├── pages/
-│   ├── about.php
-│   ├── events.php
-│   ├── gallery.php
-│   ├── news.php
-│   ├── profile.php
-│   └── search.php
-├── reporting/
-│   ├── daily-report.php
-│   ├── monthly-report.php
-│   └── yearly-report.php
-└── database/
-    ├── db_config.php
-    ├── db_create.php
-    ├── db_seed.php
-    └── db_connection.php
+📁group_id
+├── 📄index.php
+├── 📁css
+│   ├── 📄bootstrap.min.css
+│   └── 📄style.css
+├── 📁js
+│   ├── 📄jquery.min.js
+│   └── 📄bootstrap.min.js
+├── 📁includes
+│   ├── 📄config.php
+│   ├── 📄functions.php
+│   └── 📄header.php
+├── 📁images
+│   ├── 📄banner.jpg
+│   └── 📄logo.png
+├── 📁pages
+│   ├── 📄about.php
+│   ├── 📄events.php
+│   ├── 📄gallery.php
+│   ├── 📄news.php
+│   ├── 📄profile.php
+│   └── 📄search.php
+├── 📁reporting
+│   ├── 📄daily-report.php
+│   ├── 📄monthly-report.php
+│   └── 📄yearly-report.php
+└── 📁database
+    ├── 📄db_config.php
+    ├── 📄db_create.php
+    ├── 📄db_seed.php
+    └── 📄db_connection.php
 ```
 
 In this structure, `index.php` serves as the main landing page that includes the necessary header and footer from the `includes/` folder. The `css/` and `js/` folders contain the necessary stylesheets and scripts for the website. The `images/` folder contains all the necessary images such as logos, banners, and photos. The `pages/` folder contains all the different pages of the website such as the about, events, gallery, news, profile, and search pages. The `reporting/` folder contains all the different reporting pages such as the daily, monthly, and yearly reports. Lastly, the `database/` folder contains all the necessary files for setting up and connecting to the database such as the database configuration, creation, seeding, and connection files.
