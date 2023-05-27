@@ -33,7 +33,7 @@ The lab exercises for Chart.JS and Google Charts cover various chart types and t
 ## [Advanced PHP Syntax](05-advanced.md)
 The table provides information about various lessons related to advanced PHP topics. Each row represents a different lesson and includes details such as the lesson number, topic, description, and a link to access the corresponding file. The topics covered range from shopping cart implementations to features like discount coupons, captcha usage, comments systems, and Trello-like drag and drop cards. The description for each lesson provides an overview of the functionality and purpose of the topic. The "Result" column includes a button with an icon and a link that allows users to access the respective lesson file. This table serves as a comprehensive reference for individuals interested in exploring advanced PHP concepts and implementing related features in their projects.
 
-## [Complete system](06-system)
+## [Complete system](06-system.md)
 The complete project using PHP and MySQL consists of three different systems: Tourism Management System, Hospital Management System, and COVID19 Testing Management System. Each system has its respective files and directories containing the necessary code and resources for implementation. The Tourism Management System focuses on managing tourism-related activities, the Hospital Management System deals with the management of hospital operations, and the COVID19 Testing Management System handles the management of COVID19 testing procedures. These projects utilize PHP for server-side scripting and MySQL for database management, allowing for dynamic data handling and efficient system functionality.
 
 ## Contribution 🛠️
