@@ -5,8 +5,8 @@ Installation Steps(Configuration)
 Database Configuration
 
 Open phpmyadmin
-Create Database tms
-Import database tms.sql (available inside zip package)
+Create Database tourism
+Import database tourism.sql (available inside zip package)
 Open Your browser put inside browser http://localhost/tourism
 
 Login Details for admin : 
