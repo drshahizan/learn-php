@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 8: COVID19 Testing Management System
+# Lab 21: COVID19 Testing Management System
 
 The COVID19 Testing Management System is a web-based application that is built using PHP and MySQL database. It aims to provide an efficient and effective solution to manage the testing process of COVID-19. This system has two modules, the Admin module, and the User (Patient) module.
 
