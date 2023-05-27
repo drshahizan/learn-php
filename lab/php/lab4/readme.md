@@ -7,21 +7,43 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 1: Fluid Grid
+# Downloading and Placing "msoWP" and "exercise" Folders in htdocs
 
-The goal of this exercise use the [responsive grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) from [Twitter Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to lay out a columnar website that fluidly resizes based on screen resolution
+This step-by-step guide will walk you through the process of downloading the "phpweb.zip" file, extracting its contents, and placing the "msoWP" and "exercise" folders into the "htdocs" folder. These folders contain PHP and MySQL code, including basic syntax, charts, and CRUD (Create, Read, Update, Delete) functionality. By following these instructions, you will be able to set up and access the PHP files and code within these folders on your local web server.
 
-- Start with the starter code file [`grid_starter.html`](download/grid_starter.html) and css [`grid.css`](download/grid.css) by right-clicking and saving the file it to your computer.
-- Use the [Bootstrap grids classes](https://getbootstrap.com/docs/5.2/layout/grid/) to make the content a fluid layout according to the following:
+### Instructions
 
-<img src="./download/grid.gif" width="800" />
+**Step 1: Downloading the 💾 [phpweb.zip](download/phpweb.zip) file**
+- Download 💾 [phpweb.zip](download/phpweb.zip) file.
+- Click on the download link to initiate the download.
 
+**Step 2: Extracting the contents of the "phpweb.zip" file**
+- Locate the downloaded "phpweb.zip" file on your computer.
+- Right-click on the file and select "Extract All" or use a file extraction software of your choice.
+- This will create a folder named "phpweb" containing the "exercise" and "msoWP" folders.
 
-Bonus: Add images, using the [card group](https://getbootstrap.com/docs/5.2/components/card/) class to organize the content.
+**Step 3: Placing the "msoWP" and "exercise" folders in htdocs**
+- Open your file explorer and navigate to the "htdocs" folder. The "htdocs" folder is typically located in the root directory of your web server.
+- Copy the "exercise" folder from the extracted "phpweb" folder.
+- Paste the "exercise" folder into the "htdocs" folder.
+- Next, copy the "msoWP" folder from the extracted "phpweb" folder.
+- Paste the "msoWP" folder into the "htdocs" folder.
 
-Play around with changing the styling (fonts, colors) by editing grid.css.
+A visual representation of the folder structure for the "htdocs" directory with the "msoWP" and "exercise" folders:
 
-Or play around with adding more components!
+```
+📁XAMPP/
+├── 📁[Other XAMPP folders]
+└── 📁htdocs/
+    ├── 📁msoWP/
+    │   ├── [msoWP files and subfolders]
+    │   └── ...
+    └── 📁exercise/
+        ├── [exercise files and subfolders]
+        └── ...
+```
+
+>In the above structure, the "XAMPP" directory represents the root directory of XAMPP. Inside the "XAMPP" directory, there is the "htdocs" folder. Within the "htdocs" folder, there are two main folders: "msoWP" and "exercise". These folders contain their respective files and any subfolders you may have within them.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.

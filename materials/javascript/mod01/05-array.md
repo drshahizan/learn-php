@@ -8,6 +8,9 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Arrays
+![JavaScript Basics - Arrays](webdev-js-arrays.png)
+> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
+> 
 In JavaScript, an array is a collection of values that can hold any type of data, including numbers, strings, objects, and even other arrays. Arrays are used to store and manipulate multiple values in a single variable.
 
 ## Create an array 

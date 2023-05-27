@@ -22,7 +22,7 @@ $.extend( $.ui, {
 		END: 35,
 		ENTER: 13,
 		ESCAPE: 27,
-		HOME: 36,
+		ホーム: 36,
 		LEFT: 37,
 		NUMPAD_ADD: 107,
 		NUMPAD_DECIMAL: 110,
@@ -5429,7 +5429,7 @@ $.widget( "ui.accordion", {
 			case keyCode.ENTER:
 				this._eventHandler( event );
 				break;
-			case keyCode.HOME:
+			case keyCode.ホーム:
 				toFocus = this.headers[ 0 ];
 				break;
 			case keyCode.END:
@@ -7388,7 +7388,7 @@ $.extend(Datepicker.prototype, {
 							$.datepicker._gotoToday(event.target);
 						}
 						handled = event.ctrlKey || event.metaKey;
-						break; // current on ctrl or command +home
+						break; // current on ctrl or command +ホーム
 				case 37: if (event.ctrlKey || event.metaKey) {
 							$.datepicker._adjustDate(event.target, (isRTL ? +1 : -1), "D");
 						}
@@ -7425,7 +7425,7 @@ $.extend(Datepicker.prototype, {
 						break; // +1 week on ctrl or command +down
 				default: handled = false;
 			}
-		} else if (event.keyCode === 36 && event.ctrlKey) { // display the date picker on ctrl+home
+		} else if (event.keyCode === 36 && event.ctrlKey) { // display the date picker on ctrl+ホーム
 			$.datepicker._showDatepicker(this);
 		} else {
 			handled = false;
@@ -9798,7 +9798,7 @@ $.widget( "ui.menu", {
 		case $.ui.keyCode.PAGE_DOWN:
 			this.nextPage( event );
 			break;
-		case $.ui.keyCode.HOME:
+		case $.ui.keyCode.ホーム:
 			this._move( "first", "first", event );
 			break;
 		case $.ui.keyCode.END:
@@ -10940,7 +10940,7 @@ $.widget( "ui.slider", $.ui.mouse, {
 				index = $( event.target ).data( "ui-slider-handle-index" );
 
 			switch ( event.keyCode ) {
-				case $.ui.keyCode.HOME:
+				case $.ui.keyCode.ホーム:
 				case $.ui.keyCode.END:
 				case $.ui.keyCode.PAGE_UP:
 				case $.ui.keyCode.PAGE_DOWN:
@@ -10968,7 +10968,7 @@ $.widget( "ui.slider", $.ui.mouse, {
 			}
 
 			switch ( event.keyCode ) {
-				case $.ui.keyCode.HOME:
+				case $.ui.keyCode.ホーム:
 					newVal = this._valueMin();
 					break;
 				case $.ui.keyCode.END:
@@ -11654,7 +11654,7 @@ $.widget( "ui.tabs", {
 			case $.ui.keyCode.END:
 				selectedIndex = this.anchors.length - 1;
 				break;
-			case $.ui.keyCode.HOME:
+			case $.ui.keyCode.ホーム:
 				selectedIndex = 0;
 				break;
 			case $.ui.keyCode.SPACE:

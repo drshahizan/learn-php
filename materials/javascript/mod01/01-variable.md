@@ -8,6 +8,10 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Variables and Data Types
+![Introduction to JS](webdev-js-datatypes.png)
+> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
+> 
+
 In JavaScript, variables are used to store data values that can be used and manipulated throughout a program. There are several different data types in JavaScript, including strings, numbers, booleans, null, undefined, and objects. Strings represent text, numbers represent numeric values, booleans represent true or false values, null represents a deliberate non-value, undefined represents an uninitialized value, and objects are complex data structures that can contain multiple values and functions. It's important to understand data types in JavaScript because they determine how values can be used and manipulated, and can affect how your program behaves. Additionally, variables in JavaScript can be declared using keywords such as var, let, and const, each with its own set of rules and behaviors. Overall, understanding variables and data types is essential to writing effective JavaScript code.
 
 ## Variables

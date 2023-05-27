@@ -40,7 +40,7 @@ An example of a sidebar menu template in HTML, CSS, and JavaScript. Please note 
 ```html
 <nav class="sidebar">
   <ul>
-    <li class="active"><a href="#">Home</a></li>
+    <li class="active"><a href="#">ホーム</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Services</a></li>
     <li><a href="#">Contact</a></li>
