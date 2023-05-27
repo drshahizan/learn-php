@@ -12,7 +12,7 @@ Ans:
 
 
 
-### Team Skoda:
+### Team zSkoda:
 1.Mohd Noor Hafiz
 2.Ikhmal Syazreel
 3.
