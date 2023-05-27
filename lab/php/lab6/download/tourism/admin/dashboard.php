@@ -107,7 +107,7 @@ $cnt2=$query2->rowCount();
 								<i class="glyphicon glyphicon-briefcase" aria-hidden="true"></i>
 							</div>
 							<div class="four-text">
-								<h3>Toatal packages</h3>
+								<h3>Total packages</h3>
 																	<?php $sql3 = "SELECT PackageId from tbltourpackages";
 $query3= $dbh -> prepare($sql3);
 $query3->execute();
