@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Lab 2: Determine whether a number is even or odd
+    Group:
+    1. Name: ISMAIL BIN AMAN, Matrix No: SX211939ECJHF04, Github ID: oldpistol
+    2. Name: SEPRIYANDI BIN AGUSR, Matrix No: SX211697ECRHF04, Github ID: sepz36
+    3. Name: MUHAMMAD AZAM BIN AZMAN, Matrix No: SX211707ECRHF04, Github ID: Azamazman96
+    4. Name: MUHAMMAD BADRUL AMIN BIN MASROL, Matrix No: SX220346ECJHS04, Github ID: badz20  
+    -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+</head>
+
+<body>
+    <h1>Even/Odd Number Checker</h1>
+    <p>Enter a number below to check whether it is even or odd:</p>
+    <input type="number" id="numberInput">
+    <button onclick="checkNumber()">Check</button>
+    <p id="result"></p>
+
+    <script>
+        function checkNumber() {
+            let number = document.getElementById("numberInput").value;
+            if (number % 2 === 0) {
+                document.getElementById("result").innerHTML = number + " is even.";
+            } else {
+                document.getElementById("result").innerHTML = number + " is odd.";
+            }
+        }
+    </script>
+</body>
+
+</html>

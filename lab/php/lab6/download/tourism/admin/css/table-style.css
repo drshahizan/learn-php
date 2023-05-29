@@ -1,0 +1,283 @@
+/*
+ * Basic Table Demo CSS.
+ */
+
+
+
+
+p.credits {
+  font-size: .8125rem;
+  margin-top: 6em;
+}
+
+@media only screen and (max-width: 568px) {
+  .phone-block {
+    display: block;
+  }
+
+  .phone-hide {
+    display: none;
+  }
+}
+
+code {
+	background: #ececec;
+    border-radius: 5px;
+    color: #808080;
+    display: block;
+    margin: 2em 0;
+    padding: 15px;
+    position: relative;
+}
+.w3agile-css{
+	margin-bottom:0 !important;
+}
+code:after {
+  bottom: 5px;
+  color: #e4ebeb;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  position: absolute;
+  right: 10px;
+  text-transform: uppercase;
+}
+
+code.css:after {
+  content: 'css';
+}
+
+code.js:after {
+  content: 'js';
+}
+
+table {
+  background: white;
+  border-collapse: collapse;
+  margin: 1.25em 0 0;
+  width: 100%;
+}
+
+table tr,
+table th,
+table td {
+    border: none;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: .95em;
+}
+
+table th,
+table td {
+  padding: 10px 12px;
+  text-align: left;
+}
+
+table th {
+    background: #e74c3c;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+table tr td {
+    background: #f3faff;
+    color: #424242;
+}
+
+table tr:nth-of-type(2n+2) td {
+  background: #ffffff;
+}
+
+table.bt tfoot th,
+table.bt tfoot td,
+table.bt tbody td {
+  font-size: .8125rem;
+  padding: 0;
+}
+
+table.bt tfoot th:before,
+table.bt tfoot td:before,
+table.bt tbody td:before {
+    background: #e74c3c;
+    margin-right: 10px;
+    padding: 2px 10px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+table.bt tfoot th .bt-content,
+table.bt tfoot td .bt-content,
+table.bt tbody td .bt-content {
+  display: inline-block;
+  padding: 2px 5px;
+}
+
+table.bt tfoot th:first-of-type:before,
+table.bt tfoot th:first-of-type .bt-content,
+table.bt tfoot td:first-of-type:before,
+table.bt tfoot td:first-of-type .bt-content,
+table.bt tbody td:first-of-type:before,
+table.bt tbody td:first-of-type .bt-content {
+  padding-top: 10px;
+}
+
+table.bt tfoot th:last-of-type:before,
+table.bt tfoot th:last-of-type .bt-content,
+table.bt tfoot td:last-of-type:before,
+table.bt tfoot td:last-of-type .bt-content,
+table.bt tbody td:last-of-type:before,
+table.bt tbody td:last-of-type .bt-content {
+  padding-bottom: 10px;
+}
+
+/*
+ * Example 4:
+ * Media query over js resize
+ */
+@media only screen and (max-width: 568px) {
+  #table-no-resize thead {
+    display: none;
+  }
+
+  #table-no-resize tbody td {
+    border: none !important;
+    display: block;
+    font-size: .8125rem;
+    padding: 0;
+    vertical-align: top;
+
+    /* IE 9 */
+    float: left\9;
+    width: 100%\9;
+  }
+
+  #table-no-resize tbody td:before {
+	background: #e74c3c;
+    content: attr(data-th) ": ";
+    color: #000000;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 2px 10px;
+    width: 6.5em;
+  }
+
+  #table-no-resize tbody td .bt-content {
+    display: inline-block;
+    padding: 2px 5px;
+  }
+
+  #table-no-resize tbody td:first-of-type:before,
+  #table-no-resize tbody td:first-of-type .bt-content {
+    padding-top: 10px;
+  }
+
+  #table-no-resize tbody td:last-of-type:before,
+  #table-no-resize tbody td:last-of-type .bt-content {
+    padding-bottom: 10px;
+  }
+}
+
+/*
+ * Example 5:
+ * Two axis styling
+ */
+table.two-axis tr td:first-of-type {
+    background: #e7f4fd;
+}
+
+@media only screen and (max-width: 568px) {
+  table.two-axis tr td:first-of-type,
+  table.two-axis tr:nth-of-type(2n+2) td:first-of-type,
+  table.two-axis tr td:first-of-type:before {
+		background:#e74c3c;
+		color: #ffffff;
+  }
+
+  table.two-axis tr td:first-of-type {
+    border-bottom: 1px solid #e4ebeb;
+  }
+
+  table.two-axis tr td:first-of-type:before {
+    padding-bottom: 10px;
+  }
+}
+
+/*
+ * Example 6:
+ * Max height
+ */
+.bt-wrapper.active {
+  margin-top: 1.5em;
+}
+.bt-wrapper.active table {
+  margin: 0;
+}
+
+
+table {
+  width: 100%;
+}
+.table {
+  margin: 30px 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #e0e0e0;
+}
+.table caption {
+  color: #333;
+  font-style: italic;
+  font-size: 85%;
+  line-height: 1;
+  padding: 1em 0;
+  text-align: center;
+}
+.table td,
+.table th {
+  border-left: 1px solid #e0e0e0;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 0.5em 1em;
+  font-weight: normal;
+}
+.table td:first-child,
+.table th:first-child {
+  border-left-width: 0;
+}
+.table thead,
+.table tfoot {
+  background-color: #f05050;
+  color: #fff;
+  text-align: left;
+  vertical-align: bottom;
+}
+.table thead td,
+.table tfoot td,
+.table thead th,
+.table tfoot th {
+  border-color: #fff;
+}
+.table td {
+  background-color: transparent;
+}
+.table_striped tr:nth-child(2n-1) td {
+  background-color: #ececec;
+}
+.table_bordered td {
+  border-bottom: 1px solid #e0e0e0;
+}
+.table_bordered tbody > tr:last-child > td,
+.table_bordered thead > tr:last-child > td {
+  border-bottom-width: 0;
+}
+.table_horizontal td,
+.table_horizontal th {
+  border-width: 0 0 1px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.table_horizontal tbody > tr:last-child > td,
+.table_horizontal thead > tr:last-child > td {
+  border-bottom-width: 0;
+}
+

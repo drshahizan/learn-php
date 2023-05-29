@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Portfolio</title>
+    <style>
+      body {
+        background: linear-gradient(cyan, transparent),
+          linear-gradient(-45deg, magenta, transparent),
+          linear-gradient(45deg, rgb(228, 228, 22), transparent);
+        background-blend-mode: multiply;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      h1,
+      h2 {
+        color: rgb(127, 31, 216);
+      }
+
+      img {
+        border-radius: 3%;
+        border: 10px solid;
+        border-block-color: rgb(221, 43, 43);
+      }
+      .white {
+        color: rgb(140, 203, 226);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Introduction Section -->
+    <section>
+      <h1>ABOUT ME</h1>
+      <img src="my-pic.jpg" alt="My Profile Picture" width="250" height="320" />
+      <p>
+        Assalamualaikum, my name is
+        <i class="white">Muhammad Badrul Amin Bin Masrol</i> and I'm a
+        <i class="white">Front-End Web Developer</i> .
+      </p>
+      <p>
+        Check out my <a href="#skills">skills</a> and
+        <a href="#experience">experience</a> below, or
+        <a href="#contact">contact me</a> directly.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Laravel</li>
+        <li>Flutter</li>
+        <li>Vue.js</li>
+      </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>Front-End Web Developer at Software Company (2022 - Present)</li>
+        <li>Web Developer Intern at Software Company (2021)</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input
+          style="background: lightgray; margin-left: 23px"
+          type="text"
+          id="name"
+          name="name"
+        /><br /><br />
+
+        <label style="background: none" for="email">Email:</label>
+        <input
+          style="background: lightgray; margin-left: 24px"
+          type="email"
+          id="email"
+          name="email"
+        /><br /><br />
+
+        <label for="message">Message:</label>
+        <textarea
+          style="background: lightgray"
+          id="message"
+          name="message"
+        ></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit" style="background: lightgray" />
+
+        <img
+          src="light.gif"
+          alt=""
+          style="
+            border: none;
+            float: right;
+            margin-right: 10%;
+            margin-top: -30%;
+            opacity: 0.4;
+            width: 600px;
+            height: 400px;
+          "
+        />
+
+        <img
+          src="coding.gif"
+          style="
+            border: none;
+            float: right;
+            margin-right: 10%;
+            margin-top: -59%;
+            width: 700px;
+            height: 300px;
+            opacity: 0.3;
+          "
+          alt=""
+        />
+      </form>
+    </section>
+  </body>
+</html>

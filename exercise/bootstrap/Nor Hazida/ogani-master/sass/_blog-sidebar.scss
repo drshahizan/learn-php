@@ -1,0 +1,121 @@
+/*---------------------
+  Blog Sidebar
+-----------------------*/
+.blog__sidebar {
+    padding-top: 50px;
+}
+
+.blog__sidebar__item {
+    margin-bottom: 50px;
+
+    h4 {
+        color: $normal-color;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    ul {
+
+        li {
+            list-style: none;
+
+            a {
+                font-size: 16px;
+                color: #666666;
+                line-height: 48px;
+                @include transition(all, .3s);
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+.blog__sidebar__search {
+    margin-bottom: 50px;
+
+    form {
+        position: relative;
+
+        input {
+            width: 100%;
+            height: 46px;
+            font-size: 16px;
+            color: $para-color;
+            padding-left: 15px;
+            border: 1px solid #e1e1e1;
+            border-radius: 20px;
+
+            &::placeholder {
+                color: $para-color;
+            }
+        }
+
+        button {
+            font-size: 16px;
+            color: $para-color;
+            background: transparent;
+            border: none;
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            padding: 0px 18px;
+        }
+    }
+}
+
+.blog__sidebar__recent {
+
+    .blog__sidebar__recent__item {
+        display: block;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+
+.blog__sidebar__recent__item {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.blog__sidebar__recent__item__pic {
+    float: left;
+    margin-right: 20px;
+}
+
+.blog__sidebar__recent__item__text {
+    overflow: hidden;
+
+    h6 {
+        font-weight: 700;
+        color: #333333;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    span {
+        font-size: 12px;
+        color: #999999;
+        text-transform: uppercase;
+    }
+}
+
+.blog__sidebar__item__tags {
+
+    a {
+        font-size: 16px;
+        color: $para-color;
+        background: $background;
+        display: inline-block;
+        padding: 7px 26px 5px;
+        margin-right: 6px;
+        margin-bottom: 10px;
+    }
+}
