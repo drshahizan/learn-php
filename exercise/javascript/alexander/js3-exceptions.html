@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exception Handling Example</title>
+    <script>
+      function divide(a, b) {
+        try {
+          if (b === 0) {
+            throw "Division by zero error";
+          }
+          return a / b;
+        } catch (error) {
+          return error;
+        }
+      }
+
+      function calculate() {
+        let num1 = document.getElementById("num1").value;
+        let num2 = document.getElementById("num2").value;
+
+        let result = divide(num1, num2);
+
+        document.getElementById("result").innerHTML = result;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Exception Handling Example</h1>
+    <p>Enter two numbers to divide:</p>
+    <input type="number" id="num1" /><br />
+    <input type="number" id="num2" /><br />
+    <button onclick="calculate()">Calculate</button>
+    <br />
+    <p id="result"></p>
+  </body>
+</html>

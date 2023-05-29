@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object Manipulation Example</title>
+  </head>
+  <body>
+    <h1>Object Manipulation Example</h1>
+    <p>Open the browser console to see the output.</p>
+    <script>
+      // Creating an object using object literal notation
+      const person = {
+        firstName: "Dr",
+        lastName: "MSO",
+        age: 30,
+        greet: function () {
+          console.log(
+            `Hello, my name is ${this.firstName} ${this.lastName} and I'm ${this.age} years old.`
+          );
+        },
+      };
+
+      // Accessing object properties
+      console.log(person.firstName);
+      console.log(person["lastName"]);
+
+      // Modifying object properties
+      person.age = 36;
+      console.log(person.age);
+
+      // Adding new properties and methods to the object
+      person.email = "drmso@example.com";
+      person.sayHello = function () {
+        console.log("Hello!");
+      };
+
+      // Calling object methods
+      person.greet();
+      person.sayHello();
+    </script>
+  </body>
+</html>

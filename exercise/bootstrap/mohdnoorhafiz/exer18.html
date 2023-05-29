@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Academic Course Registration System</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Course Registration</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">ホーム</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Registration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Available Courses</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Computer Science</h5>
+            <p class="card-text">Learn the fundamentals of computer science, including programming, data structures, and algorithms.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Duration: 4 years</li>
+            <li class="list-group-item">Degree: Bachelor of Science</li>
+            <li class="list-group-item">Credits: 120</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">View Details</a>
+            <a href="#" class="card-link">Apply Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Business Administration</h5>
+            <p class="card-text">Develop the skills and knowledge necessary to succeed in the business world, including finance, marketing, and management.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Duration: 4 years</li>
+            <li class="list-group-item">Degree: Bachelor of Business Administration</li>
+            <li class="list-group-item">Credits: 120</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">View Details</a>
+            <a href="#" class="card-link">Apply Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Student Information</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Student ID: 123456</li>
+              <li class="list-group-item">Name: MSO</li>
+              <li class="list-group-item">Program: Computer Science</li>
+              <li class="list-group-item">Year: 3</li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <h4>Course Registration</h4>
+            <div class="alert alert-warning" role="alert">
+              You have not registered for any courses yet.
+            </div>
+            <form>
+              <div class="form-group">
+                <label for="courseSelect">Select Course</label>
+                <select class="form-control" id="courseSelect">
+                  <option>Introduction to Computer Science</option>
+                  <option>Data Structures and Algorithms</option>
+                  <option>Database Systems</option>
+                  <option>Web Development</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="sectionSelect">Select Section</label>
+                <select class="form-control" id="sectionSelect">
+                  <option>Section A</option>
+                  <option>Section B</option>
+                  <option>Section C</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

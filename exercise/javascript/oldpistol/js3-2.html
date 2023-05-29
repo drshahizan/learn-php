@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Loops Example</title>
+    <script>
+        function countdown() {
+            let count = 10;
+            let output = "";
+
+            while (count >= 0) {
+                output += count + ", ";
+                count--;
+            }
+
+            document.getElementById("result").innerHTML = output;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Loops Example</h1>
+    <p>Click the button to start the countdown:</p>
+    <button onclick="countdown()">Start Countdown</button>
+    <br>
+    <p id="result"></p>
+</body>
+
+</html>

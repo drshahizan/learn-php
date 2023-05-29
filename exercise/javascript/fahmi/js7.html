@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course Registration System</title>
+    <script>
+      // Define a function to register for a course
+      function registerForCourse() {
+        // Get the selected course from the dropdown
+        const course = document.getElementById("courseSelect").value;
+
+        // Check if the course is already registered for
+        const registeredCourses =
+          document.getElementById("registeredCourses").innerText;
+        if (registeredCourses.includes(course)) {
+          alert("You are already registered for this course.");
+          return;
+        }
+
+        // Add the course to the list of registered courses
+        document.getElementById("registeredCourses").innerText += course + ", ";
+
+        // Display a confirmation message
+        alert("You have successfully registered for " + course + ".");
+      }
+
+      // Define a function to drop a course
+      function dropCourse() {
+        // Get the selected course from the dropdown
+        const course = document.getElementById("courseSelect").value;
+
+        // Check if the course is registered for
+        const registeredCourses =
+          document.getElementById("registeredCourses").innerText;
+        if (!registeredCourses.includes(course)) {
+          alert("You are not registered for this course.");
+          return;
+        }
+
+        // Remove the course from the list of registered courses
+        const updatedCourses = registeredCourses.replace(course + ", ", "");
+        document.getElementById("registeredCourses").innerText = updatedCourses;
+
+        // Display a confirmation message
+        alert("You have successfully dropped " + course + ".");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Course Registration System</h1>
+
+    <p>Select a course to register for:</p>
+    <select id="courseSelect">
+      <option value="math101">Math 101</option>
+      <option value="english101">English 101</option>
+      <option value="history101">History 101</option>
+    </select>
+
+    <button onclick="registerForCourse()">Register</button>
+    <button onclick="dropCourse()">Drop</button>
+
+    <p>Registered Courses: <span id="registeredCourses"></span></p>
+  </body>
+</html>

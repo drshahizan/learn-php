@@ -1,0 +1,24 @@
+{
+    "slug": "html-forms-tutorial-exercises",
+    "title": {
+        "us": "Learn how to use and interact with HTML Forms",
+        "es": "Aprende cómo usar e interactuar con Formularios en HTML"
+    },
+    "preview": "https://github.com/4GeeksAcademy/html-forms-tutorial-exercises/blob/master/preview.jpeg?raw=true",
+    "description": {
+        "us": "Form validations, inputs, textarea, date inputs, etc.",
+        "es": "Validaciones de formularios, inputs, areas de texto (textarea), inputs de fechas, etc."
+    },
+    "difficulty": "easy",
+    "language": "html",
+    "skills": ["html-forms"],
+    "videoSolutions": false,
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+    "repository": "https://github.com/4GeeksAcademy/html-forms-tutorial-exercises",
+    "config": {
+        "disableGrading": true,
+        "editor": {
+            "version": "1.0.73"
+        }
+    }
+}

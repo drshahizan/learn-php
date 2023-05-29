@@ -1,0 +1,104 @@
+<!--
+Name: A Sharilfazlee Salleh B Hj A Suhaimi
+Matrix No: SX150069CSJS04
+Github id: spek1993
+
+Lab 9 Medical Information
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Information</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: Verdana;
+            color: blue;
+            font-weight: bold;
+        }
+
+        table, th, td{
+            font-size: 13px;
+            border-collapse: collapse;
+            border: 1px groove black;
+            text-align: center;
+            width: 600px;
+        }
+
+        td{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        th{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form method="POST" action="process.php">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <table border="1" width="100%">
+            <tr>
+                <td>First Name  </td>
+                <td><input type="text" name="fName"></td>
+                <td>Gender</td>
+                <td>
+                    <select name="genSelect" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>                   
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lName"></td>
+                <td>Nationality</td>
+                <td>
+                    <select name="natSelect" id="national">
+                        <option value="my">Malaysian</option>
+                        <option value="oth">Other</option>                   
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td colspan="3">
+                    <textarea cols="40" rows="5">
+
+                    </textarea>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Medical History</legend>
+        <input type="checkbox" value="sp"> Smallpox
+        <input type="checkbox" value="mp"> Mumps
+        <input type="checkbox" value="dz"> Dizziness
+        <input type="checkbox" value="sn"> Sneezing
+    </fieldset>
+
+    <fieldset>
+        <legend>Current Medication</legend>
+            Are you currently taking any medication? 
+            <input type="radio" name="medication" value="Y"> Yes
+            <input type="radio" name="medication" value="N"> No
+            <br>
+            If you are currently taking medication, please indicate it in the space below:
+            <textarea rows="10" cols="65">
+
+            </textarea>
+    </fieldset>
+    <input type="Submit" value="Submit">      <input type="reset" value="Reset">
+    </form>
+</div>
+</body>
+</html>

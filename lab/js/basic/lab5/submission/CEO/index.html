@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<!--
+    Lab 5: Create a pattern with a nested for loop
+    Group:
+    1. Name: ISMAIL BIN AMAN, Matrix No: SX211939ECJHF04, Github ID: oldpistol
+    2. Name: SEPRIYANDI BIN AGUSR, Matrix No: SX211697ECRHF04, Github ID: sepz36
+    3. Name: MUHAMMAD AZAM BIN AZMAN, Matrix No: SX211707ECRHF04, Github ID: Azamazman96
+    4. Name: MUHAMMAD BADRUL AMIN BIN MASROL, Matrix No: SX220346ECJHS04, Github ID: badz20  
+    -->
+<head>
+    <title>Lab 5</title>
+</head>
+
+<body>
+    <h1>Nested for loop pattern</h1>
+    <script>
+        // Define the number of rows
+        var rows = 5;
+
+        // Loop through each row
+        for (var i = 1; i <= rows; i++) {
+
+            // Create a string to hold the stars for this row
+            var stars = '';
+
+            // Loop through each column in this row
+            for (var j = 1; j <= i; j++) {
+                // Add a star to the string for each column
+                stars += '*';
+            }
+
+            // Output the row with its stars
+            document.write(stars + '<br>');
+        }
+    </script>
+</body>
+
+</html>
