@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>AJAX Example</title>
+    <script>
+      function getWeather() {
+        // Create a new XHR object
+        let xhr = new XMLHttpRequest();
+
+        // Set up the API endpoint URL with a query parameter for the location (in this case, New York City)
+        let url = "https://api.openweathermap.org/data/2.5/weather?q=New York City&appid=your_api_key_here";
+
+        // Set the HTTP method and endpoint URL
+        xhr.open("GET", url);
+
+        // Set the response type to JSON
+        xhr.responseType = "json";
+
+        // Set up a callback function to handle the response
+        xhr.onload = function() {
+          if (xhr.status === 200) {
+            // If the request was successful, display the weather data in the result div
+            let weatherData = xhr.response;
+            let resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = `The current temperature in ${weatherData.name} is ${weatherData.main.temp} Kelvin.`;
+          } else {
+            // If the request failed, display an error message in the result div
+            let resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = "Error: Unable to retrieve weather data.";
+          }
+        };
+
+        // Send the request
+        xhr.send();
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Get Weather Data with AJAX</h1>
+    <button onclick="getWeather()">Get Weather</button>
+    <div id="result"></div>
+  </body>
+</html>

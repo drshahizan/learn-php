@@ -1,0 +1,101 @@
+<!--
+******************************************************************
+* The following HTML document presents a form for popcorn sales	 *									   *
+*                                                                *
+******************************************************************
+-->
+
+<html>
+<head>
+<title>Popcorn Sales Form - for PHP Handling</title>
+</head>
+
+<body>
+
+<!-- The next line gives the address of the CGI program -->
+
+ <form name="frmPopcorn" action="popcorn.php" method="post">
+
+
+
+<h2> Welcome to Millenium Gymnastic Booster Club Popcorn Sales </h2>
+
+<!-- Insert A borderless table of text widgets for name and address -->
+<table>
+	<tr>
+    	<td> Buyer's Name : </td>
+        <td> <input type="text" name="name" size="30"/> </td>
+    </tr>
+    
+	<tr> 
+    	<td> Street Address: </td>
+        <td>  <input type="text" name="street" size="30"/> </td>
+    </tr>
+    
+    <tr> 
+    	<td> City, State, Zip: </td>
+        <td>  <input type="text" name="city" size="30"/> </td>
+    </tr>
+    
+</table>
+<br><br>
+
+<!-- Insert A bordered table for items orders -->
+<table border="2"; width="50%">
+
+<!-- First, insert the column headings -->
+	<tr>
+		<th> Product Name </th>
+		<th> Price </th>
+		<th> Quantity </th>
+	</tr>
+
+<!-- Now, insert the three of table data entries -->
+	<tr>
+		<td> Unpopped Popcorn </td>
+		<td> $3.00 </td>
+		<td align="center">  <input type="text" name="unpop" size="5"/> </td>
+	</tr>
+
+	<tr>
+		<td> Caramel Popcorn </td>
+		<td> $4.00 </td>
+		<td align="center">  <input type="text" name="caramel" size="5"/> </td>
+	</tr>
+
+	<tr>
+		<td> Caramel Nut Popcorn </td>
+		<td> $5.00 </td>
+		<td align="center">  <input type="text" name="caramelnut" size="5"/> </td>
+	</tr>
+
+	<tr>
+		<td> Toffey Nut Popcorn </td>
+		<td> $6.00 </td>
+		<td align="center">  <input type="text" name="Toffeynut" size="5"/> </td>
+	</tr>
+
+</table>
+
+<!-- Now, insert the radio button for the payment method -->
+<h2> Payment Method: </h2>
+<p>
+	<label> 
+    	<input type="radio" name="payment" value="Cash" checked="checked"/> Cash
+    </label>
+    
+    <label> 
+    	<input type="radio" name="payment" value="Creadit Card"/> Creadit Card
+    </label>
+</p>
+
+
+<!-- Lastly, insert the submit and reset buttons -->
+<p>
+	<input type="submit" value="Submit Order"/>
+	<input type="reset" value="Clear Order Form"/>
+</p>
+
+</form> 
+</body>
+</html>

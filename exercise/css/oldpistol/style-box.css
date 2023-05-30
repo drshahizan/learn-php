@@ -1,0 +1,14 @@
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 100px;
+  border: 2px solid transparent;
+  background-color: aqua;
+  margin: 50px;
+}
+
+.content {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: blueviolet;
+}

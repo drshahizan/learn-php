@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grade Calculator</title>
+    <script>
+      // Define the student data and grades as arrays of objects
+      var students = [
+        { name: "John", grade: 80 },
+        { name: "Jane", grade: 90 },
+        { name: "Alice", grade: 70 },
+        { name: "Bob", grade: 85 },
+        { name: "Chris", grade: 95 }
+      ];
+      
+      // Calculate the average grade
+      var totalGrade = 0;
+      for (var i = 0; i < students.length; i++) {
+        totalGrade += students[i].grade;
+      }
+      var avgGrade = totalGrade / students.length;
+      
+      // Determine the corresponding grade based on the average
+      var finalGrade = "";
+      if (avgGrade >= 90) {
+        finalGrade = "A";
+      } else if (avgGrade >= 80) {
+        finalGrade = "B";
+      } else if (avgGrade >= 70) {
+        finalGrade = "C";
+      } else if (avgGrade >= 60) {
+        finalGrade = "D";
+      } else {
+        finalGrade = "F";
+      }
+      
+      // Display the final grade in an HTML element
+      window.onload = function() {
+        document.getElementById("final-grade").innerHTML = finalGrade;
+      };
+    </script>
+  </head>
+  <body>
+    <h1>Grade Calculator</h1>
+    
+    <p>The following are the students and their grades:</p>
+    <ul>
+      <li>John - 80</li>
+      <li>Jane - 90</li>
+      <li>Alice - 70</li>
+      <li>Bob - 85</li>
+      <li>Chris - 95</li>
+    </ul>
+    
+    <p>The final grade is: <span id="final-grade"></span></p>
+  </body>
+</html>
