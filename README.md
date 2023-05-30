@@ -7,6 +7,8 @@
 
 Don't forget to hit the :star: if you like this repo.
 # SCSV1223 - WEB PROGRAMMING
+![Introduction to web programming](/images/webdev-programming.png)
+> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ### Contents:
 - [Course Outline](#course-outline)
@@ -18,8 +20,8 @@ Don't forget to hit the :star: if you like this repo.
   - [Code Quality Guide](/materials/others/intro-wp.md#code-quality-guide)
   - [HTML](/materials/html/readme.md#html)
   - [CSS](./materials/css/readme.md)
-  - [Bootstrap](./materials/boostrap/readme.md)
   - [JavaScript](./materials/javascript/readme.md)
+  - [Bootstrap](./materials/bootstrap/readme.md)
   - [PHP](./materials/php/readme.md)
 - [Labs](./lab)
 - [Contribution 🛠️](#contribution-️)
@@ -29,45 +31,41 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 ## 🔥 Important things
 1. [Lecture Notes](https://drive.google.com/drive/folders/10Ukq2jzZMe0N4mmcTJoBmrNWDQiEifry?usp=sharing)
-2. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
-3. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
+2. 👩👨 [Student Information](./materials/student-info.md)
+3. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
+4. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
+9. [Student Portfolio Showcase](https://drshahizan.github.io/) 🆕
 
-## 👩👨 [Student Information](./materials/student-info.md)
+#### Module
 
-## [Labs](./lab)
-### Hypertext Markup Language (HTML)
+| No | Module | Description |  Lab |
+| :-----: | ------ | ------ | :-----: |
+| 1 | [Introduction to Web Programming](/materials/others/intro-wp.md) | Web programming is the process of creating web pages and web-based applications using a variety of programming languages and technologies. To get started with web programming, one should learn HTML, CSS, and JavaScript, which are the core technologies used for creating web pages and user interfaces. Bootstrap is a popular framework that can simplify the process of creating responsive and mobile-friendly web pages. PHP is a server-side scripting language used for creating dynamic web pages and web-based applications. By learning these technologies, one can create attractive and interactive web content that is compatible with a wide range of devices and browsers. | | 
+| 2 | [Visual Studio Code](/materials/others/vscode-intro.md) | Visual Studio Code is a popular source code editor developed by Microsoft. It is free, open-source, and available for Windows, Mac, and Linux. Visual Studio Code supports a wide range of programming languages and provides features such as code highlighting, autocomplete, debugging, and source control integration. It also supports extensions that can add functionality, such as linters, formatters, and code snippets. With its user-friendly interface and robust set of features, Visual Studio Code has become a favorite among developers for writing, testing, and debugging code.|| 
+| 3 | [Hypertext Markup Language (HTML)](/materials/html/readme.md#hypertext-markup-language-html) | HTML is a markup language used for creating web pages and other web-based content. It uses tags and codes to structure and format content, such as headings, paragraphs, images, and links. HTML also allows for the creation of forms, which enable user interaction with web pages through input fields, buttons, and other elements. It is a fundamental technology for creating web pages and provides a standardized system for defining the structure and formatting of content.| <a href="/materials/html/exercise.md" ><img src="./images/html.png" width="24px" height="24px" ></a> |
+| 4 | [Cascading Style Sheets (CSS)](/materials/css) | CSS is a stylesheet language used for describing the presentation of web pages and other web-based content. It allows content creators to control the layout, colors, fonts, and other visual elements of a web page, separate from the HTML markup. CSS works by applying rules to HTML elements, which define how they should be displayed. These rules can be applied to individual elements, groups of elements, or the entire page. CSS also supports the use of media queries, which allow for the creation of responsive designs that adapt to different device sizes and screen orientations. | <a href="./materials/css/exercise.md" ><img src="./images/css.png" width="24px" height="24px" ></a> |
+| 5 | [JavaScript](./materials/javascript/readme.md) | JavaScript is a scripting language used primarily for creating interactive web pages and web-based applications. It is a client-side language that runs directly in a web browser and can be used to manipulate the content and behavior of web pages in real-time. JavaScript can be used to create animations, validate user input, fetch data from servers, and much more. It is a powerful language with a large and active community, and is commonly used alongside HTML and CSS to create dynamic and engaging web content. | <a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="24px" height="24px" ></a> |
+| 6 | [Bootstrap](./materials/bootstrap/readme.md) | Bootstrap is a popular open-source framework used for creating responsive and mobile-first web pages and applications. It provides pre-designed templates, CSS styles, and JavaScript plugins that make it easy for developers to create visually appealing and functional websites. Bootstrap uses a grid system to enable the creation of flexible layouts that adapt to different device sizes and screen orientations. It also provides a variety of UI components, such as forms, buttons, navigation menus, and modals, that can be easily customized and integrated into web projects. | <a href="./materials/bootstrap/exercise.md" ><img src="./images/bootstrap.png" width="16px" height="16px" ></a> |
+| 7 | [Hypertext Preprocessor (PHP)](./materials/php/readme.md) | PHP is a server-side scripting language used primarily for web development. It is a popular language for creating dynamic web pages and web-based applications, as it can interact with databases, handle form data, and perform other server-side tasks. PHP code is executed on the server before the web page is sent to the client's browser, allowing for the creation of complex and dynamic web content. PHP also has a large and active community that has developed many frameworks and libraries to simplify web development tasks.| <a href="./materials/php/exercise.md" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
 
-| Lab | Topic | Title | Files |
-| -----: | ----- | ----- | :------: | 
-| 0 | HTML | Your first HTML Page |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab0" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 1 | HTML | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 2 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 3 | HTML | Format an article with HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab3" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | HTML | HTML Image |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab4" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 5 | HTML | Nested List |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab5" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 6 | HTML | Table |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab6" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 7 | HTML | Timetable |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab7" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 8 | HTML | Table |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab8" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 9 | HTML | Form |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab9" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | HTML | Form |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab10" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
+## Lab
 
-## Cascading Style Sheets (CSS)
+| Lab | Topic | Files |
+| :-----: | ----- | :------: | 
+| 1| Hypertext Markup Language |<a href="./materials/html/exercise.md" ><img src="./images/html.png" width="36px" height="36px" ></a> |
+| 2 | Cascading Style Sheets |<a href="./materials/css/exercise.md" ><img src="./images/css.png" width="36px" height="36px" ></a> |
+| 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="36px" height="36px" ></a> |
+| 4 | Bootstrap |<a href="./materials/bootstrap/exercise.md" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
+| 5 | Hypertext Preprocessor |<a href="./materials/php/exercise.md" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
 
-| Lab | Topic | Title | Files |
-| -----: | ----- | ----- | :------: | 
-| 11 | CSS | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab11" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 12 | CSS | Text and Box Model |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab12" ><img src="./images/folder_info.png" width="24px" height="24px"></a>|
-| 13 | CSS | Layout (Mock & Style) |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab13" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 14 | CSS | Website Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab14" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 15 | CSS | Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab15" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
-| 16 | CSS | Form Layout |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/css/lab16" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
+## Project
 
-### Lab CSS: Instruction
-
-1. This task must be done in groups (**4** people per group).
-2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
-
-
+| Project | Topic | Files |
+| :-----: | ----- | :------: | 
+| 1| Student Portfolio Showcase (HTML) |<a href="./project/1-portfolio" ><img src="./images/html.png" width="36px" height="36px" ></a> |
+| 2 | Student Portfolio Showcase (Bootstrap) |<a href="./project/2-bootstrap/" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
+| 3 | Web Responsive using Bootstrap |<a href="./project/3-web" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
+| 4 | Final Project using PHP |<a href="./project/4-project" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.

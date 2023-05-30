@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+    <label>First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label>Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br>
+    <label>Gender:</label><br>
+    <input type="radio" id="html" name="gender" value="Male">
+    <label for="html">Male</label><br>
+    <input type="radio" id="css" name="gender" value="Female">
+    <label>Female</label><br>
+    <label>Department:</label>
+    <br>
+    <select name="department" id="department">
+        <option value="HR">HR</option>
+        <option value="IT">IT</option>
+        <option value="FINANCE">FINANCE</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>

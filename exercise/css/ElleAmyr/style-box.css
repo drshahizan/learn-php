@@ -1,0 +1,15 @@
+.box {
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+	border: 2px solid black;
+	margin: 50px;
+	background-color: lightpink;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content {
+	font-size: 24px;
+	font-family: Verdana, sans-serif;
+}

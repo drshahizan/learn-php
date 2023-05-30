@@ -7,6 +7,25 @@
 
 Don't forget to hit the :star: if you like this repo.
 # Introduction to Web Programming
+Web programming involves the creation of web pages and web-based applications using various programming languages and technologies. To get started with web programming, one should learn HTML, CSS, and JavaScript as these are the core technologies used for creating web pages and user interfaces.
+
+1. **HTML (Hypertext Markup Language)** is a markup language used for creating the structure of web pages. It uses tags to define the different components of a web page, such as headings, paragraphs, images, and links. HTML is the foundation of all web pages and provides the structure for other technologies to build upon.
+
+2. **CSS (Cascading Style Sheets)** is a stylesheet language used for styling and layout of web pages. It allows developers to define the visual appearance of HTML elements, such as fonts, colors, margins, and positioning. CSS separates the visual style of a web page from its content, making it easier to maintain and update.
+
+3. **JavaScript** is a scripting language used for creating interactive web pages and web-based applications. It enables the creation of dynamic content, such as animations, form validation, and AJAX (Asynchronous JavaScript and XML) requests. JavaScript runs on the client-side, meaning that it is executed on the user's device, rather than on the web server.
+
+4. **Bootstrap** is a popular open-source framework used for creating responsive and mobile-first web pages and applications. It provides pre-designed templates, CSS styles, and JavaScript plugins that make it easy for developers to create visually appealing and functional websites. Bootstrap uses a grid system to enable the creation of flexible layouts that adapt to different device sizes and screen orientations. It also provides a variety of UI components, such as forms, buttons, navigation menus, and modals, that can be easily customized and integrated into web projects.
+
+5. **PHP (Hypertext Preprocessor)** is a server-side scripting language used for creating dynamic web pages and web-based applications. It can interact with databases, handle form data, and perform other server-side tasks. PHP code is executed on the server before the web page is sent to the client's browser, allowing for the creation of complex and dynamic web content. PHP also has a large and active community that has developed many frameworks and libraries to simplify web development tasks.
+
+In summary, learning HTML, CSS, JavaScript, Bootstrap, and PHP is essential for anyone interested in web programming and creating web-based applications. These technologies provide the foundation for creating visually appealing, responsive, and interactive web content that can be accessed by a wide range of devices and browsers.
+
+![Browser sketchnote](browser.jpg)
+> Sketchnote by [Wassim Chegham](https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob)
+
+## Useful Links
+
 - [Video: Everyone should know how to program](https://youtu.be/sDk1pTDPROIhttps://youtu.be/ysEN5RaKOlA)
 - [Video: Learn web development as an absolute beginner](https://youtu.be/ysEN5RaKOlA)
 - [Introduction to Web Programming Languages](https://www.educba.com/web-programming-languages/)
@@ -18,6 +37,8 @@ Don't forget to hit the :star: if you like this repo.
 - [How to Learn Web Development in 2021 - a Web Developer Roadmap](https://www.freecodecamp.org/news/how-to-learn-web-dev-in-2021-roadmap/)
 
 ## Code Quality Guide
+A Code Quality Guide in HTML is a set of guidelines and best practices for creating high-quality, maintainable, and scalable HTML code. The guide typically includes rules for formatting and organizing HTML code, as well as suggestions for naming conventions, commenting, and documentation. It may also cover topics such as accessibility, performance optimization, and cross-browser compatibility. The goal of a Code Quality Guide in HTML is to ensure that the HTML code is easy to read, understand, and maintain, and that it meets the requirements and standards of the project or organization. By following a Code Quality Guide in HTML, developers can improve the quality and consistency of their code, reduce errors and bugs, and make it easier for other team members to work with and modify the code in the future.
+
 - [General Guidelines](https://courses.cs.washington.edu/courses/cse154/codequalityguide/)
 - [Google HTML/ CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 - [HTML](https://courses.cs.washington.edu/courses/cse154/codequalityguide/html/)

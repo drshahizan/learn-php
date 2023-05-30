@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Navbar Example</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Navbar Header -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#">My Website</a>
+			</div>
+			<!-- Navbar Links -->
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#">ホーム</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-submenu"><a href="#">Our Story</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">abc</a></li>
+										<li><a href="#">def</a></li>
+										<li><a href="#">ghi</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Our History</a></li>
+							<li><a href="#">Our Team</a></li>
+							<li><a href="#">Our Mission</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+</body>
+</html>

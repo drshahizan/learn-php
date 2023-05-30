@@ -7,6 +7,17 @@
 
 Don't forget to hit the :star: if you like this repo.
 # Visual Studio Code
+
+Visual Studio Code is a lightweight and versatile source code editor developed by Microsoft. It is designed to be cross-platform, running on Windows, macOS, and Linux, and supports a wide range of programming languages, including JavaScript, Python, C++, and many others. Visual Studio Code provides a user-friendly interface and a range of features that help developers write, test, and debug code more efficiently.
+
+One of the key features of Visual Studio Code is its built-in IntelliSense system, which provides code completion, syntax highlighting, and contextual help for many programming languages. IntelliSense makes it easier for developers to write code quickly and accurately, reducing the risk of errors and typos. Visual Studio Code also includes a debugger that supports multiple languages, enabling developers to step through code and inspect variables and data structures during runtime.
+
+Visual Studio Code is highly customizable, with support for extensions that can add new functionality, such as linters, formatters, and code snippets. These extensions are available from the Visual Studio Code marketplace, and many are open-source, allowing developers to modify them to suit their needs.
+
+In addition to its powerful editing features, Visual Studio Code integrates with many source control systems, including Git, allowing developers to manage code changes and collaborate with other team members. Visual Studio Code also provides a built-in terminal, making it easy to run command-line tools and interact with the shell directly from the editor.
+
+In summary, Visual Studio Code is a lightweight and versatile source code editor that provides a range of features for writing, testing, and debugging code. With its support for many programming languages and its customizable interface, Visual Studio Code is a popular choice among developers for their day-to-day coding tasks.
+
 ### <img src="../../images/youtube64.png" width="24px" height="24px"></a> Video
 - [Visual Studio Code Web Dev Setup In 6 Minutes](https://www.youtube.com/watch?v=4NfFFsQC77M)
 - [Visual Studio Code: HTML, CSS & JS Tips](https://www.youtube.com/watch?v=bJiIzz8mFMs)

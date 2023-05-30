@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Operators and Expressions in JavaScript</title>
+</head>
+
+<body>
+
+    <h1>Operators and Expressions Example</h1>
+
+    <p>Let's perform some calculations:</p>
+
+    <script>
+        // Define some variables
+        let a = 5;
+        let b = 3;
+
+        // Perform some calculations and display the results
+        document.write("<p>a + b = " + (a + b) + "</p>");
+        document.write("<p>a - b = " + (a - b) + "</p>");
+        document.write("<p>a * b = " + (a * b) + "</p>");
+        document.write("<p>a / b = " + (a / b) + "</p>");
+        document.write("<p>a % b = " + (a % b) + "</p>");
+
+        // Use logical operators to check some conditions
+        let c = 10;
+        let d = 20;
+        if (c > a && d < b) {
+            document.write("<p>c is greater than a and d is less than b</p>");
+        } else {
+            document.write("<p>The condition is not true</p>");
+        }
+
+        // Use expressions as function arguments
+        function greet(name) {
+            document.write("<p>Hello, " + name + "!</p>");
+        }
+        greet("Alice");
+
+        // Use expressions in loops
+        for (let i = 0; i < 5; i++) {
+            document.write("<p>" + i + "</p>");
+        }
+    </script>
+
+</body>
+
+</html>
