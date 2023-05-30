@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check Even or Odd</title>
+  </head>
+  <body>
+    <label for="number-input">Numbers (separated by commas):</label>
+    <input type="text" id="number-input">
+    <br>
+    <button onclick="checkEven()">Check Even</button>
+    <button onclick="checkOdd()">Check Odd</button>
+    <br>
+    <p id="result"></p>
+    <script>
+      function checkEven() {
+        const inputString = document.getElementById("number-input").value;
+        const inputArray = inputString.split(",").map(x => Number(x));
+        const result = document.getElementById("result");
+        let outputArray = [];
+
+        for (let i = 0; i < inputArray.length; i++) {
+          outputArray.push(inputArray[i] % 2 === 0);
+        }
+
+        result.textContent = outputArray.join(", ");
+      }
+
+      function checkOdd() {
+        const inputString = document.getElementById("number-input").value;
+        const inputArray = inputString.split(",").map(x => Number(x));
+        const result = document.getElementById("result");
+        let outputArray = [];
+
+        for (let i = 0; i < inputArray.length; i++) {
+          outputArray.push(inputArray[i] % 2 !== 0);
+        }
+
+        result.textContent = outputArray.join(", ");
+      }
+    </script>
+  </body>
+</html>

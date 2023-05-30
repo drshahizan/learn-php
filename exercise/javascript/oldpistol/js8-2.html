@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Course Registration System</title>
+</head>
+
+<body>
+    <h1>Course Registration System</h1>
+
+    <label for="departmentSelect">Select Department:</label>
+    <select id="departmentSelect">
+        <option value="cs">Computer Science</option>
+        <option value="math">Mathematics</option>
+        <option value="phy">Physics</option>
+    </select><br>
+
+    <label for="courseSelect">Select Course:</label>
+    <select id="courseSelect"></select>
+
+    <script>
+        // Define an object that contains the available courses for each department
+        const courses = {
+            cs: ["Intro to Programming", "Data Structures", "Algorithms"],
+            math: ["Calculus I", "Calculus II", "Linear Algebra"],
+            phy: ["Classical Mechanics", "Quantum Mechanics", "Thermodynamics"]
+        };
+
+        // Get references to the department and course select elements
+        const departmentSelect = document.getElementById("departmentSelect");
+        const courseSelect = document.getElementById("courseSelect");
+
+        // Add an event listener for the change event on the department select element
+        departmentSelect.addEventListener("change", function () {
+            // Get the value of the selected department
+            const department = departmentSelect.value;
+
+            // Clear the options in the course select element
+            courseSelect.innerHTML = "";
+
+            // Add a new option for each available course in the selected department
+            courses[department].forEach(function (course) {
+                const option = document.createElement("option");
+                option.textContent = course;
+                courseSelect.appendChild(option);
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <!--
+    Lab 7: Multiplication and division of two numbers
+    Group:
+    1. Name: ISMAIL BIN AMAN, Matrix No: SX211939ECJHF04, Github ID: oldpistol
+    2. Name: SEPRIYANDI BIN AGUSR, Matrix No: SX211697ECRHF04, Github ID: sepz36
+    3. Name: MUHAMMAD AZAM BIN AZMAN, Matrix No: SX211707ECRHF04, Github ID: Azamazman96
+    4. Name: MUHAMMAD BADRUL AMIN BIN MASROL, Matrix No: SX220346ECJHS04, Github ID: badz20  
+    -->
+<head>
+    <title>Lab 7</title>
+    <script>
+        function multiply() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var result = num1 * num2;
+            document.getElementById("result").innerHTML = "Result: " + result;
+        }
+
+        function divide() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var result = num1 / num2;
+            document.getElementById("result").innerHTML = "Result: " + result;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <label for="num1">Number 1:</label>
+    <input type="text" id="num1" name="num1" required><br><br>
+    <label for="num2">Number 2:</label>
+    <input type="text" id="num2" name="num2" required><br><br>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button><br><br>
+    <p id="result"></p>
+</body>
+
+</html>

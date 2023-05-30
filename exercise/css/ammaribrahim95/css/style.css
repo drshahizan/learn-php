@@ -1,0 +1,38 @@
+/* Global Styles */
+body {
+	font-family: 'Courier New', Courier, monospace, sans-serif;
+	background-color: #F9F9F9;
+}
+
+header {
+	background-color: #b41818;
+	color: #FFF;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #1b1284;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #440303;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>University Course Registration</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2>University Course Registration Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="studentName">Student Name:</label>
+                <input type="text" class="form-control" id="studentName" placeholder="Enter student name"
+                    name="studentName" />
+            </div>
+            <div class="form-group">
+                <label for="studentID">Student ID:</label>
+                <input type="text" class="form-control" id="studentID" placeholder="Enter student ID"
+                    name="studentID" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" />
+            </div>
+            <div class="form-group">
+                <label for="courseName">Course Name:</label>
+                <input type="text" class="form-control" id="courseName" placeholder="Enter course name"
+                    name="courseName" />
+            </div>
+            <div class="form-group">
+                <label for="courseID">Course ID:</label>
+                <input type="text" class="form-control" id="courseID" placeholder="Enter course ID" name="courseID" />
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select class="form-control" id="department" name="department">
+                    <option value="">Select department</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Physics">Physics</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="semester">Semester:</label>
+                <select class="form-control" id="semester" name="semester">
+                    <option value="">Select semester</option>
+                    <option value="Spring">Spring</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Fall">Fall</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>

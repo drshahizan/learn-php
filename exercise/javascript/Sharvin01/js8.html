@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Arrays Example</title>
+  </head>
+  <body>
+    <h1>JavaScript Arrays Example</h1>
+    <p>Click the buttons to manipulate the array:</p>
+    <button onclick="addFruit()">Add Fruit</button>
+    <button onclick="removeLast()">Remove Last Fruit</button>
+    <button onclick="showLength()">Show Length</button>
+    <ul id="fruitList"></ul>
+    <script>
+      // Define an array of fruits
+      const fruits = ["apple", "banana", "orange"];
+
+      // Function to add a new fruit to the array
+      function addFruit() {
+        const newFruit = prompt("Enter a new fruit:");
+        fruits.push(newFruit);
+        showFruits();
+      }
+
+      // Function to remove the last fruit from the array
+      function removeLast() {
+        fruits.pop();
+        showFruits();
+      }
+
+      // Function to show the length of the array
+      function showLength() {
+        alert("The length of the array is: " + fruits.length);
+      }
+
+      // Function to display the fruits in the array
+      function showFruits() {
+        const fruitList = document.getElementById("fruitList");
+        fruitList.innerHTML = "";
+        fruits.forEach(function(fruit) {
+          const li = document.createElement("li");
+          li.textContent = fruit;
+          fruitList.appendChild(li);
+        });
+      }
+
+      // Call the showFruits function to display the initial array
+      showFruits();
+    </script>
+  </body>
+</html>

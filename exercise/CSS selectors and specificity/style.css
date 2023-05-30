@@ -1,0 +1,38 @@
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f05a5a;
+}
+
+header {
+	background-color: #333;
+	color: #a16868;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #1ccae9;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #ccb1b1;
+	color: #8d426b;
+	padding: 10px;
+	text-align: center;
+}

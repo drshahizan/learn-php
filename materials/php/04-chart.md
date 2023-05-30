@@ -1,0 +1,34 @@
+<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
+<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
+
+Don't forget to hit the :star: if you like this repo.
+
+# PHP: Chart.JS and Google Charts
+
+| Lesson | Topic | Description | Result |
+| --- | --- | --- | :------: |
+| 13a | Chart.JS: Bar Chart | Bar charts are created by setting type to bar (to flip the direction of the bars, set type to horizontalBar). The colors of the bars are set by passing one color to backgroundColor (all bars will have the same color), or an array of colors. |  <a href="http://localhost/msoWP/chartjs/1chartjs_bar.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 13b | Chart.JS: Line Chart | Line charts are created by setting type to line. By default, lines come with a dark transparent fill, covering the area between the line and x-axis. |  <a href="http://localhost/msoWP/chartjs/2chartjs_line.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 13c | Chart.JS: Mixed Chart | You can mix several charts and overlay them on top of each other. This is done by setting type to bar (not to e.g. mixed or line—it has to be bar), and then setting the bar type for every dataset object in your datasets array. |  <a href="http://localhost/msoWP/chartjs/3chartjs_mixed.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 13d | Chart.JS: Radar Chart | Radar charts, also known as web charts, spider charts, star charts, are created by setting type to radar. Radar charts typically require more vertical space than other graphs to be legible, so you might have to tweak the graph proportions. |  <a href="http://localhost/msoWP/chartjs/4chartjs_radar.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 13e | Chart.JS: Doughnut Chart | Doughnut charts are created by setting type to doughnut. They are almost identical to pie charts and will work with the same configurations. |  <a href="http://localhost/msoWP/chartjs/5chartjs_doughnut.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 14a | Google Charts: Pie chart | A pie chart that is rendered within the browser using SVG or VML. Displays tooltips when hovering over slices. |  <a href="http://localhost/msoWP/googlecharts/1gchart_pie.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 14b | Google Charts: Column chart | A column chart is a vertical bar chart rendered in the browser using SVG or VML, whichever is appropriate for the user's browser. Like all Google charts, column charts display tooltips when the user hovers over the data. For a horizontal version of this chart, see the bar chart. |  <a href="http://localhost/msoWP/googlecharts/2gchart_column.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 14c | Google Charts: Combo chart | A chart that lets you render each series as a different marker type from the following list: line, area, bars, candlesticks, and stepped area. To assign a default marker type for a series, specify the seriesType property. Use the series property to specify properties of each series individually. |  <a href="http://localhost/msoWP/googlecharts/3gchart_combo.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 14d | Google Charts: Bubble chart | A bubble chart is used to visualize a data set with two to four dimensions. The first two dimensions are visualized as coordinates, the third as color, and the fourth as size. |  <a href="http://localhost/msoWP/googlecharts/4gchart_bubble.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 14e | Google Charts: Scatter chart | Scatter charts plot points on a graph. When the user hovers over the points, tooltips are displayed with more information. |  <a href="http://localhost/msoWP/googlecharts/5gchart_scatter.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 14f | Google Charts: Organization chart | Org charts are diagrams of a hierarchy of nodes, commonly used to portray superior/subordinate relationships in an organization. A family tree is a type of org chart. |  <a href="http://localhost/msoWP/googlecharts/6gchart_orgc.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 14g | Google Charts: Word tree | A word tree depicts multiple parallel sequences of words. It could be used to show which words most often follow or precede a target word (e.g., "Cats are...") or to show a hierarchy of terms (e.g., a decision tree). |  <a href="http://localhost/msoWP/googlecharts/7gchart_word.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 14g | Google Charts: Dynamic pie chart | If you have a requirement to show the statistics of data with a pie chart, there is an easy way to create the pie chart in the web application. In this tutorial, we will show you how to create a dynamic pie chart with PHP and MySQL. DB: demo1, Tables: programming_languages, File: programming_languages.sql |  <a href="http://localhost/msoWP/googlecharts/mysqlGchart/index.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+| 14h | Google Charts: Dynamic pie, bar and column chart | The chart data is dynamic from the database. The database results are used to calculate the statistics to be seen in the graphical view. In the database, it has a table for storing people data with their country name. By grouping people by the country name, the chart will show the statistics about the population of each country. DB: demo1, Tables: tbl_people_country, File: tbl_people_country.sql |  <a href="http://localhost/msoWP/googlecharts/mysqlGchart2/index.php"><img src="../../images/chart.svg" width="24px" height="24px" ></a> |
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
