@@ -1,0 +1,206 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+Name: LOGESWARY KRISHNAMOORTHY
+Matrix No: SX211705ECRHF04
+Github id: Logeswary98
+Lab 10: Application Form
+-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 10: Application Form</title>
+</head>
+
+<body>
+    <h1 align="center">Web Programming: Application Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <table width="100%">
+                <tr>
+                    <td>Name</td>
+                    <td colspan="3">
+                        <select id="title">
+                            <option>--Select --</option>
+                            <option>--Mr--</option>
+                            <option>--Mrs--</option>
+                        </select>
+                        <input type="text">
+                    </td>
+                </tr>
+                <td>Gender</td>
+                <td>
+                    <input type="Radio" name="gender" id="R1" Value="Male">
+                    <label for="R1">Male</label>
+                    <input type="Radio" name="gender" id="R2" Value="Female">
+                    <label for="R2">Female</label>
+                </td>
+
+                <td>Date of Birth</td>
+                <td>
+                    <input type="date" id="birthday" name="birthday">
+                </td>
+                <tr>
+                    <td>Marital Status</td>
+                    <td>
+                        <select>
+                            <option>--Select --</option>
+                            <option>--Single--</option>
+                            <option>--Marride--</option>
+                        </select>
+                    </td>
+
+                    <td>Religion</td>
+                    <td>
+                        <select>
+                            <option>--Select --</option>
+                            <option>--Islam --</option>
+                            <option>--Buddha--</option>
+                            <option>--Hindu--</option>
+                            <option>--Lain-lain--</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <table width="100%">
+                <tr>
+                    <td>Phone</td>
+                    <td colspan="3"><input type="text"></td>
+                    <td>E-mail</td>
+                    <td colspan="3"><input type="text"></td>
+
+                </tr>
+                <td>Address Line 1</td>
+                <td colspan="3"><input type="text"></td>
+                <td>Address Line 2</td>
+                <td colspan="3"><input type="text"></td>
+
+                <tr>
+                    <td>City</td>
+                    <td colspan="3"><input type="text"></td>
+                    <td>State</td>
+                    <td>
+                        <select>
+                            <option>--Select --</option>
+                            <option>--Perlis --</option>
+                            <option>--Kedah--</option>
+                            <option>--Pulau Pinang--</option>
+                            <option>--Perak-</option>
+                            <option>--selangor --</option>
+                            <option>--Kuala Lumpur --</option>
+                            <option>--Negeri Sembilan--</option>
+                            <option>--Melaka--</option>
+                            <option>--Johor-</option>
+                            <option>--Pahang --</option>
+                            <option>--Kelantan --</option>
+                            <option>--Terangganu--</option>
+                            <option>--Sabah--</option>
+                            <option>--Sarawak-</option>
+                        </select>
+
+                    </td>
+
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Qualification Details</legend>
+            <table width="100%">
+                <td><b>No.</b></td>
+                <td><b>Qualification</b></td>
+                <td><b>University</b></td>
+                <td><b>Passing Year</b></td>
+                <td><b>CGPA</b></td>
+                <tr>
+                    <td>1.</td>
+                    <td>
+                        <select>
+                            <option>--Select --</option>
+                            <option>--Diploma --</option>
+                            <option>--Ijazah Sarjana Muda--</option>
+                            <option>--Master--</option>
+                            <option>--PHD--</option>
+                        </select>
+                    </td>
+                    <td colspan="1"><input type="text"></td>
+                    <td colspan="1"><input type="text"></td>
+                    <td colspan="1"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>
+                        <select>
+                            <option>--Select --</option>
+                            <option>--Diploma --</option>
+                            <option>--Ijazah Sarjana Muda--</option>
+                            <option>--Master--</option>
+                            <option>--PHD--</option>
+                        </select>
+                    </td>
+                    <td colspan="1"><input type="text"></td>
+                    <td colspan="1"><input type="text"></td>
+                    <td colspan="1"><input type="text"></td>
+                </tr>
+
+            </table>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Language Knowledge</legend>
+            <table width="100%">
+                <td><b>Language</b></td>
+                <td><i><b>Reading</b></i></td>
+                <td><i><b>Writing</b></i></td>
+                <td><i><b>Speaking</b></i></td>
+                <tr>
+                    <td>B. Melayu</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+
+            </table>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Identification Details</legend>
+            <table width="100%">
+                <td>Identity Card Number</td>
+                <td colspan="1"><input type="text"></td>
+                <td>Passport Number</td>
+                <td colspan="1"><input type="text"></td>
+                <tr>
+                    <td>Upload Photo</td>
+                    <td><input type="file"></td>
+                    <td>Upload Signature</td>
+                    <td><input type="file"></td>
+
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>

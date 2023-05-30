@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<!--
+    Lab 8: Determine integer values fall within the range
+    Group:
+    1. Name: ISMAIL BIN AMAN, Matrix No: SX211939ECJHF04, Github ID: oldpistol
+    2. Name: SEPRIYANDI BIN AGUSR, Matrix No: SX211697ECRHF04, Github ID: sepz36
+    3. Name: MUHAMMAD AZAM BIN AZMAN, Matrix No: SX211707ECRHF04, Github ID: Azamazman96
+    4. Name: MUHAMMAD BADRUL AMIN BIN MASROL, Matrix No: SX220346ECJHS04, Github ID: badz20  
+    -->
+<head>
+    <title>Lab 8</title>
+    <script>
+        function checkRange() {
+            let num1 = parseInt(document.getElementById("num1").value);
+            let num2 = parseInt(document.getElementById("num2").value);
+            let num3 = parseInt(document.getElementById("num3").value);
+
+            if ((num1 >= 50 && num1 <= 99) || (num2 >= 50 && num2 <= 99) || (num3 >= 50 && num3 <= 99)) {
+                document.getElementById("output").innerHTML = "True";
+            } else {
+                document.getElementById("output").innerHTML = "False";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Check Range</h1>
+    <p>Enter three numbers:</p>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    <input type="text" id="num3">
+    <br><br>
+    <button onclick="checkRange()">Check Range</button>
+    <p id="output"></p>
+</body>
+
+</html>

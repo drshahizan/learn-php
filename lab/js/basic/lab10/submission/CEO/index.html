@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+     <!--
+    Lab 10: Determine the longest word in a string
+    Group:
+    1. Name: ISMAIL BIN AMAN, Matrix No: SX211939ECJHF04, Github ID: oldpistol
+    2. Name: SEPRIYANDI BIN AGUSR, Matrix No: SX211697ECRHF04, Github ID: sepz36
+    3. Name: MUHAMMAD AZAM BIN AZMAN, Matrix No: SX211707ECRHF04, Github ID: Azamazman96
+    4. Name: MUHAMMAD BADRUL AMIN BIN MASROL, Matrix No: SX220346ECJHS04, Github ID: badz20  
+    -->
+<head>
+    <title>Lab 10</title>
+</head>
+
+<body>
+    <label for="input">Enter a string:</label>
+    <input type="text" id="input">
+    <button onclick="findLongestWord()">Find Longest Word</button>
+    <p id="output"></p>
+
+    <script>
+        function findLongestWord() {
+            const input = document.getElementById("input").value;
+            const words = input.split(" ");
+            let longestWord = "";
+
+            for (let i = 0; i < words.length; i++) {
+                if (words[i].length > longestWord.length) {
+                    longestWord = words[i];
+                }
+            }
+
+            document.getElementById("output").innerHTML = longestWord;
+        }
+    </script>
+</body>
+
+</html>
