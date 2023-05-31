@@ -32,10 +32,10 @@
                 items:1,
             },
             900:{
-                items:2,
+                items:1,
             },
             1200:{
-                items:3,
+                items:1,
                 loop:false
             }
         }
