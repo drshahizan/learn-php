@@ -12,11 +12,11 @@
   margin-top: 10px;
 }
 .owl-theme .owl-nav [class*="owl-"] {
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
   margin: 5px;
   padding: 4px 7px;
-  background: #fff;
+  background: #d6d6d6;
   display: inline-block;
   cursor: pointer;
   border-radius: 3px;
@@ -41,7 +41,7 @@
   width: 10px;
   height: 10px;
   margin: 5px 7px;
-  background: #fff;
+  background: #d6d6d6;
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity 0.2s ease;
