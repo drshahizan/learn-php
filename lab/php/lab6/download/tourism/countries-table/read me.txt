@@ -1,0 +1,10 @@
+-----------------------------------
+ Steps to import countries table
+---------------------------------
+
+#Step 1: Go to phpMyAdmin (http://localhost/phpmyadmin/) 
+
+#Step 2: Select your database
+
+#Step 3: Click on "Import" link in menu bar and import "countries.sql" file
+
