@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or Odd Checker</title>
+
+<!--
+Lab 2: Determine whether a number is even or odd
+Group:
+1. Name: AMMAR IBRAHIM BIN MOHAMED, Matrix No: SX220326ECJH, Github ID: ammaribrahim95
+2. Name: SHANMUGADHARSHINI A/P MURALI Matrix No: SX201656ECRHF04, Github ID: Shan9821
+3. Name: LOGESWARY A/P KRISHNAMOORTHY, Matrix No: SX211705ECRHF04, Github ID: Logeswary98
+4. Name: ADAM SHAH BIN MOHD FAIZAL, Matrix No: SX190401CSJS04 , Github ID: adamshahmf
+-->
+<script>
+var num, temp;
+function fun()
+{
+  num = parseInt(document.getElementById("num").value);
+  if(num)
+  {
+    temp = document.getElementById("resPara");
+    temp.style.display = "block";
+    if(num%2==0)
+      document.getElementById("res").innerHTML = "Even";
+    else
+      document.getElementById("res").innerHTML = "Odd";
+  }
+}
+</script>
+</head>
+<body>
+
+<h1>Even/Odd Number Checker</h1>
+<p>Enter the Number: <input id="num"><button onclick="fun()">Check</button></p>
+<p id="resPara" style="display:none;">It is an <span id="res"></span> Number</p>
+
+</body>
+</html>
