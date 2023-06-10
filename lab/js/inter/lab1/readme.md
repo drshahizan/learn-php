@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 Personal portfolio sites are consistent and must be maintained throughout your career. It allows potential clients to easily view your work while also allowing you to expand on your skills/experiences and services.
 
-This website has six sections on one page: Home, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's home page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the home page, there are texts about the author's name, profession, and a button labelled "Hire me."
+This website has six sections on one page: ホーム, About, Services, Skills, Teams, and Contact, and each section is appealing and eye-catching. This site's ホーム page has a sticky navigation bar with a logo on the left side and some navigation links on the right side. As you can see in the image, on the left side of the ホーム page, there are texts about the author's name, profession, and a button labelled "Hire me."
 
 > File 📁 : [lab1.zip](./download/lab1.zip?raw=true)
 > 
