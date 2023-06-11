@@ -8,19 +8,14 @@ if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
  
-// Attempt create table query execution
-$sql = "CREATE TABLE persons(
-    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    first_name VARCHAR(30) NOT NULL,
-    last_name VARCHAR(30) NOT NULL,
-    email VARCHAR(70) NOT NULL UNIQUE
-)";
+// Attempt insert query execution
+$sql = "INSERT INTO persons (id, first_name, last_name, email) VALUES (1, 'Zul', 'Ikmal', 'tanvir@mail.com')";
 if(mysqli_query($link, $sql)){
-    echo "Table created successfully.";
+    echo "Records inserted successfully.";
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
  
-// Close connection
+// Close connection 
 mysqli_close($link);
 ?>
