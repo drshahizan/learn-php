@@ -1,5 +1,6 @@
 <?php
-
+/* Attempt MySQL server connection. Assuming you are running MySQL
+server with default setting (user 'root' with no password) */
 $link = mysqli_connect("localhost", "root", "");
  
 // Check connection
@@ -9,5 +10,7 @@ if($link === false){
  
 // Print host information
 echo "Connect Successfully. Host info: " . mysqli_get_host_info($link);
-/*This is new comment*/
+ 
+// Close connection
+mysqli_close($link);
 ?>
