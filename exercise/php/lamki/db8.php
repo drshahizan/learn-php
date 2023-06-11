@@ -9,13 +9,15 @@ if($link === false){
 }
  
 // Attempt insert query execution
-$sql = "INSERT INTO persons (id, first_name, last_name, email) VALUES (1, 'Tanvir', 'Sakline', 'tanvir@mail.com')";
+$sql = "INSERT INTO persons (first_name, last_name, email) VALUES ('Padayachy', 'Aathi', 'padayachy@mail.com')";
 if(mysqli_query($link, $sql)){
-    echo "Records inserted successfully.";
+    // Obtain last inserted id
+    $last_id = mysqli_insert_id($link);
+    echo "Records inserted successfully. Last inserted ID is: " . $last_id;
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
  
-// Close connection 
+// Close connection
 mysqli_close($link);
 ?>

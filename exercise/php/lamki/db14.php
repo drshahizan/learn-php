@@ -8,15 +8,10 @@ if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
  
-// Attempt create table query execution
-$sql = "CREATE TABLE persons(
-    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    first_name VARCHAR(30) NOT NULL,
-    last_name VARCHAR(30) NOT NULL,
-    email VARCHAR(70) NOT NULL UNIQUE
-)";
+// Attempt delete query execution
+$sql = "DELETE FROM persons WHERE first_name='padayachy'";
 if(mysqli_query($link, $sql)){
-    echo "Table created successfully.";
+    echo "Records were deleted successfully.";
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
