@@ -13,7 +13,7 @@ Lab 11: HTML Text Appearance
 Group:
 1. Name: AMMAR IBRAHIM BIN MOHAMED, Matrix No: SX220326ECJH, Github ID: ammaribrahim95
 2. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
-3. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
+3. Name: Shanmugadharshini A/P Murali, Matrix No: SX201656ECRHF04, Github ID: Shan9821
 4. Name: [Name], Matrix No: [Matrix Number], Github ID: [Github ID]
 -->
     <style>
@@ -26,6 +26,11 @@ Group:
         text-align: center;
         padding: 20px;
         font-family: indie flower;
+        width: 500px;
+        margin: auto;
+      }
+      .container {
+        width: 600px;
       }
 
       .container p::first-letter {
@@ -49,80 +54,99 @@ Group:
         flex-wrap: wrap;
         gap: 10px 2em;
         align-self: center;
-        justify-content:center;
+        justify-content: center;
       }
       code {
-            display: inline-block;
-            padding: 10px;
-            background-color: lightgrey;
-            text-align: center;
-            margin: 5px;
-            width: 100px;
-            height: 100px;
-            margin: auto;
-           }
+        display: inline-block;
+        padding: 10px;
+        background-color: lightgrey;
+        text-align: center;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+      }
 
       .border-solid {
-            border: 2px solid #9799a7;
+        border: 2px solid #9799a7;
+      }
 
-        }
+      .border-double {
+        border: 6px double #9799a7;
+      }
 
-        .border-double {
-            border: 6px double #9799a7;
+      .border-dashed {
+        border: 8px dashed #9799a7;
+      }
 
-        }
+      .border-dotted {
+        border: 4px dotted #9799a7;
+      }
 
-        .border-dashed {
-            border: 8px dashed #9799a7;
-        }
+      .border-rounded {
+        border-radius: 5px;
+      }
 
-        .border-dotted {
-            border: 4px dotted #9799a7;
-        }
+      .border-circle {
+        border-radius: 50%;
+      }
 
-        .border-rounded {
-            border-radius: 5px;
+      .border-football {
+        border-radius: 15px 75px;
+      }
 
-        }
+      #box1 {
+        padding: 40px;
+        margin: 30px;
+        border: 15px solid blue;
+        background-color: yellow;
+        width: 350px;
+      }
 
-        .border-circle {
-            border-radius: 50%;
+      .box2 {
+        border: 20px solid greenyellow;
+        padding: 30px;
+        width: 250px;
+        margin-left: 5%;
+      }
 
-        }
+      .item1 {
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+        background-color: orange;
+        font-size: 30px;
+      }
 
-        .border-football {
-            border-radius: 15px 75px;
+      .item2 {
+        text-align: center;
+        font-weight: bold;
+      }
 
-        }
+      #box3 {
+        border: 3px solid rgb(42, 75, 165);
+        background-color: rgb(145, 255, 209);
+        text-align: center;
+        width: 500px;
+        margin: auto;
+      }
 
-        #box1{
-          padding: 40px;
-          margin: 30px;
-          border: 15px solid blue;
-          background-color: yellow;
-          margin: auto;
-        }
+      .photo{
+        border: 5px dotted rgb(251, 0, 255);
+      }
 
-        .box2{
+      #text2 {
+        border: 6px dashed rgb(248, 80, 3);
+        text-align: justify;
+        margin: 5px;
+        background-color: turquoise;
+        overflow-y: auto;
+        height: 200px;
+      }
 
-          border: 20px solid greenyellow;
-          width: 200px;
-          height: 200px;
-          align-self: center;
-          justify-content:center;
-          margin: auto;
-        }
-
-        .item1{
-          font-weight: bold;
-          padding:"";
-          
-        }
-
-        .item2{
-
-
-        }
+      .text3 {
+        font-weight: bolder;
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
@@ -165,16 +189,16 @@ Group:
     </div>
 
     <h1>Lab 3: Border</h1>
-    
-      <code class="border-solid">2px <br />solid</code>
-      <code class="border-double">6px <br />double</code>
-      <code class="border-dashed">8px <br />dashed</code>
-      <code class="border-dotted">4px<br />dotted</code>
-      <p></p>
-      <code class="border-rounded">5px</code>
-      <code class="border-circle">50%</code>
-      <code class="border-football">15px 75px</code>
-    
+
+    <code class="border-solid">2px <br />solid</code>
+    <code class="border-double">6px <br />double</code>
+    <code class="border-dashed">8px <br />dashed</code>
+    <code class="border-dotted">4px<br />dotted</code>
+    <p></p>
+    <code class="border-rounded">5px</code>
+    <code class="border-circle">50%</code>
+    <code class="border-football">15px 75px</code>
+
     <h1>Lab 4: Box Model 1</h1>
     <div id="box1">
       This text is the content of the box. We have added a 40px padding, 30px
@@ -186,7 +210,10 @@ Group:
     <p></p>
     <h1>Lab 5: Box Model 2</h1>
     <div class="box2">
-      <div class="item1">Web Programming</div>
+      <div class="item1">
+        Web <br />
+        Programming
+      </div>
       <div class="item2">CSS Box Model</div>
     </div>
     <p></p>
@@ -195,7 +222,7 @@ Group:
       <h1>Universiti Teknologi Malaysia</h1>
 
       <img class="photo" src="images/utm_logo.png" alt="UTM" />
-
+<br><br>
       <div id="text2">
         <div>
           <span class="text3"
@@ -211,7 +238,6 @@ Group:
           interchange on the north–south expressway, in the district of Muar,
           Johor.
         </div>
-
         <div>
           <span class="text3"
             >The branch campus is situated in Jalan Semarak within Kuala Lumpur,
