@@ -8,14 +8,14 @@ if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
  
-// Attempt insert query execution
-$sql = "INSERT INTO persons (id, first_name, last_name, email) VALUES (1, 'Tanvir', 'Sakline', 'tanvir@mail.com')";
+// Attempt delete query execution
+$sql = "DELETE FROM persons WHERE first_name='padayachy'";
 if(mysqli_query($link, $sql)){
-    echo "Records inserted successfully.";
+    echo "Records were deleted successfully.";
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
  
-// Close connection 
+// Close connection
 mysqli_close($link);
 ?>
