@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 8: COVID19 Testing Management System
+# Lab 21: COVID19 Testing Management System
 
 The COVID19 Testing Management System is a web-based application that is built using PHP and MySQL database. It aims to provide an efficient and effective solution to manage the testing process of COVID-19. This system has two modules, the Admin module, and the User (Patient) module.
 
@@ -22,4 +22,6 @@ Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+![](https://komarev.com/ghpvc/?username=drshahizan&label=Views&color=0e75b6&style=flat)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
+

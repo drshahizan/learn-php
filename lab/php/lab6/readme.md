@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Lab 6: Tourism Management System in PHP
+# Lab 19: Tourism Management System in PHP
 
 The modules of a Tourism Management System in PHP typically consist of three main categories: Admin, Users, and Guest Users. Each of these categories has its own set of features and functionalities. Here is a brief description of the modules of a typical Tourism Management System:
 
@@ -43,4 +43,6 @@ Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+![](https://komarev.com/ghpvc/?username=drshahizan&label=Views&color=0e75b6&style=flat)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
+

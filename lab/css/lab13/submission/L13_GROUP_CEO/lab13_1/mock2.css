@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 20px;
+  height: 100vh;
+}
+
+.header {
+  grid-column: 1 / 4;
+  background-color: #d716bb;
+  color: #f4f1f3;
+  padding: 20px;
+}
+
+.nav1 {
+  background-color: #f40808;
+  padding: 20px;
+}
+
+.nav2 {
+  background-color: #10df1b;
+  padding: 20px;
+}
+
+.nav3 {
+  background-color: #f3e51d;
+  padding: 20px;
+}
