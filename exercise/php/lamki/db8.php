@@ -8,15 +8,12 @@ if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
  
-// Attempt create table query execution
-$sql = "CREATE TABLE persons(
-    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    first_name VARCHAR(30) NOT NULL,
-    last_name VARCHAR(30) NOT NULL,
-    email VARCHAR(70) NOT NULL UNIQUE
-)";
+// Attempt insert query execution
+$sql = "INSERT INTO persons (first_name, last_name, email) VALUES ('Padayachy', 'Aathi', 'padayachy@mail.com')";
 if(mysqli_query($link, $sql)){
-    echo "Table created successfully.";
+    // Obtain last inserted id
+    $last_id = mysqli_insert_id($link);
+    echo "Records inserted successfully. Last inserted ID is: " . $last_id;
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
