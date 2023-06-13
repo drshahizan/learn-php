@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <!--
+Lab 15: Task 1
+Group: GREENHORN
+1. Name: AMMAR IBRAHIM BIN MOHAMED, Matrix No: SX220326ECJH, Github ID: ammaribrahim95
+2. Name: SHANMUGADHARSHINI A/P MURALI Matrix No: SX201656ECRHF04, Github ID: Shan9821
+3. Name: LOGESWARY A/P KRISHNAMOORTHY, Matrix No: SX211705ECRHF04, Github ID: Logeswary98
+4. Name: ADAM SHAH BIN MOHD FAIZAL, Matrix No: SX190401CSJS04 , Github ID: adamshahmf
+-->
+  <head>
+    <title>HTML Layout with CSS</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        color: #fff;
+        padding: 20px;
+      }
+
+      .content1 {
+        grid-area: a;
+      }
+
+      .content2 {
+        grid-area: b;
+      }
+
+      .content3 {
+        grid-area: c;
+      }
+
+      .content4 {
+        grid-area: d;
+      }
+
+      .content5 {
+        grid-area: e;
+      }
+
+      .content1,
+      .content5 {
+        height: 50px;
+      }
+
+      .content2,
+      .content4 {
+        height: 550px;
+        width: 100px;
+      }
+
+      .content3 {
+        height: 550px;
+        width: 400px;
+      }
+
+      .contentgrid {
+        display: grid;
+        grid-template: "a a a" "b  c d" "e e e";
+        gap: 10px;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 600px;
+      }
+
+      .contentgrid > div {
+        padding: 5px;
+        background-color: rgb(255, 217, 0);
+      }
+
+      footer {
+        color: #fff;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contentgrid">
+      <div class="content1">Header</div>
+      <div class="content2">Nav</div>
+      <div class="content3">Article</div>
+      <div class="content4">Ads</div>
+      <div class="content5">Footer</div>
+    </div>
+  </body>
+</html>
