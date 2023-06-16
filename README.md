@@ -62,7 +62,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 | Project | Topic | Files |
 | :-----: | ----- | :------: | 
-| 1| Student Portfolio Showcase (HTML) |<a href="./project/1-portfolio" ><img src="./images/html.png" width="36px" height="36px" ></a> |
+| 1 | Student Portfolio Showcase (HTML) |<a href="./project/1-portfolio" ><img src="./images/html.png" width="36px" height="36px" ></a> |
 | 2 | Student Portfolio Showcase (Bootstrap) |<a href="./project/2-bootstrap/" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 3 | Web Responsive using Bootstrap |<a href="./project/3-web" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 4 | Final Project using PHP |<a href="./project/4-project" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
@@ -89,6 +89,14 @@ Diagrams are visual representations of information or data that help convey comp
 5. [PHP MySQL]()
 6. [PHP Form & Session & Cookies]()
 
+| No | Topic | Note | MCQ |
+| :-----: | ----- | :------: | :------: |
+| 1 | JS Fundamental | <a href="./project/1-portfolio"><img src="./images/javascript.png" width="36px" height="36px"></a> | - |
+| 2 | JS DOM | <a href="./project/1-portfolio"><img src="./images/javascript.png" width="36px" height="36px"></a> | - |
+| 3 | JS Event & JS Form Validation | <a href="./project/1-portfolio"><img src="./images/javascript.png" width="36px" height="36px"></a> | - |
+| 4 | PHP Fundamental | <a href="./project/1-portfolio"><img src="./images/php.svg" width="36px" height="36px"></a> | - |
+| 5 | PHP MySQL | <a href="./project/1-portfolio"><img src="./images/php.svg" width="36px" height="36px"></a> | - |
+| 6 | PHP Form & Session & Cookies | <a href="./project/1-portfolio"><img src="./images/php.svg" width="36px" height="36px"></a> | - |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
