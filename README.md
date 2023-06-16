@@ -82,12 +82,12 @@ Diagrams are visual representations of information or data that help convey comp
 | 7 | Carbon| <a href="https://carbon.now.sh/" ><img src="./images/carbon.svg" width="24px" height="24px" ></a> | 
 
 ## 🔥 Extra Notes
-1. JS Fundamental
-2. JS DOM
-3. JS Event & JS Form Validation
-4. PHP Fundamental
-5. PHP MySQL
-6. PHP Form & Session & Cookies
+1. [JS Fundamental]()
+2. [JS DOM]()
+3. [JS Event & JS Form Validation]()
+4. [PHP Fundamental]
+5. [PHP MySQL]
+6. [PHP Form & Session & Cookies]
 
 
 ## Contribution 🛠️
