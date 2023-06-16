@@ -54,7 +54,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | :-----: | ----- | :------: | 
 | 1| Hypertext Markup Language |<a href="./materials/html/exercise.md" ><img src="./images/html.png" width="36px" height="36px" ></a> |
 | 2 | Cascading Style Sheets |<a href="./materials/css/exercise.md" ><img src="./images/css.png" width="36px" height="36px" ></a> |
-| 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="36px" height="36px" ></a> |
+| 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.svg" width="36px" height="36px" ></a> |
 | 4 | Bootstrap |<a href="./materials/bootstrap/exercise.md" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 5 | Hypertext Preprocessor |<a href="./materials/php/exercise.md" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
 
@@ -91,9 +91,9 @@ Diagrams are visual representations of information or data that help convey comp
 
 | No | Topic | Note | MCQ |
 | :-----: | ----- | :------: | :------: |
-| 1 | JS Fundamental | <a href="./project/1-portfolio"><img src="./images/javascript.png" width="36px" height="36px"></a> | - |
-| 2 | JS DOM | <a href="./project/1-portfolio"><img src="./images/javascript.png" width="36px" height="36px"></a> | - |
-| 3 | JS Event & JS Form Validation | <a href="./project/1-portfolio"><img src="./images/javascript.png" width="36px" height="36px"></a> | - |
+| 1 | JS Fundamental | <a href="./project/1-portfolio"><img src="./images/javascript.svg" width="36px" height="36px"></a> | - |
+| 2 | JS DOM | <a href="./project/1-portfolio"><img src="./images/javascript.svg" width="36px" height="36px"></a> | - |
+| 3 | JS Event & JS Form Validation | <a href="./project/1-portfolio"><img src="./images/javascript.svg" width="36px" height="36px"></a> | - |
 | 4 | PHP Fundamental | <a href="./project/1-portfolio"><img src="./images/php.svg" width="36px" height="36px"></a> | - |
 | 5 | PHP MySQL | <a href="./project/1-portfolio"><img src="./images/php.svg" width="36px" height="36px"></a> | - |
 | 6 | PHP Form & Session & Cookies | <a href="./project/1-portfolio"><img src="./images/php.svg" width="36px" height="36px"></a> | - |
