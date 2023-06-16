@@ -91,12 +91,12 @@ Diagrams are visual representations of information or data that help convey comp
 
 | No | Topic | Note | MCQ |
 | :-----: | ----- | :------: | :------: |
-| 1 | JS Fundamental | <a href="./project/1-portfolio"><img src="./images/html.png" width="36px" height="36px"></a> | - |
-| 2 | JS DOM | <a href="./project/1-portfolio"><img src="./images/html.png" width="36px" height="36px"></a> | - |
-| 3 | JS Event & JS Form Validation | <a href="./project/1-portfolio"><img src="./images/html.png" width="36px" height="36px"></a> | - |
-| 4 | PHP Fundamental | <a href="./project/1-portfolio"><img src="./images/html.png" width="36px" height="36px"></a> | - |
-| 5 | PHP MySQL | <a href="./project/1-portfolio"><img src="./images/html.png" width="36px" height="36px"></a> | - |
-| 6 | PHP Form & Session & Cookies | <a href="./project/1-portfolio"><img src="./images/html.png" width="36px" height="36px"></a> | - |
+| 1 | JS Fundamental | <a href="./project/1-portfolio"><img src="./images/javascript.png" width="36px" height="36px"></a> | - |
+| 2 | JS DOM | <a href="./project/1-portfolio"><img src="./images/javascript.png" width="36px" height="36px"></a> | - |
+| 3 | JS Event & JS Form Validation | <a href="./project/1-portfolio"><img src="./images/javascript.png" width="36px" height="36px"></a> | - |
+| 4 | PHP Fundamental | <a href="./project/1-portfolio"><img src="./images/php.svg" width="36px" height="36px"></a> | - |
+| 5 | PHP MySQL | <a href="./project/1-portfolio"><img src="./images/php.svg" width="36px" height="36px"></a> | - |
+| 6 | PHP Form & Session & Cookies | <a href="./project/1-portfolio"><img src="./images/php.svg" width="36px" height="36px"></a> | - |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
