@@ -316,9 +316,6 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) `trim()`
     - d) `charAt()`
 
-Remember to convert this Markdown text into an appropriate format before using it in your application or website.
-
-
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
