@@ -8,31 +8,60 @@
 Don't forget to hit the :star: if you like this repo.
 
 # JavaScript: Fundamental
-JavaScript is a widely-used programming language that is primarily used to add interactivity and dynamic functionality to websites. It is a high-level, interpreted language, meaning it is executed by the web browser without the need for compilation. JavaScript is supported by all modern web browsers and has become an essential tool for web development.
 
-Here are some fundamental concepts and features of JavaScript:
+Answer:
+1. b) Adding interactivity to websites
+2. d) All of the above
+3. d) Characters
+4. b) "object"
+5. a) `// This is a comment`
+6. a) `+`
+7. b) "22"
+8. a) `break`
+9. c) Retrieves an element by its id
+10. a) `parseInt()`
+11. a) `function myFunction() {}`
+12. a) `true`
+13. a) `pop()`
+14. b) Executes a function after a specified delay
+15. a) Refers to the current object or context
+16. d) `length`
+17. b) `stringify()`
+18. a) "Not a Number"
+19. a) `new Object()`
+20. c) `throw`
+21. b) "object"
+22. c) `===`
+23. a) Adds elements to the beginning of an array
+24. a) `push()`
+25. d) `length`
+26. a) `toUpperCase()`
+27. c) Adds an event listener to an element
+28. a) `round()`
+29. a) Iterates over the elements of an array and performs a callback function on each element
+30. b) `.`
+31. a) `"number"`
+32. d) All of the above
+33. a) Extracts a section of a string and returns a new string
+34. a) `sort()`
+35. a) `split()`
+36. b) `"22"`
+37. a) Applies a callback function against an accumulator and each element in an array to reduce it to a single value
+38. a) `Array.isArray()`
+39. a) `trim()`
+40. a) Returns the specified number of decimal places as a string
+41. b) `inputField.value`
+42. a) `indexOf()`
+43. d) `NaN`
+44. a) `String()`
+45. a) Returns a random integer between 0 and 1
+46. a) `removeEventListener()`
+47. a) `toLowerCase()`
+48. a) `true`
+49. a) `Math.max()`
+50. a) `toUpperCase()`
 
-1. Variables: JavaScript uses variables to store and manipulate data. Variables can be declared using the `var`, `let`, or `const` keywords, with `let` and `const` being introduced in newer versions of the language. Variables can hold various types of data such as numbers, strings, booleans, objects, and more.
-
-2. Data Types: JavaScript has several built-in data types, including numbers, strings, booleans, arrays, objects, and null or undefined values. It also supports dynamic typing, meaning variables can hold different types of data throughout their lifecycle.
-
-3. Operators: JavaScript provides a wide range of operators for performing operations on variables and values. These include arithmetic operators (+, -, *, /), comparison operators (>, <, >=, <=), logical operators (&&, ||, !), and more.
-
-4. Control Flow: JavaScript supports various control flow structures, including conditional statements (`if`, `else if`, `else`), loops (`for`, `while`, `do...while`), and switch statements. These structures allow you to control the flow of execution in your code based on certain conditions.
-
-5. Functions: JavaScript functions are reusable blocks of code that perform a specific task. They can be declared using the `function` keyword and can accept parameters and return values. Functions play a crucial role in organizing and modularizing code.
-
-6. Objects: JavaScript is an object-oriented language, and objects are a fundamental part of it. Objects are containers for key-value pairs and can hold properties and methods. They are used to represent and manipulate complex data structures.
-
-7. Events: JavaScript allows you to respond to user interactions and actions through event handling. Events can be triggered by user actions like clicking a button or submitting a form, and JavaScript code can be executed in response to these events.
-
-8. DOM Manipulation: The Document Object Model (DOM) represents the structure of an HTML document, and JavaScript provides powerful tools for manipulating and interacting with the DOM. You can use JavaScript to dynamically modify HTML elements, change their styles, add or remove elements, and more.
-
-9. Error Handling: JavaScript has built-in mechanisms for handling errors and exceptions. You can use `try...catch` statements to catch and handle errors that might occur during the execution of your code.
-
-10. Libraries and Frameworks: JavaScript has a vast ecosystem of libraries and frameworks that extend its capabilities and simplify complex tasks. Some popular libraries and frameworks include React, Angular, Vue.js, jQuery, and Node.js.
-
-These are just some of the fundamental concepts of JavaScript. The language is continuously evolving, and new features and updates are being introduced to enhance its capabilities and improve the developer experience.
+Please note that these answers are based on general JavaScript knowledge, and there may be variations or specific cases where different answers could be applicable.
 
 
 ## Contribution 🛠️
