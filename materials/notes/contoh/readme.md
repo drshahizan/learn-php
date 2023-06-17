@@ -16,7 +16,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | No | Topic |  MCQ |
 | :-----: | ----- | :------: |
-| 3 | Java Script | <a href="./materials/notes/n1q.md"><img src="../../images/question.svg" width="24px" height="24px"></a> |
+| 3 | Java Script | <a href="Q3.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
 
 
 
