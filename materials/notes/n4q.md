@@ -137,17 +137,16 @@ echo $result;
 
 19. What is the output of the following code?
 
-```php
-$num1 = 5;
-$num2 = "10";
-$result = $num1 + $num2;
-echo $result;
-```
-
-   - a) 15
-   - b) 510
-   - c) Error
-   - d) 510 (as a string)
+    ```php
+    $num1 = 5;
+    $num2 = "10";
+    $result = $num1 + $num2;
+    echo $result;
+    ```
+    - a) 15
+    - b) 510
+    - c) Error
+    - d) 510 (as a string)
 
 20. What is the correct way to connect to a MySQL database in PHP?
     - a) `mysqli_connect()`
@@ -175,24 +174,23 @@ echo $result;
 
 24. What is the output of the following code?
 
-```php
-$fruit = "Apple";
-switch ($fruit) {
-    case "Apple":
-        echo "It's a fruit.";
-        break;
-    case "Banana":
-        echo "It's a fruit.";
-        break;
-    default:
-        echo "Unknown fruit.";
-}
-```
-
-   - a) It's a fruit.
-   - b) Unknown fruit.
-   - c) Apple
-   - d) Banana
+    ```php
+    $fruit = "Apple";
+    switch ($fruit) {
+        case "Apple":
+            echo "It's a fruit.";
+            break;
+        case "Banana":
+            echo "It's a fruit.";
+            break;
+        default:
+            echo "Unknown fruit.";
+    }
+    ```
+    - a) It's a fruit.
+    - b) Unknown fruit.
+    - c) Apple
+    - d) Banana
 
 25. What is the correct way to handle errors in PHP?
     - a) Using `try...catch` blocks
@@ -214,23 +212,22 @@ switch ($fruit) {
 
 28. What is the output of the following code?
 
-```php
-class Person {
-    public $name;
-    public function sayHello() {
-        echo "Hello, " . $this->name;
+    ```php
+    class Person {
+        public $name;
+        public function sayHello() {
+            echo "Hello, " . $this->name;
+        }
     }
-}
 
-$person = new Person();
-$person->name = "John";
-$person->sayHello();
-```
-
-   - a) Hello, John
-   - b) Hello, Person
-   - c) Error
-   - d) John
+    $person = new Person();
+    $person->name = "John";
+    $person->sayHello();
+    ```
+    - a) Hello, John
+    - b) Hello, Person
+    - c) Error
+    - d) John
 
 29. How do you access a static property or method of a class in PHP?
     - a) By using the `::` operator
@@ -246,20 +243,19 @@ $person->sayHello();
 
 31. What is the output of the following code?
 
-```php
-function add(&$num) {
-    $num += 10;
-}
+    ```php
+    function add(&$num) {
+        $num += 10;
+    }
 
-$number = 5;
-add($number);
-echo $number;
-```
-
-   - a) 5
-   - b) 10
-   - c) 15
-   - d) Error
+    $number = 5;
+    add($number);
+    echo $number;
+    ```
+    - a) 5
+    - b) 10
+    - c) 15
+    - d) Error
 
 32. What is the correct way to read a file line by line in PHP?
     - a) Using the `fread()` function
@@ -275,21 +271,20 @@ echo $number;
 
 34. What is the output of the following code?
 
-```php
-function multiply($num1, $num2 = 2) {
-    return $num1 * $num2;
-}
+    ```php
+    function multiply($num1, $num2 = 2) {
+        return $num1 * $num2;
+    }
 
-$result1 = multiply(5);
-$result2 = multiply(5, 3);
+    $result1 = multiply(5);
+    $result2 = multiply(5, 3);
 
-echo $result1 . ", " . $result2;
-```
-
-   - a) 5, 15
-   - b) 10, 15
-   - c) 5, 6
-   - d) Error
+    echo $result1 . ", " . $result2;
+    ```
+    - a) 5, 15
+    - b) 10, 15
+    - c) 5, 6
+    - d) Error
 
 35. What is the correct way to remove leading and trailing whitespace from a string in PHP?
     - a) `trim()`
@@ -299,15 +294,14 @@ echo $result1 . ", " . $result2;
 
 36. What is the output of the following code?
 
-```php
-$x = 10;
-echo ++$x;
-```
-
-   - a) 10
-   - b) 11
-   - c) Error
-   - d) ++10
+    ```php
+    $x = 10;
+    echo ++$x;
+    ```
+    - a) 10
+    - b) 11
+    - c) Error
+    - d) ++10
 
 37. What is the purpose of the `foreach` loop in PHP?
     - a) To iterate over elements in an array or collection
@@ -323,15 +317,14 @@ echo ++$x;
 
 39. What is the output of the following code?
 
-```php
-$str = "Hello World";
-echo str_replace("World", "PHP", $str);
-```
-
-   - a) Hello World
-   - b) Hello PHP
-   - c) World PHP
-   - d) Error
+    ```php
+    $str = "Hello World";
+    echo str_replace("World", "PHP", $str);
+    ```
+    - a) Hello World
+    - b) Hello PHP
+    - c) World PHP
+    - d) Error
 
 40. What is the purpose of the `array_push()` function in PHP?
     - a) To add elements to the beginning of an array
@@ -341,16 +334,15 @@ echo str_replace("World", "PHP", $str);
 
 41. What is the output of the following code?
 
-```php
-$numbers = [1, 2, 3, 4, 5];
-$sum = array_sum($numbers);
-echo $sum;
-```
-
-   - a) 1
-   - b) 15
-   - c) 5
-   - d) Error
+    ```php
+    $numbers = [1, 2, 3, 4, 5];
+    $sum = array_sum($numbers);
+    echo $sum;
+    ```
+    - a) 1
+    - b) 15
+    - c) 5
+    - d) Error
 
 42. What is the purpose of the `explode()` function in PHP?
     - a) To split a string into an array
@@ -360,15 +352,14 @@ echo $sum;
 
 43. What is the output of the following code?
 
-```php
-$number = 3;
-echo pow($number, 2);
-```
-
-   - a) 3
-   - b) 9
-   - c) 6
-   - d) Error
+    ```php
+    $number = 3;
+    echo pow($number, 2);
+    ```
+    - a) 3
+    - b) 9
+    - c) 6
+    - d) Error
 
 44. What is the purpose of the `date()` function in PHP?
     - a) To retrieve the current date and time
@@ -378,15 +369,14 @@ echo pow($number, 2);
 
 45. What is the output of the following code?
 
-```php
-$age = 25;
-echo ($age >= 18) ? "Adult" : "Minor";
-```
-
-   - a) Adult
-   - b) Minor
-   - c) 25
-   - d) Error
+    ```php
+    $age = 25;
+    echo ($age >= 18) ? "Adult" : "Minor";
+    ```
+    - a) Adult
+    - b) Minor
+    - c) 25
+    - d) Error
 
 46. What is the purpose of the `header()` function in PHP?
     - a) To set HTTP headers for the response
@@ -396,15 +386,14 @@ echo ($age >= 18) ? "Adult" : "Minor";
 
 47. What is the output of the following code?
 
-```php
-$str = "Hello";
-echo strlen($str);
-```
-
-   - a) 5
-   - b) 6
-   - c) 4
-   - d) Error
+    ```php
+    $str = "Hello";
+    echo strlen($str);
+    ```
+    - a) 5
+    - b) 6
+    - c) 4
+    - d) Error
 
 48. What is the purpose of the `json_encode()` function in PHP?
     - a) To convert a PHP array or object into a JSON string
@@ -414,22 +403,20 @@ echo strlen($str);
 
 49. What is the output of the following code?
 
-```php
-$colors = ["Red", "Green", "Blue"];
-$color = "Red";
+    ```php
+    $colors = ["Red", "Green", "Blue"];
+    $color = "Red";
 
-if (in_array($color, $colors)) {
-    echo "Color found!";
-} else {
-    echo "Color not found
-
-!";
-}
-```
-   - a) Color found!
-   - b) Color not found!
-   - c) Red
-   - d) Error
+    if (in_array($color, $colors)) {
+        echo "Color found!";
+    } else {
+        echo "Color not found!";
+    }
+    ```
+    - a) Color found!
+    - b) Color not found!
+    - c) Red
+    - d) Error
 
 50. What is the purpose of the `filter_input()` function in PHP?
     - a) To filter and sanitize user input data
