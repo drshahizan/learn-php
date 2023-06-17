@@ -543,9 +543,7 @@ if (file_exists("file.txt")) {
 ```
 
 11. What is the purpose of the `strlen()` function in PHP?
-    - a) To calculate the length of a string
-
-.
+    - a) To calculate the length of a string.
     - b) To convert a string to lowercase.
     - c) To remove whitespace from the beginning and end of a string.
     - d) To reverse a string.
@@ -770,8 +768,6 @@ $date = date("Y-m-d");
     - a) To count the number of elements in an array.
     - b) To calculate the sum of elements in an array.
     - c) To find the average of elements in an array.
-
-
     - d) To sort elements in an array.
 
 ```php
@@ -869,9 +865,7 @@ $result = mysqli_query($connection, $query);
     - a) To fetch a row from a database result as an associative array.
     - b) To execute a SQL query.
     - c) To establish a connection to a MySQL database.
-    - d
-
-) To close a database connection.
+    - d) To close a database connection.
 
 ```php
 while ($row = mysqli_fetch_assoc($result)) {
