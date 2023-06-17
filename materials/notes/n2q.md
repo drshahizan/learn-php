@@ -315,8 +315,6 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
 ## Set B
 Please answer the following 50 multiple-choice questions to test your knowledge in JavaScript DOM. You must place your answer file in the submission folder. Within the [`submission/Q1/set_b`](./submission/Q2/set_b) folder, create a folder called your `github_id`. 
 
-Certainly! Here are 50 multiple-choice questions for JavaScript DOM:
-
 1. What does DOM stand for?
    - a) Document Object Model
    - b) Data Object Model
@@ -490,9 +488,7 @@ Class()`
     - d) The tag name of the `title` element
 
 24. How do you check if an HTML element has a specific CSS class using JavaScript?
-    - a) `element
-
-.hasClass('className')`
+    - a) `element.hasClass('className')`
     - b) `element.classList.contains('className')`
     - c) `element.style.contains('className')`
     - d) `element.getAttribute('class') === 'className'`
@@ -575,9 +571,7 @@ Class()`
     console.log(document.currentScript.src);
     ```
     - a) The source URL of the current script file
-   
-
- - b) The source URL of the previous script file
+    - b) The source URL of the previous script file
     - c) The source URL of the parent script file
     - d) The source URL of the next script file
 
@@ -651,9 +645,7 @@ Class()`
     - a) `element.style.display === 'none'`
     - b) `element.isHidden()`
     - c) `element.getAttribute('hidden')`
-    - d)
-
- `element.style.visibility === 'hidden'`
+    - d) `element.style.visibility === 'hidden'`
 
 46. What is the purpose of the `scrollIntoView` method in JavaScript DOM?
     - a) To scroll an HTML element into view
