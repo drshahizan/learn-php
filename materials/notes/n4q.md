@@ -60,17 +60,16 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
 
 9. What is the output of the following code?
 
-```php
-$x = 10;
-$y = 5;
-$result = $x + $y;
-echo $result;
-```
-
-   - a) 15
-   - b) 10 + 5
-   - c) $result
-   - d) Error
+    ```php
+    $x = 10;
+    $y = 5;
+    $result = $x + $y;
+    echo $result;
+    ```
+    - a) 15
+    - b) 10 + 5
+    - c) $result
+    - d) Error
 
 10. What is the correct way to declare an array in PHP?
     - a) `$fruits = array("Apple", "Banana", "Orange");`
