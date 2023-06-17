@@ -312,9 +312,7 @@ echo ++$x;
 
 37. What is the purpose of the `foreach` loop in PHP?
     - a) To iterate over elements in an array or collection
-    - b) To execute
-
- a block of code repeatedly
+    - b) To execute a block of code repeatedly
     - c) To conditionally execute code based on a condition
     - d) To perform a specific task a fixed number of times
 
@@ -429,7 +427,6 @@ if (in_array($color, $colors)) {
 !";
 }
 ```
-
    - a) Color found!
    - b) Color not found!
    - c) Red
