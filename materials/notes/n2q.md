@@ -405,9 +405,7 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
 
 13. How do you select multiple elements by their class name in JavaScript?
     - a) `document.getElements()`
-    - b) `document.selectBy
-
-Class()`
+    - b) `document.selectByClass()`
     - c) `document.getElementsByClassName()`
     - d) `document.find()`
 
