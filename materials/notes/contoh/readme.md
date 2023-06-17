@@ -9,6 +9,8 @@ Don't forget to hit the :star: if you like this repo.
 
 # Soalan Struktur
 
+Please answer the following 50 multiple-choice questions to test your knowledge in JavaScript fundamentals. You must place your answer file in the submission folder. Within the [`submission/Q1/set_a`](./submission/Q1/set_a) folder, create a folder called your `github_id`. 
+
 | Q | Topic |  MCQ | 
 | :-----: | ----- | :------: |
 | 3 | Java Script | <a href="Q3.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
