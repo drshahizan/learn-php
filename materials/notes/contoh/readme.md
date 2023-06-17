@@ -9,11 +9,11 @@ Don't forget to hit the :star: if you like this repo.
 
 # Soalan Struktur
 
-| No | Topic |  MCQ | 
+| Q | Topic |  MCQ | 
 | :-----: | ----- | :------: |
 | 3 | Java Script | <a href="Q3.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
-| 3 | Java Script | <a href="Q3.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
-| 3 | Java Script | <a href="Q3.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
+| 4 | PHP | <a href="Q4.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
+| 5 | PHP | <a href="Q5.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
 
 ## Password
 - Q3 password : P$*52
