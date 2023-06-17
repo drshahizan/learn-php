@@ -1,0 +1,147 @@
+/*---------------------
+  Blog Details Hero
+-----------------------*/
+.blog-details-hero {
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.blog__details__hero__text {
+    text-align: center;
+
+    h2 {
+        font-size: 46px;
+        color: $white-color;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    ul {
+
+        li {
+            font-size: 16px;
+            color: $white-color;
+            list-style: none;
+            display: inline-block;
+            margin-right: 45px;
+            position: relative;
+
+            &:after {
+                position: absolute;
+                right: -26px;
+                top: 0;
+                content: '|';
+            }
+
+            &:last-child {
+                margin-right: 0;
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/*---------------------
+  Blog Details
+-----------------------*/
+.related-blog {
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.related-blog-title {
+    margin-bottom: 70px;
+}
+
+.blog-details {
+    padding-bottom: 75px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.blog__details__text {
+    margin-bottom: 45px;
+
+    img {
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    h3 {
+        color: #333333;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.blog__details__author__pic {
+    float: left;
+    margin-right: 15px;
+
+    img {
+        height: 92px;
+        width: 92px;
+        border-radius: 50%;
+    }
+}
+
+.blog__details__author__text {
+    overflow: hidden;
+    padding-top: 30px;
+
+    h6 {
+        color: $normal-color;
+        font-weight: 700;
+    }
+
+    span {
+        font-size: 16px;
+        color: $para-color;
+    }
+}
+
+.blog__details__widget {
+
+    ul {
+        margin-bottom: 5px;
+
+        li {
+            font-size: 16px;
+            color: $para-color;
+            list-style: none;
+            line-height: 30px;
+
+            span {
+                color: $normal-color;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .blog__details__social {
+
+        a {
+            display: inline-block;
+            font-size: 20px;
+            color: $para-color;
+            margin-right: 24px;
+            @include transition(all, .3s);
+
+            &:hover {
+                color: $primary-color;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

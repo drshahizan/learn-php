@@ -34,19 +34,19 @@ This course is designed to introduce students the fundamental of knowledge, tech
 2. 👩👨 [Student Information](./materials/student-info.md)
 3. [Buku: Pengaturcaraan Web Hypertext Preprocessor (PHP)](https://shopee.com.my/Pengaturcaraan-Web-Hypertext-Preprocessor-(PHP)-i.86546040.11086443454?sp_atk=22b16647-afe4-452a-9444-2c4f017c7dab&xptdk=22b16647-afe4-452a-9444-2c4f017c7dab)
 4. [Free Web Development Books](https://github.com/NedyUdombat/Free-Web-Development-eBooks)
-9. [Student Portfolio Showcase](https://drshahizan.github.io/) 🆕
+9. [Student Portfolio Showcase](https://drshahizan.github.io/scsv1223.html) 
 
 #### Module
 
-| No | Module | Description |  Lab |
-| :-----: | ------ | ------ | :-----: |
-| 1 | [Introduction to Web Programming](/materials/others/intro-wp.md) | Web programming is the process of creating web pages and web-based applications using a variety of programming languages and technologies. To get started with web programming, one should learn HTML, CSS, and JavaScript, which are the core technologies used for creating web pages and user interfaces. Bootstrap is a popular framework that can simplify the process of creating responsive and mobile-friendly web pages. PHP is a server-side scripting language used for creating dynamic web pages and web-based applications. By learning these technologies, one can create attractive and interactive web content that is compatible with a wide range of devices and browsers. | | 
-| 2 | [Visual Studio Code](/materials/others/vscode-intro.md) | Visual Studio Code is a popular source code editor developed by Microsoft. It is free, open-source, and available for Windows, Mac, and Linux. Visual Studio Code supports a wide range of programming languages and provides features such as code highlighting, autocomplete, debugging, and source control integration. It also supports extensions that can add functionality, such as linters, formatters, and code snippets. With its user-friendly interface and robust set of features, Visual Studio Code has become a favorite among developers for writing, testing, and debugging code.|| 
-| 3 | [Hypertext Markup Language (HTML)](/materials/html/readme.md#hypertext-markup-language-html) | HTML is a markup language used for creating web pages and other web-based content. It uses tags and codes to structure and format content, such as headings, paragraphs, images, and links. HTML also allows for the creation of forms, which enable user interaction with web pages through input fields, buttons, and other elements. It is a fundamental technology for creating web pages and provides a standardized system for defining the structure and formatting of content.| <a href="/materials/html/exercise.md" ><img src="./images/html.png" width="24px" height="24px" ></a> |
-| 4 | [Cascading Style Sheets (CSS)](/materials/css) | CSS is a stylesheet language used for describing the presentation of web pages and other web-based content. It allows content creators to control the layout, colors, fonts, and other visual elements of a web page, separate from the HTML markup. CSS works by applying rules to HTML elements, which define how they should be displayed. These rules can be applied to individual elements, groups of elements, or the entire page. CSS also supports the use of media queries, which allow for the creation of responsive designs that adapt to different device sizes and screen orientations. | <a href="./materials/css/exercise.md" ><img src="./images/css.png" width="24px" height="24px" ></a> |
-| 5 | [JavaScript](./materials/javascript/readme.md) | JavaScript is a scripting language used primarily for creating interactive web pages and web-based applications. It is a client-side language that runs directly in a web browser and can be used to manipulate the content and behavior of web pages in real-time. JavaScript can be used to create animations, validate user input, fetch data from servers, and much more. It is a powerful language with a large and active community, and is commonly used alongside HTML and CSS to create dynamic and engaging web content. | <a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="24px" height="24px" ></a> |
-| 6 | [Bootstrap](./materials/bootstrap/readme.md) | Bootstrap is a popular open-source framework used for creating responsive and mobile-first web pages and applications. It provides pre-designed templates, CSS styles, and JavaScript plugins that make it easy for developers to create visually appealing and functional websites. Bootstrap uses a grid system to enable the creation of flexible layouts that adapt to different device sizes and screen orientations. It also provides a variety of UI components, such as forms, buttons, navigation menus, and modals, that can be easily customized and integrated into web projects. | <a href="./materials/bootstrap/exercise.md" ><img src="./images/bootstrap.png" width="16px" height="16px" ></a> |
-| 7 | [Hypertext Preprocessor (PHP)](./materials/php/readme.md) | PHP is a server-side scripting language used primarily for web development. It is a popular language for creating dynamic web pages and web-based applications, as it can interact with databases, handle form data, and perform other server-side tasks. PHP code is executed on the server before the web page is sent to the client's browser, allowing for the creation of complex and dynamic web content. PHP also has a large and active community that has developed many frameworks and libraries to simplify web development tasks.| <a href="./materials/php/exercise.md" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
+| No | Module | Description |
+| :-----: | ------ | ------ |
+| 1 | [Introduction to Web Programming](/materials/others/intro-wp.md) | Web programming is the process of creating web pages and web-based applications using a variety of programming languages and technologies. To get started with web programming, one should learn HTML, CSS, and JavaScript, which are the core technologies used for creating web pages and user interfaces. Bootstrap is a popular framework that can simplify the process of creating responsive and mobile-friendly web pages. PHP is a server-side scripting language used for creating dynamic web pages and web-based applications. By learning these technologies, one can create attractive and interactive web content that is compatible with a wide range of devices and browsers. |
+| 2 | [Visual Studio Code](/materials/others/vscode-intro.md) | Visual Studio Code is a popular source code editor developed by Microsoft. It is free, open-source, and available for Windows, Mac, and Linux. Visual Studio Code supports a wide range of programming languages and provides features such as code highlighting, autocomplete, debugging, and source control integration. It also supports extensions that can add functionality, such as linters, formatters, and code snippets. With its user-friendly interface and robust set of features, Visual Studio Code has become a favorite among developers for writing, testing, and debugging code.|
+| 3 | [Hypertext Markup Language (HTML)](/materials/html/readme.md#hypertext-markup-language-html) | HTML is a markup language used for creating web pages and other web-based content. It uses tags and codes to structure and format content, such as headings, paragraphs, images, and links. HTML also allows for the creation of forms, which enable user interaction with web pages through input fields, buttons, and other elements. It is a fundamental technology for creating web pages and provides a standardized system for defining the structure and formatting of content. |
+| 4 | [Cascading Style Sheets (CSS)](/materials/css) | CSS is a stylesheet language used for describing the presentation of web pages and other web-based content. It allows content creators to control the layout, colors, fonts, and other visual elements of a web page, separate from the HTML markup. CSS works by applying rules to HTML elements, which define how they should be displayed. These rules can be applied to individual elements, groups of elements, or the entire page. CSS also supports the use of media queries, which allow for the creation of responsive designs that adapt to different device sizes and screen orientations. |
+| 5 | [JavaScript](./materials/javascript/readme.md) | JavaScript is a scripting language used primarily for creating interactive web pages and web-based applications. It is a client-side language that runs directly in a web browser and can be used to manipulate the content and behavior of web pages in real-time. JavaScript can be used to create animations, validate user input, fetch data from servers, and much more. It is a powerful language with a large and active community, and is commonly used alongside HTML and CSS to create dynamic and engaging web content. |
+| 6 | [Bootstrap](./materials/bootstrap/readme.md) | Bootstrap is a popular open-source framework used for creating responsive and mobile-first web pages and applications. It provides pre-designed templates, CSS styles, and JavaScript plugins that make it easy for developers to create visually appealing and functional websites. Bootstrap uses a grid system to enable the creation of flexible layouts that adapt to different device sizes and screen orientations. It also provides a variety of UI components, such as forms, buttons, navigation menus, and modals, that can be easily customized and integrated into web projects. |
+| 7 | [Hypertext Preprocessor (PHP)](./materials/php/readme.md) | PHP is a server-side scripting language used primarily for web development. It is a popular language for creating dynamic web pages and web-based applications, as it can interact with databases, handle form data, and perform other server-side tasks. PHP code is executed on the server before the web page is sent to the client's browser, allowing for the creation of complex and dynamic web content. PHP also has a large and active community that has developed many frameworks and libraries to simplify web development tasks. |
 
 ## Lab
 
@@ -54,7 +54,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | :-----: | ----- | :------: | 
 | 1| Hypertext Markup Language |<a href="./materials/html/exercise.md" ><img src="./images/html.png" width="36px" height="36px" ></a> |
 | 2 | Cascading Style Sheets |<a href="./materials/css/exercise.md" ><img src="./images/css.png" width="36px" height="36px" ></a> |
-| 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="36px" height="36px" ></a> |
+| 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.svg" width="24px" height="24px" ></a> |
 | 4 | Bootstrap |<a href="./materials/bootstrap/exercise.md" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 5 | Hypertext Preprocessor |<a href="./materials/php/exercise.md" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
 
@@ -62,10 +62,36 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 | Project | Topic | Files |
 | :-----: | ----- | :------: | 
-| 1| Student Portfolio Showcase (HTML) |<a href="./project/1-portfolio" ><img src="./images/html.png" width="36px" height="36px" ></a> |
+| 1 | Student Portfolio Showcase (HTML) |<a href="./project/1-portfolio" ><img src="./images/html.png" width="36px" height="36px" ></a> |
 | 2 | Student Portfolio Showcase (Bootstrap) |<a href="./project/2-bootstrap/" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 3 | Web Responsive using Bootstrap |<a href="./project/3-web" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 4 | Final Project using PHP |<a href="./project/4-project" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
+
+
+## Tools
+Diagrams are visual representations of information or data that help convey complex concepts, processes or systems in a clear and concise manner. Flowcharts are diagrams that use shapes and arrows to illustrate the steps in a process or algorithm [**[More info...]**](./materials/tools.md).
+
+| No | Tools |  File |
+| :-----: |  ------ | :-----: | 
+| 1 | Figma |  <a href="https://github.com/drshahizan/software-engineering/blob/main/materials/figma.md" ><img src="./images/figma.svg" width="24px" height="24px" ></a> | 
+| 2 | Draw.io| <a href="https://github.com/drshahizan/software-engineering/blob/main/materials/uml/drawio/1-draw-io.md" ><img src="./images/drawio.svg" width="24px" height="24px" ></a> | 
+| 3 | Github Pages| <a href="https://github.com/drshahizan/learn-github/blob/main/materials/pages.md" ><img src="./images/github.svg" width="24px" height="24px" ></a> | 
+| 4 | Behance| <a href="https://github.com/drshahizan/software-engineering/blob/main/materials/behance.md" ><img src="./images/behance.svg" width="24px" height="24px" ></a> | 
+| 5 | Visual Studio Code| <a href="https://code.visualstudio.com/" ><img src="./images/vsc.svg" width="24px" height="24px" ></a> | 
+| 6 | Bootstrap Studio| <a href="https://bootstrapstudio.io/" ><img src="./images/bootstrap-studio.png" width="24px" height="24px" ></a> | 
+| 7 | Carbon| <a href="https://carbon.now.sh/" ><img src="./images/carbon.svg" width="24px" height="24px" ></a> | 
+
+## 📖 Extra Notes
+
+| No | Topic | Note | MCQ |
+| :-----: | ----- | :------: | :------: |
+| 1 | JS Fundamentals | <a href="./materials/notes/n1.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n1q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 2 | JS DOM | <a href="./materials/notes/n2.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n2q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 3 | JS Event & JS Form Validation | <a href="./materials/notes/n3.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n3q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 4 | PHP Fundamentals | <a href="./materials/notes/n4.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n4q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 5 | PHP: MySQL and CRUD | <a href="./materials/notes/n5.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n5q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 6 | PHP: Form, Session & Cookies | <a href="./materials/notes/n6.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n6q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 7 | Soalan lepas | <a href="./materials/notes/contoh/readme.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/contoh/readme.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
