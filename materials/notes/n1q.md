@@ -103,9 +103,7 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
 
 16. How do you check the length of an array in JavaScript?
     - a) `length()`
-    - b
-
-) `count()`
+    - b) `count()`
     - c) `size()`
     - d) `length`
 
@@ -199,8 +197,6 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) `"NaN"`
     - d) `"object"`
 
-
-
 32. How do you convert a JavaScript object to an array?
     - a) `Object.values()`
     - b) `Object.keys()`
@@ -283,9 +279,7 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - a) Returns a random integer between 0 and 1
     - b) Generates a random number between a specified range
     - c) Returns the square root of a number
-    - d) Rounds a number
-
- to the nearest integer
+    - d) Rounds a number to the nearest integer
 
 46. Which method is used to remove an event listener from an element in JavaScript?
     - a) `removeEventListener()`
@@ -426,9 +420,7 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) Django
     - d) Flask
 
-16. What is the correct syntax to access a property of
-
- an object in JavaScript?
+16. What is the correct syntax to access a property of an object in JavaScript?
     - a) `object.property`
     - b) `object[property]`
     - c) `object->property`
@@ -532,9 +524,7 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     console.log("2" + 2);
     ```
     - a) `4`
-   
-
- - b) `"22"`
+    - b) `"22"`
     - c) `2`
     - d) `"2"`
 
@@ -693,8 +683,6 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - b) `checkbox.checked`
     - c) `checkbox.selected`
     - d) `checkbox.state`
-
-These multiple-choice questions cover various aspects of JavaScript fundamentals, including variables, data types, operators, arrays, functions, objects, events, and methods.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
