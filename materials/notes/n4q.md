@@ -434,10 +434,10 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
    - c) `<?php start`
    - d) `<script>`
 
-```php
-<?php
-// Code block starts here
-```
+    ```php
+    <?php
+    // Code block starts here
+    ```
 
 2. What is the correct way to print "Hello, World!" in PHP?
    - a) `echo "Hello, World!";`
@@ -445,9 +445,9 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
    - c) `printf("Hello, World!");`
    - d) `console.log("Hello, World!");`
 
-```php
-echo "Hello, World!";
-```
+    ```php
+    echo "Hello, World!";
+    ```
 
 3. Which of the following variables is valid in PHP?
    - a) `$my_var`
@@ -455,9 +455,9 @@ echo "Hello, World!";
    - c) `#myVar`
    - d) `@myVar`
 
-```php
-$my_var = "Some value";
-```
+    ```php
+    $my_var = "Some value";
+    ```
 
 4. How do you concatenate two strings in PHP?
    - a) Using the `.` operator.
@@ -465,28 +465,28 @@ $my_var = "Some value";
    - c) Using the `:` operator.
    - d) Using the `*` operator.
 
-```php
-$string1 = "Hello";
-$string2 = "World";
-$result = $string1 . $string2;
-```
+    ```php
+    $string1 = "Hello";
+    $string2 = "World";
+    $result = $string1 . $string2;
+    ```
 
 5. What will be the output of the following code snippet?
 
-```php
-$x = 5;
-$y = 10;
-$result = $x + $y;
-echo $result;
-```
+    ```php
+    $x = 5;
+    $y = 10;
+    $result = $x + $y;
+    echo $result;
+    ```
    - a) 15
    - b) "15"
    - c) Error
    - d) Undefined
 
-```php
-15
-```
+    ```php
+       15
+    ```
 
 6. How do you comment a single line in PHP?
    - a) `// Comment`
@@ -494,9 +494,9 @@ echo $result;
    - c) `# Comment`
    - d) `<!-- Comment -->`
 
-```php
-// This is a comment
-```
+    ```php
+     // This is a comment
+    ```
 
 7. Which of the following is the correct way to define a constant in PHP?
    - a) `define("MY_CONSTANT", 100);`
@@ -504,9 +504,9 @@ echo $result;
    - c) `const MY_CONSTANT = 100;`
    - d) `$MY_CONSTANT = 100;`
 
-```php
-define("MY_CONSTANT", 100);
-```
+    ```php
+    define("MY_CONSTANT", 100);
+    ```
 
 8. What is the correct syntax to include an external PHP file?
    - a) `include "file.php";`
@@ -514,9 +514,9 @@ define("MY_CONSTANT", 100);
    - c) `import "file.php";`
    - d) `load "file.php";`
 
-```php
-include "file.php";
-```
+    ```php
+    include "file.php";
+    ```
 
 9. What does the `$_POST` superglobal in PHP represent?
    - a) Data sent through a GET request.
@@ -524,9 +524,9 @@ include "file.php";
    - c) Server information.
    - d) File upload information.
 
-```php
-$data = $_POST["input_name"];
-```
+    ```php
+    $data = $_POST["input_name"];
+    ```
 
 10. What is the correct way to check if a file exists in PHP?
     - a) `file_exists("file.txt")`
@@ -534,44 +534,42 @@ $data = $_POST["input_name"];
     - c) `file_exists("file.txt") && is_file("file.txt")`
     - d) `exists("file.txt")`
 
-```php
-if (file_exists("file.txt")) {
-    echo "File exists";
-} else {
-    echo "File does not exist";
-}
-```
+    ```php
+    if (file_exists("file.txt")) {
+        echo "File exists";
+    } else {
+        echo "File does not exist";
+    }
+    ```
 
 11. What is the purpose of the `strlen()` function in PHP?
-    - a) To calculate the length of a string
-
-.
+    - a) To calculate the length of a string.
     - b) To convert a string to lowercase.
     - c) To remove whitespace from the beginning and end of a string.
     - d) To reverse a string.
 
-```php
-$length = strlen("Hello, World!");
-```
+    ```php
+    $length = strlen("Hello, World!");
+    ```
 
 12. What will be the output of the following code snippet?
 
-```php
-$x = 10;
-if ($x > 5) {
-    echo "Greater than 5";
-} else {
-    echo "Less than or equal to 5";
-}
-```
+    ```php
+    $x = 10;
+    if ($x > 5) {
+        echo "Greater than 5";
+    } else {
+        echo "Less than or equal to 5";
+    }
+    ```
     - a) Greater than 5
     - b) Less than or equal to 5
     - c) Error
     - d) Undefined
 
-```php
-Greater than 5
-```
+    ```php
+    Greater than 5
+    ```
 
 13. How do you define a function in PHP?
     - a) `function myFunction() {}`
@@ -579,11 +577,11 @@ Greater than 5
     - c) `fn myFunction() {}`
     - d) `fun myFunction() {}`
 
-```php
-function myFunction() {
-    // Function code here
-}
-```
+    ```php
+    function myFunction() {
+        // Function code here
+    }
+    ```
 
 14. What is the purpose of the `return` statement in a function?
     - a) To terminate the execution of the function and return a value.
@@ -591,11 +589,11 @@ function myFunction() {
     - c) To output a message to the browser.
     - d) To include another file in the function.
 
-```php
-function multiply($x, $y) {
-    return $x * $y;
-}
-```
+    ```php
+    function multiply($x, $y) {
+        return $x * $y;
+    }
+    ```
 
 15. What is the correct way to call a function in PHP?
     - a) `myFunction();`
@@ -603,9 +601,9 @@ function multiply($x, $y) {
     - c) `call myFunction();`
     - d) `execute myFunction();`
 
-```php
-myFunction();
-```
+    ```php
+    myFunction();
+    ```
 
 16. What is the purpose of the `foreach` loop in PHP?
     - a) To loop through each element in an array or object.
@@ -613,30 +611,30 @@ myFunction();
     - c) To conditionally execute a block of code.
     - d) To define a function.
 
-```php
-$numbers = [1, 2, 3, 4, 5];
-foreach ($numbers as $number) {
-    echo $number;
-}
-```
+    ```php
+    $numbers = [1, 2, 3, 4, 5];
+    foreach ($numbers as $number) {
+        echo $number;
+    }
+    ```
 
 17. What will be the output of the following code snippet?
 
-```php
-$x = 1;
-while ($x <= 5) {
-    echo $x;
-    $x++;
-}
-```
+    ```php
+    $x = 1;
+    while ($x <= 5) {
+        echo $x;
+        $x++;
+    }
+    ```
     - a) 12345
     - b) 54321
     - c) 11111
     - d) 123456789
 
-```php
-12345
-```
+    ```php
+    12345
+    ```
 
 18. What is the purpose of the `continue` statement in a loop?
     - a) To skip the current iteration of the loop and continue to the next iteration.
@@ -644,14 +642,14 @@ while ($x <= 5) {
     - c) To restart the loop from the beginning.
     - d) To output a message to the browser.
 
-```php
-for ($i = 1; $i <= 10; $i++) {
-    if ($i % 2 == 0) {
-        continue;
+    ```php
+    for ($i = 1; $i <= 10; $i++) {
+        if ($i % 2 == 0) {
+            continue;
+        }
+        echo $i;
     }
-    echo $i;
-}
-```
+    ```
 
 19. What is the purpose of the `break` statement in a loop?
     - a) To exit the loop completely.
@@ -659,16 +657,14 @@ for ($i = 1; $i <= 10; $i++) {
     - c) To restart the loop from the beginning.
     - d) To output a message to the browser.
 
-```php
-for ($i = 1; $i <= 10; $i++) {
-    if ($i
-
- == 5) {
-        break;
+    ```php
+    for ($i = 1; $i <= 10; $i++) {
+        if ($i == 5) {
+            break;
+        }
+        echo $i;
     }
-    echo $i;
-}
-```
+    ```
 
 20. What is the purpose of the `$_GET` superglobal in PHP?
     - a) Data sent through a GET request.
@@ -676,9 +672,9 @@ for ($i = 1; $i <= 10; $i++) {
     - c) Server information.
     - d) File upload information.
 
-```php
-$id = $_GET["id"];
-```
+    ```php
+    $id = $_GET["id"];
+    ```
 
 21. What is the correct way to redirect a user to another page in PHP?
     - a) `header("Location: newpage.php");`
@@ -686,9 +682,9 @@ $id = $_GET["id"];
     - c) `goTo("newpage.php");`
     - d) `location.href = "newpage.php";`
 
-```php
-header("Location: newpage.php");
-```
+    ```php
+    header("Location: newpage.php");
+    ```
 
 22. What is the purpose of the `$_SESSION` superglobal in PHP?
     - a) To store session variables.
@@ -696,9 +692,9 @@ header("Location: newpage.php");
     - c) To retrieve form data.
     - d) To access server information.
 
-```php
-$_SESSION["username"] = "John";
-```
+    ```php
+    $_SESSION["username"] = "John";
+    ```
 
 23. How do you destroy a session in PHP?
     - a) `session_destroy();`
@@ -706,9 +702,9 @@ $_SESSION["username"] = "John";
     - c) `unset($_SESSION);`
     - d) `delete_session();`
 
-```php
-session_destroy();
-```
+    ```php
+    session_destroy();
+    ```
 
 24. What is the purpose of the `include_once` statement in PHP?
     - a) To include an external PHP file only once.
@@ -716,9 +712,9 @@ session_destroy();
     - c) To execute a PHP script.
     - d) To import functions from another PHP file.
 
-```php
-include_once "file.php";
-```
+    ```php
+    include_once "file.php";
+    ```
 
 25. What is the purpose of the `require` statement in PHP?
     - a) To include an external PHP file.
@@ -726,9 +722,9 @@ include_once "file.php";
     - c) To import functions from another PHP file.
     - d) To define a constant.
 
-```php
-require "file.php";
-```
+    ```php
+    require "file.php";
+    ```
 
 26. What is the purpose of the `is_numeric()` function in PHP?
     - a) To check if a value is a number or a numeric string.
@@ -736,14 +732,14 @@ require "file.php";
     - c) To format a number as a string.
     - d) To round a number to the nearest integer.
 
-```php
-$number = "123";
-if (is_numeric($number)) {
-    echo "Number";
-} else {
-    echo "Not a number";
-}
-```
+    ```php
+    $number = "123";
+    if (is_numeric($number)) {
+        echo "Number";
+    } else {
+        echo "Not a number";
+    }
+    ```
 
 27. What is the purpose of the `str_replace()` function in PHP?
     - a) To replace occurrences of a substring with another substring in a string.
@@ -751,10 +747,10 @@ if (is_numeric($number)) {
     - c) To remove whitespace from the beginning and end of a string.
     - d) To split a string into an array.
 
-```php
-$string = "Hello, World!";
-$newString = str_replace("World", "John", $string);
-```
+    ```php
+    $string = "Hello, World!";
+    $newString = str_replace("World", "John", $string);
+    ```
 
 28. What is the purpose of the `date()` function in PHP?
     - a) To format the current date and time.
@@ -762,22 +758,20 @@ $newString = str_replace("World", "John", $string);
     - c) To calculate the difference between two dates.
     - d) To convert a string to a date object.
 
-```php
-$date = date("Y-m-d");
-```
+    ```php
+    $date = date("Y-m-d");
+    ```
 
 29. What is the purpose of the `count()` function in PHP?
     - a) To count the number of elements in an array.
     - b) To calculate the sum of elements in an array.
     - c) To find the average of elements in an array.
-
-
     - d) To sort elements in an array.
 
-```php
-$numbers = [1, 2, 3, 4, 5];
-$count = count($numbers);
-```
+    ```php
+    $numbers = [1, 2, 3, 4, 5];
+    $count = count($numbers);
+    ```
 
 30. What is the purpose of the `array_push()` function in PHP?
     - a) To add one or more elements to the end of an array.
@@ -785,10 +779,10 @@ $count = count($numbers);
     - c) To check if an element exists in an array.
     - d) To merge two or more arrays.
 
-```php
-$fruits = ["apple", "banana"];
-array_push($fruits, "orange");
-```
+    ```php
+    $fruits = ["apple", "banana"];
+    array_push($fruits, "orange");
+    ```
 
 31. What is the correct way to open a file in PHP for reading?
     - a) `fopen("file.txt", "r");`
@@ -796,9 +790,9 @@ array_push($fruits, "orange");
     - c) `read_file("file.txt", "r");`
     - d) `file_open("file.txt", "r");`
 
-```php
-$file = fopen("file.txt", "r");
-```
+    ```php
+    $file = fopen("file.txt", "r");
+    ```
 
 32. What is the purpose of the `feof()` function in PHP?
     - a) To check if the end of a file has been reached.
@@ -806,12 +800,12 @@ $file = fopen("file.txt", "r");
     - c) To close a file.
     - d) To write data to a file.
 
-```php
-$file = fopen("file.txt", "r");
-while (!feof($file)) {
-    echo fgets($file);
-}
-```
+    ```php
+    $file = fopen("file.txt", "r");
+    while (!feof($file)) {
+        echo fgets($file);
+    }
+    ```
 
 33. What is the purpose of the `file_get_contents()` function in PHP?
     - a) To read the contents of a file into a string.
@@ -819,9 +813,9 @@ while (!feof($file)) {
     - c) To check if a file exists.
     - d) To close a file.
 
-```php
-$content = file_get_contents("file.txt");
-```
+    ```php
+    $content = file_get_contents("file.txt");
+    ```
 
 34. What is the purpose of the `file_put_contents()` function in PHP?
     - a) To write data to a file.
@@ -829,10 +823,10 @@ $content = file_get_contents("file.txt");
     - c) To check if a file exists.
     - d) To close a file.
 
-```php
-$content = "Hello, World!";
-file_put_contents("file.txt", $content);
-```
+    ```php
+    $content = "Hello, World!";
+    file_put_contents("file.txt", $content);
+    ```
 
 35. What is the purpose of the `unlink()` function in PHP?
     - a) To delete a file.
@@ -840,9 +834,9 @@ file_put_contents("file.txt", $content);
     - c) To copy a file.
     - d) To move a file.
 
-```php
-unlink("file.txt");
-```
+    ```php
+    unlink("file.txt");
+    ```
 
 36. What is the purpose of the `mysqli_connect()` function in PHP?
     - a) To establish a connection to a MySQL database.
@@ -850,9 +844,9 @@ unlink("file.txt");
     - c) To fetch rows from a database result.
     - d) To close a database connection.
 
-```php
-$connection = mysqli_connect("localhost", "username", "password", "database");
-```
+    ```php
+    $connection = mysqli_connect("localhost", "username", "password", "database");
+    ```
 
 37. What is the purpose of the `mysqli_query()` function in PHP?
     - a) To execute a SQL query.
@@ -860,24 +854,22 @@ $connection = mysqli_connect("localhost", "username", "password", "database");
     - c) To fetch rows from a database result.
     - d) To close a database connection.
 
-```php
-$query = "SELECT * FROM users";
-$result = mysqli_query($connection, $query);
-```
+    ```php
+    $query = "SELECT * FROM users";
+    $result = mysqli_query($connection, $query);
+    ```
 
 38. What is the purpose of the `mysqli_fetch_assoc()` function in PHP?
     - a) To fetch a row from a database result as an associative array.
     - b) To execute a SQL query.
     - c) To establish a connection to a MySQL database.
-    - d
+    - d) To close a database connection.
 
-) To close a database connection.
-
-```php
-while ($row = mysqli_fetch_assoc($result)) {
-    echo $row["name"];
-}
-```
+    ```php
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo $row["name"];
+    }
+    ```
 
 39. What is the purpose of the `mysqli_num_rows()` function in PHP?
     - a) To get the number of rows in a database result.
@@ -885,9 +877,9 @@ while ($row = mysqli_fetch_assoc($result)) {
     - c) To establish a connection to a MySQL database.
     - d) To close a database connection.
 
-```php
-$numRows = mysqli_num_rows($result);
-```
+    ```php
+    $numRows = mysqli_num_rows($result);
+    ```
 
 40. What is the purpose of the `mysqli_close()` function in PHP?
     - a) To close a database connection.
@@ -895,9 +887,9 @@ $numRows = mysqli_num_rows($result);
     - c) To establish a connection to a MySQL database.
     - d) To fetch rows from a database result.
 
-```php
-mysqli_close($connection);
-```
+    ```php
+    mysqli_close($connection);
+    ```
 
 41. What is the purpose of the `htmlspecialchars()` function in PHP?
     - a) To convert special characters to HTML entities.
@@ -905,10 +897,10 @@ mysqli_close($connection);
     - c) To remove whitespace from the beginning and end of a string.
     - d) To concatenate two strings.
 
-```php
-$input = "<script>alert('XSS');</script>";
-$encoded = htmlspecialchars($input);
-```
+    ```php
+    $input = "<script>alert('XSS');</script>";
+    $encoded = htmlspecialchars($input);
+    ```
 
 42. What is the purpose of the `filter_var()` function in PHP?
     - a) To validate and filter data.
@@ -916,14 +908,14 @@ $encoded = htmlspecialchars($input);
     - c) To calculate the length of a string.
     - d) To check if a variable is empty.
 
-```php
-$email = "example@example.com";
-if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo "Valid email";
-} else {
-    echo "Invalid email";
-}
-```
+    ```php
+    $email = "example@example.com";
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "Valid email";
+    } else {
+        echo "Invalid email";
+    }
+    ```
 
 43. What is the purpose of the `filter_input()` function in PHP?
     - a) To retrieve external variables and filter them.
@@ -931,9 +923,9 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
     - c) To execute a SQL query.
     - d) To close a database connection.
 
-```php
-$username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
-```
+    ```php
+    $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
+    ```
 
 44. What is the purpose of the `password_hash()` function in PHP?
     - a) To hash a password using a specified algorithm.
@@ -941,10 +933,10 @@ $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
     - c) To validate a password against a hashed value.
     - d) To generate a random password.
 
-```php
-$password = "mypassword";
-$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-```
+    ```php
+    $password = "mypassword";
+    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+    ```
 
 45. What is the purpose of the `password_verify()` function in PHP?
     - a) To validate a password against a hashed value.
@@ -952,15 +944,15 @@ $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
     - c) To encrypt a password using a secret key.
     - d) To generate a random password.
 
-```php
-$password = "mypassword";
-$hashedPassword = "$2y$10$0Ttk0ANyEILvwus79FJHseB8emRdSbGQ/rMkw7cI37oh.V1myNpmm";
-if (password_verify($password, $hashedPassword)) {
-    echo "Password is correct";
-} else {
-    echo "Password is incorrect";
-}
-```
+    ```php
+    $password = "mypassword";
+    $hashedPassword =     "$2y$10$0Ttk0ANyEILvwus79FJHseB8emRdSbGQ/rMkw7cI37oh.V1myNpmm";
+    if (password_verify($password, $hashedPassword)) {
+        echo "Password is correct";
+    } else {
+        echo "Password is incorrect";
+    }
+    ```
 
 46. What is the purpose of the `session_start()` function in PHP?
     - a) To start a new session or resume an existing session.
@@ -968,21 +960,19 @@ if (password_verify($password, $hashedPassword)) {
     - c) To destroy a session.
     - d) To close a database connection.
 
-```php
-session_start();
-```
+    ```php
+    session_start();
+    ```
 
-47
-
-. What is the purpose of the `$_COOKIE` superglobal in PHP?
+47. What is the purpose of the `$_COOKIE` superglobal in PHP?
     - a) To retrieve cookie values.
     - b) To store session variables.
     - c) To access server information.
     - d) To manage file uploads.
 
-```php
-$cookieValue = $_COOKIE["cookiename"];
-```
+    ```php
+    $cookieValue = $_COOKIE["cookiename"];
+    ```
 
 48. What is the purpose of the `setcookie()` function in PHP?
     - a) To set a cookie.
@@ -990,9 +980,9 @@ $cookieValue = $_COOKIE["cookiename"];
     - c) To store session variables.
     - d) To delete a cookie.
 
-```php
-setcookie("cookiename", "cookievalue", time()+3600, "/");
-```
+    ```php
+    setcookie("cookiename", "cookievalue", time()+3600, "/");
+    ```
 
 49. What is the purpose of the `$_SERVER` superglobal in PHP?
     - a) To access server information.
@@ -1000,9 +990,9 @@ setcookie("cookiename", "cookievalue", time()+3600, "/");
     - c) To manage file uploads.
     - d) To retrieve cookie values.
 
-```php
-$serverName = $_SERVER["SERVER_NAME"];
-```
+    ```php
+    $serverName = $_SERVER["SERVER_NAME"];
+    ```
 
 50. What is the purpose of the `$_POST` superglobal in PHP?
     - a) To retrieve form data submitted with the POST method.
@@ -1010,9 +1000,9 @@ $serverName = $_SERVER["SERVER_NAME"];
     - c) To manage file uploads.
     - d) To access server information.
 
-```php
-$username = $_POST["username"];
-```
+    ```php
+    $username = $_POST["username"];
+    ```
 
 
 ## Contribution 🛠️

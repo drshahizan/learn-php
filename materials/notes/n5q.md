@@ -8,6 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 # PHP: MySQL and CRUD
+## Set A
 Please answer the following 50 multiple-choice questions to test your knowledge in MySQL and CRUD. You must place your answer file in the submission folder. Within the [`submission/Q5/set_a`](./submission/Q5/set_a) folder, create a folder called your `github_id`. 
 
 1. Which of the following is a popular open-source relational database management system?
@@ -363,6 +364,9 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - b) Prints "Error deleting user" if the query fails
     - c) Prints nothing
     - d) Error
+
+## Set B
+Please answer the following 50 multiple-choice questions to test your knowledge in MySQL and CRUD. You must place your answer file in the submission folder. Within the [`submission/Q5/set_b`](./submission/Q5/set_b) folder, create a folder called your `github_id`. 
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
