@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Soalan Stuktur
+# Soalan Struktur
 
 ## Password
 Q3 password : P$*52
