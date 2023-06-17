@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Soalan Struktur
 
-Please answer the following 50 multiple-choice questions to test your knowledge in JavaScript fundamentals. You must place your answer file in the submission folder. Within the [`submission/Q1/set_a`](./submission/Q1/set_a) folder, create a folder called your `github_id`. 
+Please answer the following 50 multiple-choice questions to test your knowledge in JavaScript fundamentals. You must place your answer file in the submission folder. Within the [`submission/Q7/q3`](./submission/Q1/q3) folder, create a folder called your `github_id`. 
 
 | Q | Topic |  MCQ | 
 | :-----: | ----- | :------: |
