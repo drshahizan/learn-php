@@ -13,7 +13,7 @@ Don't forget to hit the :star: if you like this repo.
 | 1 | Student Portfolio Showcase (HTML) |<a href="1-portfolio" ><img src="../images/html.png" width="36px" height="36px" ></a> |
 | 2 | Student Portfolio Showcase (Bootstrap) |<a href="2-bootstrap/" ><img src="../images/bootstrap.png" width="24px" height="24px" ></a> |
 | 3 | Web Responsive using Bootstrap |<a href="3-web" ><img src="../images/bootstrap.png" width="24px" height="24px" ></a> |
-| 4 | Final Project using PHP |<a href="4-project" ><img src="../images/php.png" width="36px" height="36px" ></a> |
+| 4 | Final Project using PHP |<a href="4-project" ><img src="../images/php.svg" width="36px" height="36px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
