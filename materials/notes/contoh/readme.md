@@ -9,16 +9,16 @@ Don't forget to hit the :star: if you like this repo.
 
 # Soalan Struktur
 
+| Q | Topic |  MCQ | 
+| :-----: | ----- | :------: |
+| 3 | Java Script | <a href="Q3.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
+| 4 | PHP | <a href="Q4.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
+| 5 | PHP | <a href="Q5.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
+
 ## Password
 - Q3 password : P$*52
 - Q4 password : 9?W_5
 - Q5 password : i4W%6
-
-| No | Topic |  MCQ |
-| :-----: | ----- | :------: |
-| 3 | Java Script | <a href="Q3.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
-
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
