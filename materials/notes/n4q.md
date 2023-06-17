@@ -434,10 +434,10 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
    - c) `<?php start`
    - d) `<script>`
 
-```php
-<?php
-// Code block starts here
-```
+    ```php
+    <?php
+    // Code block starts here
+    ```
 
 2. What is the correct way to print "Hello, World!" in PHP?
    - a) `echo "Hello, World!";`
@@ -445,9 +445,9 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
    - c) `printf("Hello, World!");`
    - d) `console.log("Hello, World!");`
 
-```php
-echo "Hello, World!";
-```
+    ```php
+    echo "Hello, World!";
+    ```
 
 3. Which of the following variables is valid in PHP?
    - a) `$my_var`
@@ -455,9 +455,9 @@ echo "Hello, World!";
    - c) `#myVar`
    - d) `@myVar`
 
-```php
-$my_var = "Some value";
-```
+    ```php
+    $my_var = "Some value";
+    ```
 
 4. How do you concatenate two strings in PHP?
    - a) Using the `.` operator.
@@ -465,28 +465,28 @@ $my_var = "Some value";
    - c) Using the `:` operator.
    - d) Using the `*` operator.
 
-```php
-$string1 = "Hello";
-$string2 = "World";
-$result = $string1 . $string2;
-```
+    ```php
+    $string1 = "Hello";
+    $string2 = "World";
+    $result = $string1 . $string2;
+    ```
 
 5. What will be the output of the following code snippet?
 
-```php
-$x = 5;
-$y = 10;
-$result = $x + $y;
-echo $result;
-```
+    ```php
+    $x = 5;
+    $y = 10;
+    $result = $x + $y;
+    echo $result;
+    ```
    - a) 15
    - b) "15"
    - c) Error
    - d) Undefined
 
-```php
-15
-```
+    ```php
+       15
+    ```
 
 6. How do you comment a single line in PHP?
    - a) `// Comment`
@@ -494,9 +494,9 @@ echo $result;
    - c) `# Comment`
    - d) `<!-- Comment -->`
 
-```php
-// This is a comment
-```
+    ```php
+     // This is a comment
+    ```
 
 7. Which of the following is the correct way to define a constant in PHP?
    - a) `define("MY_CONSTANT", 100);`
@@ -504,9 +504,9 @@ echo $result;
    - c) `const MY_CONSTANT = 100;`
    - d) `$MY_CONSTANT = 100;`
 
-```php
-define("MY_CONSTANT", 100);
-```
+    ```php
+    define("MY_CONSTANT", 100);
+    ```
 
 8. What is the correct syntax to include an external PHP file?
    - a) `include "file.php";`
@@ -514,9 +514,9 @@ define("MY_CONSTANT", 100);
    - c) `import "file.php";`
    - d) `load "file.php";`
 
-```php
-include "file.php";
-```
+    ```php
+    include "file.php";
+    ```
 
 9. What does the `$_POST` superglobal in PHP represent?
    - a) Data sent through a GET request.
@@ -524,9 +524,9 @@ include "file.php";
    - c) Server information.
    - d) File upload information.
 
-```php
-$data = $_POST["input_name"];
-```
+    ```php
+    $data = $_POST["input_name"];
+    ```
 
 10. What is the correct way to check if a file exists in PHP?
     - a) `file_exists("file.txt")`
@@ -534,13 +534,13 @@ $data = $_POST["input_name"];
     - c) `file_exists("file.txt") && is_file("file.txt")`
     - d) `exists("file.txt")`
 
-```php
-if (file_exists("file.txt")) {
-    echo "File exists";
-} else {
-    echo "File does not exist";
-}
-```
+    ```php
+    if (file_exists("file.txt")) {
+        echo "File exists";
+    } else {
+        echo "File does not exist";
+    }
+    ```
 
 11. What is the purpose of the `strlen()` function in PHP?
     - a) To calculate the length of a string.
@@ -548,28 +548,28 @@ if (file_exists("file.txt")) {
     - c) To remove whitespace from the beginning and end of a string.
     - d) To reverse a string.
 
-```php
-$length = strlen("Hello, World!");
-```
+    ```php
+    $length = strlen("Hello, World!");
+    ```
 
 12. What will be the output of the following code snippet?
 
-```php
-$x = 10;
-if ($x > 5) {
-    echo "Greater than 5";
-} else {
-    echo "Less than or equal to 5";
-}
-```
+    ```php
+    $x = 10;
+    if ($x > 5) {
+        echo "Greater than 5";
+    } else {
+        echo "Less than or equal to 5";
+    }
+    ```
     - a) Greater than 5
     - b) Less than or equal to 5
     - c) Error
     - d) Undefined
 
-```php
-Greater than 5
-```
+    ```php
+    Greater than 5
+    ```
 
 13. How do you define a function in PHP?
     - a) `function myFunction() {}`
@@ -577,11 +577,11 @@ Greater than 5
     - c) `fn myFunction() {}`
     - d) `fun myFunction() {}`
 
-```php
-function myFunction() {
-    // Function code here
-}
-```
+    ```php
+    function myFunction() {
+        // Function code here
+    }
+    ```
 
 14. What is the purpose of the `return` statement in a function?
     - a) To terminate the execution of the function and return a value.
@@ -589,11 +589,11 @@ function myFunction() {
     - c) To output a message to the browser.
     - d) To include another file in the function.
 
-```php
-function multiply($x, $y) {
-    return $x * $y;
-}
-```
+    ```php
+    function multiply($x, $y) {
+        return $x * $y;
+    }
+    ```
 
 15. What is the correct way to call a function in PHP?
     - a) `myFunction();`
@@ -601,9 +601,9 @@ function multiply($x, $y) {
     - c) `call myFunction();`
     - d) `execute myFunction();`
 
-```php
-myFunction();
-```
+    ```php
+    myFunction();
+    ```
 
 16. What is the purpose of the `foreach` loop in PHP?
     - a) To loop through each element in an array or object.
@@ -611,30 +611,30 @@ myFunction();
     - c) To conditionally execute a block of code.
     - d) To define a function.
 
-```php
-$numbers = [1, 2, 3, 4, 5];
-foreach ($numbers as $number) {
-    echo $number;
-}
-```
+    ```php
+    $numbers = [1, 2, 3, 4, 5];
+    foreach ($numbers as $number) {
+        echo $number;
+    }
+    ```
 
 17. What will be the output of the following code snippet?
 
-```php
-$x = 1;
-while ($x <= 5) {
-    echo $x;
-    $x++;
-}
-```
+    ```php
+    $x = 1;
+    while ($x <= 5) {
+        echo $x;
+        $x++;
+    }
+    ```
     - a) 12345
     - b) 54321
     - c) 11111
     - d) 123456789
 
-```php
-12345
-```
+    ```php
+    12345
+    ```
 
 18. What is the purpose of the `continue` statement in a loop?
     - a) To skip the current iteration of the loop and continue to the next iteration.
@@ -642,14 +642,14 @@ while ($x <= 5) {
     - c) To restart the loop from the beginning.
     - d) To output a message to the browser.
 
-```php
-for ($i = 1; $i <= 10; $i++) {
-    if ($i % 2 == 0) {
-        continue;
+    ```php
+    for ($i = 1; $i <= 10; $i++) {
+        if ($i % 2 == 0) {
+            continue;
+        }
+        echo $i;
     }
-    echo $i;
-}
-```
+    ```
 
 19. What is the purpose of the `break` statement in a loop?
     - a) To exit the loop completely.
@@ -657,16 +657,14 @@ for ($i = 1; $i <= 10; $i++) {
     - c) To restart the loop from the beginning.
     - d) To output a message to the browser.
 
-```php
-for ($i = 1; $i <= 10; $i++) {
-    if ($i
-
- == 5) {
-        break;
+    ```php
+    for ($i = 1; $i <= 10; $i++) {
+        if ($i == 5) {
+            break;
+        }
+        echo $i;
     }
-    echo $i;
-}
-```
+    ```
 
 20. What is the purpose of the `$_GET` superglobal in PHP?
     - a) Data sent through a GET request.
@@ -674,9 +672,9 @@ for ($i = 1; $i <= 10; $i++) {
     - c) Server information.
     - d) File upload information.
 
-```php
-$id = $_GET["id"];
-```
+    ```php
+    $id = $_GET["id"];
+    ```
 
 21. What is the correct way to redirect a user to another page in PHP?
     - a) `header("Location: newpage.php");`
@@ -684,9 +682,9 @@ $id = $_GET["id"];
     - c) `goTo("newpage.php");`
     - d) `location.href = "newpage.php";`
 
-```php
-header("Location: newpage.php");
-```
+    ```php
+    header("Location: newpage.php");
+    ```
 
 22. What is the purpose of the `$_SESSION` superglobal in PHP?
     - a) To store session variables.
@@ -694,9 +692,9 @@ header("Location: newpage.php");
     - c) To retrieve form data.
     - d) To access server information.
 
-```php
-$_SESSION["username"] = "John";
-```
+    ```php
+    $_SESSION["username"] = "John";
+    ```
 
 23. How do you destroy a session in PHP?
     - a) `session_destroy();`
