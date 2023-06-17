@@ -82,21 +82,15 @@ Diagrams are visual representations of information or data that help convey comp
 | 7 | Carbon| <a href="https://carbon.now.sh/" ><img src="./images/carbon.svg" width="24px" height="24px" ></a> | 
 
 ## 📖 Extra Notes
-1. [JS Fundamental]()
-2. [JS DOM]()
-3. [JS Event & JS Form Validation]()
-4. [PHP Fundamental]()
-5. [PHP MySQL]()
-6. [PHP Form & Session & Cookies]()
 
 | No | Topic | Note | MCQ |
 | :-----: | ----- | :------: | :------: |
-| 1 | JS Fundamental | <a href="./project/1-portfolio"><img src="./images/javascript.svg" width="24px" height="24px"></a> | - |
-| 2 | JS DOM | <a href="./project/1-portfolio"><img src="./images/javascript.svg" width="24px" height="24px"></a> | - |
-| 3 | JS Event & JS Form Validation | <a href="./project/1-portfolio"><img src="./images/javascript.svg" width="24px" height="24px"></a> | - |
-| 4 | PHP Fundamental | <a href="./project/1-portfolio"><img src="./images/php.svg" width="24px" height="24px"></a> | - |
-| 5 | PHP MySQL | <a href="./project/1-portfolio"><img src="./images/php.svg" width="24px" height="24px"></a> | - |
-| 6 | PHP Form & Session & Cookies | <a href="./project/1-portfolio"><img src="./images/php.svg" width="24px" height="24px"></a> | - |
+| 1 | JS Fundamental | <a href="./materials/notes/n1.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | - |
+| 2 | JS DOM | <a href="./materials/notes/n2.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | - |
+| 3 | JS Event & JS Form Validation | <a href="./materials/notes/n3.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | - |
+| 4 | PHP Fundamental | <a href="./materials/notes/n4.md"><img src="./images/php.svg" width="24px" height="24px"></a> | - |
+| 5 | PHP MySQL | <a href="./materials/notes/n5.md"><img src="./images/php.svg" width="24px" height="24px"></a> | - |
+| 6 | PHP Form & Session & Cookies | <a href="./materials/notes/n6.md"><img src="./images/php.svg" width="24px" height="24px"></a> | - |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
