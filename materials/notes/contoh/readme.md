@@ -7,59 +7,18 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# JavaScript: Fundamental
+# Soalan Struktur
 
-## Set A
-1. B
-2. D
-3. D
-4. B
-5. A
-6. A
-7. B
-8. A
-9. C
-10. A
-11. A
-12. B 
-13. A
-14. B
-15. A
-16. D
-17. B
-18. A
-19. D
-20. C
-21. B
-22. C
-23. C
-24. A
-25. D
-26. A
-27. C
-28. A
-29. A
-30. B
-31. A
-32. D
-33. A
-34. A
-35. A
-36. 42
-37. A
-38. A
-39. A
-40. A
-41. D
-42. A
-43. A
-44. B
-45. Returns a random floating-point number between 0 and 1
-46. A
-47. A
-48. A
-49. A
-50. A
+| Q | Topic |  MCQ | 
+| :-----: | ----- | :------: |
+| 3 | Java Script | <a href="Q3.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
+| 4 | PHP | <a href="Q4.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
+| 5 | PHP | <a href="Q5.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> |
+
+## Password
+- Q3 password : P$*52
+- Q4 password : 9?W_5
+- Q5 password : i4W%6
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
@@ -68,7 +27,5 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 ![](https://komarev.com/ghpvc/?username=drshahizan&label=Views&color=0e75b6&style=flat)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
-
-
 
 
