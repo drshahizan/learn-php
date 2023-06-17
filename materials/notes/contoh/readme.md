@@ -10,9 +10,14 @@ Don't forget to hit the :star: if you like this repo.
 # Soalan Struktur
 
 ## Password
-Q3 password : P$*52
-Q4 password : 9?W_5
-Q5 password : i4W%6
+- Q3 password : P$*52
+- Q4 password : 9?W_5
+- Q5 password : i4W%6
+
+| No | Topic |  MCQ |
+| :-----: | ----- | :------: |
+| 3 | Java Script | <a href="./materials/notes/n1q.md"><img src="../../images/question.svg" width="24px" height="24px"></a> |
+
 
 
 ## Contribution 🛠️
