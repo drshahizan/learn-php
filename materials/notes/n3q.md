@@ -8,6 +8,8 @@
 Don't forget to hit the :star: if you like this repo.
 
 # JavaScript: Event & Form Validation
+
+## Set A
 Please answer the following 50 multiple-choice questions to test your knowledge in Event & Form Validation. You must place your answer file in the submission folder. Within the [`submission/Q3/set_a`](./submission/Q3/set_a) folder, create a folder called your `github_id`. 
 
 1. Which method is used to attach an event handler to an HTML element in JavaScript?
@@ -309,6 +311,10 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - b) Occurs when a key is pressed on the keyboard
     - c) Occurs when a key is held down on the keyboard
     - d) Occurs when a key is typed on the keyboard
+
+## Set B
+Please answer the following 50 multiple-choice questions to test your knowledge in Event & Form Validation. You must place your answer file in the submission folder. Within the [`submission/Q3/set_b`](./submission/Q3/set_b) folder, create a folder called your `github_id`. 
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
