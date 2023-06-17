@@ -54,7 +54,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 | :-----: | ----- | :------: | 
 | 1| Hypertext Markup Language |<a href="./materials/html/exercise.md" ><img src="./images/html.png" width="36px" height="36px" ></a> |
 | 2 | Cascading Style Sheets |<a href="./materials/css/exercise.md" ><img src="./images/css.png" width="36px" height="36px" ></a> |
-| 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.png" width="36px" height="36px" ></a> |
+| 3 | JavaScript |<a href="./materials/javascript/exercise.md" ><img src="./images/javascript.svg" width="24px" height="24px" ></a> |
 | 4 | Bootstrap |<a href="./materials/bootstrap/exercise.md" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 5 | Hypertext Preprocessor |<a href="./materials/php/exercise.md" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
 
@@ -62,7 +62,7 @@ This course is designed to introduce students the fundamental of knowledge, tech
 
 | Project | Topic | Files |
 | :-----: | ----- | :------: | 
-| 1| Student Portfolio Showcase (HTML) |<a href="./project/1-portfolio" ><img src="./images/html.png" width="36px" height="36px" ></a> |
+| 1 | Student Portfolio Showcase (HTML) |<a href="./project/1-portfolio" ><img src="./images/html.png" width="36px" height="36px" ></a> |
 | 2 | Student Portfolio Showcase (Bootstrap) |<a href="./project/2-bootstrap/" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 3 | Web Responsive using Bootstrap |<a href="./project/3-web" ><img src="./images/bootstrap.png" width="24px" height="24px" ></a> |
 | 4 | Final Project using PHP |<a href="./project/4-project" ><img src="./images/php.svg" width="24px" height="24px" ></a> |
@@ -80,6 +80,17 @@ Diagrams are visual representations of information or data that help convey comp
 | 5 | Visual Studio Code| <a href="https://code.visualstudio.com/" ><img src="./images/vsc.svg" width="24px" height="24px" ></a> | 
 | 6 | Bootstrap Studio| <a href="https://bootstrapstudio.io/" ><img src="./images/bootstrap-studio.png" width="24px" height="24px" ></a> | 
 | 7 | Carbon| <a href="https://carbon.now.sh/" ><img src="./images/carbon.svg" width="24px" height="24px" ></a> | 
+
+## 📖 Extra Notes
+
+| No | Topic | Note | MCQ |
+| :-----: | ----- | :------: | :------: |
+| 1 | JS Fundamentals | <a href="./materials/notes/n1.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n1q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 2 | JS DOM | <a href="./materials/notes/n2.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n2q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 3 | JS Event & JS Form Validation | <a href="./materials/notes/n3.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n3q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 4 | PHP Fundamentals | <a href="./materials/notes/n4.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n4q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 5 | PHP: MySQL and CRUD | <a href="./materials/notes/n5.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n5q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 6 | PHP: Form, Session & Cookies | <a href="./materials/notes/n6.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n6q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
