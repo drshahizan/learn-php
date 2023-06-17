@@ -312,6 +312,7 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - d) `charAt()`
 
 ## Set B
+You must place your answer file in the submission folder. Within the [`submission/Q1/set_b`](./submission/Q1/set_b) folder, create a folder called your `github_id`. 
 
 1. Which keyword is used to declare a variable in JavaScript?
    - a) `var`
