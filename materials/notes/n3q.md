@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 # JavaScript: Event & Form Validation
-Please answer the following 50 multiple-choice questions to test your knowledge in Event & Form Validation
+Please answer the following 50 multiple-choice questions to test your knowledge in Event & Form Validation. You must place your answer file in the submission folder. Within the [`submission/Q3/set_a`](./submission/Q3/set_a) folder, create a folder called your `github_id`. 
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
