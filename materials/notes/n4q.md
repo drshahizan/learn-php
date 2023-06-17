@@ -86,14 +86,14 @@ echo $result;
 
 12. What is the output of the following code?
 
-```php
-$num = 7;
-if ($num % 2 == 0) {
-    echo "Even";
-} else {
-    echo "Odd";
-}
-```
+    ```php
+    $num = 7;
+    if ($num % 2 == 0) {
+        echo "Even";
+    } else {
+        echo "Odd";
+    }
+    ```
     - a) Even
     - b) Odd
     - c) 7
