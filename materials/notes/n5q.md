@@ -94,9 +94,7 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) `mysqli_bind_param()`
     - d) `mysqli_stmt_execute()`
 
-14. Which PHP function is used to handle errors during MySQL database operations
-
-?
+14. Which PHP function is used to handle errors during MySQL database operations?
     - a) `mysql_error()`
     - b) `mysqli_error()`
     - c) `pdo_error()`
@@ -174,9 +172,7 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) `pdo_free_result()`
     - d) `db_free_result()`
 
-26. How do you retrieve the number of fields (columns) in a MySQL query result in
-
- PHP?
+26. How do you retrieve the number of fields (columns) in a MySQL query result in PHP?
     - a) `$result->num_fields()`
     - b) `mysqli_num_fields($result)`
     - c) `$result->field_count()`
@@ -255,9 +251,7 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - d) `count($pdo->fetchAll())`
 
 37. Which PHP function is used to handle transactions in PDO?
-    - a) `$
-
-pdo->transaction()`
+    - a) `$pdo->transaction()`
     - b) `pdo_transaction()`
     - c) `$pdo->beginTransaction()`
     - d) `pdo_begin_transaction()`
@@ -337,9 +331,7 @@ pdo->transaction()`
     - c) Prints the result of the query
     - d) Error
 
-47. How do you retrieve the error message from a failed
-
- MySQL query in PDO?
+47. How do you retrieve the error message from a failed MySQL query in PDO?
     - a) `$pdo->errorInfo()`
     - b) `pdo_error()`
     - c) `$pdo->errorMessage()`
@@ -372,7 +364,6 @@ pdo->transaction()`
     - c) Prints nothing
     - d) Error
 
-Please note that the answers may vary depending on the specific context and version of PHP and MySQL being used.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
