@@ -26,7 +26,7 @@ The code manipulates the HTML and CSS styles of the DOM elements using the style
 
 ## Q3: Give a brief description of each function that was used.
 Ans:
-Certainly! Here's a brief description of each function used in the code:
+Here's a brief description of each function used in the code:
 
 1. `addBox.addEventListener("click", ...)`: This function adds an event listener to the `addBox` element. When the element is clicked, it triggers a callback function that sets the title and button text in the popup box and displays it. It also sets the focus on the `titleTag` input field under certain conditions.
 
