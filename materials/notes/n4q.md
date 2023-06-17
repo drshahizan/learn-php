@@ -94,11 +94,10 @@ if ($num % 2 == 0) {
     echo "Odd";
 }
 ```
-
-   - a) Even
-   - b) Odd
-   - c) 7
-   - d) Error
+    - a) Even
+    - b) Odd
+    - c) 7
+    - d) Error
 
 13. Which function is used to include an external PHP file?
     - a) `include()`
