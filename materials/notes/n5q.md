@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 # PHP: MySQL and CRUD
-Please answer the following 50 multiple-choice questions to test your knowledge in MySQL and CRUD
+Please answer the following 50 multiple-choice questions to test your knowledge in MySQL and CRUD. You must place your answer file in the submission folder. Within the [`submission/Q5/set_a`](./submission/Q5/set_a) folder, create a folder called your `github_id`. 
 
 
 ## Contribution 🛠️
