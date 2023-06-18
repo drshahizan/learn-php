@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2em;
+      line-height: 1.5;
+      color: #333;
+      margin: 0;
+    }
+
+    section {
+      padding: 5%;
+      /* border: 1em solid #e3e3e3; */
+      border: 1px solid black;
+    }
+
+    .parallax {
+      /* The image used */
+      background-image: url("https://i.ibb.co/RhgH74y/leone-venter-Vie-M9-Bd-ZKFo-unsplash.jpg");
+
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #introduction {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: start;
+    }
+
+    #skills {
+      text-align: center;
+    }
+
+    #skills ul {
+      list-style-position: inside;
+      text-align: center;
+    }
+
+    #skills li {
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    #contact {
+      text-align: center;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    #contact h2 {
+      margin-bottom: 20px;
+    }
+
+    #contact form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    #contact label {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    #contact input,
+    #contact textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+    }
+
+    #contact textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    #contact button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: Arial, sans-serif;
+    }
+
+    #contact button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Introduction Section -->
+  <section id="introduction">
+    <h1>My Portfolio</h1>
+    <img src="https://i.ibb.co/g6Gp0XR/Whats-App-Image-2023-06-18-at-1-29-54-PM.jpg" alt="profile-pic" border="0"
+      width="300" height="300"></a>
+    <p>Hello, my name is Haris! I'm a passionate Full Stack Developer with expertise in PHP, C++, and Ruby amongst other
+      languages. I love solving complex problems and creating innovative solutions. Let's work together to bring your
+      ideas to life!</p>
+    <a href="#contact" class="cta-button">Contact Me</a>
+  </section>
+
+  <div class="parallax">
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>PHP - Wordpress, Laravel, CodeIgniter</li>
+        <li>Ruby - Ruby on Rails</li>
+        <li>C++</li>
+      </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <h3>Back End Developer Intern</h3>
+          <p>FAVE</p>
+          <p>Jun 2019 - Aug 2019</p>
+          <p>I interned for the Consumer Engineering Team and worked on the in-house application FAVE app, mainly on bug
+            fixes. I also helped update the admin dashbaord to enable QA testers to test out a new feature that came out
+            at the end of 2019 which is the e-cards. Additionally I wrote unit tests (RSpecs) for older and new codes. I
+            mainly worked with Ruby on Rails during my time here.</p>
+        </li>
+        <li>
+          <h3>Web Developer</h3>
+          <p>Cloone Corporation Sdn Bhd</p>
+          <p>Dec 2019 - Feb 2020</p>
+          <p>I built a frontend Angular 8 admin dashboard and connected it to a backend created via CodeIgniter. This
+            web
+            app acted as a Content Management System for a mobile app for a convenient store called Moonlight in Johor.
+            I
+            also expanded the functionality of the admin dashboard for Senheng to incorporate the functionality and
+            feature of testing Goods to be returned, utilizing join tables from the DB to check if the conditions were
+            met
+            to determine if the request were successful or not.</p>
+        </li>
+        <li>
+          <h3>Gaventure Studio</h3>
+          <p>Software Engineer</p>
+          <p>Apr 2020 - Jun 2020</p>
+          <p>I worked with wordpress using a nude theme to design the frontend portion of our client's website using
+            HTML5
+            and CSS3. Unfortunately retrenched during the pandemic.</p>
+        </li>
+        <li>
+          <h3>Web Programmer</h3>
+          <p>Nokua Design</p>
+          <p>Aug 2020 - Apr 2021</p>
+          <p>I worked on a CodeIgniter based project to build an e-commerce website. I enhanced a few websites for our
+            clients that was built with WordPress.</p>
+        </li>
+        <li>
+          <h3>Web Programmer</h3>
+          <p>Lapasar</p>
+          <p>Apr 2021 - May 2021</p>
+          <p>I helped develop features for the internal tool using CodeIgniter. I accepted a different offer after two
+            months due to commuting issues.</p>
+        </li>
+        <li>
+          <h3>Full Stack Developer</h3>
+          <p>People Systems Consultancy</p>
+          <p>May 2021 - Mar 2022</p>
+          <p>I was the only IT personnel for the company and helped create two websites using CodeIgniter and maintained
+            a
+            number of different websites that were built using different languages like WordPress, Concrete5 and so on.
+            I
+            managed weekly meetings with the upper management and was the person in charge to monitor the progress of an
+            external party we engaged to create a web app. I introduced version control for the company and was in
+            charge
+            of organizing the company's tech repositories. In addition to this, I was also in charged of doing grant
+            research for the company as we strive to advance towards a more digital era.</p>
+        </li>
+        <li>
+          <h3>Software Engineer</h3>
+          <p>FortNynja</p>
+          <p>Mar 2022 - Aug 2022</p>
+          <p>I worked with Ruby on Rails and AWS to enhance a web application that checks websites for security
+            vulnerabilities according to OWASP Zap standard. I helped the company in hosting a Hackathon event in
+            collaboration with The Malaysian Insurance Institute (MII), by checking and grading submissions of the
+            participants via the Virtual Machines.</p>
+        </li>
+        <li>
+          <h3>Learning Experience Expert</h3>
+          <p>Dassault Systemes</p>
+          <p>Aug 2022 - Dec 2022</p>
+          <p>I developed custom plugins to enhance the Learning Management System (LMS) created using Moodle. In this
+            role
+            I had to use Javascript fundamentals to implement new custom features like personalized pplaylist,
+            preferences
+            API and sharing functionality with hash.</p>
+        </li>
+        <li>
+          <h3>Full Stack Developer</h3>
+          <p>Zoala Pvt Ltd</p>
+          <p>Jan 2023 - Present</p>
+          <p>I develop the frontend and the backend for the web application of Zoala that handles everything the AI and
+            the mobile side needs. I develop APIs for the others to use and managed the admin dashboard as well.</p>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</body>
+
+</html>
