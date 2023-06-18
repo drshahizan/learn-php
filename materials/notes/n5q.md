@@ -374,12 +374,6 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) Create, Remove, Upload, Delete
     - d) Control, Retrieve, Update, Destroy
 
-```php
-// Code for question 1
-// Create a new record
-INSERT INTO users (name, email) VALUES ('John Doe', 'john@example.com');
-```
-
 2. Which PHP extension is commonly used to interact with MySQL databases?
     - a) MySQLi
     - b) PDO
