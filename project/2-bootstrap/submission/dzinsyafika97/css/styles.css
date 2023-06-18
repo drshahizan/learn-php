@@ -11580,20 +11580,22 @@ html {
 
 .profile {
   position: relative;
-  height: 75vw;
   width: 75vw;
-  border-radius: 5vw;
-  margin-top: 5vw;
-  max-height: 40rem;
   max-width: 40rem;
+  margin: 5vw auto;
+  border-radius: 5vw;
+  overflow: hidden;
 }
+
 .profile .profile-img {
-  height: 100vw;
-  max-height: 65rem;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .profile .dots-1 {
   position: absolute;
