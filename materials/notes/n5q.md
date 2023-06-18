@@ -584,23 +584,11 @@ mysqli_begin_transaction($connection);
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
 
-```php
-// Code for question 17
-// Commit a transaction using mysqli_commit()
-mysqli_commit($connection);
-```
-
 18. What is the purpose of the `mysqli_rollback()` function in PHP?
     - a) To rollback a transaction
     - b) To execute a SQL query
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
-
-```php
-// Code for question 18
-// Rollback a transaction using mysqli_rollback()
-mysqli_rollback($connection);
-```
 
 19. Which PHP function is used to get the last error message from a MySQL connection?
     - a) `mysqli_error()`
@@ -608,27 +596,11 @@ mysqli_rollback($connection);
     - c) `mysqli_connect_error()`
     - d) `mysqli_connect_errno()`
 
-```php
-// Code for question 19
-// Get the last error message from a MySQL connection using mysqli_error()
-$errorMessage = mysqli_error($connection);
-```
-
 20. What is the purpose of prepared statements in PHP when working with MySQL?
     - a) To prevent SQL injection and improve performance
     - b) To execute a SQL query
     - c) To fetch rows from a database result
     - d) To establish a connection to a MySQL database
-
-```php
-// Code for question 20
-// Use prepared statements to prevent SQL injection and improve performance
-$query = "SELECT * FROM users WHERE id = ?";
-$stmt = mysqli_prepare($connection, $query);
-mysqli_stmt_bind_param($stmt, 'i', $userId);
-mysqli_stmt_execute($stmt);
-$result = mysqli_stmt_get_result($stmt);
-```
 
 21. Which PHP function is used to bind parameters to a prepared statement in MySQL?
     - a) `mysqli_stmt_bind_param()`
@@ -636,23 +608,11 @@ $result = mysqli_stmt_get_result($stmt);
     - c) `mysqli_stmt_get_result()`
     - d) `mysqli_stmt_fetch()`
 
-```php
-// Code for question 21
-// Bind parameters to a prepared statement using mysqli_stmt_bind_param()
-mysqli_stmt_bind_param($stmt, 'i', $userId);
-```
-
 22. What is the purpose of the `mysqli_stmt_execute()` function in PHP when working with prepared statements?
     - a) To execute a prepared statement
     - b) To bind parameters to a prepared statement
     - c) To get the result set of a prepared statement
     - d) To fetch rows from a prepared statement result
-
-```php
-// Code for question 22
-// Execute a prepared statement using mysqli_stmt_execute()
-mysqli_stmt_execute($stmt);
-```
 
 23. What is the purpose of the `mysqli_stmt_get_result()` function in PHP when working with prepared statements?
     - a) To get the result set of a prepared statement
@@ -660,28 +620,11 @@ mysqli_stmt_execute($stmt);
     - c) To bind parameters to a prepared statement
     - d) To fetch rows from a prepared statement result
 
-```php
-// Code for question 23
-
-
-// Get the result set of a prepared statement using mysqli_stmt_get_result()
-$result = mysqli_stmt_get_result($stmt);
-```
-
 24. How can you retrieve the rows returned by a prepared statement in PHP when working with MySQL?
     - a) Using `mysqli_stmt_get_result()`
     - b) Using `mysqli_stmt_fetch()`
     - c) Using `mysqli_stmt_execute()`
     - d) Using `mysqli_stmt_bind_param()`
-
-```php
-// Code for question 24
-// Retrieve the rows returned by a prepared statement using mysqli_stmt_get_result()
-$result = mysqli_stmt_get_result($stmt);
-while ($row = mysqli_fetch_assoc($result)) {
-    // Process each row
-}
-```
 
 25. Which PHP function is used to fetch a row from a prepared statement result in MySQL?
     - a) `mysqli_stmt_fetch()`
@@ -689,39 +632,17 @@ while ($row = mysqli_fetch_assoc($result)) {
     - c) `mysqli_stmt_execute()`
     - d) `mysqli_stmt_bind_param()`
 
-```php
-// Code for question 25
-// Fetch a row from a prepared statement result using mysqli_stmt_fetch()
-mysqli_stmt_fetch($stmt);
-```
-
 26. What is the purpose of the `mysqli_stmt_close()` function in PHP?
     - a) To close a prepared statement
     - b) To execute a SQL query
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
-
-```php
-// Code for question 26
-// Close a prepared statement using mysqli_stmt_close()
-mysqli_stmt_close($stmt);
-```
-
+    
 27. Which PHP function is used to handle errors when working with MySQL in PHP?
     - a) `mysqli_error()`
     - b) `mysqli_errno()`
     - c) `mysqli_connect_error()`
     - d) `mysqli_connect_errno()`
-
-```php
-// Code for question 27
-// Handle errors when working with MySQL using mysqli_error() and mysqli_errno()
-if (!$connection) {
-    $errorMessage = mysqli_error($connection);
-    $errorCode = mysqli_errno($connection);
-    echo "Connection error ($errorCode): $errorMessage";
-}
-```
 
 28. What is the purpose of the `mysqli_fetch_row()` function in PHP?
     - a) To fetch a row from a database result as an enumerated array
@@ -729,23 +650,11 @@ if (!$connection) {
     - c) To establish a connection to a MySQL database
     - d) To get the number of rows in a database result
 
-```php
-// Code for question 28
-// Fetch a row from a database result as an enumerated array using mysqli_fetch_row()
-$row = mysqli_fetch_row($result);
-```
-
 29. What is the purpose of the `mysqli_fetch_array()` function in PHP?
     - a) To fetch a row from a database result as an array (both associative and enumerated)
     - b) To execute a SQL query
     - c) To establish a connection to a MySQL database
     - d) To get the number of rows in a database result
-
-```php
-// Code for question 29
-// Fetch a row from a database result as an array using mysqli_fetch_array()
-$row = mysqli_fetch_array($result);
-```
 
 30. What is the purpose of the `mysqli_fetch_object()` function in PHP?
     - a) To fetch a row from a database result as an object
@@ -753,25 +662,11 @@ $row = mysqli_fetch_array($result);
     - c) To establish a connection to a MySQL database
     - d) To get the number of rows in a database result
 
-```php
-// Code for question 30
-// Fetch a row from a database result as an object using mysqli_fetch_object()
-$row = mysqli_fetch
-
-_object($result);
-```
-
 31. Which PHP function is used to retrieve the number of rows returned by a SELECT query in MySQL?
     - a) `mysqli_num_rows()`
     - b) `mysqli_query()`
     - c) `mysqli_fetch_assoc()`
     - d) `mysqli_connect()`
-
-```php
-// Code for question 31
-// Get the number of rows returned by a SELECT query using mysqli_num_rows()
-$numRows = mysqli_num_rows($result);
-```
 
 32. What is the purpose of the `mysqli_data_seek()` function in PHP?
     - a) To move the internal result pointer to a specified row number
@@ -779,23 +674,11 @@ $numRows = mysqli_num_rows($result);
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
 
-```php
-// Code for question 32
-// Move the internal result pointer to a specified row number using mysqli_data_seek()
-mysqli_data_seek($result, 3); // Move to the 4th row
-```
-
 33. What is the purpose of the `mysqli_field_count()` function in PHP?
     - a) To retrieve the number of fields in a result set
     - b) To execute a SQL query
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
-
-```php
-// Code for question 33
-// Retrieve the number of fields in a result set using mysqli_field_count()
-$fieldCount = mysqli_field_count($connection);
-```
 
 34. Which PHP function is used to retrieve the metadata of a field in a result set in MySQL?
     - a) `mysqli_fetch_field()`
@@ -803,23 +686,11 @@ $fieldCount = mysqli_field_count($connection);
     - c) `mysqli_num_rows()`
     - d) `mysqli_data_seek()`
 
-```php
-// Code for question 34
-// Retrieve the metadata of a field in a result set using mysqli_fetch_field()
-$field = mysqli_fetch_field($result);
-```
-
 35. What is the purpose of the `mysqli_free_result()` function in PHP?
     - a) To free the memory associated with a result set
     - b) To execute a SQL query
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
-
-```php
-// Code for question 35
-// Free the memory associated with a result set using mysqli_free_result()
-mysqli_free_result($result);
-```
 
 36. Which PHP function is used to retrieve the auto-generated ID of the last inserted row in MySQL?
     - a) `mysqli_insert_id()`
@@ -827,42 +698,17 @@ mysqli_free_result($result);
     - c) `mysqli_fetch_assoc()`
     - d) `mysqli_connect()`
 
-```php
-// Code for question 36
-// Retrieve the auto-generated ID of the last inserted row using mysqli_insert_id()
-$insertId = mysqli_insert_id($connection);
-```
-
 37. What is the purpose of the `mysqli_real_escape_string()` function in PHP when working with MySQL?
     - a) To escape special characters in a string to prevent SQL injection
     - b) To execute a SQL query
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
 
-```php
-// Code for question 37
-// Escape special characters in a string using mysqli_real_escape_string()
-$name = mysqli_real_escape_string($connection, "John O'Reilly");
-```
-
 38. How can you check if a MySQL query executed successfully in PHP?
     - a) By checking the return value of `mysqli_query()`
-    - b) By checking the return value of `mysqli_fetch_assoc
-
-()`
+    - b) By checking the return value of `mysqli_fetch_assoc()`
     - c) By checking the return value of `mysqli_connect()`
     - d) By checking the return value of `mysqli_num_rows()`
-
-```php
-// Code for question 38
-// Check if a MySQL query executed successfully by checking the return value of mysqli_query()
-$result = mysqli_query($connection, $query);
-if ($result) {
-    echo "Query executed successfully";
-} else {
-    echo "Query execution failed";
-}
-```
 
 39. What is the purpose of the `mysqli_num_rows()` function in PHP?
     - a) To retrieve the number of rows in a result set
@@ -870,23 +716,11 @@ if ($result) {
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
 
-```php
-// Code for question 39
-// Retrieve the number of rows in a result set using mysqli_num_rows()
-$numRows = mysqli_num_rows($result);
-```
-
 40. Which PHP function is used to retrieve the current row of a result set in MySQL?
     - a) `mysqli_fetch_row()`
     - b) `mysqli_fetch_array()`
     - c) `mysqli_fetch_object()`
     - d) `mysqli_fetch_assoc()`
-
-```php
-// Code for question 40
-// Retrieve the current row of a result set using mysqli_fetch_assoc()
-$row = mysqli_fetch_assoc($result);
-```
 
 41. What is the purpose of the `mysqli_fetch_field()` function in PHP when working with MySQL?
     - a) To retrieve the metadata of a field in a result set
@@ -894,23 +728,11 @@ $row = mysqli_fetch_assoc($result);
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
 
-```php
-// Code for question 41
-// Retrieve the metadata of a field in a result set using mysqli_fetch_field()
-$field = mysqli_fetch_field($result);
-```
-
 42. How can you retrieve the number of fields in a result set in PHP when working with MySQL?
     - a) Using `mysqli_field_count()`
     - b) Using `mysqli_num_rows()`
     - c) Using `mysqli_data_seek()`
     - d) Using `mysqli_fetch_field()`
-
-```php
-// Code for question 42
-// Retrieve the number of fields in a result set using mysqli_field_count()
-$fieldCount = mysqli_field_count($connection);
-```
 
 43. What is the purpose of the `mysqli_fetch_all()` function in PHP?
     - a) To fetch all rows from a result set as an array
@@ -918,37 +740,17 @@ $fieldCount = mysqli_field_count($connection);
     - c) To establish a connection to a MySQL database
     - d) To get the number of rows in a result set
 
-```php
-// Code for question 43
-// Fetch all rows from a result set as an array using mysqli_fetch_all()
-$rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
-```
-
 44. Which PHP function is used to retrieve the current field value from a result set in MySQL?
     - a) `mysqli_fetch_field()`
     - b) `mysqli_fetch_row()`
     - c) `mysqli_fetch_array()`
     - d) `mysqli_fetch_assoc()`
 
-```php
-// Code for question 44
-// Retrieve the current field value from a result set using mysqli_fetch_field()
-$fieldValue = $row['fieldname'];
-```
-
 45. What is the purpose of the `mysqli_store_result()` function in PHP?
     - a) To store the entire result set from a query in memory
     - b) To execute a SQL query
     - c) To establish a connection to a MySQL database
-    - d) To fetch
-
- rows from a database result
-
-```php
-// Code for question 45
-// Store the entire result set from a query in memory using mysqli_store_result()
-mysqli_store_result($connection);
-```
+    - d) To fetch rows from a database result
 
 46. How can you retrieve the number of affected rows by an INSERT, UPDATE, or DELETE query in PHP when working with MySQL?
     - a) Using `mysqli_affected_rows()`
@@ -956,24 +758,11 @@ mysqli_store_result($connection);
     - c) Using `mysqli_fetch_assoc()`
     - d) Using `mysqli_num_fields()`
 
-```php
-// Code for question 46
-// Retrieve the number of affected rows by an INSERT, UPDATE, or DELETE query using mysqli_affected_rows()
-$affectedRows = mysqli_affected_rows($connection);
-```
-
 47. What is the purpose of the `mysqli_multi_query()` function in PHP?
     - a) To execute multiple SQL queries in a single call
     - b) To execute a SQL query
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
-
-```php
-// Code for question 47
-// Execute multiple SQL queries in a single call using mysqli_multi_query()
-$query = "SELECT * FROM users; SELECT * FROM orders;";
-mysqli_multi_query($connection, $query);
-```
 
 48. How can you retrieve the result of a multi-query execution in PHP when working with MySQL?
     - a) Using `mysqli_use_result()`
@@ -981,41 +770,17 @@ mysqli_multi_query($connection, $query);
     - c) Using `mysqli_next_result()`
     - d) Using `mysqli_free_result()`
 
-```php
-// Code for question 48
-// Retrieve the result of a multi-query execution using mysqli_use_result() and mysqli_next_result()
-do {
-    $result = mysqli_use_result($connection);
-    // Process the result set
-} while (mysqli_next_result($connection));
-```
-
 49. What is the purpose of the `mysqli_use_result()` function in PHP when working with MySQL?
     - a) To retrieve the result set of a query incrementally
     - b) To execute a SQL query
     - c) To establish a connection to a MySQL database
     - d) To fetch rows from a database result
 
-```php
-// Code for question 49
-// Retrieve the result set of a query incrementally using mysqli_use_result()
-$result = mysqli_use_result($connection);
-while ($row = mysqli_fetch_assoc($result)) {
-    // Process each row
-}
-```
-
 50. Which PHP function is used to retrieve the next result from a multi-query execution in MySQL?
     - a) `mysqli_next_result()`
     - b) `mysqli_use_result()`
     - c) `mysqli_store_result()`
     - d) `mysqli_free_result()`
-
-```php
-// Code for question 50
-// Retrieve the next result from a multi-query execution using mysqli_next_result()
-mysqli_next_result($connection);
-```
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
