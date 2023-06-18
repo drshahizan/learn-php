@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 | :-----: | ----- | :------: | 
 | 1| Hypertext Markup Language |<a href="../materials/html/exercise.md" ><img src="../images/html.png" width="36px" height="36px" ></a> |
 | 2 | Cascading Style Sheets |<a href="../materials/css/exercise.md" ><img src="../images/css.png" width="36px" height="36px" ></a> |
-| 3 | JavaScript |<a href="../materials/javascript/exercise.md" ><img src="../images/javascript.png" width="36px" height="36px" ></a> |
+| 3 | JavaScript |<a href="../materials/javascript/exercise.md" ><img src="../images/javascript.svg" width="36px" height="36px" ></a> |
 | 4 | Bootstrap |<a href="../materials/bootstrap/exercise.md" ><img src="../images/bootstrap.png" width="24px" height="24px" ></a> |
 | 5 | Hypertext Preprocessor |<a href="../materials/php/exercise.md" ><img src="../images/php.png" width="36px" height="36px" ></a> |
 
