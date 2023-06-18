@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Student Portfolio</title>
+  
+  <!--
+Name:Siti Dzin Norsyafika Binti Mohd Isa
+Matrix No: SX220330ECJHS04
+Github id: dzinsyafika97
+
+Project 1: Personal Portfolio Website
+-->
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #d17777;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #f1f1f1;
+    }
+
+    .timeline {
+      position: relative;
+      margin-top: 20px;
+    }
+
+    .timeline:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 20px;
+      width: 2px;
+      height: 100%;
+      background-color: #ccc;
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-left: 40px;
+      margin-bottom: 20px;
+    }
+
+    .timeline-item:before {
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #d17777;
+    }
+
+    .timeline-content {
+      margin-left: 20px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #d17777;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .profile-pictures {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile-pictures img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Student Portfolio</h1>
+  </header>
+
+  <main>
+    <section id="introduction">
+      <h2>Introduction</h2>
+        <div class="profile-pictures">
+          <img src="pic1.jpeg" alt="Profile Picture 1">
+          <img src="pic2.jpeg" alt="Profile Picture 2">
+          <img src="pic3.jpeg" alt="Profile Picture 3">
+        </div>
+        <p>Hi, I'm John Doe, a passionate and motivated student pursuing a degree in Computer Science. I have a strong interest in web development and enjoy creating visually appealing and user-friendly websites.</p>
+        <a href="#contact" class="button">Contact Me</a>
+      </section>
+      
+      <p>Hi, I'm John Doe, a passionate and motivated student pursuing a degree in Computer Science. I have a strong interest in web development and enjoy creating visually appealing and user-friendly websites.</p>
+      <a href="#contact" class="button">Contact Me</a>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript
