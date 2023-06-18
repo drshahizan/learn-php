@@ -790,22 +790,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) `read_file("file.txt", "r");`
     - d) `file_open("file.txt", "r");`
 
-    ```php
-    $file = fopen("file.txt", "r");
-    ```
-
 32. What is the purpose of the `feof()` function in PHP?
     - a) To check if the end of a file has been reached.
     - b) To read the contents of a file.
     - c) To close a file.
     - d) To write data to a file.
-
-    ```php
-    $file = fopen("file.txt", "r");
-    while (!feof($file)) {
-        echo fgets($file);
-    }
-    ```
 
 33. What is the purpose of the `file_get_contents()` function in PHP?
     - a) To read the contents of a file into a string.
@@ -813,20 +802,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To check if a file exists.
     - d) To close a file.
 
-    ```php
-    $content = file_get_contents("file.txt");
-    ```
-
 34. What is the purpose of the `file_put_contents()` function in PHP?
     - a) To write data to a file.
     - b) To read the contents of a file into a string.
     - c) To check if a file exists.
     - d) To close a file.
-
-    ```php
-    $content = "Hello, World!";
-    file_put_contents("file.txt", $content);
-    ```
 
 35. What is the purpose of the `unlink()` function in PHP?
     - a) To delete a file.
@@ -834,19 +814,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To copy a file.
     - d) To move a file.
 
-    ```php
-    unlink("file.txt");
-    ```
-
 36. What is the purpose of the `mysqli_connect()` function in PHP?
     - a) To establish a connection to a MySQL database.
     - b) To execute a SQL query.
     - c) To fetch rows from a database result.
     - d) To close a database connection.
-
-    ```php
-    $connection = mysqli_connect("localhost", "username", "password", "database");
-    ```
 
 37. What is the purpose of the `mysqli_query()` function in PHP?
     - a) To execute a SQL query.
@@ -854,22 +826,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To fetch rows from a database result.
     - d) To close a database connection.
 
-    ```php
-    $query = "SELECT * FROM users";
-    $result = mysqli_query($connection, $query);
-    ```
-
 38. What is the purpose of the `mysqli_fetch_assoc()` function in PHP?
     - a) To fetch a row from a database result as an associative array.
     - b) To execute a SQL query.
     - c) To establish a connection to a MySQL database.
     - d) To close a database connection.
-
-    ```php
-    while ($row = mysqli_fetch_assoc($result)) {
-        echo $row["name"];
-    }
-    ```
 
 39. What is the purpose of the `mysqli_num_rows()` function in PHP?
     - a) To get the number of rows in a database result.
@@ -877,19 +838,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To establish a connection to a MySQL database.
     - d) To close a database connection.
 
-    ```php
-    $numRows = mysqli_num_rows($result);
-    ```
-
 40. What is the purpose of the `mysqli_close()` function in PHP?
     - a) To close a database connection.
     - b) To execute a SQL query.
     - c) To establish a connection to a MySQL database.
     - d) To fetch rows from a database result.
-
-    ```php
-    mysqli_close($connection);
-    ```
 
 41. What is the purpose of the `htmlspecialchars()` function in PHP?
     - a) To convert special characters to HTML entities.
@@ -897,25 +850,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To remove whitespace from the beginning and end of a string.
     - d) To concatenate two strings.
 
-    ```php
-    $input = "<script>alert('XSS');</script>";
-    $encoded = htmlspecialchars($input);
-    ```
-
 42. What is the purpose of the `filter_var()` function in PHP?
     - a) To validate and filter data.
     - b) To convert a string to uppercase.
     - c) To calculate the length of a string.
     - d) To check if a variable is empty.
-
-    ```php
-    $email = "example@example.com";
-    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Valid email";
-    } else {
-        echo "Invalid email";
-    }
-    ```
 
 43. What is the purpose of the `filter_input()` function in PHP?
     - a) To retrieve external variables and filter them.
@@ -923,20 +862,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To execute a SQL query.
     - d) To close a database connection.
 
-    ```php
-    $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
-    ```
-
 44. What is the purpose of the `password_hash()` function in PHP?
     - a) To hash a password using a specified algorithm.
     - b) To encrypt a password using a secret key.
     - c) To validate a password against a hashed value.
     - d) To generate a random password.
-
-    ```php
-    $password = "mypassword";
-    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-    ```
 
 45. What is the purpose of the `password_verify()` function in PHP?
     - a) To validate a password against a hashed value.
@@ -944,25 +874,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To encrypt a password using a secret key.
     - d) To generate a random password.
 
-    ```php
-    $password = "mypassword";
-    $hashedPassword =     "$2y$10$0Ttk0ANyEILvwus79FJHseB8emRdSbGQ/rMkw7cI37oh.V1myNpmm";
-    if (password_verify($password, $hashedPassword)) {
-        echo "Password is correct";
-    } else {
-        echo "Password is incorrect";
-    }
-    ```
-
 46. What is the purpose of the `session_start()` function in PHP?
     - a) To start a new session or resume an existing session.
     - b) To retrieve session variables.
     - c) To destroy a session.
     - d) To close a database connection.
-
-    ```php
-    session_start();
-    ```
 
 47. What is the purpose of the `$_COOKIE` superglobal in PHP?
     - a) To retrieve cookie values.
@@ -970,19 +886,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To access server information.
     - d) To manage file uploads.
 
-    ```php
-    $cookieValue = $_COOKIE["cookiename"];
-    ```
-
 48. What is the purpose of the `setcookie()` function in PHP?
     - a) To set a cookie.
     - b) To retrieve cookie values.
     - c) To store session variables.
     - d) To delete a cookie.
-
-    ```php
-    setcookie("cookiename", "cookievalue", time()+3600, "/");
-    ```
 
 49. What is the purpose of the `$_SERVER` superglobal in PHP?
     - a) To access server information.
@@ -990,20 +898,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To manage file uploads.
     - d) To retrieve cookie values.
 
-    ```php
-    $serverName = $_SERVER["SERVER_NAME"];
-    ```
-
 50. What is the purpose of the `$_POST` superglobal in PHP?
     - a) To retrieve form data submitted with the POST method.
     - b) To retrieve form data submitted with the GET method.
     - c) To manage file uploads.
     - d) To access server information.
-
-    ```php
-    $username = $_POST["username"];
-    ```
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
