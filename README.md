@@ -92,7 +92,7 @@ Diagrams are visual representations of information or data that help convey comp
 | 4 | PHP Fundamentals | <a href="./materials/notes/n4.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n4q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
 | 5 | PHP: MySQL and CRUD | <a href="./materials/notes/n5.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n5q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
 | 6 | PHP: Form, Session & Cookies | <a href="./materials/notes/n6.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n6q.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
-| 7 | Soalan lepas | <a href="./materials/notes/contoh/readme.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/contoh/readme.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
+| 7 | Final Exam | <a href="./materials/notes/contoh/readme.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/contoh/readme.md"><img src="./images/question.svg" width="24px" height="24px"></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
