@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 Please answer the following 50 multiple-choice questions to test your knowledge in JavaScript fundamentals. You must place your answer file in the submission folder. Within the [`../submission/Q7/q3`](../submission/Q7/q3) folder, create a folder called your `github_id`. 
 
-| Q | Topic |  MCQ | Submission
+| Q | Topic |  Stucture | Submission
 | :-----: | ----- | :------: | :------:|
 | 3 | Java Script | <a href="Q3.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> | <a href="../submission/Q7/q3"><img src="../../../images/folder_info.png" width="24px" height="24px"></a> |
 | 4 | PHP | <a href="Q4.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> | <a href="../submission/Q7/q4"><img src="../../../images/folder_info.png" width="24px" height="24px"></a> |
