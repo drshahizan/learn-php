@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-vB4gF7ev5FWtPXoVQ6fWjbLj3aVU9SB6zPRY8X7Pfpyebt4N91Wc9ryTIvsx1TtqTl/t8p25scH0A/WlkQ9V3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Student Portfolio</title>
+
+    <!--
+Name:Siti Dzin Norsyafika Binti Mohd Isa
+Matrix No: SX220330ECJHS04
+Github id: dzinsyafika97
+
+Project 1: Personal Portfolio Website
+-->
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #dc90eb;
+        padding: 20px;
+        text-align: center;
+        color: white;
+      }
+
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      section {
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+      }
+
+      form {
+        margin-top: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #d17777;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .profile-pictures {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .profile-pictures img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      button[type="submit"] {
+        background-color: #dc90eb;
+        color: white;
+      }
+
+      .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dc90eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>My Student Portfolio</h1>
+    </header>
+
+    <main>
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <div class="profile-pictures">
+          <img src="pic1.jpeg" alt="Profile Picture 1" />
+          <img src="pic2.jpeg" alt="Profile Picture 2" />
+          <img src="pic3.jpeg" alt="Profile Picture 3" />
+        </div>
+        <p>
+          Hi, I'm Siti Dzin Norsyafika Binti Mohd Isa, a passionate and
+          motivated student pursuing a degree in Software Engineering at
+          Universiti Teknologi Malaysia (UTM) SPACE, KL.
+        </p>
+        <img src="UTMKL.jpg" alt="Logo UTM" width="250px" height="250px" />
+        <p>
+          My long-term career plan is to work for a web development company
+          based in Japan or working in customer service industry for Japan
+          market.
+        </p>
+        <img
+          src="workjapan.jpg"
+          alt="Work in Japan"
+          width="250px"
+          height="250px"
+        />
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>PHP</li>
+          <li>Java</li>
+          <li>JSP</li>
+          <li>JavaBeans</li>
+          <li>C++</li>
+          <li>Japanese Language Proficiency Test, JLPT N5 Certified</li>
+        </ul>
+      </section>
+
+      <section id="workingexperience">
+        <h2>Working Experience</h2>
+        <ul>
+          <li><b>Linkeffect Sdn Bhd (June 2022 - Present)</b></li>
+          <p>
+            <i><u>Customer Support Executive</u></i>
+          </p>
+          <p>
+            Provide solutions to customers while also taking part in UAT system
+            testing before new features are rolled out into LIVE environment.
+          </p>
+
+          <li><b>Conduent (May 2021 - Dec 2021)</b></li>
+          <p>
+            <i><u>Customer Experience Associate</u></i>
+          </p>
+          <p>
+            Provide support via inbound and outbound calls & emails for ANZ
+            Mercedes Benz vehicle users.
+          </p>
+
+          <li><b>SOCAR Mobility Sdn Bhd (Aug 2020 - Mar 2021)</b></li>
+          <p>
+            <i><u>Customer Service Representative</u></i>
+          </p>
+          <p>Provide support via livechats & outbound calls for SOCAR users.</p>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <section id="contactplatforms">
+        <h2>Or reach me thru these platforms!</h2>
+        <a href="https://github.com/dzinsyafika97" target="_blank" class="contact-button"><i class="fab fa-github"></i> GitHub</a>
+
+        <a href="https://www.linkedin.com/in/siti-dzin-norsyafika-binti-mohd-isa-97154b183/" target="_blank" class="contact-button"><i class="fab fa-linkedin"></i> Linkedin</a>
+        
+        <a href="mailto:sp-siti.dzin.norsyafika@graduate.utm.my" class="contact-button"><i class="far fa-envelope"></i> GMail</a>
+       </section>
+    
+    </main>
+    <br/><br/>
+
+    <footer class="footer">
+      <p style="text-align: center;">
+        &copy;<small>2023 My Student Portfolio | Siti Dzin Norsyafika Binti Mohd Isa</small></p>
+      
+    </footer>
+  </body>
+</html>
