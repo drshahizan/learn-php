@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Portfolio</title>
+    <style>
+      body {
+        background: linear-gradient(rgb(56, 58, 58), transparent),
+          linear-gradient(-45deg, rgb(201, 193, 201), transparent),
+          linear-gradient(45deg, rgb(255, 255, 247), transparent);
+        background-blend-mode: multiply;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      h1,
+      h2 {
+        color: rgb(247, 247, 255);
+      }
+
+      img {
+        border-radius: 3%;
+        border: 10px solid;
+        border-block-color: rgb(221, 43, 43);
+      }
+      .white {
+        color: rgb(209, 223, 22);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Introduction Section -->
+    <section>
+      <h1>ABOUT ME</h1>
+      <img src="My-pic.jpeg" alt="My Profile Picture" width="200" height="380" />
+      <p>
+        Good Day Everyone! My name is
+        <i class="white">Sashila Sre A/P Ramadass </i> and I'm a
+        <i class="white">Technical Assistant Enigneer</i>.
+         Well, i am a person who like to gain more knowledge of programmings. 
+        
+      </p>
+      <p> 
+        Check out my <a href="#skills">skills</a> and
+        <a href="#experience">experience</a> below, or
+        <a href="#contact">contact me</a> directly.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li> 
+        <li>JavaScript</li>
+        <li>PHP</li>
+      </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>Intern As a Electronic Engineer (2022)</li>
+        <li>Admin at Pusat Tuisyen Ilmu Sinar Rawang (2022-2023)</li>
+        <li>Technical Assistant Egineer at Allied Hori Sdn Bhd (2022 - now)</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input
+          style="background: lightgray; margin-left: 23px"
+          type="text"
+          id="name"
+          name="name"
+        /><br /><br />
+
+        <label style="background: none" for="email">Email:</label>
+        <input
+          style="background: lightgray; margin-left: 24px"
+          type="email"
+          id="email"
+          name="email"
+        /><br /><br />
+
+        <label for="message">Message:</label>
+        <textarea
+          style="background: lightgray"
+          id="message"
+          name="message"
+        ></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit" style="background: rgb(255, 252, 252)" />
+
+        <img
+          src="coding-animated.gif"
+          style="
+            border: none;
+            float: right;
+            margin-right: 10%;
+            margin-top: -59%;
+            width: 700px;
+            height: 300px;
+            opacity: 0.3;
+          "
+          alt=""
+        />
+      </form>
+    </section>
+  </body>
+</html>
 
