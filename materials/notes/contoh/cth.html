@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    ;
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Online Survey</h3>
+    You are being invited to participate in the following survey. You <br />have
+    the right t withdraw from the research study at any time.
+    <form onsubmit="Check_Form()">
+      <table>
+        <tr>
+          <td>Phone Number:</td>
+          <td>
+            <input
+              type="text"
+              id="phone"
+              pattern="\+601[0-9]{3}-[0-9]{4}-[0-9]{4}"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="text" id="email" /></td>
+        </tr>
+        <tr>
+          <td>Birthdate:</td>
+          <td><input type="date" id="birthdate" name="birthdate" /><br /></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" id="agree_box" /></td>
+          <td>I agree with the terms and conditions</td>
+        </tr>
+        <tr>
+          <td><input type="submit" /></td>
+        </tr>
+      </table>
+    </form>
+    <script>
+      function Check_Form() {
+        var phone = document.getElementById("phone").value;
+        if (!phone.match(/^\+601[0-9]{3}-[0-9]{4}-[0-9]{4}$/)) {
+          alert(
+            "Please enter a valid phone number in the format +601x-xxxx xxxx"
+          );
+          return false;
+        }
+        return true;
+      }
+    </script>
+  </body>
+</html>
