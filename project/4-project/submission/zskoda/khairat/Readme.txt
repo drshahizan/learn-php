@@ -7,14 +7,14 @@ Database Configuration
 Open phpmyadmin
 Create Database khairat
 Import database khairat.sql (available inside zip package)
-Open Your browser put inside browser http://localhost/tourism
+Open Your browser put inside browser http://localhost/khairat
 
 Login Details for admin : 
-Open Your browser put inside browser http://localhost/tourism/admin/index.php
+Open Your browser put inside browser http://localhost/khairat/admin/index.php
 Username : admin
 Password : Test@123
 
 Login Details for user: 
-Open Your browser put inside browser http://localhost/tourism/
+Open Your browser put inside browser http://localhost/khairat/
 Username : hafiz@gmail.com
 Password : Test@123
