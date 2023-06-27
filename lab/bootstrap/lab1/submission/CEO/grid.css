@@ -1,0 +1,9 @@
+body {
+  padding: 2rem;
+}
+
+#animals div{
+  padding: 1rem;
+  background-color: rgba(0,0,0,.15);
+  border: 1px solid rgba(0,0,0,.2);
+}

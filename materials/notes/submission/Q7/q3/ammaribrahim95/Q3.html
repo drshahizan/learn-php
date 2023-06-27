@@ -1,0 +1,56 @@
+<! DOCTYPE html>
+<html>
+<head>
+ <script>
+ function Check_Form() 
+ {
+      var phoneRegex = /^\+601\d{1}-\d{4} \d{4}$/; // Phone number pattern: +601x-xxxx xxxx
+      var emailRegex = /^[\w.%+-]+@utm\.my$/; // Email pattern: Ends with @utm.my
+      var birthdateInput = document.getElementById('birthdate');
+      var birthdate = new Date(birthdateInput.value);
+      var agreementCheckbox = document.getElementById('agree_box');
+
+      if (!phoneRegex.test(document.getElementById('phone').value)) {
+        alert('Invalid phone number format! Please enter a phone number in the format +601x-xxxx xxxx.');
+        return false;
+      }
+
+      if (!emailRegex.test(document.getElementById('email').value)) {
+        alert('Invalid email format! Please enter an email ending with @utm.my.');
+        return false;
+      }
+
+      if (birthdate >= new Date('2000-01-01')) {
+        alert('Invalid birthdate! Please enter a date of birth before 1 Jan 2000.');
+        return false;
+      }
+
+      if (!agreementCheckbox.checked) {
+        alert('You must agree to the terms and conditions to proceed.');
+        return false;
+      }
+
+      // Form is valid, proceed with submission or further processing
+      return true;
+    }
+
+ </script>
+
+</head>
+<body>
+ <h3> Online Survey</h3>
+ You are being invited to participate in the following survey. You <br>have the right 
+to withdraw from the research study at any time.
+<form onsubmit="Check_Form()">
+<Table>
+<tr><td>Phone Number:</td> <td> <input type='text' id='phone' /></td> </tr>
+ <tr><td>Email: </td> <td><input type='text' id='email' /></td></tr>
+<tr><td>Birthdate: </td> <td><input type="date" id="birthdate" name="birthdate"><br 
+/></td></tr>
+ <tr><td><input type="checkbox" id="agree_box"></td> <td>I agree with the terms and 
+conditions</td></tr>
+<tr><td><input type='submit'/></td></tr>
+ </Table>
+</form>
+ </body>
+</html>
