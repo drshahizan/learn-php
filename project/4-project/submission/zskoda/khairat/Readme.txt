@@ -18,3 +18,12 @@ Login Details for user:
 Open Your browser put inside browser http://localhost/khairat/
 Username : hafiz@gmail.com
 Password : Test@123
+
+Name:Mohd Noor Hafiz Bin Muhamad Said
+Matrix No: SX180238CSRS04
+Github id: mohdnoorhafiz
+
+Name:Ikhmal Syazreel Bin Azizan
+Matrix No: SX180144CSRS04
+Github id: syazreel28
+Project 3: Web Responsive using Bootstrap
