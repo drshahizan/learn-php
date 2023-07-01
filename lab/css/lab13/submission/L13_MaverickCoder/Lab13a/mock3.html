@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+Lab 13a: Mock3
+Group:
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+-->
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 140px 80px;
+  gap: 50px 20px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 3;
+  background-color: rgba(9, 117, 48, 0.9);
+  grid-row: 1;
+  height: 50px;
+}
+
+.item2,
+.item3,
+.item4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.item2 img,
+.item3 img,
+.item4 img {
+  height: auto;
+  object-fit: cover;
+}
+
+.item2 {
+  grid-column: 1 / span 1;
+  grid-row: 2;
+}
+
+.item3 {
+  grid-column: 2 / span 1;
+  grid-row: 2;
+}
+
+.item4 {
+  grid-column: 3 / span 1;
+  grid-row: 2;
+}
+
+.item5 {
+  grid-column: 1 / span 1;
+  background-color: rgba(246, 157, 15, 0.8);
+  grid-row: 3;
+  height: 160px;
+}
+
+.item6 {
+  grid-column: 2 / span 1;
+  background-color: rgba(200, 20, 20, 0.8);
+  grid-row: 3;
+  height: 160px;
+}
+
+.item7 {
+  grid-column: 3 / span 1;
+  background-color: rgba(13, 36, 107, 0.8);
+  grid-row: 3;
+  height: 160px;
+}
+</style>
+</head>
+<body>
+
+<h1>Mock 3</h1>
+
+<div class="grid-container">
+  <div class="item1"></div>
+  <div class="item2">
+    <img src="tree.jpg" alt="Pic1">
+  </div>
+  <div class="item3">
+    <img src="tree.jpg" alt="Pic2">
+  </div>
+  <div class="item4">
+    <img src="tree.jpg" alt="Pic3">
+  </div>
+  <div class="item5"></div>
+  <div class="item6"></div>
+  <div class="item7"></div>
+</div>
+
+
+</body>
+</html>
