@@ -3,7 +3,7 @@
 ## Activity 🏆 :
 
 ### How to create this website?
-Step 1: Set Up the Project
+> Step 1: Set Up the Project
 
 Create a new folder for the project.
 Save the provided HTML code in a file named "index.html".
@@ -11,21 +11,21 @@ Create a new folder named "images" and save the necessary images in it.
 Save the provided CSS code in a file named "style.css" and place it in the same folder as the HTML file.
 Create a new JavaScript file named "script.js" and place it in the same folder as the HTML file.
 
-Step 2: Link External Resources
+> Step 2: Link External Resources
 
 The website uses Font Awesome icons, so you need to include the Font Awesome CSS library by adding the provided link in the head section of "index.html".
 Make sure the necessary images are in the "images" folder and referenced correctly in the HTML file.
 
-Step 3: Customize the Content
+> Step 3: Customize the Content
 
 Replace the sample text in each section (Home, About, Skills, Services, Contact) with your own content, including text, images, and icons.
 Customize the navigation links and the "href" attributes to point to the corresponding sections in the HTML file.
 
-Step 4: Styling
+> Step 4: Styling
 
 Customize the styles in the "style.css" file to match your desired appearance. Adjust colors, fonts, spacing, and layout as needed.
 
-Step 5: JavaScript Functionality
+> Step 5: JavaScript Functionality
 
 Customize the JavaScript code in "script.js" to add any interactivity or dynamic behavior required for your website. For example, you can implement smooth scrolling when clicking on navigation links.
 
