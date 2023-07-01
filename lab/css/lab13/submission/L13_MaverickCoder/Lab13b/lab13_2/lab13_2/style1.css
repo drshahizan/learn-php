@@ -7,3 +7,61 @@ Group:
 4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
 */
 
+/* base colors */
+
+header {
+    background-color: #f94144;
+  }
+  
+  nav {
+    background-color: #f3722c;
+  }
+  
+  aside {
+   float: right;
+   padding: 20px;
+   width: 70%;
+   background-color: #f9c74f;
+  }
+  
+  section {
+    float: left;
+    content: "";
+    background-color: #90be6d;
+  }
+  
+  section article {
+    background-color: #4d908e;
+  }
+  
+  footer {
+    color: white;
+    background-color: #264653;
+  }
+  
+  /* base block layout */
+  
+  body {
+    width: 60em;
+    margin: 0 auto;
+  }
+  
+  body > * {
+    padding: 1em;
+  }
+  
+  main {
+    padding: 0;
+  }
+  
+  main > * {
+    padding: 1em;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  main section article {
+    padding: 1em; margin: 1em;
+  }
