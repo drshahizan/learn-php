@@ -8,15 +8,14 @@ header {
   
   aside {
     float: right;
-    width: 30%;
+    width: 28%;
     background-color: #f9c74f;
   }
   
   section {
-    display: block;
-    width: 70%;
+    width: 69%;
     background-color: #90be6d;
-    float: left; /* Add this line */
+    float: left;
   }
   
   section article {
