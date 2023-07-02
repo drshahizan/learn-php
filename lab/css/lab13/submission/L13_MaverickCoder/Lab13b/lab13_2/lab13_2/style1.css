@@ -1,63 +1,67 @@
 header {
-    background-color: #f94144;
-  }
-  
-  nav {
-    background-color: #f3722c;
-  }
-  
-  aside {
-    float: right;
-    width: 28%;
-    background-color: #f9c74f;
-  }
-  
-  section {
-    width: 69%;
-    background-color: #90be6d;
-    float: left;
-  }
-  
-  section article {
-    background-color: #4d908e;
-  }
-  
-  footer {
-    color: white;
-    background-color: #264653;
-    position: bottom;
-  }
-  
-  /* base block layout */
-  
-  body {
-    width: 60em;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  body > * {
-    padding: 1em;
-  }
-  
-  main {
-    padding: 0;
-    flex: 1;
-  }
-  
-  main > * {
-    padding: 1em;
-  }
-  
-  h1,
-  h2 {
-    margin: 0;
-  }
-  
-  main section article {
-    padding: 1em;
-    margin: 1em;
-  }
-  
+  background-color: #f94144;
+}
+
+nav {
+  background-color: #f3722c;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  background-color: #f9c74f;
+  padding: 1em;
+}
+
+section {
+  background-color: #90be6d;
+}
+
+section article {
+  background-color: #4d908e;
+}
+
+footer {
+  color: white;
+  background-color: #264653;
+  position: bottom;
+}
+
+/* base block layout */
+
+body {
+  width: 60em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body > * {
+  padding: 1em;
+}
+
+main {
+  padding: 0;
+  width: 70%;
+  float: left;
+}
+
+main > * {
+  padding: 1em;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+main section article {
+  padding: 1em;
+  margin: 1em;
+}
+
+.container {
+  display: flex;
+  padding: 0;
+}
