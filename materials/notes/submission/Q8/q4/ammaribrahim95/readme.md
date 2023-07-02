@@ -36,9 +36,9 @@ Answer all the structured questions. The marks for each part of the question is 
 </script>
 ```
 
-**(b) Betty wants to display the total from her calcTotal( ) function in her form named results in a text box name and id called finalAmount. Assume that the variable Total is declare to keep the temporary value for total amount of five items before display it to the text box. Create a JavaScript command line to display the total amount in a text box.
+**(b) Betty wants to display the total from her calcTotal( ) function in her form named results in a text box name and id called finalAmount. Assume that the variable Total is declare to keep the temporary value for total amount of five items before display it to the text box. Create a JavaScript command line to display the total amount in a text box.**
 
-var Total = price1 + price2 + price3 + price4 + price5;**
+**var Total = price1 + price2 + price3 + price4 + price5;**
 ```js
 <!-- Assuming the text box has an id attribute with value "finalAmount" -->
 <input type="text" id="finalAmount" name="finalAmount" readonly>
