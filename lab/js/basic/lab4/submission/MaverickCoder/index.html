@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Compute Average Marks that gives a cumulative Grads</title>
+  <title>Compute Average Marks and its Mark Classification</title>
   <script>
     // Function to compute the average marks
     function computeAverageMarks(marks) {
@@ -57,8 +57,8 @@
       const grade = determineGrade(averageMarks);
 
       // Display the average marks and grade
-      document.getElementById('averageMarks').textContent = `Average Marks: ${averageMarks}`;
-      document.getElementById('grade').textContent = `Grade: ${grade}`;
+      document.getElementById('averageMarks').textContent = `Average Mark from all students' grades: ${averageMarks}`;
+      document.getElementById('grade').textContent = `Grade based on the Average Mark above: ${grade}`;
     }
   </script>
 </head>
