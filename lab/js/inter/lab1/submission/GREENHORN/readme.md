@@ -2,7 +2,7 @@
 
 ## Activity 🏆 :
 
-### How to create this website?
+### 1. How to create this website?
 > Step 1: Set Up the Project
 
 Create a new folder for the project.
@@ -29,20 +29,20 @@ Customize the styles in the "style.css" file to match your desired appearance. A
 
 Customize the JavaScript code in "script.js" to add any interactivity or dynamic behavior required for your website. For example, you can implement smooth scrolling when clicking on navigation links.
 
-### Would you be able to complete it if you were given the task of creating a website like this?
+### 2. Would you be able to complete it if you were given the task of creating a website like this?
 As a computer science student, your ability to complete this task largely depends on your level of knowledge and experience in web development. If you have already learned HTML, CSS, and basic JavaScript as part of your coursework or through self-study, you should have a good foundation to work on creating a website like this.
 
 The provided code for the website appears to be a simple and straightforward template with a responsive design. If you are familiar with HTML structure, CSS styling, and basic JavaScript concepts, you should be able to understand the code and make the necessary customizations to create a similar website with your own content.
 
 If you are unsure about certain parts of the code or have specific questions, you can always refer to web development resources, tutorials, or seek help from your professors or peers to gain a deeper understanding and successfully complete the task. As a computer science student, building projects like this can be a valuable learning experience and an opportunity to apply the knowledge you've gained during your studies.
 
-### What steps are needed to create this website?
+### 3. What steps are needed to create this website?
 The steps needed to create this website are outlined in the previous answer. In summary, you need to set up the project with the provided HTML, CSS, and JavaScript files, link external resources like Font Awesome, customize the content and styling, and implement any necessary JavaScript functionality.
 
-### Which part is difficult to understand and produce?
+### 4. Which part is difficult to understand and produce?
 The provided code seems relatively straightforward, especially if you have some knowledge of HTML, CSS, and JavaScript. However, some parts might be challenging for those with limited experience in web development, such as understanding how to customize the layout, styling, and adding more advanced functionality beyond what's provided in the template.
 
-### Provide an overall summary of the website's creation.
+### 5. Provide an overall summary of the website's creation.
 Overall, the website's creation involves creating a multi-section portfolio website with responsive design. It includes sections like Home, About, Skills, Services, and Contact. The website uses Font Awesome icons and has a navigation menu with smooth scrolling to each section. It features a responsive layout, making it suitable for various screen sizes. Creating this website requires some proficiency in HTML, CSS, and basic JavaScript, but it's achievable with practice and by following web development tutorials.
 
 
