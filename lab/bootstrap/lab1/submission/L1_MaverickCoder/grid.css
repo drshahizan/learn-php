@@ -1,0 +1,27 @@
+body {
+  padding: 2rem;
+}
+
+#animals div {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  min-height: 200px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-img-top {
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border: 2px solid #dee2e6;
+    border-radius: 10px;
+}
