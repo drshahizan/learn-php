@@ -1,0 +1,68 @@
+/* -----------------------------------------------------------------------------
+
+# About Styles
+
+----------------------------------------------------------------------------- */
+a.video-play-btn {
+  position: absolute;
+  background-color: $primary-color;
+  color: $text-color;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 92px;
+  border-radius: 50%;
+  font-size: 20px;
+  padding-left: 5px;
+  display: block;
+  z-index: 2;
+  top: 50%;
+  margin-top: -45px;
+  box-shadow: 0 0 20px #adadad;
+  left: 50%;
+  margin-left: -45px;
+}
+
+.abt-bg {
+  background-image: url(../img/abt.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+  &:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: $text-color;
+    opacity: 0.3;
+  }
+}
+
+.abt-section .abt-text {
+  padding: 50px;
+  padding-left: 30px;
+}
+
+.abt-text p {
+  &.top-sub {
+    opacity: 0.8;
+    margin-bottom: 10px;
+  }
+
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
