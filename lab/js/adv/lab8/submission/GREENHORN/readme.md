@@ -3,17 +3,17 @@
 > Activity 🏆 :
 > - Provide weather information for the cities of Longyearbyen and Novosibirsk.
 
-<img src=".image/Longyearbyen_LocationOFF.png" width="400" />
+<img src="./image/Longyearbyen_LocationOFF.png" width="400" />
 
 **Figure 1** : Longyearbyen Location OFF.
 
-<img src=".image/Novosibirsk_LocationOFF.png" width="400" />
+<img src="./image/Novosibirsk_LocationOFF.png" width="400" />
 
-**Figure 1** : Novosibirsk Location OFF.
+**Figure 2** : Novosibirsk Location OFF.
 
-<img src=".image/Longyearbyen&Novosibirsk_LocationON.png" width="400" />
+<img src="./image/Longyearbyen&Novosibirsk_LocationON.png" width="400" />
 
-**Figure 1** : Longyearbyen & Novosibirsk Location ON.
+**Figure 3** : Longyearbyen & Novosibirsk Location ON.
 
 
 > - Demonstrate how to use device location.
