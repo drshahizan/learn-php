@@ -1,0 +1,105 @@
+// Font family
+
+@mixin font-fam-sans {
+	font-family: $opensans-font;
+	font-weight: 400;
+}
+@mixin font-fam-sans-l {
+	font-family: $opensans-font;
+	font-weight: 300;
+}
+@mixin font-fam-sans-b {
+	font-family: $opensans-font;
+	font-weight: 700;
+}
+
+@mixin font-fam-pop {
+	font-family: $poppins-font;
+	font-weight: 400;
+}
+@mixin font-fam-pop-b {
+	font-family: $poppins-font;
+	font-weight: 700;
+}
+
+// Font sizes
+
+@mixin font-size-base {
+	font-size: 1rem;
+	letter-spacing: 0.1px;
+	line-height: 1.8;
+}
+
+// Anchor
+@mixin anchor{
+	@include transition(all, 0.2s, ease-in-out);
+
+	&:hover {
+		color: $primary-color;
+		text-decoration: none;
+	}
+}
+
+// Hover State
+@mixin boxed-btn-hvr {
+	background-color: #051922;
+    color: #F28123;
+	color: $white-color;
+	background-color: darken($primary-color, $darken);
+}
+@mixin bordered-btn-hvr {
+	color: $white-color;
+	background-color: darken($primary-color, $darken);
+}
+
+// Rounded corners
+
+@mixin rounded($radius: 5rem) {
+	border-radius: $radius;
+}
+
+// Shadows
+
+@mixin shadow($x: 5px, $y: 10px, $blur: 10px, $color: rgba(0, 0, 0, 0.1)) {
+	box-shadow: $x $y $blur $color;
+}
+
+@mixin shadow-none {
+	box-shadow: none;
+}
+
+// transition
+
+@mixin transition($property: all, $duration: .3s, $ease: ease-in-out) {
+	transition: $property $duration $ease;
+}
+
+// Media queries {based on bootstrap 4}
+
+$breakpoints: (
+		"mobile" : 575.98px,
+		"tablet" : 767.98px,
+		"desktop" : 991.98px,
+		"desktop-l" : 1199.98px,
+);
+
+@mixin mq-up($width, $type: min) {
+	@if map_has_key($breakpoints, $width) {
+		$width: map_get($breakpoints, $width);
+		@media only screen and (#{$type}-width: $width) {
+			@content;
+		}
+	}
+}
+
+@mixin mq-down($width, $type: max) {
+	@if map_has_key($breakpoints, $width) {
+		$width: map_get($breakpoints, $width);
+		@if $type == max {
+			$width: $width - 0.02px;
+		}
+		@media only screen and (#{$type}-width: $width) {
+			@content;
+		}
+	}
+}
