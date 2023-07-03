@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swap Case</title>
+  <!--
+Lab 9: Swap Case
+Group: MaverickCoder
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+-->
+  <script>
+    function swapCase(str) {
+      var swapped = "";
+      
+      for (var i = 0; i < str.length; i++) {
+        var char = str.charAt(i);
+        
+        if (char === char.toUpperCase()) {
+          swapped += char.toLowerCase();
+        } else {
+          swapped += char.toUpperCase();
+        }
+      }
+      
+      return swapped;
+    }
+    
+    function runSwapCase() {
+      var input = document.getElementById("inputText").value;
+      var output = swapCase(input);
+      document.getElementById("outputDiv").textContent = output;
+    }
+  </script>
+</head>
+<body>
+  <h1>Swap Case</h1>
+  <label for="inputText">Enter a string:</label>
+  <input type="text" id="inputText">
+  <button onclick="runSwapCase()">Swap Case</button>
+  <div id="outputDiv"></div>
+</body>
+</html>
