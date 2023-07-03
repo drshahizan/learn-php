@@ -7,7 +7,7 @@
 - Database dump file in db folder.
 - Update database configuration in config/database.php
 
-  ```html
+  ```php
   // Database configuration
   $host = 'localhost';
   $username = 'root';
