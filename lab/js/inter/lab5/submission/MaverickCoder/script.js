@@ -6,3 +6,4 @@ modeToggle.addEventListener('click', function () {
   // Toggle the 'dark' class on the body element
   document.body.classList.toggle('dark');
 });
+

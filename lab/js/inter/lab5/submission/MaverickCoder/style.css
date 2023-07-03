@@ -54,7 +54,7 @@ body.dark{
     border-radius: 12px;
     transition: all 0.3s ease;
 }
-
+   
 ::-webkit-scrollbar-thumb:hover {
     background: #0b3cc1;
 }
