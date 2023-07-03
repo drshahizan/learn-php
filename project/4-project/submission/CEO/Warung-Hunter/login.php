@@ -11,13 +11,10 @@ if (isset($_SESSION['user_id'])) {
 
 // Handle login form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-
-    var_dump(isset($_SESSION['user_id']));
-
-
-
     $username = $_POST['username'];
+    $username = htmlspecialchars($$_POST['username']);
     $password = $_POST['password'];
+    $password = htmlspecialchars($$_POST['password']);
 
     // Retrieve user from the database
     $sql = "SELECT * FROM users WHERE username = '$username'";
@@ -27,7 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $row = mysqli_fetch_assoc($result);
         if (password_verify($password, $row['password'])) {
             mysqli_close($conn);
-
 
             $_SESSION['user_id'] = $row['id'];
             $_SESSION['username'] = $row['username'];
