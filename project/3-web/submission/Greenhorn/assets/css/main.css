@@ -1495,20 +1495,27 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
+   
   width: 100%;
   background-size: cover;
   background-position: center;
   position: relative;
   min-height: 60vh;
-  padding: 180px 0 80px 0;
+  padding: 220px 0 80px 0;
   
+}
+
+.hero-2{
+  background-image: url(../img/Hero/Peranakan-tiles.png);
+
+
 }
 
 .hero h2 {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-family: var(--font-primary);
 }
 
