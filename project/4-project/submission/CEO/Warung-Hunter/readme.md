@@ -7,10 +7,10 @@ Group: CEO
 - Database dump file in db folder.
 - Update database configuration in config/database.php
 
-  ` // Database configuration
-$host = 'localhost';
-$username = 'root';
-$password = '';
+  ` // Database configuration \
+$host = 'localhost'; \
+$username = 'root'; \
+$password = ''; \
 $database = 'warung_hunter';`
 
 **Pages**
