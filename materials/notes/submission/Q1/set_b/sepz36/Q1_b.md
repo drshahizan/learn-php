@@ -10,56 +10,56 @@ Don't forget to hit the :star: if you like this repo.
 # JavaScript: Fundamental
 
 ## Set B
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
-31.
-32.
-33.
-34.
-35.
-36.
-37.
-38.
-39.
-40.
-41.
-42.
-43.
-44.
-45.
-46.
-47.
-48.
-49.
-50.
+1) d 
+2) c 
+3) c 
+4) a 
+5) c 
+6) b 
+7) c 
+8) b 
+9) a 
+10) c
+11) a 
+12) d 
+13) b 
+15) a 
+16) a
+17) b
+18) a 
+19) a 
+20) a 
+21) a 
+22) a 
+23) b 
+24) c 
+25) a 
+26) b 
+27) a 
+28) a 
+29) b 
+30) b 
+31) a 
+32) b 
+33) a 
+34) a 
+35) c 
+36) c 
+37) b 
+38) d 
+39) a 
+40) b 
+41) a 
+42) a 
+43) a 
+44) a 
+45) a 
+46) b
+47) a
+48) a 
+49) b
+50) b
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
