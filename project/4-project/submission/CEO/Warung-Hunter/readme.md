@@ -1,7 +1,22 @@
-Group: CEO
+**Group: CEO**
 
-**Instruction**
+**Members**
 
-Index Page: /
-Login Page: /login.php
-Register Page: /register.php
+**Setup and Configuration**
+
+- Database dump file in db folder.
+- Update database configuration in config/database.php
+
+  ```php
+  // Database configuration
+  $host = 'localhost';
+  $username = 'root';
+  $password = '';
+  $database = 'warung_hunter';
+  ```
+
+**Pages**
+
+- Index Page: /
+- Login Page: /login.php
+- Register Page: /register.php

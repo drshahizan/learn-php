@@ -70,6 +70,7 @@ if (isset($_SESSION['username'])) {
                                 echo "<a href='register.php' class='order_online'> Register </a>";
                             } else {
                                 echo "<a href='#' class='order_online'> Hi, " . $username . " </a>";
+                                echo "<a href='logout.php' class='order_online'> Logout </a>";
                             }
                             ?>
 
