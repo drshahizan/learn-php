@@ -279,3 +279,12 @@ nav .navbar a {
   box-shadow: 0 0 0 2px var(--white), 0 0 0 4px var(--dark-nav-main);
 }
 
+.home-content h3 span {
+  color: var(--nav-main);
+}
+
+/* Update the color of the text in dark mode */
+:root[data-theme="dark"] .home-content h3 span {
+  color: var(--white);
+}
+
