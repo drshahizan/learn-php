@@ -1,0 +1,104 @@
+/*---------------------
+  Wishlist
+-----------------------*/
+.wishlist__cart__table {
+  
+    table {
+      width: 100%;
+  
+      thead {
+        border-bottom: 1px solid #f2f2f2;
+        
+        tr {
+          
+          th {
+            color: $heading-color;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding-bottom: 25px;
+          }
+        }
+      }
+  
+      tbody {
+  
+        tr {
+          border-bottom: 1px solid #f2f2f2;
+
+          &:last-child {
+              border-bottom: none;
+
+              td {
+                  padding-bottom: 0;
+              }
+          }
+  
+          td {
+            padding-bottom: 30px;
+            padding-top: 30px;
+  
+            &.product__cart__item {
+              width: 540px;
+  
+              .product__cart__item__pic {
+                float: left;
+                margin-right: 30px;
+              }
+  
+              .product__cart__item__text {
+                overflow: hidden;
+                padding-top: 35px;
+  
+                h6 {
+                  color: $heading-color;
+                  font-size: 16px;
+                  font-weight: 600;
+                  text-transform: uppercase;
+                  margin-bottom: 10px;
+                }
+              }
+            }
+  
+            &.cart__price {
+              color: $heading-color;
+              font-size: 16px;
+              font-weight: 600;
+              width: 180px;
+            }
+
+            &.cart__stock {
+                font-size: 16px;
+                color: #444444;
+                width: 150px;
+            }
+
+            &.cart__btn {
+                width: 190px;
+
+                .primary-btn {
+                    background: $heading-color;
+                    color: $white-color;
+                }
+            }
+  
+            &.cart__close {
+                text-align: right;
+  
+              span {
+                font-size: 18px;
+                display: inline-block;
+                color: $heading-color;
+                height: 40px;
+                width: 40px;
+                background: #f2f2f2;
+                border-radius: 50%;
+                line-height: 38px;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

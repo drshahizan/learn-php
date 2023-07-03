@@ -1,0 +1,170 @@
+/*---------------------
+  Shop
+-----------------------*/
+.shop {
+  padding-top: 80px;
+}
+
+.shop__option {
+  margin-bottom: 50px;
+}
+
+.shop__option__search {
+
+  form {
+    border: 1px solid #e1e1e1;
+    height: 46px;
+    position: relative;
+
+    .nice-select {
+      float: left;
+      border: none;
+      background: transparent;
+      display: inline-block;
+      width: 25%;
+      height: 44px;
+      line-height: 44px;
+      padding-left: 30px;
+      border-radius: 0;
+
+      .list {
+        margin-top: 0;
+        border-radius: 0;
+        width: 100%;
+      }
+
+      &:before {
+        position: absolute;
+        right: 0;
+        top: 12px;
+        width: 1px;
+        height: 20px;
+        background: #e1e1e1;
+        content: "";
+      }
+
+      &:after {
+        border-bottom: 1px solid #888;
+        border-right: 1px solid #888;
+        height: 7px;
+        margin-top: -5px;
+        width: 7px;
+        right: 26px;
+    }
+
+      span {
+        font-size: 16px;
+        color: $black-color;
+      }
+    }
+
+    input {
+      width: 75%;
+      height: 100%;
+      border: none;
+      font-size: 16px;
+      color: $black-color;
+      padding-left: 30px;
+
+      &::placeholder {
+        color: $black-color;
+      }
+    }
+
+    button {
+      color: $black-color;
+      font-size: 16px;
+      font-weight: 700;
+      position: absolute;
+      right: 0;
+      top: 0;
+      border: none;
+      background: transparent;
+      height: 100%;
+      padding: 0 15px;
+    }
+  }
+}
+
+.shop__option__right {
+  text-align: right;
+
+  .nice-select {
+    border: none;
+    background: #f5f5f5;
+    display: inline-block;
+    width: 205px;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 30px;
+    border-radius: 0;
+    float: none;
+    margin-right: 18px;
+
+    .list {
+      margin-top: 0;
+      border-radius: 0;
+      width: 100%;
+    }
+
+    &:after {
+      border-bottom: 1px solid #888;
+      border-right: 1px solid #888;
+      height: 7px;
+      margin-top: -5px;
+      width: 7px;
+      right: 26px;
+  }
+
+    span {
+      font-size: 16px;
+      color: $black-color;
+    }
+  }
+
+  a {
+    display: inline-block;
+    font-size: 18px;
+    color: $black-color;
+    margin-left: 8px;
+    @include transition(all, .3s);
+
+    &:hover {
+      color: #888888;
+    }
+  }
+}
+
+.shop__pagination {
+
+  a {
+    display: inline-block;
+    color: $black-color;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    @include transition(all, .5s);
+
+    span {
+      font-size: 18px;
+      font-weight: 600;
+      position: relative;
+      top: 2px;
+    }
+
+    &:hover {
+      background: $black-color;
+      color: $white-color;
+    }
+  }
+}
+
+.shop__last__text {
+  margin-bottom: 0;
+  color: $black-color;
+  text-align: right;
+}
