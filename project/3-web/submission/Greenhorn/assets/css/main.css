@@ -1515,7 +1515,7 @@ section {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-primary);
+  color: var(--color-secondary);
   font-family: var(--font-primary);
 }
 
@@ -1538,13 +1538,13 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #ce7312;
+  background: var(--color-primary);
 
 }
 
 .hero .btn-book-a-table:hover {
-  background: #ce7312;
-  box-shadow: 0 2px 10px #8b4f0e;
+  background: var(--color-primary);
+  box-shadow: 0 2px 10px var(--color-secondary);
 }
 
 .hero .btn-watch-video {
@@ -1568,7 +1568,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: ;
+  color: #ce7312;
 }
 
 @media (max-width: 640px) {
