@@ -1,4 +1,4 @@
-Group: CEO
+**Group: CEO**
 
 **Members**
 
