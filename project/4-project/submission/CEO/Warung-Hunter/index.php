@@ -51,17 +51,9 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="menu.html">Menu</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="book.html">Book Table</a>
-                            </li>
+
                         </ul>
                         <div class="user_option">
                             <a href="" class="user_link">
@@ -111,7 +103,7 @@
                                     <i class="fa fa-search" aria-hidden="true"></i>
                                 </button>
                             </form>
-                            <a href="" class="order_online"> Order Online </a>
+                            <a href="login.php" class="order_online"> Login </a>
                         </div>
                     </div>
                 </nav>
