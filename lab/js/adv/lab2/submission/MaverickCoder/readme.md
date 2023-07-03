@@ -1,7 +1,7 @@
 # Lab 2: A Notes App
 
 <!--
-            Lab 15: Layout 1
+            JavaScript adv: Lab 2
             Group:
             1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
             2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
