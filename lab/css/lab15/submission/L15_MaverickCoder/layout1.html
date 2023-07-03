@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--
+
+<head>
+  <!--
   Lab 15: Layout 1
   Group:
   1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
@@ -9,52 +10,73 @@
   3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
   4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: ashurarin
   -->
-    <title>HTML Layout with CSS</title>
-    <style>
-      body {
-        margin: 0;
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-        min-height: 50vh;
-      }
+  <title>HTML Layout with CSS</title>
+  <style>
+    body {
+      margin: 0;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-height: 80vh;
+      width: 80%;
+      margin: auto;
+    }
 
-      header {
-        color: black;
-        background-color: yellow;
-        padding: 20px;
-      }
+    header,
+    footer {
+      color: black;
+      background-color: #ffd802;
+      padding: 20px;
+    }
 
-      .content {
-        display: flex;
-        grid-template-columns: auto 1fr auto;
-        padding: 20px;
-        margin: 10px;
-        background-color: yellow;
-      }
+    .content {
+      display: flex;
+      grid-template-columns: auto 1fr auto;
+      background-color: #ffd802;
+      margin: 0;
+      padding: 0;
+    }
 
-      .nav, .article, .ads {
-        flex: 1;
-        grid-template-columns: auto 1fr auto;
-        grid-gap: 20px;
-        margin: 10px;
-        background-color: yellow;
-      }
+    .nav {
+      float: left;
+      width: 15%;
+      background-color: #ffd802;
+      border-top: 10px solid white;
+      border-right: 10px solid white;
+      border-bottom: 10px solid white;
+      padding: 20px;
+    }
 
-      footer {
-        color: black;
-        background-color: yellow;
-        padding: 20px;
-      }
-    </style>
-  </head>
+    .article {
+      float: left;
+      width: 70%;
+      background-color: #ffd802;
+      border-top: 10px solid white;
+      border-right: 10px solid white;
+      border-bottom: 10px solid white;
+      padding: 20px;
 
-  <body>
-    <header>Header</header>
-    <div class="content">
-      <div class="nav">Nav</div>
-      <div class="article">Article</div>
-      <div class="ads">Ads</div>
-    </div>
-    <footer>Footer</footer>
-  </body>
+    }
+
+    .ads {
+      float: left;
+      width: 15%;
+      background-color: #ffd802;
+      border-top: 10px solid white;
+      border-bottom: 10px solid white;
+      padding: 20px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <header>Header</header>
+  <div class="content">
+    <div class="nav">Nav</div>
+    <div class="article">Article</div>
+    <div class="ads">Ads</div>
+  </div>
+  <footer>Footer</footer>
+</body>
+
 </html>
