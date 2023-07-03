@@ -570,7 +570,11 @@ section {
 # About Section
 --------------------------------------------------------------*/
 .about .about-img {
-  min-height: 500px;
+
+  min-weight: 500px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+
 }
 
 .about h3 {
@@ -581,6 +585,7 @@ section {
 }
 
 .about .call-us {
+  display: none;
   left: 10%;
   right: 10%;
   bottom: 10%;
