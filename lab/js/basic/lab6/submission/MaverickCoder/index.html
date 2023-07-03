@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Sorting</title>
+  <script>
+    function sortNumbers() {
+      // Get user input as an array of numbers
+      var numbers = document.getElementById("inputNumbers").value.split(",").map(Number);
+
+      // Sort the numbers in ascending order
+      numbers.sort(function(a, b) {
+        return a - b;
+      });
+
+      // Display the sorted numbers
+      document.getElementById("sortedNumbers").textContent = "Sorted numbers: " + numbers;
+    }
+  </script>
+</head>
+<body>
+  <h1>Number Sorting</h1>
+  <label for="inputNumbers">Enter numbers separated by commas:</label>
+  <input type="text" id="inputNumbers">
+  <button onclick="sortNumbers()">Sort</button>
+  <p id="sortedNumbers"></p>
+</body>
+</html>
