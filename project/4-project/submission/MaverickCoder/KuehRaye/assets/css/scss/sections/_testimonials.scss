@@ -1,0 +1,44 @@
+/* -----------------------------------------------------------------------------
+
+# Testimonial Styles
+
+----------------------------------------------------------------------------- */
+.client-avater {
+  margin-bottom: 20px;
+}
+
+.client-meta h3 {
+  font-size: 20px;
+  font-weight: 600;
+
+  span {
+    display: block;
+    font-size: 70%;
+    margin-top: 10px;
+    color: $text-color;
+    font-weight: 600;
+    opacity: 0.5;
+  }
+}
+
+p.testimonial-body {
+  font-size: 17px;
+  font-style: italic;
+  width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: $text-color-light;
+  margin-top: 20px;
+}
+
+.last-icon {
+  margin-top: 20px;
+  font-size: 25px;
+  opacity: 0.3;
+}
+
+.client-avater img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}

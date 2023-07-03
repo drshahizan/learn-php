@@ -1,0 +1,38 @@
+/* -----------------------------------------------------------------------------
+
+# Shop Banner Styles
+
+----------------------------------------------------------------------------- */
+.shop-banner {
+  position: relative;
+  background-color: #f5f5f5;
+  background-image: url(../img/1.jpg);
+  background-size: contain;
+  padding: 100px 0px 115px;
+  max-width: 100%;
+
+  h3 {
+    position: relative;
+    font-size: 50px;
+    line-height: 1.2em;
+    margin-bottom: 0px;
+  }
+
+  .sale-percent {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: $primary-color;
+
+    span {
+      position: relative;
+      font-size: 24px;
+      line-height: 1.1em;
+      color: $text-color;
+      font-weight: 400;
+      text-align: center;
+      margin-right: 10px;
+      display: inline-block;
+    }
+  }
+}
