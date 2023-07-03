@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+Lab 4 Javascript Basic
+Group: MaverickCoder
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+-->
+  <title>Compute Average Marks and its Mark Classification</title>
+</head>
+  <script>
+    // Function to compute the average marks
+    function computeAverageMarks(marks) {
+      let sum = 0;
+
+      // Calculate the sum of marks
+      for (let i = 0; i < marks.length; i++) {
+        sum += marks[i];
+      }
+
+      // Calculate the average
+      const average = sum / marks.length;
+
+      return average;
+    }
+
+    // Function to determine the grade based on average marks
+    function determineGrade(average) {
+      if (average < 60) {
+        return 'F';
+      } else if (average < 70) {
+        return 'D';
+      } else if (average < 80) {
+        return 'C';
+      } else if (average < 90) {
+        return 'B';
+      } else {
+        return 'A';
+      }
+    }
+
+    // Function to handle form submission
+    function handleSubmit(event) {
+      event.preventDefault();
+
+      const numStudents = parseInt(document.getElementById('numStudents').value);
+      const students = [];
+      const marks = [];
+
+      // Get student names and marks from the form inputs
+      for (let i = 1; i <= numStudents; i++) {
+        const name = document.getElementById(`name${i}`).value;
+        const mark = parseInt(document.getElementById(`mark${i}`).value);
+
+        students.push(name);
+        marks.push(mark);
+      }
+
+      // Compute the average marks
+      const averageMarks = computeAverageMarks(marks);
+
+      // Determine the grade
+      const grade = determineGrade(averageMarks);
+
+      // Display the average marks and grade
+      document.getElementById('averageMarks').textContent = `Average Mark from all students' grades: ${averageMarks}`;
+      document.getElementById('grade').textContent = `Grade based on the Average Mark above: ${grade}`;
+    }
+  </script>
+
+<body>
+  <h1>Compute Average Marks and Grades</h1>
+  <form id="studentForm" onsubmit="handleSubmit(event)">
+    <label for="numStudents">Number of Students:</label>
+    <input type="number" id="numStudents" required><br><br>
+
+    <div id="studentInputs"></div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="result">
+    <p id="averageMarks"></p>
+    <p id="grade"></p>
+  </div>
+
+  <script>
+    // Function to dynamically create student name and mark inputs based on the number of students
+    function createStudentInputs(numStudents) {
+      const studentInputsDiv = document.getElementById('studentInputs');
+      studentInputsDiv.innerHTML = '';
+
+      for (let i = 1; i <= numStudents; i++) {
+        const nameInput = document.createElement('input');
+        nameInput.type = 'text';
+        nameInput.id = `name${i}`;
+        nameInput.placeholder = `Enter the name of student ${i}`;
+        nameInput.required = true;
+
+        const markInput = document.createElement('input');
+        markInput.type = 'number';
+        markInput.id = `mark${i}`;
+        markInput.placeholder = `Enter the marks of student ${i}`;
+        markInput.required = true;
+
+        studentInputsDiv.appendChild(nameInput);
+        studentInputsDiv.appendChild(markInput);
+        studentInputsDiv.appendChild(document.createElement('br'));
+        studentInputsDiv.appendChild(document.createElement('br'));
+      }
+    }
+
+    // Event listener to update student inputs when the number of students is changed
+    document.getElementById('numStudents').addEventListener('input', function () {
+      const numStudents = parseInt(this.value);
+      createStudentInputs(numStudents);
+    });
+  </script>
+</body>
+</html>

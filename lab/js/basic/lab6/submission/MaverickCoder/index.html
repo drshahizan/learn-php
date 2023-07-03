@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Sortin using Conditional Statement</title>
+  <!--
+Lab 6: Conditonal Statement NUmber Sorting
+Group:
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+-->
+  <script>
+    function sortNumbers() {
+      // Get user input as an array of numbers
+      var numbers = document.getElementById("inputNumbers").value.split(",").map(Number);
+
+      // Sort the numbers in descending order using conditional statement
+      numbers.sort(function(a, b) {
+        if (a > b) {
+          return -1;
+        } else if (a < b) {
+          return 1;
+        } else {
+          return 0;
+        }
+      });
+
+      // Display the sorted numbers
+      document.getElementById("sortedNumbers").textContent = "Sorted numbers: " + numbers;
+    }
+  </script>
+</head>
+<body>
+  <h1>Number Sorting</h1>
+  <label for="inputNumbers">Enter numbers separated by commas:</label>
+  <input type="text" id="inputNumbers">
+  <button onclick="sortNumbers()">Sort</button>
+  <p id="sortedNumbers"></p>
+</body>
+</html>
