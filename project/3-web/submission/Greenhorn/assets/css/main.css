@@ -575,6 +575,7 @@ section {
   background-repeat: no-repeat;
   object-fit: cover;
 
+
 }
 
 .about h3 {
@@ -606,6 +607,7 @@ section {
   font-size: 28px;
   font-weight: 700;
   color: var(--color-primary);
+  
 }
 
 .about .content ul {
@@ -729,7 +731,7 @@ section {
 }
 
 .why-us .why-box .more-btn {
-  display: inline-block;
+  display: none;
   background: rgba(255, 255, 255, 0.3);
   padding: 6px 30px 8px 30px;
   color: #fff;
@@ -792,9 +794,9 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background-image.jpg") center center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 @media (min-width: 1365px) {

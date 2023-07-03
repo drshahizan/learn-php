@@ -712,7 +712,7 @@ if (isset($_SESSION['username'])) {
 
     <!-- about section -->
 
-    <section class="about_section layout_padding">
+    <!-- <section class="about_section layout_padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -738,7 +738,7 @@ if (isset($_SESSION['username'])) {
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- end about section -->
 
@@ -748,7 +748,7 @@ if (isset($_SESSION['username'])) {
     <footer class="footer_section">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 footer-col">
+                <div class="col-md-6 footer-col">
                     <div class="footer_contact">
                         <h4>Contact Us</h4>
                         <div class="contact_link_box">
@@ -767,7 +767,7 @@ if (isset($_SESSION['username'])) {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 footer-col">
+                <div class="col-md-6 footer-col">
                     <div class="footer_detail">
                         <a href="" class="footer-logo"> Warung Hunter </a>
                         <p>
@@ -793,11 +793,11 @@ if (isset($_SESSION['username'])) {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 footer-col">
+                <!-- <div class="col-md-4 footer-col">
                     <h4>Opening Hours</h4>
                     <p>Everyday</p>
                     <p>10.00 Am -10.00 Pm</p>
-                </div>
+                </div> -->
             </div>
             <div class="footer-info">
                 <p>
