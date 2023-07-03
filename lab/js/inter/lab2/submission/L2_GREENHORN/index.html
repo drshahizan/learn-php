@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!------
+  Group:
+1. Name: AMMAR IBRAHIM BIN MOHAMED, Matrix No: SX220326ECJH, Github ID: ammaribrahim95
+2. Name: SHANMUGADHARSHINI A/P MURALI Matrix No: SX201656ECRHF04, Github ID: Shan9821
+3. Name: LOGESWARY A/P KRISHNAMOORTHY, Matrix No: SX211705ECRHF04, Github ID: Logeswary98
+4. Name: ADAM SHAH BIN MOHD FAIZAL, Matrix No: SX190401CSJS04 , Github ID: adamshahmf
+-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>JDT Product Card </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Function to update the colors and jersey image based on the selected color radio button
+        function updateJersey(color, image) {
+          $('.colour-value span').removeClass('active');
+          $(color).addClass('active');
+
+          $('html, body').css('background', $(color).data('color'));
+          $('.container').css('background-color', $(color).data('color'));
+          $('.price').css('color', $(color).data('color'));
+          $('.btns button').css('background-color', $(color).data('color'));
+          $('.size-value span').css('color', $(color).data('color'));
+          $('.size-value span.active').css('background-color', $(color).data('color'));
+          $('.size-value span.active').css('color', 'white');
+
+          $('.image img').attr('src', image);
+        }
+
+        // Event listeners for color radio buttons
+        $('.white').on('click', function() {
+          updateJersey('.white', 'away-men-front.jpeg');
+        });
+
+        $('.blue').on('click', function() {
+          updateJersey('.blue', 'home-men-front.jpeg');
+        });
+
+        $('.yellow').on('click', function() {
+          updateJersey('.yellow', 'away-2020-front.jpeg');
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="home-men-front.jpeg"  alt="">
+      </div>
+      <div class="card-content">
+        <div class="wrapper">
+          <div class="title">Jersey JDT</div>
+          <p>Home kit jersey</p>
+          <span class="price">RM299.00</span>
+          <div class="content size">
+            <div class="name size-name">Size</div>
+            <div class="size-value">
+              <span class="color">XS</span>
+              <span class="color">S</span>
+              <span class="active">M</span>
+              <span class="color">L</span>
+              <span class="color">XL</span>
+            </div>
+          </div>
+          <div class="content colour">
+            <div class="name colour-name">Colour</div>
+            <div class="colour-value">
+              <span class="white" data-color="lightgrey" data-img="away-men-front.jpeg"></span>
+              <span class="blue active" data-color="#456ABD" data-img="home-men-front.jpeg"></span>
+              <span class="yellow" data-color="#EAA523" data-img="away-2020-front.jpeg"></span>
+            </div>
+          </div>
+          <div class="btns">
+            <button>Buy now</button>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

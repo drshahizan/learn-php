@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiplication and Division</title>
+<!--
+Lab 7: Multiply and Divide
+Group: MaverickCoder
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+-->
+  <script>
+    function multiply() {
+      // Get user input from textboxes
+      var num1 = Number(document.getElementById("num1").value);
+      var num2 = Number(document.getElementById("num2").value);
+
+      // Perform multiplication
+      var result = num1 * num2;
+
+      // Display the result
+      document.getElementById("output").textContent = "Result: " + result;
+    }
+
+    function divide() {
+      // Get user input from textboxes
+      var num1 = Number(document.getElementById("num1").value);
+      var num2 = Number(document.getElementById("num2").value);
+
+      // Perform division
+      var result = num1 / num2;
+
+      // Display the result
+      document.getElementById("output").textContent = "Result: " + result;
+    }
+  </script>
+</head>
+<body>
+  <h1>Multiplication and Division</h1>
+  <label for="num1">Number 1:</label>
+  <input type="text" id="num1"><br>
+  <label for="num2">Number 2:</label>
+  <input type="text" id="num2"><br>
+  <button onclick="multiply()">Multiply</button>
+  <button onclick="divide()">Divide</button>
+  <p id="output"></p>
+</body>
+</html>

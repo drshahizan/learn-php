@@ -3,7 +3,7 @@
 <a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
 <a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Flearn-php&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
 Don't forget to hit the :star: if you like this repo.
 
@@ -323,23 +323,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
    - c) `$_REQUEST`
    - d) `$_SERVER`
 
-    ```php
-    // Code for question 1
-    $value = $_POST['fieldname'];
-    ```
-
 2. How can you check if a form has been submitted in PHP?
    - a) By checking if `$_POST` or `$_GET` is not empty
    - b) By checking if `$_SERVER['REQUEST_METHOD']` is equal to 'POST'
    - c) By checking if `$_REQUEST` contains form data
    - d) By checking if `$_COOKIE` is set
-
-    ```php
-    // Code for question 2
-    if (!empty($_POST)) {
-    // Form submitted
-    }
-    ```
 
 3. Which function is used to start a session in PHP?
    - a) `session_start()`
@@ -347,21 +335,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
    - c) `session_init()`
    - d) `session_begin()`
 
-    ```php
-    // Code for question 3
-    session_start();
-    ```
-
 4. How can you set a session variable in PHP?
    - a) By assigning a value to `$_SESSION['variable']`
    - b) By using the `set_session()` function
    - c) By using the `session_set()` function
    - d) By assigning a value to `$_COOKIE['variable']`
-
-    ```php
-    // Code for question 4
-    $_SESSION['variable'] = $value;
-    ```
 
 5. What is the purpose of the `session_destroy()` function in PHP?
    - a) To destroy all session data
@@ -369,21 +347,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
    - c) To close the session and write session data
    - d) To regenerate the session ID
 
-    ```php
-    // Code for question 5
-    session_destroy();
-    ```
-
 6. How can you retrieve the value of a session variable in PHP?
    - a) By accessing `$_SESSION['variable']`
    - b) By using the `get_session()` function
    - c) By accessing `$_COOKIE['variable']`
    - d) By using the `retrieve_session()` function
-
-    ```php
-    // Code for question 6
-    $value = $_SESSION['variable'];
-    ```
 
 7. Which function is used to set a cookie in PHP?
    - a) `setcookie()`
@@ -391,21 +359,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
    - c) `store_cookie()`
    - d) `cookie_set()`
 
-    ```php
-    // Code for question 7
-    setcookie('cookieName', 'cookieValue', time() + 3600);
-    ```
-
 8. How can you retrieve the value of a cookie in PHP?
    - a) By accessing `$_COOKIE['cookieName']`
    - b) By using the `get_cookie()` function
    - c) By accessing `$_SESSION['cookieName']`
    - d) By using the `retrieve_cookie()` function
-
-    ```php
-    // Code for question 8
-    $value = $_COOKIE['cookieName'];
-    ```
 
 9. How can you delete a cookie in PHP?
    - a) By setting the cookie with an empty value and an expired timestamp
@@ -413,21 +371,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
    - c) By accessing `$_COOKIE['cookieName']` and assigning it a null value
    - d) By using the `unset_cookie()` function
 
-    ```php
-    // Code for question 9
-    set cookie('cookieName', '', time() - 3600);
-    ```
-
 10. What is the purpose of the `htmlspecialchars()` function in PHP when working with form input?
     - a) To convert special characters to HTML entities
     - b) To validate form input against a specified pattern
     - c) To sanitize form input and prevent SQL injection
     - d) To encode form input in Base64 format
-
-    ```php
-    // Code for question 10
-    $encodedValue = htmlspecialchars($value);
-    ```
 
 11. Which PHP function is used to check if a session variable is set?
     - a) `isset()`
@@ -435,23 +383,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) `session_isset()`
     - d) `session_exists()`
 
-    ```php
-    // Code for question 11
-    if (isset($_SESSION['variable'])) {
-        // Session variable is set
-    }
-    ```
-
 12. How can you prevent cross-site scripting (XSS) attacks when displaying user input on a webpage?
     - a) By using `htmlspecialchars()` to encode the output
     - b) By using `strip_tags()` to remove HTML tags
     - c) By using `preg_match()` to validate the input
     - d) By using `urlencode()` to encode the output
-
-    ```php
-    // Code for question 12
-    echo htmlspecialchars($userInput);
-    ```
 
 13. Which PHP function is used to check if a cookie is set?
     - a) `isset()`
@@ -459,23 +395,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) `cookie_isset()`
     - d) `cookie_exists()`
 
-    ```php
-    // Code for question 13
-    if (isset($_COOKIE['cookieName'])) {
-        // Cookie is set
-    }
-    ```
-
 14. How can you restrict the lifetime of a cookie in PHP?
     - a) By setting the cookie with an expiration timestamp in the future
     - b) By setting the cookie with an expiration timestamp in the past
     - c) By using the `setcookie_lifetime()` function
     - d) By using the `cookie_set_lifetime()` function
-
-    ```php
-    // Code for question 14
-    setcookie('cookieName', 'cookieValue', time() + 3600);
-    ```
 
 15. What is the purpose of the `session_regenerate_id()` function in PHP?
     - a) To regenerate the session ID to prevent session fixation attacks
@@ -483,21 +407,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) To destroy the current session and start a new one
     - d) To update the session data with a new ID
 
-    ```php
-    // Code for question 15
-    session_regenerate_id();
-    ```
-
 16. How can you store an array in a session variable in PHP?
     - a) By assigning the array to `$_SESSION['variable']`
     - b) By using the `serialize()` function before assigning the array
     - c) By using the `json_encode()` function before assigning the array
     - d) By converting the array to a string using `implode()` before assigning it
-
-    ```php
-    // Code for question 16
-    $_SESSION['variable'] = $array;
-    ```
 
 17. Which PHP function is used to check if a form input field is empty?
     - a) `empty()`
@@ -505,25 +419,11 @@ Please answer the following 50 multiple-choice questions to test your knowledge 
     - c) `is_null()`
     - d) `is_empty()`
 
-```php
-// Code for question 17
-if (empty($_POST['fieldname'])) {
-    // Field is empty
-}
-```
-
 18. How can you retrieve the value of a selected option from a dropdown menu in PHP?
-    - a) By accessing `$_POST['
-
-fieldname']`
+    - a) By accessing `$_POST['fieldname']`
     - b) By using the `get_option()` function
     - c) By accessing `$_REQUEST['fieldname']`
     - d) By using the `retrieve_option()` function
-
-```php
-// Code for question 18
-$selectedOption = $_POST['fieldname'];
-```
 
 19. What is the purpose of the `session_write_close()` function in PHP?
     - a) To close the session and write session data
@@ -531,21 +431,11 @@ $selectedOption = $_POST['fieldname'];
     - c) To start a new session
     - d) To regenerate the session ID
 
-```php
-// Code for question 19
-session_write_close();
-```
-
 20. How can you prevent session fixation attacks in PHP?
     - a) By regenerating the session ID after successful login
     - b) By using HTTPS for secure session communication
     - c) By validating session data against a predefined pattern
     - d) By encrypting session data using a secret key
-
-```php
-// Code for question 20
-session_regenerate_id(true);
-```
 
 21. Which PHP function is used to retrieve the current session ID?
     - a) `session_id()`
@@ -553,21 +443,11 @@ session_regenerate_id(true);
     - c) `session_current_id()`
     - d) `session_retrieve_id()`
 
-```php
-// Code for question 21
-$sessionId = session_id();
-```
-
 22. How can you destroy a specific session variable in PHP?
     - a) By using the `unset()` function on `$_SESSION['variable']`
     - b) By using the `destroy_session_variable()` function
     - c) By setting `$_SESSION['variable']` to null
     - d) By using the `remove_session_variable()` function
-
-```php
-// Code for question 22
-unset($_SESSION['variable']);
-```
 
 23. What is the purpose of the `session_unset()` function in PHP?
     - a) To remove all session variables
@@ -575,21 +455,11 @@ unset($_SESSION['variable']);
     - c) To close the session and write session data
     - d) To regenerate the session ID
 
-```php
-// Code for question 23
-session_unset();
-```
-
 24. How can you set a cookie with an expiration date in the past to delete it in PHP?
     - a) By setting the cookie with an expiration timestamp in the past
     - b) By using the `delete_cookie()` function
     - c) By accessing `$_COOKIE['cookieName']` and assigning it a null value
     - d) By using the `unset_cookie()` function
-
-```php
-// Code for question 24
-setcookie('cookieName', '', time() - 3600);
-```
 
 25. What is the purpose of the `session_id()` function in PHP?
     - a) To retrieve the current session ID
@@ -597,36 +467,17 @@ setcookie('cookieName', '', time() - 3600);
     - c) To validate a session ID against a predefined pattern
     - d) To update the session data with a new ID
 
-```php
-// Code for question 25
-$sessionId = session_id();
-```
-
 26. How can you check if a session variable is empty in PHP?
     - a) By using `empty($_SESSION['variable'])`
     - b) By using `isset($_SESSION['variable'])`
     - c) By using `is_null($_SESSION['variable'])`
     - d) By using `$_SESSION['variable'] == ''`
 
-```php
-// Code for question 26
-if (empty($_SESSION['variable'])) {
-    // Session variable is empty
-}
-```
-
-27. Which PHP function is used to set
-
- a session timeout?
+27. Which PHP function is used to set a session timeout?
     - a) `session_set_timeout()`
     - b) `session_timeout()`
     - c) `set_session_timeout()`
     - d) `ini_set('session.gc_maxlifetime')`
-
-```php
-// Code for question 27
-ini_set('session.gc_maxlifetime', 3600);
-```
 
 28. How can you check if a cookie is empty in PHP?
     - a) By using `empty($_COOKIE['cookieName'])`
@@ -634,23 +485,11 @@ ini_set('session.gc_maxlifetime', 3600);
     - c) By using `is_null($_COOKIE['cookieName'])`
     - d) By using `$_COOKIE['cookieName'] == ''`
 
-```php
-// Code for question 28
-if (empty($_COOKIE['cookieName'])) {
-    // Cookie is empty
-}
-```
-
 29. What is the purpose of the `urlencode()` function in PHP?
     - a) To encode a string for safe use in a URL
     - b) To convert special characters to HTML entities
     - c) To sanitize form input and prevent SQL injection
     - d) To encrypt a string using a secret key
-
-```php
-// Code for question 29
-$encodedString = urlencode($string);
-```
 
 30. How can you retrieve the number of items in a session array in PHP?
     - a) By using the `count()` function on `$_SESSION['array']`
@@ -658,23 +497,11 @@ $encodedString = urlencode($string);
     - c) By accessing `$_SESSION['array']['length']`
     - d) By using the `get_array_length()` function
 
-```php
-// Code for question 30
-$length = count($_SESSION['array']);
-```
-
 31. Which PHP function is used to check if a session is active?
     - a) `session_is_active()`
     - b) `session_status()`
     - c) `session_active()`
     - d) `session_check()`
-
-```php
-// Code for question 31
-if (session_status() === PHP_SESSION_ACTIVE) {
-    // Session is active
-}
-```
 
 32. How can you check if a checkbox is checked in PHP?
     - a) By using `isset($_POST['checkboxName'])`
@@ -682,23 +509,11 @@ if (session_status() === PHP_SESSION_ACTIVE) {
     - c) By using `$_POST['checkboxName'] == 'checked'`
     - d) By using `is_null($_POST['checkboxName'])`
 
-```php
-// Code for question 32
-if (isset($_POST['checkboxName'])) {
-    // Checkbox is checked
-}
-```
-
 33. What is the purpose of the `session_commit()` function in PHP?
     - a) To close the session and write session data
     - b) To destroy all session data
     - c) To start a new session
     - d) To regenerate the session ID
-
-```php
-// Code for question 33
-session_commit();
-```
 
 34. How can you store multiple values in a single cookie in PHP?
     - a) By serializing an array and assigning it to the cookie value
@@ -706,26 +521,11 @@ session_commit();
     - c) By concatenating the values and assigning them to the cookie value
     - d) By using the `set_cookie_array()` function
 
-```php
-// Code for question 34
-$cookieValue = serialize($array);
-setcookie('cookieName', $cookieValue, time() + 3600);
-```
-
 35. Which PHP function is used to check if a session has been started?
-    - a
-
-) `session_is_started()`
+    - a) `session_is_started()`
     - b) `session_status()`
     - c) `session_started()`
     - d) `session_check_started()`
-
-```php
-// Code for question 35
-if (session_status() === PHP_SESSION_NONE) {
-    // Session has not been started
-}
-```
 
 36. How can you prevent session hijacking in PHP?
     - a) By using a secure session ID generated with a secret key
@@ -733,29 +533,11 @@ if (session_status() === PHP_SESSION_NONE) {
     - c) By validating session data against a predefined pattern
     - d) By using CSRF tokens for form submissions
 
-```php
-// Code for question 36
-// Implementing a secure session ID generation mechanism
-function generateSecureSessionID()
-{
-    $sessionID = bin2hex(random_bytes(16));
-    $secureSessionID = hash_hmac('sha256', $sessionID, 'your_secret_key');
-    return $secureSessionID;
-}
-```
-
 37. How can you check if a session is empty in PHP?
     - a) By using `empty($_SESSION)`
     - b) By using `isset($_SESSION)`
     - c) By using `is_null($_SESSION)`
     - d) By using `$_SESSION == ''`
-
-```php
-// Code for question 37
-if (empty($_SESSION)) {
-    // Session is empty
-}
-```
 
 38. What is the purpose of the `session_abort()` function in PHP?
     - a) To discard session changes and close the session
@@ -763,23 +545,11 @@ if (empty($_SESSION)) {
     - c) To regenerate the session ID
     - d) To update the session data with a new ID
 
-```php
-// Code for question 38
-session_abort();
-```
-
 39. How can you restrict the access to a specific page to only logged-in users in PHP?
     - a) By checking if a session variable representing the user's login status is set
     - b) By using the `authenticate_user()` function
     - c) By validating the user's credentials against a database
     - d) By encrypting the page content with a private key
-
-```php
-// Code for question 39
-if (!isset($_SESSION['loggedIn'])) {
-    // Redirect to login page or display an error message
-}
-```
 
 40. Which PHP function is used to check if a cookie domain is secure?
     - a) `is_cookie_secure()`
@@ -787,24 +557,11 @@ if (!isset($_SESSION['loggedIn'])) {
     - c) `cookie_is_secure()`
     - d) `$_COOKIE['secure']`
 
-```php
-// Code for question 40
-if ($_COOKIE['secure'] === 'true') {
-    // Cookie domain is secure
-}
-```
-
 41. How can you prevent session data from being accessible by JavaScript in PHP?
     - a) By setting the `HttpOnly` flag when setting session cookies
     - b) By using JavaScript to encrypt the session data
     - c) By validating session data against a predefined pattern
     - d) By using AJAX to retrieve session data asynchronously
-
-```php
-// Code for question 41
-// Setting the session cookie with the HttpOnly flag
-setcookie('sessionCookie', $value, time() + 3600, '/', '', false, true);
-```
 
 42. What is the purpose of the `session_gc()` function in PHP?
     - a) To perform garbage collection on expired session data
@@ -812,23 +569,11 @@ setcookie('sessionCookie', $value, time() + 3600, '/', '', false, true);
     - c) To destroy the current session and start a new one
     - d) To update the session data with a new ID
 
-```php
-// Code for question 42
-
-
-session_gc();
-```
-
 43. How can you set a session timeout in PHP?
     - a) By modifying the `session.gc_maxlifetime` configuration directive
     - b) By using the `set_session_timeout()` function
     - c) By setting `$_SESSION['timeout']` to a specific value
     - d) By using the `session_set_timeout()` function
-
-```php
-// Code for question 43
-ini_set('session.gc_maxlifetime', 3600);
-```
 
 44. Which PHP function is used to retrieve the value of a cookie?
     - a) `$_COOKIE['cookieName']`
@@ -836,23 +581,11 @@ ini_set('session.gc_maxlifetime', 3600);
     - c) `get_cookie_value('cookieName')`
     - d) `cookie_value('cookieName')`
 
-```php
-// Code for question 44
-$cookieValue = $_COOKIE['cookieName'];
-```
-
 45. How can you restrict the access to a specific page to only users with admin privileges in PHP?
     - a) By checking if a session variable representing the user's admin status is set to true
     - b) By using the `validate_admin_user()` function
     - c) By validating the user's credentials against an admin database
     - d) By encrypting the page content with an admin key
-
-```php
-// Code for question 45
-if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
-    // Redirect to login page or display an error message
-}
-```
 
 46. What is the purpose of the `session_destroy()` function in PHP?
     - a) To destroy all session data
@@ -860,21 +593,11 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     - c) To close the session and write session data
     - d) To regenerate the session ID
 
-```php
-// Code for question 46
-session_destroy();
-```
-
 47. How can you retrieve the value of a specific cookie in PHP?
     - a) By accessing `$_COOKIE['cookieName']`
     - b) By using the `get_cookie_value('cookieName')` function
     - c) By using `retrieve_cookie('cookieName')`
     - d) By using the `cookie_value('cookieName')` function
-
-```php
-// Code for question 47
-$cookieValue = $_COOKIE['cookieName'];
-```
 
 48. Which PHP function is used to set the domain for a cookie?
     - a) `set_cookie_domain()`
@@ -882,21 +605,11 @@ $cookieValue = $_COOKIE['cookieName'];
     - c) `cookie_domain()`
     - d) `setcookie()` function with the `domain` parameter
 
-```php
-// Code for question 48
-setcookie('cookieName', 'cookieValue', time() + 3600, '/', 'example.com');
-```
-
 49. How can you prevent session fixation attacks in PHP?
     - a) By regenerating the session ID after successful login
     - b) By using HTTP-only cookies for session management
     - c) By validating session data against a predefined pattern
     - d) By using CSRF tokens for form submissions
-
-```php
-// Code for question 49
-session_regenerate_id(true);
-```
 
 50. What is the purpose of the `session_save_path()` function in PHP?
     - a) To retrieve the current session save path
@@ -904,18 +617,13 @@ session_regenerate_id(true);
     - c) To destroy the current session and start a new one
     - d) To update the session data with a new ID
 
-```php
-// Code for question 50
-$savePath = session_save_path();
-```
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
-![](https://komarev.com/ghpvc/?username=drshahizan&label=Views&color=0e75b6&style=flat)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
 
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find Largest Number</title>
+    <!--
+Lab 11: HTML Text Appearance
+Group:
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+Coding by Haris Mazlan
+-->
+  </head>
+  <body>
+    <div>
+      <label for="input1">Number 1:</label>
+      <input type="number" id="input1">
+    </div>
+    <div>
+      <label for="input2">Number 2:</label>
+      <input type="number" id="input2">
+    </div>
+    <div>
+      <label for="input3">Number 3:</label>
+      <input type="number" id="input3">
+    </div>
+    <div>
+      <label for="input4">Number 4:</label>
+      <input type="number" id="input4">
+    </div>
+    <div>
+      <label for="input5">Number 5:</label>
+      <input type="number" id="input5">
+    </div>
+    <div>
+      <button onclick="findLargest()">Find Largest</button>
+    </div>
+    <div>
+      <p id="result"></p>
+    </div>
+    <script>
+      function findLargest() {
+        const numbers = [
+          Number(document.getElementById("input1").value),
+          Number(document.getElementById("input2").value),
+          Number(document.getElementById("input3").value),
+          Number(document.getElementById("input4").value),
+          Number(document.getElementById("input5").value)
+        ];
+
+        let largest = numbers[0];
+
+        for (let i = 1; i < numbers.length; i++) {
+          if (numbers[i] > largest) {
+            largest = numbers[i];
+          }
+        }
+
+        document.getElementById("result").textContent = `The largest number is: ${largest}`;
+      }
+    </script>
+  </body>
+</html>
