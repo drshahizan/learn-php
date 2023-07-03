@@ -7,58 +7,60 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# JavaScript: Fundamental
+# JavaScript: DOM
 
 ## Set B
-1) d 
-2) c 
-3) c 
-4) a 
-5) c 
-6) b 
-7) c 
-8) b 
-9) a 
-10) c
-11) a 
-12) d 
-13) b 
-15) a 
-16) a
-17) b
-18) a 
-19) a 
-20) a 
-21) a 
-22) a 
-23) b 
-24) c 
-25) a 
-26) b 
-27) a 
-28) a 
-29) b 
-30) b 
-31) a 
-32) b 
-33) a 
-34) a 
-35) c 
-36) c 
-37) b 
-38) d 
-39) a 
-40) b 
-41) a 
-42) a 
-43) a 
-44) a 
-45) a 
-46) b
-47) a
-48) a 
-49) b
-50) b
+1. A
+2. C
+3. C
+4. D
+5. C
+6. C
+7. A
+8. C
+9. C
+10. B
+11. A
+12. C
+13. C
+14. B
+15. A
+16. A
+17. B
+18. B
+19. A
+20. A
+21. A
+22. B
+23. A
+24. B
+25. C
+26. A
+27. A
+28. A
+29. A
+30. D
+31. A
+32. C
+33. B
+34. A
+35. A
+36. A
+37. A
+38. A
+39. A
+40. A
+41. A
+42. B
+43. A
+44. A
+45. A
+46. A
+47. A
+48. D
+49. A
+50. A
+
 
 
 ## Contribution 🛠️
@@ -68,7 +70,6 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
-
 
 
 
