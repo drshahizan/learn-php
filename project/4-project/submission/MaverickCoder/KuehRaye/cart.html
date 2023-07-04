@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>My Cart</title>
@@ -129,97 +128,99 @@
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- cart -->
-	<div class="cart-section mt-150 mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-12">
-					<div class="cart-table-wrap">
-						<table class="cart-table">
-							<thead class="cart-table-head">
-								<tr class="table-head-row">
-									<th class="product-remove"></th>
-									<th class="product-image">Product Image</th>
-									<th class="product-name">Name</th>
-									<th class="product-price">Price</th>
-									<th class="product-quantity">Quantity</th>
-									<th class="product-total">Total (RM)</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="table-body-row">
-									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
-									<td class="product-name">Almond London</td>
-									<td class="product-price">50</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" value="1" min="0"></td>
-									<td class="product-total">50</td>
-								</tr>
-								<tr class="table-body-row">
-									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
-									<td class="product-name">Honey Cornflakes</td>
-									<td class="product-price">20</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" value="1" min="0"></td>
-									<td class="product-total">20</td>
-								</tr>
-								<tr class="table-body-row">
-									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
-									<td class="product-name">Nutella Pod</td>
-									<td class="product-price">45</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" value="1" min="0"></td>
-									<td class="product-total">45</td>
-								</tr>
-							</tbody>
-						</table>
+<!-- cart -->
+<div class="cart-section mt-150 mb-150">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-12">
+				<div class="cart-table-wrap">
+					<table class="cart-table">
+						<thead class="cart-table-head">
+							<tr class="table-head-row">
+								<th class="product-remove"></th>
+								<th class="product-image">Product Image</th>
+								<th class="product-name">Name</th>
+								<th class="product-price">Price</th>
+								<th class="product-quantity">Quantity</th>
+								<th class="product-total">Total (RM)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="table-body-row">
+								<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
+								<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
+								<td class="product-name">Almond London</td>
+								<td class="product-price">50</td>
+								<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-1" value="1" min="0"></td>
+								<td class="product-total" id="total-1">50</td>
+							</tr>
+							<tr class="table-body-row">
+								<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
+								<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
+								<td class="product-name">Honey Cornflakes</td>
+								<td class="product-price">20</td>
+								<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-2" value="1" min="0"></td>
+								<td class="product-total" id="total-2">20</td>
+							</tr>
+							<tr class="table-body-row">
+								<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
+								<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
+								<td class="product-name">Nutella Pod</td>
+								<td class="product-price">45</td>
+								<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-3" value="1" min="0"></td>
+								<td class="product-total" id="total-3">45</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="total-section">
+					<table class="total-table">
+						<thead class="total-table-head">
+							<tr class="table-total-row">
+								<th>Total</th>
+								<th>Price</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="total-data">
+								<td><strong>Subtotal (RM): </strong></td>
+								<td id="subtotal">0</td>
+							</tr>
+							<tr class="total-data">
+								<td><strong>Shipping: </strong></td>
+								<td id="shipping">10</td>
+							</tr>
+							<tr class="total-data">
+								<td><strong>Total Price: </strong></td>
+								<td id="total">0</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="cart-buttons">
+						<button class="update-cart-btn boxed-btn">Update My Cart</button>
+						<a href="checkout.html" class="boxed-btn black">Check Out</a>
 					</div>
 				</div>
-  
-				<div class="col-lg-4">
-					<div class="total-section">
-						<table class="total-table">
-							<thead class="total-table-head">
-								<tr class="table-total-row">
-									<th>Total</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="total-data">
-									<td><strong>Subtotal (RM): </strong></td>
-									<td id="subtotal">115</td>
-								</tr>
-								<tr class="total-data">
-									<td><strong>Shipping: </strong></td>
-									<td id="shipping">10</td>
-								</tr>
-								<tr class="total-data">
-									<td><strong>Total (RM): </strong></td>
-									<td id="total">125</td>
-								</tr>
-							</tbody>
-						</table>
-						<div class="cart-buttons">
-							<button class="update-cart-btn boxed-btn">Update My Cart</button>
-							<a href="checkout.html" class="boxed-btn black">Check Out</a>
-						</div>
-					</div>
-  
-					<div class="coupon-section">
-						<h3>Apply Coupon</h3>
-						<div class="coupon-form-wrap">
-							<form action="index.html">
-								<p><input type="text" placeholder="Coupon"></p>
-								<p><input type="submit" value="Apply"></p>
-							</form>
-						</div>
+
+				<div class="coupon-section">
+					<h3>Apply Coupon</h3>
+					<div class="coupon-form-wrap">
+						<form action="index.html">
+							<p><input type="text" placeholder="Coupon"></p>
+							<p><input type="submit" value="Apply"></p>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end cart -->
+</div>
+<!-- end cart -->
+
+
 
 	<!-- logo carousel -->
 	<div class="logo-carousel-section">
@@ -248,7 +249,50 @@
 		</div>
 	</div>
 	<!-- end logo carousel -->
-
+	// Get references to the elements
+	var addToCartButton = document.getElementById('add-to-cart');
+	var quantityInput = document.getElementById('quantity');
+	var priceElement = document.getElementById('price');
+	var totalElement = document.getElementById('total');
+	var subtotalElement = document.getElementById('subtotal');
+	var shippingInput = document.getElementById('shipping');
+	var totalPriceElement = document.getElementById('total-price');
+	
+	// Initialize variables
+	var price = parseFloat(priceElement.textContent);
+	var quantity = parseInt(quantityInput.value);
+	var shipping = parseFloat(shippingInput.value);
+	
+	// Add click event listener to the "Add to Cart" button
+	addToCartButton.addEventListener('click', function() {
+	  // Update quantity and calculate total
+	  quantity = parseInt(quantityInput.value);
+	  var total = price * quantity;
+	
+	  // Update total text
+	  totalElement.textContent = total.toFixed(2);
+	
+	  // Calculate subtotal and total price
+	  var subtotal = parseFloat(subtotalElement.textContent);
+	  subtotal += total;
+	  var totalPrice = subtotal + shipping;
+	
+	  // Update subtotal and total price text
+	  subtotalElement.textContent = subtotal.toFixed(2);
+	  totalPriceElement.textContent = totalPrice.toFixed(2);
+	
+	  // Display a success message
+	  alert('Item added to cart!');
+	});
+	
+	// Update total price when shipping value changes
+	shippingInput.addEventListener('input', function() {
+	  shipping = parseFloat(shippingInput.value);
+	  var subtotal = parseFloat(subtotalElement.textContent);
+	  var totalPrice = subtotal + shipping;
+	  totalPriceElement.textContent = totalPrice.toFixed(2);
+	});
+	
 	<!-- footer -->
 	<div class="footer-area">
 		<div class="container">
@@ -340,38 +384,7 @@
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
 
-	<!-- custom script -->
-	<script>
-		// Function to calculate and update cart totals
-		function updateCart() {
-			var subtotal = 0;
-			var quantityInputs = document.getElementsByClassName("quantity-input");
-			var totalInputs = document.getElementsByClassName("product-total");
 
-			for (var i = 0; i < quantityInputs.length; i++) {
-				var quantity = parseInt(quantityInputs[i].value);
-				var price = parseInt(totalInputs[i].innerHTML.replace("RM", ""));
-
-				var total = quantity * price;
-				subtotal += total;
-
-				totalInputs[i].innerHTML = "RM" + total;
-			}
-
-			document.getElementById("subtotal").innerHTML = "RM" + subtotal;
-			document.getElementById("total").innerHTML = "RM" + subtotal;
-		}
-
-		// Update cart totals when the quantity input is changed
-		var quantityInputs = document.getElementsByClassName("quantity-input");
-		for (var i = 0; i < quantityInputs.length; i++) {
-			quantityInputs[i].addEventListener("change", updateCart);
-		}
-
-		// Update cart totals when the "Update My Cart" button is clicked
-		var updateCartBtn = document.querySelector(".update-cart-btn");
-		updateCartBtn.addEventListener("click", updateCart);
-	</script>
 
 </body>
 </html>
