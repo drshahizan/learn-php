@@ -32,8 +32,11 @@ The code also handles multiple translation matches returned by the API. It itera
 While the translation is in progress, the code sets a placeholder text (Translating...) for the toText field using toText.setAttribute("placeholder", "Translating..."). This provides visual feedback to the user during the translation process.
 
 ## Q3: Enter text to be converted to French. Is the text accurate?
-Ans:
 
+Ans: 
+In a Language Translator App, the conversion to French (or any other target language) is typically achieved by sending the text to be translated, along with the source language and the target language, to the translation API. The API then processes the request and returns the translated text.
+
+The accuracy of the translation depends on various factors, including the quality of the translation model used by the API and the amount of training data available for the languages being translated.
 
 
 
