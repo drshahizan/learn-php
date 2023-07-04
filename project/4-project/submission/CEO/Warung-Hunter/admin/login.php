@@ -1,11 +1,13 @@
 <?php
 
-require_once 'config/database.php';
-
 session_start();
 
-if (isset($_SESSION['user_id'])) {
-    header("Location: index.php");
+require_once '../config/database.php';
+require_once '../helpers/utils.php';
+
+
+if (isset($_SESSION['user_id']) && isset($_SESSION['is_admin'])) {
+    header("Location: /admin/dashboard.php");
     exit();
 }
 
@@ -15,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
 
     // Retrieve user from the database
-    $sql = "SELECT * FROM users WHERE username = '$username'";
+    $sql = "SELECT * FROM admins WHERE username = '$username'";
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) === 1) {
@@ -23,10 +25,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (password_verify($password, $row['password'])) {
             mysqli_close($conn);
 
-            $_SESSION['user_id'] = $row['id'];
-            $_SESSION['username'] = $row['username'];
-
-            header("Location: index.php");
+            $_SESSION['admin_id'] = $row['id'];
+            $_SESSION['admin_username'] = $row['username'];
+            $_SESSION['is_admin'] = 'true';
+            header("Location: /admin/dashboard.php");
             exit();
         } else {
             echo "Incorrect password.";
@@ -236,7 +238,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body oncontextmenu="return false" class="snippet-body">
     <div class="wrapper bg-white">
         <div class="h2 text-center">Warung Hunter</div>
-        <div class="h4 text-muted text-center pt-2">Enter your login details</div>
+        <div class="h4 text-muted text-center pt-2">Admin Site</div>
         <form class="pt-3" method="POST" action="login.php">
             <div class="form-group py-2">
                 <div class="input-field">
@@ -260,14 +262,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <span class="checkmark"></span>
                     </label>
                 </div>
-                <div class="ml-auto">
-                    <a href="#" id="forgot">Forgot Password?</a>
-                </div>
             </div>
             <button class="btn btn-block text-center my-3">Log in</button>
-            <div class="text-center pt-3 text-muted">
-                Not a member? <a href="signup.html">Sign up</a>
-            </div>
         </form>
     </div>
     <script type="text/javascript"></script>
