@@ -4,10 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Cart</title>
+	<title>My Cart</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -59,37 +58,21 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="#">Home</a>
-									<ul class="sub-menu">
-										<li><a href="index.html">Static Home</a></li>
-										<li><a href="index_2.html">Slider Home</a></li>
-									</ul>
-								</li>
+								<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="#">Pages</a>
-									<ul class="sub-menu">
-										<li><a href="404.html">404 page</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="news.html">News</a></li>
-										<li><a href="shop.html">Shop</a></li>
-									</ul>
-								</li>
+								
 								<li><a href="news.html">News</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
+										<li><a href="single-news.html">News of the Week</a></li>
 									</ul>
 								</li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
+								<li class="current-list-item"><a href="shop.html">Shop</a>
 									<ul class="sub-menu">
 										<li><a href="shop.html">Shop</a></li>
 										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
-										<li><a href="cart.html">Cart</a></li>
+										<li><a href="cart.html">My Cart</a></li>
 									</ul>
 								</li>
 								<li>
@@ -135,106 +118,183 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Fresh and Organic</p>
-						<h1>Cart</h1>
+						<p>FRESH FROM THE OVEN</p>
+						<h1><span class="orange-text">My</span> Cart</h1>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- cart -->
-	<div class="cart-section mt-150 mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-12">
-					<div class="cart-table-wrap">
-						<table class="cart-table">
-							<thead class="cart-table-head">
-								<tr class="table-head-row">
-									<th class="product-remove"></th>
-									<th class="product-image">Product Image</th>
-									<th class="product-name">Name</th>
-									<th class="product-price">Price</th>
-									<th class="product-quantity">Quantity</th>
-									<th class="product-total">Total</th>
-								</tr>
-							</thead>
-							<tbody>
+<!-- cart -->
+<div class="cart-section mt-150 mb-150">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-12">
+				<div class="cart-table-wrap">
+					<table class="cart-table">
+						<thead class="cart-table-head">
+							<tr class="table-head-row">
 								<tr class="table-body-row">
-									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
-									<td class="product-name">Strawberry</td>
-									<td class="product-price">$85</td>
-									<td class="product-quantity"><input type="number" placeholder="0"></td>
-									<td class="product-total">1</td>
+									<td class="product-name">Almond London</td>
+									<td class="product-price" id="price-1">50</td>
+									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-1" value="1" min="0"></td>
+									<td class="product-total" id="total-1">50</td>
 								</tr>
 								<tr class="table-body-row">
-									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
-									<td class="product-name">Berry</td>
-									<td class="product-price">$70</td>
-									<td class="product-quantity"><input type="number" placeholder="0"></td>
-									<td class="product-total">1</td>
+									<td class="product-name">Honey Cornflakes</td>
+									<td class="product-price" id="price-2">20</td>
+									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-2" value="1" min="0"></td>
+									<td class="product-total" id="total-2">20</td>
 								</tr>
 								<tr class="table-body-row">
-									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
-									<td class="product-name">Lemon</td>
-									<td class="product-price">$35</td>
-									<td class="product-quantity"><input type="number" placeholder="0"></td>
-									<td class="product-total">1</td>
+									<td class="product-name">Nutella Pod</td>
+									<td class="product-price" id="price-3">45</td>
+									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-3" value="1" min="0"></td>
+									<td class="product-total" id="total-3">45</td>
 								</tr>
-							</tbody>
-						</table>
+								
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="total-section">
+					<table class="total-table">
+						<thead class="total-table-head">
+							<tr class="table-total-row">
+								<th>Total</th>
+								<th>Price</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="total-data">
+								<td><strong>Subtotal (RM): </strong></td>
+								<td id="subtotal">0</td>
+							</tr>
+							<tr class="total-data">
+								<td><strong>Shipping: </strong></td>
+								<td id="shipping">10</td>
+							</tr>
+							<tr class="total-data">
+								<td><strong>Total Price (RM): </strong></td>
+								<td id="total">0</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="cart-buttons">
+						<a href="checkout.html" class="boxed-btn black">Check Out</a>
 					</div>
 				</div>
 
-				<div class="col-lg-4">
-					<div class="total-section">
-						<table class="total-table">
-							<thead class="total-table-head">
-								<tr class="table-total-row">
-									<th>Total</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="total-data">
-									<td><strong>Subtotal: </strong></td>
-									<td>$500</td>
-								</tr>
-								<tr class="total-data">
-									<td><strong>Shipping: </strong></td>
-									<td>$45</td>
-								</tr>
-								<tr class="total-data">
-									<td><strong>Total: </strong></td>
-									<td>$545</td>
-								</tr>
-							</tbody>
-						</table>
-						<div class="cart-buttons">
-							<a href="cart.html" class="boxed-btn">Update Cart</a>
-							<a href="checkout.html" class="boxed-btn black">Check Out</a>
-						</div>
-					</div>
-
-					<div class="coupon-section">
-						<h3>Apply Coupon</h3>
-						<div class="coupon-form-wrap">
-							<form action="index.html">
-								<p><input type="text" placeholder="Coupon"></p>
-								<p><input type="submit" value="Apply"></p>
-							</form>
-						</div>
+				<div class="coupon-section">
+					<h3>Apply Coupon</h3>
+					<div class="coupon-form-wrap">
+						<form action="index.html">
+							<p><input type="text" placeholder="Coupon"></p>
+							<p><input type="submit" value="Apply"></p>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end cart -->
+</div>
+<!-- end cart -->
+
+<script>
+// Get the table body rows
+const tableBodyRows = document.querySelectorAll('.table-body-row');
+
+// Initialize variables for subtotal and total price
+let subtotal = 0;
+let total = 0;
+
+// Iterate over each table body row
+tableBodyRows.forEach((row) => {
+  // Get the quantity input and price elements for the current row
+  const quantityInput = row.querySelector('.quantity-input');
+  const priceElement = row.querySelector('.product-price');
+  
+  // Get the quantity and price values
+  const quantity = parseFloat(quantityInput.value);
+  const price = parseFloat(priceElement.textContent);
+  
+  // Calculate the total price for the current row
+  const rowTotal = quantity * price;
+  
+  // Update the total price for the current row
+  const totalElement = row.querySelector('.product-total');
+  totalElement.textContent = rowTotal.toFixed(2);
+  
+  // Update the subtotal
+  subtotal += rowTotal;
+});
+
+// Update the subtotal and total price in the summary section
+const subtotalElement = document.querySelector('#subtotal');
+const totalElement = document.querySelector('#total');
+subtotalElement.textContent = subtotal.toFixed(2);
+totalElement.textContent = subtotal.toFixed(2);
+
+
+
+// Calculate total price for each product based on quantity
+function updateTotalPrice(productId) {
+  const quantityInput = document.getElementById(`quantity-${productId}`);
+  const totalPrice = document.getElementById(`total-${productId}`);
+  const price = parseFloat(document.getElementById(`price-${productId}`).textContent);
+  const quantity = parseInt(quantityInput.value);
+  const total = price * quantity;
+  totalPrice.textContent = total.toFixed(2);
+
+  recalculateSubtotalAndTotal();
+}
+
+// Recalculate subtotal and total
+function recalculateSubtotalAndTotal() {
+  const productTotals = document.querySelectorAll('.product-total');
+  let subtotal = 0;
+  productTotals.forEach((total) => {
+    subtotal += parseFloat(total.textContent);
+  });
+
+  const shipping = 10; // Assuming a static shipping cost
+  const total = subtotal + shipping;
+
+  // Update the subtotal and total elements
+  document.getElementById('subtotal').textContent = subtotal.toFixed(2);
+  document.getElementById('total').textContent = total.toFixed(2);
+}
+
+// Add event listeners to quantity input fields
+const quantityInputs = document.querySelectorAll('.quantity-input');
+quantityInputs.forEach((input) => {
+  const productId = input.id.split('-')[1];
+  input.addEventListener('input', function () {
+    updateTotalPrice(productId);
+  });
+});
+
+
+
+
+// Initial calculation of subtotal and total
+recalculateSubtotalAndTotal();
+
+
+
+
+  </script>
+  
+
+
 
 	<!-- logo carousel -->
 	<div class="logo-carousel-section">
@@ -271,16 +331,16 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box about-widget">
 						<h2 class="widget-title">About us</h2>
-						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+						<p>Since our establishment in 2015, KuehRaye has steadily grown and evolved to become a trusted name in the world of "kuih". Our journey has been guided by a deep-rooted passion for delivering exceptional taste experiences and creating lasting memories.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box get-in-touch">
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
-							<li>34/8, East Hukupara, Gifirtok, Sadan.</li>
-							<li>support@fruitkha.com</li>
-							<li>+00 111 222 3333</li>
+							<li>KuehRaye HQ:<br>123 Jalan Delima, Taman Perindustrian, Kuala Lumpur 50200, Malaysia</li>
+							<li>support@kuehraye.com</li>
+							<li>+60 1362 29954</li>
 						</ul>
 					</div>
 				</div>
@@ -316,7 +376,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>,  All Rights Reserved.</p>
+					<p>Copyrights &copy; 2023 - <b><span class="orange-text">KuehRaye</span></b>,  All Rights Reserved.</p>
 				</div>
 				<div class="col-lg-6 text-right col-md-12">
 					<div class="social-icons">
@@ -354,6 +414,8 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+
+
 
 </body>
 </html>
