@@ -1,4 +1,3 @@
-/*Template Name: Fruitkha - Responsive Bootstrap4 Shop TemplateTemplate URI: Description: Bootstrap template for fruits or any other kind of shopAuthor: Imran HossainAuthor URI: https://imransdesign.com/Version: 1.0*/
 /* -----------------------------------------------------------------------------
 
 # Base - Genral & Typography
@@ -1661,7 +1660,7 @@ p.excerpt {
 }
 
 .single-artcile-bg {
-  background-image: url(../img/latest-news/news-bg-3.jpg);
+  background-image: url(../img/latest-news/news-bg-1.jpg);
   height: 450px;
 }
 
@@ -2112,26 +2111,27 @@ a.video-play-btn {
   background-color: #f5f5f5;
   background-image: url(../img/1.jpg);
   background-size: cover;
-  padding: 110px 0px 115px;
+  background-position: center;
+  padding: 10% 0; /* Adjust the padding values as needed */
 }
 
 .shop-banner h3 {
   position: relative;
-  font-size: 50px;
+  font-size: 3.5vw; /* Adjust the font size to be responsive */
   line-height: 1.2em;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .shop-banner .sale-percent {
   position: relative;
-  font-size: 60px;
+  font-size: 5vw; /* Adjust the font size to be responsive */
   font-weight: 700;
   color: #F28123;
 }
 
 .shop-banner .sale-percent span {
   position: relative;
-  font-size: 24px;
+  font-size: 2vw; /* Adjust the font size to be responsive */
   line-height: 1.1em;
   color: #051922;
   font-weight: 400;
@@ -2139,6 +2139,7 @@ a.video-play-btn {
   margin-right: 10px;
   display: inline-block;
 }
+
 
 /* -----------------------------------------------------------------------------
 
