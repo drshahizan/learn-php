@@ -184,7 +184,7 @@
                     $("#searchResults").append(resultHtml);
                 }
             } else {
-                $("#searchResults").html('<p>No results found.</p>');
+                $("#searchResults").html('<p style="color: white;">No results found.</p>');
             }
         }
 
