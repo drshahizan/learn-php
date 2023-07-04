@@ -79,310 +79,274 @@
 									<div class="header-icons">
 										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
 										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+										<a class="mobile-search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+										<a class="mobile-hide user-icon" href="#"><i class="fas fa-user"></i></a>
+										<a class="mobile-user-icon" href="#"><i class="fas fa-user"></i></a>
 									</div>
 								</li>
 							</ul>
 						</nav>
-						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-						<div class="mobile-menu"></div>
 						<!-- menu end -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end header -->
+	<!-- header -->
 
-	<!-- search area -->
-	<div class="search-area">
+	<!-- page title -->
+	<div class="page-title-area" style="background-image:url(assets/img/bg/page-title-bg.jpg);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="page-title-item">
+						<h2>My Cart</h2>
+						<div class="site-breadcrumb">
+							<a href="index.html">Home</a>
+							<a href="cart.html">My Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- page title -->
+
+	<!-- cart area -->
+	<div class="cart-page-area pt-120 pb-120">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<span class="close-btn"><i class="fas fa-window-close"></i></span>
-					<div class="search-bar">
-						<div class="search-bar-tablecell">
-							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
+					<div class="cart-table table-responsive">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th class="pro-thumbnail">Image</th>
+									<th class="pro-title">Product</th>
+									<th class="pro-price">Price</th>
+									<th class="pro-quantity">Quantity</th>
+									<th class="pro-subtotal">Total</th>
+									<th class="pro-remove">Remove</th>
+								</tr>
+							</thead>
+							<tbody>
+								<!-- product item -->
+								<tr class="table-body-row">
+									<td class="pro-thumbnail">
+										<a href="#"><img src="assets/img/product/cart-thumb-1.jpg" alt=""></a>
+									</td>
+									<td class="pro-title">
+										<a href="#">Summer Women Dress</a>
+									</td>
+									<td class="pro-price">$50.00</td>
+									<td class="pro-quantity">
+										<div class="quantity">
+											<input type="number" class="quantity-input" value="1">
+										</div>
+									</td>
+									<td class="pro-subtotal product-total">$50.00</td>
+									<td class="pro-remove"><a href="#">Remove</a></td>
+								</tr>
+								<!-- product item -->
+								<tr class="table-body-row">
+									<td class="pro-thumbnail">
+										<a href="#"><img src="assets/img/product/cart-thumb-2.jpg" alt=""></a>
+									</td>
+									<td class="pro-title">
+										<a href="#">Men T-Shirt</a>
+									</td>
+									<td class="pro-price">$25.00</td>
+									<td class="pro-quantity">
+										<div class="quantity">
+											<input type="number" class="quantity-input" value="1">
+										</div>
+									</td>
+									<td class="pro-subtotal product-total">$25.00</td>
+									<td class="pro-remove"><a href="#">Remove</a></td>
+								</tr>
+								<!-- product item -->
+							</tbody>
+						</table>
+					</div>
+
+					<div class="cart-amount-wrap">
+						<div class="row">
+							<div class="col-lg-6 col-md-6">
+								<div class="cart-shipping">
+									<h4>Calculate Shipping</h4>
+									<div class="shipping-form">
+										<p>Select country <span>*</span></p>
+										<select class="form-control">
+											<option value="volvo">Bangladesh</option>
+											<option value="saab">Algeria</option>
+											<option value="mercedes">Afghanistan</option>
+											<option value="audi">Ghana</option>
+											<option value="audi2">Albania</option>
+											<option value="audi3">Bahrain</option>
+											<option value="audi4">Colombia</option>
+											<option value="audi5">Dominican Republic</option>
+										</select>
+										<p>State <span>*</span></p>
+										<select class="form-control">
+											<option value="volvo">Select State</option>
+											<option value="saab">Algeria</option>
+											<option value="mercedes">Afghanistan</option>
+											<option value="audi">Ghana</option>
+											<option value="audi2">Albania</option>
+											<option value="audi3">Bahrain</option>
+											<option value="audi4">Colombia</option>
+											<option value="audi5">Dominican Republic</option>
+										</select>
+										<p>Zip/Postal Code <span>*</span></p>
+										<input type="text" class="form-control">
+										<button class="btn btn-md btn-black-default-hover">Calculate</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="cart-update-option">
+									<div class="cart-update">
+										<a href="#">Update Cart</a>
+									</div>
+									<div class="cart-clear">
+										<a href="#">Clear Cart</a>
+									</div>
+								</div>
+								<div class="cart-apply-coupon">
+									<input type="text" placeholder="Coupon Code">
+									<button class="btn btn-md btn-black-default-hover">Apply Coupon</button>
+								</div>
+							</div>
 						</div>
 					</div>
+
+					<div class="cart-calculate-wrap">
+						<div class="row">
+							<div class="col-lg-4 col-md-6">
+								<div class="cart-calculate-item">
+									<h4>Cart Totals</h4>
+									<div class="table-responsive">
+										<table class="table">
+											<tbody>
+												<tr>
+													<td>Total</td>
+													<td class="product-total">$75.00</td>
+												</tr>
+												<tr>
+													<td>Shipping</td>
+													<td>Flat Rate: $10.00</td>
+												</tr>
+												<tr>
+													<td>Total Amount</td>
+													<td class="product-total">$85.00</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="cart-calculate-btn">
+										<a href="#" class="btn btn-md btn-black-default-hover">Proceed to Checkout</a>
+										<a href="#" class="btn btn-md btn-transparent-default-hover mt-20">Continue Shopping</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end search arewa -->
-	
-	<!-- breadcrumb-section -->
-	<div class="breadcrumb-section breadcrumb-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="breadcrumb-text">
-						<p>FRESH FROM THE OVEN</p>
-						<h1><span class="orange-text">My</span> Cart</h1>
-					</div>
-				</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end breadcrumb section -->
+	<!-- cart area -->
 
-<!-- cart -->
-<div class="cart-section mt-150 mb-150">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-md-12">
-				<div class="cart-table-wrap">
-					<table class="cart-table">
-						<thead class="cart-table-head">
-							<tr class="table-head-row">
-								<th class="product-remove"></th>
-								<th class="product-image">Product Image</th>
-								<th class="product-name">Name</th>
-								<th class="product-price">Price</th>
-								<th class="product-quantity">Quantity</th>
-								<th class="product-total">Total (RM)</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="table-body-row">
-								<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-								<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
-								<td class="product-name">Almond London</td>
-								<td class="product-price">50</td>
-								<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-1" value="1" min="0"></td>
-								<td class="product-total" id="total-1">50</td>
-							</tr>
-							<tr class="table-body-row">
-								<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-								<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
-								<td class="product-name">Honey Cornflakes</td>
-								<td class="product-price">20</td>
-								<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-2" value="1" min="0"></td>
-								<td class="product-total" id="total-2">20</td>
-							</tr>
-							<tr class="table-body-row">
-								<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-								<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
-								<td class="product-name">Nutella Pod</td>
-								<td class="product-price">45</td>
-								<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-3" value="1" min="0"></td>
-								<td class="product-total" id="total-3">45</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-
-			<div class="col-lg-4">
-				<div class="total-section">
-					<table class="total-table">
-						<thead class="total-table-head">
-							<tr class="table-total-row">
-								<th>Total</th>
-								<th>Price</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="total-data">
-								<td><strong>Subtotal (RM): </strong></td>
-								<td id="subtotal">0</td>
-							</tr>
-							<tr class="total-data">
-								<td><strong>Shipping: </strong></td>
-								<td id="shipping">10</td>
-							</tr>
-							<tr class="total-data">
-								<td><strong>Total Price: </strong></td>
-								<td id="total">0</td>
-							</tr>
-						</tbody>
-					</table>
-					<div class="cart-buttons">
-						<button class="update-cart-btn boxed-btn">Update My Cart</button>
-						<a href="checkout.html" class="boxed-btn black">Check Out</a>
-					</div>
-				</div>
-
-				<div class="coupon-section">
-					<h3>Apply Coupon</h3>
-					<div class="coupon-form-wrap">
-						<form action="index.html">
-							<p><input type="text" placeholder="Coupon"></p>
-							<p><input type="submit" value="Apply"></p>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- end cart -->
-
-
-
-	<!-- logo carousel -->
-	<div class="logo-carousel-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="logo-carousel-inner">
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/1.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/2.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/3.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/4.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/5.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end logo carousel -->
-	// Get references to the elements
-	var addToCartButton = document.getElementById('add-to-cart');
-	var quantityInput = document.getElementById('quantity');
-	var priceElement = document.getElementById('price');
-	var totalElement = document.getElementById('total');
-	var subtotalElement = document.getElementById('subtotal');
-	var shippingInput = document.getElementById('shipping');
-	var totalPriceElement = document.getElementById('total-price');
-	
-	// Initialize variables
-	var price = parseFloat(priceElement.textContent);
-	var quantity = parseInt(quantityInput.value);
-	var shipping = parseFloat(shippingInput.value);
-	
-	// Add click event listener to the "Add to Cart" button
-	addToCartButton.addEventListener('click', function() {
-	  // Update quantity and calculate total
-	  quantity = parseInt(quantityInput.value);
-	  var total = price * quantity;
-	
-	  // Update total text
-	  totalElement.textContent = total.toFixed(2);
-	
-	  // Calculate subtotal and total price
-	  var subtotal = parseFloat(subtotalElement.textContent);
-	  subtotal += total;
-	  var totalPrice = subtotal + shipping;
-	
-	  // Update subtotal and total price text
-	  subtotalElement.textContent = subtotal.toFixed(2);
-	  totalPriceElement.textContent = totalPrice.toFixed(2);
-	
-	  // Display a success message
-	  alert('Item added to cart!');
-	});
-	
-	// Update total price when shipping value changes
-	shippingInput.addEventListener('input', function() {
-	  shipping = parseFloat(shippingInput.value);
-	  var subtotal = parseFloat(subtotalElement.textContent);
-	  var totalPrice = subtotal + shipping;
-	  totalPriceElement.textContent = totalPrice.toFixed(2);
-	});
-	
 	<!-- footer -->
-	<div class="footer-area">
+	<footer class="footer-area pt-120 pb-60">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box about-widget">
-						<h2 class="widget-title">About us</h2>
-						<p>Since our establishment in 2015, KuehRaye has steadily grown and evolved to become a trusted name in the world of "kuih". Our journey has been guided by a deep-rooted passion for delivering exceptional taste experiences and creating lasting memories.</p>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-widget widget">
+						<h2 class="widget-title">About Us</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod magna etiam.</p>
+						<div class="footer-social-icon">
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-linkedin"></i></a>
+							<a href="#"><i class="fab fa-pinterest"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box get-in-touch">
-						<h2 class="widget-title">Get in Touch</h2>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-widget widget">
+						<h2 class="widget-title">Information</h2>
 						<ul>
-							<li>KuehRaye HQ:<br>123 Jalan Delima, Taman Perindustrian, Kuala Lumpur 50200, Malaysia</li>
-							<li>support@kuehraye.com</li>
-							<li>+60 1362 29954</li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Delivery Information</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms & Conditions</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box pages">
-						<h2 class="widget-title">Pages</h2>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-widget widget">
+						<h2 class="widget-title">Customer Service</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="services.html">Shop</a></li>
-							<li><a href="news.html">News</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Returns</a></li>
+							<li><a href="#">Site Map</a></li>
+							<li><a href="#">Order History</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box subscribe">
-						<h2 class="widget-title">Subscribe</h2>
-						<p>Subscribe to our mailing list to get the latest updates.</p>
-						<form action="index.html">
-							<input type="email" placeholder="Email">
-							<button type="submit"><i class="fas fa-paper-plane"></i></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end footer -->
-	
-	<!-- copyright -->
-	<div class="copyright">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2023 - <b><span class="orange-text">KuehRaye</span></b>,  All Rights Reserved.</p>
-				</div>
-				<div class="col-lg-6 text-right col-md-12">
-					<div class="social-icons">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-widget widget">
+						<h2 class="widget-title">My Account</h2>
 						<ul>
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+							<li><a href="#">My Account</a></li>
+							<li><a href="#">Wishlist</a></li>
+							<li><a href="#">Order Tracking</a></li>
+							<li><a href="#">Privacy Policy</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+	</footer>
+	<!-- footer -->
+
+	<!-- back to top area -->
+	<div class="back-to-top">
+		<span class="back-top"><i class="fas fa-angle-double-up"></i></span>
 	</div>
-	<!-- end copyright -->
-	
-	<!-- jquery -->
-	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<!-- back to top area -->
+
+
+	<!-- jQuery -->
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
 	<!-- bootstrap -->
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- count down -->
-	<script src="assets/js/jquery.countdown.js"></script>
-	<!-- isotope -->
-	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
-	<!-- waypoints -->
-	<script src="assets/js/waypoints.js"></script>
 	<!-- owl carousel -->
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<!-- magnific popup -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.js"></script>
 	<!-- mean menu -->
 	<script src="assets/js/jquery.meanmenu.min.js"></script>
-	<!-- sticker js -->
-	<script src="assets/js/sticker.js"></script>
+	<!-- wow js -->
+	<script src="assets/js/wow.min.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+
+	<!-- custom script -->
+	<script>
+		$(document).ready(function() {
+			// Update total when quantity changes
+			$('.quantity-input').on('change', function() {
+				var quantity = $(this).val();
+				var price = $(this).closest('.table-body-row').find('.pro-price').text();
+				var subtotal = (quantity * parseFloat(price.substring(1))).toFixed(2);
+				$(this).closest('.table-body-row').find('.pro-subtotal').text('$' + subtotal);
+			});
+		});
+	</script>
 
 
 
