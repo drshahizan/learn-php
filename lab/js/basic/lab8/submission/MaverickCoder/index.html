@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Check Range of 3 Numbers</title>
+<!--
+Lab 8 - Checking range
+Group: MaverickCoder
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+-->
+  <script>
+    function checkRange(num1, num2, num3) {
+      if ((num1 >= 50 && num1 <= 99) || (num2 >= 50 && num2 <= 99) || (num3 >= 50 && num3 <= 99)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    function handleClick() {
+      var num1 = parseInt(document.getElementById('num1').value);
+      var num2 = parseInt(document.getElementById('num2').value);
+      var num3 = parseInt(document.getElementById('num3').value);
+
+      var result = checkRange(num1, num2, num3);
+
+      document.getElementById('output').innerHTML = 'Result: ' + result;
+    }
+  </script>
+</head>
+<body>
+  <h1>Check Range of 3 Numbers</h1>
+  <p>Enter three integer values:</p>
+  <input type="number" id="num1" placeholder="Number 1">
+  <input type="number" id="num2" placeholder="Number 2">
+  <input type="number" id="num3" placeholder="Number 3">
+  <button onclick="handleClick()">Check Range</button>
+  <p id="output"></p>
+</body>
+</html>

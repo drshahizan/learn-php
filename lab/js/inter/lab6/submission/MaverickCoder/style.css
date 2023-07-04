@@ -1,0 +1,290 @@
+/* Google fonts import link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+:root {
+  --white: #fff;
+  --black: #24292d;
+  --nav-main: #e58f8f;
+  --switchers-main: #8a0000;
+  --light-bg: #f0f8ff;
+
+}
+nav {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background: var(--nav-main);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+nav .navbar a {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+}
+.navbar .nav-links {
+  display: flex;
+}
+.navbar .nav-links li {
+  margin: 0 8px;
+  list-style: none;
+  display: flex;
+}
+.navbar .nav-links a {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 1;
+}
+.navbar .nav-links a:hover {
+  opacity: 1;
+}
+.navbar .appearance {
+  display: flex;
+  align-items: center;
+}
+.appearance .light-dark,
+.appearance .icons {
+  height: 50px;
+  width: 50px;
+  border-radius: 6px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--white);
+  font-size: 20px;
+  background: var(--switchers-main);
+  cursor: pointer;
+}
+.appearance .light-dark i,
+.appearance .icons i {
+  opacity: 1;
+}
+.appearance .light-dark:hover i,
+.appearance .icons:hover i {
+  opacity: 1;
+}
+.appearance .light-dark:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.appearance .light-dark i {
+  height: 100%;
+  width: 100%;
+}
+.appearance .color-icon {
+  position: relative;
+}
+.appearance .icons {
+  width: 70px;
+  height: 50px;
+  margin-left: 14px;
+}
+.appearance .color-box {
+  position: absolute;
+  bottom: -133px;
+  right: 0;
+  min-height: 100px;
+  background: var(--white);
+  padding: 16px 20px 20px 20px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+}
+.color-box::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: var(--white);
+  transform: rotate(45deg);
+}
+.color-icon.open .color-box {
+  opacity: 1;
+  pointer-events: auto;
+}
+.color-icon.open .arrow {
+  transform: rotate(-180deg);
+}
+.appearance .color-box h3 {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  color: var(--nav-main);
+  text-align: left;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+.appearance .color-box .color-switchers {
+  display: flex;
+}
+.color-box .color-switchers .btn {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  background: #8a0000;
+}
+.color-switchers .btn.maroon.active {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #8a0000;
+}
+.color-switchers .btn.orange {
+  background: #f79f1f;
+}
+.color-switchers .btn.orange.active {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f79f1f;
+}
+.color-switchers .btn.purple {
+  background: #8e44ad;
+}
+.color-switchers .btn.purple.active {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #8e44ad;
+}
+.color-switchers .btn.green {
+  background: #3a9943;
+}
+.color-switchers .btn.green.active {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3a9943;
+}
+.home-content {
+  height: 100vh;
+  width: 100%;
+  background: var(--light-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px;
+}
+.home-content h2 {
+  color: var(--black);
+  font-size: 50px;
+}
+.home-content h3 {
+  color: var(--black);
+  font-size: 42px;
+  margin-top: -8px;
+}
+.home-content h3 span {
+  color: var(--nav-main);
+}
+.home-content h3 span.darkMode {
+  color: var(--black);
+}
+.home-content p {
+  color: var(--black);
+  font-size: 16px;
+  width: 45%;
+  text-align: justify;
+  margin: 4px 0 30px 0;
+}
+.home-content a {
+  color: #fff;
+  font-size: 20px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  background: var(--nav-main);
+}
+.home-content a i {
+  transform: rotate(45deg);
+  font-size: 16px;
+}
+.home-content a:hover {
+  background: var(--switchers-main);
+}
+@media (max-width: 1050px) {
+  .home-content p {
+    width: 70%;
+  }
+}
+
+
+:root {
+  --white: #fff;
+  --black: #24292d;
+  --nav-main: #e58f8f;
+  --switchers-main: #8a0000;
+  --light-bg: #f0f8ff;
+  
+  /* Dark mode colors */
+  --dark-bg: #24292d;
+  --dark-nav-main: #24292d;
+  --dark-text-color: #e4e6eb;
+  --dark-navbar-text-color: #e4e6eb;
+  --dark-button-bg-color: #242526;
+}
+
+/* Rest of the CSS file remains the same */
+
+/* Update the background and text colors for dark mode */
+:root[data-theme="dark"] {
+  --white: var(--dark-text-color);
+  --black: var(--dark-bg);
+  --nav-main: var(--dark-nav-main);
+  --switchers-main: var(--dark-nav-main);
+  --light-bg: var(--dark-button-bg-color);
+}
+
+:root[data-theme="dark"] nav .navbar a,
+:root[data-theme="dark"] .navbar .nav-links a,
+:root[data-theme="dark"] .appearance .light-dark,
+:root[data-theme="dark"] .appearance .icons {
+  color: var(--dark-text-color);
+}
+
+:root[data-theme="dark"] .navbar {
+  background: var(--dark-nav-main);
+}
+
+:root[data-theme="dark"] .home-content {
+  background: var(--dark-bg);
+}
+
+:root[data-theme="dark"] .home-content h2,
+:root[data-theme="dark"] .home-content h3,
+:root[data-theme="dark"] .home-content p,
+:root[data-theme="dark"] .home-content a {
+  color: var(--dark-text-color);
+}
+
+:root[data-theme="dark"] .home-content a {
+  background: var(--dark-nav-main);
+}
+
+:root[data-theme="dark"] .color-switchers .btn {
+  background: var(--dark-nav-main);
+}
+
+:root[data-theme="dark"] .color-switchers .btn.active {
+  box-shadow: 0 0 0 2px var(--white), 0 0 0 4px var(--dark-nav-main);
+}
+
+.home-content h3 span {
+  color: var(--nav-main);
+}
+
+/* Update the color of the text in dark mode */
+:root[data-theme="dark"] .home-content h3 span {
+  color: var(--white);
+}
+

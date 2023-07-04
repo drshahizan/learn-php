@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <!--
+Lab 4 - Intermediate Js
+Group: MaverickCoder
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+-->
+    <meta charset="utf-8">  
+    <title>Price Range Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>Price Range</h2>
+        <p>Use slider or enter min and max price</p>
+      </header>
+      <div class="price-input">
+        <div class="field">
+          <span>Min</span>
+          <input type="number" class="input-min" value="2500">
+        </div>
+        <div class="separator">-</div>
+        <div class="field">
+          <span>Max</span>
+          <input type="number" class="input-max" value="7500">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="progress"></div>
+      </div>
+      <div class="range-input">
+        <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+        <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+      </div>
+    </div>
+
+    <script>
+      // Get DOM elements
+      const inputMin = document.querySelector('.input-min');
+      const inputMax = document.querySelector('.input-max');
+      const rangeMin = document.querySelector('.range-min');
+      const rangeMax = document.querySelector('.range-max');
+      const sliderProgress = document.querySelector('.progress');
+    
+      // Update range inputs when text inputs change
+      inputMin.addEventListener('input', updateRangeInputs);
+      inputMax.addEventListener('input', updateRangeInputs);
+    
+      // Update text inputs when range inputs change
+      rangeMin.addEventListener('input', updateTextInputs);
+      rangeMax.addEventListener('input', updateTextInputs);
+    
+      // Initialize the range inputs and slider progress
+      updateRangeInputs();
+    
+      // Function to update range inputs and slider progress
+      function updateRangeInputs() {
+        let min = parseInt(inputMin.value);
+        let max = parseInt(inputMax.value);
+    
+        // Check if values exceed the minimum and maximum
+        if (min < rangeMin.min) {
+          min = rangeMin.min;
+          inputMin.value = min;
+        }
+        if (max > rangeMax.max) {
+          max = rangeMax.max;
+          inputMax.value = max;
+        }
+    
+        // Check if min exceeds max
+        if (min > max) {
+          min = max;
+          inputMin.value = min;
+        }
+    
+        // Update range inputs
+        rangeMin.value = min;
+        rangeMax.value = max;
+    
+        // Calculate the position of the slider progress within the valid range
+        const percentageStart = ((min - rangeMin.min) / (rangeMax.max - rangeMin.min)) * 100;
+        const percentageEnd = ((max - rangeMin.min) / (rangeMax.max - rangeMin.min)) * 100;
+    
+        // Update slider progress style
+        sliderProgress.style.left = percentageStart + '%';
+        sliderProgress.style.width = (percentageEnd - percentageStart) + '%';
+      }
+    
+      // Function to update text inputs
+      function updateTextInputs() {
+        inputMin.value = rangeMin.value;
+        inputMax.value = rangeMax.value;
+        updateRangeInputs();
+      }
+    </script>
+    
+  </body>
+</html>

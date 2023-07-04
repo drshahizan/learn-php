@@ -1,0 +1,84 @@
+/*
+Lab style2.css
+Group:
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+*/
+header {
+  background-color: #f94144;
+}
+
+nav {
+  background-color: #f3722c;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  background-color: #f9c74f;
+  padding: 1em;
+}
+
+section {
+  background-color: #90be6d;
+}
+
+section article {
+  background-color: #4d908e;
+  width: 20%;
+}
+
+#s1 article{
+  display: inline-block;
+}
+
+#s2 article{
+  display: inline-block;
+}
+
+footer {
+  color: white;
+  background-color: #264653;
+  position: bottom;
+}
+
+/* base block layout */
+
+body {
+  width: 60em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body > * {
+  padding: 1em;
+}
+
+main {
+  padding: 0;
+  width: 70%;
+  float: left;
+}
+
+main > * {
+  padding: 1em;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+main section article {
+  padding: 1em;
+  margin: 1em;
+}
+
+.container {
+  display: flex;
+  padding: 0;
+}

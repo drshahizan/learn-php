@@ -1,0 +1,191 @@
+/* -----------------------------------------------------------------------------
+
+# Hero Styles
+
+----------------------------------------------------------------------------- */
+.hero-bg {
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero-text {
+  display: table;
+  height: 100%;
+}
+
+.hero-text-tablecell {
+  display: table-cell;
+}
+
+.hero-area {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+html, body {
+  height: 100%;
+}
+
+.hero-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #07212e;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.hero-text {
+  p.subtitle {
+    color: $primary-color;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: $white-color;
+  }
+}
+
+.hero-area div {
+  height: 100%;
+
+  &.hero-text {
+    height: 100%;
+    width: 100%;
+  }
+
+  &.hero-text-tablecell {
+    height: auto;
+    vertical-align: middle;
+
+    div {
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+}
+
+.hero-btns {
+  a.bordered-btn {
+    margin-left: 15px;
+  }
+
+  margin-top: 35px;
+}
+
+.hero-area div.hero-form {
+  background-color: $white-color;
+  text-align: center;
+  width: 380px;
+  margin: 0 auto;
+  margin-right: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #2d2d2d;
+  position: absolute;
+  right: 30px;
+  bottom: -15%;
+  height: 600px;
+}
+
+input[type="submit"] {
+  background-color: $primary-color;
+  color: $text-color;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  border: none !important;
+  cursor: pointer;
+  padding: 15px 25px;
+  border-radius: 3px;
+}
+
+.homepage-bg-1 {
+  background-image: url(../img/hero-bg.jpg);
+}
+
+.homepage-bg-2 {
+  background-image: url(../img/hero-bg-2.jpg);
+}
+
+.homepage-bg-3 {
+  background-image: url(../img/hero-bg-3.jpg);
+}
+
+.homepage-slider {
+  height: 100%;
+
+  div {
+    height: 100%;
+
+    &.hero-text {
+      display: table;
+      width: 100%;
+    }
+
+    &.hero-text-tablecell {
+      height: auto;
+
+      div {
+        height: auto;
+      }
+
+      vertical-align: middle;
+      display: table-cell;
+    }
+  }
+}
+
+.single-homepage-slider {
+  background-size: cover;
+  background-position: center;
+  background-color: #020C0E;
+  position: relative;
+  z-index: 1;
+
+  &:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $text-color;
+    content: "";
+    z-index: -1;
+    opacity: 0.7;
+  }
+}
+
+div.owl-controls, .owl-controls div {
+  height: auto;
+  top: 50%;
+  color: $primary-color;
+  font-size: 48px;
+}
+
+.homepage-slider {
+  position: relative;
+}
+
+.owl-prev {
+  position: absolute;
+  left: 60px;
+  margin-top: -30px;
+}
+
+.owl-next {
+  position: absolute;
+  right: 60px;
+  margin-top: -30px;
+}

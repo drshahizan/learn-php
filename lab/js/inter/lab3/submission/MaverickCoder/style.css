@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: url("mal3.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+::selection {
+  color: #fff;
+  background: #fc4782;
+}
+.wrapper {
+  color: #ff8c00;
+  max-width: 900px;
+  text-align: center;
+  padding: 0 50px;
+}
+.wrapper .title {
+  font-size: 35px;
+  font-weight: 500;
+}
+.wrapper .title span {
+  font-weight: 700;
+}
+.wrapper form {
+  margin: 50px 0;
+}
+.wrapper form .email-field {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .email-field input {
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+form .email-field button {
+  height: 100%;
+  width: 200px;
+  outline: none;
+  border: none;
+  background: #fc4782;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+form .email-field button:hover {
+  background: #000;
+}
+.wrapper .count-down {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.wrapper .count-down .timer {
+  height: 100%;
+  width: 100px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.count-down .timer .numb {
+  font-size: 25px;
+  font-weight: 500;
+}
+.count-down .timer .text {
+  font-size: 15px;
+}
+.count-down .clone {
+  font-size: 45px;
+}
+@media (max-width: 630px) {
+  .wrapper .count-down {
+    height: 80px;
+  }
+  .wrapper .count-down .timer {
+    width: 80px;
+  }
+  .count-down .timer .numb {
+    font-size: 20px;
+  }
+  .count-down .timer .text {
+    font-size: 13px;
+  }
+  .count-down .clone {
+    font-size: 40px;
+  }
+}
+@media (max-width: 542px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+  .wrapper .count-down .timer {
+    border: none;
+  }
+  .count-down .timer .numb {
+    font-size: 28px;
+  }
+  .count-down .timer .text {
+    font-size: 15px;
+  }
+  .count-down .clone {
+    display: none;
+  }
+  .form .email-field button {
+    width: 150px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 340px) {
+  .wrapper .count-down {
+    height: 30px;
+  }
+  .wrapper .count-down .timer {
+    width: 30px;
+  }
+}
