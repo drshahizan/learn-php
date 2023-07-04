@@ -16,20 +16,23 @@
 
 
 -- Dumping database structure for warung_hunter
+DROP DATABASE IF EXISTS `warung_hunter`;
 CREATE DATABASE IF NOT EXISTS `warung_hunter` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `warung_hunter`;
 
 -- Dumping structure for table warung_hunter.admins
+DROP TABLE IF EXISTS `admins`;
 CREATE TABLE IF NOT EXISTS `admins` (
   `id` int NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Data exporting was unselected.
 
 -- Dumping structure for table warung_hunter.comments
+DROP TABLE IF EXISTS `comments`;
 CREATE TABLE IF NOT EXISTS `comments` (
   `id` int NOT NULL AUTO_INCREMENT,
   `stall_id` int NOT NULL,
@@ -42,20 +45,26 @@ CREATE TABLE IF NOT EXISTS `comments` (
 -- Data exporting was unselected.
 
 -- Dumping structure for table warung_hunter.stalls
+DROP TABLE IF EXISTS `stalls`;
 CREATE TABLE IF NOT EXISTS `stalls` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
   `description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   `address` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `operation_hours` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `operation_time` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `location` text,
+  `contact_no` varchar(255) DEFAULT NULL,
+  `website` text,
+  `social_media` text,
   `created_at` datetime DEFAULT NULL,
   `created_by_admin_id` int DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Data exporting was unselected.
 
 -- Dumping structure for table warung_hunter.users
+DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `username` varchar(50) NOT NULL,
