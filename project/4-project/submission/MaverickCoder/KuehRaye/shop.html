@@ -32,7 +32,7 @@
 
 </head>
 <body>
-	
+
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -40,7 +40,7 @@
         </div>
     </div>
     <!--PreLoader Ends-->
-	
+
 	<!-- header -->
 	<div class="top-header-area" id="sticker">
 		<div class="container">
@@ -60,7 +60,7 @@
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">About</a></li>
-								
+
 								<li><a href="news.html">News</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
@@ -102,16 +102,18 @@
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
 							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
+							<input type="text" id="searchInput" placeholder="Keywords">
+							<button type="submit" id="searchBtn"><i class="fas fa-search"></i>
+								Search</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div id="searchResults" class="results-container"></div>
 	</div>
-	<!-- end search arewa -->
-	
+	<!-- end search area -->
+
 	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
@@ -161,7 +163,7 @@
 									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-3" value="1" min="0"></td>
 									<td class="product-total" id="total-3">45</td>
 								</tr>
-								
+
 						</tbody>
 					</table>
 				</div>
@@ -225,18 +227,18 @@ tableBodyRows.forEach((row) => {
   // Get the quantity input and price elements for the current row
   const quantityInput = row.querySelector('.quantity-input');
   const priceElement = row.querySelector('.product-price');
-  
+
   // Get the quantity and price values
   const quantity = parseFloat(quantityInput.value);
   const price = parseFloat(priceElement.textContent);
-  
+
   // Calculate the total price for the current row
   const rowTotal = quantity * price;
-  
+
   // Update the total price for the current row
   const totalElement = row.querySelector('.product-total');
   totalElement.textContent = rowTotal.toFixed(2);
-  
+
   // Update the subtotal
   subtotal += rowTotal;
 });
@@ -293,7 +295,7 @@ quantityInputs.forEach((input) => {
 recalculateSubtotalAndTotal();
 
   </script>
-  
+
 
 
 
@@ -371,7 +373,7 @@ recalculateSubtotalAndTotal();
 		</div>
 	</div>
 	<!-- end footer -->
-	
+
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
@@ -394,7 +396,7 @@ recalculateSubtotalAndTotal();
 		</div>
 	</div>
 	<!-- end copyright -->
-	
+
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
