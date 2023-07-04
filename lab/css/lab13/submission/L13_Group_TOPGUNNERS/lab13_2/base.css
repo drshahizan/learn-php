@@ -1,0 +1,53 @@
+/* base colors */
+
+header {
+  background-color: #f94144;
+}
+
+nav {
+  background-color: #f3722c;
+}
+
+aside {
+  background-color: #f9c74f;
+}
+
+section {
+  background-color: #90be6d;
+}
+
+section article {
+  background-color: #4d908e;
+}
+
+footer {
+  color: white;
+  background-color: #264653;
+}
+
+/* base block layout */
+
+body {
+  width: 60em;
+  margin: 0 auto;
+}
+
+body > * {
+  padding: 1em;
+}
+
+main {
+  padding: 0;
+}
+
+main > * {
+  padding: 1em;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+main section article {
+  padding: 1em; margin: 1em;
+}
