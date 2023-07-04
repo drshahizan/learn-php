@@ -249,46 +249,49 @@ totalElement.textContent = subtotal.toFixed(2);
 
 
 
+// Calculate total price for each product based on quantity
+function updateTotalPrice(productId) {
+  const quantityInput = document.getElementById(`quantity-${productId}`);
+  const totalPrice = document.getElementById(`total-${productId}`);
+  const price = parseFloat(document.getElementById(`price-${productId}`).textContent);
+  const quantity = parseInt(quantityInput.value);
+  const total = price * quantity;
+  totalPrice.textContent = total.toFixed(2);
 
-	// Calculate total price for each product based on quantity
-	function updateTotalPrice(productId) {
-	  const quantityInput = document.getElementById(`quantity-${productId}`);
-	  const totalPrice = document.getElementById(`total-${productId}`);
-	  const price = parseFloat(totalPrice.textContent.replace(/,/g, ''));
-	  const quantity = parseInt(quantityInput.value);
-	  const total = price * quantity;
-	  totalPrice.textContent = total.toFixed(2);
-  
-	  recalculateSubtotalAndTotal();
-	}
-  
-	// Recalculate subtotal and total
-	function recalculateSubtotalAndTotal() {
-	  const productTotals = document.querySelectorAll('.product-total');
-	  let subtotal = 0;
-	  productTotals.forEach((total) => {
-		subtotal += parseFloat(total.textContent.replace(/,/g, ''));
-	  });
-  
-	  const shipping = 10; // Assuming a static shipping cost
-	  const total = subtotal + shipping;
-  
-	  // Update the subtotal and total elements
-	  document.getElementById('subtotal').textContent = subtotal.toFixed(2);
-	  document.getElementById('total').textContent = total.toFixed(2);
-	}
-  
-	// Add event listeners to quantity input fields
-	const quantityInputs = document.querySelectorAll('.quantity-input');
-	quantityInputs.forEach((input) => {
-	  const productId = input.id.split('-')[1];
-	  input.addEventListener('input', function () {
-		updateTotalPrice(productId);
-	  });
-	});
-  
-	// Initial calculation of subtotal and total
-	recalculateSubtotalAndTotal();
+  recalculateSubtotalAndTotal();
+}
+
+// Recalculate subtotal and total
+function recalculateSubtotalAndTotal() {
+  const productTotals = document.querySelectorAll('.product-total');
+  let subtotal = 0;
+  productTotals.forEach((total) => {
+    subtotal += parseFloat(total.textContent);
+  });
+
+  const shipping = 10; // Assuming a static shipping cost
+  const total = subtotal + shipping;
+
+  // Update the subtotal and total elements
+  document.getElementById('subtotal').textContent = subtotal.toFixed(2);
+  document.getElementById('total').textContent = total.toFixed(2);
+}
+
+// Add event listeners to quantity input fields
+const quantityInputs = document.querySelectorAll('.quantity-input');
+quantityInputs.forEach((input) => {
+  const productId = input.id.split('-')[1];
+  input.addEventListener('input', function () {
+    updateTotalPrice(productId);
+  });
+});
+
+
+
+
+// Initial calculation of subtotal and total
+recalculateSubtotalAndTotal();
+
   </script>
   
 
