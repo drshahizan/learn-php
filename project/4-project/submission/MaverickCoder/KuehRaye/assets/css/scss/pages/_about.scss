@@ -1,0 +1,93 @@
+/* -----------------------------------------------------------------------------
+
+# About Page Styles
+
+----------------------------------------------------------------------------- */
+.feature-bg {
+	position: relative;
+  	margin: 150px 0;
+	&:after {
+		background-image: url(../img/feature-bg.jpg);
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 40%;
+		height: 100%;
+		content: "";
+		background-size: cover;
+		background-position: center;
+		border-top-left-radius: 5px;
+		box-shadow: 0 0 20px #cacaca;
+		border-bottom-left-radius: 5px;
+	}
+}
+
+.team-bg-1 {
+  background-image: url(../img/team/team-1.jpg);
+}
+
+.team-bg-2 {
+  background-image: url(../img/team/team-2.jpg);
+}
+
+.team-bg-3 {
+  background-image: url(../img/team/team-3.jpg);
+}
+
+.team-bg-4 {
+  background-image: url(../img/team/team-4.jpg);
+}
+
+.team-bg {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.single-team-item {
+  position: relative;
+
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    span {
+      font-size: 70%;
+      display: block;
+      margin-top: 10px;
+      opacity: 0.7;
+    }
+  }
+}
+
+ul.social-link-team {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+  li {
+    display: inline-block;
+
+    a {
+      color: $white-color;
+      background-color: $primary-color;
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+      text-align: center;
+      border-radius: 50%;
+      display: block;
+      margin: 5px;
+    }
+  }
+}

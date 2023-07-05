@@ -29,7 +29,7 @@ Don't forget to hit the :star: if you like this repo.
 17.B
 18.A
 19.D
-20.D
+20.C
 21.B
 22.C
 23.B

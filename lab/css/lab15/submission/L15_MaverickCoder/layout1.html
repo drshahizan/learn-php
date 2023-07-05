@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+  Lab 15: Layout 1
+  Group:
+  1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+  2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+  3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+  4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: ashurarin
+  -->
+  <title>HTML Layout with CSS</title>
+  <style>
+    body {
+      margin: 0;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-height: 80vh;
+      width: 80%;
+      margin: auto;
+    }
+
+    header,
+    footer {
+      color: black;
+      background-color: #ffd802;
+      padding: 20px;
+    }
+
+    .content {
+      display: flex;
+      grid-template-columns: auto 1fr auto;
+      background-color: #ffd802;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav {
+      float: left;
+      width: 15%;
+      background-color: #ffd802;
+      border-top: 10px solid white;
+      border-right: 10px solid white;
+      border-bottom: 10px solid white;
+      padding: 20px;
+    }
+
+    .article {
+      float: left;
+      width: 70%;
+      background-color: #ffd802;
+      border-top: 10px solid white;
+      border-right: 10px solid white;
+      border-bottom: 10px solid white;
+      padding: 20px;
+
+    }
+
+    .ads {
+      float: left;
+      width: 15%;
+      background-color: #ffd802;
+      border-top: 10px solid white;
+      border-bottom: 10px solid white;
+      padding: 20px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <header>Header</header>
+  <div class="content">
+    <div class="nav">Nav</div>
+    <div class="article">Article</div>
+    <div class="ads">Ads</div>
+  </div>
+  <footer>Footer</footer>
+</body>
+
+</html>

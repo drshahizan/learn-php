@@ -1,0 +1,215 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .solutions_img {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_main {
+        padding-top: 18%;
+    }
+    .text-bg h1 {
+        font-size: 66px;
+        line-height: 87px;
+    }
+    .bann_img {
+        padding-right: 0;
+    }
+    .titlepage h2 {
+        font-size: 38px;
+    }
+    .solutions_img {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_main {
+        padding-top: 18%;
+    }
+    .text-bg h1 {
+        font-size: 47px;
+        line-height: 69px;
+    }
+    .bann_img {
+        padding-right: 0px;
+    }
+    .titlepage h2 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .multipurpose h3 {
+        font-size: 70px;
+        line-height: 90px;
+    }
+    .solutions_img {
+        margin-right: 0;
+    }
+    .contac_detel ul li img {
+        margin-right: 27px;
+    }
+    .contac_detel ul li {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .text-bg {
+        padding-top: 73px;
+    }
+    .text-bg h1 {
+        font-size: 57px;
+        line-height: 81px;
+    }
+    .text-bg a {
+        margin-bottom: 30px;
+        max-width: 250px;
+    }
+    .titlepage h2 {
+        font-size: 38px;
+    }
+    .service .titlepage {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+    .service_img {
+        padding-left: 0px;
+    }
+    .sm_none {
+        display: none;
+    }
+    .sm_show {
+        display: block;
+        padding-top: 30px;
+    }
+    .multipurpose h3 {
+        font-size: 58px;
+        line-height: 70px;
+    }
+    .solutions_img {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 52px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding: 0;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    .text-bg {
+        padding-top: 84px;
+    }
+    .text-bg a {
+        margin-bottom: 30px;
+        max-width: 250px;
+    }
+    .text-bg h1 {
+        font-size: 34px;
+        line-height: 53px;
+        padding-bottom: 40px;
+    }
+    .service .titlepage {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+    .titlepage h2 {
+        font-size: 22px;
+        line-height: 37px;
+    }
+    .about_img {
+        padding: 0;
+    }
+    .multipurpose h3 {
+        font-size: 52px;
+        line-height: 74px;
+    }
+    .multipurpose p {
+        padding-top: 10px;
+    }
+    .contac_detel ul li {
+        font-size: 24px;
+    }
+    .contac_detel ul li img {
+        margin-right: 13px;
+        width: 43px;
+    }
+    .service_img {
+        padding-left: 0px;
+    }
+    .solutions_img {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .sm_none {
+        display: none;
+    }
+    .sm_show {
+        display: block;
+        padding-top: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -33px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 62px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        padding: 0;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+}
