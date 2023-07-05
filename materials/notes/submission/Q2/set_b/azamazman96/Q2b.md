@@ -7,59 +7,61 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# JavaScript: Fundamental
+# JavaScript: DOM
 
-## Set A
-1.B
-2.D
-3.D
-4.B
-5.A
-6.A
-7.B
-8.A
-9.C
-10.A
-11.A
-12.A
-13.A
-14.B
-15.A
-16.D
-17.B
-18.A
-19.D
-20.C
-21.B
-22.C
-23.B
-24.A
-25.D
-26.A
-27.C
-28.A
-29.A
-30.B
-31.A
-32.D
-33.A
-34.A
-35.A
-36.B
-37.A
-38.A
-39.A
-40.A
-41.B
-42.A
-43.A
-44.A
-45.A
-46.A
-47.A
-48.A
-49.A
-50.A
+## Set B
+1. A
+2. C
+3. C
+4. D
+5. C
+6. C
+7. A
+8. C
+9. C
+10. B
+11. A
+12. C
+13. C
+14. B
+15. A
+16. A
+17. B
+18. B
+19. A
+20. A
+21. A
+22. B
+23. A
+24. B
+25. C
+26. A
+27. A
+28. A
+29. A
+30. D
+31. A
+32. C
+33. B
+34. A
+35. A
+36. A
+37. A
+38. A
+39. A
+40. A
+41. A
+42. B
+43. A
+44. A
+45. A
+46. A
+47. A
+48. D
+49. A
+50. A
+
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
@@ -68,5 +70,6 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
+
 
 
