@@ -1,0 +1,235 @@
+/*---------------------
+  Product Details
+-----------------------*/
+.product-details {
+    padding-top: 90px;
+    padding-bottom: 0;
+}
+
+.product__details__big__img {
+    width: calc(84% - 20px);
+    float: left;
+    margin-right: 20px;
+
+    img {
+        min-width: 100%;
+    }
+}
+
+.product__details__thumb {
+    height: 440px;
+    float: left;
+    width: 16%;
+    overflow: hidden;
+
+    .pt__item {
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        img {
+            min-width: 100%;
+        }
+    }
+}
+
+.product__details__text {
+
+    .product__label {
+        display: inline-block;
+        font-size: 14px;
+        color: $white-color;
+        background: $heading-color;
+        padding: 6px 10px 4px;
+        border-radius: 4px;
+    }
+
+    h4 {
+        color: $heading-color;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 25px;
+        margin-bottom: 22px;
+    }
+
+    h5 {
+        color: #444444;
+        font-size: 20px;
+        font-weight: 600;
+        border-bottom: 1px solid #e1e1e1;
+        padding-bottom: 25px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #444444;
+        margin-bottom: 18px;
+    }
+
+    ul {
+        margin-bottom: 30px;
+
+        li {
+            list-style: none;
+            font-size: 16px;
+            color: #888888;
+            line-height: 28px;
+
+            span {
+                font-weight: 500;
+                color: $heading-color;
+            }
+        }
+    }
+}
+
+.product__details__option {
+    overflow: hidden;
+
+    .quantity {
+        overflow: hidden;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .pro-qty {
+        height: 50px;
+        width: 140px;
+        border: 1px solid #e1e1e1;
+        padding: 0 20px;
+
+        .qtybtn {
+            font-size: 16px;
+            float: left;
+            height: 100%;
+            line-height: 48px;
+            cursor: pointer;
+            font-weight: 600;
+
+            &.dec {
+                color: #888888;
+            }
+
+            &.inc {
+                color: $heading-color;
+            }
+
+        }
+
+        input {
+            border: none;
+            height: 100%;
+            width: 82px;
+            font-size: 16px;
+            font-weight: 600;
+            color: $heading-color;
+            float: left;
+            text-align: center;
+        }
+    }
+
+    a {
+        float: left;
+
+        &.heart__btn {
+            font-size: 20px;
+            border: 1px solid #e1e1e1;
+            display: inline-block;
+            color: $primary-color;
+            padding: 14px;
+            line-height: 16px;
+        }
+    }
+
+    .primary-btn {
+        margin-right: 20px;
+    }
+}
+
+.product__details__tab {
+    padding-top: 85px;
+
+    .nav-tabs {
+        border-bottom: 1px solid #e1e1e1;
+        justify-content: center;
+
+        .nav-item {
+            margin-right: 45px;
+            position: relative;
+
+            &:after {
+                position: absolute;
+                right: -25px;
+                top: 0;
+                content: "|";
+                color: #444444;
+            }
+
+            &:last-child {
+                margin-right: 0;
+
+                &:after {
+                    display: none;
+                }
+            }
+
+            .nav-link {
+                font-size: 16px;
+                color: #444444;
+                padding: 0;
+                border: none;
+                padding-bottom: 12px;
+                border-bottom: 2px solid transparent;
+
+                &.active {
+                    color: $heading-color;
+                    border-bottom: 1px solid $heading-color;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+
+        p {
+            color: #444444;
+            line-height: 30px;
+            text-align: center;
+            padding-top: 44px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+/*---------------------
+  Related Products
+-----------------------*/
+.related-products {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.related__products__slider {
+
+    &.owl-carousel {
+
+        .col-lg-3 {
+            max-width: 100%;
+        }
+
+        .owl-nav {
+
+            button {
+                font-size: 30px;
+                color: #888888;
+                position: absolute;
+                left: -44px;
+                top: 28%;
+
+                &.owl-next {
+                    left: auto;
+                    right: -44px;
+                }
+            }
+        }
+    }
+}

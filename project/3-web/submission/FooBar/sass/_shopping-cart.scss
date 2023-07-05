@@ -1,0 +1,226 @@
+/*---------------------
+  Shopping Cart
+-----------------------*/
+.shopping__cart__table {
+  margin-bottom: 30px;
+
+  table {
+    width: 100%;
+
+    thead {
+      border-bottom: 1px solid #f2f2f2;
+      
+      tr {
+        
+        th {
+          color: $heading-color;
+          font-size: 16px;
+          font-weight: 600;
+          text-transform: uppercase;
+          padding-bottom: 25px;
+        }
+      }
+    }
+
+    tbody {
+
+      tr {
+        border-bottom: 1px solid #f2f2f2;
+
+        td {
+          padding-bottom: 30px;
+          padding-top: 30px;
+
+          &.product__cart__item {
+            width: 400px;
+
+            .product__cart__item__pic {
+              float: left;
+              margin-right: 30px;
+            }
+
+            .product__cart__item__text {
+              overflow: hidden;
+              padding-top: 21px;
+
+              h6 {
+                color: $heading-color;
+                font-size: 16px;
+                font-weight: 500;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+              }
+
+              h5 {
+                color: $heading-color;
+                font-weight: 600;
+                font-size: 16px;
+              }
+            }
+          }
+
+          &.quantity__item {
+            width: 175px;
+
+            .quantity {
+
+              .pro-qty {
+                width: 90px;
+
+                input {
+                  width: 65px;
+                  border: none;
+                  text-align: center;
+                  color: $heading-color;
+                  font-size: 16px;
+                  font-weight: 500;
+                }
+
+                .qtybtn {
+                  font-size: 16px;
+                  color: #888888;
+                  width: 10px;
+                  cursor: pointer;
+                  font-weight: 500;
+                }
+              }
+            }
+          }
+
+          &.cart__price {
+            color: $heading-color;
+            font-size: 16px;
+            font-weight: 600;
+            width: 140px;
+          }
+
+          &.cart__close {
+
+            span {
+              font-size: 18px;
+              display: inline-block;
+              color: $heading-color;
+              height: 40px;
+              width: 40px;
+              background: #f2f2f2;
+              border-radius: 50%;
+              line-height: 38px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.continue__btn {
+
+  &.update__btn {
+    text-align: right;
+
+    a {
+      color: $white-color;
+      background: $heading-color;
+      border-color: $heading-color;
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  a {
+    color: $heading-color;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #e1e1e1;
+    padding: 14px 35px;
+    display: inline-block;
+  }
+}
+
+.cart__discount {
+  margin-bottom: 60px;
+
+  h6 {
+    color: $heading-color;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+
+  form {
+    position: relative;
+
+    input {
+      font-size: 14px;
+      color: #444444;
+      height: 50px;
+      width: 100%;
+      border: 1px solid #e1e1e1;
+      padding-left: 20px;
+
+      &::placeholder {
+        color: #444444;
+      }
+    }
+
+    button {
+      font-size: 14px;
+      color: $white-color;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background: $heading-color;
+      padding: 0 30px;
+      border: none;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+    }
+  }
+}
+
+.cart__total {
+  background: #fdf3ea;
+  padding: 35px 40px 40px;
+
+  h6 {
+    color: $heading-color;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  ul {
+    margin-bottom: 25px;
+
+    li {
+      list-style: none;
+      font-size: 16px;
+      color: #444444;
+      font-weight: 500;
+      line-height: 40px;
+      overflow: hidden;
+
+      span {
+        font-weight: 600;
+        color: #e26b0c;
+        float: right;
+      }
+    }
+  }
+
+  .primary-btn {
+    display: block;
+    background: $heading-color;
+    color: $white-color;
+    padding: 12px 10px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+}

@@ -1,0 +1,44 @@
+/*---------------------
+  Breadcrumb
+-----------------------*/
+.breadcrumb-option {
+    padding-top: 60px;
+}
+
+.breadcrumb__text {
+
+    h2 {
+        font-size: 50px;
+        color: $black-color;
+        font-weight: 700;
+        font-style: italic;
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+.breadcrumb__links {
+    text-align: right;
+    padding-top: 15px;
+
+    a {
+        font-size: 16px;
+        color: $heading-color;
+        margin-right: 26px;
+        display: inline-block;
+        position: relative;
+
+        &:after {
+            position: absolute;
+            right: -16px;
+            top: 0;
+            content: '|';
+            color: #888888;
+        }
+    }
+
+    span {
+        font-size: 16px;
+        color: #888888;
+        display: inline-block;
+    }
+}

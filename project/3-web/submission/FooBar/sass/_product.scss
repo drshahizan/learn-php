@@ -1,0 +1,105 @@
+/*---------------------
+  Product
+-----------------------*/
+.product {
+    padding-top: 50px;
+}
+
+.product__item {
+    margin-bottom: 40px;
+
+    &:hover {
+
+        .product__item__pic {
+
+            .product__label {
+                
+                span {
+                    background: $primary-color;
+                    color: $white-color;
+                }
+            }
+        }
+        
+        .product__item__text {
+
+            .product__item__price {
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            .cart_add {
+                opacity: 1;
+                visibility: visible;
+                bottom: -4px;
+            }
+        }
+    }
+}
+
+.product__item__pic {
+    height: 270px;
+    position: relative;
+    background-position: center;
+
+    .product__label {
+        position: absolute;
+        left: 0;
+        bottom: -15px;
+        text-align: center;
+        width: 100%;
+        
+        span {
+            display: inline-block;
+            font-size: 14px;
+            color: $heading-color;
+            background: $white-color;
+            padding: 6px 10px 4px;
+            border-radius: 2px;
+            box-shadow: 0 0 10px rgba(223, 223, 224, 0.7);
+            @include transition(all, .5s);
+        }
+    }
+}
+
+.product__item__text {
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+
+    h6 {
+        margin-bottom: 16px;
+        
+        a {
+            color: $heading-color;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+    .product__item__price {
+        color: $heading-color;
+        font-weight: 600;
+        font-size: 16px;
+        @include transition(all, .3s);
+    }
+
+    .cart_add {
+        position: absolute;
+        left: 0;
+        bottom: -20px;
+        width: 100%;
+        @include transition(all, .5s);
+        opacity: 0;
+        visibility: hidden;
+        
+        a {
+            color: $heading-color;
+            font-size: 16px;
+            font-weight: 600;
+            display: inline-block;
+            border-bottom: 2px solid $primary-color;
+            padding-bottom: 4px;
+        }
+    }
+}
