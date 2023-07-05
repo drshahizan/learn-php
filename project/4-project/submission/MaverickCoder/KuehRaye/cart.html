@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>My Cart</title>
@@ -32,7 +33,7 @@
 
 </head>
 <body>
-
+	
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -40,7 +41,7 @@
         </div>
     </div>
     <!--PreLoader Ends-->
-
+	
 	<!-- header -->
 	<div class="top-header-area" id="sticker">
 		<div class="container">
@@ -60,7 +61,7 @@
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">About</a></li>
-
+								
 								<li><a href="news.html">News</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
@@ -68,7 +69,7 @@
 									</ul>
 								</li>
 								<li><a href="contact.html">Contact</a></li>
-								<li class="current-list-item"><a href="shop.html">Shop</a>
+								<li><a href="shop.html">Shop</a>
 									<ul class="sub-menu">
 										<li><a href="shop.html">Shop</a></li>
 										<li><a href="checkout.html">Check Out</a></li>
@@ -102,18 +103,16 @@
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
 							<h3>Search For:</h3>
-							<input type="text" id="searchInput" placeholder="Keywords">
-							<button type="submit" id="searchBtn"><i class="fas fa-search"></i>
-								Search</button>
+							<input type="text" placeholder="Keywords">
+							<button type="submit">Search <i class="fas fa-search"></i></button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="searchResults" class="results-container"></div>
 	</div>
-	<!-- end search area -->
-
+	<!-- end search arewa -->
+	
 	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
@@ -124,178 +123,103 @@
 						<h1><span class="orange-text">My</span> Cart</h1>
 					</div>
 				</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- end breadcrumb section -->
 
-<!-- cart -->
-<div class="cart-section mt-150 mb-150">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-md-12">
-				<div class="cart-table-wrap">
-					<table class="cart-table">
-						<thead class="cart-table-head">
-							<tr class="table-head-row">
+	<!-- cart -->
+	<div class="cart-section mt-150 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-12">
+					<div class="cart-table-wrap">
+						<table class="cart-table">
+							<thead class="cart-table-head">
+								<tr class="table-head-row">
+									<th class="product-remove"></th>
+									<th class="product-image">Product Image</th>
+									<th class="product-name">Name</th>
+									<th class="product-price">Price</th>
+									<th class="product-quantity">Quantity</th>
+									<th class="product-total">Total (RM)</th>
+								</tr>
+							</thead>
+							<tbody>
 								<tr class="table-body-row">
+									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
 									<td class="product-name">Almond London</td>
-									<td class="product-price" id="price-1">50</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-1" value="1" min="0"></td>
-									<td class="product-total" id="total-1">50</td>
+									<td class="product-price">50</td>
+									<td class="product-quantity"><input type="number" class="quantity-input" value="1" min="0"></td>
+									<td class="product-total">50</td>
 								</tr>
 								<tr class="table-body-row">
+									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
 									<td class="product-name">Honey Cornflakes</td>
-									<td class="product-price" id="price-2">20</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-2" value="1" min="0"></td>
-									<td class="product-total" id="total-2">20</td>
+									<td class="product-price">20</td>
+									<td class="product-quantity"><input type="number" class="quantity-input" value="1" min="0"></td>
+									<td class="product-total">20</td>
 								</tr>
 								<tr class="table-body-row">
+									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
 									<td class="product-name">Nutella Pod</td>
-									<td class="product-price" id="price-3">45</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-3" value="1" min="0"></td>
-									<td class="product-total" id="total-3">45</td>
+									<td class="product-price">45</td>
+									<td class="product-quantity"><input type="number" class="quantity-input" value="1" min="0"></td>
+									<td class="product-total">45</td>
 								</tr>
-
-						</tbody>
-					</table>
-				</div>
-			</div>
-
-			<div class="col-lg-4">
-				<div class="total-section">
-					<table class="total-table">
-						<thead class="total-table-head">
-							<tr class="table-total-row">
-								<th>Total</th>
-								<th>Price</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="total-data">
-								<td><strong>Subtotal (RM): </strong></td>
-								<td id="subtotal">0</td>
-							</tr>
-							<tr class="total-data">
-								<td><strong>Shipping: </strong></td>
-								<td id="shipping">10</td>
-							</tr>
-							<tr class="total-data">
-								<td><strong>Total Price (RM): </strong></td>
-								<td id="total">0</td>
-							</tr>
-						</tbody>
-					</table>
-					<div class="cart-buttons">
-						<a href="checkout.html" class="boxed-btn black">Check Out</a>
+							</tbody>
+						</table>
 					</div>
 				</div>
-
-				<div class="coupon-section">
-					<h3>Apply Coupon</h3>
-					<div class="coupon-form-wrap">
-						<form action="index.html">
-							<p><input type="text" placeholder="Coupon"></p>
-							<p><input type="submit" value="Apply"></p>
-						</form>
+  
+				<div class="col-lg-4">
+					<div class="total-section">
+						<table class="total-table">
+							<thead class="total-table-head">
+								<tr class="table-total-row">
+									<th>Total</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="total-data">
+									<td><strong>Subtotal (RM): </strong></td>
+									<td id="subtotal">115</td>
+								</tr>
+								<tr class="total-data">
+									<td><strong>Shipping: </strong></td>
+									<td id="shipping">10</td>
+								</tr>
+								<tr class="total-data">
+									<td><strong>Total (RM): </strong></td>
+									<td id="total">125</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="cart-buttons">
+							<button class="update-cart-btn boxed-btn">Update My Cart</button>
+							<a href="checkout.html" class="boxed-btn black">Check Out</a>
+						</div>
+					</div>
+  
+					<div class="coupon-section">
+						<h3>Apply Coupon</h3>
+						<div class="coupon-form-wrap">
+							<form action="index.html">
+								<p><input type="text" placeholder="Coupon"></p>
+								<p><input type="submit" value="Apply"></p>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- end cart -->
-
-<script>
-// Get the table body rows
-const tableBodyRows = document.querySelectorAll('.table-body-row');
-
-// Initialize variables for subtotal and total price
-let subtotal = 0;
-let total = 0;
-
-// Iterate over each table body row
-tableBodyRows.forEach((row) => {
-  // Get the quantity input and price elements for the current row
-  const quantityInput = row.querySelector('.quantity-input');
-  const priceElement = row.querySelector('.product-price');
-
-  // Get the quantity and price values
-  const quantity = parseFloat(quantityInput.value);
-  const price = parseFloat(priceElement.textContent);
-
-  // Calculate the total price for the current row
-  const rowTotal = quantity * price;
-
-  // Update the total price for the current row
-  const totalElement = row.querySelector('.product-total');
-  totalElement.textContent = rowTotal.toFixed(2);
-
-  // Update the subtotal
-  subtotal += rowTotal;
-});
-
-// Update the subtotal and total price in the summary section
-const subtotalElement = document.querySelector('#subtotal');
-const totalElement = document.querySelector('#total');
-subtotalElement.textContent = subtotal.toFixed(2);
-totalElement.textContent = subtotal.toFixed(2);
-
-
-
-// Calculate total price for each product based on quantity
-function updateTotalPrice(productId) {
-  const quantityInput = document.getElementById(`quantity-${productId}`);
-  const totalPrice = document.getElementById(`total-${productId}`);
-  const price = parseFloat(document.getElementById(`price-${productId}`).textContent);
-  const quantity = parseInt(quantityInput.value);
-  const total = price * quantity;
-  totalPrice.textContent = total.toFixed(2);
-
-  recalculateSubtotalAndTotal();
-}
-
-// Recalculate subtotal and total
-function recalculateSubtotalAndTotal() {
-  const productTotals = document.querySelectorAll('.product-total');
-  let subtotal = 0;
-  productTotals.forEach((total) => {
-    subtotal += parseFloat(total.textContent);
-  });
-
-  const shipping = 10; // Assuming a static shipping cost
-  const total = subtotal + shipping;
-
-  // Update the subtotal and total elements
-  document.getElementById('subtotal').textContent = subtotal.toFixed(2);
-  document.getElementById('total').textContent = total.toFixed(2);
-}
-
-// Add event listeners to quantity input fields
-const quantityInputs = document.querySelectorAll('.quantity-input');
-quantityInputs.forEach((input) => {
-  const productId = input.id.split('-')[1];
-  input.addEventListener('input', function () {
-    updateTotalPrice(productId);
-  });
-});
-
-
-
-
-// Initial calculation of subtotal and total
-recalculateSubtotalAndTotal();
-
-
-
-
-  </script>
-
-
-
+	<!-- end cart -->
 
 	<!-- logo carousel -->
 	<div class="logo-carousel-section">
@@ -371,7 +295,7 @@ recalculateSubtotalAndTotal();
 		</div>
 	</div>
 	<!-- end footer -->
-
+	
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
@@ -394,7 +318,7 @@ recalculateSubtotalAndTotal();
 		</div>
 	</div>
 	<!-- end copyright -->
-
+	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
@@ -416,7 +340,38 @@ recalculateSubtotalAndTotal();
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
 
+	<!-- custom script -->
+	<script>
+		// Function to calculate and update cart totals
+		function updateCart() {
+			var subtotal = 0;
+			var quantityInputs = document.getElementsByClassName("quantity-input");
+			var totalInputs = document.getElementsByClassName("product-total");
 
+			for (var i = 0; i < quantityInputs.length; i++) {
+				var quantity = parseInt(quantityInputs[i].value);
+				var price = parseInt(totalInputs[i].innerHTML.replace("RM", ""));
+
+				var total = quantity * price;
+				subtotal += total;
+
+				totalInputs[i].innerHTML = "RM" + total;
+			}
+
+			document.getElementById("subtotal").innerHTML = "RM" + subtotal;
+			document.getElementById("total").innerHTML = "RM" + subtotal;
+		}
+
+		// Update cart totals when the quantity input is changed
+		var quantityInputs = document.getElementsByClassName("quantity-input");
+		for (var i = 0; i < quantityInputs.length; i++) {
+			quantityInputs[i].addEventListener("change", updateCart);
+		}
+
+		// Update cart totals when the "Update My Cart" button is clicked
+		var updateCartBtn = document.querySelector(".update-cart-btn");
+		updateCartBtn.addEventListener("click", updateCart);
+	</script>
 
 </body>
 </html>

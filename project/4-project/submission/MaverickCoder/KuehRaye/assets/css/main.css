@@ -2749,21 +2749,3 @@ table.order-details tbody td {
   vertical-align: middle;
   width: 100%;
 }
-
-.results-container {
-  position: absolute;
-  top: 80%;
-  left: 30%;
-  width: 40%;
-  background-color: #051922;
-  z-index: 1000;
-  justify-content: center;
-  align-items: center;
-}
-
-#searchResults {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-}
