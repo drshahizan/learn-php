@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<!--
+    Lab 8: Determine integer values fall within the range
+    Group: GREENHORN
+          1. Name: AMMAR IBRAHIM BIN MOHAMED, Matrix No: SX220326ECJH, Github ID: ammaribrahim95
+          2. Name: SHANMUGADHARSHINI A/P MURALI Matrix No: SX201656ECRHF04, Github ID: Shan9821
+          3. Name: LOGESWARY A/P KRISHNAMOORTHY, Matrix No: SX211705ECRHF04, Github ID: Logeswary98
+          4. Name: ADAM SHAH BIN MOHD FAIZAL, Matrix No: SX190401CSJS04 , Github ID: adamshahmf
+          --> 
+
+<head>
+
+    <title>Lab 8</title>
+    <script>
+        function checkRange() {
+            let num1 = parseInt(document.getElementById("num1").value);
+            let num2 = parseInt(document.getElementById("num2").value);
+            let num3 = parseInt(document.getElementById("num3").value);
+            let num4 = parseInt(document.getElementById("num4").value);
+
+            if ((num1 >= 55 && num1 <= 100) || (num2 >= 55 && num2 <= 100) || (num3 >= 55 && num3 <= 100)) {
+                document.getElementById("output").innerHTML = "True";
+            } else {
+                document.getElementById("output").innerHTML = "False";
+            }
+        }
+    </script>
+    
+</head>
+
+<body>
+    <h1>Check Range</h1>
+    <p>input four numbers:</p>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    <input type="text" id="num3">
+    <input type="text" id="num4">
+    <br><br>
+    <button onclick="checkRange()">Check the Range</button>
+    <p id="output"></p>
+</body>
+
+</html>
