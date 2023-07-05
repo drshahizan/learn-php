@@ -5,7 +5,6 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>My Cart</title>
@@ -71,7 +70,7 @@
 									</ul>
 								</li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
+								<li class="current-list-item"><a href="shop.html">Shop</a>
 									<ul class="sub-menu">
 										<li><a href="shop.html">Shop</a></li>
 										<li><a href="checkout.html">Check Out</a></li>
@@ -107,15 +106,17 @@
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
 							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
+							<input type="text" id="searchInput" placeholder="Keywords">
+							<button type="submit" id="searchBtn"><i class="fas fa-search"></i>
+								Search</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div id="searchResults" class="results-container"></div>
 	</div>
-	<!-- end search arewa -->
+	<!-- end search area -->
 
 	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
@@ -126,7 +127,6 @@
 						<p>FRESH FROM THE OVEN</p>
 						<h1><span class="orange-text">My</span> Cart</h1>
 					</div>
-				</div>
 				</div>
 			</div>
 		</div>
@@ -143,24 +143,30 @@
 							<thead class="cart-table-head">
 								<tr class="table-head-row">
 								<tr class="table-body-row">
-									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
+									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt="">
+									</td>
 									<td class="product-name">Almond London</td>
 									<td class="product-price" id="price-1">50</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-1" value="1" min="0"></td>
+									<td class="product-quantity"><input type="number" class="quantity-input"
+											id="quantity-2" value="1" min="0"></td>
 									<td class="product-total" id="total-1">50</td>
 								</tr>
 								<tr class="table-body-row">
-									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
+									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt="">
+									</td>
 									<td class="product-name">Honey Cornflakes</td>
 									<td class="product-price" id="price-2">20</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-2" value="1" min="0"></td>
+									<td class="product-quantity"><input type="number" class="quantity-input"
+											id="quantity-2" value="1" min="0"></td>
 									<td class="product-total" id="total-2">20</td>
 								</tr>
 								<tr class="table-body-row">
-									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
+									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt="">
+									</td>
 									<td class="product-name">Nutella Pod</td>
 									<td class="product-price" id="price-3">45</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" id="quantity-3" value="1" min="0"></td>
+									<td class="product-quantity"><input type="number" class="quantity-input"
+											id="quantity-3" value="1" min="0"></td>
 									<td class="product-total" id="total-3">45</td>
 								</tr>
 
@@ -213,93 +219,64 @@
 	</div>
 	<!-- end cart -->
 
-<script>
-// Get the table body rows
-const tableBodyRows = document.querySelectorAll('.table-body-row');
+	<script>
+		// Wait for the DOM to be fully loaded
+		document.addEventListener("DOMContentLoaded", function () {
+			// Get the necessary elements
+			const quantityInputs = document.querySelectorAll(".quantity-input");
+			const priceElements = document.querySelectorAll(".product-price");
+			const totalElements = document.querySelectorAll(".product-total");
+			const subtotalElement = document.getElementById("subtotal");
+			const shippingElement = document.getElementById("shipping");
+			const totalElement = document.getElementById("total");
 
-// Initialize variables for subtotal and total price
-let subtotal = 0;
-let total = 0;
+			// Function to calculate and update the subtotal, shipping, and total price
+			function updateCartTotals() {
+				let subtotal = 0;
+				const cartData = [];
 
-// Iterate over each table body row
-tableBodyRows.forEach((row) => {
-  // Get the quantity input and price elements for the current row
-  const quantityInput = row.querySelector('.quantity-input');
-  const priceElement = row.querySelector('.product-price');
+				// Loop through each product in the cart
+				for (let i = 0; i < quantityInputs.length; i++) {
+					const quantity = parseInt(quantityInputs[i].value);
+					const price = parseInt(priceElements[i].textContent);
+					const total = quantity * price;
 
-  // Get the quantity and price values
-  const quantity = parseFloat(quantityInput.value);
-  const price = parseFloat(priceElement.textContent);
+					// Update the total price for the product
+					totalElements[i].textContent = total;
 
-  // Calculate the total price for the current row
-  const rowTotal = quantity * price;
+					// Add the product details to the cart data
+					const name = document.querySelectorAll(".product-name")[i].textContent;
+					cartData.push({ name, price, quantity });
 
-  // Update the total price for the current row
-  const totalElement = row.querySelector('.product-total');
-  totalElement.textContent = rowTotal.toFixed(2);
+					// Add the product total to the subtotal
+					subtotal += total;
+				}
 
-  // Update the subtotal
-  subtotal += rowTotal;
-});
+				// Convert cart data to JSON string
+				const cartDataString = JSON.stringify(cartData);
 
-// Update the subtotal and total price in the summary section
-const subtotalElement = document.querySelector('#subtotal');
-const totalElement = document.querySelector('#total');
-subtotalElement.textContent = subtotal.toFixed(2);
-totalElement.textContent = subtotal.toFixed(2);
+				// URL-encode the cart data string
+				const encodedCartData = encodeURIComponent(cartDataString);
 
+				// Update the href attribute of the checkout button with the encoded cart data
+				const checkoutButton = document.getElementById('checkout-btn');
+				checkoutButton.href = `checkout.html?cartData=${encodedCartData}`;
 
+				// Update the subtotal, shipping, and total price
+				subtotalElement.textContent = subtotal;
+				totalElement.textContent = subtotal + parseInt(shippingElement.textContent);
+			}
 
-// Calculate total price for each product based on quantity
-function updateTotalPrice(productId) {
-  const quantityInput = document.getElementById(`quantity-${productId}`);
-  const totalPrice = document.getElementById(`total-${productId}`);
-  const price = parseFloat(document.getElementById(`price-${productId}`).textContent);
-  const quantity = parseInt(quantityInput.value);
-  const total = price * quantity;
-  totalPrice.textContent = total.toFixed(2);
+			// Event listener for quantity input changes
+			quantityInputs.forEach(function (input) {
+				input.addEventListener("change", updateCartTotals);
+			});
 
-  recalculateSubtotalAndTotal();
-}
+			// Initial calculation of cart totals
+			updateCartTotals();
+		});
 
-// Recalculate subtotal and total
-function recalculateSubtotalAndTotal() {
-  const productTotals = document.querySelectorAll('.product-total');
-  let subtotal = 0;
-  productTotals.forEach((total) => {
-    subtotal += parseFloat(total.textContent);
-  });
-
-  const shipping = 10; // Assuming a static shipping cost
-  const total = subtotal + shipping;
-
-  // Update the subtotal and total elements
-  document.getElementById('subtotal').textContent = subtotal.toFixed(2);
-  document.getElementById('total').textContent = total.toFixed(2);
-}
-
-// Add event listeners to quantity input fields
-const quantityInputs = document.querySelectorAll('.quantity-input');
-quantityInputs.forEach((input) => {
-  const productId = input.id.split('-')[1];
-  input.addEventListener('input', function () {
-    updateTotalPrice(productId);
-  });
-});
-
-
-
-
-// Initial calculation of subtotal and total
-recalculateSubtotalAndTotal();
-
-
-
-
-  </script>
-
-
-
+	</script>
 
 	<!-- logo carousel -->
 	<div class="logo-carousel-section">
@@ -423,38 +400,7 @@ recalculateSubtotalAndTotal();
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
 
-	<!-- custom script -->
-	<script>
-		// Function to calculate and update cart totals
-		function updateCart() {
-			var subtotal = 0;
-			var quantityInputs = document.getElementsByClassName("quantity-input");
-			var totalInputs = document.getElementsByClassName("product-total");
 
-			for (var i = 0; i < quantityInputs.length; i++) {
-				var quantity = parseInt(quantityInputs[i].value);
-				var price = parseInt(totalInputs[i].innerHTML.replace("RM", ""));
-
-				var total = quantity * price;
-				subtotal += total;
-
-				totalInputs[i].innerHTML = "RM" + total;
-			}
-
-			document.getElementById("subtotal").innerHTML = "RM" + subtotal;
-			document.getElementById("total").innerHTML = "RM" + subtotal;
-		}
-
-		// Update cart totals when the quantity input is changed
-		var quantityInputs = document.getElementsByClassName("quantity-input");
-		for (var i = 0; i < quantityInputs.length; i++) {
-			quantityInputs[i].addEventListener("change", updateCart);
-		}
-
-		// Update cart totals when the "Update My Cart" button is clicked
-		var updateCartBtn = document.querySelector(".update-cart-btn");
-		updateCartBtn.addEventListener("click", updateCart);
-	</script>
 
 </body>
 
