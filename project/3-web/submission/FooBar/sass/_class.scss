@@ -1,0 +1,147 @@
+/*---------------------
+  Class
+-----------------------*/
+.class-page {}
+
+.class__item {
+    margin-bottom: 55px;
+
+    &:hover {
+
+        .class__item__pic {
+
+            .label {
+                background: $primary-color;
+            }
+        }
+
+        .class__item__text {
+
+            h5 {
+
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.class__item__pic {
+    height: 240px;
+    position: relative;
+
+    .label {
+        font-size: 16px;
+        font-weight: 600;
+        color: $white-color;
+        background: $heading-color;
+        padding: 4px 15px 2px;
+        border-radius: 4px;
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        bottom: 10px;
+        @include transition(all, .3s);
+    }
+}
+
+.class__item__text {
+    padding: 25px 14px 0 30px;
+
+    h5 {
+        margin-bottom: 10px;
+
+        a {
+            font-size: 20px;
+            color: $heading-color;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+    span {
+        font-size: 14px;
+        color: #888888;
+        display: block;
+        margin-bottom: 14px;
+    }
+
+    p {
+        color: #444444;
+        line-height: 30px;
+    }
+
+    .read_more {
+        font-size: 16px;
+        color: $primary-color;
+        font-weight: 600;
+    }
+}
+
+
+.class__sidebar {
+    background: #fdf3ea;
+    padding: 30px;
+
+    h5 {
+        font-size: 20px;
+        color: $heading-color;
+        line-height: 28px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    form {
+
+        input {
+            height: 50px;
+            width: 100%;
+            padding-left: 20px;
+            font-size: 15px;
+            color: #444444;
+            background: $white-color;
+            border: none;
+            margin-bottom: 20px;
+
+            &::placeholder {
+                color: #444444;
+            }
+        }
+
+        .nice-select {
+            float: none;
+            border-radius: 0;
+            border: none;
+            padding-left: 20px;
+            margin-bottom: 20px;
+            height: 50px;
+            line-height: 50px;
+
+            span {
+                font-size: 15px;
+                color: #444444;
+            }
+
+            .list {
+                margin-top: 0;
+                border-radius: 0;
+                width: 100%;
+            }
+
+            &:after {
+                border-bottom: 1.5px solid #111;
+                border-right: 1.5px solid #111;
+                height: 9px;
+                right: 25px;
+                width: 9px;
+            }
+        }
+
+        button {
+            letter-spacing: 2px;
+            width: 100%;
+        }
+    }
+}
