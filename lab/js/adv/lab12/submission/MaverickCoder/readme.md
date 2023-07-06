@@ -18,7 +18,7 @@ Ans:
 
 
 <!--
-            JavaScript adv: Lab 8
+            JavaScript adv: Lab 12
             Group:
             1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
             2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
