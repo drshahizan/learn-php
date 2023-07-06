@@ -8,6 +8,15 @@ Novosibirsk: Clear sky, 26°C, 47% humidity
 
 ## Q2: Demonstrate how to use device location.
 Ans:
+1. n the JavaScript code (script.js), locate the event listener for the "Get Device Location" button. It should be associated with the locationBtn variable.
+
+2. Inside the event listener function, you'll find a conditional statement checking if the browser supports the Geolocation API using navigator.geolocation. If the browser does support it, the getCurrentPosition method is called.
+
+3. To handle the device location, you need to define two callback functions: onSuccess and onError.
+
+4. The latitude and longitude values are then used to construct the API URL by updating the api variable with the appropriate API endpoint.
+
+5. Finally, the fetchData function is called to retrieve the weather details using the updated API URL.
 
 ## Q3: What is the openweathermap API?
 Ans:
