@@ -63,7 +63,7 @@ Ans:
 The file css/all.min.css is commonly associated with the Font Awesome icon library. Font Awesome is a popular collection of scalable vector icons that can be used in web development. The all.min.css file is a compressed and minified CSS file that contains the styles necessary to display and render the Font Awesome icons.
 
 <!--
-            JavaScript adv: Lab 8
+            JavaScript adv: Lab 11
             Group:
             1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
             2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
