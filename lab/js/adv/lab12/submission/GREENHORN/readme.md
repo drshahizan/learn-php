@@ -39,7 +39,7 @@ _jQuery plugins: There are various jQuery plugins available, such as MetisMenu a
 > 5. What are some best practices for designing and implementing a sidebar menu template, and how can you ensure it is user-friendly and accessible?
 Here are some best practices for designing and implementing a sidebar menu template:
 
-_K_eep it simple and organized: Avoid overcrowding the sidebar menu with too many items. Use clear labels and organize the menu items logically.
+_Keep it simple and organized: Avoid overcrowding the sidebar menu with too many items. Use clear labels and organize the menu items logically.
 Use visual cues: Employ icons(Continued...)
 and/or tooltips to provide visual cues for menu items, helping users understand their purpose or function.
 
