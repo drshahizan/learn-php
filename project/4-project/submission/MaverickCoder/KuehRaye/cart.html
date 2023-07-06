@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>My Cart</title>
@@ -32,16 +32,17 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
+
 <body>
-	
+
 	<!--PreLoader-->
-    <div class="loader">
-        <div class="loader-inner">
-            <div class="circle"></div>
-        </div>
-    </div>
-    <!--PreLoader Ends-->
-	
+	<div class="loader">
+		<div class="loader-inner">
+			<div class="circle"></div>
+		</div>
+	</div>
+	<!--PreLoader Ends-->
+
 	<!-- header -->
 	<div class="top-header-area" id="sticker">
 		<div class="container">
@@ -61,7 +62,7 @@
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">About</a></li>
-								
+
 								<li><a href="news.html">News</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
@@ -69,7 +70,7 @@
 									</ul>
 								</li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
+								<li class="current-list-item"><a href="shop.html">Shop</a>
 									<ul class="sub-menu">
 										<li><a href="shop.html">Shop</a></li>
 										<li><a href="checkout.html">Check Out</a></li>
@@ -78,8 +79,10 @@
 								</li>
 								<li>
 									<div class="header-icons">
-										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+										<a class="shopping-cart" href="cart.html"><i
+												class="fas fa-shopping-cart"></i></a>
+										<a class="mobile-hide search-bar-icon" href="#"><i
+												class="fas fa-search"></i></a>
 									</div>
 								</li>
 							</ul>
@@ -103,16 +106,18 @@
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
 							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
+							<input type="text" id="searchInput" placeholder="Keywords">
+							<button type="submit" id="searchBtn"><i class="fas fa-search"></i>
+								Search</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div id="searchResults" class="results-container"></div>
 	</div>
-	<!-- end search arewa -->
-	
+	<!-- end search area -->
+
 	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
@@ -122,7 +127,6 @@
 						<p>FRESH FROM THE OVEN</p>
 						<h1><span class="orange-text">My</span> Cart</h1>
 					</div>
-				</div>
 				</div>
 			</div>
 		</div>
@@ -138,44 +142,39 @@
 						<table class="cart-table">
 							<thead class="cart-table-head">
 								<tr class="table-head-row">
-									<th class="product-remove"></th>
-									<th class="product-image">Product Image</th>
-									<th class="product-name">Name</th>
-									<th class="product-price">Price</th>
-									<th class="product-quantity">Quantity</th>
-									<th class="product-total">Total (RM)</th>
-								</tr>
-							</thead>
-							<tbody>
 								<tr class="table-body-row">
-									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
+									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt="">
+									</td>
 									<td class="product-name">Almond London</td>
-									<td class="product-price">50</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" value="1" min="0"></td>
-									<td class="product-total">50</td>
+									<td class="product-price" id="price-1">50</td>
+									<td class="product-quantity"><input type="number" class="quantity-input"
+											id="quantity-2" value="1" min="0"></td>
+									<td class="product-total" id="total-1">50</td>
 								</tr>
 								<tr class="table-body-row">
-									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
+									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt="">
+									</td>
 									<td class="product-name">Honey Cornflakes</td>
-									<td class="product-price">20</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" value="1" min="0"></td>
-									<td class="product-total">20</td>
+									<td class="product-price" id="price-2">20</td>
+									<td class="product-quantity"><input type="number" class="quantity-input"
+											id="quantity-2" value="1" min="0"></td>
+									<td class="product-total" id="total-2">20</td>
 								</tr>
 								<tr class="table-body-row">
-									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
+									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt="">
+									</td>
 									<td class="product-name">Nutella Pod</td>
-									<td class="product-price">45</td>
-									<td class="product-quantity"><input type="number" class="quantity-input" value="1" min="0"></td>
-									<td class="product-total">45</td>
+									<td class="product-price" id="price-3">45</td>
+									<td class="product-quantity"><input type="number" class="quantity-input"
+											id="quantity-3" value="1" min="0"></td>
+									<td class="product-total" id="total-3">45</td>
 								</tr>
-							</tbody>
+
+								</tbody>
 						</table>
 					</div>
 				</div>
-  
+
 				<div class="col-lg-4">
 					<div class="total-section">
 						<table class="total-table">
@@ -188,24 +187,23 @@
 							<tbody>
 								<tr class="total-data">
 									<td><strong>Subtotal (RM): </strong></td>
-									<td id="subtotal">115</td>
+									<td id="subtotal">0</td>
 								</tr>
 								<tr class="total-data">
 									<td><strong>Shipping: </strong></td>
 									<td id="shipping">10</td>
 								</tr>
 								<tr class="total-data">
-									<td><strong>Total (RM): </strong></td>
-									<td id="total">125</td>
+									<td><strong>Total Price (RM): </strong></td>
+									<td id="total">0</td>
 								</tr>
 							</tbody>
 						</table>
 						<div class="cart-buttons">
-							<button class="update-cart-btn boxed-btn">Update My Cart</button>
-							<a href="checkout.html" class="boxed-btn black">Check Out</a>
+							<a href="checkout.html?cartData=" id="checkout-btn" class="boxed-btn">Checkout</a>
 						</div>
 					</div>
-  
+
 					<div class="coupon-section">
 						<h3>Apply Coupon</h3>
 						<div class="coupon-form-wrap">
@@ -220,6 +218,65 @@
 		</div>
 	</div>
 	<!-- end cart -->
+
+	<script>
+		// Wait for the DOM to be fully loaded
+		document.addEventListener("DOMContentLoaded", function () {
+			// Get the necessary elements
+			const quantityInputs = document.querySelectorAll(".quantity-input");
+			const priceElements = document.querySelectorAll(".product-price");
+			const totalElements = document.querySelectorAll(".product-total");
+			const subtotalElement = document.getElementById("subtotal");
+			const shippingElement = document.getElementById("shipping");
+			const totalElement = document.getElementById("total");
+
+			// Function to calculate and update the subtotal, shipping, and total price
+			function updateCartTotals() {
+				let subtotal = 0;
+				const cartData = [];
+
+				// Loop through each product in the cart
+				for (let i = 0; i < quantityInputs.length; i++) {
+					const quantity = parseInt(quantityInputs[i].value);
+					const price = parseInt(priceElements[i].textContent);
+					const total = quantity * price;
+
+					// Update the total price for the product
+					totalElements[i].textContent = total;
+
+					// Add the product details to the cart data
+					const name = document.querySelectorAll(".product-name")[i].textContent;
+					cartData.push({ name, price, quantity });
+
+					// Add the product total to the subtotal
+					subtotal += total;
+				}
+
+				// Convert cart data to JSON string
+				const cartDataString = JSON.stringify(cartData);
+
+				// URL-encode the cart data string
+				const encodedCartData = encodeURIComponent(cartDataString);
+
+				// Update the href attribute of the checkout button with the encoded cart data
+				const checkoutButton = document.getElementById('checkout-btn');
+				checkoutButton.href = `checkout.html?cartData=${encodedCartData}`;
+
+				// Update the subtotal, shipping, and total price
+				subtotalElement.textContent = subtotal;
+				totalElement.textContent = subtotal + parseInt(shippingElement.textContent);
+			}
+
+			// Event listener for quantity input changes
+			quantityInputs.forEach(function (input) {
+				input.addEventListener("change", updateCartTotals);
+			});
+
+			// Initial calculation of cart totals
+			updateCartTotals();
+		});
+
+	</script>
 
 	<!-- logo carousel -->
 	<div class="logo-carousel-section">
@@ -256,7 +313,9 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box about-widget">
 						<h2 class="widget-title">About us</h2>
-						<p>Since our establishment in 2015, KuehRaye has steadily grown and evolved to become a trusted name in the world of "kuih". Our journey has been guided by a deep-rooted passion for delivering exceptional taste experiences and creating lasting memories.</p>
+						<p>Since our establishment in 2015, KuehRaye has steadily grown and evolved to become a trusted
+							name in the world of "kuih". Our journey has been guided by a deep-rooted passion for
+							delivering exceptional taste experiences and creating lasting memories.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
@@ -295,13 +354,14 @@
 		</div>
 	</div>
 	<!-- end footer -->
-	
+
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2023 - <b><span class="orange-text">KuehRaye</span></b>,  All Rights Reserved.</p>
+					<p>Copyrights &copy; 2023 - <b><span class="orange-text">KuehRaye</span></b>, All Rights Reserved.
+					</p>
 				</div>
 				<div class="col-lg-6 text-right col-md-12">
 					<div class="social-icons">
@@ -318,7 +378,7 @@
 		</div>
 	</div>
 	<!-- end copyright -->
-	
+
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
@@ -340,38 +400,8 @@
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
 
-	<!-- custom script -->
-	<script>
-		// Function to calculate and update cart totals
-		function updateCart() {
-			var subtotal = 0;
-			var quantityInputs = document.getElementsByClassName("quantity-input");
-			var totalInputs = document.getElementsByClassName("product-total");
 
-			for (var i = 0; i < quantityInputs.length; i++) {
-				var quantity = parseInt(quantityInputs[i].value);
-				var price = parseInt(totalInputs[i].innerHTML.replace("RM", ""));
-
-				var total = quantity * price;
-				subtotal += total;
-
-				totalInputs[i].innerHTML = "RM" + total;
-			}
-
-			document.getElementById("subtotal").innerHTML = "RM" + subtotal;
-			document.getElementById("total").innerHTML = "RM" + subtotal;
-		}
-
-		// Update cart totals when the quantity input is changed
-		var quantityInputs = document.getElementsByClassName("quantity-input");
-		for (var i = 0; i < quantityInputs.length; i++) {
-			quantityInputs[i].addEventListener("change", updateCart);
-		}
-
-		// Update cart totals when the "Update My Cart" button is clicked
-		var updateCartBtn = document.querySelector(".update-cart-btn");
-		updateCartBtn.addEventListener("click", updateCart);
-	</script>
 
 </body>
+
 </html>
