@@ -19,7 +19,7 @@ Ans:
 The voices function is defined to populate the voiceList select element with available voices. It uses the synth.getVoices() method to retrieve the available voices and dynamically creates an option element for each voice, setting the value and display text based on the voice's name and language. The "Google US English" voice is initially selected.
 
 <!--
-            JavaScript adv: Lab 3
+            JavaScript adv: Lab 4
             Group:
             1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
             2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
