@@ -12,21 +12,21 @@ Don't forget to hit the :star: if you like this repo.
 ## Set A
 
 1. A
-2. A
+2. B
 3. B
 4. A
 5. C
-6. C
+6. B
 7. B
 8. A
 9. B
 10. D
 11. B
 12. C
-13. D
+13. A
 14. B
 15. A
-16. B
+16. C
 17. A
 18. A
 19. D
@@ -34,15 +34,15 @@ Don't forget to hit the :star: if you like this repo.
 21. A
 22. A
 23. B
-24. A
+24. B
 25. B
-26. B
+26. C
 27. A
 28. A
 29. C
 30. B
 31. B
-32. C
+32. A
 33. B
 34. A
 35. A
@@ -52,15 +52,15 @@ Don't forget to hit the :star: if you like this repo.
 39. A
 40. A
 41. C
-42. D
+42. A
 43. A
 44. C
 45. A
 46. A
 47. A
 48. A
-49. B
-50. C
+49. A
+50. A
 
 ## Contribution 🛠️
 
