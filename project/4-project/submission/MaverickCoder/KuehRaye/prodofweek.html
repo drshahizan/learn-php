@@ -33,7 +33,7 @@
 
 </head>
 <body>
-	
+
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -41,7 +41,7 @@
         </div>
     </div>
     <!--PreLoader Ends-->
-	
+
 	<!-- header -->
 	<div class="top-header-area" id="sticker">
 		<div class="container">
@@ -60,7 +60,7 @@
 						<nav class="main-menu">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-									
+
 								</li>
 								<li><a href="about.html">About</a></li>
 								<li><a href="#">Pages</a>
@@ -116,16 +116,18 @@
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
 							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
+							<input type="text" id="searchInput" placeholder="Keywords">
+							<button type="submit" id="searchBtn"><i class="fas fa-search"></i>
+								Search</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div id="searchResults" class="results-container"></div>
 	</div>
-	<!-- end search arewa -->
-	
+	<!-- end search area -->
+
 	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
@@ -181,7 +183,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="section-title">	
+					<div class="section-title">
 						<h3><span class="orange-text">Related</span> Products</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
 					</div>
@@ -297,7 +299,7 @@
 		</div>
 	</div>
 	<!-- end footer -->
-	
+
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
@@ -320,7 +322,7 @@
 		</div>
 	</div>
 	<!-- end copyright -->
-	
+
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
