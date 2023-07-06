@@ -135,14 +135,12 @@
             $(".hero-btns").addClass("animated fadeInUp").css({ 'opacity': '0', 'animation-delay': '0.5s' });
         });
 
-
-
-        // stikcy js
+        // sticky js
         $("#sticker").sticky({
             topSpacing: 0
         });
 
-        //mean menu
+        //main menu
         $('.main-menu').meanmenu({
             meanMenuContainer: '.mobile-menu',
             meanScreenWidth: "992"
