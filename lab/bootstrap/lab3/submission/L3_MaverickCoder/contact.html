@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-Lab 2: Hero ホームpage
+Lab 3: Contact Form
 Group: MaverickCoder
 1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
 2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
@@ -11,7 +11,7 @@ Group: MaverickCoder
 
 <head>
     <meta charset="utf-8">
-    <title>ホームpage</title>
+    <title>Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Font Awesome CSS -->
@@ -36,7 +36,7 @@ Group: MaverickCoder
         /* Override Bootstrap styles here */
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
-            background-color: grey;
+            background-color: bisque;
         }
 
         .navbar-toggler {
@@ -170,6 +170,40 @@ Group: MaverickCoder
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    </div>
+
+    <!-- Content -->
+    <div class="container">
+        <header class="text-center">
+            <h1><br>Contact Us</h1>
+            <p>Feel free to reach out to us!</p>
+        </header>
+
+        <form action="send_email.php" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="3" class="form-control"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <br><br>
+        </form>
+
     </div>
 
     <!-- Footer -->
