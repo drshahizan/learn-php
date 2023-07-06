@@ -29,7 +29,7 @@ Don't forget to hit the :star: if you like this repo.
 17. A
 18. A
 19. D
-20. True
+20. A
 21. A
 22. A
 23. B
