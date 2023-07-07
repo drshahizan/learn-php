@@ -33,7 +33,7 @@
 
 </head>
 <body>
-	
+
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -41,7 +41,7 @@
         </div>
     </div>
     <!--PreLoader Ends-->
-	
+
 	<!-- header -->
 	<div class="top-header-area" id="sticker">
 		<div class="container">
@@ -74,8 +74,7 @@
 									<ul class="sub-menu">
 										<li><a href="shop.html">Shop</a></li>
 										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
-										<li><a href="cart.html">Cart</a></li>
+									    <li><a href="cart.html">My Cart</a></li>
 									</ul>
 								</li>
 								<li>
@@ -105,16 +104,18 @@
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
 							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
+							<input type="text" id="searchInput" placeholder="Keywords">
+							<button type="submit" id="searchBtn"><i class="fas fa-search"></i>
+								Search</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div id="searchResults" class="results-container"></div>
 	</div>
-	<!-- end search arewa -->
-	
+	<!-- end search area -->
+
 	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
@@ -129,7 +130,7 @@
 		</div>
 	</div>
 	<!-- end breadcrumb section -->
-	
+
 	<!-- single article section -->
 	<div class="mt-150 mb-150">
 		<div class="container">
@@ -308,7 +309,7 @@
 		</div>
 	</div>
 	<!-- end footer -->
-	
+
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
@@ -331,7 +332,7 @@
 		</div>
 	</div>
 	<!-- end copyright -->
-	
+
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
