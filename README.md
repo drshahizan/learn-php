@@ -86,7 +86,8 @@ Diagrams are visual representations of information or data that help convey comp
 
 | No | Topic | Note | MCQ | Answer
 | :-----: | ----- | :------: | :------: | :------: |
-| 1 | JS Fundamentals | <a href="./materials/notes/n1.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n1aq.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n1aa.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
+| 1 | JS Fundamentals | <a href="./materials/notes/n1.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> |  |  |
+|  | Set A |  | <a href="./materials/notes/n1aq.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n1aa.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
 |  | Set B |  | <a href="./materials/notes/n1bq.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n1ba.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
 | 2 | JS DOM | <a href="./materials/notes/n2.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n2q.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n2a.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
 | 3 | JS Event & JS Form Validation | <a href="./materials/notes/n3.md"><img src="./images/javascript.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n3q.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n3a.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
