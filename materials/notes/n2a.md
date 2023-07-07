@@ -10,7 +10,6 @@ Don't forget to hit the :star: if you like this repo.
 # JavaScript: DOM
 
 ## Set A
-Here are the answers to the questions:
 
 1. a) Document Object Model
 2. b) `document`
