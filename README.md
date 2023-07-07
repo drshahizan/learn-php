@@ -102,6 +102,8 @@ Diagrams are visual representations of information or data that help convey comp
 |  | MCQ: Set A |  | <a href="./materials/notes/n5aq.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n5aa.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
 |  | MCQ: Set B |  | <a href="./materials/notes/n5bq.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n5ba.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
 | 6 | PHP: Form, Session & Cookies | <a href="./materials/notes/n6.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n6q.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n6a.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
+|  | MCQ: Set A |  | <a href="./materials/notes/n6aq.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n6aa.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
+|  | MCQ: Set B |  | <a href="./materials/notes/n6bq.md"><img src="./images/question.svg" width="24px" height="24px"></a> | <a href="./materials/notes/n6ba.md"><img src="./images/answer.png" width="24px" height="24px"></a> |
 | 7 | Final Exam | <a href="./materials/notes/contoh/readme.md"><img src="./images/php.svg" width="24px" height="24px"></a> | <a href="./materials/notes/contoh/readme.md"><img src="./images/question.svg" width="24px" height="24px"></a> | 
 
 ## Contribution 🛠️
