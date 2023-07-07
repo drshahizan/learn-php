@@ -62,7 +62,6 @@ Don't forget to hit the :star: if you like this repo.
 49. a) It returns the height of an element including its content, padding, and scrollbar (if any)
 50. a) `getComputedStyle().getPropertyValue()`
 
-
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
