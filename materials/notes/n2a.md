@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# JavaScript: Fundamental
+# JavaScript: DOM
 
 Answer:
 1. b) Adding interactivity to websites
