@@ -108,7 +108,7 @@ a:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: #642f2f;
 }
 
 .bg-box img {
@@ -531,12 +531,12 @@ a:focus {
   height: 215px;
   border-radius: 0 0 0 45px;
   margin: -1px;
-  padding: 25px;
+  padding: 0px;
 }
 
 .food_section .box .img-box img {
   max-width: 100%;
-  max-height: 145px;
+  max-height: 190px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
