@@ -10,6 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 # JavaScript: Fundamental
 
 ## Answer: Set A
+
 1. b) Adding interactivity to websites
 2. d) All of the above
 3. d) Characters
@@ -62,7 +63,6 @@ Don't forget to hit the :star: if you like this repo.
 50. a) `toUpperCase()`
 
 ## Answer: Set B
-The answers to the questions are as follows:
 
 1. d) All of the above
 2. c) // Comment
