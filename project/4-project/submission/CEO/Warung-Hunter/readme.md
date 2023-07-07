@@ -10,18 +10,14 @@
 
    ```cp .env.example .env```
 
-4. Run the following command to generate a unique application key:
-
-   ```php artisan key:generate```
-
-5. Migrate the Database:
+4. Migrate the Database:
 
    ```php artisan migrate```
 
-6. Seed the Database (Optional):
+5. Seed the Database (Optional):
 
    ```php artisan db:seed```
 
-7. Start the Development Server:
+6. Start the Development Server:
 
    ```php artisan serve```
