@@ -1697,6 +1697,16 @@ p.excerpt {
   height: 450px;
 }
 
+.single-artcile-2-bg {
+  background-image: url(../img/latest-news/news-bg-2.jpg);
+  height: 450px;
+}
+
+.single-artcile-3-bg {
+  background-image: url(../img/latest-news/news-bg-3.jpg);
+  height: 450px;
+}
+
 .pagination-wrap {
   margin-top: 40px;
 }

@@ -10,7 +10,7 @@ A sidebar menu template is a pre-designed layout or structure for a navigation m
 > 2. What are the key features of a responsive sidebar menu template, and how do they work?
 
 The key features of a responsive sidebar menu template include:
-* *Responsive behavior: The sidebar menu should adapt to different screen sizes and orientations. On smaller screens, it may collapse or transform into a hamburger menu to save space.
+* Responsive behavior: The sidebar menu should adapt to different screen sizes and orientations. On smaller screens, it may collapse or transform into a hamburger menu to save space.
 * Toggle functionality: There should be a toggle or button to expand or collapse the sidebar menu, allowing users to show or hide the menu items.
 * Submenu support: The sidebar menu may support nested or hierarchical menus, allowing for multiple levels of navigation options.
 * Active state indication: The template should highlight or indicate the currently active menu item to provide visual feedback to the user.
