@@ -8,52 +8,37 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Activity: Group Software
+# Activity: Group CEO Project Warung Hunter
 
 ## Group Members
 <table>
   <tr>
     <th>Name</th>
-    <th>Role</th>
+    <th>Matrix No</th>
   </tr>
   <tr>
-    <td>1.  Lee Yik Hong</td>
-    <td>User Experience Designer</td>
+    <td>1.  ISMAIL BIN AMAN</td>
+    <td>SX211939ECJHF04</td>
   </tr>
     <tr>
-    <td>2. Koh Su Xuan</td>
-    <td>Quality Assurance Tester</td>
+    <td>2. SEPRIYANDI BIN AGUSR</td>
+    <td>SX211697ECRHF04</td>
   </tr>
     <tr>
-    <td>3. Tang Yan Qing</td>
-    <td>Documentation Specialists</td>
+    <td>3. MUHAMMAD AZAM BIN AZMAN</td>
+    <td>SX211707ECRHF04</td>
   </tr>
     <tr>
-    <td>4. Goh Jiale</td>
-    <td>Main Developer</td>
-  </tr>
-    <tr>
-    <td>5. Ong Yi Yan</td>
-    <td>Requirements Analyst</td>
+    <td>4. MUHAMMAD BADRUL AMIN BIN MASROL</td>
+    <td>SX220346ECJHS04</td>
   </tr>
 </table>
-
-## Documentation
-| No | Name |File | 
-| -----:| ----- | :------: | 
-|1| Proposal| <a href="https://github.com/drshahizan/software-engineering/tree/main/proposal/submission/sec02/Software" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/main/images/document1.png" width="24px" height="24px" ></a>|
-|2| SRS Documentation| <a href="https://docs.google.com/document/d/1IYG7GiCYAsp6VpTwAMfNKDYWtK1Ys9vY/edit" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/main/images/document1.png" width="24px" height="24px" ></a>|
-|3| SDD Documentation| <a href="https://docs.google.com/document/d/1wZM18js6_QeOm4MTLIUjTZGQgpz86zJT/edit" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/main/images/document1.png" width="24px" height="24px" ></a>|
-|4| STD Dodumentation| <a href="https://docs.google.com/document/d/1AfHNhbFiSWCmKlsLeY0AifdLKZqnFEtP/edit" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/main/images/document1.png" width="24px" height="24px" ></a>|
-|6| High Fidelity| <a href="https://www.figma.com/file/l76fJTJbZyY5oTFQS13les/High-Fidelity-Design?type=design&node-id=0-1&mode=design&t=LYWg1QTbaq1JAEzD-0" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
-|6| UI Design| <a href="https://www.figma.com/file/j0nAd3Ph1MnHZljmIi8kTk/UI-Design?type=design&node-id=0-1&mode=design&t=FRriUK1E9AQFO2BO-0" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
 
 ## Design Prototype
 | No | Name |File | 
 | -----:| ----- | :------: | 
-|1| Prototype Student| <a href="https://www.figma.com/proto/j0nAd3Ph1MnHZljmIi8kTk/UI-Design?type=design&node-id=138-31312&t=HpTPOmIpNtYfA6J9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=138%3A31312"><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
-|2| Prototype Doctor| <a href="https://www.figma.com/proto/j0nAd3Ph1MnHZljmIi8kTk/UI-Design?type=design&node-id=169-31207&t=PY91ONQprdWeFRVu-0&scaling=scale-down&page-id=1%3A3&starting-point-node-id=169%3A31207" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
-|3| Prototype Administrator| <a href="https://www.figma.com/proto/j0nAd3Ph1MnHZljmIi8kTk/UI-Design?type=design&node-id=169-32026&t=kHR7XsjA8CP5Sn6o-0&scaling=scale-down&page-id=1%3A4&starting-point-node-id=169%3A32026" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
+|1| WireFrame | <a href="[https://www.figma.com/proto/j0nAd3Ph1MnHZljmIi8kTk/UI-Design?type=design&node-id=138-31312&t=HpTPOmIpNtYfA6J9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=138%3A31312](https://www.figma.com/file/UmASKyECRTO8jXwErgflDk/WireFrame?type=design&node-id=0%3A1&mode=design&t=kaEnbLKObmQ4imB0-1 )"><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
+|2| Side Maps| <a href="https://www.figma.com/proto/j0nAd3Ph1MnHZljmIi8kTk/UI-Design?type=design&node-id=169-31207&t=PY91ONQprdWeFRVu-0&scaling=scale-down&page-id=1%3A3&starting-point-node-id=169%3A31207" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
 
 ## Link to Presentation
 [https://www.canva.com/design/DAFmkBQJ1x0/awqYswnS1zlDonCLZXw-dg/view?utm_content=DAFmkBQJ1x0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink]
