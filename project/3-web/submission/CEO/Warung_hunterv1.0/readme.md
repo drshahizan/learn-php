@@ -43,7 +43,7 @@ Don't forget to hit the :star: if you like this repo.
 | No | Name |File | 
 | -----:| ----- | :------: | 
 |1| WireFrame | <a href="https://www.figma.com/file/UmASKyECRTO8jXwErgflDk/WireFrame?type=design&node-id=0%3A1&mode=design&t=kaEnbLKObmQ4imB0-1"><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
-|2| Side Maps| <a href="https://www.figma.com/proto/j0nAd3Ph1MnHZljmIi8kTk/UI-Design?type=design&node-id=169-31207&t=PY91ONQprdWeFRVu-0&scaling=scale-down&page-id=1%3A3&starting-point-node-id=169%3A31207" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
+|2| Side Maps| <a href="https://www.figma.com/file/ZJm924nXNxQBA4aGT2YN8i/Side-Maps?type=design&mode=design&t=aYAXZbhHz4bGdGdH-1" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
 
 ## Link to Presentation
 [https://www.canva.com/design/DAFmkBQJ1x0/awqYswnS1zlDonCLZXw-dg/view?utm_content=DAFmkBQJ1x0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink]
