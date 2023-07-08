@@ -29,10 +29,10 @@ Ans4:
 
 
 
-Team Name: Maverick Coder
+Team Name: CEO
 
 Team Members: 
-1. Dzin Syafika
-2. Elle Amyr
-3. Faiz Fitri
-4. Haris Mazlan
+            1. Name: ISMAIL BIN AMAN, Matrix No: SX211939ECJHF04, Github ID: oldpistol
+            2. Name: SEPRIYANDI BIN AGUSR, Matrix No: SX211697ECRHF04, Github ID: sepz36
+            3. Name: MUHAMMAD AZAM BIN AZMAN, Matrix No: SX211707ECRHF04, Github ID: Azamazman96
+            4. Name: MUHAMMAD BADRUL AMIN BIN MASROL, Matrix No: SX220346ECJHS04, Github ID: badz20 
