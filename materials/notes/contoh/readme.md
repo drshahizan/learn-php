@@ -12,8 +12,8 @@ Don't forget to hit the :star: if you like this repo.
 Please answer the following questions to test your knowledge in JavaScript and PHP. You must place your answer file in the submission folder. Create a folder called your `github_id`. 
 
 ### Final Exam: Semester II, 2020/2021
-|  Question | Answer | Submission |
-|  ----- | :------: | :------:| 
+|  Question | Answer | 
+|  :-----: | :------: | 
 | <a href="exam20212.pdf"><img src="../../../images/question.svg" width="24px" height="24px"></a> | <a href="../submission/Q7/q3"><img src="../../../images/folder_info.png" width="24px" height="24px"></a> | P$*52 |
 
 ### Final Exam: Semester I, 2020/2021
