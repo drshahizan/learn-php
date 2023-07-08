@@ -104,60 +104,110 @@
       .btn1 {
         /* Add your button styles here */
       }
+      nav.sticky {
+        position: fixed;
+        top: 0;
+        z-index: 5;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #333;
+        color: #fff;
+      }
+
+      /* Add some spacing to the sections to prevent content from being hidden behind the navigation bar */
+      #section1,
+      #section2,
+      #section3,
+      #section4,
+      #section5 {
+        padding-top: 150px;
+        /* CSS for responsive image box */
+        .img-box {
+          position: relative;
+        }
+
+        .img-box img {
+          width: 100%;
+          height: auto;
+        }
+
+        .image-overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.8);
+          color: #fff;
+          padding: 1rem;
+          text-align: center;
+        }
+
+        @media (min-width: 768px) {
+          .image-overlay {
+            padding: 3rem;
+          }
+        }
+      }
     </style>
   </head>
 
   <body>
-    <header class="header_section" style="background-color: black">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              Warung Hunter <img src="images/WH logo 2.png" alt="" />
-            </span>
-          </a>
+    <nav class="navbar navbar-expand-lg custom_nav-container">
+      <a class="navbar-brand" href="index.html">
+        <span class="p-5">
+          Warung Hunter <img src="images/WH logo 2.png" alt="" />
+        </span>
+      </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class=""> </span>
-          </button>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class=""> </span>
+      </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="warung_list.html">Warung List</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="add_warung.html">Add Warung</a>
-              </li>
-            </ul>
-            <div class="user_option">
-              <form class="form-inline">
-                <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-              <a href="" class="order_online"> Login</a>
-            </div>
-          </div>
-        </nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">Warung List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section4">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section5">Add Warung</a>
+          </li>
+        </ul>
+
+        <div class="user_option">
+          <form class="form-inline">
+            <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </form>
+          <a href="" class="order_online"> Login</a>
+        </div>
       </div>
-    </header>
+    </nav>
+
     <div class="hero_area">
       <div class="bg-box">
         <!-- <img src="images/hero-bg.jpg" alt="" /> -->
@@ -166,7 +216,7 @@
 
       <!-- end header section -->
       <!-- slider section -->
-      <section class="slider_section">
+      <section class="slider_section" id="section1">
         <div id="customCarousel1" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -179,8 +229,9 @@
                           src="images/Nasi Lemak.JPG"
                           alt=""
                           id="large-image"
+                          class="responsive-image"
                         />
-                        <div class="image-overlay p-5">
+                        <div class="image-overlay p-0">
                           <h1>Nasi Lemak Antarabangsa</h1>
                           <p style="font-size: large">
                             Nasi Lemak Antarabangsa is one of the popular and
@@ -307,7 +358,7 @@
 
     <!-- offer section -->
 
-    <section class="offer_section layout_padding-bottom">
+    <section class="offer_section layout_padding-bottom" id="section2">
       <div class="offer_container">
         <h2 class="text-center" style="font-weight: bold">Promotion</h2>
         <div class="container">
@@ -361,7 +412,7 @@
 
     <!-- food section -->
 
-    <section class="food_section layout_padding-bottom">
+    <section class="food_section layout_padding-bottom" id="section3">
       <div class="container">
         <div class="heading_container heading_center">
           <h2>Warung List</h2>
@@ -913,7 +964,7 @@
 
     <!-- about section -->
 
-    <section class="about_section layout_padding">
+    <section class="about_section layout_padding" id="section4">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -950,7 +1001,7 @@
     <!-- end about section -->
 
     <!-- book section -->
-    <section class="book_section layout_padding">
+    <section class="book_section layout_padding" id="section5">
       <div class="container">
         <div class="heading_container">
           <h2>Join Us New Warung</h2>
@@ -1014,7 +1065,7 @@
 
     <!-- client section -->
 
-    <section class="client_section layout_padding-bottom">
+    <section class="client_section layout_padding-bottom" id="section6">
       <div class="container">
         <div class="heading_container heading_center psudo_white_primary mb_45">
           <h2>What Says Our Customers</h2>
@@ -1263,5 +1314,35 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
     <!-- End Google Map -->
+    <script>
+      // Smooth scrolling function
+      function smoothScroll(target) {
+        const element = document.querySelector(target);
+        window.scrollTo({
+          top: element.offsetTop,
+          behavior: "smooth",
+        });
+      }
+
+      // Attach click event handlers to navigation links
+      const navLinks = document.querySelectorAll("ul a");
+      navLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const targetSection = link.getAttribute("href");
+          smoothScroll(targetSection);
+        });
+      });
+
+      window.addEventListener("scroll", () => {
+        const nav = document.querySelector("nav");
+        const distanceToTop = nav.getBoundingClientRect().top;
+        if (distanceToTop <= 0) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      });
+    </script>
   </body>
 </html>
