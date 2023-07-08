@@ -34,6 +34,11 @@ Don't forget to hit the :star: if you like this repo.
   </tr>
 </table>
 
+## Documentation
+| No | Name |File | 
+| -----:| ----- | :------: | 
+|1| Documentation | <a href="https://github.com/drshahizan/software-engineering/tree/main/proposal/submission/sec02/Software" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/main/images/document1.png" width="24px" height="24px" ></a>|
+
 ## Design Prototype
 | No | Name |File | 
 | -----:| ----- | :------: | 
