@@ -46,7 +46,9 @@ Don't forget to hit the :star: if you like this repo.
 |2| Side Maps| <a href="https://www.figma.com/file/ZJm924nXNxQBA4aGT2YN8i/Side-Maps?type=design&mode=design&t=aYAXZbhHz4bGdGdH-1" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
 
 ## Link to Presentation
-[https://www.canva.com/design/DAFmkBQJ1x0/awqYswnS1zlDonCLZXw-dg/view?utm_content=DAFmkBQJ1x0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink]
+| No | Name |File | 
+| -----:| ----- | :------: | 
+|1| Slide  | <a href="https://www.canva.com/design/DAFoBuyF-j0/aL5ii0P_2ZRJ_Kwhxsodsw/edit?utm_content=DAFoBuyF-j0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
 
 ## Slide
 ![1](https://github.com/drshahizan/software-engineering/assets/128159572/57aee530-a2bd-4511-9ce9-f20cdb029a6d)
