@@ -51,12 +51,12 @@ Don't forget to hit the :star: if you like this repo.
 |1| Slide  | <a href="https://www.canva.com/design/DAFoBuyF-j0/aL5ii0P_2ZRJ_Kwhxsodsw/edit?utm_content=DAFoBuyF-j0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Canva_icon_2021.svg.png" width="24px" height="24px" ></a>|
 
 ## Slide
-![1](https://github.com/drshahizan/software-engineering/assets/128159572/57aee530-a2bd-4511-9ce9-f20cdb029a6d)
-![2](https://github.com/drshahizan/software-engineering/assets/128159572/251974e3-7add-4355-a20f-84664dc5587a)
-![3](https://github.com/drshahizan/software-engineering/assets/128159572/d4725ca6-112f-40ee-9631-b3f3db375f48)
-![4](https://github.com/drshahizan/software-engineering/assets/128159572/6b020a53-cd23-49ae-bab8-3ffdd13ff01b)
-![5](https://github.com/drshahizan/software-engineering/assets/128159572/101de197-55ca-4bd8-ac52-925ac293f2ba)
-![6](https://github.com/drshahizan/software-engineering/assets/128159572/8b30fd6f-0fed-40a1-b273-e1de0359d7ac)
+![1](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%201.jpg)
+![2](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%202.jpg)
+![3](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%203.jpg)
+![4](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%204.jpg)
+![5](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%205.jpg)
+![6](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%206.jpg)
 
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
