@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JDT Product Card </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<!--
+Lab 2 - Intermediate Js
+Group: MaverickCoder
+1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+-->
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="home-men-front.jpeg"  alt="">
+      </div>
+      <div class="card-content">
+        <div class="wrapper">
+          <div class="title">Jersey JDT</div>
+          <p>Home kit jersey</p>
+          <span class="price">RM299.00</span>
+          <div class="content size">
+            <div class="name size-name">Size</div>
+            <div class="size-value">
+              <span class="color">XS</span>
+              <span class="color">S</span>
+              <span class="active">M</span>
+              <span class="color">L</span>
+              <span class="color">XL</span>
+            </div>
+          </div>
+          <div class="content colour">
+            <div class="name colour-name">Colour</div>
+            <div class="colour-value">
+              <span class="white" data-color="lightgrey" data-img="away-men-front.jpeg"></span>
+              <span class="blue active" data-color="#456ABD" data-img="home-men-front.jpeg"></span>
+              <span class="yellow" data-color="#EAA523" data-img="away-2020-front.jpeg"></span>
+            </div>
+          </div>
+          <div class="btns">
+            <button>Buy now</button>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--this is the added script to change the colors-->
+    <script>
+      // Event listener for colour radio buttons
+      const colourRadios = document.querySelectorAll('.colour-value span');
+      colourRadios.forEach(radio => {
+        radio.addEventListener('click', function() {
+          // Change background color
+          const color = this.dataset.color;
+          document.body.style.backgroundColor = color;
+  
+          // Change button color
+          const buttons = document.querySelectorAll('.btns button');
+          buttons.forEach(button => {
+            button.style.backgroundColor = color;
+          });
+  
+          // Change size color
+          const sizes = document.querySelectorAll('.size-value span');
+          sizes.forEach(size => {
+            size.style.color = color;
+          });
+  
+          // Change price color
+          const price = document.querySelector('.price');
+          price.style.color = color;
+  
+          // Change jersey image
+          const image = document.querySelector('.image img');
+          const imgSrc = this.dataset.img;
+          image.setAttribute('src', imgSrc);
+        });
+      });
+    </script>
+
+    
+
+  </body>
+</html>
