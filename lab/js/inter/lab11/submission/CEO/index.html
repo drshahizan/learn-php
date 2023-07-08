@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--
+            JS intermediate: Lab 11
+            Group:
+            1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
+            2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
+            3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
+            4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: ashurarin
+      -->
+    <meta charset="utf-8" />
+    <title>Confirm Password Check</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>Check Password</header>
+      <form action="#">
+        <div class="field">
+          <input
+            onkeyup="active()"
+            id="pswrd_1"
+            type="password"
+            placeholder="Enter Password"
+          />
+        </div>
+        <div class="field">
+          <input
+            onkeyup="active_2()"
+            id="pswrd_2"
+            disabled
+            type="password"
+            placeholder="Confirm Password"
+          />
+          <div class="show">SHOW</div>
+        </div>
+        <div  style="color:rgb(205, 202, 202);font-size: 12px" >#Enter at least 6 characters</div><br>
+        <button disabled>Check</button>
+
+        <div class="error-text"></div>
+      </form>
+    </div>
+
+    
+  </body>
+</html>
