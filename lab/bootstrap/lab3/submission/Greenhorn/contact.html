@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Lab 3: Contact Form
+          Group: GREENHORN
+          1. Name: AMMAR IBRAHIM BIN MOHAMED, Matrix No: SX220326ECJH, Github ID: ammaribrahim95
+          2. Name: SHANMUGADHARSHINI A/P MURALI Matrix No: SX201656ECRHF04, Github ID: Shan9821
+          3. Name: LOGESWARY A/P KRISHNAMOORTHY, Matrix No: SX211705ECRHF04, Github ID: Logeswary98
+          4. Name: ADAM SHAH BIN MOHD FAIZAL, Matrix No: SX190401CSJS04 , Github ID: adamshahmf
+          --> 
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Your custom styles -->
+    <style>
+        /* Override Bootstrap styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .jumbotron {
+            background-image: url('./img/hero-image.jpg');
+            background-size: cover;
+            color: #ffffff;
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+
+        .jumbotron h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .jumbotron p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .jumbotron .btn-primary {
+            font-size: 18px;
+            padding: 12px 30px;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Website</h1>
+            <p class="lead">I'm a Network Engineer with 3 years of experience</p>
+            <p class="lead">As a network engineer i responsible in troubleshooting and resolve network
+                related problems, design and deploy new network equipment. With strong practical knowledge
+                of network concepts including DNS, DHCP, VPN, network protocols, port configuration, link
+                aggregation, spanning tree optimization, and performance tuning, I am able to deliver stable
+                high speed network environment to meet modern business requirement.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">My Gallery</a>
+
+        </div>
+    </div>
+
+
+    <!-- Your content goes here -->
+
+    <!-- Footer -->
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <span class="navbar-text">
+            Follow me on:
+        </span>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:logeswarylog@gmail.com">Email</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/logeswary-krishnamoorthy-36b804217/">LinkedIn</a>
+            </li>                         
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/Logeswary98">GitHub</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/carousel1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./img/carousel2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./img/carousel3.jpg" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+
+<!-- Content -->
+<div class="container">
+    <header class="text-center">
+        <h1><br>Contact Us</h1>
+        <p>Feel free to reach out to us!</p>
+    </header>
+
+    <form action="send_email.php" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="3" class="form-control"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <br><br>
+    </form>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="mailto:mailto:logeswarylog@gmail.com" class="mr-3"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/logeswary-krishnamoorthy-36b804217/"
+                    class="mr-3"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/Logeswary98"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
+    integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
