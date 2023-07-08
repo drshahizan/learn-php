@@ -19,7 +19,7 @@ session_start();
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">
     <span class="glyphicon glyphicon-chevron-up"></span>
-  </button>
+  </button> 
   <script type="text/javascript">
     window.onscroll = function() {
       scrollFunction()

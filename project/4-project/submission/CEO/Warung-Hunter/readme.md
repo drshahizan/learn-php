@@ -1,22 +1,38 @@
-**Group: CEO**
+## Group CEO
 
-**Members**
+## About
 
-**Setup and Configuration**
+## Instruction
+1. Install Composer (https://getcomposer.org/)
+2. Navigate to the project's root directory in your terminal or command prompt. Run the following command to install the required dependencies:
+   
+   ```bat
+   composer install
+   ```
 
-- Database dump file in db folder.
-- Update database configuration in config/database.php
+3. Create a copy of the .env.example file and name it .env:
 
-  ```php
-  // Database configuration
-  $host = 'localhost';
-  $username = 'root';
-  $password = '';
-  $database = 'warung_hunter';
-  ```
+   ```bat
+   cp .env.example .env
+   ```
 
-**Pages**
+4. Migrate the Database:
 
-- Index Page: /
-- Login Page: /login.php
-- Register Page: /register.php
+   ```bat
+   php artisan migrate
+   ```
+
+5. Seed the Database (Optional):
+
+   ```bat
+   php artisan db:seed
+   ```
+
+6. Start the Development Server:
+
+   ```bat
+   php artisan serve
+   ```
+
+7. This will start the server at http://localhost:8000 by default.
+8. For admin page, use this url: http://localhost:8000/admin.
