@@ -13,67 +13,106 @@ Lab 7: HTML Table
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab 7: HTML Table</title>
+</head>
 
-
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    
+        table.center {
+            margin-left: auto; 
+            margin-right: auto;
+        }
+    
+        th,td {
+           padding: 5px;
+        }
+        
+        h1{
+            font-weight: 600;
+            text-align: center;
+        }
+    
+        .text-centre {
+          text-align: center;
+        }
+    
+        .lab {
+          background-color: yellow;
+          text-align: center;
+          
+        }
+        .days {
+          font-style: italic;
+          font-weight: bold;
+        }
+        
+        .lunch{
+          background-color: green;
+        }
+        
+        .library{
+          text-align:center;
+        }
+      
+      </style>
+    
+<body>
 <h1>Web Programming: Time Table</h1>
 
 <th>Day/Period</th>
 <th>I <br> 9:30-10:20</th>	
 <th>II <br>10:20-11:10</th>	
-<th>III <br> 12:00-12:40	</th>
+<th>III <br>12:00-12:40	</th>
 <th>12:00-12:40	</th>
-<th>IV <br>12:40-1:30	</th>
+<th>IV <br>12:40-1:30</th>
 <th>V <br>1:30-2:20	</th>
-<th>VI <br> 2:20-3:10</th>	
-<th>VII <br> 3:10-4:00</th>
+<th>VI <br>2:20-3:10</th>	
+<th>VII <br>3:10-4:00</th>
 </tr>
-Monday	Eng	Mat	Che	LUNCH	LAB	Phy
-Tuesday	LAB	Eng	Che	Mat	SPORTS
-Wednesday	Mat	Phy	Eng	Che	LIBRARY
-Thursday	Phy	Eng	Che	LAB	Mat
-Friday	Phy	Eng	Che	LAB	Mat
+<tr>
+    <td class="days">Monday </td>
+    <td>Eng</td>
+    <td>Mat</td>
+    <td>Che</td>
+    <td rowspan="5" class="lunch">LUNCH</td>
+    <td colspan="3" class="lab">LAB</td>
+    <td>Phy</td>
+  </tr>
+  <tr>
+    <td class="days">Tuesday </td>
+    <td colspan="3" class="lab">LAB</td>
+    <td>Eng</td>
+    <td>Che</td>
+    <td>Mat</td>
+    <td style="background-color:blue; text-align: center;">SPORTS</td>
+  </tr> 
+  <tr>
+    <td class="days">Wednesday</td>
+    <td>Mat</td>
+    <td>Phy</td>
+    <td>Eng</td>
+    <td>Che</td>
+    <td colspan="3" class="library">LIBRARY</td>
+  </tr>
+  <tr>
+    <td class="days">Thursday</td>
+    <td>Phy</td>
+    <td>Eng</td>
+    <td>Che</td>
+    <td class="lab" colspan="3">LAB</td>
+    <td>Mat</td>
+  </tr>
+  <tr>
+    <td class="days">Friday</td> 
+    <td>Phy</td>
+    <td>Eng</td>
+    <td>Che</td>
+    <td class="lab" colspan="3">LAB</td>
+    <td>Mat</td>
+  </tr>
+  </table>
 
-<style>
-    table, th, td {
-        border: 1px solid black;
-    }
-
-    table.center {
-        margin-left: auto; 
-        margin-right: auto;
-    }
-
-    th,td {
-       padding: 5px;
-    }
-    
-    h1{
-        font-weight: 600;
-        text-align: center;
-    }
-
-    .text-centre {
-      text-align: center;
-    }
-
-    .lab {
-      background-color: yellow;
-      text-align: center;
-      
-    }
-    .days {
-      font-style: italic;
-      font-weight: bold;
-    }
-    
-    .lunch{
-      background-color: green;
-    }
-    
-    .library{
-      text-align:center;
-    }
-  
-  </style>
-
+</body>
 </html>
