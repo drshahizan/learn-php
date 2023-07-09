@@ -12,7 +12,7 @@ Don't forget to hit the :star: if you like this repo.
 ## Set B
 1) d 
 2) c 
-3) c 
+3) b 
 4) a 
 5) c 
 6) b 
