@@ -44,7 +44,7 @@ Don't forget to hit the :star: if you like this repo.
 33) a 
 34) a 
 35) c 
-36) c 
+36) d 
 37) b 
 38) d 
 39) a 
