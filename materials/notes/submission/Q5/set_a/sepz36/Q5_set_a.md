@@ -38,7 +38,7 @@ Don't forget to hit the :star: if you like this repo.
 26. B
 27. A
 28. A
-29. C
+29. A
 30. B
 31. B
 32. B
@@ -51,7 +51,7 @@ Don't forget to hit the :star: if you like this repo.
 39. A
 40. A
 41. C
-42. D
+42. A
 43. A
 44. C
 45. A
