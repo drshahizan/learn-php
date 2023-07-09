@@ -8,8 +8,6 @@ Try out!
 
 ## Group CEO
 
-## About
-
 ## Instruction
 1. Install Composer (https://getcomposer.org/)
 2. Navigate to the project's root directory in your terminal or command prompt. Run the following command to install the required dependencies:
