@@ -1,6 +1,24 @@
-I. Assume the form is written in an HTML file named form.html as shown in Figure 1(c)
-above. The page generated from the server is named welcome.php as shown in Figure
-1(d) above. What should you write at the blank line? [ 1 mark ]
-
-
-<form method="POST" action="welcome.php">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST["name"];
+    $birthYear = $_POST["number"];
+    
+    // Determine if the birth year is odd or even
+    $isEven = ($birthYear % 2 == 0);
+    
+    // Generate the greeting message
+    $message = "Hello " . $name . "<br>";
+    $message .= "Your birth year is an " . ($isEven ? "Even" : "Odd") . " number.";
+    
+    // Display the greeting message
+    echo "<h2>" . $message . "</h2>";
+}
+?>
+</body>
+</html>
