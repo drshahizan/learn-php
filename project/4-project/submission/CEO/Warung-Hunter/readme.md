@@ -31,6 +31,7 @@ Try out!
 5. In the terminal, while still in the repository's root directory, run the following command to compile the assets:
 
    ```bat
+   npm install
    npm run dev
    ```
 
