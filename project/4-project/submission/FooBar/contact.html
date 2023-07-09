@@ -1,15 +1,5 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Acidus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
+
 <html lang="en" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
@@ -72,15 +62,15 @@
                                 <!-- About -->
                                 <li class="nav-item">
                                     <a class="nav-item-child" href="about.html">
-                                        About
+                                        About & Event
                                     </a>
                                 </li>
                                 <!-- End About -->
 
                                 <!-- Work -->
                                 <li class="nav-item">
-                                    <a class="nav-item-child" href="work.html">
-                                        Work
+                                    <a class="nav-item-child" href="news.html">
+                                        News
                                     </a>
                                 </li>
                                 <!-- End Work -->
@@ -112,34 +102,26 @@
                 <div class="row">
                     <!-- Contact List -->
                     <div class="col-sm-4 sm-margin-b-50">
-                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">New York</a> <span class="text-uppercase margin-l-20">Head Office</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Location</a> <span class="text-uppercase margin-l-20"></span></h4>
+                        <p>Q Sentral, Jalan Stesen Sentral 2, 50470 Kuala Lumpur</p>
                         <ul class="list-unstyled contact-list">
-                            <li><i class="margin-r-10 color-base icon-call-out"></i> 1 012 3456 7890</li>
-                            <li><i class="margin-r-10 color-base icon-envelope"></i> hq@acidus.com</li>
                         </ul>
                     </div>
                     <!-- End Contact List -->
 
                     <!-- Contact List -->
                     <div class="col-sm-4 sm-margin-b-50">
-                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">London</a> <span class="text-uppercase margin-l-20">Operation</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <ul class="list-unstyled contact-list">
-                            <li><i class="margin-r-10 color-base icon-call-out"></i> 44 77 3456 7890</li>
-                            <li><i class="margin-r-10 color-base icon-envelope"></i> operation@acidus.com</li>
-                        </ul>
+                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Our Hours</a> <span class="text-uppercase margin-l-20">Operation</span></h4>
+                        <p>10:00 AM – 5.00 PM
+                            Monday – Friday</p>
                     </div>
                     <!-- End Contact List -->
 
                     <!-- Contact List -->
                     <div class="col-sm-4 sm-margin-b-50">
-                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Singapore</a> <span class="text-uppercase margin-l-20">Finance</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <ul class="list-unstyled contact-list">
-                            <li><i class="margin-r-10 color-base icon-call-out"></i> 50 012 456 7890</li>
-                            <li><i class="margin-r-10 color-base icon-envelope"></i> finance@acidus.com</li>
-                        </ul>
+                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Contact Us</a> <span class="text-uppercase margin-l-20"></span></h4>
+                        <p>WhatsApp: +6011 5646 5284
+                            Email: support@FooBar.com.my</p>
                     </div>
                     <!-- End Contact List -->
                 </div>
@@ -153,29 +135,27 @@
             <div class="content-md container">
                 <div class="row margin-b-40">
                     <div class="col-sm-6">
-                        <h2>Send Us A Note</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                        <h2>Have you any question?</h2>
+						<p>Just send us your questions or concerns by emailing us at <b><span class="orange-text">support@FooBar.com</span></b> or leave the message below.</p>
                     </div>
                 </div>
                 <!--// end row -->
 
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <form>
-                            <div class="margin-b-10">
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="margin-b-10">
-                                <input type="text" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="margin-b-10">
-                                <input type="text" class="form-control" placeholder="Phone">
-                            </div>
-                            <div class="margin-b-20">
-                                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                            </div>
-                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
-                        </form>
+                        <form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );">
+							<p>
+								<input type="text" placeholder="Name" name="name" id="name">
+								<input type="email" placeholder="Email" name="email" id="email">
+							</p>
+							<p>
+								<input type="tel" placeholder="Phone" name="phone" id="phone">
+								<input type="text" placeholder="Subject" name="subject" id="subject">
+							</p>
+							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
+							<input type="hidden" name="token" value="FsWga4&@f6aw" />
+							<p><input type="submit" value="Submit"></p>
+						</form>
                     </div>
                 </div>
                 <!--// end row -->
@@ -186,44 +166,6 @@
 
         <!--========== FOOTER ==========-->
         <footer class="footer">
-            <!-- Links -->
-            <div class="section-seperator">
-                <div class="content-md container">
-                    <div class="row">
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">Home</a></li>
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">About</a></li>
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">Work</a></li>
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">Contact</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">Twitter</a></li>
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">Facebook</a></li>
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">Instagram</a></li>
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">YouTube</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-3">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">Subscribe to Our Newsletter</a></li>
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">Privacy Policy</a></li>
-                                <li class="footer-list-item"><a href="http://keenthemes.com/">Terms &amp; Conditions</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-            <!-- End Links -->
 
             <!-- Copyright -->
             <div class="content container">

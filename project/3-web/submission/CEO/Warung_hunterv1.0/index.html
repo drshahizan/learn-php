@@ -104,60 +104,110 @@
       .btn1 {
         /* Add your button styles here */
       }
+      nav.sticky {
+        position: fixed;
+        top: 0;
+        z-index: 5;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #333;
+        color: #fff;
+      }
+
+      /* Add some spacing to the sections to prevent content from being hidden behind the navigation bar */
+      #section1,
+      #section2,
+      #section3,
+      #section4,
+      #section5 {
+        padding-top: 150px;
+        /* CSS for responsive image box */
+        .img-box {
+          position: relative;
+        }
+
+        .img-box img {
+          width: 100%;
+          height: auto;
+        }
+
+        .image-overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.8);
+          color: #fff;
+          padding: 1rem;
+          text-align: center;
+        }
+
+        @media (min-width: 768px) {
+          .image-overlay {
+            padding: 3rem;
+          }
+        }
+      }
     </style>
   </head>
 
   <body>
-    <header class="header_section" style="background-color: black">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              Warung Hunter <img src="images/WH logo 2.png" alt="" />
-            </span>
-          </a>
+    <nav class="navbar navbar-expand-lg custom_nav-container">
+      <a class="navbar-brand" href="index.html">
+        <span class="p-5">
+          Warung Hunter <img src="images/WH logo 2.png" alt="" />
+        </span>
+      </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class=""> </span>
-          </button>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class=""> </span>
+      </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="warung_list.html">Warung List</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="add_warung.html">Add Warung</a>
-              </li>
-            </ul>
-            <div class="user_option">
-              <form class="form-inline">
-                <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-              <a href="" class="order_online"> Login</a>
-            </div>
-          </div>
-        </nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">Warung List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section4">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section5">Add Warung</a>
+          </li>
+        </ul>
+
+        <div class="user_option">
+          <form class="form-inline">
+            <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </form>
+          <a href="" class="order_online"> Login</a>
+        </div>
       </div>
-    </header>
+    </nav>
+
     <div class="hero_area">
       <div class="bg-box">
         <!-- <img src="images/hero-bg.jpg" alt="" /> -->
@@ -166,7 +216,7 @@
 
       <!-- end header section -->
       <!-- slider section -->
-      <section class="slider_section">
+      <section class="slider_section" id="section1">
         <div id="customCarousel1" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -179,8 +229,9 @@
                           src="images/Nasi Lemak.JPG"
                           alt=""
                           id="large-image"
+                          class="responsive-image"
                         />
-                        <div class="image-overlay p-5">
+                        <div class="image-overlay p-0">
                           <h1>Nasi Lemak Antarabangsa</h1>
                           <p style="font-size: large">
                             Nasi Lemak Antarabangsa is one of the popular and
@@ -307,73 +358,29 @@
 
     <!-- offer section -->
 
-    <section class="offer_section layout_padding-bottom">
+    <section class="offer_section layout_padding-bottom" id="section2">
       <div class="offer_container">
+        <h2 class="text-center" style="font-weight: bold">Promotion</h2>
         <div class="container">
           <div class="row">
             <div class="col-md-6">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/Nasilemak.JPG" alt="" />
+                  <img
+                    src="images/Nasilemak.JPG"
+                    style="height: 165px; width: 185px"
+                    alt=""
+                  />
                 </div>
                 <div class="detail-box">
                   <h5>Tasty Thursdays</h5>
                   <h6><span>20%</span> Off</h6>
-                  <a href="">
-                    Order Now
-                    <svg
-                      version="1.1"
-                      id="Capa_1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      viewBox="0 0 456.029 456.029"
-                      style="enable-background: new 0 0 456.029 456.029"
-                      xml:space="preserve"
-                    >
-                      <g>
-                        <g>
-                          <path
-                            d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
-                     c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z"
-                          />
-                        </g>
-                      </g>
-                      <g>
-                        <g>
-                          <path
-                            d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304C104.448,27.566,84.992,10.67,61.952,10.67H20.48
-                     C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064
-                     c4.096,27.136,27.648,47.616,55.296,47.616h212.992c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4
-                     C457.728,97.71,450.56,86.958,439.296,84.91z"
-                          />
-                        </g>
-                      </g>
-                      <g>
-                        <g>
-                          <path
-                            d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
-                     c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z"
-                          />
-                        </g>
-                      </g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                    </svg>
+                  <a
+                    href=""
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  >
+                    Redeem Now
                   </a>
                 </div>
               </div>
@@ -384,63 +391,14 @@
                   <img src="images/o2.jpg" alt="" />
                 </div>
                 <div class="detail-box">
-                  <h5>Pizza Days</h5>
-                  <h6><span>15%</span> Off</h6>
-                  <a href="">
-                    Order Now
-                    <svg
-                      version="1.1"
-                      id="Capa_1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      viewBox="0 0 456.029 456.029"
-                      style="enable-background: new 0 0 456.029 456.029"
-                      xml:space="preserve"
-                    >
-                      <g>
-                        <g>
-                          <path
-                            d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
-                     c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z"
-                          />
-                        </g>
-                      </g>
-                      <g>
-                        <g>
-                          <path
-                            d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304C104.448,27.566,84.992,10.67,61.952,10.67H20.48
-                     C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064
-                     c4.096,27.136,27.648,47.616,55.296,47.616h212.992c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4
-                     C457.728,97.71,450.56,86.958,439.296,84.91z"
-                          />
-                        </g>
-                      </g>
-                      <g>
-                        <g>
-                          <path
-                            d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
-                     c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z"
-                          />
-                        </g>
-                      </g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                    </svg>
+                  <h5>Tasty Thursdays</h5>
+                  <h6><span>20%</span> Off</h6>
+                  <a
+                    href=""
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  >
+                    Redeem Now
                   </a>
                 </div>
               </div>
@@ -454,7 +412,7 @@
 
     <!-- food section -->
 
-    <section class="food_section layout_padding-bottom">
+    <section class="food_section layout_padding-bottom" id="section3">
       <div class="container">
         <div class="heading_container heading_center">
           <h2>Warung List</h2>
@@ -1006,7 +964,7 @@
 
     <!-- about section -->
 
-    <section class="about_section layout_padding">
+    <section class="about_section layout_padding" id="section4">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -1043,7 +1001,7 @@
     <!-- end about section -->
 
     <!-- book section -->
-    <section class="book_section layout_padding">
+    <section class="book_section layout_padding" id="section5">
       <div class="container">
         <div class="heading_container">
           <h2>Join Us New Warung</h2>
@@ -1107,7 +1065,7 @@
 
     <!-- client section -->
 
-    <section class="client_section layout_padding-bottom">
+    <section class="client_section layout_padding-bottom" id="section6">
       <div class="container">
         <div class="heading_container heading_center psudo_white_primary mb_45">
           <h2>What Says Our Customers</h2>
@@ -1293,6 +1251,48 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div> -->
+          <div class="modal-body">
+            <div class="text-center">
+              <img
+                src="images/qr_code.jpg"
+                style="height: 250px; width: 250px"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- jQery -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <!-- popper js -->
@@ -1314,5 +1314,35 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
     <!-- End Google Map -->
+    <script>
+      // Smooth scrolling function
+      function smoothScroll(target) {
+        const element = document.querySelector(target);
+        window.scrollTo({
+          top: element.offsetTop,
+          behavior: "smooth",
+        });
+      }
+
+      // Attach click event handlers to navigation links
+      const navLinks = document.querySelectorAll("ul a");
+      navLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const targetSection = link.getAttribute("href");
+          smoothScroll(targetSection);
+        });
+      });
+
+      window.addEventListener("scroll", () => {
+        const nav = document.querySelector("nav");
+        const distanceToTop = nav.getBoundingClientRect().top;
+        if (distanceToTop <= 0) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      });
+    </script>
   </body>
 </html>

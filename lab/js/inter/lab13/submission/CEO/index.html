@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--
+            JS intermediate: Lab 13
+             Group:
+    1. Name: ISMAIL BIN AMAN, Matrix No: SX211939ECJHF04, Github ID: oldpistol
+    2. Name: SEPRIYANDI BIN AGUSR, Matrix No: SX211697ECRHF04, Github ID: sepz36
+    3. Name: MUHAMMAD AZAM BIN AZMAN, Matrix No: SX211707ECRHF04, Github ID: Azamazman96
+    4. Name: MUHAMMAD BADRUL AMIN BIN MASROL, Matrix No: SX220346ECJHS04, Github ID: badz20  
+    -->
+
+    <meta charset="utf-8">
+    <title>Multi Step Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>Signup Form</header>
+      <div class="progress-bar">
+        <div class="step">
+          <p>Name</p>
+          <div class="bullet">
+            <span>1</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p>Contact</p>
+          <div class="bullet">
+            <span>2</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p>Birth</p>
+          <div class="bullet">
+            <span>3</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p>Submit</p>
+          <div class="bullet">
+            <span>4</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+      </div>
+      <div class="form-outer">
+        <form action="#">
+          <div class="page slide-page">
+            <div class="title">Basic Info:</div>
+            <div class="field">
+              <div class="label">First Name</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Last Name</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <button class="firstNext next">Next</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="title">Contact Info:</div>
+            <div class="field">
+              <div class="label">Email Address</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Phone Number</div>
+              <input type="Number">
+            </div>
+            <div class="field btns">
+              <button class="prev-1 prev">Previous</button>
+              <button class="next-1 next">Next</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="title">Date of Birth:</div>
+            <div class="field">
+              <div class="label">Date</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Gender</div>
+              <select>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-2 prev">Previous</button>
+              <button class="next-2 next">Next</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="title">Login Details:</div>
+            <div class="field">
+              <div class="label">Username</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Password</div>
+              <input type="password">
+            </div>
+            <div class="field btns">
+              <button class="prev-3 prev">Previous</button>
+              <button class="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script1.js"></script>
+
+  </body>
+</html>

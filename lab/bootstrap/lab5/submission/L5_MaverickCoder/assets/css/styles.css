@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Header Section */
+.header-section {
+  background-image: url("../../../../images/coffee-biscuits.jpg");
+  background-image: filter(brightness(20%));
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header-content {
+    background-color: #3a3a37;
+    border-radius: 10px;
+    padding: 2%;
+    text-align: center;
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+  background-color: #d1d1d1;
+}
+
+.main-section {
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+.img-fluid {
+    border-radius: 50%;
+}
+
+.baker {
+  width: 100%;
+}
+
+/* Cookie Cards */
+.row .col-md-6 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* About Us Section */
+.about-us-section {
+  background-color: #cbcccd;
+  padding: 5%;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #0659cf;
+  color: white;
+  padding: 5%;
+  text-align: center;
+}

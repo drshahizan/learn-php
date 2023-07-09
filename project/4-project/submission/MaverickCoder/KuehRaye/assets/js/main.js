@@ -165,7 +165,9 @@
             var searchResults = [
                 { title: "Almond London", price: 50 },
                 { title: "Honey Cornflakes", price: 20 },
-                { title: "Nutella Pod", price: 45 }
+                { title: "Nutella Pod", price: 45 },
+                { title: "Dates & Cinnamon Cake", price: 65},
+                { title: "Pandan Layer Cake", price: 55 },
             ];
 
             // Filter search results based on search input
