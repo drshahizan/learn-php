@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr auto;
-    grid-gap: 19px;
+    grid-gap: 20px;
     height: 95vh;
   }
   
@@ -20,7 +20,7 @@
   
   .nav2 {
     background-color: #10df1b;
-    padding: 19pxpx;
+    padding: 19px;
   }
   
   .nav3 {
