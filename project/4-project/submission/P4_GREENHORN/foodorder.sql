@@ -93,26 +93,26 @@ CREATE TABLE `food` (
 --
 
 INSERT INTO `food` (`F_ID`, `name`, `price`, `description`, `R_ID`, `images_path`, `options`) VALUES
-(58, 'Juicy Masala Paneer Kathi Roll', 40, 'Juicy Masala Paneer Kathi Roll loaded with Masala Paneer chunks, onion & Mayo.', 1, 'images/Masala_Paneer_Kathi_Roll.jpg', 'ENABLE'),
-(59, 'Meurig Fish', 60, 'Try Meurig - A whole Pomfret fish grilled with tangy marination & served with grilled onions and tomatoes.', 2, 'images/Meurig.jpg', 'ENABLE'),
-(60, 'Chocolate Hazelnut Truffle', 99, 'Lose all senses over this very delicious chocolate hazelnut truffle.', 3, 'images/Chocolate_Hazelnut_Truffle.jpg', 'ENABLE'),
-(61, 'Happy Happy Choco Chip Shake', 80, 'Happy Happy Choco Chip Shake - a perfect party sweet treat.', 1, 'images/Happy_Happy_Choco_Chip_Shake.jpg', 'ENABLE'),
-(62, 'Spring Rolls', 65, 'Delicious Spring Rolls by Dragon Hut, Delhi. Order now!!!', 2, 'images/Spring_Rolls.jpg', 'ENABLE'),
-(63, 'Baahubali Thali', 75, 'Baahubali Thali is accompanied by Kattapa Biriyani, Devasena Paratha, Bhalladeva Patiala Lassi', 3, 'images/Baahubali_Thali.jpg', 'ENABLE'),
-(65, 'Coffee', 25, 'concentrated coffee made by forcing pressurized water through finely ground coffee beans.', 4, 'images/coffee.jpg', 'DISABLE'),
-(66, 'Tea', 20, 'The simple elixir of tea is of our natural world.', 4, 'images/tea.jpg', 'DISABLE'),
-(68, 'Paneer', 85, 'it', 6, 'images/paneer pakora.jpg', 'DISABLE'),
-(69, 'Coffee', 25, 'concentrated coffee made by forcing pressurized water through finely ground coffee beans.', 2, 'images/coffee.jpg', 'ENABLE'),
-(70, 'Tea', 20, 'The simple elixir of tea is of our natural world.', 2, 'images/tea.jpg', 'ENABLE'),
-(71, 'Samosa', 40, 'Cocktail Crispy Samosa..', 2, 'images/samosa.jpg', 'ENABLE'),
-(72, 'Paneer Pakora', 45, 'it gives whole new dimension even to the most boring or dull vegetable', 2, 'images/paneer pakora.jpg', 'ENABLE'),
-(73, 'Puff', 35, 'Vegetable Puff, a snack with crisp-n-flaky outer layer and mixed vegetables stuffing', 2, 'images/puff.jpg', 'ENABLE'),
+(58, 'Dodol Melaka', 40, 'Dodol is a type of sweet candy.', 1, 'images/dodol.jpg', 'ENABLE'),
+(59, 'Satay Celup', 60, 'Malaccan speciality thats basically a fondue-like dish comprised of skewered pieces of meat and vegetables.', 2, 'images/satay-celup.jpg', 'ENABLE'),
+(60, 'Peranakan/Nyonya', 99, 'Unique dishes such as sek bak (braised pork) and ikan goreng cili garam ', 3, 'images/Nyonya.jpg', 'ENABLE'),
+(61, 'Durian Cendol', 80, 'Durian cendol is a quintessential Malaccan dessert. It consists of the pungent fruit with cendol.', 1, 'images/Durian-cendol.jpg', 'ENABLE'),
+(62, 'Asam Pedas', 65, 'Asam Pedas is a wonderfully simple name, the two words meaning just sour, and spicy.', 2, 'images/asampedas.jpg', 'ENABLE'),
+(63, 'Nyonya kuih', 75, 'Nyonya Kuih is also an attractive dish in Malacca, Malaysia. ', 3, 'images/Nyonyakuih.jpeg', 'ENABLE'),
+(65, 'Putu Piring', 25, ' It’s a steamed rice flour cake with gula melaka filling in the shape of a plate.', 4, 'images/putu-piring.jpg', 'ENABLE'),
+(66, 'Nyonya Laksa', 20, 'A fruit of Malay and Chinese descent, laksa is a noodle dish by the Peranakans and is also a heritage Malaysian food.', 4, 'images/nyonya-laksa.jpg', 'ENABLE'),
+(68, 'Ayam Pongteh', 85, 'Ayam Pongteh is a favourite Nyonya recipe, and simply irresistible with its earthy and salty flavour with the barest hint of sweet.', 6, 'images/ayam-pongteh.jpg', 'ENABLE'),
+(69, 'Coffee', 25, 'concentrated coffee made by forcing pressurized water through finely ground coffee beans.', 2, 'images/coffee.jpg', 'DISABLE'),
+(70, 'Tea', 20, 'The simple elixir of tea is of our natural world.', 2, 'images/tea.jpg', 'DISABLE'),
+(71, 'Samosa', 40, 'Cocktail Crispy Samosa..', 2, 'images/samosa.jpg', 'DISABLE'),
+(72, 'Paneer Pakora', 45, 'it gives whole new dimension even to the most boring or dull vegetable', 2, 'images/paneer pakora.jpg', 'DISABLE'),
+(73, 'Puff', 35, 'Vegetable Puff, a snack with crisp-n-flaky outer layer and mixed vegetables stuffing', 2, 'images/puff.jpg', 'DISABLE'),
 (74, 'Pizza', 200, 'Good and Tasty ', 2, 'Pizza.jpg', 'DISABLE'),
 (75, 'French Fries', 60, 'Pure Veg and Tasty.', 2, 'frenchfries.jpg', 'DISABLE'),
 (76, 'Pakora', 35, 'Pure Vegetable and Tasty.', 2, 'images/Pakora.jpg', 'DISABLE'),
-(77, 'Pizza', 200, 'Pure Vegetable and Tasty.', 2, 'images/Pizza.jpg', 'ENABLE'),
-(78, 'French Fries', 75, 'Pure Veg and Tasty.', 2, 'images/frenchfries.jpg', 'ENABLE'),
-(79, 'Pakora', 45, 'TASTY', 2, 'images/Pakora.jpg', 'ENABLE');
+(77, 'Pizza', 200, 'Pure Vegetable and Tasty.', 2, 'images/Pizza.jpg', 'DISABLE'),
+(78, 'French Fries', 75, 'Pure Veg and Tasty.', 2, 'images/frenchfries.jpg', 'DISABLE'),
+(79, 'Pakora', 45, 'TASTY', 2, 'images/Pakora.jpg', 'DISABLE');
 
 -- --------------------------------------------------------
 
