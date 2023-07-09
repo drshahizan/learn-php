@@ -11,8 +11,8 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Set A
 1. A
-2. A
-3. C
+2. C
+3. A
 4. D
 5. A
 6. A
