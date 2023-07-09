@@ -50,5 +50,5 @@ Try out!
 
 8. This will start the server at http://localhost:8000 by default.
 9. For admin page, use this url: http://localhost:8000/admin.
-    - username: Admin
+    - email: admin@email.com
     - password: password
