@@ -34,7 +34,7 @@ Try out!
    npm run dev
    ```
 
-6. Seed the Database (Optional):
+6. Seed the Database:
 
    ```bat
    php artisan db:seed
