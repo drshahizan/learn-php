@@ -141,23 +141,56 @@
                 </div>
                 <!--// end row -->
 
-                <div class="row">
-                    <div class="col-md-5 col-sm-7">
-                        <form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );">
-							<p>
-								<input type="text" placeholder="Name" name="name" id="name">
-								<input type="email" placeholder="Email" name="email" id="email">
-							</p>
-							<p>
-								<input type="tel" placeholder="Phone" name="phone" id="phone">
-								<input type="text" placeholder="Subject" name="subject" id="subject">
-							</p>
-							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
-							<input type="hidden" name="token" value="FsWga4&@f6aw" />
-							<p><input type="submit" value="Submit"></p>
-						</form>
-                    </div>
-                </div>
+                <!--CONTACT FORM-->
+                <div class="form-container">
+                    <h1>Contact Form</h1>
+                    <form name="contactForm" method="post" onsubmit = "return validate()" action="formProcess.php">
+                      <table border="0">
+                        <tr>
+                            <td>
+                                <label for="name">* Name</label>
+                            </td>
+                            <td>
+                                <input type="text" id="name" name="name" placeholder="Your name" >
+                                <span class="errors"></span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">* Email</label>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Email address" id="email" name="email" >
+                                 <span class="errors"></span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="phone">* Phone</label>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Phone number" id="phone" name="phone" >
+                                 <span class="errors"></span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="subject">* Message</label>
+                            </td>
+                            <td>
+                                <textarea placeholder="Your message" cols="132" rows="5" name="subject" id="subject"></textarea>
+                                 <span class="errors"></span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit" value="Submit">Submit</button>
+                            </td>
+                        </tr>
+                      </table>
+                    </form>
+                  </div>    
+
                 <!--// end row -->
             </div>
         </div>
@@ -202,6 +235,9 @@
         <!-- PAGE LEVEL SCRIPTS -->
         <script src="js/layout.min.js" type="text/javascript"></script>
         <script src="js/components/google-map.min.js" type="text/javascript"></script>
+
+        <!-- FORM VALIDATION -->
+        <script src="js/fValidate.js" type="text/javascript"></script>
 
     </body>
     <!-- END BODY -->
