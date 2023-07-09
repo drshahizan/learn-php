@@ -7,20 +7,20 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# PHP: Fundamentals
+# JavaScript: DOM
 
-## Set B
+## Set A
 1. A
-2. A
+2. B
 3. A
 4. A
 5. A
 6. A
 7. A
-8. B
-9. B
+8. A
+9. A
 10. A
-11. A
+11. B
 12. A
 13. A
 14. A
@@ -29,21 +29,21 @@ Don't forget to hit the :star: if you like this repo.
 17. A
 18. A
 19. A
-20. A
+20. B
 21. A
 22. A
-23. A
+23. B
 24. A
 25. A
-26. A
-27. A
+26. B
+27. B
 28. A
 29. A
-30. A
+30. B
 31. A
 32. A
 33. A
-34. A
+34. B
 35. A
 36. A
 37. A
@@ -60,7 +60,6 @@ Don't forget to hit the :star: if you like this repo.
 48. A
 49. A
 50. A
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.

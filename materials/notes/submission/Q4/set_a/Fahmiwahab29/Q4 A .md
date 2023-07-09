@@ -9,58 +9,57 @@ Don't forget to hit the :star: if you like this repo.
 
 # PHP: Fundamentals
 
-## Set B
+## Set A
 1. A
-2. A
+2. C
 3. A
 4. A
 5. A
 6. A
 7. A
-8. B
-9. B
+8. A
+9. A
 10. A
 11. A
-12. A
+12. B
 13. A
 14. A
 15. A
 16. A
-17. A
+17. D
 18. A
-19. A
+19. B
 20. A
 21. A
 22. A
 23. A
 24. A
 25. A
-26. A
+26. C
 27. A
 28. A
 29. A
 30. A
-31. A
-32. A
+31. C
+32. C
 33. A
 34. A
 35. A
-36. A
+36. B
 37. A
 38. A
-39. A
-40. A
-41. A
+39. B
+40. D
+41. B
 42. A
-43. A
-44. A
+43. B
+44. B
 45. A
 46. A
 47. A
 48. A
 49. A
 50. A
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.

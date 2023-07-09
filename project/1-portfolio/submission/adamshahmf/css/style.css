@@ -289,8 +289,8 @@ button {
      align-content: center;
      align-items: center;
      background-size: 100% 100%;
-     padding-top: 13%;
-     padding-bottom: 150px;
+     padding-top: 7%;
+     padding-bottom: 0px;
 }
 
 .text-bg {
@@ -328,11 +328,11 @@ button {
 .text-bg a {
      font-size: 17px;
      background-color: #fff;
-     color: #ff283f;
+     color: #c2192a;
      font-weight: 600;
-     padding: 22px 0px;
+     padding: 12px 15px 12px 15px;
      width: 100%;
-     max-width: 320px;
+     max-width: 250px;
      text-align: center;
      display: inline-block;
      transition: ease-in all 0.5s;
@@ -540,18 +540,23 @@ button {
 
 .contac_detel {
      background: #fff;
-     padding: 31px 0;
+     padding-left: 30px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 30px;
 }
 
 .contac_detel ul li img {
-     margin-right: 60px;
+     margin-right: 30px;
 }
 
 .contac_detel ul li {
-     padding-bottom: 25px;
-     font-size: 45px;
+     padding-bottom: 15px;
+     padding-left: 25px;
+     font-size: 35px;
      color: #e70139;
      line-height: 30px;
+     text-align: left;
 }
 
 .contac_detel ul li:last-child {
