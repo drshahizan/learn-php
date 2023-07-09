@@ -28,7 +28,7 @@ Don't forget to hit the :star: if you like this repo.
 16. D
 17. A
 18. A
-19. B
+19. C
 20. A
 21. A
 22. A
@@ -49,17 +49,17 @@ Don't forget to hit the :star: if you like this repo.
 37. A
 38. A
 39. A
-40. D
+40. A
 41. A
 42. A
 43. A
-44. D
+44. C
 45. A
 46. A
 47. A
 48. B
 49. A
-50. A
+50. D
 
 
 ## Contribution 🛠️
