@@ -1,8 +1,8 @@
 ## Demo
 
 Try out!
-Website: http://167.71.200.243/
-Admin: http://167.71.200.243/admin (email: admin@email.com, password: password)
+- Website: http://167.71.200.243/
+- Admin: http://167.71.200.243/admin (email: admin@email.com, password: password)
 
 ## Group CEO
 
