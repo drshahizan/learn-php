@@ -1,6 +1,12 @@
-## Group CEO
+## Demo
 
-## About
+Try out!
+- Website: http://167.71.200.243/
+- Admin: http://167.71.200.243/admin
+  - email: admin@email.com
+  - password: password
+
+## Group CEO
 
 ## Instruction
 1. Install Composer (https://getcomposer.org/)
@@ -22,17 +28,26 @@
    php artisan migrate
    ```
 
-5. Seed the Database (Optional):
+5. In the terminal, while still in the repository's root directory, run the following command to compile the assets:
+
+   ```bat
+   npm install
+   npm run dev
+   ```
+
+6. Seed the Database:
 
    ```bat
    php artisan db:seed
    ```
 
-6. Start the Development Server:
+7. Start the Development Server:
 
    ```bat
    php artisan serve
    ```
 
-7. This will start the server at http://localhost:8000 by default.
-8. For admin page, use this url: http://localhost:8000/admin.
+8. This will start the server at http://localhost:8000 by default.
+9. For admin page, use this url: http://localhost:8000/admin.
+    - email: admin@email.com
+    - password: password
