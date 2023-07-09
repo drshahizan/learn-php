@@ -59,7 +59,7 @@ Don't forget to hit the :star: if you like this repo.
 47. A
 48. A
 49. A
-50. B
+50. A
 
 
 ## Contribution 🛠️
