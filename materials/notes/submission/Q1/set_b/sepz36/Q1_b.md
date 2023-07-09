@@ -12,7 +12,7 @@ Don't forget to hit the :star: if you like this repo.
 ## Set B
 1) d 
 2) c 
-3) c 
+3) b 
 4) a 
 5) c 
 6) b 
@@ -44,7 +44,7 @@ Don't forget to hit the :star: if you like this repo.
 33) a 
 34) a 
 35) c 
-36) c 
+36) d 
 37) b 
 38) d 
 39) a 
@@ -54,7 +54,7 @@ Don't forget to hit the :star: if you like this repo.
 43) a 
 44) a 
 45) a 
-46) c
+46) b
 47) a
 48) a 
 49) b
