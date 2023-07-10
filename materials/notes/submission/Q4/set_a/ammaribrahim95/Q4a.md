@@ -7,60 +7,60 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# JavaScript: Fundamental
+# PHP: Fundamentals
 
 ## Set A
-1. B
-2. D
-3. D
-4. B
-5. A
-6. A
-7. B
-8. A
-9. C
-10. A
-11. A
-12. A
-13. A
-14. B
-15. A
-16. D
-17. B
-18. A
-19. C
-20. C
-21. C
-22. C
-23. B
-24. A
-25. D
-26. A
-27. C
-28. A
-29. D
-30. B
-31. A
-32. D
-33. A
-34. A
-35. A
-36. B
-37. A
-38. A
-39. A
-40. A
-41. B
-42. A
-43. A
-44. B
-45. A
-46. A
-47. A
-48. A
-49. A
-50. A
 
+1. a) `<?php`
+2. c) PHP: Hypertext Preprocessor
+3. a) `echo`
+4. a) Using the assignment operator (`=`)
+5. a) With a semicolon (`;`)
+6. a) `.`
+7. a) `//`
+8. a) `strlen()`
+9. a) 15
+10. a) `$fruits = array("Apple", "Banana", "Orange");`
+11. a) By using square brackets `[]` and the index number
+12. b) Odd
+13. a) `include()`
+14. a) `define("PI", 3.14);`
+15. a) `session_start()`
+16. a) `$_GET["param"]`
+17. d) `$_COOKIE`
+18. a) `header("Location: newpage.php");`
+19. b) 510
+20. a) `mysqli_connect()`
+21. a) To prevent SQL injection attacks
+22. a) `mysqli_num_rows()`
+23. a) `mysqli_close()`
+24. a) It's a fruit.
+25. a) Using `try...catch` blocks
+26. c) To initialize the object's properties and perform setup tasks
+27. a) `$object = new ClassName();`
+28. a) Hello, John
+29. a) By using the `::` operator
+30. a) It allows access to the property or method from anywhere
+31. c) 15
+32. c) Using the `fgets()` function
+33. a) To check if a file or directory exists
+34. a) 5
+35. a) `trim()`
+36. b) 11
+37. a) To iterate over elements in an array or collection
+38. a) `empty()`
+39. b) Hello PHP
+40. d) To add elements to the end of an array
+41. b) 15
+42. a) To split a string into an array
+43. b) 9
+44. b) To format a date and time string
+45. a) Adult
+46. a) To set HTTP headers for the response
+47. a) 5
+48. a) To convert a PHP array or object into a JSON string
+49. a) Color found!
+50. a) To filter and sanitize user input data
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
@@ -69,5 +69,4 @@ You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
-
 
