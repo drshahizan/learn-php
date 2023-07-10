@@ -2,9 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey</title>
 
-    <script>
+<script>
 function CheckForm() {
         const phone = document.getElementById("phone").value;
         const email = document.getElementById("email").value;
@@ -12,22 +12,22 @@ function CheckForm() {
         const agree = document.getElementById("agree_box").checked;
 
         if (!validatePhone(phone)) {
-          alert("Please insert a valid phone number.");
+          alert("insert a valid phone number.");
           return false;
         }
 
         if (!validateEmail(email)) {
-          alert("Please insert a valid email address ending with @utm.my.");
+          alert("insert a valid email address ending with @utm.my.");
           return false;
         }
 
         if (!validateDate(birthdate)) {
-          alert("Please insert a birthdate before 1 January 2000.");
+          alert("insert birth date before 1st Jan 2000.");
           return false;
         }
 
         if (!agree) {
-          alert("You must agree to the terms and conditions first.");
+          alert("Kindly agree to the T&C");
           return false;
         }
 
@@ -35,7 +35,7 @@ function CheckForm() {
       }
 
       function validatePhone(phone) {
-        const regex = /^\+601[0-9]{1}-[0-9]{4}-[0-9]{4}$/; // +6012-2345-67989
+        const regex = /^\+601[0-9]{1}-[0-9]{8}$/; // +6010-36226240
         return regex.test(phone);
       }
 
@@ -59,7 +59,7 @@ function CheckForm() {
           return false;
         }
       }
-    </script>
+</script>
 </head>
 
 <body>
