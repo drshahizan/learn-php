@@ -1,3 +1,52 @@
+Lab 3: Todo List
+Activity 🏆 :
+
+Q1: For this application, you must create a flowchart.
+Ans:
+
+Start
+
+-> Add Task:
+     - User enters task details
+     - Task added to the list
+     - Display updated task list
+
+-> Edit Task:
+     - User selects task to edit
+     - User modifies task details
+     - Task details updated in the list
+     - Display updated task list
+
+-> Delete Task:
+     - User selects task to delete
+     - Task removed from the list
+     - Display updated task list
+
+-> Toggle Task Status:
+     - User selects task to toggle status
+     - Task completion status toggled
+     - Display updated task list
+
+-> Filter Tasks:
+     - User selects filter option
+     - Display filtered task list based on status
+
+-> Clear All Tasks:
+     - User clicks "Clear All" button
+     - Confirm deletion prompt
+         -> Yes:
+              - All tasks cleared from the list
+              - Display empty task list
+         -> No:
+              - Flow returns to the main menu
+
+End
+
+
+
+
+
+
 2. Brief description of each function used:
 
 displayTasks(): This function retrieves the tasks from the local storage and displays them on the webpage. It creates HTML elements dynamically to represent each task and appends them to the task container.
