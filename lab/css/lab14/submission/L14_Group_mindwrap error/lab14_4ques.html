@@ -13,6 +13,89 @@ Group:
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     
+    <style>
+      body {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #navbar {
+        flex: 0.5;
+        border-right: 2px solid #99a2a2;
+        position: fixed;
+        top: 8px;
+        left: 10px;
+      }
+
+      header {
+        font-weight: bold;
+        font-size: 26px;
+      }
+
+      #navbar header {
+        border-bottom: 2px solid #99a2a2;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li a {
+        display: block;
+        text-decoration: none;
+        border-bottom: 2px solid #99a2a2;
+        color: #4d4e53;
+        padding: 15px;
+        font-size: 16px;
+      }
+
+      li:last-child a {
+        border-bottom: none;
+      }
+
+      #main-doc {
+        flex: 1;
+        margin-left: 350px;
+      }
+
+      .main-section {
+        line-height: 2.5;
+      }
+
+      .main-section header {
+        font-weight: bold;
+        font-size: 200%;
+        padding-bottom: 0px;
+      }
+
+      #Introduction header {
+        padding-top: 0;
+      }
+
+      article {
+        padding-left: 30px;
+      }
+
+      article ul li {
+        padding-top: 5px;
+      }
+
+      code {
+        background-color: #f7f7f7;
+        font-family: Consolas;
+        width: 100%;
+        display: inline-block;
+        padding: 10px 20px 10px 20px;
+        margin: 10px;
+      }
+    </style>
+    
   </head>
   <body>
     <nav id="navbar">
