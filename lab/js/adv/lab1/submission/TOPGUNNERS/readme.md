@@ -11,7 +11,7 @@ Activity 🏆 :
 ## Q1: For this application, you must create a flowchart.
 Ans:
 
-<img src="./image/flowchart.png" width="300" />
+<img src="./image/flowchart.jpg" width="300" />
 
 **Figure 1**: Flowchart for the application.
 
