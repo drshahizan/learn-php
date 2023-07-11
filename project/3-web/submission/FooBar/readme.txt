@@ -1,8 +1,23 @@
-Thank you for using our template!
+Figma Link: https://www.figma.com/file/N04XYEakSaCNbuXFo5Tt7h/SECV-Project?type=design&node-id=35-2&mode=design&t=JslKEtJB7qrb9M9w-0
+Team Name: FooBar
 
-For more awesome templates please visit https://colorlib.com/wp/templates/
+Team Members:
+Name: A Sharilfazlee Salleh bin Hj A Suhaimi
+Matrix No: SX150069CSJS04
+Github id: spek1993
 
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
+Name: Sashila Sre A/P Ramadass
+Matrix No: SX221602ECJHF04
+Github id: sreshila30
 
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+Name: Muhammad Fahmi Bin Che Ab Wahab 
+Matrix No: SX221606ECJHF04
+Github id: fahmiwahab29
+
+Name: Mohamad Zul Ikmal Bin Mohammad Razal
+Matrix: SX210548ECRHS04
+Github: lamki
+
+Name : Wan Asmaa' Syahirah Binti Abd Malek
+Matrix No: SX221599ECJHF04
+Github id: twilighttttt

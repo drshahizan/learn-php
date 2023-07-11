@@ -10,7 +10,7 @@ $sql = "DELETE from message WHERE id=".$uid." AND phone='".$phone."';";
 print $sql."\n\n\n";
 
 if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
+  echo "Deleted successfully";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }

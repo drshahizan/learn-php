@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+
+<script>
+function CheckForm() {
+        const phone = document.getElementById("phone").value;
+        const email = document.getElementById("email").value;
+        const birthdate = document.getElementById("birthdate").value;
+        const agree = document.getElementById("agree_box").checked;
+
+        if (!validatePhone(phone)) {
+          alert("insert a valid phone number.");
+          return false;
+        }
+
+        if (!validateEmail(email)) {
+          alert("insert a valid email address ending with @utm.my.");
+          return false;
+        }
+
+        if (!validateDate(birthdate)) {
+          alert("insert birth date before 1st Jan 2000.");
+          return false;
+        }
+
+        if (!agree) {
+          alert("Kindly agree to the T&C");
+          return false;
+        }
+
+        return true;
+      }
+
+      function validatePhone(phone) {
+        const regex = /^\+601[0-9]{1}-[0-9]{8}$/; // +6010-36226240
+        return regex.test(phone);
+      }
+
+      function validateEmail(email) {
+        const regex = /^[a-zA-Z0-9_.+-]+@utm\.my$/;
+        return regex.test(email);
+      }
+
+      function validateDate(dateStr) {
+        const regex = /^\d{4}-\d{2}-\d{2}$/;
+        if (!regex.test(dateStr)) {
+          return false;
+        }
+
+        const date = new Date(dateStr);
+        const year = date.getFullYear();
+
+        if (year < 2000) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+</script>
+</head>
+
+<body>
+
+</body>
+</html>
