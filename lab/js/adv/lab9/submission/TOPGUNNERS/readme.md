@@ -2,6 +2,12 @@ Lab 9: currency
 Activity 🏆 :
 
 Q1: Convert RM100 to EUR.
+> - Convert RM100 to EUR.
+<img src="currencyconvert.png">
+
+**Figure 1**: RM100 to EU
+
+
 Ans: 100 MYR = 19.75 EUR
 
 Q2: Please identify the French currency.

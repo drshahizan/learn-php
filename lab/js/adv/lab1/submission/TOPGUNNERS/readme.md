@@ -16,6 +16,7 @@ Ans:
 **Figure 1**: Flowchart for the application.
 
 Q2: State the javascript technology you have learned.
+
 DOM manipulation:
 The code utilizes various methods and properties to manipulate the Document Object Model (DOM) elements, such as querySelector(), querySelectorAll(), insertAdjacentHTML(), innerText, value, classList, remove(), addEventListener(), and removeEventListener().
 
@@ -26,7 +27,7 @@ HTML and CSS manipulation:
 The code dynamically manipulates the HTML and CSS styles of the DOM elements using the style property, CSS classes, and the classList property.
 
 Q3: Give a brief description of each function that was used.
-Ans:
+Answer:
 Brief description of each function used in the code:
 
 addBox.addEventListener("click", ...): This function adds an event listener to the addBox element. When the element is clicked, it triggers a callback function that sets the title and button text in the popup box and displays it. It also focuses on the titleTag input field under certain conditions.
@@ -39,7 +40,7 @@ showMenu(elem): This function is used to display the menu options for a note. It
 
 
 Q4: Where is the data kept? How is it kept?
-Ans:
+Answer:
 The data in this code is stored using the browser's local storage feature, accessible through the localStorage API. Local storage provides a means for web applications to store data in key-value pairs.
 
 In this code, the notes array is stored and retrieved from local storage using the localStorage.getItem() and localStorage.setItem() methods. The data is serialized to JSON format using JSON.stringify() before being stored and deserialized using JSON.parse() when retrieved.
