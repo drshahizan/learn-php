@@ -15,44 +15,38 @@ Ans:
 
 **Figure 1**: Flowchart for the application.
 
-## Q2: State the javascript technology you have learned.
-### DOM manipulation: 
-The code uses several methods and properties to manipulate the Document Object Model (DOM) elements, such as querySelector(), querySelectorAll(), insertAdjacentHTML(), innerText, value, classList, remove(), addEventListener(), and removeEventListener().
+Q2: State the javascript technology you have learned.
+DOM manipulation:
+The code utilizes various methods and properties to manipulate the Document Object Model (DOM) elements, such as querySelector(), querySelectorAll(), insertAdjacentHTML(), innerText, value, classList, remove(), addEventListener(), and removeEventListener().
 
-### localStorage: 
-The code uses the localStorage object to store and retrieve data locally, using the getItem() and setItem() methods.
+Event handling:
+The code demonstrates effective event handling techniques to respond to user interactions, including click events, focus events, and key events.
 
-### ES6 features: 
-The code uses several features introduced in ECMAScript 6 (ES6) or later, such as arrow functions, template literals, spread operator, destructuring assignment, let and const declarations, and the forEach method.
+HTML and CSS manipulation:
+The code dynamically manipulates the HTML and CSS styles of the DOM elements using the style property, CSS classes, and the classList property.
 
-### Event handling: 
-The code uses several event handling techniques to respond to user interaction, such as click events, focus events, and key events.
-
-### HTML and CSS manipulation: 
-The code manipulates the HTML and CSS styles of the DOM elements using the style property, CSS classes, and the classList property.
-
-## Q3: Give a brief description of each function that was used.
+Q3: Give a brief description of each function that was used.
 Ans:
-Here's a brief description of each function used in the code:
+Brief description of each function used in the code:
 
-1. `addBox.addEventListener("click", ...)`: This function adds an event listener to the `addBox` element. When the element is clicked, it triggers a callback function that sets the title and button text in the popup box and displays it. It also sets the focus on the `titleTag` input field under certain conditions.
+addBox.addEventListener("click", ...): This function adds an event listener to the addBox element. When the element is clicked, it triggers a callback function that sets the title and button text in the popup box and displays it. It also focuses on the titleTag input field under certain conditions.
 
-2. `closeIcon.addEventListener("click", ...)`: This function adds an event listener to the `closeIcon` element. When the element is clicked, it triggers a callback function that resets the state by clearing the input fields, hiding the popup box, and enabling scrolling.
+closeIcon.addEventListener("click", ...): This function adds an event listener to the closeIcon element. When the element is clicked, it triggers a callback function that resets the state by clearing the input fields, hiding the popup box, and enabling scrolling.
 
-3. `showNotes()`: This function is responsible for displaying the existing notes. It removes any existing note elements, iterates over the `notes` array, and dynamically creates HTML markup for each note. The generated markup is then inserted into the document.
+showNotes(): This function is responsible for displaying the existing notes. It removes any existing note elements, iterates over the notes array, and dynamically creates HTML markup for each note. The generated markup is then inserted into the document.
 
-4. `showMenu(elem)`: This function is used to display the menu options for a note. It adds a CSS class to the parent element of the menu icon (`elem`) to show the menu. It also attaches a click event listener to the `document` object to hide the menu if a click occurs outside the menu or on a different menu icon.
+showMenu(elem): This function is used to display the menu options for a note. It adds a CSS class to the parent element of the menu icon (elem) to show the menu. It also attaches a click event listener to the document object to hide the menu if a click occurs outside the menu or on a different menu icon.
 
 
-## Q4: Where is the data kept? How is it kept?
+Q4: Where is the data kept? How is it kept?
 Ans:
-The data in this code is stored in the browser's local storage using the `localStorage` API. Local storage is a mechanism provided by web browsers that allows web applications to store data in key-value pairs.
+The data in this code is stored using the browser's local storage feature, accessible through the localStorage API. Local storage provides a means for web applications to store data in key-value pairs.
 
-In this code, the `notes` array is stored and retrieved from the local storage using the `localStorage.getItem()` and `localStorage.setItem()` methods. The `JSON.parse()` and `JSON.stringify()` functions are used to convert the data between JSON format and JavaScript objects.
+In this code, the notes array is stored and retrieved from local storage using the localStorage.getItem() and localStorage.setItem() methods. The data is serialized to JSON format using JSON.stringify() before being stored and deserialized using JSON.parse() when retrieved.
 
-When the page loads, the code attempts to retrieve the "notes" data from the local storage using `localStorage.getItem("notes")`. If there is existing data, it is parsed using `JSON.parse()` to convert it into a JavaScript array. If no data is found, an empty array is assigned to `notes`.
+During page load, the code attempts to retrieve the "notes" data from local storage using localStorage.getItem("notes"). If data exists, it is parsed using JSON.parse() to convert it into a JavaScript array. If no data is found, an empty array is assigned to notes.
 
-When a note is added, updated, or deleted, the `notes` array is modified accordingly. The updated `notes` array is then stored back in the local storage using `localStorage.setItem("notes", JSON.stringify(notes))`. This ensures that the data is persisted between page reloads or browser sessions.
+When a note is added, updated, or deleted, the notes array is modified accordingly. The updated notes array is then stored back in local storage using localStorage.setItem("notes", JSON.stringify(notes)). This ensures the data is persisted between page reloads and browser sessions.
 
 
 
