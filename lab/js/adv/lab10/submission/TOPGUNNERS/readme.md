@@ -2,10 +2,13 @@ Lab 10: QR Code Generator
 
 Group:
 
-Name: SHARVIN A/L M.GUNALAN, Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
-Name: SUBAHSHINI A/P SANGARA LINGAM, Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
-Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
-Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+
+
+
 File 📁: 10 QR Code Generator
 
 # Lab 10: QR Code Generator
