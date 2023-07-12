@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<!--
+Lab 4: Student Performance Evaluation
+Group:
+1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+-->
+<head>
+	<title>Lab 4 - Student Performance Evaluation</title>
+	<script>
+		function computeGrades() {
+			var studentsInput = document.getElementById("students").value;
+			var gradesInput = document.getElementById("grades").value;
+
+			var students = studentsInput.split(",");
+			var grades = gradesInput.split(",").map(Number);
+
+			var sum = 0;
+			for (var i = 0; i < grades.length; i++) {
+				sum += grades[i];
+			}
+			var avg = sum / grades.length;
+
+			var grade = "";
+			if (avg >= 90) {
+				grade = "A";
+			} else if (avg >= 80) {
+				grade = "B";
+			} else if (avg >= 70) {
+				grade = "C";
+			} else if (avg >= 60) {
+				grade = "D";
+			} else {
+				grade = "F";
+			}
+			var results = document.getElementById("results");
+			results.innerHTML = "Average Grade: " + avg.toFixed(2) + "<br>";
+			results.innerHTML += "Final Grade: " + grade;
+		}
+	</script>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			color: #2f4f4f;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		input[type="text"] {
+			padding: 5px;
+			width: 250px;
+		}
+
+		button {
+			padding: 10px 20px;
+			background-color: #2f4f4f;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: #1e3c3c;
+		}
+
+		#results {
+			margin-top: 20px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1>Student Performance Evaluation</h1>
+	<p>Enter student names and their grades separated by commas:</p>
+	<p>
+		<label for="students">Student Names:</label>
+		<input type="text" id="students">
+	</p>
+	<p>
+		<label for="grades">Grades:</label>
+		<input type="text" id="grades">
+	</p>
+	<button onclick="computeGrades()">Compute Grades</button>
+	<div id="results"></div>
+</body>
+</html>
