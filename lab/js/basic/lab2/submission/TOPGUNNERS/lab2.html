@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Lab 2: Determine whether a number is even or odd
+    Group:
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+    -->
+  
+  <head>
+    <title>Even-Odd Checker</title>
+  </head>
+  <body>
+    <h1>Even-Odd Checker</h1>
+    <form>
+      <label for="number">Number:</label>
+      <input type="number" id="number" name="number" required /><br /><br />
+      <button type="button" onclick="checkEvenOdd()">Check</button><br /><br />
+      <p id="result"></p>
+    </form>
+
+    <script>
+      function checkEvenOdd() {
+        const number = parseInt(document.getElementById("number").value);
+        const result = document.getElementById("result");
+
+        if (isNaN(number)) {
+          result.textContent = "Please enter a valid number.";
+        } else {
+          if (isEven(number)) {
+            result.textContent = "The number is even.";
+          } else {
+            result.textContent = "The number is odd.";
+          }
+        }
+      }
+
+      function isEven(number) {
+        return number % 2 === 0;
+      }
+    </script>
+  </body>
+</html>
