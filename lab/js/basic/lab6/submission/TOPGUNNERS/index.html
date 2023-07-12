@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <!--
+   Lab 6: Conditional statement to sort the numbers
+    Group:
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310 
+    -->
+<head>
+    <title>Lab 6: Conditional statement to sort the numbers</title>
+</head>
+
+<body>
+    <h1>Sort Numbers</h1>
+    <p><strong>Input:</strong> 56, 32, 53, 25, 19, 48</p>
+    <p><strong>Output:</strong> <span id="output"></span></p>
+    <script>
+        // Input numbers
+        let numbers = [56, 32, 53, 25, 19, 48];
+
+        // Sort the numbers in descending order
+        numbers.sort(function (a, b) {
+            return b - a;
+        });
+
+        // Output the sorted numbers
+        let output = document.getElementById("output");
+        output.innerHTML = numbers.join(", ");
+    </script>
+</body>
+
+</html>
