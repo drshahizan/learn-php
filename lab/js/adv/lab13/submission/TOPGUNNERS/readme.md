@@ -23,12 +23,13 @@ Responsive Behavior: The responsive navigation bar adapts its layout and behavio
 Ans:
 1. HTML Structure: Start by creating the basic HTML structure of the navigation bar. Typically, this involves using an unordered list (<ul>) to represent the menu items and nested lists (<ul> within <li>) for dropdown menus if needed. Assign appropriate class or ID attributes to elements for styling and JavaScript manipulation.
 
+
 2. CSS Styling:
 
-=Apply CSS styles to position and style the navigation bar elements.
-=Use media queries to define different styles for different screen sizes.
-=Define styles for the collapsed menu (hamburger icon) and expanded dropdown menus.
-=Ensure the navigation bar is visually appealing, readable, and user-friendly on different devices.
+-Apply CSS styles to position and style the navigation bar elements.
+-Use media queries to define different styles for different screen sizes.
+-Define styles for the collapsed menu (hamburger icon) and expanded dropdown menus.
+-Ensure the navigation bar is visually appealing, readable, and user-friendly on different devices.
 
 3. Accessibility Considerations:
 Ensure that the navigation bar is accessible by following best practices. Use semantic HTML elements, proper heading structure, ARIA attributes, and keyboard navigation support. Test the navigation bar with assistive technologies to ensure compatibility and accessibility.
