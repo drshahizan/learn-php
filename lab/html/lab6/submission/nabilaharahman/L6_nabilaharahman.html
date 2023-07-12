@@ -12,59 +12,94 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lab 6: HTML Table</title>
 
-        <link 
-            rel="stylesheet" 
-            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"
-            integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w=="
-            crossorigin="anonymous" 
-            referrerpolicy="no-referrer" 
-        />
+
 
         <style>
+
+            body 
+            {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4e1e1;
+            }
+            
+            .container 
+            {
+            max-width: 700px;
+            width: 100%;
+            margin: 0 auto;
+            }
+
+
             .table1 thead tr th,
-            .table1 tbody tr td {
+            .table1 tbody tr td 
+            {
                 text-align: center;
+                width: 100px;
+                height: 70px;
                 border: 2px solid black;
             }
 
             .table2 tr th,
-            .table2 tbody tr td {
+            .table2 tbody tr td 
+            {
                 text-align: center;
+                width: 100px;
+                height: 70px;                
                 border: 2px solid black;
             }
 
-            .table3 {
+            .table3 
+            {
                 text-align: center;
                 height: 200px;
-                border: 2px solid black;
-            }
-            .table3 .blue {
-                background-color: blue;
-                border: 2px solid black;
-            }
-            .table3 .red {
-                background-color: red;
-                border: 2px solid black;
-            }
-            .table3 .green {
-                background-color: green;
-                border: 2px solid black;
-            }
-            .table3 .yellow {
-                background-color: yellow;
+                width: 540px;
                 border: 2px solid black;
             }
 
-            .table4 {
-                text-align: center;
+            .table3 .blue 
+            {
+                background-color: rgb(137, 137, 173);
                 border: 2px solid black;
             }
-            .table.table-bordered.table4 {
+
+            .table3 .red 
+            {
+                background-color: rgb(156, 110, 110);
+                border: 2px solid black;
+            }
+
+            .table3 .green 
+            {
+                background-color: rgb(76, 129, 76);
+                border: 2px solid black;
+            }
+
+            .table3 .yellow 
+            {
+                background-color: rgb(213, 213, 142);
+                border: 2px solid black;
+            }
+
+            .table4 
+            {
+                text-align: center;
+                width: 540px;
+                height: 100px;
+                border: 2px solid black;
+            }
+
+            .table.table-bordered.table4 
+            {
                 border-collapse: collapse;
             }
+
             .table.table-bordered.table4,
             .table.table-bordered.table4 td,
-            .table.table-bordered.table4 th {
+            .table.table-bordered.table4 th 
+            {
                 border: 2px solid black;
                 padding: 5px;
             }
