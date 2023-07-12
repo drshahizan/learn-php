@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <!--
+    Lab 9: Converts upper case letters to lower case letters and vice versa
+    Group:
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310  
+    -->
+  <head>
+    <title>Lab 9</title>
+    <script>
+      function swapCase(str) {
+        let swappedStr = "";
+
+        for (let i = 0; i < str.length; i++) {
+          const char = str[i];
+
+          if (char === char.toUpperCase()) {
+            swappedStr += char.toLowerCase();
+          } else {
+            swappedStr += char.toUpperCase();
+          }
+        }
+
+        return swappedStr;
+      }
+
+      function convertCase() {
+        const input = document.getElementById("input").value;
+        const output = document.getElementById("output");
+        output.innerHTML = "Output: " + swapCase(input);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Case Converter</h1>
+    <label for="input">Input:</label>
+    <input type="text" id="input" name="input" required /><br /><br />
+    <button onclick="convertCase()">Convert</button><br /><br />
+    <p id="output"></p>
+  </body>
+</html>
