@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exponent Calculator</title>
+  <script>
+    function calculateExponent() {
+      // Get input values
+      var base = parseFloat(document.getElementById('base').value);
+      var exponent = parseInt(document.getElementById('exponent').value);
+
+      // Calculate the result
+      var result = Math.pow(base, exponent);
+
+      // Display the result
+      document.getElementById('result').innerHTML = "Answer: " + result;
+    }
+  </script>
+</head>
+<body>
+  <h1>Exponent Calculator</h1>
+  <label for="base">Base:</label>
+  <input type="number" id="base" required><br>
+  <label for="exponent">Exponent:</label>
+  <input type="number" id="exponent" required><br>
+  <button onclick="calculateExponent()">Calculate</button>
+  <p id="result"></p>
+</body>
+</html>
