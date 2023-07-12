@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Coming Soon Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title">
+      Our website is <span>Coming soon</span>, follow us<br>for updates!
+    </div>
+    <form action="#" class="form">
+      <div class="email-field">
+        <input type="email" placeholder="Enter your e-mail address" required>
+        <button type="submit">Subscribe</button>
+      </div>
+    </form>
+    <div class="count-down">
+      <div class="timer" id="days">
+        <div class="count">
+          <div class="numb">00</div>
+          <div class="text">Days</div>
+        </div>
+      </div>
+      <div class="clone">:</div>
+      <div class="timer" id="hours">
+        <div class="count">
+          <div class="numb">00</div>
+          <div class="text">Hours</div>
+        </div>
+      </div>
+      <div class="clone">:</div>
+      <div class="timer" id="minutes">
+        <div class="count">
+          <div class="numb">00</div>
+          <div class="text">Minutes</div>
+        </div>
+      </div>
+      <div class="clone">:</div>
+      <div class="timer" id="seconds">
+        <div class="count">
+          <div class="numb">00</div>
+          <div class="text">Seconds</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Set the target date for the countdown (14 days from the current date)
+    var targetDate = new Date();
+    targetDate.setDate(targetDate.getDate() + 14);
+
+    // Update the countdown every second
+    setInterval(updateCountdown, 1000);
+
+    function updateCountdown() {
+      var currentDate = new Date();
+      var timeDifference = targetDate.getTime() - currentDate.getTime();
+
+      // Calculate remaining days, hours, minutes, and seconds
+      var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+      // Update the countdown display
+      document.getElementById('days').querySelector('.numb').textContent = padNumber(days);
+      document.getElementById('hours').querySelector('.numb').textContent = padNumber(hours);
+      document.getElementById('minutes').querySelector('.numb').textContent = padNumber(minutes);
+      document.getElementById('seconds').querySelector('.numb').textContent = padNumber(seconds);
+    }
+
+    function padNumber(number) {
+      // Pad the number with leading zeros if necessary
+      return number.toString().padStart(2, '0');
+    }
+  </script>
+</body>
+</html>
