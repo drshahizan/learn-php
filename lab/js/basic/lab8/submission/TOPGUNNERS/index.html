@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <!--
+    Lab 8: Determine integer values fall within the range
+    Group:
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+    -->
+<head>
+    <title>Lab 8</title>
+</head>
+
+<body>
+    <h1>Integer Range Check</h1>
+    <p>Input: 65, 89, 199</p>
+    <p id="output"></p>
+
+    <script>
+        // Input values
+        const values = [65, 89, 199];
+        let output = '';
+
+        for (let i = 0; i < values.length; i++) {
+            const value = values[i];
+            const isInRange = value >= 50 && value <= 99;
+            output += value + ' >= 50 and ' + value + ' <= 99<br>';
+            output += isInRange + '<br><br>';
+        }
+
+        // Check if any value is in the range
+        const isAnyInRange = values.some(value => value >= 50 && value <= 99);
+        output += isAnyInRange ? 'True' : 'False';
+        output += '<br>';
+        output += isAnyInRange ? 'One or more integer values are in the range 50..99' : 'No integer value is in the range 50..99';
+
+        document.getElementById('output').innerHTML = output;
+    </script>
+</body>
+
+</html>
