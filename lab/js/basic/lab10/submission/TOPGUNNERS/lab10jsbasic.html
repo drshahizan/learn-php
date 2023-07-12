@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<!--
+Lab 10: Determine the longest word in a string
+Group:
+1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+-->
+<head>
+  <title>Longest Word in a String</title>
+  <script>
+    function findLongestWord() {
+      const inputString = document.getElementById("inputString").value;
+      const words = inputString.replace(/[^\w\s]/g, '').split(' ');
+
+      let longestWord = '';
+      for (let i = 0; i < words.length; i++) {
+        if (words[i].length > longestWord.length) {
+          longestWord = words[i];
+        }
+      }
+
+      document.getElementById("output").textContent = longestWord;
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Longest Word in a String</h1>
+  <label for="inputString">Input String:</label>
+  <input type="text" id="inputString" name="inputString" required><br><br>
+  <button onclick="findLongestWord()">Find Longest Word</button><br><br>
+  <label for="output">Longest Word:</label>
+  <span id="output"></span>
+</body>
+
+</html>
