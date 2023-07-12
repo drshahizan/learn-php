@@ -1,0 +1,107 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  width: 200px;
+  height: 200px;
+}
+
+.card-content {
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 18px;
+  color: #456ABD;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.size-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size-value span {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #456ABD;
+  cursor: pointer;
+}
+
+.size-value span.active {
+  background-color: #456ABD;
+  color: #fff;
+}
+
+.colour-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colour-value span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.white {
+  background-color: lightgrey;
+}
+
+.blue {
+  background-color: #456ABD;
+}
+
+.yellow {
+  background-color: #EAA523;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btns button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btns button:first-child {
+  background-color: #456ABD;
+}
+
+.btns button:last-child {
+  background-color: #f7f7f7;
+  color: #333;
+}
