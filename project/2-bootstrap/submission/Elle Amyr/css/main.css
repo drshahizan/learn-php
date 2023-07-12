@@ -1,4 +1,52 @@
+/*
+* Template Name: Resume / CV / vCard Template
+* Author: lmpixels
+* Author URL: http://themeforest.net/user/lmpixels
+* Version: 2.4
+*/
 
+/* =============================================================================
+
+1. Fonts
+2. General styles (Buttons, Inputs, Typography)
+3. Page loading animation
+4. Subpages changer
+5. Site header (Panel with logo & navigation)
+6. Site content
+7. Subpages
+  7.1. About Me subpage
+  7.2. Resume subpage
+  7.3. Portfolio subpage
+  7.4. Blog subpage
+  7.5. Contact subpage
+8. Sliders (testimonials & portfolio carousels)
+9. Portfolio Full info page
+10. Single Page Layout (Blog Post page ...)
+11. Media Queries
+12. Updates
+
+============================================================================= */
+
+
+/* ============================================================================= 
+1. Fonts
+============================================================================= */
+/* Font Awesome icons font */
+@import url('../fonts/fontawesome-free/css/all.min.css'); /* Full icons list: https://fontawesome.com/icons?d=gallery&m=free */
+
+/* Linearicons Font */
+@import url('Linearicons-Free.css'); /* Full icons list: https://linearicons.com/free */
+
+/* 7 stroke icons font by Pixeden */
+@import url('pe-icon-7-stroke.css'); /* Full icons list: http://themes-pixeden.com/font-demos/7-stroke/index.html */
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
+
+
+/* ============================================================================= 
+2. General styles
+============================================================================= */
 
 html {
   position: relative;
@@ -43,7 +91,6 @@ a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
 
 a:hover {
   color: #FF9800;
