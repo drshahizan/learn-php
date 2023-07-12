@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Lab 3: Conditional Statement and loops
+    Group:
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310 
+    -->
+  
+  <head>
+    <title>Largest Number Finder</title>
+  </head>
+  <body>
+    <h1>Largest Number Finder</h1>
+    <form>
+      <label for="numbers">Enter five numbers (comma-separated):</label>
+      <input type="text" id="numbers" name="numbers" required /><br /><br />
+      <button type="button" onclick="findLargestNumber()">Find Largest Number</button>
+    </form>
+
+    <script>
+      function findLargestNumber() {
+        const numbersInput = document.getElementById("numbers").value;
+        const numbersArray = numbersInput.split(",").map(Number);
+
+        if (numbersArray.length === 5 && numbersArray.every(Number.isInteger)) {
+          const largestNumber = findLargestNumberFromArray(numbersArray);
+          alert("The largest number is: " + largestNumber);
+        } else {
+          alert("Please enter five valid numbers.");
+        }
+      }
+
+      function findLargestNumberFromArray(numbers) {
+        let largestNumber = numbers[0];
+
+        for (let i = 1; i < numbers.length; i++) {
+          if (numbers[i] > largestNumber) {
+            largestNumber = numbers[i];
+          }
+        }
+
+        return largestNumber;
+      }
+    </script>
+  </body>
+</html>
