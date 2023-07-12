@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Lab 1: Compute the exponent of a number
+    Group:
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+    -->
+  
+  <head>
+    <title>Exponent Calculator</title>
+  </head>
+  <body>
+    <h1>Exponent Calculator</h1>
+    <form>
+      <label for="base">Base:</label>
+      <input type="number" id="base" name="base" required /><br /><br />
+      <label for="exp">Exponent:</label>
+      <input type="number" id="exp" name="exp" required /><br /><br />
+      <button type="button" onclick="calculate()">Calculate</button><br /><br />
+      <label for="result">Result:</label>
+      <input type="number" id="result" name="result" readonly />
+    </form>
+
+    <script>
+      function calculate() {
+        const base = parseInt(document.getElementById("base").value);
+        const exp = parseInt(document.getElementById("exp").value);
+        const result = document.getElementById("result");
+
+        if (isNaN(base) || isNaN(exp)) {
+          result.value = "Please enter valid numbers.";
+        } else {
+          result.value = computeExponent(base, exp);
+        }
+      }
+
+      function computeExponent(base, exponent) {
+        let result = 1;
+
+        for (let i = 1; i <= exponent; i++) {
+          result *= base;
+        }
+
+        return result;
+      }
+    </script>
+  </body>
+</html>
