@@ -3,7 +3,7 @@
 Activity 🏆 :
 ## Q1: What is a responsive navigation bar, and why is it important for web design?
 Ans:
-navigation component in web design that adjusts its layout and behavior based on the screen size and device type. It is designed to provide an optimal user experience across various devices, including desktop computers, tablets, and mobile phones.
+Navigation component in web design that adjusts its layout and behavior based on the screen size and device type. It is designed to provide an optimal user experience across various devices, including desktop computers, tablets, and mobile phones.
 
 ## Q2: What are the key components of a responsive navigation bar, and how do they work together?
 Ans:
@@ -54,9 +54,7 @@ Ans:
 
     ⁜ Color contrast: Ensure there is sufficient contrast between the menu text and background colors to accommodate users with visual impairments.
 
-4. Test and iterate: Regularly test the sidebar menu template across different browsers, devices, and user scenarios. Gather feedback from users and make necessary improvements based on their input. Usability testing can help identify any usability or accessibility issues that need to be addressed.
-
-5. Documentation and guidelines: If you're designing a sidebar menu template for a team or project, provide clear documentation and guidelines on how to use and customize the template. This ensures consistency and allows others to understand and implement the menu effectively
+4. Documentation and guidelines: If you're designing a sidebar menu template for a team or project, provide clear documentation and guidelines on how to use and customize the template. This ensures consistency and allows others to understand and implement the menu effectively
 
 <!--
             JavaScript adv: Lab 13
