@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Lab 7: Login
+    Group:
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+    -->
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./files/login.css" />
+    <script defer src="./files/login.js"></script>
+  </head>
+
+  <body background="./files/back.jpg">
+    <main id="main-holder">
+      <img src="./files/myutm.png" height="50" alt="" />
+      <h1>Sign In</h1>
+
+      <form id="login-form">
+        <input
+          type="text"
+          name="username"
+          id="username-field"
+          class="login-form-field"
+          placeholder="Username"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password-field"
+          class="login-form-field"
+          placeholder="Password"
+        />
+        <input type="submit" value="Login" id="login-form-submit" />
+      </form>
+      <div id="login-error-msg-holder">
+        <p id="login-error-msg">
+          Invalid username
+          <span id="error-msg-second-line">and/or password</span>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
