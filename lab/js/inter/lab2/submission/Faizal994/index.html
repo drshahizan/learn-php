@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Lab 2: JDT Jersey Product Card
+Group:
+ 1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+ 2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+ 3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+ 4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+-->
+<head>
+  <meta charset="utf-8">
+  <title>JDT Product Card</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script>
+    $(document).ready(function() {
+      function updateJersey(color, image) {
+        $('.colour-value span').removeClass('active');
+        $(color).addClass('active');
+
+        $('html, body').css('background', $(color).data('color'));
+        $('.container').css('background-color', $(color).data('color'));
+        $('.price').css('color', $(color).data('color'));
+        $('.btns button').css('background-color', $(color).data('color'));
+        $('.size-value span').css('color', $(color).data('color'));
+        $('.size-value span.active').css('background-color', $(color).data('color'));
+        $('.size-value span.active').css('color', 'white');
+
+        $('.image img').attr('src', image);
+      }
+
+      $('.white').on('click', function() {
+        updateJersey('.white', 'jersey1.jpg');
+      });
+
+      $('.blue').on('click', function() {
+        updateJersey('.blue', 'jersey2.jpg');
+      });
+
+      $('.yellow').on('click', function() {
+        updateJersey('.yellow', 'jersey3.jpg');
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="jersey1.jpg" alt="Jersey">
+    </div>
+    <div class="card-content">
+      <div class="wrapper">
+        <div class="title">JDT Jersey</div>
+        <p>Customizable jersey</p>
+        <span class="price">RM299.00</span>
+        <div class="content size">
+          <div class="name size-name">Size</div>
+          <div class="size-value">
+            <span class="color">S</span>
+            <span class="active">M</span>
+            <span class="color">L</span>
+          </div>
+        </div>
+        <div class="content colour">
+          <div class="name colour-name">Colour</div>
+          <div class="colour-value">
+            <span class="white" data-color="#EFEFEF" data-img="jersey1.jpg"></span>
+            <span class="blue active" data-color="#003893" data-img="jersey2.jpg"></span>
+            <span class="yellow" data-color="#FEDF00" data-img="jersey3.jpg"></span>
+          </div>
+        </div>
+        <div class="btns">
+          <button>Buy Now</button>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
