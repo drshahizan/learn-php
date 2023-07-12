@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<!--
+            
+    Group:
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+ -->
+  
+  <meta charset="utf-8" />
+  <title>Confirm Password Check</title>
+</head>
+<body>
+  <div class="container">
+    <header>Check Password</header>
+    <form action="#">
+      <div class="field">
+        <input
+          onkeyup="active()"
+          id="pswrd_1"
+          type="password"
+          placeholder="Enter Password"
+        />
+      </div>
+      <div class="field">
+        <input
+          onkeyup="active_2()"
+          id="pswrd_2"
+          disabled
+          type="password"
+          placeholder="Confirm Password"
+        />
+        <div class="show">SHOW</div>
+      </div>
+      <div style="color:rgb(205, 202, 202);font-size: 12px">#Enter at least 6 characters</div><br>
+      <button disabled onclick="checkPassword()">Check</button>
+
+      <div class="match-message" id="matchMessage"></div>
+      <div class="error-message" id="errorMessage"></div>
+    </form>
+  </div>
+
+  <script>
+    function active() {
+      const pswrd_1 = document.getElementById('pswrd_1');
+      const show = document.querySelector('.show');
+
+      if (pswrd_1.type === 'password') {
+        pswrd_1.type = 'text';
+        show.style.color = '#1DA1F2';
+        show.textContent = 'HIDE';
+      } else {
+        pswrd_1.type = 'password';
+        show.style.color = '#111';
+        show.textContent = 'SHOW';
+      }
+    }
+
+    function active_2() {
+      const pswrd_1 = document.getElementById('pswrd_1');
+      const pswrd_2 = document.getElementById('pswrd_2');
+      const button = document.querySelector('button');
+      const matchMessage = document.getElementById('matchMessage');
+      const errorMessage = document.getElementById('errorMessage');
+
+      if (pswrd_1.value !== '' && pswrd_2.value === '') {
+        pswrd_2.removeAttribute('disabled');
+        pswrd_2.focus();
+        button.removeAttribute('disabled');
+        matchMessage.textContent = '';
+        errorMessage.textContent = '';
+      } else if (pswrd_1.value === '' && pswrd_2.value === '') {
+        pswrd_2.setAttribute('disabled', true);
+        button.setAttribute('disabled', true);
+        matchMessage.textContent = '';
+        errorMessage.textContent = '';
+      }
+    }
+
+    function checkPassword() {
+      const pswrd_1 = document.getElementById('pswrd_1');
+      const pswrd_2 = document.getElementById('pswrd_2');
+      const matchMessage = document.getElementById('matchMessage');
+      const errorMessage = document.getElementById('errorMessage');
+
+      if (pswrd_1.value === pswrd_2.value) {
+        matchMessage.textContent = 'Nice! Password Matched';
+        errorMessage.textContent = '';
+      } else {
+        matchMessage.textContent = '';
+        errorMessage.textContent = 'Error! Password Does Not Match';
+      }
+    }
+  </script>
+</body>
+</html>
