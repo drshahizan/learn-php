@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <!--
+    Lab 7: Multiplication and division of two numbers
+    Group:
+    1. Name: SHARVIN A/L M.GUNALAN,          Matrix No: SX221955ECJHF04 , Github ID: Sharvin01
+    2. Name: SUBAHSHINI A/P SANGARA LINGAM,  Matrix No: SX220328ECJHS04 , Github ID: Subahshini15
+    3. Name: MUHAMMAD FAIZAL BIN ASARAB ALI, Matrix No: SX221609ECJHF04 , Github ID: Faizal994
+    4. Name: MOGANAKUMARAN A/L SELVAKUMARAN, Matrix No: SX211706ECRHF04 , Github ID: RN1310
+    -->
+<head>
+  
+    <style>
+        h1 {
+            color: blue;
+            font-size: 24px;
+        }
+        
+        label {
+            color: red;
+        }
+        
+        #result {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function multiply() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var result = num1 * num2;
+            document.getElementById("result").innerHTML = "Result (Multiplication): " + result;
+        }
+
+        function divide() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var result = num1 / num2;
+            document.getElementById("result").innerHTML = "Result (Division): " + result;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <label for="num1">Enter Number 1:</label>
+    <input type="text" id="num1" name="num1" required><br><br>
+    <label for="num2">Enter Number 2:</label>
+    <input type="text" id="num2" name="num2" required><br><br>
+    <button onclick="multiply()">Calculate (Multiply)</button>
+    <button onclick="divide()">Calculate (Divide)</button><br><br>
+    <p id="result"></p>
+</body>
+
+</html>
