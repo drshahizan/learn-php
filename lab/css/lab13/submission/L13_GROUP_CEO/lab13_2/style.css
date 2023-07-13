@@ -1,4 +1,5 @@
 /* base colors */
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -8,7 +9,7 @@
   }
 
 header {
-    background-color: #f94144;
+    background-color: #eeaaac;
   }
   
   nav {

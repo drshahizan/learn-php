@@ -1,0 +1,63 @@
+/* base colors */
+
+header {
+  background-color: #d0b2b3;
+  font-family: 'Courier New';
+  text-align: center;
+}
+
+nav {
+  background-color: #d7a588;
+  font-family: 'Lucida Sans';
+  font-style: italic;
+}
+
+aside {
+  background-color: #f3d389;
+  text-align: right;
+  font-family: Tahoma;
+}
+
+section {
+  background-color: #bcdca5;
+  font-family: 'Courier New';
+  font-style: italic;
+}
+
+section article {
+  background-color: #4d908e;
+}
+
+footer {
+  color: rgb(74, 5, 68);
+  background-color: #ac80c1;
+  font-family: 'Courier New';
+  text-align: center;
+}
+
+/* base block layout */
+
+body {
+  width: 60em;
+  margin: 0 auto;
+}
+
+body > * {
+  padding: 1em;
+}
+
+main {
+  padding: 0;
+}
+
+main > * {
+  padding: 1em;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+main section article {
+  padding: 1em; margin: 1em;
+}
