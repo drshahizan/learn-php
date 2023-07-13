@@ -8,11 +8,197 @@
       rel="stylesheet"
       type="text/css"
     />
-    <style>
-      /* your css */
-    </style>
+
+    <!--
+    Lab 11: HTML Text Appearance
+    Group: BRIGHT BYTES
+    1. Name: Nabilah binti Abd Rahman, Matrix No: SX2285ECJHF04, Github ID: nabilaharahman
+    2. Name: Muhammad Hafiz bin Iskandar Matrix No: SX202325ECJHF04, Github ID: mhafiziskandar
+    3. Name: Effa Aiza binti Sulaiman, Matrix No: SX202206ECJHF04, Github ID: effaaiza
+-->
+<style>
+    /* your css */
+    h1 {
+      font-family: Georgia;
+      font-size: 40px;
+      font-weight: 300;
+      color: #630202;
+      text-transform: uppercase;
+      line-height: 1.5;
+      letter-spacing: 3px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-family: Georgia;
+      font-size: 15px;
+      font-style: italic;
+      color: #666666;
+      line-height: 1.5;
+      text-indent: 15px;
+    }
+
+    p2 {
+      font-family: Georgia;
+      font-size: 20px;
+      font-style: oblique;
+      color: #0e0459;
+      line-height: 1.5;
+      text-indent: 15px;
+    }
+
+    #text1 {
+      border-style: double;
+      border-color: rgb(128, 0, 119);
+      padding: 2%;
+      font-family: "Indie Flower";
+      text-align: center;
+      margin-top: auto;
+    }
+
+    .container p::first-letter {
+      font-size: 200%;
+      color: rgb(255, 0, 153);
+    }
+
+    .container p:first-of-type {
+      color: rgb(200, 0, 255);
+      text-align: center;
+
+    }
+    .container p:nth-of-type(2) {
+      color: rgb(28, 33, 85);
+      text-align:left;
+
+    }
+
+    .container p:nth-of-type(3) {
+      text-align: end;
+      color: rgb(35, 90, 32);
+    }
+
+    code.border-solid {
+      background-color: rgb(208, 162, 162);
+      display: inline-flex;
+      border: 2px solid rgb(72, 2, 2);
+      width: 150px;
+      height: 150px;
+      padding: 0.5cm;
+      text-align: center;
+    }
+
+    code.border-double {
+      background-color: rgb(208, 162, 162);
+      display: inline-flex;
+      border-style: double;
+      border: 6px double rgb(68, 2, 2);
+      width: 140px;
+      height: 140px;
+      padding: 0.5cm;
+    }
+    
+    code.border-dashed {
+      background-color: rgb(208, 162, 162);
+      display: inline-flex;
+      border: 8px dashed rgb(68, 2, 2);
+      width: 100px;
+      height: 100px;
+      width: 130px;
+      height: 130px;
+      padding: 0.5cm;
+    }
+
+    code.border-dotted {
+      background-color: (208, 162, 162);
+      display: inline-flex;
+      border: 4px dotted rgb(68, 2, 2);
+      width: 120px;
+      height: 120px;
+      padding: 0.5cm;
+    }
+
+    code.border-rounded {
+      background-color: rgb(208, 162, 162);
+      display: inline-flex;
+      border-radius: 5px;
+      width: 110px;
+      height: 110px;
+      padding: 0.5cm;
+    }
+
+    code.border-circle {
+      background-color: rgb(208, 162, 162);
+      display: inline-flex;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+
+    code.border-football {
+      background-color: rgb(208, 162, 162);
+      border-radius: 25px 90px;
+      display: inline-flex;
+      height: 100px;
+      width: 80px;
+    }
+
+    #box1 {
+      border: 15px solid blue;
+      padding: 40px;
+      background-color: yellow;
+      margin: 30px;
+      inset: 15px;
+      width: 350px;
+    }
+
+    .box2 {
+      border: 20px solid greenyellow;
+      padding: 40px;
+      background-color: rgb(255, 255, 255);
+      margin-left: 30%;
+      width: 200px;
+    }
+
+    .item1 {
+      font-size: 30px;
+      text-align: center;
+      background-color: orange;
+      font-weight: bold;
+      padding: 2%;
+    }
+
+    .item2 {
+      text-align: center;
+    }
+
+    #box3 {
+      border: 5px solid rgb(53, 53, 152);
+      background-color: rgb(145, 255, 209);
+      text-align: center;
+      width: 400px;
+      height:fit-content;
+    }
+
+    #box3 img {
+      border: 5px dotted rgb(163, 8, 163);
+    }
+
+    #text2 {
+      border: 5px dashed rgb(141, 97, 14);
+      text-align: justify;
+      background-color: turquoise;
+    }
+
+    .text3 {
+      font-weight: bolder;
+      text-decoration: underline;
+    }
+  </style>
+
   </head>
   <body>
+
     <h1>Lab 1: Google Font</h1>
     <div id="text1">
       UTM has three campuses – the main campus is in Skudai, and was the first
@@ -34,6 +220,7 @@
         Weld Road (now Jalan Raja Chulan) to teach Technical Assistants for the
         Federated Malay States Departments of Railways, Survey and Public Works.
       </p>
+
       <p>
         The school was officially known as Treacher Technical School, named
         after Sir William Treacher, the Resident General during that time.
@@ -63,13 +250,17 @@
 
     <h1>Lab 4: Box Model 1</h1>
     <div id="box1">
+    <p2>
       This text is the content of the box. We have added a 40px padding, 30px
       margin and a 15px inset blue. <br /><br />University of Technology
       Malaysia (UTM) (Malay: Universiti Teknologi Malaysia) is a premier
       Malaysian public research-intensive university ranked 187th in the world
       by QS University rankings. Its medium of instruction is English.
+    </p2>
     </div>
+
     <p></p>
+
     <h1>Lab 5: Box Model 2</h1>
     <div class="box2">
       <div class="item1">Web Programming</div>
