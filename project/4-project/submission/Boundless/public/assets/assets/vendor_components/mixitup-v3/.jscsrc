@@ -1,0 +1,95 @@
+{
+    "requireCurlyBraces": [
+        "else",
+        "for",
+        "while",
+        "do",
+        "try",
+        "catch"
+    ],
+    "requireSpaceAfterKeywords": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "case",
+        "return",
+        "try",
+        "typeof"
+    ],
+    "safeContextKeyword": ["self"],
+    "maximumLineLength": {
+      "value": 140,
+      "allowComments": true,
+      "allowRegex": true
+    },
+    "requireSpaceBeforeBlockStatements": true,
+    "requireParenthesesAroundIIFE": true,
+    "requireSpaceAfterLineComment": {
+        "allExcept": ["#", "="]
+    },
+    "requireSpacesInConditionalExpression": true,
+    "disallowSpacesInNamedFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowFunctionDeclarations": false,
+    "requireSpaceBetweenArguments": true,
+    "requireMultipleVarDecl": false,
+    "requireBlocksOnNewline": true,
+    "requireSemicolons": true,
+    "disallowEmptyBlocks": true,
+    "disallowSpacesInsideArrayBrackets": true,
+    "disallowSpacesInsideParentheses": true,
+    "requireCommaBeforeLineBreak": true,
+    "requireLineBreakAfterVariableAssignment": true,
+    "requirePaddingNewlinesBeforeKeywords": [
+        "do",
+        "for",
+        "if",
+        "switch",
+        "try",
+        "void",
+        "while",
+        "return"
+    ],
+    "requirePaddingNewLinesInObjects": true,
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "disallowSpaceBeforePostfixUnaryOperators": true,
+    "disallowSpaceBeforeBinaryOperators": [
+        ","
+    ],
+    "requireSpacesInForStatement": true,
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceAfterBinaryOperators": true,
+    "disallowKeywords": [
+        "with"
+    ],
+    "validateIndentation": 4,
+    "disallowMixedSpacesAndTabs": true,
+    "disallowTrailingWhitespace": true,
+    "disallowTrailingComma": true,
+    "disallowKeywordsOnNewLine": [
+        "else"
+    ],
+    "requireCapitalizedConstructors": true,
+    "disallowNewlineBeforeBlockStatements": true,
+    "disallowMultipleLineStrings": true,
+    "disallowMultipleLineBreaks": true,
+    "requireSpaceBeforeObjectValues": true,
+    "validateQuoteMarks": "'",
+    "jsDoc": {
+        "checkAnnotations": true,
+        "requireParamTypes": true,
+        "checkParamNames": true,
+        "checkParamExistence": true,
+        // "checkRedundantParams": true,
+        "checkReturnTypes": true,
+        "requireNewlineAfterDescription": true,
+        // "requireParamDescription": true,
+        "requireDescriptionCompleteSentence": true
+    }
+}

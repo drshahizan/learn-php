@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "apexcharts",
+  "description": "",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "webpack": "cd apexcharts-github && webpack --watch",
+    "gulp": "cd website && gulp watch",
+    "build": "cd apexcharts-github && webpack -p",
+    "start": "concurrently \"npm run webpack\" \"npm run gulp\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "webpack": "^2.2.1"
+  },
+  "author": "ApexCharts"
+}

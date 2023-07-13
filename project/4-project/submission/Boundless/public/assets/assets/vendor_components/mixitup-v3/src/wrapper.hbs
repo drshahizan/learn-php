@@ -1,0 +1,105 @@
+{{>banner}}
+
+(function(window) {
+    'use strict';
+
+    var mixitup = null,
+        h       = null;
+
+    {{>polyfills}}
+
+    {{>factory}}
+
+    {{>h}}
+
+    {{>base}}
+
+    {{>base-static}}
+
+    {{>features}}
+
+    {{>config-animation}}
+
+    {{>config-behavior}}
+
+    {{>config-callbacks}}
+
+    {{>config-controls}}
+
+    {{>config-class-names}}
+
+    {{>config-data}}
+
+    {{>config-debug}}
+
+    {{>config-layout}}
+
+    {{>config-load}}
+
+    {{>config-selectors}}
+
+    {{>config-render}}
+
+    {{>config-templates}}
+
+    {{>config}}
+
+    {{>mixer-dom}}
+
+    {{>ui-class-names}}
+
+    {{>command-dataset}}
+
+    {{>command-multimix}}
+
+    {{>command-filter}}
+
+    {{>command-sort}}
+
+    {{>command-insert}}
+
+    {{>command-remove}}
+
+    {{>command-change-layout}}
+
+    {{>control-definition}}
+
+    {{>control}}
+
+    {{>style-data}}
+
+    {{>transform-data}}
+
+    {{>transform-defaults}}
+
+    {{>events}}
+
+    {{>queue-item}}
+
+    {{>mixer}}
+
+    {{>i-move-data}}
+
+    {{>target-dom}}
+
+    {{>target}}
+
+    {{>collection}}
+
+    {{>operation}}
+
+    {{>state}}
+
+    {{>user-instruction}}
+
+    {{>messages}}
+
+    {{>facade}}
+
+    {{>module-definitions}}
+
+    mixitup.BaseStatic.call(mixitup.constructor);
+
+    mixitup.NAME = '{{name}}';
+    mixitup.CORE_VERSION = '{{version}}';
+})(window);

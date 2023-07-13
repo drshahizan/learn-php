@@ -1,0 +1,49 @@
+{
+  "name": "webticker",
+  "version": "3.0.0",
+  "description": "JQuery Web Ticker",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.2",
+    "jshint": "^2.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazedigital/Web-Ticker.git"
+  },
+  "author": {
+      "name": "Jonathan Mifsud",
+      "email": "jon@maze.digital",
+      "url": "http://maze.digital"
+  },
+  "license": "(GPL-3.0 or Commercial see license in license.md)",
+  "bugs": {
+    "url": "https://github.com/mazedigital/Web-Ticker/issues"
+  },
+  "homepage": "https://maze.digital/webticker/",
+  "keywords": [
+    "animation",
+    "ecosystem",
+    "ecosystem-jquery",
+    "horizontal",
+    "horizontal-scroll",
+    "image",
+    "image-scroll",
+    "jquery",
+    "jquery-plugin",
+    "marquee",
+    "news",
+    "news-ticker",
+    "plugin",
+    "scroll",
+    "ticker"
+  ]
+}

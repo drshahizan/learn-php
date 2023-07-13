@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+
+        <title>MixItUp Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <menu>
+            <h2>Native Controls</h2>
+
+            <h3>Filters</h3>
+
+            <button type="button" class="control mixitup-control" data-filter="all">All</button>
+            <button type="button" class="control mixitup-control" data-filter="none">None</button>
+            <button type="button" class="control mixitup-control" data-filter=".cat-1">Category A</button>
+            <button type="button" class="control mixitup-control" data-filter=".cat-2">Category B</button>
+            <button type="button" class="control mixitup-control" data-filter=".cat-3">Category C</button>
+            <button type="button" class="control mixitup-control" data-filter=".cat-x">Category X</button>
+
+            <h3>Filter Toggles</h3>
+
+            <button type="button" class="control mixitup-control" data-toggle=".cat-1">Category A</button>
+            <button type="button" class="control mixitup-control" data-toggle=".cat-2">Category B</button>
+            <button type="button" class="control mixitup-control" data-toggle=".cat-3">Category C</button>
+
+            <h3>Sorts</h3>
+
+            <button type="button" class="control mixitup-control" data-sort="default:asc">Ascending</button>
+            <button type="button" class="control mixitup-control" data-sort="default:desc">Descending</button> |
+
+            <button type="button" class="control mixitup-control" data-sort="order:asc">Custom Ascending</button>
+            <button type="button" class="control mixitup-control" data-sort="order:desc">Custom Descending</button> |
+
+            <button type="button" class="control mixitup-control" data-sort="date:asc order:asc">Multi Custom Ascending Ascending</button>
+            <button type="button" class="control mixitup-control" data-sort="date:asc order:desc">Multi Custom Ascending Descending</button> |
+
+            <button type="button" class="control mixitup-control" data-sort="random">Random</button>
+
+            <h3>MultiMix</h3>
+
+            <button type="button" class="control mixitup-control" data-filter=".cat-1" data-sort="default:asc">Category A / Ascending</button>
+            <button type="button" class="control mixitup-control" data-filter=".cat-3" data-sort="order:desc">Category C / Custom Descending</button>
+
+            <h2>API Methods</h2>
+
+            <div class="control js-append">Append</div>
+            <div class="control js-prepend">Prepend</div>
+            <div class="control js-insert-at-index">Insert at index (5)</div>
+            <div class="control js-remove-via-element">Remove by element reference (0)</div>
+            <div class="control js-remove-via-index">Remove by index (3)</div>
+            <div class="control js-insert-multiple-via-markup">Insert Multiple via markup</div>
+            <div class="control js-insert-multiple-via-elements">Insert Multiple via elements</div><br><br>
+
+            <div class="control js-api-filter">Filter Category B</div>
+            <div class="control js-api-filter-compound">Filter Category B + C</div>
+            <div class="control js-api-sort">Sort Custom Ascending</div>
+
+            <br><br>
+
+            <div class="control js-api-limit-3">3 per page</div>
+            <div class="control js-api-limit-inf">Infinite per page</div>
+            <div class="control js-api-limit-10">10 per page</div>
+        </menu>
+
+        <section class="sandbox" id="sandbox-1">
+            <div class="mix cat-1" data-order="5" data-date="1">A 5</div>
+            <div class="mix cat-1" data-order="1" data-date="2">A 1</div>
+            <div class="mix cat-2" data-order="4" data-date="3">B 4</div>
+            <div class="mix cat-3" data-order="3" data-date="3">C 3</div>
+            <div class="mix cat-3" data-order="2" data-date="4">C 2</div>
+            <div class="mix cat-3" data-order="6" data-date="6">C 6</div>
+
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+        </section>
+
+        <span class="mixitup-page-list"></span>
+        <span class="mixitup-page-stats"></span>
+
+        <section class="sandbox" id="sandbox-2">
+            <div class="mix" id="12"></div>
+
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+        </section>
+
+        <script src="../../dist/mixitup.js"></script>
+        <script src="../../../mixitup-pagination/dist/mixitup-pagination.js"></script>
+        <script src="../../../mixitup-dragndrop/mixitup-dragndrop.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

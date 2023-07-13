@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="../reset.css" rel="stylesheet"/>
+        <link href="./style.css" rel="stylesheet"/>
+
+        <title>MixItUp Demo - Basic</title>
+    </head>
+    <body>
+        <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".green">Green</button>
+            <button type="button" class="control" data-filter=".blue">Blue</button>
+            <button type="button" class="control" data-filter=".pink">Pink</button>
+            <button type="button" class="control" data-filter="none">None</button>
+
+            <button type="button" class="control" data-sort="default:asc">Asc</button>
+            <button type="button" class="control" data-sort="default:desc">Desc</button>
+        </div>
+
+        <div class="container">
+            <div class="mix green"></div>
+            <div class="mix green"></div>
+            <div class="mix blue"></div>
+            <div class="mix pink"></div>
+            <div class="mix green"></div>
+            <div class="mix blue"></div>
+            <div class="mix pink"></div>
+            <div class="mix blue"></div>
+
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+        </div>
+
+        <script src="../mixitup.min.js"></script>
+
+        <script>
+            var containerEl = document.querySelector('.container');
+
+            var mixer = mixitup(containerEl, {
+                animation: {
+                    effects: 'fade scale stagger(50ms)' // Set a 'stagger' effect for the loading animation
+                },
+                load: {
+                    filter: 'none' // Ensure all targets start from hidden (i.e. display: none;)
+                }
+            });
+
+            // Add a class to the container to remove 'visibility: hidden;' from targets. This
+            // prevents any flickr of content before the page's JavaScript has loaded.
+
+            containerEl.classList.add('mixitup-ready');
+
+            // Show all targets in the container
+
+            mixer.show()
+                .then(function() {
+                    // Remove the stagger effect for any subsequent operations
+
+                    mixer.configure({
+                        animation: {
+                            effects: 'fade scale'
+                        }
+                    });
+                });
+        </script>
+    </body>
+</html>

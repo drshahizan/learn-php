@@ -1,0 +1,43 @@
+{
+    "name": "webticker",
+    "title": "jQuery WebTicker",
+    "description": "jQuery plugin to create horizontal scrolling tickers, supports both left and right scrolling as well as variable speeds. Pauses on hover and many other features. Version 3 adds support for a separate commercial license and improved documentation.",
+    "keywords": [
+        "ticker",
+        "marquee",
+        "scroll",
+        "link-list",
+        "news-ticker",
+        "animation"
+    ],
+    "version": "3.0.0",
+    "author": {
+        "name": "Jonathan Mifsud",
+        "email": "jon@maze.digital",
+        "url": "http://maze.digital"
+    },
+    "maintainers": [
+        {
+            "name": "Jonathan Mifsud",
+            "email": "jon@maze.digital",
+            "url": "http://maze.digital"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "GNU General Public License v3 (GPLv3)",
+            "url": "https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)#summary"
+        },
+        {
+            "type": "Commercial License",
+            "url": "https://maze.digital/webticker/license/"
+        }
+    ],
+    "bugs": "https://github.com/mazedigital/Web-Ticker/issues",
+    "homepage": "https://maze.digital/webticker/",
+    "docs": "https://maze.digital/webticker/",
+    "download": "https://maze.digital/webticker/",
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}

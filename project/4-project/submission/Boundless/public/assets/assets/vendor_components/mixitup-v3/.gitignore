@@ -1,0 +1,7 @@
+node_modules
+components
+.tmp
+.DS_Store
+.log
+npm-debug.*
+coverage/
