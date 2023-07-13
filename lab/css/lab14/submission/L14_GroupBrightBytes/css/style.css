@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   height: 100vh;
   background-blend-mode: luminosity;
-  filter: opacity(90%) ;
+  filter: opacity(60%) ;
 }
 
 .ptext {
@@ -36,7 +36,7 @@
 .pimg1 {
   background-image: url("../images/mal1.jpeg");
   animation: parallax1 10s linear infinite;
-  padding: 0;
+  padding: 2;
 }
 
 .pimg2 {
@@ -51,6 +51,7 @@
 
 .section {
   padding: 80px 50px;
+  text-align: center;
 }
 
 .section-light {
