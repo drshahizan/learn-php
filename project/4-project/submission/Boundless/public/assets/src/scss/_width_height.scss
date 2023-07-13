@@ -1,0 +1,475 @@
+// Width & Height
+
+
+/*******************
+Width property 
+*******************/
+
+$width-property-map: ( w-: width, min-w-: min-width, max-w-: max-width);
+$sizes-list: 0 10 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+@each $size in $sizes-list {
+    $val: $size + 0px !important;
+    @each $keyword,
+    $property in $width-property-map {
+        .#{$keyword}#{$size} {
+            #{$property}: $val;
+        }
+    }
+}
+
+$width-property-per-map: ( w-p: width, min-w-p: min-width, max-w-p: max-width);
+$sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95;
+@each $size in $sizes-list {
+    $val: $size + 0%;
+    @each $keyword,
+    $property in $width-property-per-map {
+        .#{$keyword}#{$size} {
+            #{$property}: $val;
+        }
+    }
+}
+$width-property-per-map: ( w-p: width, min-w-p: min-width, max-w-p: max-width);
+$sizes-list: 100;
+@each $size in $sizes-list {
+    $val: $size + 0% !important;
+    @each $keyword,
+    $property in $width-property-per-map {
+        .#{$keyword}#{$size} {
+            #{$property}: $val;
+        }
+    }
+}
+
+$width-auto-property-map: ( w-: width, min-w-: min-width, max-w-: max-width);
+$sizes-list: auto;
+@each $size in $sizes-list {
+    $val: $size;
+    @each $keyword,
+    $property in $width-auto-property-map {
+        .#{$keyword}#{$size} {
+            #{$property}: $val;
+        }
+    }
+}
+
+@include screen-xs {
+    $width-property-map: ( w-xs-: width, min-w-xs-: min-width, max-w-xs-: max-width);
+    $sizes-list: 0 10 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px;
+        @each $keyword,
+        $property in $width-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-property-per-map: ( w-xs-p: width, min-w-xs-p: min-width, max-w-xs-p: max-width);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0%;
+        @each $keyword,
+        $property in $width-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-auto-property-map: ( w-xs-: width, min-w-xs-: min-width, max-w-xs-: max-width);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size;
+        @each $keyword,
+        $property in $width-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}
+
+@include screen-sm {
+    $width-property-map: ( w-sm-: width, min-w-sm-: min-width, max-w-sm-: max-width);
+    $sizes-list: 0 10 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px;
+        @each $keyword,
+        $property in $width-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-property-per-map: ( w-sm-p: width, min-w-sm-p: min-width, max-w-sm-p: max-width);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0%;
+        @each $keyword,
+        $property in $width-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-auto-property-map: ( w-sm-: width, min-w-sm-: min-width, max-w-sm-: max-width);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size;
+        @each $keyword,
+        $property in $width-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}
+
+@include screen-md {
+    $width-property-map: ( w-md-: width, min-w-md-: min-width, max-w-md-: max-width);
+    $sizes-list: 0 10 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px;
+        @each $keyword,
+        $property in $width-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-property-per-map: ( w-md-p: width, min-w-md-p: min-width, max-w-md-p: max-width);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0%;
+        @each $keyword,
+        $property in $width-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-auto-property-map: ( w-md-: width, min-w-md-: min-width, max-w-md-: max-width);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size;
+        @each $keyword,
+        $property in $width-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}
+
+@include screen-lg {
+    $width-property-map: ( w-lg-: width, min-w-lg-: min-width, max-w-lg-: max-width);
+    $sizes-list: 0 10 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px;
+        @each $keyword,
+        $property in $width-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-property-per-map: ( w-lg-p: width, min-w-lg-p: min-width, max-w-lg-p: max-width);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0%;
+        @each $keyword,
+        $property in $width-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-auto-property-map: ( w-lg-: width, min-w-lg-: min-width, max-w-lg-: max-width);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size;
+        @each $keyword,
+        $property in $width-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}
+
+@include screen-xl {
+    $width-property-map: ( w-xl-: width, min-w-xl-: min-width, max-w-xl-: max-width);
+    $sizes-list: 0 10 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px;
+        @each $keyword,
+        $property in $width-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-property-per-map: ( w-xl-p: width, min-w-xl-p: min-width, max-w-xl-p: max-width);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0%;
+        @each $keyword,
+        $property in $width-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $width-auto-property-map: ( w-xl-: width, min-w-xl-: min-width, max-w-xl-: max-width);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size;
+        @each $keyword,
+        $property in $width-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}
+
+
+/*******************
+Height property 
+*******************/
+
+$height-property-map: ( h-: height, min-h-: min-height, max-h-: max-height);
+$sizes-list: 0 10 15 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 310 320 325 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+@each $size in $sizes-list {
+    $val: $size + 0px !important;
+    @each $keyword,
+    $property in $height-property-map {
+        .#{$keyword}#{$size} {
+            #{$property}: $val;
+        }
+    }
+}
+
+$height-property-per-map: ( h-p: height, min-h-p: min-height, max-h-p: max-height);
+$sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+@each $size in $sizes-list {
+    $val: $size + 0% !important;
+    @each $keyword,
+    $property in $height-property-per-map {
+        .#{$keyword}#{$size} {
+            #{$property}: $val;
+        }
+    }
+}
+
+$height-auto-property-map: ( h-: height, min-h-: min-height, max-h-: max-height);
+$sizes-list: auto;
+@each $size in $sizes-list {
+    $val: $size !important;
+    @each $keyword,
+    $property in $height-auto-property-map {
+        .#{$keyword}#{$size} {
+            #{$property}: $val;
+        }
+    }
+}
+
+@include screen-xs {
+    $height-property-map: ( h-xs-: height, min-h-xs-: min-height, max-h-xs-: max-height);
+    $sizes-list: 0 10 15 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 310 320 325 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px !important;
+        @each $keyword,
+        $property in $height-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-property-per-map: ( h-xs-p: height, min-h-xs-p: min-height, max-h-xs-p: max-height);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0% !important;
+        @each $keyword,
+        $property in $height-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-auto-property-map: ( h-xs-: height, min-h-xs-: min-height, max-h-xs-: max-height);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size !important;
+        @each $keyword,
+        $property in $height-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}
+
+@include screen-sm {
+    $height-property-map: ( h-sm-: height, min-h-sm-: min-height, max-h-sm-: max-height);
+    $sizes-list: 0 10 15 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 310 320 325 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px !important;
+        @each $keyword,
+        $property in $height-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-property-per-map: ( h-sm-p: height, min-h-sm-p: min-height, max-h-sm-p: max-height);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0% !important;
+        @each $keyword,
+        $property in $height-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-auto-property-map: ( h-sm-: height, min-h-sm-: min-height, max-h-sm-: max-height);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size !important;
+        @each $keyword,
+        $property in $height-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}
+
+@include screen-md {
+    
+    $height-property-map: ( h-md-: height, min-h-md-: min-height, max-h-md-: max-height);
+    $sizes-list: 0 10 15 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 310 320 325 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px !important;
+        @each $keyword,
+        $property in $height-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-property-per-map: ( h-md-p: height, min-h-md-p: min-height, max-h-md-p: max-height);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0% !important;
+        @each $keyword,
+        $property in $height-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-auto-property-map: ( h-md-: height, min-h-md-: min-height, max-h-md-: max-height);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size !important;
+        @each $keyword,
+        $property in $height-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}
+
+@include screen-lg {
+    $height-property-map: ( h-lg-: height, min-h-lg-: min-height, max-h-lg-: max-height);
+    $sizes-list: 0 10 15 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 310 320 325 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px !important;
+        @each $keyword,
+        $property in $height-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-property-per-map: ( h-lg-p: height, min-h-lg-p: min-height, max-h-lg-p: max-height);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0% !important;
+        @each $keyword,
+        $property in $height-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-auto-property-map: ( h-lg-: height, min-h-lg-: min-height, max-h-lg-: max-height);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size !important;
+        @each $keyword,
+        $property in $height-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}
+
+@include screen-xl {
+    $height-property-map: ( h-xl-: height, min-h-xl-: min-height, max-h-xl-: max-height);
+    $sizes-list: 0 10 15 20 30 40 50 60 70 80 90 100 120 150 160 170 180 190 200 250 300 310 320 325 350 400 450 500 550 600 650 700 750 800 850 900 950 1000;
+    @each $size in $sizes-list {
+        $val: $size + 0px !important;
+        @each $keyword,
+        $property in $height-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-property-per-map: ( h-xl-p: height, min-h-xl-p: min-height, max-h-xl-p: max-height);
+    $sizes-list: 5 10 15 20 25 30 35 40 45 50 60 65 70 75 80 85 90 95 100;
+    @each $size in $sizes-list {
+        $val: $size + 0% !important;
+        @each $keyword,
+        $property in $height-property-per-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+
+    $height-auto-property-map: ( h-xl-: height, min-h-xl-: min-height, max-h-xl-: max-height);
+    $sizes-list: auto;
+    @each $size in $sizes-list {
+        $val: $size !important;
+        @each $keyword,
+        $property in $height-auto-property-map {
+            .#{$keyword}#{$size} {
+                #{$property}: $val;
+            }
+        }
+    }
+}

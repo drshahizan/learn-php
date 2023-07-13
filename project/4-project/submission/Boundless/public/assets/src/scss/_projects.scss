@@ -1,0 +1,182 @@
+//
+// Project
+// 
+
+.c-progress-steps {
+	margin: 0;
+	list-style-type: none;
+	font-family: $bodyfont;	
+		li {
+			position: relative;
+			font-size: 13px;
+			color: $gray-400;
+			padding: 16px 0 0 36px;
+				
+				a {
+					color: inherit;
+				}				
+				&.done {
+          color: $info;
+          span{
+            background-color: rgba($info, .09);
+          }				
+					&:before {
+						color: $info;
+            content: "\f058";
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            border: 2px solid $info;
+					}
+				}				
+				&.current {
+					color: $primary;
+					font-weight: 500;
+					
+					&:before {
+						color: $primary;
+            content: "\f192";
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            border: 2px solid $primary;
+					}
+				}				
+				&:before {
+					position: absolute;
+					left: 0;
+					font-family: 'Font Awesome 5 Free' !important;
+                    font-weight: 600;
+					font-size: 18px;
+					background-color: $white;
+                    content: "\f111";
+                    width: 30px;
+                    height: 30px;
+                    display: inline-block;
+                    text-align: center;
+                    border-radius: 50%;
+                    border: 2px solid $gray-300;
+					
+					@media all and (max-width: 600px) {
+						top: calc(50% - 8px);
+						font-size: 16px;
+					}
+				}
+		}
+		
+	@media all and (min-width: 600px)  {
+		display: table;
+		list-style-type: none;
+		margin: 20px auto;
+		padding: 0;
+		table-layout: fixed;
+		width: 100%;
+		
+		li {
+			display: table-cell;
+			text-align: center;
+			padding: 0;
+			padding-bottom: 34px;
+			white-space: nowrap;
+			position: relative;
+			border-left-width: 0;
+			border-bottom-width: 4px;
+			border-bottom-style: solid;
+			border-bottom-color: $gray-300;				
+				&.done {
+					border-bottom-color: $info;
+				}				
+				&.current {
+					color: $primary;
+          border-bottom-color: $primary;
+          span{
+            background-color: rgba($primary, .15);
+            box-shadow: 0px 0px 0px 0.25px $primary;
+          }					
+					&:before {
+						color: $primary;
+						content: "\f192";
+					}
+				}				
+				&:before {
+					bottom: -15px;
+					left: 50%;
+					margin-left: -16px;
+        }
+        span{
+          background-color: rgba($info, .1);
+          border-radius: 3px;
+          padding: 6px;
+          box-shadow: 0px 0px 5px 0.25px lighten($gray-300, 6%);
+        }
+		}
+	}
+}
+
+/*---project table---*/
+.dataTable tbody .details-control:before {
+    font-family: FontAwesome;
+    content: "\f055";
+    font-size: 1.4em;
+    color: #739e73;
+}
+.dataTable tbody .shown .details-control::before {
+    content: "\f056";
+    color: #a90329;
+}
+.dataTable tbody .details-control {
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+	width: 50px;
+}
+.project-members img {
+    width: 25px;
+    border-radius: 0;
+}
+img.away {
+    border-left-color: #ffc40d!important;
+}
+img.online {
+    border-left-color: #40ac2b!important;
+}
+img.busy {
+    border-left-color: #ed1c24!important;
+}
+img.offline {
+    border-left-color: #ddd!important;
+}
+img.away, img.busy, img.offline, img.online {
+    border-left: 3px solid #fff;
+}
+.project-members a {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 3px 0 0;
+    border-radius: 0;
+}
+.dataTables_paginate.paging_simple_numbers .pagination .paginate_button a {
+    padding: .5em 1em;
+    border-radius: 2px;
+    border: 0;
+	margin: 0;
+	min-width: 1.5em;
+}
+.dataTables_wrapper .form-control {
+    margin: 0 10px;
+    padding: 5px 30px 5px 15px;
+}
+@media all and (min-width: 1400px)  {
+    .proj-table{
+        overflow: hidden;
+    }
+}
+.proj-table{
+    .pagination{
+        margin-bottom: 0;
+    }
+}

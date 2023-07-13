@@ -1,0 +1,228 @@
+@extends('layouts.app')
+
+@section('content')
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <h1><a href="index.html">Be Boundless</a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#featured">Cultures</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">Festival and Celebrations</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+        </div>
+    </header>
+    <!-- End Header -->
+  
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div class="hero-container">
+            <h1>Dive Into Malaysian Culture</h1>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        </div>
+    </section>
+    <!-- End Hero -->
+  
+    <main id="main">
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row content">
+                    <div class="col-lg-6">
+                        <h2>Highlights of Malaysian Culture</h2>
+                        <h3>A Journey Through Malaysian Culture: Where Diversity Thrives</h3>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <p>
+                            Malaysian culture is rich, diverse, and influenced by various ethnic groups, including Malays, Chinese, Indians, and indigenous tribes. 
+                            The country's multicultural heritage has shaped its traditions, customs, festivals, cuisine, and arts. Here is an introduction to some key aspects of Malaysian culture:
+                        </p>
+                        <ul>
+                            <li>
+                                <i class="ri-check-double-line"></i> 
+                                Cultural Diversity: Malaysia is known for its multicultural society, where people from different ethnic backgrounds live harmoniously. 
+                                This diversity is evident in the various languages spoken, religious practices, and cultural traditions observed throughout the country.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i> 
+                                Festivals: Malaysians celebrate a multitude of festivals throughout the year. Some prominent ones include Hari Raya Aidilfitri (celebrated by Muslims at the end of Ramadan), 
+                                Chinese New Year (celebrated by the Chinese community), Deepavali (celebrated by Hindus), and Christmas (celebrated by Christians). 
+                            </li>
+                        </ul>
+                        <p class="fst-italic">
+                            These are just a few highlights of Malaysian culture. Exploring further will reveal even more aspects, reflecting the unique blend of customs, traditions, and practices that make Malaysia a fascinating and culturally vibrant nation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Section -->
+  
+        <!-- ======= Featured Section ======= -->
+        <section id="featured" class="featured">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="card">
+                        <img src="{{ asset('assets/img/cuisine.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Traditional Cuisine</a></h5>
+                            <p class="card-text" style="text-align: justify;">
+                                Surprise your taste buds in the tantalizing world of traditional Malaysian cuisine. 
+                                Bursting with flavors and influenced by Malay, Chinese, and Indian culinary traditions, Malaysian cuisine is a harmonious fusion of spices, herbs, and diverse ingredients. 
+                                From the aromatic rendang, to the fiery delight of nasi lemak, every dish tells a story of cultural heritage. 
+                                Satay, accompanied by peanut sauce, and the vibrant flavors of laksa, a spicy noodle soup, ignite the senses with their unforgettable taste. 
+                                Traditional Malaysian cuisine embraces a symphony of sweet, savory, and spicy flavors which leave a lasting impression for all food lovers around the world.
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="card">
+                        <img src="{{ asset('assets/img/wau.png') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Art & Craft</a></h5>
+                            <p class="card-text" style="text-align: justify;">
+                                Malaysia's rich heritage is showcased through its captivating traditional art, craft, and musical instruments. 
+                                The intricate art of batik painting and weaving songket fabrics demonstrate the meticulous craftsmanship and attention to detail deeply ingrained in Malaysian culture along with woodcarvings and pottery. 
+                                The melodies of musical instruments such as the gamelan, with its enchanting percussive tones, and the haunting strains of the rebab and sape transport listeners to a world of musical delight. 
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="card">
+                        <img src="{{ asset('assets/img/attire2.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Traditional Attire</a></h5>
+                            <p class="card-text" style="text-align: justify;">
+                                Immerse yourself in Malaysia's vibrant cultural heritage through its captivating traditional attire. 
+                                From the elegant baju kurung and regal baju melayu to the exquisite cheongsam and qipao, every garment tells a story of tradition and grace. 
+                                Adorned with intricate patterns and crafted with skilled artistry, these garments are a testament to the diverse cultural influences that have shaped Malaysia. 
+                                Delve into the world of saris and kurtas, where the rich tapestry of colors and designs intertwine, captivating the eyes of admirers worldwide. 
+                                Experience the enchantment of Malaysia on your own. 
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Featured Section -->
+  
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Festival & Celebrations</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-chinese">Chinese</li>
+                        <li data-filter=".filter-malay">Malay</li>
+                        <li data-filter=".filter-indian">Indian</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-chinese">
+                        <img src="{{ asset('assets/img/festivalchinese1.jpg') }}" class="card-img-top" alt="...">
+                        <div class="portfolio-info">
+                            <h4>Dragon Boat Festival</h4>
+                            <a href="{{ asset('assets/img/festivalchinese1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dragon Boat Festival"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-chinese">
+                        <img src="{{ asset('assets/img/festivalchinese2.jpg') }}" class="card-img-top" alt="...">
+                        <div class="portfolio-info">
+                            <h4>Mid Autumn Festival</h4>
+                            <a href="{{ asset('assets/img/festivalchinese2.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Mid Autumn Festival"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-malay">
+                        <img src="{{ asset('assets/img/malay1.jpg') }}" class="card-img-top" alt="...">
+                        <div class="portfolio-info">
+                            <h4>Hari Raya</h4>
+                            <a href="{{ asset('assets/img/malay1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hari Raya"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-indian">
+                        <img src="{{ asset('assets/img/indian.jpeg') }}" class="card-img-top" alt="...">
+                        <div class="portfolio-info">
+                            <h4>Thaipusam Festival</h4>
+                            <a href="{{ asset('assets/img/indian.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Thaipusam Festival"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-chinese">
+                        <img src="{{ asset('assets/img/festivalchinese3.jpg') }}" class="card-img-top" alt="...">
+                        <div class="portfolio-info">
+                            <h4>Chinese New Year</h4>
+                            <a href="{{ asset('assets/img/festivalchinese3.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Chinese New Year"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-malay">
+                        <img src="{{ asset('assets/img/malay2.jpg') }}" class="card-img-top" alt="...">
+                        <div class="portfolio-info">
+                            <h4>Maulidur Rasul</h4>
+                            <a href="{{ asset('assets/img/malay2.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Maulidur Rasul"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-malay">
+                        <img src="{{ asset('assets/img/malay3.jpeg') }}" class="card-img-top" alt="...">
+                        <div class="portfolio-info">
+                            <h4>Nuzul Qur'an</h4>
+                            <a href="{{ asset('assets/img/malay3.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Nuzul Qur'an"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-indian">
+                        <img src="{{ asset('assets/img/indian2.jpg') }}" class="card-img-top" alt="...">
+                        <div class="portfolio-info">
+                            <h4>Deepavali Festival</h4>
+                            <a href="{{ asset('assets/img/indian2.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Deepavali Festival"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+    </main>
+    <!-- End #main -->
+  
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row footer-newsletter justify-content-center">
+                    <div class="col-lg-6">
+                    <form action="" method="post">
+                        <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+                    </form>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom clearfix">
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    </body>
+@endsection

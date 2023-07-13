@@ -1,0 +1,2261 @@
+/*
+Template Name: edulearn - Responsive Admin Template
+Author: Multipurpose Themes
+File: scss
+*/
+
+@import 'variable'; 
+@import 'mixin'; 
+@import 'responsive';
+
+/*---light skin---*/
+ 
+.light-skin{
+    .main-header{
+        li{
+            &.user-header{
+                background-color: $white;
+            } 
+        }
+        .navbar{
+            .sidebar-toggle{
+                color: $white; 
+            }
+            .res-only-view{
+                color: $white;
+            }
+            .nav{
+                >li{
+                    >a{
+                        
+                        @include hover-state{
+                            background-color: rgba($black, 0.03);
+                            color: $primary;
+                        }
+                    }
+                }
+                .open{
+                    > a{
+                        background-color: rgba($black, 0.05);
+                        @include hover-focus-state{
+                            background-color: rgba($black, 0.05);
+                        }
+                    }
+                }
+                >.active{
+                    >a{
+                       background-color: rgba($black, 0.05); 
+                    }
+                }
+            }
+        }
+        .app-menu{
+            .dropdown-mega-menu{
+                .nav{
+                    >li{
+                        >a{
+                            color: lighten($dark, 30%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main-sidebar{
+        border-right: 0px solid rgba($dx-blue,0.16);
+        background-color: $white;
+        -webkit-box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.0);
+        box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.0);
+    }
+    .user-panel{
+        >.info{
+          color: $white;  
+            >a{
+                color: $white;
+            }
+        }
+    }
+    .sidebar-menu{
+        >li{
+            @include hover-active-state{
+                >a{
+                   color: $dark; 
+                }
+            }
+            &.active{
+                >a{
+                    background-color: $dark;
+                    color: $white;
+                    box-shadow: 0 3px 5px 1px rgba(0,0,0,.0);
+                    > i{
+                       color: $white; 
+                    }
+                    &:after{
+                        content: " ";
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        display: none;
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 22px 10px 22px 0;
+                        border-color: transparent #fafafa transparent transparent !important;
+                    }
+                }
+            }
+            &.menu-open{
+                >a{
+                   color: $gray-600; 
+                   box-shadow: 0 3px 5px 1px rgba(0,0,0,.0); 
+                   background-color: transparent;
+                    svg{
+                        color: $gray-600;
+                    }
+                }
+            }
+            >.treeview-menu{
+                margin: 0 0px;
+            }
+        } 
+    }
+    &.sidebar-collapse{
+        .sidebar-menu{
+            >li{
+                >.treeview-menu{
+                    background-color: $white;    
+                    box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.1);
+                    > .treeview .treeview-menu{
+                        background-color: $white;    
+                        box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.1);
+                    }
+                }
+            }
+        } 
+    }
+    &.sidebar-mini{
+        &.sidebar-collapse{
+            .sidebar-menu{
+                >li{
+                    >a{
+                        >span{
+                            background-color: $white !important;
+                            box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.1);
+                        }
+                    }
+                }
+                >li.active{
+                    >a{
+                        >span{
+                            background: $white !important;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sidebar{
+        a{
+          color: $gray-600;  
+            &:hover{
+               text-decoration: none; 
+            }
+        }
+    }
+    .sidebar-form{
+        border-radius: 3px;
+        border: 1px solid lighten($black, 50%); 
+        input[type="text"]{
+            box-shadow: none;
+            background-color: rgba($black, 0.59);
+            border: 1px solid rgba($black, 0.59);
+            height: 35px;
+            color: $white;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 2px;
+            &:focus{
+               color: $white; 
+                + .input-group-btn{
+                    .btn{
+                       color: $white; 
+                    }
+                }
+            }
+        }
+        .btn{
+            box-shadow: none;
+            background-color: rgba($black, 0.59);
+            border: 1px solid rgba($black, 0.59);
+            height: 35px;
+            color: $light;
+            border-top-left-radius: 0;
+            border-top-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+            border-bottom-left-radius: 0;
+        }
+    }
+    .control-sidebar{
+        color: $dark;
+        background-color: $white;
+        +.control-sidebar-bg{
+            -webkit-box-shadow: 0px 5px 10px 1px rgba(lighten($black, 30%), 0.2);
+            -moz-box-shadow: 0px 5px 10px 1px rgba(lighten($black, 30%), 0.2);
+            box-shadow: 0px 5px 10px 1px rgba(lighten($black, 30%), 0.2); 
+        }
+        .nav-tabs{
+            &.control-sidebar-tabs{
+                border-bottom: 1px solid lighten($black, 80%);
+                >li{
+                    >a{
+                       color: $dark;
+                        border-bottom-color: lighten($black, 80%);
+                        @include hover-state{
+                            border-bottom-color: lighten($black, 80%);
+                            background-color: transparent;
+                            
+                        }
+                        &.active{
+                            background-color: transparent;
+                            @include hover-state{
+                              background-color: transparent;  
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .control-sidebar-heading{
+            color: $dark;
+        }
+        .control-sidebar-subheading{
+            color: $dark;
+        }
+        .control-sidebar-menu{
+            margin-left: -14px;
+            >li{
+                >a{
+                    &:hover{
+                       background-color: $light; 
+                    }
+                    .menu-info{
+                        >p{
+                           color: lighten($black, 40%); 
+                        }
+                    }
+                } 
+            }
+        }
+    }    
+    .d-dark{
+        display: none;
+    }
+    .d-light{
+        display: block;
+    }
+}
+.control-sidebar+.control-sidebar-bg{
+    background-color: $white;
+}
+
+@include screen-sm-max{
+    .light-skin{
+        &.sidebar-mini{
+            &.sidebar-collapse{
+                .sidebar-menu{
+                    >li{
+                        >a{
+                            >span{
+                                background-color: rgba($white,0) !important;
+                            }
+                        }
+                        &.menu-open{
+                            >a{
+                                background-color: rgba($white,0.95) !important;
+                            }
+                        }
+                        &.active{
+                            >a{
+                               background-color: rgba($white,0.95) !important; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.alert-primary, .alert-danger, .alert-error, .alert-info, .alert-success, .alert-warning, .bg-black, .bg-black-active, .callout.callout-danger, .callout.callout-info, .callout.callout-success, .callout.callout-warning, .callout.callout-primary, .label-danger, .label-info, .label-primary, .label-success, .label-warning, .modal-danger .modal-body, .modal-danger .modal-footer, .modal-danger .modal-header, .modal-info .modal-body, .modal-info .modal-footer, .modal-info .modal-header, .modal-primary .modal-body, .modal-primary .modal-footer, .modal-primary .modal-header, .modal-success .modal-body, .modal-success .modal-footer, .modal-success .modal-header, .modal-warning .modal-body, .modal-warning .modal-footer, .modal-warning .modal-header, .bg-warning, .bg-gray, .modal-primary .modal-header *, .modal-info .modal-header *, .modal-success .modal-header *, .modal-danger .modal-header *, .modal-warning .modal-header *{
+    color: $white;
+}
+
+
+
+
+/*---Dark skin---*/
+
+body{
+    &.dark-skin{
+        background-color: $wrapper-dark;
+	    color: rgba(255, 255, 255, 0.85);  
+        .content-wrapper{
+            background-color: $wrapper-dark;
+        }
+        .navbar-nav{
+            >.user-menu{
+                >.dropdown-menu{
+                    >.user-body{
+                        border-color: $dark-border;
+                    }
+                } 
+            }
+            >.dropdown {
+                >.dropdown-menu{
+                    >li{
+                        .menu{
+                            >li{
+                                >a{
+                                    border-color: $dark-border;
+                                    color: $dark-text;
+                                    >div{
+                                        >h4{
+                                            color: $dark-title;
+                                            >small{
+                                               color: $dark-title; 
+                                            }
+                                        }
+                                        >span{
+                                            color: $dark-text;
+                                        }
+                                    }                                
+                                    >h3{
+                                        color: $dark-title;
+                                    }
+                                    &:hover{
+                                        background-color: rgba($body-dark, 0.2);
+                                    }
+                                }
+                            }
+                        } 
+                        &.header{
+                            border-color: $dark-border ;
+                            border-bottom: 1px solid $dark-border;
+                            color: $dark-text;
+                            background-color: lighten($body-dark, 05%);
+                        }
+                    }
+                } 
+            }
+        }
+        .main-header {
+            .navbar{
+                background-color: $body-dark;
+            }
+        }
+        .d-dark{
+            display: block;
+        }
+        .d-light{
+            display: none;
+        }
+    }
+}
+.dark-skin{
+    h1, h2, h3, h4, h5, h6{
+        color: rgba($white, 0.85); 
+    }
+    a{
+        color: $dark-text; 
+        &.bg-light{
+            @include hover-focus-state{
+                background-color: lighten($body-dark, 30%) !important;
+            }
+        }
+    }
+    .form-control, .form-select{
+        background-color: $dark3;
+	    color: $dark-text; 
+    }    
+    .form-control{
+        &:focus {
+            border-color: $d-gray-900;
+            background-color: $d-gray-900;
+        }     
+    }
+    .form-control-plaintext{
+        color: $d-gray-600;
+    }
+    .search-box{
+        .app-search{
+            .srh-btn{
+                background-color: lighten($body-dark, 25%);
+            }
+        } 
+    }
+    .content-header{
+        .breadcrumb{
+            color: $dark-text;
+            .breadcrumb-item{
+                a{
+                    color: $dark-text;
+                }
+                &.active{
+                    color: $gray-600;
+                }
+            }
+        }
+    }
+    .dropdown-menu{
+        background-color: lighten($body-dark, 05%);
+        border-color: $dark-border;
+        >li{
+            >a{
+               color: $dark-text; 
+            }
+        }
+    }
+    .box-solid .box-controls .dropdown-item {
+        color: $dark-text;
+    }
+    .dropdown-grid{
+        border-color: $dark-border;
+        .dropdown-item{
+            &:hover{
+                border-color: lighten($body-dark, 30%);
+            }
+        }
+    }
+    .dropdown-divider{
+        border-color: $dark-border;
+    }
+    .dropdown-item{
+        @include hover-focus-state{
+            background-color: lighten($body-dark, 10%);
+            color: $dark-text;
+        }
+    }
+    .content-header{
+        .page-title{
+           color: $dark-text;
+	       border-color: lighten($body-dark, 50%); 
+        } 
+        .right-title{
+            .dropdown{
+                >.btn{
+                    border-color: $dark-border!important;
+                    background-color: lighten($body-dark, 25%);
+                }
+            } 
+        }
+    }
+    .subheader_daterange{
+        background-color: lighten($body-dark, 25%);
+    }
+    .nav-tabs-custom > .nav-tabs > li > a {
+        color: $dark-text;
+    }
+    .ranges{
+        li{
+            background-color: rgba($body-dark, 0.2);
+            border-color: $dark-border;
+            color: $dark-text;
+        }
+    }
+    .btn-default{
+        background-color: $dark3;
+        color: $dark-text;
+        border-color: $dark-border;
+        &.hover{
+            background-color: lighten($body-dark, 25%);
+            border-color: lighten($body-dark, 25%); 
+        }
+        @include hover-active-state{
+            background-color: lighten($body-dark, 25%);
+            border-color: lighten($body-dark, 25%);
+        }
+    }
+    .btn{
+        &.btn-outline{
+            color: $dark-text;
+            border-color: $dark-border;
+            &:hover{
+                color: $white;
+                background-color: rgba($body-dark,0.2);
+            }
+            &.btn-white {
+                color: $white !important;
+                border-color: $white !important;
+            }
+            &.btn-dark {
+                color: $dark-text !important;
+                background-color: transparent;
+                border-color: $dark;
+            }
+        }
+    }
+    .btn-toggle{
+        @include before-after-state{
+            color: $dark-text;
+        }
+    }    
+    button{
+        &.bg-light{
+            @include hover-focus-state{
+                background-color: lighten($body-dark, 30%) !important;
+            }
+        }
+    }    
+    .btn.btn-light{        
+        background-color: $d-gray-900 !important;
+        border-color: $d-gray-900 !important;
+        color: $white !important;
+    }
+    .box-controls{
+        li > a{
+            color: $dark-text;
+        }
+    }
+    .box{
+        background-color: $d-gray-800;
+        .box-header{
+            color: $dark-text;
+            border-color: $dark-border;
+            .box-subtitle{
+                color: $dark-text;
+            }            
+        }
+        .box-footer{
+            background-color: $d-gray-800;
+            border-color: $dark-border;
+        }
+        .box-transparent{
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+        &[class*=bg-pale]{
+            >.box-header{
+                color: $dark;
+            }
+        }
+        &.box-solid{
+            .box-body{
+                background-color: $d-gray-800 !important;
+                color: $dark-text;
+            }                  
+            .box-controls{
+                li > a{
+                    color: $white;
+                }
+            }
+            &.box-default{
+                >.box-header{
+                    color: $dark;
+                    background-color: $d-gray-800;
+                    .btn{
+                        color: $dark;
+                    }
+                    a{
+                        color: $dark;
+                    }
+                    >.box-tools{
+                        .btn{
+                            border: 0;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+        .border-right {
+            border-right: 1px solid $light;
+        }
+        .border-left{
+            border-left: 1px solid $light;
+        }
+        .overlay{
+           background: rgba($white, .0);
+        }
+        .flex-column{
+            >li {
+                border-color: $dark-border;
+            }
+        }
+        .knob-label {
+            color: lighten($body-dark, 45%);
+        }        
+    }
+    .box-inverse{
+        color: $white !important;
+        background-color: $d-gray-800;
+        .box-header{
+            color: $white !important;
+            border-color: $dark-border;
+        }
+        .box-title{
+            color: $white !important;
+        }
+        h1, h2, h3, h4, h5, h6, small{
+            color: $white !important;
+        }
+        .box-controls{
+            li{
+                >a{
+                    color: $dark-text !important;
+                }
+            }
+        }
+        .box-footer{
+            border-color: $dark-border;
+        }
+        .box-action{
+            border-color: $dark-border;
+        }
+        .box-btn-more{
+            @include before-after-state{
+                border-color: $white;
+            }
+        }
+    }    
+    .box-gray{
+        background-color: lighten($body-dark, 50%);
+        &.box-bordered{
+            border-color: lighten($body-dark, 50%);
+        }
+    }
+    .box-dark{
+        background-color: $dark;
+        .box-bordered {
+            border-color: $dark;
+        }
+    }
+    .box-bordered {
+        border-color: $dark-border;
+    }
+    .box-profile{
+        &.nav-tabs-custom{
+            >.nav-tabs{
+                background-color: $d-gray-800;
+                >li{
+                    >a.active{                       
+                        color: $dark-text;
+                        &:hover{
+                            color: $dark-text;
+                        }
+                    }
+                }
+            }
+        }
+    }    
+    .box-comments{
+        .username{
+            color: $white;
+            .comment-text{
+                color: lighten($body-dark, 65%);;
+            }
+        }
+        .box-comment {
+            border-color: $dark-border;
+        }
+        border: 1px solid $dark-border;
+    }
+    .card{
+        background-color: $d-gray-800;
+        border: 1px solid transparent;
+        .card-header{
+            background-color: transparent !important;
+            border-color: $dark-border;
+        }
+        .card-footer{
+            background-color: transparent !important;
+            border-color: $dark-border;
+        }
+    }
+    .left-block{
+        border-color: $dark-border !important;
+        background-color: rgba(lighten($body-dark, 05%), 1);
+        .left-content-area{
+            >.box{
+               background-color: lighten($body-dark, 05%); 
+            }
+            >.card{
+               background-color: lighten($body-dark, 05%); 
+            }
+        }
+    }
+    .todo-list{
+        >li{
+            color: $dark-text;
+        }
+    }
+    .btn-box-tool{
+        &:hover{
+           color: $dark-text; 
+        }
+    }
+    .show{
+        .btn-box-tool{
+            color: $dark-text;
+        }        
+    }
+    .page-header{
+        border-color: $dark-border;
+    }
+    .overlay-wrapper{
+        .overlay{
+            background: rgba($white, .7); 
+        }
+    }
+    .info-box{
+        background-color: lighten($body-dark, 25%);
+        border: 1px solid $gray-300;
+    }
+    .badge-default{
+        color: $dark;
+        background-color: lighten($body-dark, 55%);
+    }
+    code{
+        border-color: $dark-border;
+        background-color: $body-dark; 
+    }
+    .code-preview {
+        border-color: $dark-border;
+        background-color: $body-dark; 
+    }
+    .table{
+        color: rgba(255, 255, 255, 0.85);
+        >thead{
+            >tr{
+                >th{
+                   border-color: $dark-border; 
+                } 
+                >td{
+                   border-color: $dark-border; 
+                }
+            }
+        }
+        >tbody{
+            >tr{
+                >td{
+                   border-color: $dark-border; 
+                }
+                >th{
+                   border-color: $dark-border;  
+                }
+            }
+        }
+        >tfoot{
+            >tr{
+                >td{
+                   border-color: $dark-border; 
+                } 
+                >th{
+                   border-color: $dark-border; 
+                }
+            } 
+        }
+        &.table-striped > tbody > tr:nth-of-type(odd) {
+            color: inherit;
+        }
+    }
+    .table-bordered{
+        border-color: $dark-border;
+        >tbody{
+            >tr{
+                >td{
+                   border-color: $dark-border !important; 
+                } 
+                >th{
+                   border-color: $dark-border !important; 
+                }
+            }
+        }
+        >tfoot{
+            >tr{
+                >td{
+                   border-color: $dark-border !important; 
+                } 
+                >th{
+                   border-color: $dark-border !important; 
+                }
+            }
+        }
+        >thead{
+            >tr{
+                >td{
+                   border-color: $dark-border !important; 
+                } 
+                >th{
+                   border-color: $dark-border !important; 
+                }
+            }
+        }
+    }
+    .table-active{
+        background-color: lighten($body-dark, 20%);
+        >th{
+           background-color: lighten($body-dark, 20%); 
+        }
+        >td{
+           background-color: lighten($body-dark, 20%); 
+        }
+    }    
+    .table-separated{
+        tbody{
+            tr{
+                background-color: $dark;
+            }
+        }
+    }
+    .dataTable{
+        input{            
+            border-color: $dark-border;
+            color: $dark-text;
+            background-color: $d-gray-800;
+        }
+        select{
+            border-color: $dark-border;
+            color: $dark-text;
+            background-color: $d-gray-800;
+        }
+    }
+    .page-item{
+        &.disabled{
+            .page-link{
+                color: $dark-text;
+                background-color: $body-dark;
+                border-color: $dark-border;
+            }
+        }
+    }
+    .pagination{
+        >li{
+            >a{
+               background-color: $dark; 
+               color: $dark-text;
+            }
+        }
+    }
+    .paging_simple_numbers{
+        .pagination{
+            .paginate_button{
+               background-color: transparent; 
+                &:hover{
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    .nav{
+        >li{
+            >a{
+                @include hover-state{
+                    color: lighten($dark, 25%);
+                }
+            }
+        }
+    }
+    .nav-tabs-custom{
+        >.nav-tabs{
+            >li{
+                >a{
+                    &.active{                        
+                        background-color: lighten($dark, 15%);
+                        color: $white;                        
+                        border-left-color: $dark-border;
+                        border-right-color: $dark-border;
+                        &:hover{                               
+                            background-color: lighten($dark, 15%);
+                            color: $dark-text;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+    .media-list-hover{
+        >.media:not(.media-list-header):not(.media-list-footer) {
+            &:hover{
+                background-color: rgba($body-dark, 0.2);
+            }
+        }
+        .media-list-body{
+            >.media{
+                &:hover{
+                    background-color: rgba($body-dark, 0.2);
+                }
+            }
+        }
+    }
+    .media{
+        a:not(.btn):not(.avatar){            
+            color: $dark-text;
+        } 
+    }
+    .media-list-hover{
+        > .media:not(.media-list-header):not(.media-list-footer):hover, .media-list-body > .media:hover{
+            background-color: lighten($body-dark, 05%); 
+            a:not(.btn):not(.avatar){
+                color: $dark-text;
+            }
+            .divider-dash{
+                color: $dark-text;
+            }
+        }
+    }
+    .modal-content{
+        background-color: $d-gray-800;
+    }
+    .modal-header{
+        border-color: $dark-border;
+    }
+    .modal-footer{
+        border-color: $dark-border;
+    }
+    .media-body{
+        >p:last-child{
+           color: $d-gray-600; 
+        }
+    }    
+    .modal-fill{
+        .modal-content{
+            background-color: $d-gray-800;
+        }
+    }
+    .modal{
+        &.modal-fill {
+            background-color: $d-gray-800;
+        }
+        .modal-body{
+             color: $d-gray-600; 
+        }
+    }
+    .media-list-divided {
+        >.media:not(.media-list-header):not(.media-list-footer){
+            border-bottom-color: rgba($white, 0.2);
+        }
+        .media-list-body {
+            >.media{                
+                border-bottom-color: rgba($white, 0.2);
+            }
+        }
+    }
+    .close {
+        color: lighten($body-dark, 60%);
+        text-shadow: none;
+    }
+    .flex-column{
+        >li{
+            >a{
+                color: lighten($body-dark, 60%);
+            }
+        }
+    }
+    .mailbox-nav{
+        .nav-pills{
+            >li{
+                >a{
+                    @include hover-focus-state{
+                        background-color: rgba($body-dark, 0.2);
+                    }
+                    &.active{
+                        @include hover-focus-state{
+                            background-color: rgba($body-dark, 0.2);
+                        }
+                    }
+                } 
+            }
+        }
+    }
+    .mailbox-messages{
+        table{
+            a{
+                color: $dark-text;
+            }
+        } 
+        .mailbox-date{
+            font-size: 12px;
+            color: $dark-text;
+        }
+    }
+    .mailbox-controls{
+        &.with-border{
+            border-color: $dark-border;
+        }
+    }
+    .mailbox-read-info{
+        border-color: $dark-border;
+    }
+    .mailbox-read-time {
+        color: $dark-text;
+    }
+    .mailbox-attachment-info{
+        background-color: lighten($body-dark, 15%);
+    }
+    .mailbox-attachments{
+        li{
+           border-color: $dark-border; 
+        }
+    }
+    .callout{
+        .highlight{
+            background-color: $dark3;
+        } 
+    }
+    .callout code{
+        background-color: $dark3;
+    }
+    .wysihtml5-toolbar{
+        .btn-default{
+            background-color: $dark3;
+        }
+    }
+    .wysihtml5-sandbox{
+	    background-color: $dark3 !important;
+	    border-color: $dark-border !important;
+        body.placeholder{
+	       background-color: lighten($body-dark, 15%) !important;
+	       border-color: $dark-border !important;
+        }
+    }
+    .lookup::before{
+        color: $dark-text;
+    }    
+    .lookup{
+        input {
+            color: $dark-text;
+        }
+    }
+    .form-control, .form-select {
+        border-color: $dark3;
+    }
+    .select2-container--default .select2-selection--single {
+        border: 1px solid $dark3;
+        background-color: $dark3;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered{
+        color: $dark-text;
+    }
+    .select2-dropdown {
+        border: 1px solid $dark3;
+        background-color: $dark3;
+    }
+    .select2-container--default .select2-search--dropdown .select2-search__field{        
+        border: 1px solid $dark3;
+        background-color: $d-gray-800;
+        color: $dark-text;
+    }
+    .select2-container--default .select2-selection--multiple {
+        border: 1px solid $dark3;
+        background-color: $dark3;
+        color: $dark-text;
+    }
+    .select2-container--default .select2-search--inline .select2-search__field{
+        color: $dark-text;
+    }
+    .form-element{
+        .form-control{
+            color: $dark-text;
+            background-image: -webkit-gradient(linear, left top, left bottom, from($warning), to($warning)), -webkit-gradient(linear, left top, left bottom, from(rgba($white, 0.12)), to(rgba($white, 0.12)));
+            background-image: -webkit-linear-gradient($warning , $warning), -webkit-linear-gradient(rgba($white, 0.12), rgba($white, 0.12));
+            background-image: -o-linear-gradient($warning , $warning), -o-linear-gradient(rgba($white, 0.12), rgba($white, 0.12));
+            background-image: linear-gradient($warning , $warning), linear-gradient(rgba($white, 0.12), rgba($white, 0.12));
+            &:focus{
+                background-image: -webkit-gradient(linear, left top, left bottom, from($warning), to($warning)), -webkit-gradient(linear, left top, left bottom, from(rgba($white, 0.12)), to(rgba($white, 0.12)));
+                background-image: -webkit-linear-gradient($warning , $warning), -webkit-linear-gradient(rgba($white, 0.12), rgba($white, 0.12));
+                background-image: -o-linear-gradient($warning , $warning), -o-linear-gradient(rgba($white, 0.12), rgba($white, 0.12));
+                background-image: linear-gradient($warning , $warning), linear-gradient(rgba($white, 0.12), rgba($white, 0.12));
+            }
+        }
+        .form-control{
+        }
+    }
+    .input-group{
+        .input-group-addon{
+            border-color: darken($d-gray-900, 05%);
+            color: $dark-text;
+            background-color: darken($d-gray-900, 05%);
+        }
+    }
+    .input-group-text{
+            border-color: darken($d-gray-900, 05%);
+            color: $dark-text;
+            background-color: darken($d-gray-900, 05%);
+    }
+    .direct-chat-text{
+        p {
+            background: $d-gray-800;    
+            color: lighten($body-dark, 75%);
+        }
+    }
+    .direct-chat-timestamp{
+        color: lighten($body-dark, 55%);
+    }
+    time{
+        color: $dark-text;
+    }
+    .wizard-content{
+        .wizard{
+            >.steps{
+                >ul{
+                    >li{                        
+                        background-color: $primary-lite;
+                        border-color: $primary-lite;
+                    } 
+                }
+            }
+        }
+    }
+    ul{
+        .list-style-none{
+            li{
+                a{                    
+                    color: lighten($body-dark, 75%);
+                }
+            }
+        }  
+    }
+    .divider-dash{
+        color: lighten($body-dark, 75%);
+    }    
+    .divider{
+        @include before-after-state{
+            border-top: 1px solid lighten($body-dark, 30%);;
+        }
+    }
+    .fc-toolbar{
+        .fc-center{
+            color: $dark-text;
+        }
+    }
+    .fc-button{
+        background-color: lighten($body-dark, 15%);
+        border-color: $dark-border;
+        color: $dark-text;
+        text-shadow: none;
+    }
+    .fc{
+        th{
+            &[class*=fc-]{
+               background-color: $dark3; 
+            }
+            &.fc-widget-header{
+                color: $dark-text;
+            }
+        } 
+    }
+    .fc-unthemed{
+        .fc-content{
+            border-color: rgba($white, 0);
+        }
+        .fc-divider{
+            border-color: rgba($white, 0);
+        }
+        .fc-list-heading{
+            td{
+                border-color: rgba($white, 0);
+            }
+        }
+        .fc-list-view{
+            border-color: rgba($white, 0);
+        }
+        .fc-popover{
+            border-color: rgba($white, 0);
+        }
+        .fc-row{
+            border-color: rgba($white, 0);
+        }
+        tbody{
+            border-color: rgba($white, 0);
+        }
+        td{
+            border-color: rgba($white, 0);
+        }
+        th{
+            border-color: rgba($white, 0);
+        }
+        thead{
+            border-color: rgba($white, 0);
+        }
+        .fc-today {
+            border-color: rgba($white, 0);
+            background-color: lighten($body-dark, 15%)!important;
+        }
+    }
+    .fc-day{
+        background-color: $dark3;
+    }
+    .publisher-multi{
+        .publisher-input{
+            color: $white;
+        }
+    }
+    .user-block{
+        .description {
+            color: $dark-text;
+        }
+    }
+    .post{
+        border-bottom-color: $dark-border;
+        color: $dark-text;  
+    }
+    .blockquote{
+        color: $dark-text;
+        footer{
+           color: $dark-text; 
+        }
+    }
+    .progress{
+        background-color: lighten($body-dark, 15%);
+    }
+    .ribbon-wrapper{
+        background-color: lighten($body-dark, 15%);
+    }
+    .ribbon-wrapper-reverse{
+        background-color: lighten($body-dark, 15%);
+    }
+    .ribbon-wrapper-bottom{
+        background-color: lighten($body-dark, 15%);
+    }
+    .ribbon-wrapper-right-bottom{
+        background-color: lighten($body-dark, 15%);
+    }
+    .flexslider{
+        background: transparent;
+        border-color: transparent;
+        border: 0;
+    }
+    .slider-track{        
+        background-color: lighten($body-dark, 15%);
+        background-image: -moz-linear-gradient(top, lighten($body-dark, 15%), lighten($body-dark, 15%));
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(lighten($body-dark, 15%)), to(lighten($body-dark, 15%)));
+        background-image: -webkit-linear-gradient(top, lighten($body-dark, 15%), lighten($body-dark, 15%));
+        background-image: -o-linear-gradient(top, lighten($body-dark, 15%), lighten($body-dark, 15%));
+        background-image: linear-gradient(to bottom, lighten($body-dark, 15%), lighten($body-dark, 15%));
+    }
+    .vtabs{
+        .tabs-vertical{
+            li{
+                .nav-link{
+                    color: $dark-text;
+                } 
+            }
+        }
+    }
+    .tabcontent-border{
+        border-color: $dark-border;
+    }
+    .nav-tabs-custom{
+        background-color: $dark3;
+        > .tab-content{            
+            background-color: $dark3;
+        }
+    }
+    .nav-tabs {
+        border-color: $dark-border;
+        .nav-link {
+            color: $dark-text;
+            &.active{
+                color: $white !important;
+            }
+        }
+    }
+    .nav-pills{
+        >li{
+            >a{
+               color: $d-gray-900; 
+                &.active{
+                    color: $white !important;
+                }
+            }
+        }
+    }
+    .nav-tabs-inverse-mode{
+        .nav-link{
+            &.active{
+                color: $dark-text !important;
+                @include hover-focus-state{
+                    color: $dark-text !important;
+                }
+            }
+        }
+    }
+    .timeline__post{
+        background-color: $d-gray-900;
+        color: $d-gray-600;
+    }
+    .timeline{
+        .timeline-item{
+            >.timeline-event{
+                background-color: $d-gray-900;
+                border-color: $dark-border;
+                color: $dark-text;
+                &.timeline-event-default{
+                    background-color: $d-gray-900;
+                    border-color: $dark-border;
+                    color: $dark-text;                    
+                    &:before{
+                        border-left-color: $dark-border;
+                        border-right-color: $dark-border;
+                    }                    
+                    &:after{                    
+                        border-left-color: $d-gray-900;
+                        border-right-color: $d-gray-900;
+                    }
+                }
+                &:before{
+                    border-left-color: $dark-border;
+                    border-right-color: $dark-border
+                }
+                &:after{                    
+                    border-left-color: $d-gray-900;
+                    border-right-color: $d-gray-900;
+                }
+            } 
+        }
+    }
+    .timeline .timeline-item > .timeline-event .timeline-title {
+        color: $white;
+    }
+    .timeline .timeline-item > .timeline-point{        
+       background-color: $d-gray-900; 
+    }
+    .table-striped > tbody > tr:nth-of-type(odd) {
+        background-color: $d-gray-900;
+    }
+    .panel{
+       background-color: $d-gray-900; 
+    }
+    .panel-title{
+        color: $d-gray-600;
+    }
+    .fontawesome-icon-list{
+        .fa-hover{
+            color: $d-gray-600;
+        } 
+    }
+    .ion-icon-list{
+        .ion-hover {
+            color: $dark-text;
+        }
+    }
+    .bs-glyphicons{
+        li{            
+            border-color: $dark-border;
+            color: $d-gray-600;
+        }
+    }
+    .icon-list-demo{
+        div{
+            color: $d-gray-600;
+        }
+    }
+    .dp-off{
+        background-color: lighten($body-dark, 15%)!important; 
+    }
+    .dp-divider{
+        border-color: $dark-border;
+    }
+    .grid-stack-item-content{
+        background-color: $d-gray-800;
+        color: $dark-text;
+    }
+    .sweet-alert{
+        background-color: $d-gray-800;
+        h2{            
+            color: $dark-text;
+        }
+        p{
+            color: $dark-text;
+        }
+        .sa-icon.sa-success{
+            @include before-after-state{
+                background-color: $d-gray-800;
+            }
+            .sa-fix {
+                background-color: $d-gray-800;
+            }
+        }
+    }
+    .ct-grid{
+        stroke: rgba($white, 0.2);
+    }
+    .ct-label{        
+        fill: rgba($white, 0.4);
+        color: rgba($white, 0.4);
+    }
+    .invoice{
+        border-color: $dark-border;
+        background-color: $d-gray-800;
+    }
+    .invoice-details{
+        border-color: $dark-border;
+        background-color: $d-gray-800;
+    }
+    .product-list-in-box{
+        >.item {
+            border-color: $dark-border;
+        }
+    }
+    .list-group-item{        
+        background-color: $dark3;    
+	    border: 1px solid $dark-border;
+        color: $dark-text;
+    }
+    .list-style-none{
+        li{
+            &.divider{
+               background-color: lighten($body-dark, 30%); 
+            } 
+        } 
+    }
+    .attachment-block{
+        background-color: lighten($body-dark, 30%);    
+	    border-color: $dark-border;
+        .attachment-text{
+            color: lighten($body-dark, 45%);
+        }
+    }
+    .badge-ring{
+        &::after{            
+            background-color: lighten($body-dark, 25%);
+        }
+    }
+    :not(pre)>code[class*="language-"]{
+        background: lighten($body-dark, 15%);
+        border: 1px solid lighten($body-dark, 20%);
+        border-left: 2px solid $warning;
+    }
+    pre[class*="language-"]{
+        background: lighten($body-dark, 15%);
+        border: 1px solid lighten($body-dark, 20%);
+        border-left: 2px solid $warning;
+    }
+    hr{
+        border-top-color: rgba($white, 0.1);
+    }
+    .icons-list-demo{
+         div {
+            color: $dark-text;
+        }
+    }
+    .custom-file-label{
+        background-color: lighten($body-dark, 30%);
+        border: 1px solid $dark-border;
+        ::after {
+            color: lighten($body-dark, 70%);
+            background-color: lighten($body-dark, 30%);
+            border-left: 1px solid $dark-border;
+        }
+    }
+    .dropzone {
+        background-color: $d-gray-800;
+        border-color: $dark-border;
+    }
+    
+    .main-header{
+        .logo-box{
+            background: $d-gray-800 !important;
+            >a.push-btn{                       
+                background-color: $body-dark; 
+            }
+        }
+        .app-menu{        
+            .search-bx {   
+              input[type="search"] {
+                background-color: $d-gray-800;
+                color: $dark-text;
+              }
+              ::placeholder {
+                color: $dark-text;
+              }
+              .btn {
+                background-color: $d-gray-800;
+                color: $dark-text !important;
+              }
+            }
+        }
+        li{
+            &.user-header{                
+                background-color: $white;   
+            } 
+        }
+        .navbar{
+            .sidebar-toggle{
+                color: $white;
+            }
+            .res-only-view{
+                color: $white;
+            }
+            .nav{
+                    >li{
+                    >a{
+                       
+                       background-color: $body-dark; 
+                            @include hover-state{
+                                background-color: rgba($body-dark, 0.05);
+                            }
+                        }
+                    }
+                    .open{
+                        >a{
+                           background-color: rgba($body-dark, 0.05); 
+                                @include hover-focus-state{
+                                    background-color: rgba($body-dark, 0.05);
+                                }
+                        }
+                    }
+                    >.active{
+                        >a{
+                           background-color: rgba($body-dark, 0.05); 
+                        }
+                    }
+            }
+        }
+    }    
+    .main-footer{
+        color: $dark-text;
+    }
+    .main-sidebar{
+        background-color: $d-gray-800;
+    }
+    .left-side{
+        box-shadow: 0 10px 15px -5px rgba(lighten($dark, 15%), .07);
+        background-color: rgba(lighten($body-dark, 30%), 0.75);   
+    }
+    .user-panel{
+        >.info{
+           color: $white; 
+            >a{
+                color: $white; 
+            }
+        } 
+    }
+    
+    .sidebar-menu{
+        >li{
+            border-left: 0px solid $body-dark;
+        }
+    }
+    .main-sidebar{
+        .sidebar-footer {
+            background-color: $body-dark;
+        }    
+    }
+    .sidebar-menu{
+        >li{
+            &.treeview.menu-open{            
+                >a{
+                   opacity: 1; 
+                }
+            }
+            &:hover{
+                >a{
+                  color: $white;
+                    >i{
+                       color: $white;
+	                   border: 0px solid lighten($body-dark, 60%);
+                    }
+                }
+            }
+            &.active{
+                >a{
+                  color: $white; 
+                    >i{
+                       color: lighten($body-dark, 60%);
+	                   border: 0px solid lighten($body-dark, 60%);
+                    }
+                }
+            }
+            &.active{
+                >a{
+                    background-color: $white;
+                    color: $dark;
+                    > i{
+                       color: $dark; 
+                    }
+                    &:after{
+                        content: " ";
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        display: none;
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 22px 10px 22px 0;
+                        border-color: transparent lighten($body-dark, 20%) transparent transparent !important;
+                    }
+                }
+            }
+            &.menu-open{
+                >a{  
+                    >i{
+                       color: lighten($body-dark, 60%);
+	                   border: 0px solid lighten($body-dark, 60%);
+                    }
+                }
+            }
+            >a{
+                >i{
+                   color:$dark-text; 
+                }
+            }
+            >.treeview-menu{
+                margin: 0 0px;
+            }
+        } 
+        li{
+            &.header{
+                color: $light5;
+            }
+        }
+    }
+    &.sidebar-collapse{
+        .sidebar-menu{
+            >li{
+                >.treeview-menu{
+                    background-color: $body-dark;
+                    > .treeview .treeview-menu{
+                        background-color: $body-dark;   
+                    }
+                } 
+            }
+        }
+    }
+    &.sidebar-mini{
+        &.sidebar-collapse{
+            .sidebar-menu{
+                >li{
+                    >a{
+                        >span{
+                            background-color: $body-dark !important;
+                            color: $white;
+                        } 
+                    }
+                }
+                >li.active{
+                    >a{
+                        >span{
+                            background-color: $body-dark !important;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .bg-secondary{
+        background-color: $gray-700 !important;
+    }
+    .bg-secondary-light{
+        background-color: $d-gray-800 !important;
+    }
+    .material-icon-list-demo i, .icons-list-demo i, .icons-preview-box i {
+        color: $dark-text;
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        border-color: $dark-border $dark-border $d-gray-800;
+    }
+}
+
+@include screen-sm-max{
+    .dark-skin{
+        &.sidebar-mini{
+            &.sidebar-collapse{
+                .sidebar-menu{
+                    >li{
+                        >a{
+                            >span{
+                               background-color: rgba(lighten($body-dark, 30%), 0) !important; 
+                            } 
+                        } 
+                        &.menu-open{
+                            >a{
+                                background-color: rgba(lighten($body-dark, 30%), 0) !important;
+                            }
+                        }
+                        &.active{
+                            >a{
+                                background-color: rgba(lighten($body-dark, 30%), 0) !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.dark-skin{
+    .sidebar{
+        .logo-lg{
+            .light-logo{
+                color: $white;
+            }
+        }
+        a{
+          color: $dark-text; 
+            &:hover{
+               text-decoration: none; 
+            }
+            >svg{
+                color: $dark-text !important; 
+                fill: rgba(27, 46, 75, 0.3);
+            }  
+        }
+    }
+    .sidebar-form{
+        border: 1px solid lighten($body-dark, 60%);
+        input[type="text"]{
+            box-shadow: none;
+            background-color: rgba($body-dark, 0.59);
+            border: 1px solid rgba($body-dark, 0.59);
+            color: $white;
+                &:focus{
+                    color: $white;
+                    + .input-group-btn .btn{
+                        color: $white;
+                    }
+                }
+        }
+        .btn{
+            box-shadow: none;
+            background-color: rgba($body-dark, 0.59);
+            border: 1px solid rgba($body-dark, 0.59);
+            color: $light;
+        }
+    }
+    .main-footer{
+       background-color: body-dark;
+        color: $white;
+    }
+    .nav-dot-separated{
+        .nav-item::after{
+           color: $dark-text; 
+        } 
+        >.nav-link::after{
+           color: $dark-text; 
+        } 
+    }
+    .box{        
+        background-color: $d-gray-800;
+        box-shadow: -7.829px 11.607px 21px 0px rgba(25, 42, 70, 0.0);
+        &.box-solid{
+            .box-title{
+                color: $white;
+            }
+        }
+        &[class*=bg]{
+            h1, h2, h3, h4, h5, h6{
+                color: $white;
+            }
+            .box-controls{
+                li > a{
+                    color: $white;
+                }
+            }
+        }
+    }
+    .box-header{
+        color: $dark-text;
+    }
+    .small-box{
+        border: 1px solid $gray-300;
+    }
+    .control-sidebar{
+        color: $dark-text;
+        background-color: lighten($body-dark, 05%);
+        +.control-sidebar-bg{            
+            background-color: lighten($body-dark, 05%);
+        }
+        .nav-tabs{
+            &.control-sidebar-tabs{
+                border-bottom: 1px solid lighten($body-dark, 35%);
+                >li{
+                    >a{
+                       color: lighten($body-dark, 80%);
+                        &:hove{
+                            color: $white;
+                        }
+                        @include hover-state{
+                            background-color: transparent;
+                        }
+                        &.active{
+                            background-color: transparent;
+                            @include hover-state{
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .control-sidebar-heading{
+            color: $dark-text;
+        }
+        .control-sidebar-subheading{
+           color: $dark-text; 
+        }
+        .control-sidebar-menu{
+            >li{
+                >a {
+                    .menu-info{
+                        >p{
+                           color: lighten($body-dark, 70%); 
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .control-sidebar-dark{
+        .control-sidebar-menu{
+            >li{
+                >a:hover{
+                    background-color: lighten($body-dark, 10%);
+                }
+            }
+        }
+    }
+    .dropdown-grid{
+        color: $dark-text;
+    }    
+    .table-hover tbody tr:hover {
+        color: $dark-title; 
+    }
+    .flot-tick-label.tickLabel{
+        color: #969dab;
+    }
+    .callout {
+        &[class*=callout-]{
+            h1, h2, h3, h4, h5, h6{
+                color: $white;
+            }
+        }
+    } 
+    .btn-flat{        
+        background-color: $body-dark !important;
+    }
+    .btn-flat.btn-dark{
+        color: $white;
+    }
+    .box-title {
+        color: $dark-title !important;
+    }
+    .text-dark {
+        color:lighten($dark, 50%) !important;
+    }
+    .media.bg-white{
+        background-color: $d-gray-800 !important;
+    }
+    #calendar .table-bordered td, #calendar .table-bordered th {
+        border: 1px solid $dark-border;
+    }
+    .fc-daygrid-day-number{
+        background-color: $d-gray-800;
+    }
+    .page-aside-left:before{
+        background-color: $d-gray-900;
+    }
+    .page-aside-right {
+        border-left: 5px solid $d-gray-900;
+    }
+    .blog-post .blog-detail{
+        background-color: $d-gray-800;
+        border: 1px solid $dark-border;
+    }
+    .jvectormap-container{
+        background-color: transparent !important;
+    }
+    .modal-header .modal-title {
+        color: $d-gray-600;
+    }
+    .modal{
+        .btn-close{
+            color: $d-gray-600;
+            background-image: url(../../../../images/close.svg);
+        }
+    }
+}
+.dark-skin{
+    &.layout-boxed {
+        background: $dark3;
+        .wrapper {
+            background: $body-dark;
+        }
+    }
+}
+.dark-skin{
+    .sticky-toolbar {
+        background: $body-dark;
+    }
+    .w3-sidebar{
+        background:  $dark3;
+    }
+    .demo-panel figure {
+        border: 5px solid $body-dark;
+    }
+    .demo-panel .buy-bt-bx{
+        background: $dark3;
+    }
+}
+.dark-skin{
+    .chat-box {
+        background: $body-dark;
+    }
+    #chat-input {
+        background: $body-dark;
+    }
+    .chat-box-body {
+        border-color: $dark-border;
+    }   
+    .cm-msg-text {
+        background: $dark3;
+        color: $dark-text;;
+    }
+    #chat-input {
+        color: $dark-text;;
+    }
+}
+.dark-skin{
+    .bootstrap-tagsinput {
+        background-color: $d-gray-800;
+        border-color: $d-gray-800;
+    }
+    .wizard-content .wizard > .steps > ul > li.disabled a {
+        
+    }
+}
+
+.chart {              
+    g [fill="#6794dc"]{
+        fill: $warning !important;
+    }                      
+    g [stroke="#6794dc"]{
+        stroke: $warning !important;
+    }    
+    g{
+        path[fill="#6794dc"]{
+            fill: $warning !important;
+        }
+        path[fill="#6794dc"]{
+            fill: $warning !important;
+        }
+    }
+}
+
+.amcharts-main-div{        
+    g [stroke="#000000"], g [stroke="#b224ef,#7579ff"], g [stroke="#fc6076,#ff9a44"]{
+        stroke: $dark-text !important;
+    }
+}
+.dark-skin{
+    .chart {
+        canvas, svg {
+            fill: $dark-text !important;
+            -webkit-tap-highlight-color: $dark-text !important;
+        }
+        g [fill="#000000"]{
+            fill: $dark-text !important;
+        }                
+        g [stroke="#000000"]{
+            stroke: $dark-text !important;
+        }                        
+        g {
+            path [fill="#333"]{
+               fill: transparent !important; 
+            }            
+        }               
+        g [fill="#6794dc"]{
+            fill: $warning !important;
+        }                       
+        g [stroke="#6794dc"]{
+            stroke: $warning !important;
+        }
+    }
+}
+
+.dark-skin{
+    g [fill="#000000"]{
+        fill: $dark-text !important;
+    }
+    g [stroke="#000000"]{
+        stroke: $dark-text !important;
+    }
+    .amcharts-main-div{
+        g [fill="#000000"]{
+            fill: $dark-text !important;
+        }        
+        g [stroke="#000000"], g [stroke="#b224ef,#7579ff"], g [stroke="#fc6076,#ff9a44"]{
+            stroke: $dark-text !important;
+        }
+        g [fill="#130b3e"]{
+            fill: transparent !important;
+        } 
+        text [fill="#000000"]{
+            fill: $dark-text !important;
+        }
+        svg{                 
+            text{
+                fill: $dark-text !important;
+            }
+            g{
+                path[fill="#333"]{
+                    fill: transparent !important;
+                }
+            }
+        }
+    }
+    .amcharts-data-set-selector-div, .amcharts-period-selector-div, .amChartsInputField {
+        color: $dark-text !important;
+        >div, .amChartsButton{
+            color: $dark-text !important;
+        }
+    } 
+    .box[class*=bg-]{        
+        .amcharts-data-set-selector-div, .amcharts-period-selector-div, .amChartsInputField {
+            color: $white !important;
+            >div, .amChartsButton{
+                color: $white !important;
+            }
+        }        
+        .apexcharts-canvas{
+            text{
+                fill: darken($white, 25%) !important;
+            }
+            g{
+                line{
+                    stroke: darken($white, 25%) !important;
+                }
+            }
+        }
+        .apexcharts-legend-text{
+            color: darken($white, 25%) !important;
+        }
+    }
+    .apexcharts-canvas{
+        text{
+            fill: darken($dark-text, 25%) !important;
+        }
+        g{
+            line{
+                stroke: darken($dark-text, 25%) !important;
+            }
+            line[stroke="transparent"]{
+                stroke: transparent !important;
+            }
+        }
+    }
+    .apexcharts-legend-text{
+        color: darken($dark-text, 25%) !important;
+    }
+}
+.dark-skin{
+    .highcharts-container{
+        svg{
+           .highcharts-background{
+                fill: $dark3 !important;
+            } 
+            .highcharts-title{
+                color: darken($dark-text, 25%) !important;
+                fill: darken($dark-text, 25%) !important;
+            }
+            .highcharts-grid{
+                .highcharts-grid-line{
+                    stroke: darken($dark-text, 50%) !important;
+                }
+            }
+            .highcharts-axis{                
+                .highcharts-axis-line, .highcharts-tick{
+                    stroke: darken($dark-text, 50%) !important;
+                }
+            }
+        }        
+    }
+    .timeline-label .timeline-badge {
+      background: $dark3;
+      border: 6px solid $dark3 !important;
+    }
+    #quick_actions_toggle, #quick_panel_toggle, #quick_user_toggle, #quick_shop_toggle{
+        .bg-white{
+            background-color: lighten($body-dark, 05%) !important;
+        }
+    }
+    [type="checkbox"]:not(:checked):disabled + label:before {
+        background-color: rgba(255, 255, 255, 0.26);
+    }
+    [type="radio"]:disabled + label {
+        color: rgba(255, 255, 255, 0.26);
+    }    
+    [type="radio"]:disabled:not(:checked) + label:before{
+        border-color: rgba(255, 255, 255, 0.26);
+    }
+    .ck.ck-editor__main>.ck-editor__editable {
+        background: transparent;
+    }
+    .white-popup-block {
+        background: $d-gray-800;
+    }
+    .mfp-close-btn-in .mfp-close {
+        color: #fff;
+    }
+
+    .chat-text-start{
+        .text-dark{
+            color: $d-gray-900 !important;
+        }        
+    }
+    .box-primary-light, .box-info-light, .box-success-light, .box-danger-light, .box-warning-light{
+        color: $d-gray-900 !important;
+    }
+    .bg-primary-light, .bg-info-light, .bg-success-light, .bg-danger-light, .bg-warning-light{
+        color: $d-gray-900;
+        .text-gray-600, .text-muted, .text-fade, .text-mute{
+            color: $d-gray-900 !important;
+        }
+    }
+    .box-footer{
+        .bg-white{
+            background: $d-gray-800 !important;
+        }
+    }
+    .btn[class*=btn-outline-] {
+        border-color: $gray-600;
+    }
+    .btn-outline-secondary {
+        color: $gray-400;
+        border-color: $gray-400;
+    }
+    .timeline .timeline-item > .timeline-event{
+        color: $d-gray-600;
+    }    
+    .timeline .timeline-item > .timeline-event .panel, .timeline .timeline-item > .timeline-event .table, .timeline .timeline-item > .timeline-event .blankslate {
+        background-color: $d-gray-900;
+    }
+    .btn-box-tool {
+        color: $d-gray-600;
+    }
+    .grid-stack > .grid-stack-item > .grid-stack-item-content {
+        border: 1px solid $dark-border;
+    }
+    .wizard-content .wizard > .steps > ul > li.disabled a {
+        color: $d-gray-900;
+    }
+    #donut-chart{
+        svg{           
+            text{
+                fill: $d-gray-600 !important;
+            } 
+        }
+    }
+    .tasks{
+        .card.bg-gray-100{
+            background-color: $d-gray-900 !important;
+        }
+    }
+    .email-menu-list .nav-link, .email-menu-list a {
+        color: $d-gray-600;
+    }
+    .email-list > li .email-sender-info .email-title, .email-list > li .email-content .email-subject, .email-action-icons a {        
+        color: $d-gray-600;
+    }
+    .chart-widget{
+        .box-body.bg-white{
+            background-color: $d-gray-800 !important;
+        }
+    }
+    .table-light{
+        tr{
+            th{
+               background-color: $d-gray-900;
+                color: rgba(255, 255, 255, 0.85);
+            }
+        } 
+    }
+    .table > :not(:last-child) > :last-child > * {
+        border-bottom-color: $dark-border;
+    }
+    .text-body {
+        color: $d-gray-600 !important;
+    }
+    .pro-photos .photos-item{
+        background-color: $d-gray-800;
+        border-color: $dark-border;
+    }
+    .invoice-data.bg-gray-100{
+        background-color: $d-gray-900 !important;
+    }
+    .comment-area-box{
+        .bg-gray-100{
+            background-color: $d-gray-900 !important;
+        }
+    }
+    .faq-bx{
+        .panel {
+            background-color: $d-gray-800;
+        }
+    }
+    .card-pricing .card-pricing-features{
+        color: $d-gray-600;
+    }
+    .fontawesome-icon-list .fa-hover i, .bs-glyphicons .glyphicon {
+        color: $d-gray-600;
+    }
+    .fontawesome-icon-list .fa-hover:hover  {
+        color: $primary;
+        i {
+            color: $primary;
+        }
+    }
+    .bs-glyphicons li:hover {
+        color: $primary;
+    }    
+    .icons-list-demo .col-md-4:hover, .icons-list-demo .col-3:hover {
+        color: $primary;
+    }
+    .icons-list-demo .col-md-4:hover i, .icons-list-demo .col-3:hover i{
+        color: $primary;
+    }
+    /*widget-testimonial*/
+    .testimonial-widget {
+        .testimonial-content {
+            background: $d-gray-900;
+            &:before {
+                border-color: $d-gray-900 transparent transparent transparent;
+            }
+        }
+    }
+    .review-bx-star.bg-gray-100{
+        background: $d-gray-900 !important;
+    }
+    .course-overview.bg-gray-100{
+        background: $d-gray-900 !important;
+    }    
+    .bg-gray-300{
+        background: $d-gray-900 !important;
+    }    
+    div.dt-button-info{
+        background-color:$d-gray-900;
+        border:2px solid $d-gray-900;
+    }
+    div.dt-button-info h2{
+        border-bottom:1px solid $d-gray-900;
+        background-color:$d-gray-900;
+    }    
+    .avatar .avatar-name {
+        background-color: $d-gray-900;
+        color: $d-gray-600;
+    }
+}
+
+
+
+
+
+
+
+
+

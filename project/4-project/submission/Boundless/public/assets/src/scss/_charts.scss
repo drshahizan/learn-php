@@ -1,0 +1,33 @@
+//
+// Charts
+// 
+
+
+/* Morris chart */
+.morris-chart {
+  text {
+    font-family: $bodyfont !important;
+  }
+}
+
+.morris-hover.morris-default-style {
+  border-radius: 5px;
+  padding: 10px 12px;
+  background: $white;
+  border: none;
+  font-family: $bodyfont;
+  box-shadow: 0 5px 25px 5px rgba($dark,.14);
+
+  .morris-hover-point {
+    line-height: 28px;
+  }
+  .morris-hover-row-label {
+    background-color: $dark;
+    color: $white;
+    padding: 4px 20px;
+    border-radius: 5px 5px 0 0;
+    margin: -10px -12px 10px;
+  }
+}
+
+
