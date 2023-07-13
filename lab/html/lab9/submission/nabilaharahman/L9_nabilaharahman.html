@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medical Form</title>
+    
     <!--
             Name     : NABILAH ABD RAHMAN
             Matrix No: SX202285ECJHF04
@@ -13,43 +14,50 @@
     -->
        
     <style>
+      
       body {
-        background-color: #ecf0f1;
+        background-color: #dbd9e1;
         max-width: 800px;
         margin: 0 auto;
       }
 
       h1 {
-        text-align: left;
-        font-family: Verdana;
+        text-align: center;
+        font-family: 'Hevetica';
+        font-size: 50px;
         color: black;
       }
 
       table,
       th,
       td {
-        border: 1px solid;
+        border: 1.5px solid;
+        border-color: rgb(1, 41, 56);
       }
 
       input {
-        margin: 5px;
+        margin: 6px;
       }
 
       .margin {
         margin: 5%;
       }
     </style>
+
   </head>
   <body>
     <div class="margin">
+
       <h1>Medical Form</h1>
       <form action="process.php" method="post">
         <fieldset style="width: 80%">
           <legend>Personal Information</legend>
           <table>
             <tr>
+
               <td>First Name</td>
-              <td><input type="text" /></td>
+              <td><input type="text"/></td>
+
               <td>Gender</td>
               <td>
                 <input
@@ -59,6 +67,7 @@
                   id="female"
                 />
                 <label for="female">Female</label>
+
                 <input
                   type="radio"
                   name="gender_type"
@@ -68,9 +77,11 @@
                 <label for="male">Male</label>
               </td>
             </tr>
+
             <tr>
               <td>Last Name</td>
               <td><input type="text" name="" id="" /></td>
+
               <td>Nationality</td>
               <td>
                 <select name="nationality" id="nationality">
@@ -81,12 +92,14 @@
                 </select>
               </td>
             </tr>
+
             <tr>
               <td>Address</td>
-              <td colspan="3">
-                <textarea name="" id="" cols="25" rows="5"></textarea>
+              <td colspan="5">
+                <textarea name="" id="" cols="40" rows="6"></textarea>
               </td>
             </tr>
+
           </table>
         </fieldset>
         <br />
@@ -102,6 +115,7 @@
           <label for="Sneezing">Sneezing</label>
         </fieldset>
         <br />
+
         <fieldset style="width: 100%">
           <legend>Current Medication</legend>
           <label>Are you currently taking any medication?</label>
@@ -115,6 +129,7 @@
           ><br />
           <textarea name="" id="" cols="70" rows="10"></textarea>
         </fieldset>
+        
         <input type="submit" value="Submit" />
         <input type="reset" value="Reset" />
       </form>
