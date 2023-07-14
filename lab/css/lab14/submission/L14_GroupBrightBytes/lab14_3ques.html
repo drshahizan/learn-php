@@ -4,16 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--
+    Lab 14: 14.1 WEBSTIE
+    Group: BRIGHT BYTES
+    1. Name: Nabilah binti Abd Rahman, Matrix No: SX2285ECJHF04, Github ID: nabilaharahman
+    2. Name: Muhammad Hafiz bin Iskandar Matrix No: SX202325ECJHF04, Github ID: mhafiziskandar
+    3. Name: Effa Aiza binti Sulaiman, Matrix No: SX202206ECJHF04, Github ID: effaaiza
+    -->
     
     <title>Fullscreen Landing</title>
   </head>
 
+  <style>
+
+    body{
+      font-family: 'Arial';
+      color: rgb(75, 6, 6);
+      margin: 0%;
+      padding: 0%;
+    }
+
+    .border {
+      background-color: rgb(102, 6, 6);
+      color: white;
+      padding: 20px;
+      border-radius: 15px;
+      font-size: 40px;
+    }
+
+    #showcase {
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5));
+        height: 100vh;
+        opacity: 80%;
+        text-align: center;
+        background-image: url("images/mal4.jpeg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      #showcase p {
+        font-size: 180%;
+        margin-top: 15px;
+      }
+
+      #section-a {
+        background-color: #06b0ef;
+        padding: 1em;
+        
+      }
+
+      #section-b {
+        background-color: #3461e8;
+        padding: 1em;
+      }
+
+      #section-c {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .box-1,
+      .box-3 {
+        background-color: #07f09d;
+        padding: 1em;
+        color: #ce3e9f;
+      }
+
+      .box-2 {
+        background-color: #ed4949;
+        padding: 1em;
+        color: #f49629;
+      }
+
+  </style>
+
   <body>
     <header id="showcase">
-      <h1>Welcome to Universiti Teknologi Malaysia</h1>
+      <h1><span class= border>Welcome to Universiti Teknologi Malaysia</class></h1>
       <p>This year, we celebrate 50 years of prospering lives</p>
       <a href="#" class="button">Read More</a>
     </header>
+
     <section id="section-a">
       <p>
         UTM has three campuses – the main campus is in Skudai, and was the first
@@ -22,6 +99,7 @@
         (UPM). It is about 20 km north of the state capital, Johor Bahru.
       </p>
     </section>
+
     <section id="section-b">
       <p>
         The branch campus is situated in Jalan Semarak within Kuala Lumpur, with
@@ -31,6 +109,7 @@
         Technology) and foreign students taking business courses.
       </p>
     </section>
+
     <section id="section-c">
       <div class="box-1">
         The new branch campus located in Pagoh was officially opened on 2 May
@@ -40,6 +119,7 @@
         Muar, Johor. A 50-hectare campus equipped with shared facilities
         integrated with Bandar University Pagoh.
       </div>
+
       <div class="box-2">
         UTM has on-campus hostel blocks that provide accommodation for students.
         The hostel blocks are grouped into units known as colleges, for
@@ -50,6 +130,7 @@
         tennis courts, an internet and computer center, a convenience store and
         a common room.[13]
       </div>
+
       <div class="box-3">
         UTM can provide accommodation for outsiders, i.e. parents or relatives,
         visiting friends etc., with Scholar's Inn @ UTM JB and Scholar's Inn @
@@ -60,6 +141,7 @@
         tourist spots such as the National Library, National Art Gallery, Istana
         Budaya and the Golden Triangle. 
       </div>
+
     </section>
   </body>
 </html>
