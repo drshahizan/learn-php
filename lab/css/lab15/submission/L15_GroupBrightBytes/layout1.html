@@ -16,13 +16,52 @@
     <title>Layout</title>
 
     <style>
-        body {
-        font-family: 'Georgia';
-        margin: 20%;
+
+      body {
+        font-family: 'Gill sans';
+        margin: 200px;
         display: grid;
         grid-template-rows: auto 1fr auto; 
-        min-height: 100vh; 
+        min-height: 100vh;
       }
+
+      .content {
+        display: grid;
+        grid-template-columns: 200px 1fr 200px; 
+        grid-gap: 20px;
+      }
+
+      header {
+        padding: 20px;
+        margin: 5px;
+        background-color: rgb(255, 0, 230);
+      }
+
+      .nav {
+        padding: 20px;
+        margin: 5px;
+        background-color: rgb(255, 0, 230);
+      }
+
+      .article {
+        padding: 20px;
+        margin: 5px;
+        background-color: rgb(255, 0, 230);
+      }
+
+      .ads {
+        padding: 20px;
+        margin: 5px;
+        background-color: rgb(255, 0, 230);
+      }
+
+      footer {
+        padding: 20px;
+        margin: 5px;
+        background-color: rgb(255, 0, 230);
+        text-align: right;
+      }
+
     </style>
 
   </head>
@@ -31,9 +70,9 @@
     <header>Header</header>
 
     <div class="content">
-      <div class="Nav">Nav</div>
-      <div class="Article">Article</div>
-      <div class="Ads">Ads</div>
+      <div class="nav">Nav</div>
+      <div class="article">Article</div>
+      <div class="ads">Ads</div>
     </div>
 
     <footer>Footer</footer>
