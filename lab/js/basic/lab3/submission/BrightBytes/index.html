@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find Largest Number</title>
+    
+    <!--
+        Lab 3: Conditional Statement and loops
+        Group:
+        1. Name: Nabilah binti Abd Rahman, Matrix No: SX2285ECJHF04, Github ID: nabilaharahman
+        2. Name: Muhammad Hafiz bin Iskandar Matrix No: SX202325ECJHF04, Github ID: mhafiziskandar
+        3. Name: Effa Aiza binti Sulaiman, Matrix No: SX202206ECJHF04, Github ID: effaaiza
+    -->
+
+</head>
+<body>
+  <div>
+    <label for="input1">Number 1:</label>
+    <input type="number" id="input1">
+  </div>
+  <div>
+    <label for="input2">Number 2:</label>
+    <input type="number" id="input2">
+  </div>
+  <div>
+    <label for="input3">Number 3:</label>
+    <input type="number" id="input3">
+  </div>
+  <div>
+    <label for="input4">Number 4:</label>
+    <input type="number" id="input4">
+  </div>
+  <div>
+    <label for="input5">Number 5:</label>
+    <input type="number" id="input5">
+  </div>
+  <div>
+    <button onclick="findLargest()">Find Largest</button>
+  </div>
+  <div>
+    <p id="result"></p>
+  </div>
+  <script>
+    function findLargest() {
+      const numbers = [
+        Number(document.getElementById("input1").value),
+        Number(document.getElementById("input2").value),
+        Number(document.getElementById("input3").value),
+        Number(document.getElementById("input4").value),
+        Number(document.getElementById("input5").value)
+      ];
+
+      let largest = numbers[0];
+
+      for (let i = 1; i < numbers.length; i++) {
+        if (numbers[i] > largest) {
+          largest = numbers[i];
+        }
+      }
+
+      alert("The largest number is: " + largest);
+    }
+
+  </script>
+</body>
+</html>
