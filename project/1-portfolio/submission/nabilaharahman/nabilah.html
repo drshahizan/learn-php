@@ -33,6 +33,27 @@
       font-size: 30px;
     }
 
+*   {box-sizing:border-box}
+
+
+    .container {
+      width: 100%; /* Full width */
+      background-color: #ddd; /* Grey background */
+    }
+
+    .skills {
+        text-align: right; /* Right-align text */
+        padding-top: 10px; /* Add top padding */
+        padding-bottom: 10px; /* Add bottom padding */
+        color: white; /* White text color */
+
+    }
+
+      .html {width: 90%; background-color: #04AA6D;} /* Green */
+      .css {width: 80%; background-color: #2196F3;} /* Blue */
+      .js {width: 65%; background-color: #f44336;} /* Red */
+      .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
     main {
       padding: 20px;
     }
@@ -94,25 +115,39 @@
 
     <section class="section">
       <h2>Skills</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-      </ul>
-    </section>
+
+      <p>HTML</p>
+      <div class="container">
+        <div class="skills html">90%</div>
+      </div>
+      
+      <p>CSS</p>
+      <div class="container">
+        <div class="skills css">80%</div>
+      </div>
+      
+      <p>JavaScript</p>
+      <div class="container">
+        <div class="skills js">65%</div>
+      </div>
+      
+      <p>PHP</p>
+      <div class="container">
+        <div class="skills php">60%</div>
+      </div>
+    
 
     <section class="section">
       <h2>Experience</h2>
-      <h3>Web Developer - ABC Company</h3>
-      <p>2018 - Present</p>
+      <h3>Web Developer Freelance</h3>
+      <p>2020 - Present</p>
       <ul>
-        <li>Developed and maintained multiple client websites using HTML, CSS, and JavaScript.</li>
+        <li>Experienced in developing prototype for web designs</li>
         <li>Collaborated with designers to create responsive and visually appealing web interfaces.</li>
-        <li>Implemented SEO best practices to improve search engine rankings.</li>
+        
       </ul>
     </section>
+
     <section class="section">
       <h2>Contact</h2>
       <div class="contact-form">
@@ -122,6 +157,7 @@
         <button>Send</button>
       </div>
     </section>
+    
   </main>
 </body>
 </html>
