@@ -1,20 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nabilah's Portfolio</title>
+  <title>My Portfolio</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" 
-        rel="stylesheet"
-        type="text/css">
+  <style>
+    body {
+      font-family: Georgia;
+      text-align: justify;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #ae73a6;
+      color: #3a0531;
+      padding: 20px;
+      text-align: center;
 
-<style>
-   
-   h1 {
-    font-family: lato;
-   }
+    }
 
-</style>
+    #text1 {
+      border-style: double;
+      border-color: rgb(128, 0, 119);
+      padding: 2%;
+      font-family: "Indie Flower";
+      text-align: center;
+      margin-top: auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      margin-top: 10px;;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .contact-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    input,
+    textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
 
 <body>
-    h1
+  <header>
+    <h1>Nabilah Abd Rahman</h1>
+    <p>Web Developer</p>
+  </header>
+  <main>
+    <section class="section">
+      <div id="text1">
+      <h2>About Me</h2>
+      <img src="2.png" alt="Nabilah Abd Rahman">
+      <p>
+        Hi, I'm Nabilah Abd Rahman.
+      </p>
+        I am an experienced web designer, working in UI/UX design with 2 years experience. <br>
+        I am also a graduate of Applied Chemistry, and is experienced in lab researching for 3 years.
+      <p>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Experience</h2>
+      <h3>Web Developer - ABC Company</h3>
+      <p>2018 - Present</p>
+      <ul>
+        <li>Developed and maintained multiple client websites using HTML, CSS, and JavaScript.</li>
+        <li>Collaborated with designers to create responsive and visually appealing web interfaces.</li>
+        <li>Implemented SEO best practices to improve search engine rankings.</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>Contact</h2>
+      <div class="contact-form">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button>Send</button>
+      </div>
+    </section>
+  </main>
 </body>
+</html>
