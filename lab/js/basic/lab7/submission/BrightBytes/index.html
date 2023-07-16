@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>  
+    
+    <!--
+        Lab 7: Multiplication and division of two numbers
+        Group:
+        1. Name: Nabilah binti Abd Rahman, Matrix No: SX2285ECJHF04, Github ID: nabilaharahman
+        2. Name: Muhammad Hafiz bin Iskandar Matrix No: SX202325ECJHF04, Github ID: mhafiziskandar
+        3. Name: Effa Aiza binti Sulaiman, Matrix No: SX202206ECJHF04, Github ID: effaaiza
+    -->
+
+    <head>
+        <title>Lab 7</title>
+        <script>
+            function multiply() {
+                var num1 = parseFloat(document.getElementById("num1").value);
+                var num2 = parseFloat(document.getElementById("num2").value);
+                var result = num1 * num2;
+                document.getElementById("result").innerHTML = "Result: " + result;
+            }
+    
+            function divide() {
+                var num1 = parseFloat(document.getElementById("num1").value);
+                var num2 = parseFloat(document.getElementById("num2").value);
+                var result = num1 / num2;
+                document.getElementById("result").innerHTML = "Result: " + result;
+            }
+        </script>
+    </head>
+    
+    <body>
+        <h1>Calculator</h1>
+        <label for="num1">Number 1:</label>
+        <input type="text" id="num1" name="num1" required><br><br>
+        <label for="num2">Number 2:</label>
+        <input type="text" id="num2" name="num2" required><br><br>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button><br><br>
+        <p id="result"></p>
+    </body>
+    
+    </html>

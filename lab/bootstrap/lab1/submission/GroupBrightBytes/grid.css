@@ -1,0 +1,12 @@
+body {
+  padding: 2rem;
+  font-family: 'Georgia';
+  text-align: justify;
+}
+
+#animals div{
+  padding: 1rem;
+  background-color: rgba(0,0,0,.15);
+  border: 1px solid rgba(0,0,0,.2);
+}
+

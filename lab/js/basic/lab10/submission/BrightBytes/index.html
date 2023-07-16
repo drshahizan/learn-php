@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--
+        Lab 10: Longest String
+        Group:
+        1. Name: Nabilah binti Abd Rahman, Matrix No: SX2285ECJHF04, Github ID: nabilaharahman
+        2. Name: Muhammad Hafiz bin Iskandar Matrix No: SX202325ECJHF04, Github ID: mhafiziskandar
+        3. Name: Effa Aiza binti Sulaiman, Matrix No: SX202206ECJHF04, Github ID: effaaiza
+    -->
+
+    <title>Longest word in a string</title>
+
+<script>
+    function findLongestWord(str) {
+      var words = str.split(' ');
+      var longestWord = '';
+
+      for (var i = 0; i < words.length; i++) {
+        if (words[i].length > longestWord.length) {
+          longestWord = words[i];
+        }
+      }
+
+      return longestWord;
+    }
+
+    function findAndDisplayLongestWord() {
+      var input = document.getElementById('inputText').value;
+      var longestWord = findLongestWord(input);
+      document.getElementById('result').textContent = longestWord;
+    }
+  </script>
+</head>
+<body>
+  <h1>Longest word in a string</h1>
+
+  <label for="inputText">Enter a sentence:</label>
+  <input type="text" id="inputText" />
+
+  <button onclick="findAndDisplayLongestWord()">Find the Longest Word</button>
+
+  <div id="result"></div>
+</body>
+</html>

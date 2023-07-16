@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    
+    <!--
+        Lab 5: Create a pattern with a nested for loop
+        Group:
+        1. Name: Nabilah binti Abd Rahman, Matrix No: SX2285ECJHF04, Github ID: nabilaharahman
+        2. Name: Muhammad Hafiz bin Iskandar Matrix No: SX202325ECJHF04, Github ID: mhafiziskandar
+        3. Name: Effa Aiza binti Sulaiman, Matrix No: SX202206ECJHF04, Github ID: effaaiza
+    -->
+
+    <head>
+        <title>Pattern Generator</title>
+        <style>
+          pre {
+            font-family: Arial;
+            font-size: 20px;
+            white-space: pre;
+            line-height: 1.5;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Pattern Generator</h1>
+        <pre id="pattern"></pre>
+    
+        <script>
+          const rows = 5;
+          let pattern = "";
+    
+          for (let i = 0; i < rows; i++) {
+            for (let j = 0; j <= i; j++) {
+              pattern += "*";
+            }
+            pattern += "\n";
+          }
+    
+          document.getElementById("pattern").textContent = pattern;
+        </script>
+      </body>
+    </html>
