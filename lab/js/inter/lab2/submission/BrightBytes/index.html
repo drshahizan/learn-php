@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JDT Product Card </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        
+      <!--
+
+        Lab 2: JDT Jersey Product Card
+        Group: BRIGHT BYTES
+        1. Name: Nabilah binti Abd Rahman, Matrix No: SX2285ECJHF04, Github ID: nabilaharahman
+        2. Name: Muhammad Hafiz bin Iskandar Matrix No: SX202325ECJHF04, Github ID: mhafiziskandar
+        3. Name: Effa Aiza binti Sulaiman, Matrix No: SX202206ECJHF04, Github ID: effaaiza
+        
+        -->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="home-men-front.jpeg"  alt="">
+      </div>
+      <div class="card-content">
+        <div class="wrapper">
+          <div class="title">Jersey JDT</div>
+          <p>Home kit jersey</p>
+          <span class="price">RM299.00</span>
+          <div class="content size">
+            <div class="name size-name">Size</div>
+            <div class="size-value">
+              <span class="color">XS</span>
+              <span class="color">S</span>
+              <span class="active">M</span>
+              <span class="color">L</span>
+              <span class="color">XL</span>
+            </div>
+          </div>
+          <div class="content colour">
+            <div class="name colour-name">Colour</div>
+            <div class="colour-value">
+              <span class="white" data-color="lightgrey" data-img="away-men-front.jpeg"></span>
+              <span class="blue active" data-color="#456ABD" data-img="home-men-front.jpeg"></span>
+              <span class="yellow" data-color="#EAA523" data-img="away-2020-front.jpeg"></span>
+            </div>
+          </div>
+          <div class="btns">
+            <button>Buy now</button>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      
+      const colourRadios = document.querySelectorAll('.colour-value span');
+      colourRadios.forEach(radio => {
+        radio.addEventListener('click', function() {
+          
+          const color = this.dataset.color;
+          document.body.style.backgroundColor = color;
+  
+          
+          const buttons = document.querySelectorAll('.btns button');
+          buttons.forEach(button => {
+            button.style.backgroundColor = color;
+          });
+  
+          
+          const sizes = document.querySelectorAll('.size-value span');
+          sizes.forEach(size => {
+            size.style.color = color;
+          });
+  
+          
+          const price = document.querySelector('.price');
+          price.style.color = color;
+  
+          
+          const image = document.querySelector('.image img');
+          const imgSrc = this.dataset.img;
+          image.setAttribute('src', imgSrc);
+        });
+      });
+    </script>
+
+  </body>
+</html>
