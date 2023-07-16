@@ -33,12 +33,41 @@
       font-size: 30px;
     }
 
+*   {box-sizing:border-box}
+
+
+    .container {
+      width: 70%; 
+      background-color: rgb(243, 229, 229); 
+      display: flex;
+
+    }
+
+    .skills {
+        text-align: right; /* Right-align text */
+        padding-top: 10px; /* Add top padding */
+        padding-bottom: 10px; /* Add bottom padding */
+        color: white; /* White text color */
+
+    }
+
+      .html {width: 90%; background-color: #054b31;} /* Green */
+      .css {width: 80%; background-color: #063962;} /* Blue */
+      .js {width: 65%; background-color: #8b0789;} /* Red */
+      .php {width: 60%; background-color: #1d096d;} /* Dark Grey */
+
     main {
       padding: 20px;
     }
 
     h2 {
       font-size: 24px;
+      color: rgb(70, 4, 108);
+    }
+
+    h3 {
+      font-size: 20px;
+      color: rgb(193, 4, 164);
     }
 
     p {
@@ -81,39 +110,111 @@
     <section class="section">
       <div id="text1">
       <h2>About Me</h2>
-      <img src="2.png" alt="Nabilah Abd Rahman">
+      <img src="2.png"  alt="Nabilah Abd Rahman" class="feature" />
+      
       <p>
         Hi, I'm Nabilah Abd Rahman.
       </p>
         I am an experienced web designer, working in UI/UX design with 2 years experience. <br>
-        I am also a graduate of Applied Chemistry, and is experienced in lab researching for 3 years.
+        I am also a graduate of Applied Chemistry, and is experienced in lab researching for 3 years. <br>
+        In my years of experience and educational qualifications, I have gained enough skills to do research work <br>
+        in a lab that requires chemical handling. I am also skilled in using a few prototytping tools such as Figma for <br>
+        web development for the clients.
       <p>
 
       </div>
     </section>
 
     <section class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-      </ul>
+      <div id="text1">
+      <h2>Education</h2>
+      <h3>Bachelor's Degree in Computer Science</h3>
+      <p>Universiti Teknologi Malaysia</p>
+      <p>2021 - present</p>
+      <br>
+
+      <h3>Bachelor's Degree in Computer Science</h3>
+      <p>Universiti Teknologi MARA</p>
+      <p>2015 - 2018</p>
+      <br>
+
+      <h3>Diploma in Science</h3>
+      <p>Universiti Teknologi MARA</p>
+      <p>2012 - 2014</p>
+      <br>
+
+    </div>
     </section>
 
     <section class="section">
-      <h2>Experience</h2>
-      <h3>Web Developer - ABC Company</h3>
-      <p>2018 - Present</p>
-      <ul>
-        <li>Developed and maintained multiple client websites using HTML, CSS, and JavaScript.</li>
-        <li>Collaborated with designers to create responsive and visually appealing web interfaces.</li>
-        <li>Implemented SEO best practices to improve search engine rankings.</li>
-      </ul>
+      <div id="text1">
+      <h2>Computer Skills</h2>
+
+      <p>HTML</p>
+      <div class="container">
+        <div class="skills html">90%</div>
+      </div>
+      
+      <p>CSS</p>
+      <div class="container">
+        <div class="skills css">80%</div>
+      </div>
+      
+      <p>JavaScript</p>
+      <div class="container">
+        <div class="skills js">65%</div>
+      </div>
+      
+      <p>PHP</p>
+      <div class="container">
+        <div class="skills php">60%</div>
+      </div>
+      </div>
     </section>
+
+      <section class="section">
+        <div id="text1">
+        <h2>Language Skills</h2>
+        
+        <p>English</p>
+        <div class="container">
+          <div class="skills html">90%</div>
+        </div>
+        
+        <p>Bahasa Melayu</p>
+        <div class="container">
+          <div class="skills css">80%</div>
+        </div>
+        </div>
+        </section>
+        
+    
+
     <section class="section">
+      <div id="text1">
+
+      <h2>Experience</h2>
+      <h3>Web Developer Freelance</h3>
+      <p>2020 - Present</p>
+      <ul>
+        <li>Experienced in developing prototype for web designs</li>
+        <li>Collaborated with designers to create responsive and visually appealing web interfaces.</li>      
+      </ul>
+
+      <br>
+
+      <h3>Lab Technician</h3>
+      <p>2018 - 2020</p>
+      <ul>
+        <li>Experienced in testing chemicals used for roads</li>
+        <li>Research work for the company </li>      
+      </ul>
+
+    </div>
+    </section>
+
+    <section class="section">
+      <div>
       <h2>Contact</h2>
       <div class="contact-form">
         <input type="text" placeholder="Name">
@@ -121,7 +222,9 @@
         <textarea placeholder="Message"></textarea>
         <button>Send</button>
       </div>
+    </div>
     </section>
+
   </main>
 </body>
 </html>
