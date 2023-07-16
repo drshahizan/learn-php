@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--html
+        Name: HAFIZ ISKANDAR
+        Matrix No: SX202325ECJHF04
+        Github id: mhafiziskandar
+
+        Project 1: Personal Portfolio Website
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        #introduction,
+        #skills,
+        #experience,
+        footer {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            border-left: 2px solid #666;
+            border-right: 2px solid #666;
+            box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+        }
+
+        header {
+            border-top: 2px solid #666;
+            box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+        }
+
+        header img {
+            max-width: 150px;
+            height: auto;
+            border: 3px solid #333;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p,
+        li {
+            line-height: 1.6;
+            color: #666;
+            text-align: justify;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #333;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+            transition: background-color 0.2s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            border-bottom: 2px solid #666;
+            box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+        }
+
+
+        #skills {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        #skills .column {
+            flex: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <img src="img/hafiz.jpg" alt="mhafiziskandar">
+    </header>
+
+    <section id="introduction">
+        <h2>HAFIZ ISKANDAR</h2>
+        <p>
+            Hello! I'm Hafiz Iskandar, a passionate software developer specializing in backend development. 
+            With a focus on creating robust and scalable solutions, I use Laravel as my primary tool to build the backbone of various applications. 
+            My passion for coding combined with a problem-solving mindset allows me to tackle any project, transforming complex processes into user-friendly applications. 
+            Whether it's crafting new software or improving an existing system, I always aim to deliver efficient and maintainable code. 
+            I am always excited about new challenges and opportunities to learn and grow. Feel free to get in touch!
+        </p>
+        <a href="https://www.linkedin.com/in/hafiziskandar/" target="_blank" class="cta-button">Contact Me</a>
+    </section>
+
+    <section id="skills">
+        <div class="column">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>HTML:</strong> Proficient in semantic structuring and accessibility.</li>
+                <li><strong>CSS:</strong> Skilled in responsive design and preprocessors like SASS.</li>
+                <li><strong>PHP & Laravel:</strong> Expert in writing clean, secure and scalable code using Laravel.</li>
+                <li><strong>JavaScript:</strong> Experienced in creating interactive web features.</li>
+                <li><strong>MySQL:</strong> Solid understanding of database design, querying, and optimization.</li>
+                <li><strong>REST APIs:</strong> Proficient in API development and integration.</li>
+                <li><strong>Git:</strong> Well-versed in version control and collaboration workflows.</li>
+                <li><strong>Testing:</strong> Experienced in PHP Unit and Laravel feature testing.</li>
+                <li><strong>Problem Solving:</strong> Excellent in translating requirements into code.</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Languages</h2>
+            <ul>
+                <li><strong>Malay:</strong> Native proficiency.</li>
+                <li><strong>English:</strong> Full professional proficiency.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Objective Connection Sdn. Bhd.</h3>
+                <p>Backend Developer | Jul 2022 - Present</p>
+                <p>Currently enhancing and maintaining backend services, focusing on efficiency and scalability.</p>
+            </li>
+            <li>
+                <h3>RabbitSend Solutions Sdn. Bhd.</h3>
+                <p>Backend Developer | Jan 2022 - Jul 2022</p>
+                <p>Involved in backend development and database design for an e-commerce site and a food delivery app, along with successful third-party API integrations.</p>
+            </li>
+            <li>
+                <h3>Kolej SPACE</h3>
+                <p>Web Developer | Jun 2020 - Jan 2022</p>
+                <p>
+                    Developed an E-Claim System and supervised the creation of an E-Learning System, OLAFS. 
+                    Managed updates for multiple systems, maintained the official website, and enhanced student account management modules in the Academic Management System (AMS).
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 mhafiziskandar. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
