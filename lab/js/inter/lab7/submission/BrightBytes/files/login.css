@@ -1,0 +1,102 @@
+/* Make the page use the entire screen */
+
+html{
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #3a3a3a;
+  }
+  
+  /* White rectangle in the middle of the screen */
+  
+  #main-holder {
+    width: 30%;
+    height: 45%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+  }
+  
+  
+  /* Middle row of the main grid (contains the error message) */
+  
+  #login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  /* Error message. By default it's transparent, but the opacity is controlled
+  by JavaScript */
+  
+  #login-error-msg {
+    width: 30%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+  }
+  
+  #error-msg-second-line {
+    display: block;
+  }
+  
+  /* -------------------------------------------------------------- */
+  
+  /* Adjust the positioning of the login form inside the last row of the
+  main grid */
+  
+  #login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  /* Style the login form fields' placeholders */
+  
+  .login-form-field::placeholder {
+    color: #3a3a3a;
+  }
+  
+  /* Style the login form fields (username and password) */
+  
+  .login-form-field {
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+  }
+  
+  /* Style the login button */
+  
+  #login-form-submit {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #800000;
+    cursor: pointer;
+    outline: none;
+  }
