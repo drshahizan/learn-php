@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive Coming Soon Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+         <!--
+
+        Lab 3: Coming soon landing page
+        Group: BRIGHT BYTES
+        1. Name: Nabilah binti Abd Rahman, Matrix No: SX2285ECJHF04, Github ID: nabilaharahman
+        2. Name: Muhammad Hafiz bin Iskandar Matrix No: SX202325ECJHF04, Github ID: mhafiziskandar
+        3. Name: Effa Aiza binti Sulaiman, Matrix No: SX202206ECJHF04, Github ID: effaaiza
+        
+        -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">
+        Our website is <span>Coming soon</span>, follow us <br />
+        for update now!
+      </div>
+      <form action="#" class="form">
+        <div class="email-field">
+          <input type="email" placeholder="Enter your e-mail address" required />
+          <button type="submit">Subscribe</button>
+        </div>
+      </form>
+      <div class="count-down">
+        <div class="timer day">
+          <div class="count">
+            <div class="numb">00</div>
+            <div class="text">Days</div>
+          </div>
+        </div>
+        <div class="clone">:</div>
+        <div class="timer hour">
+          <div class="count">
+            <div class="numb">00</div>
+            <div class="text">Hours</div>
+          </div>
+        </div>
+        <div class="clone">:</div>
+        <div class="timer min">
+          <div class="count">
+            <div class="numb">00</div>
+            <div class="text">Minutes</div>
+          </div>
+        </div>
+        <div class="clone">:</div>
+        <div class="timer sec">
+          <div class="count">
+            <div class="numb">00</div>
+            <div class="text">Seconds</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+
+    function updateCountdown() {
+      var targetDate = new Date("January 31, 2024 00:00:00").getTime();
+      var now = new Date().getTime();
+      var timeDifference = targetDate - now;
+
+
+      var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+      document.querySelector(".timer.day .numb").textContent = days < 10 ? "0" + days : days;
+      document.querySelector(".timer.hour .numb").textContent = hours < 10 ? "0" + hours : hours;
+      document.querySelector(".timer.min .numb").textContent = minutes < 10 ? "0" + minutes : minutes;
+      document.querySelector(".timer.sec .numb").textContent = seconds < 10 ? "0" + seconds : seconds;
+    }
+
+    updateCountdown();
+
+    setInterval(updateCountdown, 1000);
+  </script>
+
+
+      </body>
+</html>
