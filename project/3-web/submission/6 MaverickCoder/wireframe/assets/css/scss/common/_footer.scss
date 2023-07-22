@@ -1,0 +1,148 @@
+/* -----------------------------------------------------------------------------
+
+# Footer Styles
+
+----------------------------------------------------------------------------- */
+.single-logo-item img {
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+.logo-carousel-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.footer-area {
+  background-color: $text-color;
+  color: #fff;
+  padding: 150px 0;
+}
+
+h2.widget-title {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 20px;
+  color: $white-color;
+
+  &:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 2px;
+    background-color: $primary-color;
+    content: "";
+  }
+}
+
+.footer-box {
+  p {
+    color: $white-color;
+    opacity: 0.7;
+    line-height: 1.8;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      opacity: 0.7;
+      margin-bottom: 10px;
+      line-height: 1.8;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &.subscribe form {
+    input[type=email] {
+      border: none;
+      background-color: #012738;
+      width: 78%;
+      padding: 15px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      color: #fff;
+    }
+
+    button {
+      width: 20%;
+      border: none;
+      background-color: #012738;
+      color: $primary-color;
+      padding: 14px 0;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+.copyright {
+  background-color: $text-color;
+  border-top: 1px solid #232a35;
+
+  p{
+    margin: 0;
+    color: #fff;
+    opacity: 0.7;
+    padding: 16px 0;
+    font-size: 15px;
+  }
+  a {
+    color: $primary-color;
+    font-weight: 700;
+    &:hover {
+      color: lighten($primary-color, 10%);
+    }
+  }
+}
+
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+
+    a {
+      font-size: 16px;
+      color: #fff;
+      opacity: 0.7;
+      padding: 16px 10px;
+      display: block;
+    }
+  }
+}
+
+.footer-box {
+  ul li a {
+    color: #fff;
+  }
+
+  &.pages ul li {
+    position: relative;
+    padding-left: 20px;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      content: "\f105";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      color: $primary-color;
+    }
+  }
+}
