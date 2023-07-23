@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Project 3: Web Responsive using Bootstrap
 
-## Group: FooBar
+## Group: CEO
 
 1. **A Sharilfazlee salleh b Hj A Suhaimi**
    - Matrix No: SX150069CSJS04
