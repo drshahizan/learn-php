@@ -94,4 +94,10 @@ The user role has limited access to certain features and is intended for regular
 ## Login Page:
 ![Login Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/Login_Boundless.PNG)
 
+## Admin Panel Page:
+![Admin Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/Admin_Login_Boundless.PNG)
+
+## User Panel Page:
+![User Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/User_Login_Boundless.PNG)
+
 Above is a screenshot of our project's main interface.
