@@ -85,9 +85,9 @@ Try out!
 |1| Slide  | <a href="https://www.canva.com/design/DAFoBuyF-j0/aL5ii0P_2ZRJ_Kwhxsodsw/edit?utm_content=DAFoBuyF-j0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/5%20CEO/images/canva.png" width="24px" height="24px" ></a>|
 
 ## Slide
-![1](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%201.jpg)
-![2](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%202.jpg)
-![3](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%203.jpg)
-![4](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%204.jpg)
-![5](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%205.jpg)
-![6](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%206.jpg)
+![1](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/5%20CEO/images/Slide%201.jpg)
+![2](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/5%20CEO/images/Slide%202.jpg)
+![3](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/5%20CEO/images/Slide%203.jpg)
+![4](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/5%20CEO/images/Slide%204.jpg)
+![5](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/5%20CEO/images/Slide%205.jpg)
+![6](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/5%20CEO/images/Slide%206.jpg)
