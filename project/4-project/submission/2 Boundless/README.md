@@ -74,4 +74,8 @@ As an admin, you have access to all administrative functionalities and can manag
 
 The user role has limited access to certain features and is intended for regular users of the application.
 
-Please note that the demo accounts are for testing purposes only and are reset periodically. Feel free to explore the various features available to each role.
+## Project Screenshot
+
+![Home Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/Home_Boundless.PNG)
+
+Above is a screenshot of our project's main interface.

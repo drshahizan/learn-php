@@ -89,11 +89,11 @@
                                     <div class="row">
                                         @foreach(array_slice($culturesArray, $page * $slidesPerPage, $slidesPerPage) as $culture)
                                         <div class="col-lg-4 col-md-6">
-                                            <div class="card">
+                                            <div class="card mx-auto" style="width: 18rem;">
                                                 <img src="{{ asset('storage/cultures/'.$culture['image']) }}" class="card-img-top custom-card-img" alt="...">
                                                 <div class="card-body">
-                                                    <h5 class="card-title"><a href="">{{ $culture['title'] }}</a></h5>
-                                                    <p class="card-text" style="text-align: justify;">
+                                                    <h5 class="card-title text-center"><a href="">{{ $culture['title'] }}</a></h5>
+                                                    <p class="card-text text-center" style="text-align: justify;">
                                                         {!! $culture['description'] !!}
                                                     </p>
                                                 </div>
