@@ -16,12 +16,23 @@ Don't forget to hit the :star: if you like this repo.
 
 # Project 4: Final Project using PHP
 
-__**Group: Maverick Coder**__
+## Group: Maverick Coder
 
-1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
-2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
-3. Name: EL INSYIRAAH FATHIN BINTI AMIRUDDIN, Matrix No: SX22034ECJHS04, Github ID: elleamyr
-4. Name: MUHAMMAD FAIZ FITRI BIN MOHD NOH, Matrix No: SX220354ECJHS04, Github ID: AshuraRin
+1. **SITI DZIN NORSYAFIKA BINTI MOHD ISA**
+   - Matrix No: SX220330ECJHS04
+   - Github ID: dzinsyafika97
+
+2. **MOHAMED HARIS BIN MOHAMED MAZLAN**
+   - Matrix No: SX221954ECJHF04
+   - Github ID: harismazlan
+
+3. **EL INSYIRAAH FATHIN BINTI AMIRUDDIN**
+   - Matrix No: SX22034ECJHS04
+   - Github ID: elleamyr
+
+4. **MUHAMMAD FAIZ FITRI BIN MOHD NOH**
+   - Matrix No: SX220354ECJHS04
+   - Github ID: AshuraRin
    
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
