@@ -42,6 +42,14 @@ Open Your browser put inside browser http://localhost/khairat/
 Username : hafiz@gmail.com
 Password : Test@123
 
+## User Interface
+![1](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/7%20zskoda/khairat/sc/1.jpg)
+![2](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/7%20zskoda/khairat/sc/2.jpg)
+![3](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/7%20zskoda/khairat/sc/3.jpg)
+![4](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/7%20zskoda/khairat/sc/4.jpg)
+![5](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/7%20zskoda/khairat/sc/5.jpg)
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
 
