@@ -19,6 +19,9 @@ Don't forget to hit the :star: if you like this repo.
    - Matrix No: SX180144CSRS04
    - Github ID: syazreel28
 
+3. **Ahmad Humaidi**
+   - Github ID:alanscoth
+
 ## Instruction
      
 Installation Steps(Configuration)
