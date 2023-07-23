@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Project 3: Web Responsive using Bootstrap
 
-## Group: Bounless
+## Group: Boundless
 
 1. **AMMAR IBRAHIM BIN MOHAMED**
    - Matrix No: SX220326ECJH
