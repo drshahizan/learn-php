@@ -32,7 +32,72 @@
     <link rel="stylesheet" href="../css/main.css">
     <!-- responsive -->
     <link rel="stylesheet" href="../css/responsive.css">
+    <style>
+        /* Basic styling for the order management section */
+        #order-management {
+            text-align: center;
+            margin-top: 20px;
+        }
 
+        #order-management table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        #order-management th,
+        #order-management td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        #order-management th {
+            background-color: #f2f2f2;
+        }
+
+        .packed-box {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            border: 1px solid #3ab55f;
+            background-color: #d4f2dc;
+            color: #3ab55f;
+            font-weight: bold;
+        }
+
+        /* Remove bullet points and align text to the left */
+        #order-management ul {
+            list-style: none;
+            padding-left: 0;
+            text-align: left;
+        }
+
+        /* Styling for the small table within the "Items Ordered" section */
+        #order-management .items-ordered-table {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        #order-management .items-ordered-table th,
+        #order-management .items-ordered-table td {
+            padding: 5px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        #order-management .items-ordered-table th {
+            background-color: #f2f2f2;
+        }
+
+    /* Add a divider line between sections */
+    .divider {
+        height: 2px;
+        background-color: #ccc;
+        margin: 20px auto;
+        max-width: 900px;
+    }
+
+    </style>
 </head>
 
 <body>
@@ -523,6 +588,61 @@
             document.querySelector('.login-form').style.display = 'block';
         }
     </script>
+
+	    <script>
+        function showOrderCompleted(checkbox) {
+            const orderCompletedBox = checkbox.parentNode.nextElementSibling;
+            orderCompletedBox.style.display = checkbox.checked ? 'inline-block' : 'none';
+
+            if (checkbox.checked) {
+                updateStockLevels(checkbox);
+            }
+        }
+
+        function updateStockLevels(checkbox) {
+            const itemsOrderedTable = checkbox.closest('.items-ordered-table');
+            const rows = itemsOrderedTable.querySelectorAll('tr');
+            rows.forEach(row => {
+                const itemNameCell = row.querySelector('td:first-child');
+                const quantityCell = row.querySelector('td:last-child');
+                const itemName = itemNameCell.textContent.trim();
+                const quantityString = quantityCell.textContent.trim(); // "x1", "x2", etc.
+
+                // Extract the numeric part of the quantity from the string
+                const quantity = parseInt(quantityString.substring(1)); // Remove the "x" and convert to a number
+
+                // Reduce the stock level based on the quantity packed
+                updateStock(itemName, quantity);
+            });
+        }
+
+        function updateStock(itemName, quantityPacked) {
+            // Get the current stock level
+            const stockElement = document.getElementById(`${itemName.toLowerCase().replace(/\s/g, '-')}-stock`);
+            const currentStock = parseInt(stockElement.textContent);
+
+            // Calculate the new stock level after packing
+            const newStock = currentStock - quantityPacked;
+
+            // Update the stock level display
+            stockElement.textContent = newStock;
+        }
+    </script>
+
+
+
+<script>
+    function updateStockLevel(item) {
+        const stockElement = document.getElementById(`${item}-stock`);
+        const inputElement = document.getElementById(`${item}-input`);
+        const newStock = parseInt(inputElement.value);
+
+        if (!isNaN(newStock)) {
+            stockElement.textContent = newStock;
+            inputElement.value = '';
+        }
+    }
+</script>
 
 
 </body>
