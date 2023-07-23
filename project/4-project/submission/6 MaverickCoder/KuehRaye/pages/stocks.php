@@ -171,48 +171,212 @@
     <!-- end breadcrumb section -->
 
     <!-- Admin Dashboard for Stocks and Inventory -->
-    <div class="admin-dashboard" style="padding-top: 100px; padding-bottom: 100px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Stocks and Inventory</h2>
-                    <div class="table-responsive">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>Product Name</th>
-                                    <th>Stock Count</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Almond London</td>
-                                    <td class="text-center">100</td>
-                                </tr>
-                                <tr>
-                                    <td>Honey Cornflakes</td>
-                                    <td class="text-center">75</td>
-                                </tr>
-                                <tr>
-                                    <td>Nutella Pod</td>
-                                    <td class="text-center">50</td>
-                                </tr>
-                                <tr>
-                                    <td>Pandan Layer Cake</td>
-                                    <td class="text-center">25</td>
-                                </tr>
-                                <tr>
-                                    <td>Dates & Cinnamon Cake</td>
-                                    <td class="text-center">10</td>
-                                </tr>
-                                <!-- Add more rows for other products as needed -->
-                            </tbody>
+    <!-- Order Management Section -->
+    <section id="order-management">
+        <div style="max-width: 1000px; margin: 0 auto; padding: 30px;">
+            <h2><span class="orange-text">Order</span> Management</h2>
+            <table>
+                <tr>
+                    <th>Order Number</th>
+                    <th>Purchaser Name</th>
+                    <th>Address</th>
+                    <th>Items Ordered</th>
+                    <th>Packed</th>
+                    <th>Tracking Number</th>
+                </tr>
+                <tr>
+                    <td>KY0001/7/23</td>
+                    <td>Jane Doe</td>
+                    <td>Any Address</td>
+                    <td>
+                        <!-- Items Ordered Table for Jane Doe -->
+                        <table class="items-ordered-table">
+                            <tr>
+                                <td data-item="Almond London">Almond London</td>
+                                <td data-quantity="1">1</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Honey Cornflakes">Honey Cornflakes</td>
+                                <td data-quantity="0">0</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Nutella Pod">Nutella Pod</td>
+                                <td data-quantity="0">0</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Dates & Cinnamon Cake">Dates & Cinnamon Cake</td>
+                                <td data-quantity="1">1</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Pandan Layer Cake">Pandan Layer Cake</td>
+                                <td data-quantity="0">0</td>
+                            </tr>
                         </table>
-                    </div>
-                </div>
-            </div>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="packed" value="yes" onchange="showOrderCompleted(this)"> Yes
+                        </label>
+                        <div class="packed-box" style="display: none;">Order Completed</div>
+                    </td>
+                    <td>
+                        <input type="text" name="tracking-number" placeholder="Enter tracking number">
+                    </td>
+                </tr>
+                <!-- Add another row for the second purchaser -->
+                <tr>
+                    <td>KY0002/7/23</td>
+                    <td>John Doe</td>
+                    <td>Another Address</td>
+                    <td>
+                        <!-- Items Ordered Table for John Doe -->
+                        <table class="items-ordered-table">
+                            <tr>
+                                <td data-item="Almond London">Almond London</td>
+                                <td data-quantity="2">2</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Honey Cornflakes">Honey Cornflakes</td>
+                                <td data-quantity="3">3</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Nutella Pod">Nutella Pod</td>
+                                <td data-quantity="1">1</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Dates & Cinnamon Cake">Dates & Cinnamon Cake</td>
+                                <td data-quantity="0">0</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Pandan Layer Cake">Pandan Layer Cake</td>
+                                <td data-quantity="1">1</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="packed" value="yes" onchange="showOrderCompleted(this)"> Yes
+                        </label>
+                        <div class="packed-box" style="display: none;">Order Completed</div>
+                    </td>
+                    <td>
+                        <input type="text" name="tracking-number" placeholder="Enter tracking number">
+                    </td>
+                </tr>
+                <!-- Add another row for the third purchaser -->
+                <tr>
+                    <td>KY0003/7/23</td>
+                    <td>Bob Smith</td>
+                    <td>Yet Another Address</td>
+                    <td>
+                        <!-- Items Ordered Table for Bob Smith -->
+                        <table class="items-ordered-table">
+                            <tr>
+                                <td data-item="Almond London">Almond London</td>
+                                <td data-quantity="3">3</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Honey Cornflakes">Honey Cornflakes</td>
+                                <td data-quantity="1">1</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Nutella Pod">Nutella Pod</td>
+                                <td data-quantity="2">2</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Dates & Cinnamon Cake">Dates & Cinnamon Cake</td>
+                                <td data-quantity="1">1</td>
+                            </tr>
+                            <tr>
+                                <td data-item="Pandan Layer Cake">Pandan Layer Cake</td>
+                                <td data-quantity="0">0</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="packed" value="yes" onchange="showOrderCompleted(this)"> Yes
+                        </label>
+                        <div class="packed-box" style="display: none;">Order Completed</div>
+                    </td>
+                    <td>
+                        <input type="text" name="tracking-number" placeholder="Enter tracking number">
+                    </td>
+                </tr>
+            </table>
         </div>
-    </div>
+    </section>
+
+<!-- Divider line -->
+<div class="divider" style="margin-top: 80px; margin-bottom: 70px;"></div>
+
+
+<!-- Stock Updates Section -->
+<section id="stock-updates" style="width: 900px; margin: 40px auto 100px;">
+    <h2 style="text-align: center;"><span class="orange-text">Stocks</span> Update</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Stock Level</th>
+                <th>Adjust Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Almond London</td>
+                <td>
+                    <span id="almond-london-stock">99</span>
+                </td>
+                <td>
+                    <input type="number" id="almond-london-input" min="0" step="1" style="width: 60px;">
+                    <button onclick="updateStockLevel('almond-london')">Update</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Honey Cornflakes</td>
+                <td>
+                    <span id="honey-cornflakes-stock">99</span>
+                </td>
+                <td>
+                    <input type="number" id="honey-cornflakes-input" min="0" step="1" style="width: 60px;">
+                    <button onclick="updateStockLevel('honey-cornflakes')">Update</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Nutella Pod</td>
+                <td>
+                    <span id="nutella-pod-stock">99</span>
+                </td>
+                <td>
+                    <input type="number" id="nutella-pod-input" min="0" step="1" style="width: 60px;">
+                    <button onclick="updateStockLevel('nutella-pod')">Update</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Dates & Cinnamon Cake</td>
+                <td>
+                    <span id="dates-cinnamon-cake-stock">99</span>
+                </td>
+                <td>
+                    <input type="number" id="dates-cinnamon-cake-input" min="0" step="1" style="width: 60px;">
+                    <button onclick="updateStockLevel('dates-cinnamon-cake')">Update</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Pandan Layer Cake</td>
+                <td>
+                    <span id="pandan-layer-cake-stock">99</span>
+                </td>
+                <td>
+                    <input type="number" id="pandan-layer-cake-input" min="0" step="1" style="width: 60px;">
+                    <button onclick="updateStockLevel('pandan-layer-cake')">Update</button>
+                </td>
+            </tr>
+            <!-- Add other items' rows as needed -->
+        </tbody>
+    </table>
+</section>
     <!-- End Admin Dashboard for Stocks and Inventory -->
 
 
