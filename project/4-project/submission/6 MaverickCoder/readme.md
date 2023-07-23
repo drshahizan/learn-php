@@ -13,9 +13,8 @@ Don't forget to hit the :star: if you like this repo.
 - For a user account, the usernames and password are janesmith - password123 and mikejohnson - password123 respectively.
 - As an admin you are able to view an extra tab, stocks to manage inventory. This page is still underwork however.
 
----
 
-**Project 4: Final Project using PHP**
+# Project 4: Final Project using PHP
 
 __**Group: Maverick Coder**__
 
