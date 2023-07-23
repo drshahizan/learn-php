@@ -27,20 +27,20 @@ Installation Steps(Configuration)
 
 Database Configuration
 
-Open phpmyadmin
-Create Database khairat
-Import database khairat.sql (available inside zip package)
-Open Your browser put inside browser http://localhost/khairat
+- Open phpmyadmin
+- Create Database khairat
+- Import database khairat.sql (available inside zip package)
+- Open Your browser put inside browser http://localhost/khairat
 
 Login Details for admin : 
-Open Your browser put inside browser http://localhost/khairat/admin/index.php
-Username : admin
-Password : Test@123
+- Open Your browser put inside browser http://localhost/khairat/admin/index.php
+- Username : admin
+- Password : Test@123
 
 Login Details for user: 
-Open Your browser put inside browser http://localhost/khairat/
-Username : hafiz@gmail.com
-Password : Test@123
+- Open Your browser put inside browser http://localhost/khairat/
+- Username : hafiz@gmail.com
+- Password : Test@123
 
 ## User Interface
 ![1](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/7%20zskoda/khairat/sc/1.jpg)
