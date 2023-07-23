@@ -1,0 +1,130 @@
+/* -----------------------------------------------------------------------------
+
+# Contact Page Styles
+
+----------------------------------------------------------------------------- */
+.form-title {
+  margin-bottom: 25px;
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}
+
+.contact-form form p {
+  input {
+    &[type=text], &[type=tel], &[type=email] {
+      width: 49%;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+    }
+  }
+
+  textarea {
+    border: 1px solid #ddd;
+    padding: 15px;
+    height: 200px;
+    border-radius: 3px;
+    width: 100%;
+    resize: none;
+  }
+}
+
+.contact-form-wrap {
+  background-color: #FBFBFB;
+  padding: 45px 30px;
+  border-radius: 5px;
+}
+
+.contact-form-box {
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 10px;
+
+    i {
+      position: absolute;
+      left: -13%;
+      color: $primary-color;
+      top: 2px;
+    }
+  }
+
+  padding-left: 40px;
+  margin-bottom: 30px;
+
+  p {
+    line-height: 1.8;
+    opacity: 0.8;
+  }
+}
+
+.contact-form-wrap .contact-form-box:last-child {
+  margin: 0;
+}
+
+.find-location p {
+  color: $white-color;
+  font-size: 40px;
+  margin: 0;
+  font-weight: 600;
+  padding: 95px 0;
+
+  i {
+    margin-right: 10px;
+    color: $primary-color;
+  }
+}
+
+//Mail Status
+#form_status {
+  span {
+    color:$white-color;
+    font-size: 14px;
+    font-weight: normal;
+    background: #E74C3C;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0px;
+    border-radius: 3px;
+    margin-bottom: 18px;
+
+    &.loading {
+      color: #333;
+      background: #eee;
+      border-radius: 3px;
+      padding: 18px 0px;
+    }
+
+    &.notice {
+      color: yellow;
+    }
+  }
+
+  .success {
+    color: #fff;
+    text-align: center;
+    background: #2ecc71;
+    border-radius: 3px;
+    padding: 30px 0px;
+
+    i {
+      color: #fff;
+      font-size: 45px;
+      margin-bottom: 14px;
+    }
+
+    h3 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+  }
+}
