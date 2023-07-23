@@ -19,12 +19,28 @@ Don't forget to hit the :star: if you like this repo.
    - Matrix No: SX180144CSRS04
    - Github ID: syazreel28
 
-**Figma Design Link:**
-[Figma - Pet Rescue System (Design)](https://www.figma.com/file/DUWCvlf2LXOmDqs0PhJ8kl/Pet-Rescue-System?type=design&mode=design&t=fWVysfR5qU3BLJdn-0)
-
-**Figma Prototype Link:**
-[Figma - Pet Rescue System (Prototype Preview)](https://www.figma.com/proto/DUWCvlf2LXOmDqs0PhJ8kl/Pet-Rescue-System?scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&node-id=1-3)
+## Instruction
      
+Installation Steps(Configuration)
+1. Download and Unzip file on your local system.
+2.Copy tourism folder and tourism folder inside root directory (for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+
+Database Configuration
+
+Open phpmyadmin
+Create Database khairat
+Import database khairat.sql (available inside zip package)
+Open Your browser put inside browser http://localhost/khairat
+
+Login Details for admin : 
+Open Your browser put inside browser http://localhost/khairat/admin/index.php
+Username : admin
+Password : Test@123
+
+Login Details for user: 
+Open Your browser put inside browser http://localhost/khairat/
+Username : hafiz@gmail.com
+Password : Test@123
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
