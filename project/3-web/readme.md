@@ -83,7 +83,7 @@ Note that this is just one possible folder structure and can be adjusted based o
 
 | No | Tools |  File |
 | :-----: |  ------ | :-----: | 
-| 1 | Greenhorn |  <a href="submission/1%20Greenhorn" ><img src="../../images/figma.svg" width="24px" height="24px" ></a> | 
+| 1 | Greenhorn |  <a href="submission/1%20Greenhorn" ><img src="../../images/folder.png" width="24px" height="24px" ></a> | 
 
 
 ## Contribution 🛠️
