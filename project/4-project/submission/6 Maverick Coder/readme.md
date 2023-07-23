@@ -6,7 +6,7 @@
 
 ---
 
-Project 4: Final Project using PHP
+**Project 4: Final Project using PHP**
 
 __**Group: Maverick Coder**__
 
