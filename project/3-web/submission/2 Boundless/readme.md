@@ -11,21 +11,17 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Group: Boundless
 
-1. **AMMAR IBRAHIM BIN MOHAMED**
-   - Matrix No: SX220326ECJH
-   - Github ID: ammaribrahim95
+1. **Muhammad Hafiz Iskandar**
+   - Matrix No: SX202325ECJHF04
+   - Github ID: mhafiziskandar
 
-2. **SHANMUGADHARSHINI A/P MURALI**
-   - Matrix No: SX201656ECRHF04
-   - Github ID: Shan9821
+2. **Nabilah Abd Rahman**
+   - Matrix No: SX202285ECJHF04
+   - Github ID: nabilaharahman
 
-3. **LOGESWARY A/P KRISHNAMOORTHY**
-   - Matrix No: SX211705ECRHF04
-   - Github ID: Logeswary98
-
-4. **ADAM SHAH BIN MOHD FAIZAL**
-   - Matrix No: SX190401CSJS04
-   - Github ID: adamshahmf
+3. **Effa Aiza Sulaiman**
+   - Matrix No: SX202206ECJHF04
+   - Github ID: effaaiza
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
