@@ -124,7 +124,7 @@ In this structure, `index.php` serves as the main landing page that includes the
 
 | No | Tools |  File |
 | :-----: |  ------ | :-----: | 
-| 1 | Greenhorn |  <a href="submission/1%20Greenhorn" ><img src="../../images/answer.png" width="24px" height="24px" ></a> | 
+| 1 | Greenhorn |  <a href="submission/1%20GREENHORN" ><img src="../../images/answer.png" width="24px" height="24px" ></a> | 
 | 2 | Boundless |  <a href="submission/2%20Boundless" ><img src="../../images/answer.png" width="24px" height="24px" ></a> | 
 | 3 | Topgunners |  <a href="submission/3%20TOPGUNNERS" ><img src="../../images/answer.png" width="24px" height="24px" ></a> | 
 | 4 | FooBar |  <a href="submission/4%20FooBar" ><img src="../../images/answer.png" width="24px" height="24px" ></a> | 
