@@ -37,7 +37,7 @@ Don't forget to hit the :star: if you like this repo.
 ## Documentation
 | No | Name |File | 
 | -----:| ----- | :------: | 
-|1| Peer Assesment | <a href="https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/PEER%20REVIEW%20ASSESSMENT.docx" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/main/images/document1.png" width="24px" height="24px" ></a>|
+|1| Peer Assesment | <a href="PEER%20REVIEW%20ASSESSMENT.docx" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/main/images/document1.png" width="24px" height="24px" ></a>|
 
 ## Design Prototype
 | No | Name |File | 
