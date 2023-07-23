@@ -11,7 +11,21 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Group: Greenhorn
 
+1. **AMMAR IBRAHIM BIN MOHAMED**
+   - Matrix No: SX220326ECJH
+   - Github ID: ammaribrahim95
 
+2. **SHANMUGADHARSHINI A/P MURALI**
+   - Matrix No: SX201656ECRHF04
+   - Github ID: Shan9821
+
+3. **LOGESWARY A/P KRISHNAMOORTHY**
+   - Matrix No: SX211705ECRHF04
+   - Github ID: Logeswary98
+
+4. **ADAM SHAH BIN MOHD FAIZAL**
+   - Matrix No: SX190401CSJS04
+   - Github ID: adamshahmf
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
