@@ -52,11 +52,11 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Slide
 ![1](images/Slide%201.jpg)
-![2](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%202.jpg)
-![3](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%203.jpg)
-![4](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%204.jpg)
-![5](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%205.jpg)
-![6](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%206.jpg)
+![2](images/Slide%202.jpg)
+![3](images/Slide%203.jpg)
+![4](images/Slide%204.jpg)
+![5](images/Slide%205.jpg)
+![6](images/Slide%206.jpg)
 
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
