@@ -5,37 +5,61 @@
 <a href="https://github.com/drshahizan/software-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/software-engineering?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fsoftware-engineering&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
+
 Don't forget to hit the :star: if you like this repo.
 
-# Project 3: Web Responsive using Bootstrap
+# Activity: Group CEO Project Warung Hunter
 
-## Group: CEO
+## Group Members
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Matrix No</th>
+  </tr>
+  <tr>
+    <td>1.  ISMAIL BIN AMAN</td>
+    <td>SX211939ECJHF04</td>
+  </tr>
+    <tr>
+    <td>2. SEPRIYANDI BIN AGUSR</td>
+    <td>SX211697ECRHF04</td>
+  </tr>
+    <tr>
+    <td>3. MUHAMMAD AZAM BIN AZMAN</td>
+    <td>SX211707ECRHF04</td>
+  </tr>
+    <tr>
+    <td>4. MUHAMMAD BADRUL AMIN BIN MASROL</td>
+    <td>SX220346ECJHS04</td>
+  </tr>
+</table>
 
-1. **A Sharilfazlee salleh b Hj A Suhaimi**
-   - Matrix No: SX150069CSJS04
-   - Github ID: spek1993
+## Documentation
+| No | Name |File | 
+| -----:| ----- | :------: | 
+|1| Peer Assesment | <a href="https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/PEER%20REVIEW%20ASSESSMENT.docx" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/main/images/document1.png" width="24px" height="24px" ></a>|
 
-2. **Sashila Sre A/P Ramadass**
-   - Matrix No: SX221602ECJHF04
-   - Github ID: sreshila30
+## Design Prototype
+| No | Name |File | 
+| -----:| ----- | :------: | 
+|1| WireFrame | <a href="https://www.figma.com/file/UmASKyECRTO8jXwErgflDk/WireFrame?type=design&node-id=0%3A1&mode=design&t=kaEnbLKObmQ4imB0-1"><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
+|2| Side Maps| <a href="https://www.figma.com/file/ZJm924nXNxQBA4aGT2YN8i/Side-Maps?type=design&mode=design&t=aYAXZbhHz4bGdGdH-1" ><img src="https://raw.githubusercontent.com/drshahizan/software-engineering/fa23f96100aedccb8c634fba496ebcfc9968b9ee/images/figma.svg" width="24px" height="24px" ></a>|
 
-3. **Muhammad Fahmi bin Che Ab Wahab**
-   - Matrix No: SX221606ECJHF04
-   - Github ID: fahmiwahab29
+## Link to Presentation
+| No | Name |File | 
+| -----:| ----- | :------: | 
+|1| Slide  | <a href="https://www.canva.com/design/DAFoBuyF-j0/aL5ii0P_2ZRJ_Kwhxsodsw/edit?utm_content=DAFoBuyF-j0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Canva_icon_2021.svg.png" width="24px" height="24px" ></a>|
 
-4. **Mohamad Zul Ikmal Bin Mohammad Razal**
-   - Matrix No: SX210548ECRHS04
-   - Github ID: lamki
+## Slide
+![1](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%201.jpg)
+![2](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%202.jpg)
+![3](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%203.jpg)
+![4](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%204.jpg)
+![5](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%205.jpg)
+![6](https://github.com/drshahizan/learn-php/blob/main/project/3-web/submission/CEO/Warung_hunterv1.0/images/Slide%206.jpg)
 
-5. **WAN ASMAA' SYAHIRAH BINTI ABD MALEK**
-   - Matrix No: SX221599ECJHF04
-   - Github ID: twilighttttt
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
+
 
