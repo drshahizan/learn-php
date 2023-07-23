@@ -10,7 +10,15 @@ Don't forget to hit the :star: if you like this repo.
 # Project 4: Final Project using PHP
 
 ## Group: FooBar
-
+### Title: Traditional Sport Website
+- Web Access: http://localhost
+- Admin Login: http://localhost/login.php
+   - Username: admin
+   - Password: admin123
+ 
+**.sql file is in SQL folder**
+  
+## Team Members
 1. **A Sharilfazlee salleh b Hj A Suhaimi**
    - Matrix No: SX150069CSJS04
    - Github ID: spek1993
@@ -30,6 +38,25 @@ Don't forget to hit the :star: if you like this repo.
 5. **WAN ASMAA' SYAHIRAH BINTI ABD MALEK**
    - Matrix No: SX221599ECJHF04
    - Github ID: twilighttttt
+
+## Website Interface
+**Home Page**
+![image](https://github.com/drshahizan/learn-php/assets/4087406/2294d2dd-30a4-456c-8fca-6bfceafad4ef)
+
+**News & Gallery**
+![image](https://github.com/drshahizan/learn-php/assets/4087406/6f237342-b0c9-45f3-8164-9201dd593578)
+
+**Contact Us**
+![image](https://github.com/drshahizan/learn-php/assets/4087406/1009df38-3da2-43ad-a26f-ee24d29d0ba5)
+
+**Admin Login Page**
+![image](https://github.com/drshahizan/learn-php/assets/4087406/4e20e9b7-e201-4b18-aecc-e1be469a0cbf)
+
+**Admin Page(Admin User)**
+![image](https://github.com/drshahizan/learn-php/assets/4087406/c69b656a-aab6-4bc5-8d5c-277945d88817)
+
+**Admin Page(Read Message)**
+![image](https://github.com/drshahizan/learn-php/assets/4087406/fdea5f3c-3b2c-4f0f-94f8-815b1619ee71)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
