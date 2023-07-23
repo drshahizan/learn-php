@@ -77,5 +77,10 @@ The user role has limited access to certain features and is intended for regular
 ## Project Screenshot
 
 ![Home Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/Home_Boundless.PNG)
+![About Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/About_Boundless.PNG);
+![Cultures Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/Cultures_Boundless.PNG)
+![Reviews Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/Reviews_Boundless.PNG)
+![Festivals Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/Festivals_Boundless.PNG)
+![Login Screenshot](/project/4-project/submission/2%20Boundless/public/assets/screenshots/Login_Boundless.PNG)
 
 Above is a screenshot of our project's main interface.
