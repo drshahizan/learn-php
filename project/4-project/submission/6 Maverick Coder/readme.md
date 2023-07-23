@@ -8,7 +8,7 @@
 
 Project 4: Final Project using PHP
 
-<b>Group: Maverick Coder</b>
+__**Group: Maverick Coder**__
 
 1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
 2. Name: MOHAMED HARIS BIN MOHAMED MAZLAN, Matrix No: SX221954ECJHF04, Github ID: harismazlan
