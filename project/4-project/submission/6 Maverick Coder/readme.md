@@ -1,8 +1,8 @@
-This website has to be run on a web server, either using a MAMP/LAMP/WAMP etc.
-The users will be seeded automatically upon the first visit of the website.
-For an admin, the account username is admin with the password admin123.
-For a user account, the usernames and password are janesmith - password123 and mikejohnson - password123 respectively.
-As an admin you are able to view an extra tab, stocks to manage inventory. This page is still underwork however.
+- This website has to be run on a web server, either using a MAMP/LAMP/WAMP etc.
+- The users will be seeded automatically upon the first visit of the website.
+- For an admin, the account username is admin with the password admin123.
+- For a user account, the usernames and password are janesmith - password123 and mikejohnson - password123 respectively.
+- As an admin you are able to view an extra tab, stocks to manage inventory. This page is still underwork however.
 
 
 
