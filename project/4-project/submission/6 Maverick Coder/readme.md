@@ -4,7 +4,9 @@
 - For a user account, the usernames and password are janesmith - password123 and mikejohnson - password123 respectively.
 - As an admin you are able to view an extra tab, stocks to manage inventory. This page is still underwork however.
 
+---
 
+Project 4: Final Project using PHP
 
 Group:
 1. Name: SITI DZIN NORSYAFIKA BINTI MOHD ISA, Matrix No: SX220330ECJHS04, Github ID: dzinsyafika97
