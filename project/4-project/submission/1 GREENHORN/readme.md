@@ -27,14 +27,6 @@ Don't forget to hit the :star: if you like this repo.
    - Matrix No: SX190401CSJS04
    - Github ID: adamshahmf
 
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
-![](https://hit.yhype.me/github/profile?user_id=81284918)
-
 # Access User
 
 Username : adamshahmf
@@ -42,11 +34,18 @@ Password : 123456
 
 
 ## Interface
-![1](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/1-GREENHORN/images/interface_1.jpeg)
-![2](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/1-GREENHORN/images/interface_2.jpeg)
-![3](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/1-GREENHORN/images/interface_3.jpeg)
-![4](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/1-GREENHORN/images/interface_4.jpeg)
-![5](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/1-GREENHORN/images/interface_5.jpeg)
-![5](https://github.com/drshahizan/learn-php/blob/main/project/4-project/submission/1-GREENHORN/images/interface_6.jpeg)
+![1](images/interface_1.jpeg)
+![2](images/interface_2.jpeg)
+![3](images/interface_3.jpeg)
+![4](images/interface_4.jpeg)
+![5](images/interface_5.jpeg)
+![6](images/interface_6.jpeg)
 
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/software-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
 
