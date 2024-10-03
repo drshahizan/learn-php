@@ -62,7 +62,7 @@ This section will cover advanced JavaScript topics, which will require you to de
 | 03 | A Todo List App |<a href="../../lab/js/adv/lab3" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 04 | Text To Speech Converter  |<a href="../../lab/js/adv/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 05 | A Dictionary App |<a href="../../lab/js/adv/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 06 | A Language Translator AppA Dictionary App|<a href="../../lab/js/adv/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 06 | A Language Translator App |<a href="../../lab/js/adv/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 07 | A Random Quote Generator |<a href="../../lab/js/adv/lab7" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 08 | A Weather App |<a href="../../lab/js/adv/lab8" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 09 | A Currency Converter |<a href="../../lab/js/adv/lab9" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
