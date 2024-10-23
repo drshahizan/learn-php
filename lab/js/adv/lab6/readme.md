@@ -17,7 +17,9 @@ A language translator is a programme that allows you to translate text into mult
 > - Describe the operation of this JavaScript.
 > - What API was used in this exercise? how it operates?
 > - Enter text to be converted to French. Is the text accurate?
-> 
+>
+> Web 🌐: https://drshahizan.github.io/lab/lab6/index.html
+
 
 You'll discover how to use the free API to convert user-entered text into various languages. This API is only used to translate text into other languages. This lab exercise also explains the JavaScript array, fetch, and speech synthesis APIs, as well as the code for this language translator.
 
