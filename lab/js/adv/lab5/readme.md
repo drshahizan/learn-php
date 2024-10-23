@@ -27,6 +27,7 @@ This dictionary's implementation is as follows:
 > - Where can I find a list of available dictionaries?
 > - Please repair the voice until it is audible.
 >
+> > Web 🌐: https://drshahizan.github.io/lab/lab6/index.html
 
 <img src="./download/L5adv-a.png" width="400" />
 
