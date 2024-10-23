@@ -22,7 +22,8 @@ Then, using the `getVoices ()` method of Speech Synthesis, extract voices from t
 > - How is select voice displayed as a dropdownlist? (Figure 4.2)
 > - How does text become speech?
 > - How can a voice be heard?
-> 
+>
+> Web 🌐: https://drshahizan.github.io/lab/lab5/index.html
 
 <img src="./download/L4adv-a.png" width="400" />
 
