@@ -10,7 +10,7 @@
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ### Contents:
-- [Student Information](./materials/others/student-info.md)
+- [Student Information](https://github.com/drshahizan/learn-php/blob/main/materials/others/student-info.md)
 - [Code Samples](/materials/readme.md)
 - Useful Links
   - [Introduction to Web Programming](/materials/others/intro-wp.md)
